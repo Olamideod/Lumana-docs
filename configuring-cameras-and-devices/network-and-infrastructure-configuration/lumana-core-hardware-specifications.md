@@ -1,0 +1,1 @@
+# Lumana Core hardware specifications

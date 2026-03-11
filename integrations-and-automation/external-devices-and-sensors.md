@@ -1,0 +1,1 @@
+# External devices and sensors
