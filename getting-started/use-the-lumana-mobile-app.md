@@ -19,7 +19,7 @@ The app has four sections in the bottom navigation bar. Each one gives you acces
 
 Tap the **menu icon (≡)** in the top left to access **Map**, **Floor plan**, **Archives**, and alert **Monitoring** and **Configuration**.
 
-<img src="../.gitbook/assets/mobile-side-menu-devices.png" alt="Side menu showing Devices, Search, Alerts, Walls, and Archives" width="300">
+<div align="center"><img src="../.gitbook/assets/mobile-side-menu-devices.png" alt="Side menu showing Devices, Search, Alerts, Walls, and Archives" width="300"></div>
 
 Now that you know your way around the app, here's how to open a live camera feed.
 
@@ -27,7 +27,7 @@ Now that you know your way around the app, here's how to open a live camera feed
 
 The **Devices** tab lists all cameras in your organization, grouped by location. Tap any camera to open it.
 
-<img src="../.gitbook/assets/mobile-devices-tab.png" alt="Devices tab showing locations and camera thumbnails" width="300">
+<div align="center"><img src="../.gitbook/assets/mobile-devices-tab.png" alt="Devices tab showing locations and camera thumbnails" width="300"></div>
 
 1. Select the **Devices** tab.
 2. Tap a location to expand its cameras.
@@ -35,7 +35,7 @@ The **Devices** tab lists all cameras in your organization, grouped by location.
 
 Each camera has four tabs: **Live**, **Playback**, **Alerts**, and **Search**. From the **Live** tab, you can use the following actions:
 
-<img src="../.gitbook/assets/mobile-live-tab.png" alt="Live tab showing camera feed and action buttons" width="300">
+<div align="center"><img src="../.gitbook/assets/mobile-live-tab.png" alt="Live tab showing camera feed and action buttons" width="300"></div>
 
 - **Quality**: Switch between video quality settings.
 - **Multi-cameras**: View multiple cameras at once.
@@ -50,7 +50,7 @@ Your live feed is open and ready. You can switch to recorded footage without lea
 
 The **Playback** tab gives you access to recorded footage using a vertical timeline. Scroll up or down to move through time.
 
-<img src="../.gitbook/assets/mobile-playback-tab.png" alt="Playback tab showing vertical timeline and Events section" width="300">
+<div align="center"><img src="../.gitbook/assets/mobile-playback-tab.png" alt="Playback tab showing vertical timeline and Events section" width="300"></div>
 
 1. Open a camera and select the **Playback** tab.
 2. Scroll the timeline to the time and date you want to review.
@@ -66,7 +66,7 @@ You can review alerts for a single camera or across your entire organization.
 
 ### For a single camera
 
-<img src="../.gitbook/assets/mobile-alerts-tab.png" alt="Alerts tab showing filter chips and Clips/Objects toggle" width="300">
+<div align="center"><img src="../.gitbook/assets/mobile-alerts-tab.png" alt="Alerts tab showing filter chips and Clips/Objects toggle" width="300"></div>
 
 1. Open a camera and select the **Alerts** tab.
 2. Use the filter chips to narrow results by camera, time range, or acknowledgement status.
@@ -84,7 +84,7 @@ Alerts keep you informed of activity across your sites. The **Walls** tab lets y
 
 The **Walls** tab shows all video walls available in your organization. Tap any wall to open it.
 
-<img src="../.gitbook/assets/mobile-walls-tab.png" alt="Walls tab showing available video walls" width="300">
+<div align="center"><img src="../.gitbook/assets/mobile-walls-tab.png" alt="Walls tab showing available video walls" width="300"></div>
 
 1. Select the **Walls** tab.
 2. Tap a wall to open it.
