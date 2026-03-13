@@ -12,7 +12,7 @@ Now that you're in the monitoring view, here's how the interface is organized.
 
 The monitoring view has a filter bar across the top and a results area below. Each control lets you narrow down which alerts you see.
 
-<div align="center"><img src="../.gitbook/assets/alerts-monitoring-view.png" alt="Alert monitoring view with filters" width="700"></div>
+<div align="center"><img src="../.gitbook/assets/alerts-monitoring-view.png" alt="" width="700"></div>
 
 ### Filters
 
@@ -23,9 +23,11 @@ The monitoring view has a filter bar across the top and a results area below. Ea
 - **Tags**: Filter by tags assigned to cameras or alerts. Select **Manage tags** from the dropdown to create or edit tags in your organization database.
 - **Acknowledge**: Show **Acknowledged**, **Unacknowledged**, or both. Both options are selected by default.
 
-<div align="center"><img src="../.gitbook/assets/alerts-object-filter.png" alt="Object filter showing Person, Vehicle, and Gun options" width="250"></div>
-
-<div align="center"><img src="../.gitbook/assets/alerts-acknowledge-filter.png" alt="Acknowledge filter showing Acknowledged and Unacknowledged options" width="250"></div>
+<div align="center">
+  <img src="../.gitbook/assets/alerts-object-filter.png" alt="" width="220"> &nbsp;&nbsp;
+  <img src="../.gitbook/assets/alerts-acknowledge-filter.png" alt="" width="220"> &nbsp;&nbsp;
+  <img src="../.gitbook/assets/alerts-tags-filter.png" alt="" width="220">
+</div>
 
 Active filters appear as chips below the filter bar. Select the **x** on any chip to remove it.
 
@@ -33,7 +35,7 @@ Active filters appear as chips below the filter bar. Select the **x** on any chi
 
 The time range control sits to the left of the **Clips / Objects** toggle. Select it to open the time picker. The timezone shown is based on your organization's settings.
 
-<div align="center"><img src="../.gitbook/assets/alerts-time-filter.png" alt="Time range filter showing Relative and Calendar tabs" width="500"></div>
+<div align="center"><img src="../.gitbook/assets/alerts-time-filter.png" alt="" width="500"></div>
 
 The time picker has two tabs:
 
@@ -48,7 +50,7 @@ The speaker icon to the left of the time range field controls alert sound notifi
 
 ### Clips and Objects
 
-<div align="center"><img src="../.gitbook/assets/alerts-clips-objects-toggle.png" alt="Clips and Objects toggle" width="200"></div>
+<div align="center"><img src="../.gitbook/assets/alerts-clips-objects-toggle.png" alt="" width="200"></div>
 
 Use the **Clips / Objects** toggle to switch between two views:
 
@@ -76,7 +78,7 @@ With the interface covered, here's how to work through your alerts.
 
 > **Note:** Alerts must be configured before they appear in the monitoring view. If you see no alerts, check that alert rules are active under **Alerts > Configuration**.
 
-Monitoring provides a real-time view of activity across your sites. The next guide covers how to set up the rules that drive those alerts.
+Monitoring gives you a real-time picture of activity across your sites. The next guide covers how to set up the rules that drive those alerts.
 
 ## Next steps
 
