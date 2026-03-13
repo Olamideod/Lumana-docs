@@ -1,6 +1,6 @@
 # Appearing
 
-The appearing alert fires the moment an object enters a zone you've drawn in the camera view. There's no minimum time requirement — entry alone is enough to trigger it.
+The appearing alert fires the moment an object enters a zone you've drawn in the camera view. There's no minimum time requirement, and entry alone is enough to trigger it.
 
 ## How it works
 

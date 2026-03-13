@@ -64,7 +64,7 @@ The two icons in the top right corner let you save and reload filter configurati
 - Select the **save icon** to save your current filter and time range settings as a named view.
 - Select the **folder icon** to open a previously saved view.
 
-Saved views are useful for recurring monitoring tasks — for example, reviewing unacknowledged motion alerts from the last hour each morning.
+Saved views are useful for recurring monitoring tasks, for example reviewing unacknowledged motion alerts from the last hour each morning.
 
 ## Review an alert
 

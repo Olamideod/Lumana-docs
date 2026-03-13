@@ -1,6 +1,6 @@
 # Loitering
 
-Loitering detection fires when something stays in a monitored zone past a time limit you set. Brief visits don't trigger it — the alert only fires once the dwell threshold is crossed.
+Loitering detection fires when something stays in a monitored zone past a time limit you set. Brief visits don't trigger it, and the alert only fires once the dwell threshold is crossed.
 
 ## How it works
 
