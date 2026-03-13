@@ -18,6 +18,8 @@ Here's how to configure the alert once you've identified the cameras and areas t
 
 ## Configure the alert
 
+Use the steps below to set up the proximity alert once you've identified the cameras and areas to monitor.
+
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
 3. Under the **Security** category, select **Proximity**.

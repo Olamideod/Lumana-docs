@@ -10,6 +10,8 @@ Drawing a detection zone reduces false positives in busy environments. Without a
 
 ## Configure the alert
 
+Follow these steps to create the motion alert for your cameras.
+
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
 3. Under the **Security** category, select **Motion**.

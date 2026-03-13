@@ -18,6 +18,8 @@ Here's how to set up the alert once you've identified the cameras and areas to c
 
 ## Configure the alert
 
+Use the steps below to create the protective gear alert for your cameras.
+
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
 3. Under the **Safety & Compliance** category, select **Protective gear**.

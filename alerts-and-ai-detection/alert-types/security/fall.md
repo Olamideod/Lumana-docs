@@ -31,6 +31,8 @@ If your environment meets the requirements, here's how to set up the alert.
 
 ## Configure the alert
 
+If your environment meets the requirements, use these steps to set up the alert.
+
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
 3. Under the **Security** category, select **Fall detection**.

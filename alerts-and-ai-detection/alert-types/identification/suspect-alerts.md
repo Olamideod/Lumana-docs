@@ -29,6 +29,8 @@ Use the steps below for the alert type you want to set up.
 
 ### Face recognition
 
+Use these steps to configure the face recognition alert.
+
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
 3. Under the **Identification** category, select **Face recognition**.
@@ -39,6 +41,8 @@ Use the steps below for the alert type you want to set up.
 8. Select **Create alert**.
 
 ### Hands detected
+
+Use these steps to configure the hands detected alert.
 
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.

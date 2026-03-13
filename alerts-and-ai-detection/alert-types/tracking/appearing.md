@@ -20,6 +20,8 @@ Here's how to set up the alert once you've identified the zone to monitor.
 
 ## Configure the alert
 
+Use the steps below to create the appearing alert once you've identified the zone to monitor.
+
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
 3. Under the **Tracking** category, select **Appearing**.

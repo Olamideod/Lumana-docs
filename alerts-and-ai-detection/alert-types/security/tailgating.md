@@ -14,6 +14,8 @@ With Kisi configured, here's how to create the alert.
 
 ## Configure the alert
 
+With Kisi configured, use these steps to create the tailgating alert.
+
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
 3. Scroll down and select **Door tailgating**.

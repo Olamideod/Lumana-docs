@@ -19,6 +19,8 @@ Once you know where you want to apply it, setup takes just a few steps.
 
 ## Configure the alert
 
+Once you know where you want to apply it, use these steps to create the alert.
+
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
 3. Under the **Identification** category, select **Missing object**.

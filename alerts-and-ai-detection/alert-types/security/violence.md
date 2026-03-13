@@ -24,6 +24,8 @@ If your environment is a good fit, here's how to set up the alert.
 
 ## Configure the alert
 
+If your environment is a good fit, use these steps to set up the alert.
+
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
 3. Under the **Security** category, select **Violence**.

@@ -106,14 +106,10 @@
     * [Personal safety](alerts-and-ai-detection/alert-types/safety-and-compliance/personal-safety.md)
     * [Gloves](alerts-and-ai-detection/alert-types/safety-and-compliance/gloves.md)
     * [Hands detected](alerts-and-ai-detection/alert-types/identification/suspect-alerts.md)
-    * [Smoking and vaping](alerts-and-ai-detection/alert-types/safety-and-compliance/smoking-and-vaping.md)
   * [Integrations](alerts-and-ai-detection/alert-types/integrations/README.md)
     * [Door tailgating](alerts-and-ai-detection/alert-types/security/tailgating.md)
   * [Retail](alerts-and-ai-detection/alert-types/retail/README.md)
   * [Object states](alerts-and-ai-detection/alert-types/object-states/README.md)
-  * [People alerts](alerts-and-ai-detection/alert-types/people.md)
-  * [Vehicle alerts](alerts-and-ai-detection/alert-types/vehicles.md)
-
 ## Databases, analytics, and search
 
 * [Build a database of people and vehicles](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md)

@@ -18,6 +18,8 @@ Gun brandished detection is suited for locations where armed incidents are a def
 
 ## Configure the alert
 
+Use the steps below to set up the gun brandished alert for your cameras.
+
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
 3. Under the **Security** category, select **Gun brandished**.
