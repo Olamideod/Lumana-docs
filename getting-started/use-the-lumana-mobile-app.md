@@ -190,7 +190,7 @@ From the notification panel you can:
 
 ### On iOS
 
-If notifications aren't already enabled for Lumana, turn them on in your iPhone or iPad settings.
+If notifications aren't already enabled for Lumana, then turn them on in your iPhone or iPad settings.
 
 1. Open **Settings** on your iPhone or iPad.
 2. Select **Apps**.
@@ -200,12 +200,14 @@ If notifications aren't already enabled for Lumana, turn them on in your iPhone 
 
 ### On Android
 
-If notifications aren't already enabled for Lumana, turn them on in your Android app settings.
+If notifications aren't already enabled for Lumana, then turn them on in your Android app settings.
 
 1. Open **Settings** on your Android device.
 2. Select **Apps and notifications**, then select **Lumana**.
 3. Select **Notifications**.
 4. Toggle notifications on.
+
+Once notifications are enabled, you'll receive alerts on your phone whenever activity is detected. If you want to update your account details or preferences, the next guide covers that.
 
 ## Next steps
 
