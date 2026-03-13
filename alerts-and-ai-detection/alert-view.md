@@ -4,17 +4,17 @@ The alert monitoring view gives you a live feed of all alerts triggered across y
 
 ## Access the alert monitoring view
 
-Select **Alerts** in the left navigation bar, then select **Monitoring**. This opens the monitoring view at `app.lumana.ai/alert/monitoring`.
-
-Now that you're in the monitoring view, here's how the interface is organized.
+Select **Alerts** in the left navigation bar, then select **Monitoring**. This opens the monitoring view at `app.lumana.ai/alert/monitoring`. The sections below explain how each part of the interface works.
 
 ## Understand the interface
 
-The monitoring view has a filter bar across the top and a results area below. Each control lets you narrow down which alerts you see.
+The monitoring view has a filter bar across the top and a results area below.
 
 <div align="center"><img src="../.gitbook/assets/alerts-monitoring-view.png" alt="" width="700"></div>
 
 ### Filters
+
+The filter bar has six controls you can use in any combination to narrow down the alerts you see.
 
 - **Search for alert name**: Find alerts by a specific configured alert name.
 - **Cameras**: Show only alerts triggered by specific cameras.
@@ -46,13 +46,13 @@ Select **Done** to apply the time range or **Cancel** to dismiss.
 
 ### Mute and unmute alerts
 
-The speaker icon to the left of the time range field controls alert sound notifications. Select it to mute incoming alert sounds. Select it again to unmute.
+The speaker icon to the left of the time range field controls alert sound notifications. Select it to toggle alert sounds on or off.
 
 ### Clips and Objects
 
-<div align="center"><img src="../.gitbook/assets/alerts-clips-objects-toggle.png" alt="" width="200"></div>
+Use the **Clips / Objects** toggle to switch between two views of your results.
 
-Use the **Clips / Objects** toggle to switch between two views:
+<div align="center"><img src="../.gitbook/assets/alerts-clips-objects-toggle.png" alt="" width="200"></div>
 
 - **Clips**: Shows each alert as a video clip.
 - **Objects**: Shows the detected objects associated with each alert.
@@ -64,11 +64,11 @@ The two icons in the top right corner let you save and reload filter configurati
 - Select the **save icon** to save your current filter and time range settings as a named view.
 - Select the **folder icon** to open a previously saved view.
 
-Saved views are useful for recurring monitoring tasks, for example, reviewing unacknowledged motion alerts from the last hour each morning.
-
-With the interface covered, here's how to work through your alerts.
+Saved views are useful for recurring monitoring tasks — for example, reviewing unacknowledged motion alerts from the last hour each morning.
 
 ## Review an alert
+
+Once your filters and time range are set, you can open individual alerts to review their details and take action.
 
 1. Apply filters and set a time range to narrow down your results.
 2. Select an alert from the list to open it.
@@ -76,9 +76,7 @@ With the interface covered, here's how to work through your alerts.
 4. Select the share icon to share the alert with others.
 5. Select the acknowledge icon to mark the alert as reviewed.
 
-> **Note:** Alerts must be configured before they appear in the monitoring view. If you see no alerts, check that alert rules are active under **Alerts > Configuration**.
-
-Monitoring gives you a real-time picture of activity across your sites. The next guide covers how to set up the rules that drive those alerts.
+> **Note**: Alerts must be configured before they appear in the monitoring view. If you see no alerts, check that alert rules are active under **Alerts > Configuration**.
 
 ## Next steps
 
