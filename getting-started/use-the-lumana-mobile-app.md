@@ -35,22 +35,40 @@ Now that you know your way around the app, here's how to open a live camera feed
 
 ## View live cameras
 
-The **Devices** tab lists all cameras in your organization, grouped by location. Tap any camera to open it.
+The **Devices** section gives you four ways to browse your cameras. Each view shows the same cameras in a different format.
+
+### Cameras
+
+The **Cameras** view shows your cameras as thumbnails grouped by location. This is the default view when you open the **Devices** tab.
 
 <div align="center"><img src="../.gitbook/assets/mobile-devices-tab.png" alt="" width="300"></div>
 
-1. Select the **Devices** tab.
-2. Tap a location to expand its cameras.
-3. Tap a camera to open its live feed.
+### Map
 
-Each camera has four tabs at the top of the screen:
+The **Map** view shows your camera locations on a satellite map powered by Google Maps.
+
+<div align="center"><img src="../.gitbook/assets/mobile-map.png" alt="" width="300"></div>
+
+### Floor plan
+
+The **Floor plan** view shows your cameras placed on building floor plans, organized by building and floor.
+
+<div align="center"><img src="../.gitbook/assets/mobile-floor-plan.png" alt="" width="300"></div>
+
+### List
+
+The **List** view shows your cameras in a structured list grouped by Cores and Cameras.
+
+<div align="center"><img src="../.gitbook/assets/mobile-list.png" alt="" width="300"></div>
+
+Tap any camera in any of these views to open it. Each camera has four tabs at the top of the screen:
 
 - **Live**: Watch the camera's live feed and access recording controls.
 - **Playback**: Review recorded footage using a vertical timeline.
 - **Alerts**: See alerts triggered by this camera.
 - **Search**: Search for people or objects in this camera's footage.
 
-From the **Live** tab, you can use the following actions:
+The **Live** tab has the following controls:
 
 <div align="center"><img src="../.gitbook/assets/mobile-live-tab.png" alt="" width="300"></div>
 
@@ -61,7 +79,7 @@ From the **Live** tab, you can use the following actions:
 - **Archive**: Download footage to your device.
 - **Health**: Check the camera's connection status.
 
-Your live feed is open and ready. You can switch to recorded footage without leaving the camera view.
+You can switch to recorded footage without leaving the camera view.
 
 ## Review playback footage
 
@@ -78,7 +96,7 @@ The **Playback** tab gives you access to recorded footage using a vertical timel
 4. Use the **1x** control to adjust playback speed.
 5. Scroll down to the **Events** section to see activity detected in that period.
 
-From the **Playback** tab, you can also use the following actions:
+The **Playback** tab also has the following controls:
 
 - **Record**: Start a local recording of the current footage. A timer appears at the top of the feed while recording is active. Tap the red stop button to end the recording.
 - **Archive**: Save a specific clip to your archives. Enter a name, set the **From** and **To** times, and tap **Create**.
@@ -95,15 +113,13 @@ From the **Playback** tab, you can also use the following actions:
   <img src="../.gitbook/assets/mobile-album.png" alt="" width="300">
 </div>
 
-Playback gives you a full picture of past events. The **Alerts** tab lets you go further and review triggered alert clips for the same camera.
-
 ## Monitor alerts
 
 You can review alerts for a single camera or across your entire organization. Both views let you filter results and switch between clips and detected objects.
 
 ### For a single camera
 
-Open a camera and go to its **Alerts** tab to see alerts triggered by that specific camera.
+The **Alerts** tab inside a camera shows only the alerts triggered by that camera.
 
 <div align="center"><img src="../.gitbook/assets/mobile-alerts-tab.png" alt="" width="300"></div>
 
@@ -118,8 +134,6 @@ The **Alerts** section in the bottom navigation bar shows alerts across your ent
 
 1. Select **Alerts** in the bottom navigation bar.
 2. Use the filters to narrow results across your organization.
-
-Alerts keep you informed of activity across your sites. The **Search** tab lets you find specific people or objects in recorded footage.
 
 ## Search for people or objects
 
@@ -144,8 +158,6 @@ The **Search** section in the bottom navigation bar lets you search footage acro
 2. Tap the filter icon to set your search criteria.
 3. Tap **Clips** or **Objects** to switch between views.
 
-Search helps you quickly locate footage across your sites. The **Walls** tab lets you monitor multiple cameras simultaneously on a single screen.
-
 ## View video walls
 
 The **Walls** tab shows all video walls available in your organization. Tap any wall to open it.
@@ -157,31 +169,38 @@ The **Walls** tab shows all video walls available in your organization. Tap any 
 
 > **Note:** Grayed-out walls are not compatible with the mobile app.
 
-Your walls are ready to monitor. To receive alert notifications on your phone, you'll need to enable push notifications in both the app and your device settings.
-
 ## Set up mobile notifications
 
-Notifications must be enabled in two places: inside the Lumana app and in your device settings. Follow both steps to make sure alerts reach your phone.
+To receive alert notifications on your phone, you need to enable them in two places: inside the Lumana app and in your device settings.
 
 ### In the Lumana app
 
-The bell icon controls whether alert sounds are active in the app.
+The bell icon in the top right controls your in-app notification settings. Tap it to open the notification panel.
 
-1. Tap the **bell icon** in the top right.
-2. If notifications are muted, tap the bell to adjust or turn off the mute duration.
+<div align="center">
+  <img src="../.gitbook/assets/mobile-notifications-off.png" alt="" width="300"> &nbsp;&nbsp;
+  <img src="../.gitbook/assets/mobile-notifications-on.png" alt="" width="300">
+</div>
+
+From the notification panel you can:
+
+- Toggle **Critical alerts** on to allow critical notifications to bypass Silent mode on your device.
+- Tap **Turn off notifications** to stop receiving notifications from the app.
+- Tap **Cancel** to dismiss without making changes.
 
 ### On iOS
 
-You'll need to grant notification permission for Lumana in your iPhone or iPad settings.
+If notifications aren't already enabled for Lumana, turn them on in your iPhone or iPad settings.
 
 1. Open **Settings** on your iPhone or iPad.
-2. Scroll down and select **Lumana**.
-3. Select **Notifications**.
-4. Toggle **Allow Notifications** on.
+2. Select **Apps**.
+3. Find and select **Lumana**.
+4. Select **Notifications**.
+5. Toggle **Allow Notifications** on.
 
 ### On Android
 
-You'll need to turn on notifications for Lumana in your Android app settings.
+If notifications aren't already enabled for Lumana, turn them on in your Android app settings.
 
 1. Open **Settings** on your Android device.
 2. Select **Apps and notifications**, then select **Lumana**.
@@ -189,7 +208,5 @@ You'll need to turn on notifications for Lumana in your Android app settings.
 4. Toggle notifications on.
 
 ## Next steps
-
-Your app is set up and ready to use. The following guide covers managing your account and preferences.
 
 - [User settings](../system-administration/user-settings.md) walks you through configuring your account settings in Lumana.
