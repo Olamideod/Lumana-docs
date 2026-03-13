@@ -4,8 +4,6 @@ Lumana is an AI-powered video security platform. This documentation covers every
 
 Use the navigation on the left to find what you need, or start below based on your role.
 
----
-
 **Setting up Lumana for the first time?**
 Start with [Getting started](getting-started/what-to-expect.md).
 
