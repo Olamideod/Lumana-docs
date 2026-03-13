@@ -18,4 +18,4 @@ Zone protection works well when you need to distinguish between someone briefly 
 
 Start with the configuration guide to draw your zones and set dwell thresholds.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.

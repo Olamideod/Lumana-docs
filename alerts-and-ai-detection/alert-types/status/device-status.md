@@ -23,4 +23,4 @@ Device status alerting is valuable in any deployment where continuous coverage i
 
 For larger deployments, applying this alert across all your hardware early saves time later. The configuration guide covers the full setup.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

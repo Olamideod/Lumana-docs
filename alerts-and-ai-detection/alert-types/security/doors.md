@@ -18,4 +18,4 @@ This alert is useful whenever you need to track door activity from a camera feed
 
 If you want to schedule this alert for specific hours or set up notification rules, the configuration guide covers it.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

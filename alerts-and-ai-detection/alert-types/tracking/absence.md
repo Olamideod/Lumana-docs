@@ -18,4 +18,4 @@ This alert works best for monitoring assets or occupied positions that should no
 
 The configuration guide covers how to set up zones and schedule this alert.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.

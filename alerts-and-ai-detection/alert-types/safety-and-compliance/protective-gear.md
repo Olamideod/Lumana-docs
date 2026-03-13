@@ -33,4 +33,4 @@ Here's how to set up the alert once you've identified the cameras and areas to c
 
 The guide below covers gear type selection, zone setup, and scheduling for this alert.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

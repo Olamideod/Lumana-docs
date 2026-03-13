@@ -18,4 +18,4 @@ This alert works best for zones where objects are expected to stay put, and any 
 
 The configuration guide covers zone setup and scheduling for this alert.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.

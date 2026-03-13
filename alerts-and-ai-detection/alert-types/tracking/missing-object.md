@@ -34,5 +34,5 @@ After the alert is live, you can select any triggered alert to view a clip or im
 
 The following guides cover alert configuration and reviewing triggered alerts.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
-- [Alert view](../alert-view.md) explains how to monitor and acknowledge triggered alerts.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Alert view](../../alert-view.md) explains how to monitor and acknowledge triggered alerts.

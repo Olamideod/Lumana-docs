@@ -35,4 +35,4 @@ Here's how to set up the alert once you've identified the zone to monitor.
 
 Once you've set up this alert, the configuration guide covers scheduling and notification options in more detail.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

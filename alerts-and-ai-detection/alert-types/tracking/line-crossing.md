@@ -18,4 +18,4 @@ Line crossing detection is well suited for scenarios where a specific boundary o
 
 The configuration guide covers how to draw directional lines and set up notifications for this alert.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

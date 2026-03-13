@@ -37,4 +37,4 @@ If your environment is a good fit, here's how to set up the alert.
 
 The guide below covers scheduling and notification options for this and other alert types.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

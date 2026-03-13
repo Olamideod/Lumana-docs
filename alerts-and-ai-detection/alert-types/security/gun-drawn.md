@@ -31,5 +31,5 @@ Gun brandished detection is suited for locations where armed incidents are a def
 
 For organizations using professional monitoring, the link below explains how to enable it for this alert type.
 
-- [Professional monitoring with Lumana](../../monitoring-services/professional-monitoring-with-lumana.md) covers how professional monitoring works for supported alert types.
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Professional monitoring with Lumana](../../../monitoring-services/professional-monitoring-with-lumana.md) covers how professional monitoring works for supported alert types.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

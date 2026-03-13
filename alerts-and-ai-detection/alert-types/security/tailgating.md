@@ -8,7 +8,7 @@ When Kisi registers a single badge scan, Lumana monitors the camera feed to coun
 
 ## Requirements
 
-This alert requires the Kisi access control integration to be active in your organization. Without it, the door event data that drives the alert is unavailable. See [Kisi access control](../../software-integrations/kisi-access-control.md) for setup instructions.
+This alert requires the Kisi access control integration to be active in your organization. Without it, the door event data that drives the alert is unavailable. See [Kisi access control](../../../software-integrations/kisi-access-control.md) for setup instructions.
 
 With Kisi configured, here's how to create the alert.
 
@@ -29,5 +29,5 @@ With Kisi configured, here's how to create the alert.
 
 If Kisi isn't set up yet, start there before creating this alert.
 
-- [Kisi access control](../../software-integrations/kisi-access-control.md) walks you through setting up the access control integration.
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Kisi access control](../../../software-integrations/kisi-access-control.md) walks you through setting up the access control integration.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

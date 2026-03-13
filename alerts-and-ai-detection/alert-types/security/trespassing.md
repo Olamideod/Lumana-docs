@@ -20,4 +20,4 @@ This alert works best in spaces that should remain completely off-limits, with n
 
 The configuration guide below has the full setup steps for trespassing and trespassing zone alerts.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.

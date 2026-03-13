@@ -25,6 +25,8 @@ Both alert types are configured separately. Follow the steps for the one you nee
 
 ## Configure the alert
 
+Use the steps below for the alert type you want to set up.
+
 ### Face recognition
 
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
@@ -50,5 +52,5 @@ Both alert types are configured separately. Follow the steps for the one you nee
 
 To use face recognition alerts, you'll need a database of faces in your organization. The link below explains how to build one.
 
-- [Build a database of people and vehicles](../../databases-analytics-and-search/build-a-database-of-people-and-vehicles.md) explains how to create and manage face lists for identification alerts.
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Build a database of people and vehicles](../../../databases-analytics-and-search/build-a-database-of-people-and-vehicles.md) explains how to create and manage face lists for identification alerts.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

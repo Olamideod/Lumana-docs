@@ -18,4 +18,4 @@ Fire detection works best as a supplementary layer in environments where visual 
 
 This alert works well as part of a broader emergency response setup. The configuration guide has the full setup steps.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

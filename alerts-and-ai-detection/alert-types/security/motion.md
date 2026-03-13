@@ -24,4 +24,4 @@ Drawing a detection zone reduces false positives in busy environments. Without a
 
 The guide below covers scheduling, notification options, and advanced settings.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

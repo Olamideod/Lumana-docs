@@ -33,4 +33,4 @@ Once your plate list is ready, here's how to create the alert.
 
 The guide below covers scheduling, notification options, and list management for this alert.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

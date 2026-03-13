@@ -18,4 +18,4 @@ Speed control detection is well suited for environments where the pace of moveme
 
 Once you've decided on your speed threshold, the configuration guide walks you through the rest of the setup.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

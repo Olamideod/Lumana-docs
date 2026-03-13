@@ -18,4 +18,4 @@ Personal safety detection is well suited for any environment where the risk of a
 
 The configuration guide covers distance thresholds, scheduling, and notification options for this alert.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

@@ -18,4 +18,4 @@ Occupancy monitoring is useful when the number of people or objects in a space d
 
 The configuration guide covers threshold setup, zone drawing, and notification options for this alert.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

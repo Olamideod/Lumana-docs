@@ -20,4 +20,4 @@ Loitering detection is a good fit when you need to separate incidental contact w
 
 The configuration guide has the steps for drawing zones and setting your dwell threshold.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

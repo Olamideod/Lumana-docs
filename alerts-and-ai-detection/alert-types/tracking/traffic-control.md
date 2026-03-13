@@ -18,4 +18,4 @@ Traffic control detection is suited for environments where the order and timing 
 
 The configuration guide covers how to build multi-camera paths and set time thresholds for this alert.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

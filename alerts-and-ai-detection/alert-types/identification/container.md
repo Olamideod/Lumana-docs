@@ -4,7 +4,7 @@ Container detection alerts you when a container appears in the camera view. Use 
 
 ## How it works
 
-Lumana's AI model identifies containers within the camera frame. When one is detected, the alert triggers and the event is logged with a video clip. Like the [missing object alert](missing-object.md), this alert can be paired with zone definitions to focus detection on a specific area.
+Lumana's AI model identifies containers within the camera frame. When one is detected, the alert triggers and the event is logged with a video clip. Like the [missing object alert](../tracking/missing-object.md), this alert can be paired with zone definitions to focus detection on a specific area.
 
 ## When to use it
 
@@ -18,4 +18,4 @@ This alert is useful in any environment where container movement or placement ne
 
 For more on zones and scheduling, the configuration guide has the full details.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.

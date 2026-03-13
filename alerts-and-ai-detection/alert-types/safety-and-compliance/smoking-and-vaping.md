@@ -32,4 +32,4 @@ This alert is most effective in environments where smoking or vaping poses a saf
 
 The guide below covers scheduling, notifications, and other advanced settings.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.

@@ -18,4 +18,4 @@ This alert is most effective in environments where bare hands pose a hygiene or 
 
 The configuration guide has the setup steps for applying this alert to your cameras.
 
-- [Configure alerts](../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
