@@ -1,8 +1,6 @@
 # Welcome to Lumana Docs
 
-<div align="center">
-  <img src=".gitbook/assets/lumana-docs-header.png" alt="Lumana" width="100%">
-</div>
+![Lumana](.gitbook/assets/lumana-docs-header.png)
 
 Lumana is an AI-powered video security platform. This documentation covers everything from initial hardware setup to advanced AI detection, search, and integrations. Use the cards below to navigate by section.
 
@@ -10,96 +8,122 @@ Lumana is an AI-powered video security platform. This documentation covers every
 
 ## Getting started
 
-<table>
+<table data-view="cards">
+<thead>
 <tr>
-<td width="33%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>🚀 Quickstart</strong><br><br>
-Set up Lumana Core, connect your first camera, and start using the mobile app.
-<a href="getting-started/what-to-expect.md">Get started →</a>
-</td>
-<td width="33%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>📰 What's new</strong><br><br>
-Stay updated with the latest features and release notes.
-<a href="whats-new/release-notes.md">View releases →</a>
-</td>
-<td width="33%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>⚙️ Configuration</strong><br><br>
-Cameras, network, streaming, floor plans, and device setup.
-<a href="configuring-cameras-and-devices/overview.md">Configure →</a>
-</td>
+<th></th>
+<th></th>
+<th data-hidden data-card-target data-type="content-ref"></th>
 </tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quickstart</strong></td>
+<td>Set up Lumana Core, connect your first camera, and start using the mobile app.</td>
+<td><a href="getting-started/what-to-expect.md">getting-started/what-to-expect.md</a></td>
+</tr>
+<tr>
+<td><strong>What's new</strong></td>
+<td>Stay updated with the latest features and release notes.</td>
+<td><a href="whats-new/release-notes.md">whats-new/release-notes.md</a></td>
+</tr>
+<tr>
+<td><strong>Configuration</strong></td>
+<td>Cameras, network, streaming, floor plans, and device setup.</td>
+<td><a href="configuring-cameras-and-devices/overview.md">configuring-cameras-and-devices/overview.md</a></td>
+</tr>
+</tbody>
 </table>
 
 ---
 
 ## Core features
 
-<table>
+<table data-view="cards">
+<thead>
 <tr>
-<td width="50%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>👥 System administration</strong><br><br>
-Manage users, permissions, system logs, NDAA compliance, and SOC 2 data privacy.
-<a href="system-administration/manage-users-and-permissions.md">Manage →</a>
-</td>
-<td width="50%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>📹 Live monitoring</strong><br><br>
-Live view, PTZ control, video walls, playback, timelapse, and sharing.
-<a href="live-video-monitoring-and-operations/live-view.md">View docs →</a>
-</td>
+<th></th>
+<th></th>
+<th data-hidden data-card-target data-type="content-ref"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>System administration</strong></td>
+<td>Manage users, permissions, system logs, NDAA compliance, and SOC 2 data privacy.</td>
+<td><a href="system-administration/manage-users-and-permissions.md">system-administration/manage-users-and-permissions.md</a></td>
 </tr>
 <tr>
-<td width="50%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>🔔 Alerts and AI detection</strong><br><br>
-Configure alerts, AI detection types, and real-time notifications across your cameras.
-<a href="alerts-and-ai-detection/introduction-to-lumana-alerts.md">Configure alerts →</a>
-</td>
-<td width="50%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>🔍 Databases and search</strong><br><br>
-Build databases of people and vehicles, search footage, and generate reports.
-<a href="databases-analytics-and-search/build-a-database-of-people-and-vehicles.md">Search docs →</a>
-</td>
+<td><strong>Live monitoring</strong></td>
+<td>Live view, PTZ control, video walls, playback, timelapse, and sharing.</td>
+<td><a href="live-video-monitoring-and-operations/live-view.md">live-video-monitoring-and-operations/live-view.md</a></td>
 </tr>
+<tr>
+<td><strong>Alerts and AI detection</strong></td>
+<td>Configure alerts, AI detection types, and real-time notifications across your cameras.</td>
+<td><a href="alerts-and-ai-detection/introduction-to-lumana-alerts.md">alerts-and-ai-detection/introduction-to-lumana-alerts.md</a></td>
+</tr>
+<tr>
+<td><strong>Databases and search</strong></td>
+<td>Build databases of people and vehicles, search footage, and generate reports.</td>
+<td><a href="databases-analytics-and-search/build-a-database-of-people-and-vehicles.md">databases-analytics-and-search/build-a-database-of-people-and-vehicles.md</a></td>
+</tr>
+</tbody>
 </table>
 
 ---
 
 ## Integrations and support
 
-<table>
+<table data-view="cards">
+<thead>
 <tr>
-<td width="33%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>🔗 Software integrations</strong><br><br>
-Webhooks, REST APIs, Kisi, Genea, Milestone VMS, and Microsoft Teams.
-<a href="software-integrations/webhooks.md">Integrate →</a>
-</td>
-<td width="33%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>🛠️ Troubleshooting</strong><br><br>
-Network topologies, RTSP verification, password reset, and support.
-<a href="troubleshooting-and-maintenance/general-troubleshooting-guide.md">Troubleshoot →</a>
-</td>
-<td width="33%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>📡 Monitoring services</strong><br><br>
-Professional monitoring and Partner Monitoring Portal.
-<a href="monitoring-services/professional-monitoring-with-lumana.md">Learn more →</a>
-</td>
+<th></th>
+<th></th>
+<th data-hidden data-card-target data-type="content-ref"></th>
 </tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Software integrations</strong></td>
+<td>Webhooks, REST APIs, Kisi, Genea, Milestone VMS, and Microsoft Teams.</td>
+<td><a href="software-integrations/webhooks.md">software-integrations/webhooks.md</a></td>
+</tr>
+<tr>
+<td><strong>Troubleshooting</strong></td>
+<td>Network topologies, RTSP verification, password reset, and support.</td>
+<td><a href="troubleshooting-and-maintenance/general-troubleshooting-guide.md">troubleshooting-and-maintenance/general-troubleshooting-guide.md</a></td>
+</tr>
+<tr>
+<td><strong>Monitoring services</strong></td>
+<td>Professional monitoring and Partner Monitoring Portal.</td>
+<td><a href="monitoring-services/professional-monitoring-with-lumana.md">monitoring-services/professional-monitoring-with-lumana.md</a></td>
+</tr>
+</tbody>
 </table>
 
 ---
 
 ## Resources
 
-<table>
+<table data-view="cards">
+<thead>
 <tr>
-<td width="50%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>❓ FAQ and reference</strong><br><br>
-System requirements, security, access control, storage, and the Lumana glossary.
-<a href="faq-and-reference/getting-started-faqs.md">Browse FAQs →</a>
-</td>
-<td width="50%" style="border: 1px solid #333; border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.03); vertical-align: top;">
-<strong>💡 Concepts</strong><br><br>
-How VIA-1 works, search in Lumana, and AI detection explained.
-<a href="concepts/how-via-1-works.md">Explore concepts →</a>
-</td>
+<th></th>
+<th></th>
+<th data-hidden data-card-target data-type="content-ref"></th>
 </tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>FAQ and reference</strong></td>
+<td>System requirements, security, access control, storage, and the Lumana glossary.</td>
+<td><a href="faq-and-reference/getting-started-faqs.md">faq-and-reference/getting-started-faqs.md</a></td>
+</tr>
+<tr>
+<td><strong>Concepts</strong></td>
+<td>How VIA-1 works, search in Lumana, and AI detection explained.</td>
+<td><a href="concepts/how-via-1-works.md">concepts/how-via-1-works.md</a></td>
+</tr>
+</tbody>
 </table>
