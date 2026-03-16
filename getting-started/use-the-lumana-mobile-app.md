@@ -6,36 +6,50 @@ The Lumana mobile app lets you access your organization's cameras from your phon
 
 You'll need to be an active member of your organization before using the app. You should have received an email invitation and logged in through the Lumana web portal. If you haven't, contact your organization's administrator.
 
-You're ready to get started once you can log in. Here's how the app is organized.
+### Install the app
 
-## Navigate the app
+Use one of these links to download the app from the appropriate store:
 
-The app has four sections in the bottom navigation bar. Each one gives you access to a different part of the platform.
+{% columns %}
+{% column %}
+![](https://www.jcml-tx.org/ebook/get-it-on-google-play-badge.png/@@images/image.png)
+{% endcolumn %}
 
-- **Devices**: Browse all cameras connected to your organization, grouped by location.
-- **Search**: Search for people or objects across your cameras using filters.
-- **Alerts**: View real-time notifications triggered across your organization.
-- **Walls**: Open and monitor multi-camera video walls.
+{% column %}
+<figure><img src="../.gitbook/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+Alternatively, scan this QR code:
+
+&#x20;![](https://app.lumana.ai/assets/mobile_app_qr.png)
+
+After installation, open the app and log in using your credentials.
+
+## Navigation
+
+The app has four sections in the bottom navigation bar. Each one leads to a different part of the platform.
+
+* [**Devices**](use-the-lumana-mobile-app.md#view-live-cameras): Browse all cameras connected to your organization, grouped by location.
+* [**Search**](use-the-lumana-mobile-app.md#search-for-people-or-objects): Search for people or objects across your cameras using filters.
+* [**Alerts**](use-the-lumana-mobile-app.md#monitor-alerts): View real-time notifications triggered across your organization.
+* [**Walls**](use-the-lumana-mobile-app.md#view-video-walls): Open and monitor multi-camera video walls.
 
 Tap the **menu icon (≡)** in the top left to open the sidebar. The sidebar gives you access to everything in the app from one place.
 
 <div align="center"><img src="../.gitbook/assets/mobile-side-menu-walls.png" alt="" width="300"></div>
 
-The sidebar is organized into the following sections:
+The sidebar links to the following sections, each of which is explained below:
 
-- **Devices**: Expands to show **Cameras**, **Live**, **Map**, **Floor plan**, and **List**.
-- **Search**: Opens the search screen.
-- **Alerts**: Expands to show **Monitoring** and **Configuration**.
-- **Walls**: Opens your organization's video walls.
-- **Archives**: Shows all saved archive clips.
+* [**Devices**](use-the-lumana-mobile-app.md#cameras): Expands to show [**Cameras**](use-the-lumana-mobile-app.md#cameras), **Live**, [**Map**](use-the-lumana-mobile-app.md#map), [**Floor plan**](use-the-lumana-mobile-app.md#floor-plan), and [**List**](use-the-lumana-mobile-app.md#list).
+* [**Search**](use-the-lumana-mobile-app.md#search-for-people-or-objects): Opens the search screen.
+* [**Alerts**](use-the-lumana-mobile-app.md#monitor-alerts): Expands to show **Monitoring** and **Configuration**.
+* [**Walls**](use-the-lumana-mobile-app.md#view-video-walls): Opens your organization's video walls.
+* **Archives**: Shows all saved archive clips.
 
-Your name and organization appear at the bottom of the sidebar.
+## View live camera feeds
 
-Now that you know your way around the app, here's how to open a live camera feed.
-
-## View live cameras
-
-The **Devices** section gives you four ways to browse your cameras. Each view shows the same cameras in a different format.
+Tap **Devices** in the bottom navigation bar or the sidebar to view your camera live feeds. Each view shows the same cameras in a different format.
 
 ### Cameras
 
@@ -63,31 +77,31 @@ The **List** view shows your cameras in a structured list grouped by Cores and C
 
 Tap any camera in any of these views to open it. Each camera has four tabs at the top of the screen:
 
-- **Live**: Watch the camera's live feed and access recording controls.
-- **Playback**: Review recorded footage using a vertical timeline.
-- **Alerts**: See alerts triggered by this camera.
-- **Search**: Search for people or objects in this camera's footage.
+* **Live**: Watch the camera's live feed and access recording controls.
+* **Playback**: Review recorded footage using a vertical timeline.
+* **Alerts**: See alerts triggered by this camera.
+* **Search**: Search for people or objects in this camera's footage.
 
 The **Live** tab has the following controls:
 
 <div align="center"><img src="../.gitbook/assets/mobile-live-tab.png" alt="" width="300"></div>
 
-- **Quality**: Switch between video quality settings.
-- **Multi-cameras**: View multiple cameras at once.
-- **Snapshot**: Take a still image of the current feed.
-- **Record**: Start a local recording.
-- **Archive**: Download footage to your device.
-- **Health**: Check the camera's connection status.
+* **Quality**: Switch between video quality settings.
+* **Multi-cameras**: View multiple cameras at once.
+* **Snapshot**: Take a still image of the current feed.
+* **Record**: Start a local recording.
+* **Archive**: Download footage to your device.
+* **Health**: Check the camera's connection status.
 
 You can switch to recorded footage without leaving the camera view.
 
 ## Review playback footage
 
-The **Playback** tab gives you access to recorded footage using a vertical timeline. Scroll up or down to move through time.
-
 <div align="center"><img src="../.gitbook/assets/mobile-playback-tab.png" alt="" width="300"></div>
 
-1. Open a camera and select the **Playback** tab.
+
+
+1. Tap on a camera's live feed and select the **Playback** tab.
 2. Scroll the timeline to the time and date you want to review.
 3. Tap **When** to open the date and time picker. Scroll the wheels to select a date, hour, minute, and AM/PM, then tap **Save** to jump to that point.
 
@@ -98,26 +112,20 @@ The **Playback** tab gives you access to recorded footage using a vertical timel
 
 The **Playback** tab also has the following controls:
 
-- **Record**: Start a local recording of the current footage. A timer appears at the top of the feed while recording is active. Tap the red stop button to end the recording.
-- **Archive**: Save a specific clip to your archives. Enter a name, set the **From** and **To** times, and tap **Create**.
-- **Multi-cameras**: View up to four cameras simultaneously on the same screen.
-- **Album**: Browse all archived clips for the camera, filtered by time.
+* **Record**: Start a local recording of the current footage. A timer appears at the top of the feed while recording is active. Tap the red stop button to end the recording.
+* **Archive**: Save a specific clip to your archives. Enter a name, set the **From** and **To** times, and tap **Create**.
+* **Multi-cameras**: View up to four cameras simultaneously on the same screen.
+* **Album**: Browse all archived clips for the camera, filtered by time.
 
-<div align="center">
-  <img src="../.gitbook/assets/mobile-recording.png" alt="" width="300"> &nbsp;&nbsp;
-  <img src="../.gitbook/assets/mobile-create-archive.png" alt="" width="300">
-</div>
+<div align="center"><img src="../.gitbook/assets/mobile-recording.png" alt="" width="300"> <img src="../.gitbook/assets/mobile-create-archive.png" alt="" width="300"></div>
 
-<div align="center">
-  <img src="../.gitbook/assets/mobile-playback-multicamera.png" alt="" width="300"> &nbsp;&nbsp;
-  <img src="../.gitbook/assets/mobile-album.png" alt="" width="300">
-</div>
+<div align="center"><img src="../.gitbook/assets/mobile-playback-multicamera.png" alt="" width="300"> <img src="../.gitbook/assets/mobile-album.png" alt="" width="300"></div>
 
 ## Monitor alerts
 
 You can review alerts for a single camera or across your entire organization. Both views let you filter results and switch between clips and detected objects.
 
-### For a single camera
+### From a single camera
 
 The **Alerts** tab inside a camera shows only the alerts triggered by that camera.
 
@@ -128,7 +136,7 @@ The **Alerts** tab inside a camera shows only the alerts triggered by that camer
 3. Tap **Clips** or **Objects** to switch views.
 4. Tap an alert to review the video clip and detected objects.
 
-### For all cameras
+### From all cameras
 
 The **Alerts** section in the bottom navigation bar shows alerts across your entire organization.
 
@@ -139,7 +147,7 @@ The **Alerts** section in the bottom navigation bar shows alerts across your ent
 
 You can search within a single camera or across your entire organization. Use filters to narrow results by object type, time range, and camera.
 
-### For a single camera
+### From a single camera
 
 Each camera's **Search** tab lets you search footage from that camera only.
 
@@ -148,7 +156,7 @@ Each camera's **Search** tab lets you search footage from that camera only.
 3. Tap **Clips** or **Objects** to switch between views.
 4. Tap a result to open the clip or object detail.
 
-### Across all cameras
+### From all cameras
 
 The **Search** section in the bottom navigation bar lets you search footage across all cameras at once.
 
@@ -177,16 +185,13 @@ To receive alert notifications on your phone, you need to enable them in two pla
 
 The bell icon in the top right controls your in-app notification settings. Tap it to open the notification panel.
 
-<div align="center">
-  <img src="../.gitbook/assets/mobile-notifications-off.png" alt="" width="300"> &nbsp;&nbsp;
-  <img src="../.gitbook/assets/mobile-notifications-on.png" alt="" width="300">
-</div>
+<div align="center"><img src="../.gitbook/assets/mobile-notifications-off.png" alt="" width="300"> <img src="../.gitbook/assets/mobile-notifications-on.png" alt="" width="300"></div>
 
 From the notification panel you can:
 
-- Toggle **Critical alerts** on to allow critical notifications to bypass Silent mode on your device.
-- Tap **Turn off notifications** to stop receiving notifications from the app.
-- Tap **Cancel** to dismiss without making changes.
+* Toggle **Critical alerts** on to allow critical notifications to bypass Silent mode on your device.
+* Tap **Turn off notifications** to stop receiving notifications from the app.
+* Tap **Cancel** to dismiss without making changes.
 
 ### On iOS
 
@@ -211,4 +216,4 @@ Once notifications are enabled, you'll receive alerts on your phone whenever act
 
 ## Next steps
 
-- [User settings](../system-administration/user-settings.md) walks you through configuring your account settings in Lumana.
+* [User settings](../system-administration/user-settings.md) walks you through configuring your account settings in Lumana.
