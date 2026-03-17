@@ -16,6 +16,5 @@ Line crossing detection is well suited for scenarios where a specific boundary o
 
 ## Next steps
 
-The configuration guide covers how to draw directional lines and set up notifications for this alert.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Missing object](missing-object.md) — Detect when an object disappears from a zone.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

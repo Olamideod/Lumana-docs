@@ -31,7 +31,6 @@ Use the steps below to set up the gun brandished alert for your cameras.
 
 ## Next steps
 
-For organizations using professional monitoring, the link below explains how to enable it for this alert type.
-
-- [Professional monitoring with Lumana](../../../monitoring-services/professional-monitoring-with-lumana.md) covers how professional monitoring works for supported alert types.
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [License plate](../identification/license-plate.md) — Detect vehicles by license plate number.
+- [Professional monitoring with Lumana](../../../monitoring-services/professional-monitoring-with-lumana.md) — How professional monitoring works for supported alert types.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

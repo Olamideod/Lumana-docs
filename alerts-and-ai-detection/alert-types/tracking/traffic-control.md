@@ -16,6 +16,5 @@ Traffic control detection is suited for environments where the order and timing 
 
 ## Next steps
 
-The configuration guide covers how to build multi-camera paths and set time thresholds for this alert.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Occupancy](occupancy.md) — Monitor how many people or vehicles are in a zone.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

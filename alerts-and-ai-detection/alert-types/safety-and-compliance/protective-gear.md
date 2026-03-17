@@ -33,6 +33,5 @@ Use the steps below to create the protective gear alert for your cameras.
 
 ## Next steps
 
-The guide below covers gear type selection, zone setup, and scheduling for this alert.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Personal safety](personal-safety.md) — Monitor proximity between people to reduce collision risk.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

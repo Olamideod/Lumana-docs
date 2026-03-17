@@ -16,6 +16,5 @@ Fire detection works best as a supplementary layer in environments where visual 
 
 ## Next steps
 
-This alert works well as part of a broader emergency response setup. The configuration guide has the full setup steps.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Fall detection](fall.md) — Detect when a person falls in the camera view.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

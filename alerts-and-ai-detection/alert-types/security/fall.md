@@ -44,7 +44,6 @@ If your environment meets the requirements, use these steps to set up the alert.
 
 ## Next steps
 
-Fall detection is also a supported alert type for professional monitoring. Trained agents can verify the alert and dispatch first responders when needed.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
-- [Professional monitoring with Lumana](../../../monitoring-services/professional-monitoring-with-lumana.md) explains how professional monitoring works for supported alert types.
+- [Violence](violence.md) — Detect acts of violence in the camera view.
+- [Professional monitoring with Lumana](../../../monitoring-services/professional-monitoring-with-lumana.md) — How professional monitoring works for supported alert types.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

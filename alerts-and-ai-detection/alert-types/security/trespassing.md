@@ -18,6 +18,5 @@ This alert works best in spaces that should remain completely off-limits, with n
 
 ## Next steps
 
-The configuration guide below has the full setup steps for trespassing and trespassing zone alerts.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.
+- [Tailgating](tailgating.md) — Detect when multiple people enter through a single access event.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, zone setup, and notification options.

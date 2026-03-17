@@ -16,6 +16,5 @@ Zone protection works well when you need to distinguish between someone briefly 
 
 ## Next steps
 
-Start with the configuration guide to draw your zones and set dwell thresholds.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.
+- [Gun detection](gun-detection.md) — Detect the presence of a firearm in the camera view.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, zone setup, and notification options.

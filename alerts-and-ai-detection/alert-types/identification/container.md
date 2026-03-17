@@ -16,6 +16,5 @@ This alert is useful in any environment where container movement or placement ne
 
 ## Next steps
 
-For more on zones and scheduling, the configuration guide has the full details.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.
+- [Appearing](../tracking/appearing.md) — Detect when an object enters a zone.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, zone setup, and notification options.

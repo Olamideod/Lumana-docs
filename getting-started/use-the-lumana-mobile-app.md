@@ -46,7 +46,7 @@ The sidebar links to the following sections, each of which is explained below:
 * [**Search**](use-the-lumana-mobile-app.md#search-for-people-or-objects): Opens the search screen.
 * [**Alerts**](use-the-lumana-mobile-app.md#monitor-alerts): Expands to show **Monitoring** and **Configuration**.
 * [**Walls**](use-the-lumana-mobile-app.md#view-video-walls): Opens your organization's video walls.
-* **Archives**: Shows all saved archive clips.
+* [**Archives**](use-the-lumana-mobile-app.md#archives): Shows all saved archive clips.
 
 ## View live camera feeds
 
@@ -177,6 +177,17 @@ The **Walls** tab shows all video walls available in your organization. Tap any 
 2. Tap a wall to open it.
 
 > **Note:** Grayed-out walls are not compatible with the mobile app.
+
+## Archives
+
+The **Archives** section in the sidebar shows all clips you've saved across your organization. Use it to quickly access any footage you've archived from a camera's Playback tab.
+
+<div align="center"><img src="../.gitbook/assets/mobile-album.png" alt="Archives view showing saved clips" width="300"></div>
+
+1. Tap the **menu icon (≡)** in the top left to open the sidebar.
+2. Select **Archives**.
+3. Browse your saved clips, which are listed by camera and time.
+4. Tap a clip to play it.
 
 ## Set up mobile notifications
 

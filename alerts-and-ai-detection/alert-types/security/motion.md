@@ -24,6 +24,5 @@ Follow these steps to create the motion alert for your cameras.
 
 ## Next steps
 
-The guide below covers scheduling, notification options, and advanced settings.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Tampering](tampering.md) — Detect when a camera is moved, covered, or obstructed.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

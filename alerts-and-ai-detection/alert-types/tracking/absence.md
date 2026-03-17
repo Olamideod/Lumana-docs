@@ -16,6 +16,5 @@ This alert works best for monitoring assets or occupied positions that should no
 
 ## Next steps
 
-The configuration guide covers how to set up zones and schedule this alert.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.
+- [Device status](../status/device-status.md) — Monitor camera and system health.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, zone setup, and notification options.

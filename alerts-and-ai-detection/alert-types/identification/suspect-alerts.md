@@ -54,7 +54,6 @@ Use these steps to configure the hands detected alert.
 
 ## Next steps
 
-To use face recognition alerts, you'll need a database of faces in your organization. The link below explains how to build one.
-
-- [Build a database of people and vehicles](../../../databases-analytics-and-search/build-a-database-of-people-and-vehicles.md) explains how to create and manage face lists for identification alerts.
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Gun drawn](../security/gun-drawn.md) — Detect when a weapon is actively brandished.
+- [Build a database of people and vehicles](../../../databases-analytics-and-search/build-a-database-of-people-and-vehicles.md) — Create and manage face lists for identification alerts.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

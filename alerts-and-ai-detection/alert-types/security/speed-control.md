@@ -16,6 +16,5 @@ Speed control detection is well suited for environments where the pace of moveme
 
 ## Next steps
 
-Once you've decided on your speed threshold, the configuration guide walks you through the rest of the setup.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Door state change](doors.md) — Detect when a door opens or closes.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

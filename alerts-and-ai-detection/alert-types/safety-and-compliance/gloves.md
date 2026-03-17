@@ -16,6 +16,5 @@ This alert is most effective in environments where bare hands pose a hygiene or 
 
 ## Next steps
 
-The configuration guide has the setup steps for applying this alert to your cameras.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Hands detected](../identification/suspect-alerts.md) — Flag hand contact in sensitive areas using suspect alerts.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

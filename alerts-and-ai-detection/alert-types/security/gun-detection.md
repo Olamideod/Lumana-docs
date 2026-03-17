@@ -16,7 +16,6 @@ This alert is suited for locations where unauthorized weapons are a defined secu
 
 ## Next steps
 
-For organizations where weapons are strictly prohibited, pairing this alert with the gun drawn alert gives you layered detection. The configuration guide covers the setup for both.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
-- [Gun drawn](gun-drawn.md) covers the companion alert for actively brandished weapons.
+- [Speed control](speed-control.md) — Detect when vehicles or people exceed a speed threshold.
+- [Gun drawn](gun-drawn.md) — The companion alert for actively brandished weapons.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

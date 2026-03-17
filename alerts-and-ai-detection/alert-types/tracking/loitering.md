@@ -18,6 +18,5 @@ Loitering detection is a good fit when you need to separate incidental contact w
 
 ## Next steps
 
-The configuration guide has the steps for drawing zones and setting your dwell threshold.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Line crossing](line-crossing.md) — Detect when objects cross a directional line.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

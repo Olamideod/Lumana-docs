@@ -29,7 +29,6 @@ With Kisi configured, use these steps to create the tailgating alert.
 
 ## Next steps
 
-If Kisi isn't set up yet, start there before creating this alert.
-
-- [Kisi access control](../../../software-integrations/kisi-access-control.md) walks you through setting up the access control integration.
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Zone protection](zone-protection.md) — Protect defined zones with custom alert rules.
+- [Kisi access control](../../../software-integrations/kisi-access-control.md) — Set up the access control integration.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

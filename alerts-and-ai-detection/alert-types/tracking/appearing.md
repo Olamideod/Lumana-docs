@@ -35,6 +35,5 @@ Use the steps below to create the appearing alert once you've identified the zon
 
 ## Next steps
 
-Once you've set up this alert, the configuration guide covers scheduling and notification options in more detail.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Disappearing](disappearing.md) — Detect when an object leaves a zone.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

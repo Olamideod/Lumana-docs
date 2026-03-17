@@ -16,6 +16,5 @@ This alert is useful whenever you need to track door activity from a camera feed
 
 ## Next steps
 
-If you want to schedule this alert for specific hours or set up notification rules, the configuration guide covers it.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Fire](fire.md) — Detect flames in the camera view.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

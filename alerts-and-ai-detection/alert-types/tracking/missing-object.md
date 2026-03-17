@@ -34,7 +34,6 @@ After the alert is live, you can select any triggered alert to view a clip or im
 
 ## Next steps
 
-The following guides cover alert configuration and reviewing triggered alerts.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
-- [Alert view](../../alert-view.md) explains how to monitor and acknowledge triggered alerts.
+- [Absence](absence.md) — Detect when a person or vehicle leaves and doesn't return.
+- [Alert view](../../alert-view.md) — Monitor and acknowledge triggered alerts.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

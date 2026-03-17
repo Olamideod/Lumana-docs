@@ -16,6 +16,5 @@ This alert works best for zones where objects are expected to stay put, and any 
 
 ## Next steps
 
-The configuration guide covers zone setup and scheduling for this alert.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, zone setup, and notification options for this alert.
+- [Traffic control](traffic-control.md) — Monitor movement across multiple cameras.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, zone setup, and notification options.

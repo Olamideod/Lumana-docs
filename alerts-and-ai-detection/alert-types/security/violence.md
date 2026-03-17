@@ -37,6 +37,5 @@ If your environment is a good fit, use these steps to set up the alert.
 
 ## Next steps
 
-The guide below covers scheduling and notification options for this and other alert types.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Suspect alerts](../identification/suspect-alerts.md) — Detect specific individuals or flag hand contact in sensitive areas.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

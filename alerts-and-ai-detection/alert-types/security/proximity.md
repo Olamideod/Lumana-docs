@@ -33,6 +33,5 @@ Use the steps below to set up the proximity alert once you've identified the cam
 
 ## Next steps
 
-The guide below covers scheduling, notification options, and advanced settings.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Trespassing](trespassing.md) — Detect when a person or vehicle enters a restricted area.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

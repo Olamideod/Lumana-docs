@@ -16,6 +16,5 @@ Tampering detection is useful in any environment where camera coverage is critic
 
 ## Next steps
 
-If you want to apply this alert to specific cameras or set up notification rules, the configuration guide covers it.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Proximity](proximity.md) — Detect when objects get too close to each other.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

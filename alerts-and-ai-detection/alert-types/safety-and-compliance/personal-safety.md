@@ -16,6 +16,5 @@ Personal safety detection is well suited for any environment where the risk of a
 
 ## Next steps
 
-The configuration guide covers distance thresholds, scheduling, and notification options for this alert.
-
-- [Configure alerts](../../configure-alerts.md) covers scheduling, notification options, and advanced configuration settings.
+- [Gloves](gloves.md) — Detect when people are not wearing gloves in required areas.
+- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.
