@@ -1,10 +1,8 @@
 # Welcome to Lumana Docs
 
-![Lumana](.gitbook/assets/lumana-docs-header.png)
+![](.gitbook/assets/lumana-docs-header.png)
 
 Lumana is an AI-powered video security platform. This documentation covers everything from initial hardware setup to advanced AI detection, search, and integrations. Use the cards below to navigate by section.
-
----
 
 ## Getting started
 
@@ -34,8 +32,6 @@ Lumana is an AI-powered video security platform. This documentation covers every
 </tr>
 </tbody>
 </table>
-
----
 
 ## Core features
 
@@ -71,7 +67,6 @@ Lumana is an AI-powered video security platform. This documentation covers every
 </tbody>
 </table>
 
----
 
 ## Integrations and support
 
@@ -102,7 +97,6 @@ Lumana is an AI-powered video security platform. This documentation covers every
 </tbody>
 </table>
 
----
 
 ## Resources
 
