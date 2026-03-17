@@ -216,8 +216,6 @@ If notifications aren't already enabled for Lumana, then turn them on in your An
 3. Select **Notifications**.
 4. Toggle notifications on.
 
-Once notifications are enabled, you'll receive alerts on your phone whenever activity is detected. If you want to update your account details or preferences, the next guide covers that.
 
-## Next steps
 
-* [User settings](../system-administration/user-settings.md) walks you through configuring your account settings in Lumana.
+With notifications enabled, Lumana can alert you to events in real time regardless of which device you're on. The app gives you full access to your cameras, footage, alerts, and video walls from anywhere.
