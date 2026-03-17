@@ -12,8 +12,8 @@ Use one of these links to download the app from the appropriate store:
 
 <table align="center">
 <tr>
-<td align="center" width="50%"><a href="https://play.google.com/store/apps/details?id=com.lumixai.app" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" width="155" height="60"></a></td>
-<td align="center" width="50%"><a href="https://apps.apple.com/us/app/lumana/id6449496806?itsct=apps_box_badge&itscg=30200" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Download_on_the_App_Store_Badge_US-UK_RGB_blk.svg/330px-Download_on_the_App_Store_Badge_US-UK_RGB_blk.svg.png" alt="Download on the App Store" width="108" height="36"></a></td>
+<td align="center" width="50%"><a href="https://play.google.com/store/apps/details?id=com.lumixai.app" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"></a></td>
+<td align="center" width="50%"><a href="https://apps.apple.com/us/app/lumana/id6449496806?itsct=apps_box_badge&itscg=30200" target="_blank" rel="noopener"><img src="../.gitbook/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" height="60"></a></td>
 </tr>
 </table>
 
