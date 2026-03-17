@@ -33,5 +33,5 @@ Once your plate list is ready, use these steps to create the alert.
 
 ## Next steps
 
-- [Container identification](../identification/container.md) — Detect shipping containers by ID.
+- [Container identification](container.md) — Detect shipping containers by ID.
 - [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and list management.
