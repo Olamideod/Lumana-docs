@@ -10,15 +10,17 @@ Lumana uses AI to analyze the video feed for the presence of a visible or drawn 
 
 Gun brandished detection is suited for locations where armed incidents are a defined security risk.
 
-- High-security environments such as banks, government buildings, or data centers
-- Retail locations where theft or armed confrontations are a concern
-- Any facility where weapon detection is part of the security protocol
+- Protecting high-security environments such as banks, government buildings, or data centers from armed incidents.
+- Monitoring retail locations because theft and armed confrontations are an operational risk.
+- Supporting weapon detection protocols in any facility where firearms are prohibited.
 
 > **Note:** This alert type is supported by Lumana's professional monitoring service. Trained agents can verify the alert and dispatch first responders when needed.
 
+These scenarios call for immediate action, and this alert is designed to support that by triggering fast and integrating with professional monitoring when needed. Use the steps below to create the alert for your cameras.
+
 ## Configure the alert
 
-Use the steps below to set up the gun brandished alert for your cameras.
+Use these steps to create the alert.
 
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
@@ -28,9 +30,3 @@ Use the steps below to set up the gun brandished alert for your cameras.
 6. Set the time frame for when the alert should be active, or leave it running continuously.
 7. Select **Then do this** to configure notifications. For this alert type, consider notifying security personnel immediately or enabling professional monitoring.
 8. Select **Create alert**.
-
-## Next steps
-
-- [License plate](../identification/license-plate.md) — Detect vehicles by license plate number.
-- [Professional monitoring with Lumana](../../../monitoring-services/professional-monitoring-with-lumana.md) — How professional monitoring works for supported alert types.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

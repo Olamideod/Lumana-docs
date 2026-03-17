@@ -1,20 +1,17 @@
 # Zone protection
 
-Zone protection monitors a defined area for objects that linger. Unlike trespassing, which fires on entry alone, it requires an object to stay inside the zone past a minimum dwell time before triggering.
+Zone protection monitors a defined area for objects that linger. Unlike trespassing, which triggers on entry alone, it requires an object to stay inside the zone past a minimum dwell time before triggering.
 
 ## How it works
 
-Define a zone within the camera frame and set a minimum dwell time in seconds. Lumana tracks detected objects and fires the alert only when one has stayed inside the zone past the configured threshold. This filters out people or vehicles that are just passing through, so you're only alerted when presence is intentional.
+Define a zone within the camera frame and set a minimum dwell time in seconds. Lumana tracks detected objects and triggers the alert only when one has stayed inside the zone past the configured threshold. This filters out people or vehicles that are just passing through, so you're only alerted when presence is intentional.
 
 ## When to use it
 
 Zone protection works well when you need to distinguish between someone briefly entering an area and someone actually spending time there.
 
-- Monitoring parking areas where lingering near vehicles is a concern
-- Protecting restricted equipment or storage areas from extended unauthorized access
-- Setting after-hours alerts for spaces where brief access might be acceptable but extended presence is not
+- Monitoring parking areas where lingering near vehicles is a concern.
+- Protecting restricted equipment or storage areas from extended unauthorized access.
+- Setting after-hours alerts for spaces where brief access might be acceptable but extended presence is not.
 
-## Next steps
-
-- [Gun detection](gun-detection.md) — Detect the presence of a firearm in the camera view.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, zone setup, and notification options.
+The common thread is the dwell threshold: it's what separates a brief visit from a security concern. [Gun detection](gun-detection.md) removes the time variable entirely: a weapon in the frame is an immediate threat regardless of how long the person has been in the zone.

@@ -10,9 +10,9 @@ Lumana uses AI to analyze movement patterns and body postures in the video feed.
 
 This alert is most effective in environments where physical confrontations are a realistic risk.
 
-- Public spaces, transportation hubs, or nightlife venues where altercations may occur
-- Retail environments where confrontations can escalate quickly
-- Workplaces or facilities where violence prevention is part of the security policy
+- Monitoring public spaces, transportation hubs, or nightlife venues because altercations can escalate quickly.
+- Detecting confrontations in retail environments before they involve staff or customers.
+- Supporting violence prevention policies in workplaces and facilities that require a documented security response.
 
 Before deploying, review the conditions that can affect detection accuracy.
 
@@ -20,11 +20,11 @@ Before deploying, review the conditions that can affect detection accuracy.
 
 Violence detection requires a clear, unobstructed view of the monitored area. Crowded environments or scenes with rapid but non-violent movement, such as sports facilities or training areas, may produce false positives. Poor lighting also reduces detection accuracy.
 
-If your environment is a good fit, here's how to set up the alert.
+Environments with stable lighting, low background movement, and an unobstructed camera view tend to produce the most reliable results. If your setup meets those conditions, use the steps below to create the alert.
 
 ## Configure the alert
 
-If your environment is a good fit, use these steps to set up the alert.
+Use these steps to set up the alert.
 
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
@@ -34,8 +34,3 @@ If your environment is a good fit, use these steps to set up the alert.
 6. Set the time frame for when the alert should be active.
 7. Select **Then do this** to configure notifications. For immediate response, notify security personnel by SMS or the Lumana app.
 8. Select **Create alert**.
-
-## Next steps
-
-- [Suspect alerts](../identification/suspect-alerts.md) — Detect specific individuals or flag hand contact in sensitive areas.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

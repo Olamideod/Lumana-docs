@@ -4,17 +4,14 @@ Container detection alerts you when a container appears in the camera view. Use 
 
 ## How it works
 
-Lumana's AI model identifies containers within the camera frame. When one is detected, the alert triggers and the event is logged with a video clip. Like the [missing object alert](../tracking/missing-object.md), this alert can be paired with zone definitions to focus detection on a specific area.
+Lumana's AI model identifies containers within the camera frame. When one is detected, the alert triggers and the event is logged with a video clip. Like the [missing object alert](../tracking/missing-object.md), you can pair this alert with zone definitions to focus detection on a specific area.
 
 ## When to use it
 
 This alert is useful in any environment where container movement or placement needs monitoring.
 
-- Detecting unauthorized containers left in a restricted or sensitive area
-- Monitoring loading docks or storage areas for containers that arrive or depart outside expected times
-- Tracking container placement in logistics or warehouse environments
+- Detecting unauthorized containers left in a restricted or sensitive area.
+- Monitoring loading docks or storage areas for containers that arrive or depart outside expected times.
+- Tracking container placement in logistics or warehouse environments.
 
-## Next steps
-
-- [Appearing](../tracking/appearing.md) — Detect when an object enters a zone.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, zone setup, and notification options.
+These scenarios share a need for real-time awareness of container placement or movement without relying on manual checks. [Appearing](../tracking/appearing.md) builds on similar logic, alerting you the moment any object type enters a zone rather than tracking a specific item.

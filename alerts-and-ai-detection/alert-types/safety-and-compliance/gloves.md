@@ -10,11 +10,8 @@ Lumana's AI model scans the camera feed and checks whether detected individuals 
 
 This alert is most effective in environments where bare hands pose a hygiene or safety risk.
 
-- Monitoring food preparation or packaging areas where gloves are required for hygiene compliance
-- Enforcing hand protection policies in labs, clean rooms, or medical environments
-- Providing an automated compliance check alongside manual inspections
+- Monitoring food preparation or packaging areas where gloves are required for hygiene compliance.
+- Enforcing hand protection policies in labs, clean rooms, or medical environments.
+- Providing an automated compliance check alongside manual inspections.
 
-## Next steps
-
-- [Hands detected](../identification/suspect-alerts.md) — Flag hand contact in sensitive areas using suspect alerts.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.
+In each case, the alert replaces or supplements manual spot-checks with continuous automated monitoring. Gloves detection works entirely from the camera feed, with no external data required. [Event tag](../integrations/event-tag.md) inverts that model, pulling in events from external systems and anchoring them to the corresponding camera moment.

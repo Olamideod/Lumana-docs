@@ -1,20 +1,17 @@
 # Absence
 
-Absence detection notifies you when an expected object is no longer visible in a monitored zone. Where the [appearing alert](appearing.md) watches for arrivals, this one watches for unexpected departures of things that should stay put.
+Absence detection notifies you when an expected object is no longer visible in a monitored zone. Unlike the [appearing alert](appearing.md), which tracks arrivals, this alert triggers when something that belongs there disappears.
 
 ## How it works
 
-Set up a zone in the camera frame where the object is expected to remain. When Lumana no longer detects the object in that zone, the alert fires and a clip is recorded. The alert is most effective for fixed or stationary objects that rarely move under normal conditions.
+Set up a zone in the camera frame where the object is expected to remain. When Lumana no longer detects the object in that zone, the alert triggers and a clip is recorded. The alert is most effective for fixed or stationary objects that rarely move under normal conditions.
 
 ## When to use it
 
 This alert works best for monitoring assets or occupied positions that should not change without notice.
 
-- Detecting when equipment, signage, or an asset has been removed from its designated location
-- Monitoring positions that should always be staffed, such as a security post or reception desk
-- Flagging when a parked vehicle that should remain in a lot has been moved
+- Detecting when equipment, signage, or an asset has been removed from its designated location.
+- Monitoring positions that should always be staffed, such as a security post or reception desk.
+- Flagging when a parked vehicle that should remain in a lot has been moved.
 
-## Next steps
-
-- [Device status](../status/device-status.md) — Monitor camera and system health.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, zone setup, and notification options.
+These scenarios all hinge on a simple expectation: something that was there should still be there. [Holding a phone](holding-a-phone.md) works on the opposite kind of expectation, detecting a behavior that is present when it shouldn't be.

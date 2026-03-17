@@ -4,17 +4,14 @@ Lumana's fire detection alert triggers when flames are visible in the camera fee
 
 ## How it works
 
-Lumana's AI model analyzes the video feed for the visual signatures of fire. When flames are detected, the alert fires immediately and a clip is saved. Because detection is camera-based, it can cover outdoor areas, large open spaces, and locations where smoke detectors aren't practical.
+Lumana's AI model analyzes the video feed for the visual signatures of fire. When flames are detected, the alert triggers immediately and a clip is saved. Because detection is camera-based, it can cover outdoor areas, large open spaces, and locations where smoke detectors aren't practical.
 
 ## When to use it
 
 Fire detection works best as a supplementary layer in environments where visual detection can help speed up response time.
 
-- Adding detection coverage in warehouses, production floors, or large open spaces where fire can spread quickly
-- Covering outdoor areas or locations where smoke detectors are impractical
-- Supporting faster incident response by providing a video clip alongside the alert notification
+- Adding detection coverage in warehouses, production floors, or large open spaces where fire can spread quickly.
+- Covering outdoor areas or locations where smoke detectors are impractical.
+- Supporting faster incident response by providing a video clip alongside the alert notification.
 
-## Next steps
-
-- [Fall detection](fall.md) — Detect when a person falls in the camera view.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.
+In each case, visual detection adds a coverage layer that's independent of physical sensors and available wherever cameras are deployed. [Fall detection](fall.md) applies that same visual-only approach to personal safety incidents.

@@ -4,21 +4,21 @@ License plate recognition lets you flag specific vehicles as they enter or exit 
 
 ## How it works
 
-Lumana reads license plates from the camera feed and compares them against your configured list. When a match is found, the alert fires and a clip of the vehicle is saved. You can set it to trigger on plates that are on the list, such as an approved-entry list, or on plates that aren't on it.
+Lumana reads license plates from the camera feed and compares them against your configured list. When a match is found, the alert triggers and a clip of the vehicle is saved. You can set it to trigger on plates that are on the list, such as an approved-entry list, or on plates that aren't on it.
 
 ## When to use it
 
 License plate recognition is most effective when you need to control or audit vehicle access at a defined entry point.
 
-- Monitoring gated entry points to flag vehicles that aren't on an approved list
-- Tracking the arrival and departure of specific vehicles at a premises
-- Detecting a known vehicle of interest that has been associated with previous incidents
+- Monitoring gated entry points to flag vehicles that aren't on an approved list.
+- Tracking the arrival and departure of specific vehicles at a premises.
+- Detecting a known vehicle of interest associated with previous incidents.
 
-Once your plate list is ready, here's how to create the alert.
+These are the most common scenarios, but any situation requiring vehicle-level access control or audit trails at a defined entry point is a good fit. Once your plate list is ready, use the steps below to create the alert.
 
 ## Configure the alert
 
-Once your plate list is ready, use these steps to create the alert.
+Use these steps to create the alert once your plate list is ready.
 
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
@@ -30,8 +30,3 @@ Once your plate list is ready, use these steps to create the alert.
 8. Set the time frame for when the alert should be active.
 9. Select **Then do this** to configure a notification.
 10. Select **Create alert**.
-
-## Next steps
-
-- [Container identification](container.md) — Detect shipping containers by ID.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and list management.

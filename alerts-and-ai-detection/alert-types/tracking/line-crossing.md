@@ -1,6 +1,6 @@
 # Line crossing
 
-Line crossing detection fires when an object passes over a line you draw in the camera view. You can set it to trigger on one direction of crossing, or both.
+Line crossing detection triggers when an object passes over a line you draw in the camera view. You can set it to trigger on one direction of crossing, or both.
 
 ## How it works
 
@@ -10,11 +10,8 @@ Draw a line across the camera frame and choose which direction of crossing to mo
 
 Line crossing detection is well suited for scenarios where a specific boundary or path matters more than zone presence.
 
-- Monitoring a perimeter line to detect entry into a restricted area
-- Tracking the direction of traffic flow through a checkpoint or corridor
-- Detecting when someone exits through a restricted path, such as an emergency exit used outside of an emergency
+- Monitoring a perimeter line to detect entry into a restricted area.
+- Tracking the direction of traffic flow through a checkpoint or corridor.
+- Detecting when someone exits through a restricted path, such as an emergency exit used outside of an emergency.
 
-## Next steps
-
-- [Missing object](missing-object.md) — Detect when an object disappears from a zone.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.
+In each case, a single line marks where objects shouldn't go, and the alert triggers the moment it's crossed. [Missing object](missing-object.md) shifts focus from movement to absence, alerting you when something that should be in a defined area is no longer there.

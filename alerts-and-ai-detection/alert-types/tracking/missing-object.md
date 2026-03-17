@@ -10,16 +10,16 @@ You select a specific object in a camera view for Lumana to continuously monitor
 
 This alert is useful any time an object's presence is as important as its absence.
 
-- Protecting high-value equipment such as computers, tools, or machinery
-- Monitoring sensitive items in restricted areas
-- Detecting theft or unauthorized removal of assets
-- Ensuring critical infrastructure components remain in place
+- Protecting high-value equipment such as computers, tools, or machinery.
+- Monitoring sensitive items in restricted areas.
+- Detecting theft or unauthorized removal of assets.
+- Ensuring critical infrastructure components remain in place.
 
-Once you know where you want to apply it, setup takes just a few steps.
+These are the most common scenarios, but any situation where an object's absence is as significant as its presence works. Once you've identified the object and camera to monitor, use the steps below to create the alert.
 
 ## Configure the alert
 
-Once you know where you want to apply it, use these steps to create the alert.
+Use these steps to create the alert once you've identified the object to monitor.
 
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
@@ -31,9 +31,3 @@ Once you know where you want to apply it, use these steps to create the alert.
 8. Select **Done** when finished.
 
 After the alert is live, you can select any triggered alert to view a clip or image of the incident, and share or archive the footage directly from the alert detail screen.
-
-## Next steps
-
-- [Absence](absence.md) — Detect when a person or vehicle leaves and doesn't return.
-- [Alert view](../../alert-view.md) — Monitor and acknowledge triggered alerts.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

@@ -10,11 +10,11 @@ When Kisi registers a single badge scan, Lumana monitors the camera feed to coun
 
 This alert requires the Kisi access control integration to be active in your organization. Without it, the door event data that drives the alert is unavailable. See [Kisi access control](../../../software-integrations/kisi-access-control.md) for setup instructions.
 
-With Kisi configured, here's how to create the alert.
+The Kisi integration is the only prerequisite; once it's active, the door event data Lumana needs is available. Use the steps below to create the tailgating alert.
 
 ## Configure the alert
 
-With Kisi configured, use these steps to create the tailgating alert.
+Use these steps to create the alert once Kisi is configured.
 
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
@@ -26,9 +26,3 @@ With Kisi configured, use these steps to create the tailgating alert.
 8. Configure the schedule for when the alert should be active.
 9. Select **Then do this** to configure notifications.
 10. Select **Create alert**.
-
-## Next steps
-
-- [Zone protection](zone-protection.md) — Protect defined zones with custom alert rules.
-- [Kisi access control](../../../software-integrations/kisi-access-control.md) — Set up the access control integration.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

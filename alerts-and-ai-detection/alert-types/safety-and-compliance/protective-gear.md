@@ -10,15 +10,15 @@ Lumana analyzes the camera feed and checks whether detected individuals are wear
 
 This alert is most effective in environments where PPE requirements are non-negotiable and manual supervision can't provide continuous coverage.
 
-- Enforcing hard hat requirements on construction sites or in industrial facilities
-- Monitoring production floors for workers not wearing required safety equipment
-- Providing a continuous compliance check without relying solely on manual supervision
+- Enforcing hard hat requirements on construction sites or in industrial facilities.
+- Monitoring production floors for workers not wearing required safety equipment.
+- Providing a continuous compliance check without relying solely on manual supervision.
 
-Here's how to set up the alert once you've identified the cameras and areas to cover.
+These are the most common scenarios, but any environment with a defined PPE requirement and a camera covering the work area is a good fit. Once you've identified the cameras and areas to cover, use the steps below to create the alert.
 
 ## Configure the alert
 
-Use the steps below to create the protective gear alert for your cameras.
+Use these steps to create the alert once you've identified the cameras and areas to cover.
 
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
@@ -30,8 +30,3 @@ Use the steps below to create the protective gear alert for your cameras.
 8. Set the time frame for when the alert should be active.
 9. Select **Then do this** to configure a notification.
 10. Select **Create alert**.
-
-## Next steps
-
-- [Personal safety](personal-safety.md) — Monitor proximity between people to reduce collision risk.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.

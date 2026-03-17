@@ -8,13 +8,10 @@ Lumana monitors the camera feed for sudden visual changes that indicate physical
 
 ## When to use it
 
-Tampering detection is useful in any environment where camera coverage is critical and uninterrupted.
+Tampering detection is useful in any environment where camera coverage is critical and must remain uninterrupted.
 
-- Securing cameras in public or semi-public areas where access is difficult to control
-- Detecting interference before a larger incident occurs
-- Ensuring continuous coverage in high-security or compliance-sensitive locations
+- Securing cameras in public or semi-public areas because physical access is difficult to control.
+- Detecting interference before a larger security incident occurs.
+- Ensuring continuous coverage in high-security or compliance-sensitive locations.
 
-## Next steps
-
-- [Proximity](proximity.md) — Detect when objects get too close to each other.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.
+These scenarios all depend on the assumption that camera coverage is continuous and uninterrupted. [Proximity detection](proximity.md) extends that coverage by flagging when two objects stay too close for too long.

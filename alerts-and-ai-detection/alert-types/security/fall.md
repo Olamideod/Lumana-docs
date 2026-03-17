@@ -4,7 +4,7 @@ The fall detection alert triggers when a person falls in the camera view. It's u
 
 ## How it works
 
-Lumana uses AI to analyze body posture and movement in the video feed. The model is trained to distinguish between normal movements, such as walking, sitting, or bending, and an actual fall. When a fall is detected, the alert captures a clip and notifies the designated contacts.
+Lumana uses AI to analyze body posture and movement in the video feed. The model distinguishes between normal movements, such as walking, sitting, or bending, and an actual fall. When a fall is detected, the alert captures a clip and notifies the designated contacts.
 
 ## Camera placement
 
@@ -27,11 +27,11 @@ Fall detection works best in controlled, low-traffic environments. It may not pe
 - **Dynamic environments**: Gyms, sports facilities, or workplaces with frequent rapid movement can confuse the AI model.
 - **Distance**: Subjects far from the camera significantly reduce detection accuracy.
 
-If your environment meets the requirements, here's how to set up the alert.
+Environments that are low-traffic, well-lit, and have cameras positioned to capture full-body movement are the best fit for this alert. If your setup meets those conditions, use the steps below to create the alert.
 
 ## Configure the alert
 
-If your environment meets the requirements, use these steps to set up the alert.
+Use these steps to set up the alert once your environment meets the placement requirements.
 
 1. Select **Alerts** in the left navigation bar, then select **Configurations**.
 2. Select **Add alert**.
@@ -41,9 +41,3 @@ If your environment meets the requirements, use these steps to set up the alert.
 6. Set the time frame for when the alert should be active, or leave it set to all day.
 7. Select **Then do this** to configure notifications. You can notify emergency services, medical personnel, or security staff by SMS, email, or the Lumana app.
 8. Select **Create alert**.
-
-## Next steps
-
-- [Violence](violence.md) — Detect acts of violence in the camera view.
-- [Professional monitoring with Lumana](../../../monitoring-services/professional-monitoring-with-lumana.md) — How professional monitoring works for supported alert types.
-- [Configure alerts](../../configure-alerts.md) — Scheduling, notification options, and advanced settings.
