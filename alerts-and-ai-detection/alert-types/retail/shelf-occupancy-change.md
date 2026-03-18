@@ -14,4 +14,4 @@ This alert is useful when the rate of change matters as much as the current stoc
 - Flagging unexpected restocking activity outside of scheduled replenishment windows.
 - Monitoring high-value or high-shrinkage product areas where sudden stock changes are a risk indicator.
 
-These scenarios all use rate of change as the signal, not just the current level. [Custom state change](../object-states/custom-state-change.md) extends that model beyond built-in categories, letting you define your own object states and set thresholds for when a shift in those states matters.
+These scenarios all use rate of change as the signal, not just the current level.

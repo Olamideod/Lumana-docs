@@ -20,7 +20,7 @@ Before deploying, review the conditions that can affect detection accuracy.
 
 Violence detection requires a clear, unobstructed view of the monitored area. Crowded environments or scenes with rapid but non-violent movement, such as sports facilities or training areas, may produce false positives. Poor lighting also reduces detection accuracy.
 
-Environments with stable lighting, low background movement, and an unobstructed camera view tend to produce the most reliable results. If your setup meets those conditions, use the steps below to create the alert.
+Environments with stable lighting, low background movement, and an unobstructed camera view tend to produce the most reliable results.
 
 ## Configure the alert
 
@@ -34,3 +34,5 @@ Use these steps to set up the alert.
 6. Set the time frame for when the alert should be active.
 7. Select **Then do this** to configure notifications. For immediate response, notify security personnel by SMS or the Lumana app.
 8. Select **Create alert**.
+
+When an incident is detected, the clip is saved to the alert feed and your designated contacts are notified so the team can respond immediately.

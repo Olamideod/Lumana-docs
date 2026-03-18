@@ -14,4 +14,4 @@ Event validation is most useful in environments where fraud, policy violations, 
 - Flagging transactions that occur outside of expected camera conditions, such as no person visible at a POS terminal during a refund.
 - Verifying that physical activity at a location matches what an external system logged at that time.
 
-These scenarios all rely on the same logic: if the camera doesn't show what the external system says happened, it's worth investigating. Both rely on the camera as the source of truth. [Shelf occupancy threshold](../retail/shelf-occupancy-threshold.md) uses that same camera-eye view in a retail context, alerting when the stock visible on a shelf drops below a level you've defined.
+These scenarios all rely on the same logic: if the camera doesn't show what the external system says happened, it's worth investigating.

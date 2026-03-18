@@ -14,7 +14,7 @@ This alert is most effective in environments where PPE requirements are non-nego
 - Monitoring production floors for workers not wearing required safety equipment.
 - Providing a continuous compliance check without relying solely on manual supervision.
 
-These are the most common scenarios, but any environment with a defined PPE requirement and a camera covering the work area is a good fit. Once you've identified the cameras and areas to cover, use the steps below to create the alert.
+These are the most common scenarios, but any environment with a defined PPE requirement and a camera covering the work area is a good fit.
 
 ## Configure the alert
 
@@ -30,3 +30,5 @@ Use these steps to create the alert once you've identified the cameras and areas
 8. Set the time frame for when the alert should be active.
 9. Select **Then do this** to configure a notification.
 10. Select **Create alert**.
+
+Each triggered event is saved with a clip of the non-compliant worker, giving you a timestamped record for compliance reporting and follow-up.

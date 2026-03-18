@@ -14,4 +14,4 @@ This alert is useful whenever you need to track door activity from a camera feed
 - Detecting doors left open in climate-controlled environments like server rooms or cold storage.
 - Auditing entry and exit at access-controlled points without dedicated door sensors.
 
-In all of these cases, the camera replaces the need for a physical sensor and provides a video record of each door event. [Fire detection](fire.md) extends that sensor-free approach to a different class of physical threat.
+In all of these cases, the camera replaces the need for a physical sensor and provides a video record of each door event.

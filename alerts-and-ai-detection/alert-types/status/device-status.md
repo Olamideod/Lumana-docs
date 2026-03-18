@@ -19,4 +19,4 @@ Device status alerting is valuable in any deployment where continuous coverage i
 - Monitoring Core device connectivity in remote or unmanned locations.
 - Maintaining visibility over hardware uptime across multiple sites.
 
-Whether the cause is a network issue, a power failure, or physical tampering, device status alerting gives you immediate visibility. [Camera status](camera-status.md) provides the same awareness at the individual camera level.
+Whether the cause is a network issue, a power failure, or physical tampering, device status alerting gives you immediate visibility.

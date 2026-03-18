@@ -16,7 +16,7 @@ Appearing detection is well suited for monitored zones where any entry, no matte
 - Detecting any entry into a zone where only scheduled access is expected.
 - Triggering an alert the instant someone steps into a defined restricted area.
 
-These are the most common scenarios, but any zone where the moment of entry is more important than how long an object stays is a good fit. Once you've identified the zone and object types to monitor, use the steps below to create the alert.
+These are the most common scenarios, but any zone where the moment of entry is more important than how long an object stays is a good fit.
 
 ## Configure the alert
 
@@ -32,3 +32,5 @@ Use these steps to create the alert once you've identified the zone to monitor.
 8. Set the time frame for when the alert should be active.
 9. Select **Then do this** to configure a notification.
 10. Select **Create alert**.
+
+Once active, every entry into the zone triggers a clip you can review, share, or archive directly from the alert feed.

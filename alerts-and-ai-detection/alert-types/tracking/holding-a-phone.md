@@ -14,4 +14,4 @@ This alert is a good fit for environments where phone use is regulated by policy
 - Detecting phone use in security-sensitive areas such as server rooms or control centers.
 - Monitoring compliance in environments where distracted behavior creates safety risks.
 
-In each case, the alert provides automated enforcement of a policy that would otherwise require someone to actively watch the feed. [Snapshot](snapshot.md) pairs well with behavior-based alerts like this one, capturing a still image at the moment the violation is detected without saving a full video clip.
+In each case, the alert provides automated enforcement of a policy that would otherwise require someone to actively watch the feed.

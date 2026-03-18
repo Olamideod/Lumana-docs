@@ -14,4 +14,4 @@ This alert is suited for locations where unauthorized weapons are a defined secu
 - Providing an early warning layer alongside the gun drawn alert for higher-risk environments.
 - Supporting compliance in locations where weapons are prohibited.
 
-What these locations share is a clear policy against unauthorized weapons, and the need for an automated layer of enforcement. [Speed control](speed-control.md) applies the same logic to vehicle behavior, using movement as the indicator rather than what someone is carrying.
+What these locations share is a clear policy against unauthorized weapons, and the need for an automated layer of enforcement.

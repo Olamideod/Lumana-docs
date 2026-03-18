@@ -16,7 +16,7 @@ Gun brandished detection is suited for locations where armed incidents are a def
 
 > **Note:** This alert type is supported by Lumana's professional monitoring service. Trained agents can verify the alert and dispatch first responders when needed.
 
-These scenarios call for immediate action, and this alert is designed to support that by triggering fast and integrating with professional monitoring when needed. Use the steps below to create the alert for your cameras.
+These scenarios call for immediate action, and this alert is designed to support that by triggering fast and integrating with professional monitoring when needed.
 
 ## Configure the alert
 
@@ -30,3 +30,5 @@ Use these steps to create the alert.
 6. Set the time frame for when the alert should be active, or leave it running continuously.
 7. Select **Then do this** to configure notifications. For this alert type, consider notifying security personnel immediately or enabling professional monitoring.
 8. Select **Create alert**.
+
+When the alert triggers, a clip is captured immediately and available for review or escalation through professional monitoring.

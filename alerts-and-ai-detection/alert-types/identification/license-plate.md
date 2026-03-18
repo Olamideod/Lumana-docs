@@ -14,7 +14,7 @@ License plate recognition is most effective when you need to control or audit ve
 - Tracking the arrival and departure of specific vehicles at a premises.
 - Detecting a known vehicle of interest associated with previous incidents.
 
-These are the most common scenarios, but any situation requiring vehicle-level access control or audit trails at a defined entry point is a good fit. Once your plate list is ready, use the steps below to create the alert.
+These are the most common scenarios, but any situation requiring vehicle-level access control or audit trails at a defined entry point is a good fit.
 
 ## Configure the alert
 
@@ -30,3 +30,5 @@ Use these steps to create the alert once your plate list is ready.
 8. Set the time frame for when the alert should be active.
 9. Select **Then do this** to configure a notification.
 10. Select **Create alert**.
+
+Each match is logged with a clip of the vehicle and the detected plate number, creating a timestamped record for access audits or incident review.

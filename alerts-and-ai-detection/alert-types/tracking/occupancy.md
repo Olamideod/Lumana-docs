@@ -14,4 +14,4 @@ Occupancy monitoring is useful when the number of people or objects in a space d
 - Detecting when a normally staffed area becomes empty during operating hours.
 - Monitoring vehicle occupancy in parking zones or loading areas to prevent congestion.
 
-Whether the concern is overcrowding or an unexpectedly empty space, occupancy alerting turns a count into an actionable signal. [Loitering](loitering.md) adds a time dimension to presence, triggering only when someone has stayed past the point where it becomes a concern.
+Whether the concern is overcrowding or an unexpectedly empty space, occupancy alerting turns a count into an actionable signal.

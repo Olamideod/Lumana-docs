@@ -14,4 +14,4 @@ This alert is a good fit for retail or warehouse environments where stock levels
 - Monitoring critical inventory locations where out-of-stock conditions cause the most disruption.
 - Reducing the need for manual shelf walks by automating low-stock detection across multiple cameras.
 
-These scenarios share a common goal: acting on a stock level before the consequence reaches customers or operations. [Shelf occupancy change](shelf-occupancy-change.md) detects a different signal: a sudden drop in inventory rather than a fixed minimum, which can surface theft or unexpected activity even when overall counts look acceptable.
+These scenarios share a common goal: acting on a stock level before the consequence reaches customers or operations.

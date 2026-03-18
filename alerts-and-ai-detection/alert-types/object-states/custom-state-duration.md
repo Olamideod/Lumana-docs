@@ -14,4 +14,4 @@ Use this alert when the length of time in a state matters more than the state it
 - Detecting when a vehicle remains parked in a no-stop zone for too long.
 - Monitoring equipment that stays in an idle or fault state longer than expected.
 
-These are the most common starting points, but the alert applies to any state where time in that state is the key risk indicator. [Zone armed/disarmed](../arm-disarm/zone-armed-disarmed.md) applies a different kind of state monitoring to your security zones, alerting you when armed status changes unexpectedly.
+These are the most common starting points, but the alert applies to any state where time in that state is the key risk indicator.

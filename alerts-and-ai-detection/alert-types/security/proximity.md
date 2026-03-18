@@ -14,7 +14,7 @@ Proximity detection is a good fit when brief contact between objects is normal, 
 - Monitoring restricted areas where people should not approach certain equipment or assets.
 - Identifying sustained contact between individuals in sensitive or secure environments.
 
-These scenarios share a common need: detecting when closeness between objects is sustained long enough to become a concern. Once you've identified the cameras, object types, and distance thresholds to apply, use the steps below to set up the alert.
+These scenarios share a common need: detecting when closeness between objects is sustained long enough to become a concern.
 
 ## Configure the alert
 
@@ -30,3 +30,5 @@ Use these steps to set up the proximity alert once you've identified the cameras
 8. Set the time frame for when the alert should be active.
 9. Select **Then do this** to configure a notification.
 10. Select **Create alert**.
+
+Each triggered event is saved as a clip showing the moment the proximity threshold was exceeded, and is available for review from the alert feed.

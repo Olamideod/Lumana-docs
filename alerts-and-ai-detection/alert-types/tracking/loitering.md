@@ -16,4 +16,4 @@ Loitering detection is a good fit when you need to separate incidental contact w
 - Monitoring parking areas for vehicles that stay far beyond normal visit durations.
 - Identifying unauthorized extended presence in restricted or sensitive spaces.
 
-These scenarios share a common need: distinguishing between passing contact and deliberate presence. [Line crossing](line-crossing.md) applies the same boundary logic without the time requirement, for situations where presence alone is enough to act on.
+These scenarios share a common need: distinguishing between passing contact and deliberate presence.

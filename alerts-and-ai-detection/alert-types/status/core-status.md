@@ -14,4 +14,4 @@ Core status alerting is especially important in deployments where each Core serv
 - Catching infrastructure problems before they are reported by end users.
 - Monitoring Core connectivity across multiple locations from a single dashboard.
 
-Because a single Core manages multiple cameras, catching a Core going offline quickly is critical to maintaining full-site coverage. That coverage is what makes AI-based alerts reliable. [Protective gear detection](../safety-and-compliance/protective-gear.md) is one of those alerts, using it to enforce PPE compliance across your facility.
+Because a single Core manages multiple cameras, catching a Core going offline quickly is critical to maintaining full-site coverage.

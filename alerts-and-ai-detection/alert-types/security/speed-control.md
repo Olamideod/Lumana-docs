@@ -14,4 +14,4 @@ Speed control detection is well suited for environments where the pace of moveme
 - Enforcing no-running policies in sensitive areas like hospitals, data centers, or labs.
 - Detecting rapid movement near secured zones that may indicate a breach or emergency.
 
-In each of these environments, the speed of movement is a direct proxy for risk. [Door state change](doors.md) gives you a similar early-warning signal at access points, using the camera to monitor when doors open, close, or stay open too long.
+In each of these environments, the speed of movement is a direct proxy for risk.

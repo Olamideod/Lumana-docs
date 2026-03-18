@@ -14,4 +14,4 @@ Line crossing detection is well suited for scenarios where a specific boundary o
 - Tracking the direction of traffic flow through a checkpoint or corridor.
 - Detecting when someone exits through a restricted path, such as an emergency exit used outside of an emergency.
 
-In each case, a single line marks where objects shouldn't go, and the alert triggers the moment it's crossed. [Missing object](missing-object.md) shifts focus from movement to absence, alerting you when something that should be in a defined area is no longer there.
+In each case, a single line marks where objects shouldn't go, and the alert triggers the moment it's crossed.

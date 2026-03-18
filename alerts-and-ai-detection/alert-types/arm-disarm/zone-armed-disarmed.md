@@ -14,4 +14,4 @@ This alert is useful for auditing zone arming activity and detecting unauthorize
 - Detecting when a zone is disarmed unexpectedly during a monitored period.
 - Auditing arm/disarm events across multiple locations for compliance reporting.
 
-These scenarios all depend on tracking armed status as part of an audit trail, not just monitoring what's in the camera view. [Configure alerts](../../configure-alerts.md) covers how to set schedules, define notification targets, and fine-tune any alert type across your deployment.
+These scenarios all depend on tracking armed status as part of an audit trail, not just monitoring what's in the camera view.

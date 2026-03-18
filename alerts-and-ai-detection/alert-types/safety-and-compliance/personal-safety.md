@@ -14,4 +14,4 @@ Personal safety detection is well suited for any environment where the risk of a
 - Detecting pedestrians who enter vehicle lanes or travel paths in a facility.
 - Supplementing physical barriers and safety markings with automated visual monitoring.
 
-These scenarios share a common risk: people and vehicles operating in close proximity without reliable separation. [Gloves](gloves.md) applies similar compliance monitoring to hand protection, flagging workers who handle materials without the required protective equipment.
+These scenarios share a common risk: people and vehicles operating in close proximity without reliable separation.

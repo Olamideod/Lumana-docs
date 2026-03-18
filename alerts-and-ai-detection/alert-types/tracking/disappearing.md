@@ -14,4 +14,4 @@ This alert works best for zones where objects are expected to stay put, and any 
 - Monitoring zones where objects should stay, such as exhibits, displays, or secure items on a shelf.
 - Tracking when a vehicle or person departs an area outside of expected times.
 
-These scenarios all rely on the same principle: if an object leaves a place it should stay, that departure is meaningful. [Traffic control](traffic-control.md) takes a related approach, monitoring the sequence and timing of movement rather than the presence or absence of a specific object.
+These scenarios all rely on the same principle: if an object leaves a place it should stay, that departure is meaningful.

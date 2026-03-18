@@ -14,4 +14,4 @@ Event tag alerts are useful when you need to correlate video footage with data f
 - Flagging shipment arrivals in a warehouse by pulling pallet IDs from a warehouse management system.
 - Triggering an alert when a specific access control event occurs and linking it to the corresponding camera view.
 
-In each case, the value is in connecting an external system event to the moment it happened on camera. [Event validation](event-validation.md) builds on that connection, flagging cases where what the external system logged doesn't match what the camera actually shows.
+In each case, the value is in connecting an external system event to the moment it happened on camera.

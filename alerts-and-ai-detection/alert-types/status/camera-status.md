@@ -14,4 +14,4 @@ Camera status alerting is useful in any environment where uninterrupted camera c
 - Monitoring cameras in remote or unmanned locations where physical checks aren't practical.
 - Maintaining coverage visibility across large or multi-site deployments.
 
-In all of these cases, the value is in knowing the moment coverage is interrupted, before a security gap goes unnoticed. [Core status](core-status.md) extends that visibility to the Lumana Core itself, which all connected cameras depend on.
+In all of these cases, the value is in knowing the moment coverage is interrupted, before a security gap goes unnoticed.

@@ -14,4 +14,4 @@ Tampering detection is useful in any environment where camera coverage is critic
 - Detecting interference before a larger security incident occurs.
 - Ensuring continuous coverage in high-security or compliance-sensitive locations.
 
-These scenarios all depend on the assumption that camera coverage is continuous and uninterrupted. [Proximity detection](proximity.md) extends that coverage by flagging when two objects stay too close for too long.
+These scenarios all depend on the assumption that camera coverage is continuous and uninterrupted.

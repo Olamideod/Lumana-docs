@@ -16,7 +16,7 @@ Motion detection works well in spaces where any activity outside of expected hou
 - Detecting activity in restricted storage areas where access is limited to authorized personnel.
 - Flagging movement in perimeter zones that should remain clear outside of scheduled operating hours.
 
-Motion detection is flexible enough to serve as a general-purpose alert or a tightly scoped zone trigger, depending on how you configure it. Once you've identified the cameras and any specific areas to watch, use the steps below to create the alert.
+Motion detection is flexible enough to serve as a general-purpose alert or a tightly scoped zone trigger, depending on how you configure it.
 
 ## Configure the alert
 
@@ -31,3 +31,5 @@ Use these steps to create the alert.
 7. Set the time frame for when the alert should be active.
 8. Select **Then do this** to configure a notification.
 9. Select **Create alert**.
+
+Once active, each motion event in the monitored area is captured as a clip and logged with a timestamp, giving you a full record of activity.

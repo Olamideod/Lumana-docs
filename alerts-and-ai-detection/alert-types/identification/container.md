@@ -14,4 +14,4 @@ This alert is useful in any environment where container movement or placement ne
 - Monitoring loading docks or storage areas for containers that arrive or depart outside expected times.
 - Tracking container placement in logistics or warehouse environments.
 
-These scenarios share a need for real-time awareness of container placement or movement without relying on manual checks. [Appearing](../tracking/appearing.md) builds on similar logic, alerting you the moment any object type enters a zone rather than tracking a specific item.
+These scenarios share a need for real-time awareness of container placement or movement without relying on manual checks.

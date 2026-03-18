@@ -21,9 +21,11 @@ The hands detected alert triggers when hands are visible within a defined zone. 
 - Preventing unauthorized interaction with sensitive equipment such as servers or network hardware.
 - Documenting hand interactions at high-risk locations for investigation records.
 
-Both alert types are configured separately. Follow the steps for the one you need.
+Each alert type targets a different kind of identity-based risk and is configured independently.
 
 ## Configure the alert
+
+Select the alert type you need and follow the steps below.
 
 ### Face recognition
 
@@ -45,3 +47,5 @@ Both alert types are configured separately. Follow the steps for the one you nee
 5. Select **Then do this** to configure a notification action.
 6. Select **Zones** to define the areas where hand detection should be active on your cameras.
 7. Draw the zone on the camera view, then select **Done**.
+
+After either alert is live, triggered events appear in your alert feed with a clip or image of the incident.

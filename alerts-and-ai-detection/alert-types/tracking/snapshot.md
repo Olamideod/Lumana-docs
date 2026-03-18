@@ -14,4 +14,4 @@ Snapshot is useful when a still image is sufficient to document an event and ful
 - Capturing a reference image at the moment a specific condition is detected.
 - Reducing storage requirements in deployments where video evidence isn't always necessary.
 
-In each of these cases, a well-timed still image provides the record you need without the overhead of continuous video storage. A snapshot is only as reliable as the camera capturing it. [Device status](../status/device-status.md) monitors for the moments when cameras and connected devices go offline.
+In each of these cases, a well-timed still image provides the record you need without the overhead of continuous video storage.

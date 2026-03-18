@@ -15,7 +15,7 @@ This alert is useful any time an object's presence is as important as its absenc
 - Detecting theft or unauthorized removal of assets.
 - Ensuring critical infrastructure components remain in place.
 
-These are the most common scenarios, but any situation where an object's absence is as significant as its presence works. Once you've identified the object and camera to monitor, use the steps below to create the alert.
+These are the most common scenarios, but any situation where an object's absence is as significant as its presence works.
 
 ## Configure the alert
 

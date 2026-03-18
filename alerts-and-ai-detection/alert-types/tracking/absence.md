@@ -14,4 +14,4 @@ This alert works best for monitoring assets or occupied positions that should no
 - Monitoring positions that should always be staffed, such as a security post or reception desk.
 - Flagging when a parked vehicle that should remain in a lot has been moved.
 
-These scenarios all hinge on a simple expectation: something that was there should still be there. [Holding a phone](holding-a-phone.md) works on the opposite kind of expectation, detecting a behavior that is present when it shouldn't be.
+These scenarios all hinge on a simple expectation: something that was there should still be there.

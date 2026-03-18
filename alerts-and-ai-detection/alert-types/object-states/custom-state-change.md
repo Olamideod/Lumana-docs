@@ -14,4 +14,4 @@ This alert is useful when you need to track a specific condition tied to your op
 - Monitoring asset or equipment states unique to your workflow.
 - Triggering alerts based on custom object classifications not covered by standard alert types.
 
-These are the most common starting points, but the alert can be adapted to any condition that maps to a detectable object state in your environment. [Custom state transition](custom-state-transition.md) extends that logic to sequences, triggering when an object moves through a defined series of states rather than changing just once.
+These are the most common starting points, but the alert can be adapted to any condition that maps to a detectable object state in your environment.

@@ -14,4 +14,4 @@ This alert is most effective in environments where bare hands pose a hygiene or 
 - Enforcing hand protection policies in labs, clean rooms, or medical environments.
 - Providing an automated compliance check alongside manual inspections.
 
-In each case, the alert replaces or supplements manual spot-checks with continuous automated monitoring. Gloves detection works entirely from the camera feed, with no external data required. [Event tag](../integrations/event-tag.md) inverts that model, pulling in events from external systems and anchoring them to the corresponding camera moment.
+In each case, the alert replaces or supplements manual spot-checks with continuous automated monitoring.

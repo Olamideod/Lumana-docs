@@ -16,4 +16,4 @@ This alert works best in spaces that should remain completely off-limits, with n
 - Detecting after-hours access to spaces that are only authorized during specific times.
 - Flagging any entry into a defined perimeter, regardless of how briefly an object appears.
 
-What these scenarios have in common is that entry itself is the incident, with no grace period or minimum presence needed. [Tailgating](tailgating.md) handles a closely related problem: authorized access used to let someone unauthorized slip through a secured door.
+What these scenarios have in common is that entry itself is the incident, with no grace period or minimum presence needed.

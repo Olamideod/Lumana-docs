@@ -27,7 +27,7 @@ Fall detection works best in controlled, low-traffic environments. It may not pe
 - **Dynamic environments**: Gyms, sports facilities, or workplaces with frequent rapid movement can confuse the AI model.
 - **Distance**: Subjects far from the camera significantly reduce detection accuracy.
 
-Environments that are low-traffic, well-lit, and have cameras positioned to capture full-body movement are the best fit for this alert. If your setup meets those conditions, use the steps below to create the alert.
+Environments that are low-traffic, well-lit, and have cameras positioned to capture full-body movement are the best fit for this alert.
 
 ## Configure the alert
 
@@ -41,3 +41,5 @@ Use these steps to set up the alert once your environment meets the placement re
 6. Set the time frame for when the alert should be active, or leave it set to all day.
 7. Select **Then do this** to configure notifications. You can notify emergency services, medical personnel, or security staff by SMS, email, or the Lumana app.
 8. Select **Create alert**.
+
+When a fall is detected, the designated contacts are notified immediately and a clip of the event is saved to the alert feed for review.

@@ -14,4 +14,4 @@ Traffic control detection is suited for environments where the order and timing 
 - Detecting vehicles completing a circuit too quickly, which may indicate unsafe driving on a premises.
 - Ensuring people follow a required screening or check-in path before reaching a restricted area.
 
-These scenarios all require that the sequence or timing of movement is enforced, not just the movement itself. [Occupancy](occupancy.md) adds a count dimension to that picture, alerting when the object count is too high or too low for the space.
+These scenarios all require that the sequence or timing of movement is enforced, not just the movement itself.

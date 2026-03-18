@@ -14,4 +14,4 @@ This alert is a good fit when direction matters. You need to catch a specific pr
 - Monitoring equipment that transitions from idle to in-use during off-hours.
 - Tracking objects that move through a defined sequence of positions or zones.
 
-These are the most common starting points, but the alert applies to any transition sequence that has operational meaning in your environment. [Custom state duration](custom-state-duration.md) adds a time element to that picture, triggering when an object remains in a particular state for longer than expected.
+These are the most common starting points, but the alert applies to any transition sequence that has operational meaning in your environment.

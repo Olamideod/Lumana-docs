@@ -14,4 +14,4 @@ Zone protection works well when you need to distinguish between someone briefly 
 - Protecting restricted equipment or storage areas from extended unauthorized access.
 - Setting after-hours alerts for spaces where brief access might be acceptable but extended presence is not.
 
-The common thread is the dwell threshold: it's what separates a brief visit from a security concern. [Gun detection](gun-detection.md) removes the time variable entirely: a weapon in the frame is an immediate threat regardless of how long the person has been in the zone.
+The common thread is the dwell threshold: it's what separates a brief visit from a security concern.
