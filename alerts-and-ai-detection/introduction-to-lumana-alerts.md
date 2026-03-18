@@ -10,7 +10,7 @@ You configure which alerts are active for your organization, which cameras they 
 
 ## Alert types
 
-Alert types are grouped by the kind of activity they detect: Security, Identification, Tracking, Status, Safety and compliance, Integrations, Retail, and Object states. In the product UI, they may appear as a flat list without subgroup headings when you add or configure an alert. The [Alert types](alert-types/README.md) section documents each type and follows the grouped structure.
+Alert types are grouped by the kind of activity they detect: Security, Identification, Tracking, Status, Safety and compliance, Integrations, Retail, and Object states. In the product UI, they may appear as a flat list without subgroup headings when you add or configure an alert. The [Alert types](alert-types/) section documents each type and follows the grouped structure.
 
 Once you've set up your alerts, you can monitor and manage them from a single view.
 
@@ -18,16 +18,16 @@ Once you've set up your alerts, you can monitor and manage them from a single vi
 
 Each alert includes a video clip, detected object data, and metadata such as the camera name, timestamp, and location. From the **Alerts** section you can:
 
-- Monitor incoming alerts in real time using the **Monitoring** view.
-- Filter alerts by camera, object type (Person, Vehicle, or Gun), alert type, tags, and acknowledgement status.
-- Set a time range using relative intervals (minutes, hours, days, or weeks) or a specific calendar date.
-- Switch between **Clips** and **Objects** views to see alerts as video clips or detected objects.
-- Mute and unmute incoming alert sound notifications.
-- Save your current filter and time range settings as a named view for quick access later.
-- Review video clips, images, and detected objects for each triggered alert.
-- Acknowledge alerts to mark them as reviewed.
-- Share alerts with others directly from the alert detail.
-- Set up and manage alert rules in **Configuration**.
+* Monitor incoming alerts in real time using the **Monitoring** view.
+* Filter alerts by camera, object type (Person, Vehicle, or Gun), alert type, tags, and acknowledgement status.
+* Set a time range using relative intervals (minutes, hours, days, or weeks) or a specific calendar date.
+* Switch between **Clips** and **Objects** views to see alerts as video clips or detected objects.
+* Mute and unmute incoming alert sound notifications.
+* Save your current filter and time range settings as a named view for quick access later.
+* Review video clips, images, and detected objects for each triggered alert.
+* Acknowledge alerts to mark them as reviewed.
+* Share alerts with others directly from the alert detail.
+* Set up and manage alert rules in **Configuration**.
 
 For organizations that need around-the-clock coverage, Lumana also offers a professional monitoring service.
 
@@ -37,7 +37,3 @@ Lumana offers optional [professional monitoring](../monitoring-services/professi
 
 Your alerts are only as useful as the rules behind them. The next guide walks you through setting up alert rules for your organization.
 
-## Next steps
-
-- [Configure alerts](configure-alerts.md) walks you through setting up alert rules for your cameras.
-- [Alert view](alert-view.md) explains how to monitor and review alerts in real time.
