@@ -11,8 +11,8 @@ You'll need to be an active member of your organization before using the app. Yo
 Use one of these links to download the app from the appropriate store:
 
 <table><tbody><tr>
-<td align="center"><a href="https://play.google.com/store/apps/details?id=com.lumixai.app" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height:36px;width:auto;"></a></td>
-<td align="center"><a href="https://apps.apple.com/us/app/lumana/id6449496806?itsct=apps_box_badge&itscg=30200" target="_blank" rel="noopener"><img src="../.gitbook/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" style="height:36px;width:auto;"></a></td>
+<td align="center"><a href="https://play.google.com/store/apps/details?id=com.lumixai.app" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height:24px;width:auto;"></a></td>
+<td align="center"><a href="https://apps.apple.com/us/app/lumana/id6449496806?itsct=apps_box_badge&itscg=30200" target="_blank" rel="noopener"><img src="../.gitbook/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" style="height:24px;width:auto;"></a></td>
 </tr></tbody></table>
 
 Alternatively, scan this QR code:
@@ -33,7 +33,7 @@ The app has four sections in the bottom navigation bar. Each one leads to a diff
 Tap the **menu icon (≡)** in the top left to open the sidebar. The sidebar gives you access to everything in the app from one place.
 
 
-<figure><img src="../.gitbook/assets/mobile-side-bar.png" alt="" width="188"><figcaption></figcaption></figure>
+<div align="center"><img src="../.gitbook/assets/mobile-side-bar.png" alt="" width="300"></div>
 
 The sidebar links to the following sections, each of which is explained below:
 
@@ -175,7 +175,7 @@ The **Walls** tab shows all video walls available in your organization. Tap any 
 
 The **Archives** section in the sidebar shows all clips you've saved across your organization. Use it to quickly access any footage you've archived from a camera's Playback tab.
 
-<div align="center"><img src="../.gitbook/assets/mobile-album.png" alt="Archives view showing saved clips" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/mobile-album.png" alt="" width="300"></div>
 
 1. Tap the **menu icon (≡)** in the top left to open the sidebar.
 2. Select **Archives**.
