@@ -14,10 +14,6 @@
 * [Connect a camera](getting-started/connect-a-camera.md)
 * [Use the Lumana mobile app](getting-started/use-the-lumana-mobile-app.md)
 
-## What's new
-
-* [Release notes](whats-new/release-notes.md)
-
 ## Configuring cameras and devices
 
 * [Overview](configuring-cameras-and-devices/overview.md)
@@ -139,15 +135,6 @@
 * [Generate reports](databases-analytics-and-search/generate-reports.md)
 * [Space occupancy analytics](databases-analytics-and-search/space-occupancy-analytics.md)
 * [Enhance your video data with Lumana Event Tags](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md)
-
-## Software integrations
-
-* [Webhooks](software-integrations/webhooks.md)
-* [REST APIs](software-integrations/rest-apis.md)
-* [Kisi access control](software-integrations/kisi-access-control.md)
-* [Genea access control](software-integrations/genea-access-control.md)
-* [Milestone VMS](software-integrations/milestone-vms.md)
-* [Microsoft Teams](software-integrations/microsoft-teams.md)
 
 ## Troubleshooting and maintenance
 
