@@ -11,7 +11,7 @@ You'll need to be an active member of your organization before using the app. Yo
 Use one of these links to download the app from the appropriate store:
 
 <table><tbody><tr>
-<td align="center" width="50%"><a href="https://play.google.com/store/apps/details?id=com.lumixai.app" target="_blank" rel="noopener"><img src="../.gitbook/assets/google-play-badge.png" alt="Get it on Google Play"></a></td>
+<td align="center" width="50%"><a href="https://play.google.com/store/apps/details?id=com.lumixai.app" target="_blank" rel="noopener"><img src="../.gitbook/assets/google-play-badge.svg" alt="Get it on Google Play"></a></td>
 <td align="center" width="50%"><a href="https://apps.apple.com/us/app/lumana/id6449496806?itsct=apps_box_badge&itscg=30200" target="_blank" rel="noopener"><img src="../.gitbook/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store"></a></td>
 </tr></tbody></table>
 
