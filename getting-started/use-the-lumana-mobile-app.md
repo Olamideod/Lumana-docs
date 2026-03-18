@@ -10,8 +10,10 @@ You'll need to be an active member of your organization before using the app. Yo
 
 Use one of these links to download the app from the appropriate store:
 
-| [![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.lumixai.app) | [![Download on the App Store](../.gitbook/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/us/app/lumana/id6449496806?itsct=apps_box_badge\&itscg=30200) |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+<table><tbody><tr>
+<td align="center"><a href="https://play.google.com/store/apps/details?id=com.lumixai.app" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height:50px;width:auto;"></a></td>
+<td align="center"><a href="https://apps.apple.com/us/app/lumana/id6449496806?itsct=apps_box_badge&itscg=30200" target="_blank" rel="noopener"><img src="../.gitbook/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" style="height:50px;width:auto;"></a></td>
+</tr></tbody></table>
 
 Alternatively, scan this QR code:
 
@@ -215,7 +217,6 @@ If notifications aren't already enabled for Lumana, then turn them on in your An
 2. Select **Apps and notifications**, then select **Lumana**.
 3. Select **Notifications**.
 4. Toggle notifications on.
-
 
 
 With notifications enabled, Lumana can alert you to events in real time regardless of which device you're on. The app gives you full access to your cameras, footage, alerts, and video walls from anywhere.
