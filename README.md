@@ -27,7 +27,7 @@ Lumana is an AI-powered video security platform. This documentation covers every
 <td><img src=".gitbook/assets/icon-file-text.svg" alt=""></td>
 <td><strong>What's new</strong></td>
 <td>Stay updated with the latest features and release notes.</td>
-<td><a href="whats-new/release-notes.md">whats-new/release-notes.md</a></td>
+<td><a href="../changelog/">../changelog/</a></td>
 </tr>
 <tr>
 <td><img src=".gitbook/assets/icon-settings.svg" alt=""></td>
@@ -92,10 +92,16 @@ Lumana is an AI-powered video security platform. This documentation covers every
 </thead>
 <tbody>
 <tr>
+<td><img src=".gitbook/assets/icon-code.svg" alt=""></td>
+<td><strong>API Reference</strong></td>
+<td>REST API endpoints and webhook references for building custom integrations.</td>
+<td><a href="../api-reference/">../api-reference/</a></td>
+</tr>
+<tr>
 <td><img src=".gitbook/assets/icon-link.svg" alt=""></td>
 <td><strong>Software integrations</strong></td>
-<td>Webhooks, REST APIs, Kisi, Genea, Milestone VMS, and Microsoft Teams.</td>
-<td><a href="software-integrations/webhooks.md">software-integrations/webhooks.md</a></td>
+<td>Kisi, Genea, Milestone VMS, and Microsoft Teams setup guides.</td>
+<td><a href="../integrations/">../integrations/</a></td>
 </tr>
 <tr>
 <td><img src=".gitbook/assets/icon-wrench.svg" alt=""></td>
