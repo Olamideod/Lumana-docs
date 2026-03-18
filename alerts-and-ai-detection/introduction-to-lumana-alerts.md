@@ -18,15 +18,12 @@ Once you've set up your alerts, you can monitor and manage them from a single vi
 
 Each alert includes a video clip, detected object data, and metadata such as the camera name, timestamp, and location. From the **Alerts** section you can:
 
-* Monitor incoming alerts in real time using the **Monitoring** view.
+* Monitor incoming alerts in real time using the **Monitoring** view, including controls to mute and unmute sound notifications.
 * Filter alerts by camera, object type (Person, Vehicle, or Gun), alert type, tags, and acknowledgement status.
 * Set a time range using relative intervals (minutes, hours, days, or weeks) or a specific calendar date.
 * Switch between **Clips** and **Objects** views to see alerts as video clips or detected objects.
-* Mute and unmute incoming alert sound notifications.
+* Review clips, images, and detected objects for each triggered alert, then acknowledge or share directly from the alert detail.
 * Save your current filter and time range settings as a named view for quick access later.
-* Review video clips, images, and detected objects for each triggered alert.
-* Acknowledge alerts to mark them as reviewed.
-* Share alerts with others directly from the alert detail.
 * Set up and manage alert rules in **Configuration**.
 
 For organizations that need around-the-clock coverage, Lumana also offers a professional monitoring service.
