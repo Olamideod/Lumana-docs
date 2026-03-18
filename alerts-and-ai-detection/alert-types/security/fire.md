@@ -14,4 +14,4 @@ Fire detection works best as a supplementary layer in environments where visual 
 - Covering outdoor areas or locations where smoke detectors are impractical.
 - Supporting faster incident response by providing a video clip alongside the alert notification.
 
-In each case, visual detection adds a coverage layer that's independent of physical sensors and available wherever cameras are deployed. [Fall detection](fall.md) applies that same visual-only approach to personal safety incidents.
+In each case, visual detection adds a coverage layer that's independent of physical sensors and available wherever cameras are deployed.
