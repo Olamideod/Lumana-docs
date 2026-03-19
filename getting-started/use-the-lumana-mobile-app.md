@@ -11,8 +11,8 @@ You'll need to be an active member of your organization before using the app. Yo
 Use one of these links to download the app from the appropriate store:
 
 <table align="center"><tbody><tr>
-<td align="center"><a href="https://play.google.com/store/apps/details?id=com.lumixai.app" target="_blank" rel="noopener"><img src="../.gitbook/assets/google-play-badge.svg" alt="Get it on Google Play"></a></td>
-<td align="center"><a href="https://apps.apple.com/us/app/lumana/id6449496806?itsct=apps_box_badge&itscg=30200" target="_blank" rel="noopener"><img src="../.gitbook/assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store"></a></td>
+<td align="center"><a href="https://play.google.com/store/apps/details?id=com.lumixai.app" target="_blank" rel="noopener"><img src="../.gitbook/assets/getting-started/google-play-badge.svg" alt="Get it on Google Play"></a></td>
+<td align="center"><a href="https://apps.apple.com/us/app/lumana/id6449496806?itsct=apps_box_badge&itscg=30200" target="_blank" rel="noopener"><img src="../.gitbook/assets/getting-started/app-store-badge.svg" alt="Download on the App Store"></a></td>
 </tr></tbody></table>
 
 Alternatively, scan this QR code:
@@ -33,7 +33,7 @@ The app has four sections in the bottom navigation bar. Each one leads to a diff
 Tap the **menu icon (≡)** in the top left to open the sidebar. The sidebar gives you access to everything in the app from one place.
 
 
-<div align="center"><img src="../.gitbook/assets/mobile-side-bar.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-side-bar.png" alt="" width="300"></div>
 
 The sidebar links to the following sections, each of which is explained below:
 
@@ -51,25 +51,25 @@ Tap **Devices** in the bottom navigation bar or the sidebar to view your camera 
 
 The **Cameras** view shows your cameras as thumbnails grouped by location. This is the default view when you open the **Devices** tab.
 
-<div align="center"><img src="../.gitbook/assets/mobile-devices-tab.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-devices-tab.png" alt="" width="300"></div>
 
 ### Map
 
 The **Map** view shows your camera locations on a satellite map powered by Google Maps.
 
-<div align="center"><img src="../.gitbook/assets/mobile-map.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-map.png" alt="" width="300"></div>
 
 ### Floor plan
 
 The **Floor plan** view shows your cameras placed on building floor plans, organized by building and floor.
 
-<div align="center"><img src="../.gitbook/assets/mobile-floor-plan.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-floor-plan.png" alt="" width="300"></div>
 
 ### List
 
 The **List** view shows your cameras in a structured list grouped by Cores and Cameras.
 
-<div align="center"><img src="../.gitbook/assets/mobile-list.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-list.png" alt="" width="300"></div>
 
 Tap any camera in any of these views to open it. Each camera has four tabs at the top of the screen:
 
@@ -80,7 +80,7 @@ Tap any camera in any of these views to open it. Each camera has four tabs at th
 
 The **Live** tab has the following controls:
 
-<div align="center"><img src="../.gitbook/assets/mobile-live-tab.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-live-tab.png" alt="" width="300"></div>
 
 * **Quality**: Switch between video quality settings.
 * **Multi-cameras**: View multiple cameras at once.
@@ -93,13 +93,13 @@ You can switch to recorded footage without leaving the camera view.
 
 ## Review playback footage
 
-<div align="center"><img src="../.gitbook/assets/mobile-playback-tab.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-playback-tab.png" alt="" width="300"></div>
 
 1. Tap on a camera's live feed and select the **Playback** tab.
 2. Scroll the timeline to the time and date you want to review.
 3. Tap **When** to open the date and time picker. Scroll the wheels to select a date, hour, minute, and AM/PM, then tap **Save** to jump to that point.
 
-<div align="center"><img src="../.gitbook/assets/mobile-playback-when.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-playback-when.png" alt="" width="300"></div>
 
 4. Use the **1x** control to adjust playback speed.
 5. Scroll down to the **Events** section to see activity detected in that period.
@@ -111,9 +111,9 @@ The **Playback** tab also has the following controls:
 * **Multi-cameras**: View up to four cameras simultaneously on the same screen.
 * **Album**: Browse all archived clips for the camera, filtered by time.
 
-<div align="center"><img src="../.gitbook/assets/mobile-recording.png" alt="" width="300"> <img src="../.gitbook/assets/mobile-create-archive.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-recording.png" alt="" width="300"> <img src="../.gitbook/assets/getting-started/mobile-app/mobile-create-archive.png" alt="" width="300"></div>
 
-<div align="center"><img src="../.gitbook/assets/mobile-playback-multicamera.png" alt="" width="300"> <img src="../.gitbook/assets/mobile-album.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-playback-multicamera.png" alt="" width="300"> <img src="../.gitbook/assets/getting-started/mobile-app/mobile-album.png" alt="" width="300"></div>
 
 ## Monitor alerts
 
@@ -123,7 +123,7 @@ You can review alerts for a single camera or across your entire organization. Bo
 
 The **Alerts** tab inside a camera shows only the alerts triggered by that camera.
 
-<div align="center"><img src="../.gitbook/assets/mobile-alerts-tab.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-alerts-tab.png" alt="" width="300"></div>
 
 1. Open a camera and select the **Alerts** tab.
 2. Use the filter chips to narrow results by camera, time range, or acknowledgement status.
@@ -154,7 +154,7 @@ Each camera's **Search** tab lets you search footage from that camera only.
 
 The **Search** section in the bottom navigation bar lets you search footage across all cameras at once.
 
-<div align="center"><img src="../.gitbook/assets/mobile-search-tab-bottom.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-search-tab-bottom.png" alt="" width="300"></div>
 
 1. Select **Search** in the bottom navigation bar.
 2. Tap the filter icon to set your search criteria.
@@ -164,7 +164,7 @@ The **Search** section in the bottom navigation bar lets you search footage acro
 
 The **Walls** tab shows all video walls available in your organization. Tap any wall to open it.
 
-<div align="center"><img src="../.gitbook/assets/mobile-walls-tab.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-walls-tab.png" alt="" width="300"></div>
 
 1. Select the **Walls** tab.
 2. Tap a wall to open it.
@@ -175,7 +175,7 @@ The **Walls** tab shows all video walls available in your organization. Tap any 
 
 The **Archives** section in the sidebar shows all clips you've saved across your organization. Use it to quickly access any footage you've archived from a camera's Playback tab.
 
-<div align="center"><img src="../.gitbook/assets/mobile-album.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-album.png" alt="" width="300"></div>
 
 1. Tap the **menu icon (≡)** in the top left to open the sidebar.
 2. Select **Archives**.
@@ -190,7 +190,7 @@ To receive alert notifications on your phone, you need to enable them in two pla
 
 The bell icon in the top right controls your in-app notification settings. Tap it to open the notification panel.
 
-<div align="center"><img src="../.gitbook/assets/mobile-notifications-off.png" alt="" width="300"> <img src="../.gitbook/assets/mobile-notifications-on.png" alt="" width="300"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/mobile-app/mobile-notifications-off.png" alt="" width="300"> <img src="../.gitbook/assets/getting-started/mobile-app/mobile-notifications-on.png" alt="" width="300"></div>
 
 From the notification panel you can:
 

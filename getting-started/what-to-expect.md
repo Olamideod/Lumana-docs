@@ -11,7 +11,7 @@ A typical Lumana deployment has four components working together:
 * **Cloud**: Lumana's secure cloud infrastructure connects your Core to the platform and enables remote access.
 * **VMS+**: The unified management interface, accessible from a browser or the mobile app, for live monitoring, alerts, search, and administration.
 
-<div align="center"><img src="../.gitbook/assets/lumana-system-overview.png" alt="" width="400"></div>
+<div align="center"><img src="../.gitbook/assets/getting-started/lumana-system-overview.png" alt="" width="500"></div>
 
 ## What the setup involves
 
