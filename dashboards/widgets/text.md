@@ -1,3 +1,101 @@
 # Text
+ 
+The Text widget adds a formatted text block to your dashboard. Use it to label a group of widgets, describe what a dashboard section shows, or add written context that helps make sense of the data at a glance.
+ 
+## Add a Text widget
+ 
+The Text widget opens a rich text editor where you can write and format your content before placing it on the canvas.
+ 
+1. Open a dashboard and select **Add widget**.
+2. Select **Text**. The **Add text** dialog opens.
+ 
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-text-dialog.png" alt="Add text dialog showing a rich text editor. The toolbar includes undo and redo, paragraph style set to Paragraph, Bold, Italic, Underline, font size, font color, highlight, alignment, bullet and numbered lists, and link. The editor area is blank. Add button at the bottom right." width="720"></div>
+ 
+3. Enter your text in the editor area.
+4. Use the toolbar to format it. The formatting options are covered in [Formatting options](#formatting-options) below.
+5. Select **Add**. The text block appears on the dashboard canvas.
+ 
+With the widget on the canvas, you can resize it to adjust the amount of space it occupies. The text reflows automatically as you resize.
+ 
+## Formatting options
+ 
+The toolbar runs across the top of the editor. Here's what each control does.
+ 
+### Undo and redo
+ 
+The undo and redo buttons sit at the far left of the toolbar. Use **Undo** to reverse your last change and **Redo** to reapply it.
 
-Coming soon!
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-text-undo-dialog.png" alt="Paragraph style dropdown open: Paragraph (checked), Heading 1, Heading 2, and Heading 3, each at its relative size." width="720"></div>
+ 
+### Paragraph style
+ 
+The paragraph style dropdown sets the text structure. Select it to choose a style.
+ 
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-text-paragraph-styles.png" alt="Paragraph style dropdown open: Paragraph (checked), Heading 1, Heading 2, and Heading 3, each at its relative size." width="720"></div>
+ 
+The options are:
+ 
+- **Paragraph**: Default body text.
+- **Heading 1**: Largest heading size.
+- **Heading 2**: Mid-size heading.
+- **Heading 3**: Smallest heading size.
+ 
+### Text formatting
+ 
+Three inline formatting controls sit next to the paragraph style dropdown:
+ 
+- **Bold**: Makes selected text bold.
+- **Italic**: Makes selected text italic.
+- **Underline**: Underlines selected text.
+
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-text-format-dialog.png" alt="Font size dropdown open: 12, 14, Default (checked), 18, 24, and 32, each at its relative size." width="720"></div>
+ 
+### Font size
+ 
+The font size selector sets the size of selected text. The available sizes are 12, 14, 18, 24, and 32. The default size applies when no size is explicitly set.
+ 
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-text-font-size.png" alt="Font size dropdown open: 12, 14, Default (checked), 18, 24, and 32, each at its relative size." width="720"></div>
+ 
+### Font color
+ 
+The font color control sets the color of selected text. Select it to open the color panel.
+ 
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-text-font-color.png" alt="Font color panel: Remove color at top, grid of 15 preset swatches, Color picker at bottom." width="720"></div>
+ 
+- Select a preset swatch to apply that color.
+- Select **Color picker** to choose a custom color.
+- Select **Remove color** to clear the color from selected text.
+ 
+### Highlight color
+ 
+The highlight color control applies a background color to selected text. It uses the same color panel as the font color control.
+ 
+### Alignment
+ 
+The alignment control sets how text is positioned horizontally. Select it to choose an option.
+ 
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-text-alignment.png" alt="Alignment dropdown open: left, center, right, and justify as line icons." width="720"></div>
+ 
+The options are left, center, right, and justify.
+ 
+### Lists
+ 
+The bullet list and numbered list controls each have a dropdown with multiple style options.
+ 
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-text-bullet-list.png" alt="Bullet list dropdown: Disc, Circle, and Square styles." width="720"></div>
+ 
+Bullet list styles: **Disc**, **Circle**, and **Square**.
+ 
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-text-numbered-list.png" alt="Numbered list dropdown: 1.2.3., 01.02.03., a.b.c., A.B.C., and List properties at the bottom." width="720"></div>
+ 
+Numbered list styles: 1.2.3., 01.02.03., a.b.c., and A.B.C. Select **List properties** to adjust list settings.
+ 
+### Link
+ 
+The link button adds a hyperlink to selected text. Select the text you want to link, then select the link button and enter the URL.
+ 
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-text-link.png" alt="Add text dialog with URL as a blue hyperlink in the editor; numbered list dropdown open in the background." width="720"></div>
+ 
+## Edit or delete the widget
+ 
+To edit or delete the widget, follow the steps in [Change widget settings](../create-and-manage-dashboards.md#change-widget-settings) and [Delete a widget](../create-and-manage-dashboards.md#delete-a-widget) in Create and manage dashboards.

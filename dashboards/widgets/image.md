@@ -45,5 +45,3 @@ To edit the widget:
 
 1. Select the **edit icon** on the widget.
 2. Upload a new image and select **Save**.
-
-To delete the widget, select the **delete icon** on the widget while in edit mode.
