@@ -122,6 +122,19 @@
     * [Custom state duration](alerts-and-ai-detection/alert-types/object-states/custom-state-duration.md)
   * [Arm/Disarm](alerts-and-ai-detection/alert-types/arm-disarm/README.md)
     * [Zone armed/disarmed](alerts-and-ai-detection/alert-types/arm-disarm/zone-armed-disarmed.md)
+
+## Dashboards
+
+* [Dashboards](dashboards/README.md)
+* [Create and manage dashboards](dashboards/create-and-manage-dashboards.md)
+* [Filter a dashboard](dashboards/filter-a-dashboard.md)
+* [Widgets](dashboards/widgets/README.md)
+  * [Chart or table](dashboards/widgets/chart-or-table.md)
+  * [Heatmap](dashboards/widgets/heatmap.md)
+  * [Occupancy](dashboards/widgets/occupancy.md)
+  * [Image](dashboards/widgets/image.md)
+  * [Text](dashboards/widgets/text.md)
+
 ## Databases, analytics, and search
 
 * [Build a database of people and vehicles](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md)
@@ -150,19 +163,6 @@
 
 * [Professional monitoring with Lumana](monitoring-services/professional-monitoring-with-lumana.md)
 * [Partner Monitoring Portal](monitoring-services/partner-monitoring-portal.md)
-
-## FAQ and reference
-
-* [Getting Started FAQs](faq-and-reference/getting-started-faqs.md)
-* [System requirements](faq-and-reference/system-requirements.md)
-* [Deployment and integration](faq-and-reference/deployment-and-integration.md)
-* [Security and compliance](faq-and-reference/security-and-compliance.md)
-* [Access control](faq-and-reference/access-control.md)
-* [Video storage](faq-and-reference/video-storage.md)
-* [Offline operation](faq-and-reference/offline-operation.md)
-* [Return instructions](faq-and-reference/return-instructions.md)
-* [Lifetime warranty](faq-and-reference/lifetime-warranty.md)
-* [Lumana glossary](faq-and-reference/lumana-glossary.md)
 
 ## Concepts
 

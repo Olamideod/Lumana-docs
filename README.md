@@ -93,8 +93,8 @@ Lumana is an AI-powered video security platform. This documentation covers every
 <tbody>
 <tr>
 <td><img src=".gitbook/assets/icons/icon-code.svg" alt=""></td>
-<td><strong>API Reference</strong></td>
-<td>REST API endpoints and webhook references for building custom integrations.</td>
+<td><strong>Reference</strong></td>
+<td>REST APIs, Webhooks, FAQs, system requirements, security and compliance, and the Lumana glossary.</td>
 <td><a href="../api-reference/">../api-reference/</a></td>
 </tr>
 <tr>
@@ -131,12 +131,6 @@ Lumana is an AI-powered video security platform. This documentation covers every
 </tr>
 </thead>
 <tbody>
-<tr>
-<td><img src=".gitbook/assets/icons/icon-help-circle.svg" alt=""></td>
-<td><strong>FAQ and reference</strong></td>
-<td>System requirements, security, access control, storage, and the Lumana glossary.</td>
-<td><a href="faq-and-reference/getting-started-faqs.md">faq-and-reference/getting-started-faqs.md</a></td>
-</tr>
 <tr>
 <td><img src=".gitbook/assets/icons/icon-lightbulb.svg" alt=""></td>
 <td><strong>Concepts</strong></td>
