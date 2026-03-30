@@ -9,11 +9,11 @@ Before uploading, confirm that your file is a PNG or JPG and that its name conta
 1. Open a dashboard and select **Add widget**.
 2. Select **Image**. The **Add images** dialog opens.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-image-dialog.png" alt="Add images dialog in its initial state: drag and drop zone, accepted file types png and jpg, and upload from computer control." width="720"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-image-dialog.png" alt="" width="480"></div>
 
 3. Drag an image file into the upload area, or select **Or upload from your computer** to browse and select a file. When the file loads successfully, the dialog shows the file name, and the **Add** button becomes active.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-image-upload-success.png" alt="Add images dialog showing a successfully loaded file: image icon and file name floor_plan.png in the dialog body, with the Add button active in the bottom right corner." width="720"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-image-upload-success.png" alt="" width="480"></div>
 
 4. Select **Add**. The image appears on the dashboard canvas.
 
@@ -23,7 +23,7 @@ File names must contain only letters, numbers, and underscores. Spaces, hyphens,
 
 If the file name is invalid, the upload area highlights in red and shows the message: "Name must contain only letters, numbers, or underscores." Select **Upload different images** to choose a renamed file. The **Add** button stays disabled until a valid file is uploaded.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-image-upload-filename-error.png" alt="Add images dialog in error state: red border on the upload area and message that the name must contain only letters, numbers, or underscore." width="720"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-image-upload-filename-error.png" alt="" width="480"></div>
 
 With a valid file name, the upload proceeds normally.
 

@@ -12,14 +12,14 @@ Select the datasource that matches what you want to track. Each one measures som
 <tbody>
 <tr valign="top">
 <td width="33%">
-<img src="../../.gitbook/assets/dashboards/widget-chart-datasource-objects.png" alt="Camera frame showing a person detected in a room." width="300">
+<img src="../../.gitbook/assets/dashboards/widget-chart-datasource-objects.png" alt="" width="240">
 <p><strong>Objects</strong></p>
 <p>Counts camera detections of people, vehicles, and animals. Every detection is a recorded event you can drill into to see the actual camera frames.</p>
 <p>Use this when you want to understand physical activity. For example, how many people passed through the main entrance between 6 and 9 AM, how long vehicles stayed in a loading zone, or which hour of the day sees the most foot traffic.</p>
 <p><a href="chart-or-table-objects.md">Set up with Objects →</a></p>
 </td>
 <td width="33%">
-<img src="../../.gitbook/assets/dashboards/widget-chart-datasource-alerts.png" alt="Alert record showing a gun detection event with bounding boxes on a person, alert rule name, timestamp, and location." width="300">
+<img src="../../.gitbook/assets/dashboards/widget-chart-datasource-alerts.png" alt="" width="240">
 <p><strong>Alerts</strong></p>
 <p>Counts alert events fired by your configured alert rules. Each count represents a moment a rule condition was met: a gun detected, a safety helmet missing, a zone breached.</p>
 <p>Use this when you want to monitor rule-triggered incidents over time. For example, how many PPE violations occurred this week, whether gun detection alerts are increasing, or which camera triggers the most trespassing alerts.</p>

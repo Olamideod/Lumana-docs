@@ -15,7 +15,7 @@ Adding a Heatmap widget opens a single configuration dialog where you select a c
 1. Open a dashboard and select **Add widget**.
 2. Select **Heatmap**. The configuration dialog opens.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-dialog.png" alt="Heatmap configuration dialog: Title, Camera, Display, Opacity, Visualization, Time on the left; preview on the right; Add at the bottom right." width="720"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-dialog.png" alt="" width="480"></div>
 
 3. Enter a name in the **Title** field.
 4. Enter a camera name in the **Camera** field or select one from the list.
@@ -34,19 +34,19 @@ With the widget added, the heatmap renders on the dashboard canvas using the set
 
 The **Camera** field lists all cameras configured in your system. The Heatmap widget displays activity from a single camera at a time. To compare activity across multiple cameras, add a separate Heatmap widget for each one.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-camera-field.png" alt="Heatmap dialog Camera field with camera name selected and list of available cameras." width="720"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-camera-field.png" alt="" width="480"></div>
 
 ## Display mode
 
 The **Display** setting controls which detected object types the heatmap visualizes. Select the dropdown to choose a mode.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-display-group.png" alt="Heatmap dialog with Display dropdown open, Group selected, and Person, Vehicle, and Animal options." width="720"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-display-group.png" alt="" width="480"></div>
 
 - **All objects**: Tracks every detected object type across the camera feed.
 - **Group**: Shows activity grouped by object category. Select **Person**, **Vehicle**, or **Animal**, or use **Select all** for all three.
 - **Individual**: Shows activity for specific detected subjects, such as Unknown person, Adult male, or Bus. The options shown depend on what the camera has detected.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-display-individual.png" alt="Heatmap dialog with Display set to Individual and options for specific detected subjects such as Unknown person and Adult male." width="720"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-display-individual.png" alt="" width="480"></div>
 
 With your display mode set, you can control how strongly the overlay appears on the camera image.
 
@@ -62,11 +62,11 @@ The scale affects how differences in activity density are represented across the
 
 - **Linear**: Activity values map directly to color intensity, so the busiest areas appear most intense. Use this to quickly identify high-traffic zones, chokepoints, or entry points. Low-activity areas appear faint or empty.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-viz-linear.png" alt="Heatmap dialog with Linear visualization selected; preview shows intense color at busiest areas and faint overlay elsewhere." width="720"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-viz-linear.png" alt="" width="480"></div>
 
 - **Logarithmic**: Compresses high-activity areas and expands low-activity ones on the color scale. Use this when one area dominates the data so heavily that everything else appears flat, for example, when you suspect movement in a rarely used exit or a low-traffic zone that a linear scale would hide.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-viz-logarithmic.png" alt="Heatmap dialog with Logarithmic visualization selected; preview spreads color across more of the scene so lower-activity areas are visible." width="720"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-viz-logarithmic.png" alt="" width="480"></div>
 
 With your visualization scale set, you can optionally lock the widget to a specific time range.
 
@@ -74,7 +74,7 @@ With your visualization scale set, you can optionally lock the widget to a speci
 
 Each Heatmap widget can have its own time range, independent of the dashboard filter. Set it in the **Time** dropdown at the bottom of the configuration dialog.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-time-dropdown.png" alt="Heatmap dialog with Time dropdown open showing preset ranges such as Today, This week, and Last 7 days, plus a warning about disconnecting from dashboard filters." width="720"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-time-dropdown.png" alt="" width="480"></div>
 
 > **Note:** Setting a widget-level time disconnects the widget from the dashboard time filter. To reconnect it, then clear the widget's time setting back to `---`.
 

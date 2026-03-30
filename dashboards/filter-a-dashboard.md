@@ -2,13 +2,13 @@
 
 Dashboard filters let you control what data all widgets on a dashboard display. You can filter by camera, object type, and time range, and configure auto refresh, fullscreen mode, and default filter settings. Filters apply to every widget on the dashboard unless a widget has its own time setting configured.
 
-<div align="center"><img src="../.gitbook/assets/dashboards/dashboard-filter-bar.png" alt="Dashboard filter bar with Cameras, object type, time range, reset and pin icons, auto refresh, refresh interval, manual refresh, and fullscreen." width="720"></div>
+<div align="center"><img src="../.gitbook/assets/dashboards/dashboard-filter-bar.png" alt="" width="480"></div>
 
 ## Camera filter
 
 The **Cameras** field controls which cameras contribute data to the dashboard. Select it to open the camera picker, then choose the cameras you want to include.
 
-<div align="center"><img src="../.gitbook/assets/dashboards/filter-choose-cameras.png" alt="Choose cameras dialog with search, All cameras checkbox, and camera list grouped by location." width="720"></div>
+<div align="center"><img src="../.gitbook/assets/dashboards/filter-choose-cameras.png" alt="" width="480"></div>
 
 - Select **All cameras** to include every camera in your organization.
 - To filter by specific cameras, select individual cameras from the list or search by name or location.
@@ -20,7 +20,7 @@ The camera filter is now set. Next, narrow the data further by selecting which o
 
 The object type filter narrows the data to specific detection categories. Select the **All objects** dropdown to choose a filter mode.
 
-<div align="center"><img src="../.gitbook/assets/dashboards/filter-object-group.png" alt="Object type dropdown open with Group selected and Person, Vehicle, Animal, Shopping cart, and Container options." width="720"></div>
+<div align="center"><img src="../.gitbook/assets/dashboards/filter-object-group.png" alt="" width="480"></div>
 
 There are three modes:
 
@@ -40,7 +40,7 @@ The picker has two tabs: **Relative** and **Calendar**. Select **Done** to apply
 
 Use **Relative** for rolling windows that count backward from now, for example, the last two weeks of data.
 
-<div align="center"><img src="../.gitbook/assets/dashboards/filter-time-relative.png" alt="Time picker with Relative tab active: preset chips for Minutes, Hours, Days, and Weeks, plus a numeric field and unit dropdown for custom values." width="720"></div>
+<div align="center"><img src="../.gitbook/assets/dashboards/filter-time-relative.png" alt="" width="480"></div>
 
 - Select a preset chip (minutes, hours, days, or weeks). The number field and unit dropdown below update to match.
 - To set a custom range, enter a number in the field and select a unit from the dropdown.
@@ -49,7 +49,7 @@ Use **Relative** for rolling windows that count backward from now, for example, 
 
 Use **Calendar** for exact start and end dates and times, for example, an incident window.
 
-<div align="center"><img src="../.gitbook/assets/dashboards/filter-time-calendar.png" alt="Time picker with Calendar tab active: two-month calendar, selected range highlighted, From and To date and time fields, and Done and Cancel." width="720"></div>
+<div align="center"><img src="../.gitbook/assets/dashboards/filter-time-calendar.png" alt="" width="480"></div>
 
 - Select a start day and an end day on the calendar. The range between them is highlighted.
 - Set the **From** and **To** date and time in the fields below for precision. Selecting a time field opens a time picker where you can set hours, minutes, and AM or PM.
