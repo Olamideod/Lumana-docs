@@ -14,7 +14,7 @@
 * [Connect a camera](getting-started/connect-a-camera.md)
 * [Use the Lumana mobile app](getting-started/use-the-lumana-mobile-app.md)
 
-## Configuring cameras and devices
+## Set up cameras and devices
 
 * [Overview](configuring-cameras-and-devices/overview.md)
 * [Set up a static IP address](configuring-cameras-and-devices/set-up-a-static-ip-address.md)
