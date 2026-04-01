@@ -8,13 +8,13 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 2. Select **Chart or table**. The configuration dialog opens.
 3. Enter a name in the **Title** field.
 
-   The title appears on the widget on the dashboard canvas. Use a name that identifies what the widget is tracking.
+   The title appears on the widget on the dashboard canvas. Use a name that identifies what the widget is tracking, for example "Main entrance detections today" or "Vehicle dwell time by hour."
 
-4. Select **Objects** as the datasource.
+4. Under **Datasource**, select **Objects**.
 
 <div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-datasource.png" alt="" width="480"></div>
 
-5. Select a visualization type from the icon row. The preview panel on the right updates immediately when you switch types. For a short comparison of all seven formats, see [Visualization types](chart-or-table-visualization-types.md). Review the tables below to choose the format that best matches what you want to communicate, then continue to step 6.
+5. In **Visualization**, select a format from the icon row. The preview panel on the right updates immediately when you switch types. For a short comparison of all seven formats, see [Visualization types](chart-or-table-visualization-types.md). Review the tables below to choose the format that best matches what you want to communicate, then continue to step 6.
 
 <div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-visualization-icons.png" alt="" width="480"></div>
 
@@ -41,7 +41,7 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 <tr valign="top">
 <td>
 <p><strong>Line chart</strong></p>
-<p>A line connecting data points over time. Use this to track trends across a longer period, for example spotting a weekly pattern where activity spikes on weekday mornings. Click a data point to open the Object records for that time.</p>
+<p>A line connecting data points over time. Use this to track trends across a longer period, for example spotting a weekly pattern where activity is much higher on weekday mornings. Click a data point to open the Object records for that time.</p>
 </td>
 <td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-line.png" alt="" width="400"></td>
 </tr>
@@ -61,7 +61,7 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 </tr>
 <tr valign="top">
 <td>
-<p><strong>Number</strong></p>
+<p><strong>Counter</strong></p>
 <p>A single large count. Use this for a quick at-a-glance total, for example the total number of people detected today.</p>
 </td>
 <td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-number.png" alt="" width="400"></td>
@@ -121,7 +121,7 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 </tr>
 <tr valign="top">
 <td>
-<p><strong>Number</strong></p>
+<p><strong>Counter</strong></p>
 <p>A single large dwell time value in seconds.</p>
 </td>
 <td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-dwell-number.png" alt="" width="400"></td>
@@ -136,7 +136,7 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 </tbody>
 </table>
 
-   If you selected **Number**, then skip to [Number visualization](#number-visualization). If you selected **Table**, then skip to [Table visualization](#table-visualization). For all other types, continue with step 6 below.
+   If you selected **Counter** in **Visualization**, then skip to [Counter visualization](#counter-visualization). If you selected **Table** in **Visualization**, then skip to [Table visualization](#table-visualization). For all other types, continue with step 6 below.
 
 6. Set the **X-Axis**. The first dropdown controls how data is grouped.
 
@@ -218,16 +218,16 @@ When you click on a data point in the chart, Lumana opens the Object records vie
 </tbody>
 </table>
 
-## Number visualization
+## Counter visualization
 
-If you selected Number in step 5, three unlabelled dropdowns replace the X-Axis and Y-Axis fields. The number on the canvas changes based on what you select in each dropdown.
+If you selected **Counter** in **Visualization** in step 5, three unlabelled dropdowns replace the X-Axis and Y-Axis fields. The count on the canvas updates based on what you select in each dropdown.
 
 The first dropdown controls the metric:
 
 - **Appearance**: Counts how many times objects were detected in the frame.
 - **Dwell Time**: Measures how long objects remained in view, in seconds. If no dwell time data has been recorded for the selected cameras and time range, the widget displays 0.
 
-The second dropdown controls aggregation: how the number is calculated across the selected time range and cameras.
+The second dropdown controls aggregation: how the count is calculated across the selected time range and cameras.
 
 <div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-number-aggregation.png" alt="" width="480"></div>
 
@@ -265,7 +265,7 @@ Once you've set the three dropdowns, continue with step 8 to select cameras.
 
 ## Table visualization
 
-If you selected Table in step 5, the X-Axis becomes **Group** and the Y-Axis becomes **Column**.
+If you selected **Table** in **Visualization** in step 5, the X-Axis becomes **Group** and the Y-Axis becomes **Column**.
 
 **Group** controls how rows are organized. The first dropdown sets the grouping type: **Time**, **Locations**, or **Cameras**.
 

@@ -15,3 +15,7 @@ Event tag alerts are useful when you need to correlate video footage with data f
 - Triggering an alert when a specific access control event occurs and linking it to the corresponding camera view.
 
 In each case, the value is in connecting an external system event to the moment it happened on camera.
+
+## API and dashboards
+
+To define event tags, send `eventTypeId` and payloads, and chart counts, see [Enhance your video data with Lumana Event Tags](../../../databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) and [Event tags (Chart or table)](../../../dashboards/widgets/chart-or-table-event-tags.md).

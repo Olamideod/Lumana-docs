@@ -1,6 +1,6 @@
 # Chart or table
 
-The Chart or table widget turns camera data into visual reports. You choose a datasource, pick a visualization type, and configure your axes and filters to track what matters across seven different chart and table formats.
+The Chart or table widget turns camera data into visual reports. You choose a datasource, pick a format in **Visualization**, and configure your axes and filters to track what matters across seven different chart and table formats.
 
 A datasource is the type of data the widget draws from. Lumana records three kinds of events from your cameras: object detections, alert firings, and manually applied event tags. The datasource you select determines which of these the widget counts, what filters are available, and how the axes behave. Each datasource has its own configuration guide.
 
@@ -21,12 +21,12 @@ Select the datasource that matches what you want to track. Each one measures som
 <td width="33%">
 <img src="../../.gitbook/assets/dashboards/widget-chart-datasource-alerts.png" alt="" width="240">
 <p><strong>Alerts</strong></p>
-<p>Counts alert events fired by your configured alert rules. Each count represents a moment a rule condition was met: a gun detected, a safety helmet missing, a zone breached.</p>
-<p>Use this when you want to monitor rule-triggered incidents over time. For example, how many PPE violations occurred this week, whether gun detection alerts are increasing, or which camera triggers the most trespassing alerts.</p>
+<p>Counts alert events fired by your configured alert rules. Each count represents a moment a rule condition was met: a gun detected, a safety helmet not worn after 3 minutes, a zone breached.</p>
+<p>Use this when you want to monitor rule-triggered incidents over time. For example, how many alerts for a safety helmet not worn after 3 minutes occurred this week, whether gun detection alerts are increasing, or which camera triggers the most trespassing alerts.</p>
 <p><a href="chart-or-table-alerts.md">Set up with Alerts →</a></p>
 </td>
 <td width="33%">
-<!-- IMAGE: dashboards/widget-chart-datasource-eventtags.png — An event tag record showing a tagged video clip with the tag name, timestamp, and location. -->
+<img src="../../.gitbook/assets/dashboards/widget-chart-datasource-eventtags.png" alt="Chart or table widget configuration with Event tags datasource selected" width="240">
 <p><strong>Event tags</strong></p>
 <p>Counts times event tags were applied to video clips. Each count represents a moment an operator manually labelled a clip for review, follow-up, or categorisation.</p>
 <p>Use this when your team tags video clips and you want to measure how often. For example, tracking how many clips were flagged for review this month, or whether tagging activity is consistent across shifts.</p>
@@ -40,6 +40,6 @@ Not sure which datasource to use? Start with Objects if you want to track what t
 
 ## Visualization types
 
-Once you've picked a datasource, you'll choose how to display the data. The widget supports seven formats: vertical bar chart, horizontal bar chart, line chart, vertical stacked bar chart, horizontal stacked bar chart, number, and table. Each suits a different goal. For guidance on choosing the right format, visit [Visualization types](chart-or-table-visualization-types.md)
+Once you've picked a datasource, you'll choose how to display the data. In **Visualization**, the widget supports seven formats: vertical bar chart, horizontal bar chart, line chart, vertical stacked bar chart, horizontal stacked bar chart, **Counter**, and **Table**. Each suits a different goal. For guidance on choosing the right format, visit [Visualization types](chart-or-table-visualization-types.md).
 
 When you're ready, select a datasource above to start building your widget. Each configuration guide walks you through every field from start to finish.

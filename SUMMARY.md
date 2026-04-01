@@ -134,6 +134,7 @@
     * [Objects](dashboards/widgets/chart-or-table-objects.md)
     * [Alerts](dashboards/widgets/chart-or-table-alerts.md)
     * [Event tags](dashboards/widgets/chart-or-table-event-tags.md)
+      * [Event tag clip preview](dashboards/widgets/chart-or-table-event-tags-clip-preview.md)
   * [Heatmap](dashboards/widgets/heatmap.md)
   * [Occupancy](dashboards/widgets/occupancy.md)
   * [Image](dashboards/widgets/image.md)
