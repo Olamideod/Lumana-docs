@@ -9,11 +9,11 @@ Before uploading, confirm that your file is a PNG or JPG and that its name conta
 1. From the dashboard canvas, select **Add widget** in the top right corner. A dropdown lists the five widget types.
 2. Select **Image**. The **Add images** dialog opens.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-image-dialog.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/image/widget-image-dialog.png" alt="" width="480"></div>
 
 3. Drag an image file into the upload area, or select **Or upload from your computer** to browse and select a file. When the file loads successfully, the dialog shows the file name, and the **Add** button becomes active.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-image-upload-success.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/image/widget-image-upload-success.png" alt="" width="480"></div>
 
 4. Select **Add**. The image appears on the dashboard canvas.
 
@@ -23,7 +23,7 @@ File names must contain only letters, numbers, and underscores. Spaces, hyphens,
 
 If the file name is invalid, the upload area highlights in red and shows the message: "Name must contain only letters, numbers, or underscores." Select **Upload different images** to choose a renamed file. The **Add** button stays disabled until a valid file is uploaded.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-image-upload-filename-error.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/image/widget-image-upload-filename-error.png" alt="" width="480"></div>
 
 With a valid file name, the upload proceeds normally.
 

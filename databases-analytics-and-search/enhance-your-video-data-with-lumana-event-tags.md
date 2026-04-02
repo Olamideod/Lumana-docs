@@ -153,4 +153,4 @@ For full configuration steps, visit [Event tag](../alerts-and-ai-detection/alert
 
 Once your events are verified in Search, add a Chart or table widget to a dashboard to visualize the counts over time. Full configuration steps, including axis options, camera selection, time settings, and how to drill into clips from the chart, are covered in [Event tags](../dashboards/widgets/chart-or-table-event-tags.md).
 
-<div align="center"><img src="../.gitbook/assets/dashboards/widget-event-tags-chart-tooltip.png" alt="Vertical bar chart showing event tag counts by day with a tooltip displaying the tag name and a count of 4." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/dashboards/widgets/event-tags/widget-event-tags-chart-tooltip.png" alt="" width="480"></div>

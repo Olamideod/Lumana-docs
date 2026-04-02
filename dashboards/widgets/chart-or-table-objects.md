@@ -12,11 +12,11 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 
 4. Under **Datasource**, select **Objects**.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-datasource.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-datasource.png" alt="" width="360"></div>
 
 5. In **Visualization**, select a format from the icon row. The preview panel on the right updates immediately when you switch types. For a short comparison of all seven formats, see [Visualization types](chart-or-table-visualization-types.md). Review the tables below to choose the format that best matches what you want to communicate, then continue to step 6.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-visualization-icons.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/shared/widget-chart-visualization-icons.png" alt="" width="360"></div>
 
    **Appearance**
 
@@ -29,49 +29,49 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 <p><strong>Vertical bar chart</strong></p>
 <p>Bars grouped by time period or category, vertical layout. Use this to compare detection counts across time intervals. For example, a bar peaking at 6:00 AM with 91 detections tells you that hour had the most activity. Click the bar to open the Object records view and see the actual camera frames from that hour.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-vertical-bar.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/chart-or-table/widget-chart-viz-vertical-bar.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Horizontal bar chart</strong></p>
 <p>Bars grouped by time period or category, horizontal layout. Use this when comparing many time periods or when hour labels are long. Click a bar to open the Object records for that period.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-horizontal-bar.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/chart-or-table/widget-chart-viz-horizontal-bar.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Line chart</strong></p>
 <p>A line connecting data points over time. Use this to track trends across a longer period, for example spotting a weekly pattern where activity is much higher on weekday mornings. Click a data point to open the Object records for that time.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-line.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/chart-or-table/widget-chart-viz-line.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Vertical stacked bar chart</strong></p>
 <p>Vertical bars split by object type, showing composition. Use this to see how people, vehicles, and animals each contribute to the total at each time interval. Click a segment to open the Object records for that object type and time.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-stacked-vertical.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/chart-or-table/widget-chart-viz-stacked-vertical.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Horizontal stacked bar chart</strong></p>
 <p>Horizontal bars split by object type, showing composition. Use this for the same purpose as the vertical stacked chart when a horizontal layout suits your dashboard better.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-stacked-horizontal.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/chart-or-table/widget-chart-viz-stacked-horizontal.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Counter</strong></p>
 <p>A single large count. Use this for a quick at-a-glance total, for example the total number of people detected today.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-number.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/chart-or-table/widget-chart-viz-number.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Table</strong></p>
 <p>Data in rows and columns. Use this when you need precise values rather than a visual trend, or when you want to review exact counts per hour, location, or camera.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-table.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/chart-or-table/widget-chart-viz-table.png" alt="" width="400"></td>
 </tr>
 </tbody>
 </table>
@@ -89,49 +89,49 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 <p><strong>Vertical bar chart</strong></p>
 <p>Bars grouped by time period or category, vertical layout. Use this to compare how long objects stayed in view across time intervals.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-dwell-vertical-bar.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-vertical-bar.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Horizontal bar chart</strong></p>
 <p>Bars grouped by time period or category, horizontal layout.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-dwell-horizontal-bar.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-horizontal-bar.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Line chart</strong></p>
 <p>A line connecting data points over time. Use this to track how dwell time changes across a period.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-dwell-line.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-line.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Vertical stacked bar chart</strong></p>
 <p>Vertical bars split by object type, showing how dwell time is distributed across people, vehicles, and animals.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-dwell-stacked-vertical.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-stacked-vertical.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Horizontal stacked bar chart</strong></p>
 <p>Horizontal bars split by object type, showing dwell time composition.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-dwell-stacked-horizontal.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-stacked-horizontal.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Counter</strong></p>
 <p>A single large dwell time value in seconds.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-dwell-number.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-number.png" alt="" width="400"></td>
 </tr>
 <tr valign="top">
 <td>
 <p><strong>Table</strong></p>
 <p>Data in rows and columns with dwell time values per group or time interval.</p>
 </td>
-<td align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-dwell-table.png" alt="" width="400"></td>
+<td align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-table.png" alt="" width="400"></td>
 </tr>
 </tbody>
 </table>
@@ -140,7 +140,7 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 
 6. Set the **X-Axis**. The first dropdown controls how data is grouped.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-objects-xaxis-dropdown.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-xaxis-dropdown.png" alt="" width="360"></div>
 
    - **Time**: Groups data by time interval. A second dropdown appears where you set the interval.
    - **Locations**: Groups data by location.
@@ -148,7 +148,7 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 
    If you selected **Time**, then set the interval in the second dropdown.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-objects-xaxis-interval.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-xaxis-interval.png" alt="" width="360"></div>
 
    - `---`: No interval set. The widget determines the interval automatically.
    - **Hour**: Groups data by hour.
@@ -160,7 +160,7 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 
    First dropdown, aggregation:
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-objects-yaxis-aggregation.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-aggregation.png" alt="" width="360"></div>
 
    - **Total**: The sum of all detections across the period. For example, 1,817 total appearances recorded today.
    - **Average**: The mean detection count per time unit. For example, an average of 3 appearances per hour.
@@ -170,27 +170,27 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 
    Second dropdown, metric:
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-objects-yaxis-metric.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-metric.png" alt="" width="360"></div>
 
    - **Appearance**: Counts how many times objects were detected appearing in the frame.
    - **Dwell Time**: Measures how long objects remained in the camera's view, in seconds.
 
    Third dropdown, object filter:
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-objects-yaxis-filter.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-filter.png" alt="" width="360"></div>
 
    - **All objects**: Includes every detected object type.
    - **Group**: Filters by broad category. Select **Person**, **Vehicle**, **Animal**, **Shopping cart**, **Container**, or use **Select all** for all.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-objects-yaxis-group.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-group.png" alt="" width="360"></div>
 
    - **Individual**: Filters by specific detected subjects, such as Unknown person, Adult male, or Bus. The options shown depend on what your cameras have detected.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-objects-yaxis-individual.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-individual.png" alt="" width="360"></div>
 
 8. Select the **Cameras** field to choose which cameras contribute data.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-camera-field.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/shared/widget-camera-field.png" alt="" width="480"></div>
 
    - Search by camera name or location using the search field.
    - Select **All cameras** to include every camera in your account.
@@ -199,7 +199,7 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 
 9. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-time-dropdown.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/shared/widget-chart-time-dropdown.png" alt="" width="360"></div>
 
    > **Note:** Setting a widget-level time disconnects the widget from the dashboard time filter. To reconnect it, then clear the widget's time setting back to `---`.
 
@@ -211,10 +211,10 @@ When you click on a data point in the chart, Lumana opens the Object records vie
 <tbody>
 <tr valign="top">
 <td align="center">
-<img src="../../.gitbook/assets/dashboards/widget-chart-objects-records-view.png" alt="" width="400">
+<img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-records-view.png" alt="" width="400">
 </td>
 <td align="center">
-<img src="../../.gitbook/assets/dashboards/widget-chart-objects-records-live.png" alt="" width="400">
+<img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-records-live.png" alt="" width="400">
 </td>
 </tr>
 </tbody>
@@ -231,7 +231,7 @@ The first dropdown controls the metric:
 
 The second dropdown controls aggregation: how the count is calculated across the selected time range and cameras.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-number-aggregation.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-aggregation.png" alt="" width="360"></div>
 
 - **Total**: The sum of all detections. For example, 1,817 total appearances recorded today.
 - **Average**: The mean detection count per time unit. For example, an average of 3 appearances per hour.
@@ -241,13 +241,13 @@ The second dropdown controls aggregation: how the count is calculated across the
 <tbody>
 <tr valign="top">
 <td align="center">
-<img src="../../.gitbook/assets/dashboards/widget-chart-viz-number-total.png" alt="" width="400">
+<img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-total.png" alt="" width="400">
 </td>
 <td align="center">
-<img src="../../.gitbook/assets/dashboards/widget-chart-viz-number-average.png" alt="" width="400">
+<img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-average.png" alt="" width="400">
 </td>
 <td align="center">
-<img src="../../.gitbook/assets/dashboards/widget-chart-viz-number-max.png" alt="" width="400">
+<img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-max.png" alt="" width="400">
 </td>
 </tr>
 </tbody>
@@ -261,7 +261,7 @@ The third dropdown controls the object filter:
 
 When Dwell Time is selected and no data has been recorded, the widget displays 0:
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-viz-number-dwell-config.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-dwell-config.png" alt="" width="360"></div>
 
 Once you've set the three dropdowns, continue with step 8 to select cameras.
 
@@ -275,7 +275,7 @@ If you selected **Table** in **Visualization** in step 5, the X-Axis becomes **G
 - **Locations**: No second dropdown. Each row is a location that has data in the selected range.
 - **Cameras**: No second dropdown. Each row is a camera that contributes data.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-table-group-interval.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-table-group-interval.png" alt="" width="360"></div>
 
 **Column** controls what is measured in the table. Three dropdowns set the aggregation (**Total**, **Average**, or **Max**), the metric (**Appearance** or **Dwell Time**), and the object filter (**All objects**, **Group**, or **Individual**). The preview updates as you change these settings. Together they define the column headers and values. Changing any of the three dropdowns updates the preview so you can confirm the table matches what you want before you save.
 
@@ -283,16 +283,16 @@ If you selected **Table** in **Visualization** in step 5, the X-Axis becomes **G
 <tbody>
 <tr valign="top">
 <td align="center">
-<img src="../../.gitbook/assets/dashboards/widget-table-group-locations.png" alt="" width="400">
+<img src="../../.gitbook/assets/dashboards/widgets/objects/widget-table-group-locations.png" alt="" width="400">
 </td>
 <td align="center">
-<img src="../../.gitbook/assets/dashboards/widget-table-group-cameras.png" alt="" width="400">
+<img src="../../.gitbook/assets/dashboards/widgets/objects/widget-table-group-cameras.png" alt="" width="400">
 </td>
 </tr>
 </tbody>
 </table>
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-table-config.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/objects/widget-chart-table-config.png" alt="" width="360"></div>
 
 Once you've set Group and Column, continue with step 8 to select cameras.
 

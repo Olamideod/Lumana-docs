@@ -14,7 +14,7 @@ Before you can use this datasource, you need at least one event tag configured a
 
 4. Select **Event tags** as the **Datasource**.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-event-tags-datasource.png" alt="Datasource section with Event tags selected. Objects and Alerts are unselected." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-datasource.png" alt="" width="360"></div>
 
 5. Select a **Visualization** type from the icon row. The preview panel on the right updates immediately when you switch types. Each visualization type is covered in [Visualization types](chart-or-table-visualization-types.md).
 
@@ -22,7 +22,7 @@ Before you can use this datasource, you need at least one event tag configured a
 
 6. Set the **X-Axis**. The first dropdown controls how data is grouped.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-event-tags-xaxis.png" alt="X-Axis section with the first dropdown open showing Time (highlighted), Locations, and Cameras." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-xaxis.png" alt="" width="360"></div>
 
    - **Time**: Groups data by time interval. A second dropdown appears where you set the interval.
    - **Locations**: Groups data by location.
@@ -30,7 +30,7 @@ Before you can use this datasource, you need at least one event tag configured a
 
    If you selected **Time**, then set the interval in the second dropdown.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-event-tags-xaxis-interval.png" alt="X-Axis section with Time selected and the second dropdown open showing: --- (default), Hour, Day, Week, Month." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-xaxis-interval.png" alt="" width="360"></div>
 
    - `---`: No interval set. The widget determines the interval automatically.
    - **Hour**: Groups data by hour.
@@ -42,7 +42,7 @@ Before you can use this datasource, you need at least one event tag configured a
 
    First dropdown, aggregation:
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-event-tags-yaxis-aggregation.png" alt="Y-Axis section with the first dropdown open showing Total, Average, and Max." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-yaxis-aggregation.png" alt="" width="360"></div>
 
    - **Total**: The sum of all tagged events across the period.
    - **Average**: The mean count per time unit.
@@ -50,19 +50,19 @@ Before you can use this datasource, you need at least one event tag configured a
 
    Second dropdown, event tag filter:
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-event-tags-yaxis-filter.png" alt="Y-Axis section with the second dropdown open showing All event tags (selected), Individual, and Additional fields." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-yaxis-filter.png" alt="" width="360"></div>
 
    - **All event tags**: Includes every event tag in the selected time range and cameras.
    - **Individual**: Filters by specific event tags. Select all or check individual tags from the list. Only the checked tags appear as data series in the chart.
    - **Additional fields**: Filters by field-level values attached to your event tag POST requests. Select all to include every field.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-event-tags-yaxis-individual.png" alt="Second dropdown open with Individual selected, showing Select all checkbox and a list of individual event tags." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-yaxis-individual.png" alt="" width="360"></div>
 
 > **Note:** Event tags doesn't have its own metric selector. The Y-axis label in the preview reflects the metric last selected in the [Objects](chart-or-table-objects.md#objects-y-axis-metric) datasource. If Objects was set to **Dwell Time**, the preview shows "Dwell Time average (seconds)." If Objects was set to **Appearance**, the preview shows "Appearance total." To change the label, switch to the [Objects](chart-or-table-objects.md#objects-y-axis-metric) datasource, update the metric, then switch back to Event tags.
 
 8. Select the **Cameras** field to choose which cameras contribute data.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-camera-field.png" alt="Choose cameras dialog with a search field labelled Search cameras and locations, an All cameras checkbox, and a list of cameras each showing a thumbnail, a green online status checkmark, the camera name, and an edit icon. A Select button appears at the bottom right." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/shared/widget-camera-field.png" alt="" width="480"></div>
 
    - Search by camera name or location using the search field.
    - Select **All cameras** to include every camera in your account.
@@ -73,7 +73,7 @@ Before you can use this datasource, you need at least one event tag configured a
 
 9. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-chart-time-dropdown.png" alt="Time dropdown open showing options: --- (default), Today, Yesterday, This week, Last week, This month, Last month, Day by day, Week by week, Last 7 days. Today is highlighted." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/shared/widget-chart-time-dropdown.png" alt="" width="360"></div>
 
    > **Note:** Setting a widget-level time disconnects the widget from the dashboard time filter. To reconnect it, then clear the widget's time setting back to `---`. Make sure the time range you select covers the timestamps in your API POSTs, or the chart will show no data.
 
@@ -81,11 +81,11 @@ Before you can use this datasource, you need at least one event tag configured a
 
 When you click on a data point in the chart, Lumana opens the Event tag records view for that period. Each result shows a clip thumbnail, a timestamp, and the field values from your POST request.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-event-tags-records-grid.png" alt="Event tags records view showing a grid of clip thumbnails. Each card shows a timestamp and field values from the POST request." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-event-tags-records-grid.png" alt="" width="480"></div>
 
 Select a result to open the video clip for that time range on the selected camera.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-event-tags-clip-preview.png" alt="Video clip preview for a selected event tag result, showing the camera feed for that time range." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-event-tags-clip-preview.png" alt="" width="480"></div>
 
 ## What the chart shows
 
@@ -93,11 +93,11 @@ The Y-axis label reads "Appearance total." Each bar or data point represents the
 
 For example, a bar on 3/31 with a height of 4 means four event tag POSTs were recorded for the selected tag and camera on that day.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-event-tags-chart-by-day.png" alt="Vertical bar chart showing event tag counts by day. A bar on 3/31 reaches a height of 4." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-event-tags-chart-by-day.png" alt="" width="480"></div>
 
 Hovering over a bar shows the tag name and count for that period.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widget-event-tags-chart-tooltip.png" alt="Tooltip on a bar in the event tags chart showing the tag name and a count of 4." width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-event-tags-chart-tooltip.png" alt="" width="480"></div>
 
 ## If the chart shows no data
 
