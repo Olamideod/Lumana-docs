@@ -2101,103 +2101,197 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="camera-networking-options">Camera networking options</h1>
-<p>Introduction
-In this article we will explore how to access and utilize the Camera VPN function in the Lumana portal. This feature enables seamless remote access to third-party  cameras remotely, boosting operation efficiency and saving time for the things that matter.</p>
-<p>Step 1:
-To access the camera VPN first navigate to the the specific camera you want to access.</p>
+<p>Configure how your cameras connect to and communicate within your network, including remote access and audio integrations.</p>
+<p>This page covers common networking options used when managing cameras in Lumana.</p>
+<h2 id="remote-camera-access-camera-vpn">Remote camera access (Camera VPN)</h2>
+<p>Use Camera VPN to securely access your camera’s native interface through Lumana without exposing it directly to the internet.</p>
+<h3 id="when-to-use-this">When to use this</h3>
+<ul>
+<li>You need to access camera settings remotely  </li>
+<li>You want to configure manufacturer-specific features  </li>
+<li>Your camera is behind a private network  </li>
+</ul>
+<h3 id="steps">Steps</h3>
+<ol>
+<li><p>Open the camera from the <strong>Devices</strong> list.</p>
+</li>
+<li><p>Click the <strong>VPN icon</strong> in the top-right corner of the camera player.</p>
+</li>
+</ol>
 <p><img src="../images/configuring-cameras-and-devices/camera-player-live-view-timeline.png" alt="Camera player live view with timeline scrubber"></img></p>
-<p>Step 2:</p>
-<p>click on the VPN icon found in the top right of the camera player page.</p>
+<ol>
+<li>You will be redirected to the camera manufacturer’s login page.</li>
+</ol>
 <p><img src="../images/configuring-cameras-and-devices/manufacturer-vpn-login-redirect.png" alt="Manufacturer VPN login redirect"></img></p>
-<p>Step 3:</p>
-<p>You will then be redirected to the manufacture's login page where you can input your credentials to gain access.</p>
+<ol>
+<li>Enter your camera credentials to log in.</li>
+</ol>
 <p><img src="../images/configuring-cameras-and-devices/hikvision-manufacturer-login.png" alt="Hikvision manufacturer login page"></img></p>
-<p>Step 4:</p>
-<p>Once logged in, you have the ability to configure different settings such as camera profiles, streaming configurations, video compression, and other specs related to the camera. Please note, this page will be different for each manufacturer, please reference the manufactures website for more information on their specific capabilities. </p>
-<p>This document provides a step-by-step guide to setting up and configuring a SIP connection using a Check Point router. The setup includes necessary screenshots and configuration images for better understanding.</p>
-<p>Prerequisites
-Before beginning, ensure you have the following:</p>
-<p>Administrative access to the Check Point router.
-Access to the Check Point SmartConsole.
-Network topology details.</p>
-<p>Step 1: Enable VoIP in Access Policy
-Log in to Check Point.
-Go to the Access Policy tab.
-Navigate to the VoIP tab.
-Enable VoIP.</p>
+<ol>
+<li>Configure camera settings as needed.</li>
+</ol>
+<blockquote>
+<p>The available settings depend on the camera manufacturer. Refer to the manufacturer’s documentation for details.</p>
+</blockquote>
+<h2 id="sip-configuration-check-point-router">SIP configuration (Check Point router)</h2>
+<p>Use SIP configuration to enable communication between Lumana and external audio devices such as speakers.</p>
+<p>This setup is typically required in advanced deployments using network-managed audio systems.</p>
+<h3 id="before-you-begin">Before you begin</h3>
+<ul>
+<li>Administrative access to the Check Point router  </li>
+<li>Access to Check Point SmartConsole  </li>
+<li>Network topology details  </li>
+</ul>
+<h3 id="step-1-enable-voip">Step 1: Enable VoIP</h3>
+<ul>
+<li>Log in to Check Point  </li>
+<li>Go to <strong>Access Policy → VoIP</strong>  </li>
+<li>Enable VoIP  </li>
+</ul>
 <p><img src="../images/configuring-cameras-and-devices/check-point-voip-toggle-on.png" alt=""></img></p>
-<p>Step 2: Configure SIP Service Provider
-Enable: Use SIP Service Provider
-Name: SIP-Provider
-Add the following addresses:
-Type    Name    Address    Subnet Mask
-Network    Oregon_Gateways    54.244.51.0    255.255.255.252
-Network    Frankfrut_Gateways    35.156.191.128    255.255.255.252
-Network    Virginia_Gateways    54.172.60.0    255.255.255.252
-Network    Media_server_1    34.203.254.0    255.255.255.0
-Network    Media_server_2    3.235.11.128    255.255.255.128
-Add the following domain names:
-Type    Domain Name
-Domain name    lumana1.sip.twilio.com
-Domain name    lumana1.sip.us1.twilio.com</p>
+<h3 id="step-2-configure-sip-service-provider">Step 2: Configure SIP service provider</h3>
+<p>Enable <strong>Use SIP Service Provider</strong> and configure the following:</p>
+<h4 id="networks">Networks</h4>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Address</th>
+<th>Subnet Mask</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Oregon_Gateways</td>
+<td>54.244.51.0</td>
+<td>255.255.255.252</td>
+</tr>
+<tr>
+<td>Frankfrut_Gateways</td>
+<td>35.156.191.128</td>
+<td>255.255.255.252</td>
+</tr>
+<tr>
+<td>Virginia_Gateways</td>
+<td>54.172.60.0</td>
+<td>255.255.255.252</td>
+</tr>
+<tr>
+<td>Media_server_1</td>
+<td>34.203.254.0</td>
+<td>255.255.255.0</td>
+</tr>
+<tr>
+<td>Media_server_2</td>
+<td>3.235.11.128</td>
+<td>255.255.255.128</td>
+</tr>
+</tbody>
+</table>
+<h4 id="domains">Domains</h4>
+<ul>
+<li>lumana1.sip.twilio.com  </li>
+<li>lumana1.sip.us1.twilio.com  </li>
+</ul>
 <p><img src="../images/configuring-cameras-and-devices/off-premise-sip-provider-service-list.png" alt=""></img></p>
-<p>Step 3: Disable SIP Traffic Inspection and Configure RTP Services
-Disable SIP traffic inspection.
-Add the following RTP services:
-Name    Protocol    Port
-SIP_TLS_AUTH    TCP    5061
-SIP_TCP    TCP    5060
-SIP_UDP    UDP    5060
-SIP_UDP    UDP    5061
-Enable bidirectional traffic.</p>
+<h3 id="step-3-configure-rtp-services">Step 3: Configure RTP services</h3>
+<ul>
+<li>Disable SIP traffic inspection  </li>
+<li>Add the following services:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Protocol</th>
+<th>Port</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SIP_TLS_AUTH</td>
+<td>TCP</td>
+<td>5061</td>
+</tr>
+<tr>
+<td>SIP_TCP</td>
+<td>TCP</td>
+<td>5060</td>
+</tr>
+<tr>
+<td>SIP_UDP</td>
+<td>UDP</td>
+<td>5060</td>
+</tr>
+<tr>
+<td>SIP_UDP</td>
+<td>UDP</td>
+<td>5061</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Enable bidirectional traffic  </li>
+</ul>
 <p><img src="../images/configuring-cameras-and-devices/sip-traffic-inspection-rtp-services.png" alt=""></img></p>
-<p>Step 4: Configure On-Premise Devices
-Use on-premise phones without a SIP server (PBX).
-Add all relevant resources, for example:
-Name    Type    Address
-Uniview_speaker    Single IP    192.168.100.30</p>
+<h3 id="step-4-configure-on-premise-devices">Step 4: Configure on-premise devices</h3>
+<p>Add your devices (for example):</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Address</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Uniview_speaker</td>
+<td>Single IP</td>
+<td>192.168.100.30</td>
+</tr>
+</tbody>
+</table>
 <p><img src="../images/configuring-cameras-and-devices/on-premise-devices-ip-phones.png" alt=""></img></p>
-<p>Step 5: Configure SIP Services
-Add the following services:</p>
-<p>Name    Type    Protocol    Destination Ports
-SIP_TLS_AUTH    SIP_TLS_AUTH    TCP    5061
-SIP_TCP    SIP_TCP    TCP    5060
-sip_any-tcp    sip_any-tcp    TCP    5060
-SIP_UDP    SIP_UDP    UDP    5060
-Any_TCP    Any_TCP    TCP    1-65535
-SIP_UDP    SIP_UDP    UDP    5061
-Any_UDP    Any_UDP    UDP    1-65535</p>
+<h3 id="step-5-configure-sip-services">Step 5: Configure SIP services</h3>
+<p>Add the following services:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Protocol</th>
+<th>Ports</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SIP_TLS_AUTH</td>
+<td>TCP</td>
+<td>5061</td>
+</tr>
+<tr>
+<td>SIP_TCP</td>
+<td>TCP</td>
+<td>5060</td>
+</tr>
+<tr>
+<td>SIP_UDP</td>
+<td>UDP</td>
+<td>5060, 5061</td>
+</tr>
+<tr>
+<td>Any_TCP</td>
+<td>TCP</td>
+<td>1–65535</td>
+</tr>
+<tr>
+<td>Any_UDP</td>
+<td>UDP</td>
+<td>1–65535</td>
+</tr>
+</tbody>
+</table>
 <p><img src="../images/configuring-cameras-and-devices/sip-service-ports-table.png" alt=""></img></p>
-<p>Speaker configuration - Examples
-Note: SIP credentials (address, username, password) are supplied by your CSM.</p>
-<p>Example 1: Uniview Speaker Configuration
-Log in to the Uniview speaker interface.
-Go to the SIP Account section.
-Add the following details:
-Username
-ID
-Password
-Display Name - used ad identifier to use on alerts
-Server Host
-Port
-Expire Time &gt; 600
-Set Auto Answer to Immediately
-Save the configuration.
-Verify that the speaker status changes to Registered.</p>
-<p><img src="../images/configuring-cameras-and-devices/sip-account-setup-example.png" alt=""></img></p>
-<p>Example 2: TOA Speaker Configuration
-Log in to the TOA speaker interface.
-Go to the SIP section.
-Update the following details:
-SIP Server Address
-SIP Server Port
-Registration Expiry &gt; 3600
-User ID
-Display Name - used ad identifier to use on alerts
-Password
-Audio Codec: Enable all codecs
-Save the configuration.</p>
-<p><img src="../images/configuring-cameras-and-devices/toa-speaker-sip-account-registered.png" alt=""></img></p>
 
                                 
                                 </section>
