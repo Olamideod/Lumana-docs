@@ -1,6 +1,7 @@
 # Set up a static IP address
 
-When integrating a DHCP-enabled camera into your network, the device automatically receives an IP address from the DHCP server, making the setup process straightforward and user-friendly. However, this convenience is accompanied by the possibility of the camera's IP address changing, especially after power failures, or the challenge of lacking a DHCP server on your network. To circumvent these issues, assigning a static IP address to your camera is recommended.
+Assign a static IP address to ensure your camera remains reachable and does not change after reboots or network interruptions.
+ 
 
 > **Note:** It is important not to allocate static IP addresses from the DHCP pool, as this can cause IP conflicts.
 
@@ -8,55 +9,77 @@ When integrating a DHCP-enabled camera into your network, the device automatical
 This guide outlines the procedure for assigning a static IP address to your camera in three scenarios.
 
 
+## Choose your setup scenario
+
+Follow the steps for your network configuration:
+
+- **Scenario 1**: You have a DHCP server and want to reserve an IP address
+- **Scenario 2**: You do not have a DHCP server
+- **Scenario 3**: You want to assign a static IP outside the DHCP pool
+
+
 ### Scenario 1: 
 Your Network Includes a DHCP Server and You Wish to Assign a Permanent IP Address
 
-1. **Connect Your Lumana Camera**: First, plug your Lumana Camera into the network.
+1. Connect the camera to your network
 
-2. **Identify the Camera's IP Address**: To locate the camera's IP address, head over to the IP scanner tool or the Lumana app and add the camera to your organization. After adding the camera, the IP address can be found under the camera's location settings.
+2. Find the camera's IP address and MAC address
+	- Open the Lumana app
+	- Go to the **Devices** list
+	- Add the camera to your organization
 
-    ![](../images/configuring-cameras-and-devices/devices-list-ip-address.png)
-
-3. **Configure DHCP static mapping on your router**:  This will ensure the device uses the same IP addresses based on its MAC address in any event of power outage 
-
-To get camera MAC address you should navigate to Camera -> Edit camera -> Details 
-
-
+3. Find the camera's IP address and MAC address:
+	- In Lumana, open the camera from the **Devices** list.
+	- Use the **IP address** shown for the camera.
+ ![](../images/configuring-cameras-and-devices/devices-list-ip-address.png)
+	- Open **Camera** -> **Edit camera** -> **Details** to copy the **MAC address**.
 ![](../images/configuring-cameras-and-devices/camera-details-mac-address.png)
+
+4. Configure DHCP reservation on your router using the MAC address.
+This ensures the camera keeps the same IP address after reboots or power interruptions.
+Refer to your router documentation for instructions.
 
 Here's an example of [static mapping configuration](https://www.cisco.com/c/en/us/td/docs/ios/12_2sb/12_2sba/feature/guide/sbhcpsm.html) for a cisco routers
 
 
 ### Scenario 2: Your Network Lacks a DHCP Server
-In this case you will need to connect to the camera via the local page and set the camera IP address 
 
-**For example:**
+If your network does not have a DHCP server, you will need to connect to the camera via the local page and configure the IP address directly on the camera.
 
-- Default IP address for the camera is: 192.168.1.13
-- Default Subnet Mask: 255.255.255.0
-- Default user: admin 
-- Default password: 123456
+**Default camera settings (example)**
+
+- Default IP address for the camera is: `192.168.1.13`
+- Default Subnet Mask: `255.255.255.0`
+- Default user: `admin` 
+- Default password: `123456`
 
 
-1. **Access the Camera's Configuration Page**: On a computer connected to the same network, enter the camera's IP address into a web browser. You'll need to input your username and password to proceed.
+1. Open a web browser on a device connected to the same network.
+
+2. Enter the camera’s IP address and log in.
 
     ![](../images/configuring-cameras-and-devices/lumix-camera-web-login-lb800.png)
 
-2. **Adjust Network Settings**: Upon first login, you'll be prompted to change your password - remember to record the new credentials. Navigate to the "Setup" menu, then select "Network". Here, switch from DHCP to static IP and save your changes. 
+3. Change the default password when prompted.
 
+4. Go to **Setup → Network**.
     ![](../images/configuring-cameras-and-devices/lumix-network-ipv4-dhcp-settings.png)
+5. Change the network mode from DHCP to Static IP.
 
-3. **Set up the static IP address for the camera**: 
+6. Enter your **IP address**, **subnet mask**, and **gateway**.
+
+7. Save your changes.
 
 ![](../images/configuring-cameras-and-devices/lumix-network-ipv4-static-settings.png)
 
 
 ### Scenario 3: 
-Your Network Includes a DHCP Server and You Wish to Assign a Permanent Static IP Address for the camera outside of the DHCP pool
+Use this method if you want to manually assign a static IP without DHCP reservation.
  
-In this case you want to assign a static IP address to the camera and do not want to assign static DHCP mapping on the server. 
+**Before you begin**
+- Identify your network’s DHCP range
+- Choose an IP address outside that range
 
-To make sure this scenario is successful you would have to confirm what is the static IP address range of your network. **If you will allocate IP addresses from the DHCP pool, there might be a case where 2 devices will share the same IP address**.
+> **Note:** Assigning an IP address within the DHCP pool can result in duplicate IP conflicts.
 
-Once you have identified the static IP range, you can select the IP address to allocate to the cameras and follow [Scenario 2](#scenario-2-your-network-lacks-a-dhcp-server).
-
+- Follow the same steps as in [Scenario 2](#scenario-2-your-network-lacks-a-dhcp-server) to configure the static IP on the camera.
