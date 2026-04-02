@@ -6,7 +6,7 @@ The Text widget adds a formatted text block to your dashboard. Use it to label a
  
 The Text widget opens a rich text editor where you can write and format your content before placing it on the canvas.
  
-1. Open a dashboard and select **Add widget**.
+1. From the dashboard canvas, select **Add widget** in the top right corner. A dropdown lists the five widget types.
 2. Select **Text**. The **Add text** dialog opens.
  
 <div align="center"><img src="../../.gitbook/assets/dashboards/widget-text-dialog.png" alt="" width="480"></div>

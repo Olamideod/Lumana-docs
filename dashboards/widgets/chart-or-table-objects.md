@@ -4,7 +4,7 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 
 ## Add the widget
 
-1. Open a dashboard and select **Add widget**.
+1. From the dashboard canvas, select **Add widget** in the top right corner. A dropdown lists the five widget types.
 2. Select **Chart or table**. The configuration dialog opens.
 3. Enter a name in the **Title** field.
 
@@ -165,6 +165,8 @@ The Objects datasource counts camera detections of people, vehicles, and animals
    - **Total**: The sum of all detections across the period. For example, 1,817 total appearances recorded today.
    - **Average**: The mean detection count per time unit. For example, an average of 3 appearances per hour.
    - **Max**: The highest detection count recorded in any single time unit. For example, the busiest hour had 11 appearances.
+
+<a id="objects-y-axis-metric"></a>
 
    Second dropdown, metric:
 

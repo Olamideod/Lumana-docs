@@ -4,7 +4,7 @@ Widgets are the tiles on a [dashboard](../README.md) grid. Each one displays a d
 
 To add, move, resize, or update widgets, follow the steps in [Create and manage dashboards](../create-and-manage-dashboards.md).
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/add-widget-dropdown.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/add-widget-dropdown-image.png" alt="" width="480"></div>
 
 ## Widget types
 

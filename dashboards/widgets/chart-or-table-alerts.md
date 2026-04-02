@@ -4,7 +4,7 @@ The Alerts datasource counts alert events fired by your configured alert rules. 
 
 ## Add the widget
 
-1. Open a dashboard and select **Add widget**.
+1. From the dashboard canvas, select **Add widget** in the top right corner. A dropdown lists the five widget types.
 2. Select **Chart or table**. The configuration dialog opens.
 3. Enter a name in the **Title** field.
 

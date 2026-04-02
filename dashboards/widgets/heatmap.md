@@ -12,7 +12,7 @@ Before you can add a Heatmap widget, you need at least one camera configured and
 
 Adding a Heatmap widget opens a single configuration dialog where you select a camera, set the display mode, and choose a time range.
 
-1. Open a dashboard and select **Add widget**.
+1. From the dashboard canvas, select **Add widget** in the top right corner. A dropdown lists the five widget types.
 2. Select **Heatmap**. The configuration dialog opens.
 
 <div align="center"><img src="../../.gitbook/assets/dashboards/widget-heatmap-dialog.png" alt="" width="480"></div>

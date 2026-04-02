@@ -6,7 +6,7 @@ The Image widget displays a static image on your dashboard. Use it to add a floo
 
 Before uploading, confirm that your file is a PNG or JPG and that its name contains only letters, numbers, and underscores.
 
-1. Open a dashboard and select **Add widget**.
+1. From the dashboard canvas, select **Add widget** in the top right corner. A dropdown lists the five widget types.
 2. Select **Image**. The **Add images** dialog opens.
 
 <div align="center"><img src="../../.gitbook/assets/dashboards/widget-image-dialog.png" alt="" width="480"></div>
