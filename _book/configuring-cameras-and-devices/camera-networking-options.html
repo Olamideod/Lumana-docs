@@ -2101,6 +2101,103 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="camera-networking-options">Camera networking options</h1>
+<p>Introduction
+In this article we will explore how to access and utilize the Camera VPN function in the Lumana portal. This feature enables seamless remote access to third-party  cameras remotely, boosting operation efficiency and saving time for the things that matter.</p>
+<p>Step 1:
+To access the camera VPN first navigate to the the specific camera you want to access.</p>
+<p><img src="../images/configuring-cameras-and-devices/camera-player-live-view-timeline.png" alt="Camera player live view with timeline scrubber"></img></p>
+<p>Step 2:</p>
+<p>click on the VPN icon found in the top right of the camera player page.</p>
+<p><img src="../images/configuring-cameras-and-devices/manufacturer-vpn-login-redirect.png" alt="Manufacturer VPN login redirect"></img></p>
+<p>Step 3:</p>
+<p>You will then be redirected to the manufacture's login page where you can input your credentials to gain access.</p>
+<p><img src="../images/configuring-cameras-and-devices/hikvision-manufacturer-login.png" alt="Hikvision manufacturer login page"></img></p>
+<p>Step 4:</p>
+<p>Once logged in, you have the ability to configure different settings such as camera profiles, streaming configurations, video compression, and other specs related to the camera. Please note, this page will be different for each manufacturer, please reference the manufactures website for more information on their specific capabilities. </p>
+<p>This document provides a step-by-step guide to setting up and configuring a SIP connection using a Check Point router. The setup includes necessary screenshots and configuration images for better understanding.</p>
+<p>Prerequisites
+Before beginning, ensure you have the following:</p>
+<p>Administrative access to the Check Point router.
+Access to the Check Point SmartConsole.
+Network topology details.</p>
+<p>Step 1: Enable VoIP in Access Policy
+Log in to Check Point.
+Go to the Access Policy tab.
+Navigate to the VoIP tab.
+Enable VoIP.</p>
+<p><img src="../images/configuring-cameras-and-devices/check-point-voip-toggle-on.png" alt=""></img></p>
+<p>Step 2: Configure SIP Service Provider
+Enable: Use SIP Service Provider
+Name: SIP-Provider
+Add the following addresses:
+Type    Name    Address    Subnet Mask
+Network    Oregon_Gateways    54.244.51.0    255.255.255.252
+Network    Frankfrut_Gateways    35.156.191.128    255.255.255.252
+Network    Virginia_Gateways    54.172.60.0    255.255.255.252
+Network    Media_server_1    34.203.254.0    255.255.255.0
+Network    Media_server_2    3.235.11.128    255.255.255.128
+Add the following domain names:
+Type    Domain Name
+Domain name    lumana1.sip.twilio.com
+Domain name    lumana1.sip.us1.twilio.com</p>
+<p><img src="../images/configuring-cameras-and-devices/off-premise-sip-provider-service-list.png" alt=""></img></p>
+<p>Step 3: Disable SIP Traffic Inspection and Configure RTP Services
+Disable SIP traffic inspection.
+Add the following RTP services:
+Name    Protocol    Port
+SIP_TLS_AUTH    TCP    5061
+SIP_TCP    TCP    5060
+SIP_UDP    UDP    5060
+SIP_UDP    UDP    5061
+Enable bidirectional traffic.</p>
+<p><img src="../images/configuring-cameras-and-devices/sip-traffic-inspection-rtp-services.png" alt=""></img></p>
+<p>Step 4: Configure On-Premise Devices
+Use on-premise phones without a SIP server (PBX).
+Add all relevant resources, for example:
+Name    Type    Address
+Uniview_speaker    Single IP    192.168.100.30</p>
+<p><img src="../images/configuring-cameras-and-devices/on-premise-devices-ip-phones.png" alt=""></img></p>
+<p>Step 5: Configure SIP Services
+Add the following services:</p>
+<p>Name    Type    Protocol    Destination Ports
+SIP_TLS_AUTH    SIP_TLS_AUTH    TCP    5061
+SIP_TCP    SIP_TCP    TCP    5060
+sip_any-tcp    sip_any-tcp    TCP    5060
+SIP_UDP    SIP_UDP    UDP    5060
+Any_TCP    Any_TCP    TCP    1-65535
+SIP_UDP    SIP_UDP    UDP    5061
+Any_UDP    Any_UDP    UDP    1-65535</p>
+<p><img src="../images/configuring-cameras-and-devices/sip-service-ports-table.png" alt=""></img></p>
+<p>Speaker configuration - Examples
+Note: SIP credentials (address, username, password) are supplied by your CSM.</p>
+<p>Example 1: Uniview Speaker Configuration
+Log in to the Uniview speaker interface.
+Go to the SIP Account section.
+Add the following details:
+Username
+ID
+Password
+Display Name - used ad identifier to use on alerts
+Server Host
+Port
+Expire Time &gt; 600
+Set Auto Answer to Immediately
+Save the configuration.
+Verify that the speaker status changes to Registered.</p>
+<p><img src="../images/configuring-cameras-and-devices/sip-account-setup-example.png" alt=""></img></p>
+<p>Example 2: TOA Speaker Configuration
+Log in to the TOA speaker interface.
+Go to the SIP section.
+Update the following details:
+SIP Server Address
+SIP Server Port
+Registration Expiry &gt; 3600
+User ID
+Display Name - used ad identifier to use on alerts
+Password
+Audio Codec: Enable all codecs
+Save the configuration.</p>
+<p><img src="../images/configuring-cameras-and-devices/toa-speaker-sip-account-registered.png" alt=""></img></p>
 
                                 
                                 </section>
@@ -2144,7 +2241,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Camera networking options","level":"3.4","depth":1,"next":{"title":"Recommended streaming settings","level":"3.5","depth":1,"path":"configuring-cameras-and-devices/recommended-streaming-settings.md","ref":"configuring-cameras-and-devices/recommended-streaming-settings.md","articles":[]},"previous":{"title":"Enable PTZ control","level":"3.3","depth":1,"path":"configuring-cameras-and-devices/enable-ptz-control.md","ref":"configuring-cameras-and-devices/enable-ptz-control.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"configuring-cameras-and-devices/camera-networking-options.md","mtime":"2026-03-29T13:21:03.513Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-04-02T08:03:25.169Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Camera networking options","level":"3.4","depth":1,"next":{"title":"Recommended streaming settings","level":"3.5","depth":1,"path":"configuring-cameras-and-devices/recommended-streaming-settings.md","ref":"configuring-cameras-and-devices/recommended-streaming-settings.md","articles":[]},"previous":{"title":"Enable PTZ control","level":"3.3","depth":1,"path":"configuring-cameras-and-devices/enable-ptz-control.md","ref":"configuring-cameras-and-devices/enable-ptz-control.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"configuring-cameras-and-devices/camera-networking-options.md","mtime":"2026-04-02T09:01:05.953Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-04-02T09:01:35.124Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
