@@ -2101,40 +2101,66 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="enable-ptz-control">Enable PTZ control</h1>
-<p>Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control empowers users to manage camera angles, zoom levels, and coverage areas with precision—no matter where they are. This feature enables real-time monitoring and responsive security management, eliminating the need for manual adjustments.</p>
+<p>Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direction and zoom in real time, enabling precise monitoring without physical access to the device.</p>
+<h2 id="before-you-begin">Before you begin</h2>
+<ul>
+<li>Ensure your camera supports PTZ functionality.</li>
+<li>Confirm the camera is added to your Lumana organization and is online.</li>
+<li>Verify that PTZ is accessible via <code>ONVIF</code> or your camera’s supported protocol.</li>
+</ul>
 <h2 id="key-capabilities">Key Capabilities:</h2>
-<p>✔ <strong>360° Coverage</strong> – Pan, tilt, and zoom to monitor every angle.</p>
-<p>✔ <strong>Remote Access</strong> – Control PTZ cameras from any device, anywhere.</p>
-<p>✔ <strong>Predefined Homes</strong> – Set predefined camera positioning.</p>
+<p>✔ <strong>Full Coverage Control</strong> – Pan, tilt, and zoom to monitor every area.</p>
+<p>✔ <strong>Remote Operations</strong> – Control cameras from anywhere via lumana.</p>
+<p>✔ <strong>Preset Positions</strong> –  Configure and return to predefined camera angles</p>
+<h2 id="steps-to-enable-ptz-control">Steps to enable PTZ control</h2>
 <ol>
-<li><p>Select the camera where you want to enable PTZ</p>
+<li><p><strong>Select the camera</strong></p>
+<ul>
+<li>Open the camera from the <strong>Devices</strong> list.</li>
+</ul>
 </li>
-<li><p>Edit camera</p>
-</li>
-</ol>
+<li><p><strong>Open camera settings</strong></p>
+<ul>
+<li>Click <strong>Edit camera</strong>.</li>
+</ul>
 <p><img src="../images/configuring-cameras-and-devices/live-view-edit-camera-button.png" alt=""></img></p>
-<ol>
-<li><p>PTZ</p>
 </li>
-<li><p>Enable PTZ support
--Select the driver (by default most of the cameras support ONVIF)</p>
+<li><p><strong>Configure PTZ settings</strong></p>
+<ul>
+<li>Navigate to the <strong>PTZ</strong> section.</li>
+<li>Enable <strong>PTZ support</strong>.</li>
+<li>Select the <strong>driver</strong>  <ul>
+<li>Most cameras use <strong>ONVIF</strong> by default.</li>
+</ul>
 </li>
-<li>Paste the path for remote PTZ control (most cameras have the following PTZ path
-{camera_IP}:80/onvif/device_service</li>
-<li>Specify the port (if changed from default port 80)</li>
-</ol>
+<li>Enter the <strong>PTZ control path</strong>  <ul>
+<li>Common format:<br></br><code>{camera_IP}:80/onvif/device_service</code></li>
+</ul>
+</li>
+<li>Specify the <strong>port</strong> (if different from default <code>80</code>).</li>
+</ul>
 <p><img src="../images/configuring-cameras-and-devices/ptz-settings-onvif-address-port.png" alt=""></img></p>
-<ol>
-<li><p>Save</p>
 </li>
-<li><p>After saving the configuration, you can open the camera and enable PTZ at the bottom of camera screen</p>
+<li><p><strong>Save configuration</strong></p>
+<ul>
+<li>Click <strong>Save</strong> to apply changes.</li>
+</ul>
 </li>
 </ol>
+<h2 id="using-ptz-controls">Using PTZ controls</h2>
+<ol>
+<li>Open the camera from the <strong>Devices</strong> list.</li>
+<li><p>Enable <strong>PTZ control</strong> at the bottom of the camera view.</p>
 <p><img src="../images/configuring-cameras-and-devices/live-view-ptz-toggle.png" alt=""></img></p>
-<ol>
-<li>Use the arrows to move around and use the magnification buttons to zoom in and out</li>
-</ol>
+</li>
+<li><p>Use the on-screen controls:</p>
+<ul>
+<li><strong>Arrow controls</strong> to pan and tilt</li>
+<li><strong>Zoom controls</strong> to adjust magnification</li>
+</ul>
 <p><img src="../images/configuring-cameras-and-devices/live-view-ptz-controls-overlay.png" alt=""></img></p>
+</li>
+</ol>
 
                                 
                                 </section>

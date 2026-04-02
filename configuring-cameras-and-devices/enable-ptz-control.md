@@ -1,42 +1,59 @@
 # Enable PTZ control
 
 
-Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control empowers users to manage camera angles, zoom levels, and coverage areas with precision—no matter where they are. This feature enables real-time monitoring and responsive security management, eliminating the need for manual adjustments.
+Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direction and zoom in real time, enabling precise monitoring without physical access to the device.
 
+
+## Before you begin
+
+- Ensure your camera supports PTZ functionality.
+- Confirm the camera is added to your Lumana organization and is online.
+- Verify that PTZ is accessible via `ONVIF` or your camera’s supported protocol.
 
 ## Key Capabilities:
 
-✔ **360° Coverage** – Pan, tilt, and zoom to monitor every angle.
+✔ **Full Coverage Control** – Pan, tilt, and zoom to monitor every area.
 
-✔ **Remote Access** – Control PTZ cameras from any device, anywhere.
+✔ **Remote Operations** – Control cameras from anywhere via lumana.
 
-✔ **Predefined Homes** – Set predefined camera positioning.
+✔ **Preset Positions** –  Configure and return to predefined camera angles
 
- 
+## Steps to enable PTZ control
 
-1. Select the camera where you want to enable PTZ
+1. **Select the camera**
+   - Open the camera from the **Devices** list.
 
-2. Edit camera
+2. **Open camera settings**
+   - Click **Edit camera**.
 
-![](../images/configuring-cameras-and-devices/live-view-edit-camera-button.png)
+   ![](../images/configuring-cameras-and-devices/live-view-edit-camera-button.png)
 
-3. PTZ
+3. **Configure PTZ settings**
+   - Navigate to the **PTZ** section.
+   - Enable **PTZ support**.
+   - Select the **driver**  
+     - Most cameras use **ONVIF** by default.
+   - Enter the **PTZ control path**  
+     - Common format:  
+       `{camera_IP}:80/onvif/device_service`
+   - Specify the **port** (if different from default `80`).
 
-- Enable PTZ support
--Select the driver (by default most of the cameras support ONVIF)
-- Paste the path for remote PTZ control (most cameras have the following PTZ path
-{camera_IP}:80/onvif/device_service
-- Specify the port (if changed from default port 80)
- 
-![](../images/configuring-cameras-and-devices/ptz-settings-onvif-address-port.png)
+   ![](../images/configuring-cameras-and-devices/ptz-settings-onvif-address-port.png)
+
+4. **Save configuration**
+   - Click **Save** to apply changes.
 
 
-4. Save
+## Using PTZ controls
 
-5. After saving the configuration, you can open the camera and enable PTZ at the bottom of camera screen
+1. Open the camera from the **Devices** list.
+2. Enable **PTZ control** at the bottom of the camera view.
 
-![](../images/configuring-cameras-and-devices/live-view-ptz-toggle.png)
+   ![](../images/configuring-cameras-and-devices/live-view-ptz-toggle.png)
 
-6. Use the arrows to move around and use the magnification buttons to zoom in and out
+3. Use the on-screen controls:
+   - **Arrow controls** to pan and tilt
+   - **Zoom controls** to adjust magnification
 
-![](../images/configuring-cameras-and-devices/live-view-ptz-controls-overlay.png)
+   ![](../images/configuring-cameras-and-devices/live-view-ptz-controls-overlay.png)
+   
