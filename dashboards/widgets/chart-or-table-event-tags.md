@@ -22,7 +22,7 @@ Before you can use this datasource, you need at least one event tag configured a
 
 6. Set the **X-Axis**. The first dropdown controls how data is grouped.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-xaxis.png" alt="" width="360"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-xaxis.png" alt="" width="480"></div>
 
    - **Time**: Groups data by time interval. A second dropdown appears where you set the interval.
    - **Locations**: Groups data by location.
@@ -30,7 +30,7 @@ Before you can use this datasource, you need at least one event tag configured a
 
    If you selected **Time**, then set the interval in the second dropdown.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-xaxis-interval.png" alt="" width="360"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-xaxis-interval.png" alt="" width="480"></div>
 
    - `---`: No interval set. The widget determines the interval automatically.
    - **Hour**: Groups data by hour.
@@ -42,7 +42,7 @@ Before you can use this datasource, you need at least one event tag configured a
 
    First dropdown, aggregation:
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-yaxis-aggregation.png" alt="" width="360"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-yaxis-aggregation.png" alt="" width="480"></div>
 
    - **Total**: The sum of all tagged events across the period.
    - **Average**: The mean count per time unit.
@@ -50,19 +50,19 @@ Before you can use this datasource, you need at least one event tag configured a
 
    Second dropdown, event tag filter:
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-yaxis-filter.png" alt="" width="360"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-yaxis-filter.png" alt="" width="480"></div>
 
    - **All event tags**: Includes every event tag in the selected time range and cameras.
    - **Individual**: Filters by specific event tags. Select all or check individual tags from the list. Only the checked tags appear as data series in the chart.
    - **Additional fields**: Filters by field-level values attached to your event tag POST requests. Select all to include every field.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-yaxis-individual.png" alt="" width="360"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags/widget-chart-event-tags-yaxis-individual.png" alt="" width="480"></div>
 
 > **Note:** Event tags doesn't have its own metric selector. The Y-axis label in the preview reflects the metric last selected in the [Objects](chart-or-table-objects.md#objects-y-axis-metric) datasource. If Objects was set to **Dwell Time**, the preview shows "Dwell Time average (seconds)." If Objects was set to **Appearance**, the preview shows "Appearance total." To change the label, switch to the [Objects](chart-or-table-objects.md#objects-y-axis-metric) datasource, update the metric, then switch back to Event tags.
 
 8. Select the **Cameras** field to choose which cameras contribute data.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/shared/widget-camera-field.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/shared/widget-camera-field.png" alt="" width="360"></div>
 
    - Search by camera name or location using the search field.
    - Select **All cameras** to include every camera in your account.

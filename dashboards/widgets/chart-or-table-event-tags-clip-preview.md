@@ -22,7 +22,7 @@ The preview updates as you move the timeline on either the Images or Video tab.
 
 A shared control bar sits below the viewer on all three tabs.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags-clip/widget-event-tags-clip-playback-controls.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags-clip/widget-event-tags-clip-playback-controls.png" alt="" width="360"></div>
 
 - **Previous alert** and **Next alert**: Move to the previous or next event in the records list.
 - **Play**: Starts video playback. If you're on the Images tab, selecting Play switches to the Video tab and begins playing. While playing, the same control acts as Pause.
@@ -32,7 +32,7 @@ A shared control bar sits below the viewer on all three tabs.
 
 A floating toolbar appears over the feed with controls for adjusting the view.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags-clip/widget-event-tags-clip-overlay-zoom-snapshot-fullscreen.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/event-tags-clip/widget-event-tags-clip-overlay-zoom-snapshot-fullscreen.png" alt="" width="360"></div>
 
 - **Zoom out**, **Reset zoom**, **Zoom in**: Adjust how close you are to the picture. Reset zoom returns to the default framing.
 - **Snapshot**: Saves the current frame to your device as a PNG file.
