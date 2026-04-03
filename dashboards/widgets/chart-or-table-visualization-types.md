@@ -14,7 +14,7 @@ Vertical bars grouped by time period, location, or camera. Each bar represents a
 
 The same as the vertical bar chart, but rotated. Bars run left to right, with group labels on the Y-axis. Use this when your group labels are long, when you have many time periods to compare, or when a horizontal layout better suits your dashboard.
 
-<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/chart-or-table/widget-chart-viz-horizontal-bar.png" alt="" width="480"></div>
+<div align="center"><img src="../../.gitbook/assets/dashboards/widgets/chart-or-table/widget-chart-viz-horizontal.png" alt="" width="480"></div>
 
 ## Line chart
 
