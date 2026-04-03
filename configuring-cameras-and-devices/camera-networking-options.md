@@ -19,6 +19,7 @@ Use Camera VPN to securely access your camera’s native interface through Luman
 ### Steps
 
 1. Open the camera from the **Devices** list.
+
  ![Camera player live view with timeline scrubber](../images/configuring-cameras-and-devices/camera-player-live-view-timeline.png)
 
 2. Click the **VPN icon** in the top-right corner of the camera player.

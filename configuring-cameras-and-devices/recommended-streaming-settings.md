@@ -4,9 +4,9 @@ Configure your camera streams to ensure optimal performance for analytics, stora
 
 If you're unsure, use the recommended settings below.
 
----
-
 ## Quick recommended configuration
+
+Start with these defaults on each camera, then adjust only if you have a specific constraint. The sections below explain what each stream does and how to tune bitrate, resolution, and keyframes.
 
 ### Primary stream
 - Resolution: Highest available  
@@ -20,8 +20,6 @@ If you're unsure, use the recommended settings below.
 - Bitrate type: CBR  
 - Image quality: Medium  
 - Keyframe interval: 2 × FPS  
-
----
 
 ## Stream configuration overview
 
@@ -41,7 +39,7 @@ We recommend configuring at least two streams to balance performance, storage, a
 
 > If your camera only supports one stream, you will need to balance resolution, storage retention, and live view performance.
 
----
+
 
 ## Primary stream settings
 
@@ -117,7 +115,7 @@ When using Lumana cameras, default settings already match recommended configurat
 
 No additional setup is required.
 
----
+
 
 ## Supported brand optimization
 
@@ -134,10 +132,10 @@ Some parameter names may differ between vendors.
 | Bitrate type | CBR | ABR | CBR | CBR |
 | Quality | N/A | 60 | 60 | N/A |
 
-## FAQ: Navigating your camera configuration concerns
+#### FAQ: Navigating your camera configuration concerns
 
 <details>
-<summary>What happens to video storage if you don't follow Lumana camera configuration best practice?</summary>
+<summary>What happens to video storage if you don't follow [Lumana camera configuration best practice?](https://support.lumana.ai/knowledge/articles/11867496430354/en-us?brand_id=10899747518610)</summary>
 
 Camera configuration best practice is required to bring you the best performance from Lumana Core. Not following the guidelines may impact two features:
 
@@ -149,7 +147,7 @@ Camera configuration best practice is required to bring you the best performance
 <details>
 <summary>What is the impact of using H.264 instead of H.265?</summary>
 
-When you choose H.264 over H.265 on the primary stream, consider the impact on image quality and Lumana Core performance. H.264 can reduce image quality by approximately 20%. H.264 is less efficient at compression, so it needs more bandwidth and storage for comparable quality. Core performance can drop by as much as 40% because processing larger, less efficient streams takes more resources. That limits how many concurrent streams the system can handle and how many cameras you can connect to Lumana Core.
+When choosing H.264 over H.265 on primary stream, it's important to consider the impact on both image quality and Lumana core performance. Opting for H.264 can lead to a reduction in image quality of approximately 20%. This is because H.264, being an older codec, is less efficient at compressing video data, requiring more bandwidth and storage to maintain comparable quality levels. Furthermore, the core performance can suffer a significant reduction, by as much as 40%. This decrease in performance stems from the additional processing power required to handle the larger, less efficient H.264 files. As a result, the system's ability to manage multiple video streams concurrently is diminished, reducing the total number of cameras that can be connected to the Lumana core.
 
 **Primary stream impact**
 
@@ -174,32 +172,35 @@ When you choose H.264 over H.265 on the primary stream, consider the impact on i
 
 Lumana Core requires IP cameras to use CBR for several important reasons:
 
-- **Stability and reliability:** CBR provides a consistent data stream that helps maintain stable, reliable video transmission for real-time monitoring and recording.
-- **Network bandwidth management:** CBR helps you manage and allocate bandwidth so each camera gets enough capacity for high-quality video.
+- **Stability and Reliability**: CBR provides a consistent data stream that helps maintain stable and reliable video transmission, which is crucial for real-time monitoring and recording.
+- **Network Bandwidth Management**: Using CBR allows network administrators to effectively manage and allocate network bandwidth, ensuring that each camera receives adequate resources to transmit high-quality video.
 
 </details>
 
 <details>
 <summary>Why is a high bitrate important for CBR on Lumana Core?</summary>
 
-Lumana Core uses an AI engine for video analytics such as object recognition, behavior analysis, and anomaly detection. Those features need high-quality video input. A higher bitrate matters because:
+Lumana Core employs a novel AI engine designed to perform sophisticated video analytics, such as object recognition, behavior analysis, and anomaly detection. For optimal performance of these AI functionalities, high-quality video input is essential. Here’s why a high bitrate is crucial:
 
-- **Enhanced AI quality:** A higher bitrate with CBR keeps video sharp so algorithms get clear, detailed images for accurate analysis.
-- **Robust AI learning:** High-quality feeds support model learning and training so behavior improves over time.
-- **Efficient smart storage:** Higher bitrates use more space by default, but Lumana Core can optimize storage without sacrificing quality. Strong source quality supports real-time processing and review, and high-quality video can be retained when alerts occur so storage focuses on critical events.
+- **Enhanced AI Quality**: A higher bitrate with CBR ensures that the video maintains high quality, providing the AI algorithms with clear and detailed images necessary for accurate analysis.I
+- **Robust AI Learning**: High-quality video feeds enhance the AI model's learning and training processes, leading to more effective and efficient AI behavior over time.
+- **Efficient Smart Storage Utilization**:  Although higher bitrates typically require more storage space, Lumana Core integrates smart storage solutions that optimize data storage without compromising video quality. By maintaining a high bitrate, the system ensures that video data is of sufficient quality for both real-time processing and retrospective analysis, making sure the high-quality video is stored when alerts occur. This approach maximizes the utility and efficiency of storage, preserving detailed video only during critical events.
+
 
 </details>
 
 <details>
 <summary>What happens if the bitrate is too low?</summary>
 
-If the bitrate is set too low, even with CBR, you may see poor video quality such as pixelation and blur, especially in high-motion or complex scenes. That can reduce how well the AI performs and limit Lumana Core’s analytics.
+If the bitrate is set too low, even on CBR, it may lead to poor video quality, characterized by pixelation and blurring, especially in scenes with high motion or complexity. This degradation in video quality can severely impair the AI’s ability to perform accurate analytics, leading to compromised functionality of Lumana Core’s AI engine.
+
 
 </details>
 
 <details>
 <summary>What should you configure when using Lumana cameras?</summary>
 
-Nothing. Lumana default configuration already matches the recommendations on this page.
+Nothing. Lumana default configuration fits [Lumana Optimal Camera Configuration requirements](https://support.lumana.ai/knowledge/articles/11867496430354/en-us?brand_id=10899747518610).
+
 
 </details>
