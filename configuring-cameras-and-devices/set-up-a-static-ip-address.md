@@ -39,7 +39,7 @@ Your Network Includes a DHCP Server and You Wish to Assign a Permanent IP Addres
 This ensures the camera keeps the same IP address after reboots or power interruptions.
 Refer to your router documentation for instructions.
 
-Here's an example of [static mapping configuration](https://www.cisco.com/c/en/us/td/docs/ios/12_2sb/12_2sba/feature/guide/sbhcpsm.html) for a cisco routers
+Here's an example of [static mapping configuration](https://www.cisco.com/c/en/us/td/docs/ios/12_2sb/12_2sba/feature/guide/sbhcpsm.html) for Cisco routers.
 
 
 ### Scenario 2: Your Network Lacks a DHCP Server

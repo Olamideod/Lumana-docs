@@ -56,7 +56,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="recommended-streaming-settings.html" />
+    <link rel="next" href="configure-video-streaming.html" />
     
     
     <link rel="prev" href="enable-ptz-control.html" />
@@ -290,7 +290,21 @@
             
         </li>
     
-        <li class="chapter " data-level="3.5" data-path="recommended-streaming-settings.html">
+        <li class="chapter " data-level="3.5" data-path="configure-video-streaming.html">
+            
+                <a href="configure-video-streaming.html">
+            
+                    
+                    Configure video streaming
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.5.1" data-path="recommended-streaming-settings.html">
             
                 <a href="recommended-streaming-settings.html">
             
@@ -300,6 +314,24 @@
                 </a>
             
 
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5.2" data-path="lumana-optimal-camera-configuration.html">
+            
+                <a href="lumana-optimal-camera-configuration.html">
+            
+                    
+                    Lumana optimal camera configuration
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -2113,22 +2145,19 @@
 </ul>
 <h3 id="steps">Steps</h3>
 <ol>
-<li><p>Open the camera from the <strong>Devices</strong> list.</p>
+<li><p>Open the camera from the <strong>Devices</strong> list.
+<img src="../images/configuring-cameras-and-devices/camera-player-live-view-timeline.png" alt="Camera player live view with timeline scrubber"></img></p>
 </li>
 <li><p>Click the <strong>VPN icon</strong> in the top-right corner of the camera player.</p>
-</li>
-</ol>
-<p><img src="../images/configuring-cameras-and-devices/camera-player-live-view-timeline.png" alt="Camera player live view with timeline scrubber"></img></p>
-<ol>
-<li>You will be redirected to the camera manufacturer’s login page.</li>
-</ol>
 <p><img src="../images/configuring-cameras-and-devices/manufacturer-vpn-login-redirect.png" alt="Manufacturer VPN login redirect"></img></p>
-<ol>
-<li>Enter your camera credentials to log in.</li>
-</ol>
+</li>
+<li><p>You will be redirected to the camera manufacturer’s login page.</p>
 <p><img src="../images/configuring-cameras-and-devices/hikvision-manufacturer-login.png" alt="Hikvision manufacturer login page"></img></p>
-<ol>
-<li>Configure camera settings as needed.</li>
+</li>
+<li><p>Enter your camera credentials to log in.</p>
+</li>
+<li><p>Configure camera settings as needed.</p>
+</li>
 </ol>
 <blockquote>
 <p>The available settings depend on the camera manufacturer. Refer to the manufacturer’s documentation for details.</p>
@@ -2146,9 +2175,10 @@
 <ul>
 <li>Log in to Check Point  </li>
 <li>Go to <strong>Access Policy → VoIP</strong>  </li>
-<li>Enable VoIP  </li>
-</ul>
+<li><p>Enable VoIP  </p>
 <p><img src="../images/configuring-cameras-and-devices/check-point-voip-toggle-on.png" alt=""></img></p>
+</li>
+</ul>
 <h3 id="step-2-configure-sip-service-provider">Step 2: Configure SIP service provider</h3>
 <p>Enable <strong>Use SIP Service Provider</strong> and configure the following:</p>
 <h4 id="networks">Networks</h4>
@@ -2167,7 +2197,7 @@
 <td>255.255.255.252</td>
 </tr>
 <tr>
-<td>Frankfrut_Gateways</td>
+<td>Frankfurt_Gateways</td>
 <td>35.156.191.128</td>
 <td>255.255.255.252</td>
 </tr>
@@ -2191,9 +2221,10 @@
 <h4 id="domains">Domains</h4>
 <ul>
 <li>lumana1.sip.twilio.com  </li>
-<li>lumana1.sip.us1.twilio.com  </li>
-</ul>
+<li><p>lumana1.sip.us1.twilio.com  </p>
 <p><img src="../images/configuring-cameras-and-devices/off-premise-sip-provider-service-list.png" alt=""></img></p>
+</li>
+</ul>
 <h3 id="step-3-configure-rtp-services">Step 3: Configure RTP services</h3>
 <ul>
 <li>Disable SIP traffic inspection  </li>
@@ -2231,9 +2262,10 @@
 </tbody>
 </table>
 <ul>
-<li>Enable bidirectional traffic  </li>
-</ul>
+<li><p>Enable bidirectional traffic  </p>
 <p><img src="../images/configuring-cameras-and-devices/sip-traffic-inspection-rtp-services.png" alt=""></img></p>
+</li>
+</ul>
 <h3 id="step-4-configure-on-premise-devices">Step 4: Configure on-premise devices</h3>
 <p>Add your devices (for example):</p>
 <table>
@@ -2252,46 +2284,102 @@
 </tr>
 </tbody>
 </table>
-<p><img src="../images/configuring-cameras-and-devices/on-premise-devices-ip-phones.png" alt=""></img></p>
+<p> <img src="../images/configuring-cameras-and-devices/on-premise-devices-ip-phones.png" alt=""></img></p>
 <h3 id="step-5-configure-sip-services">Step 5: Configure SIP services</h3>
 <p>Add the following services:</p>
 <table>
 <thead>
 <tr>
 <th>Name</th>
+<th>Type</th>
 <th>Protocol</th>
-<th>Ports</th>
+<th>Destination Ports</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>SIP_TLS_AUTH</td>
 <td>SIP_TLS_AUTH</td>
 <td>TCP</td>
 <td>5061</td>
 </tr>
 <tr>
 <td>SIP_TCP</td>
+<td>SIP_TCP</td>
+<td>TCP</td>
+<td>5060</td>
+</tr>
+<tr>
+<td>sip_any-tcp</td>
+<td>sip_any-tcp</td>
 <td>TCP</td>
 <td>5060</td>
 </tr>
 <tr>
 <td>SIP_UDP</td>
+<td>SIP_UDP</td>
 <td>UDP</td>
-<td>5060, 5061</td>
+<td>5060</td>
 </tr>
 <tr>
 <td>Any_TCP</td>
+<td>Any_TCP</td>
 <td>TCP</td>
-<td>1–65535</td>
+<td>1-65535</td>
+</tr>
+<tr>
+<td>SIP_UDP</td>
+<td>SIP_UDP</td>
+<td>UDP</td>
+<td>5061</td>
 </tr>
 <tr>
 <td>Any_UDP</td>
+<td>Any_UDP</td>
 <td>UDP</td>
-<td>1–65535</td>
+<td>1-65535</td>
 </tr>
 </tbody>
 </table>
-<p><img src="../images/configuring-cameras-and-devices/sip-service-ports-table.png" alt=""></img></p>
+<p> <img src="../images/configuring-cameras-and-devices/sip-service-ports-table.png" alt=""></img></p>
+<h2 id="speaker-configuration-examples">Speaker configuration examples</h2>
+<h3 id="uniview-speaker">Uniview speaker</h3>
+<ol>
+<li>Log in to the Uniview speaker interface  </li>
+<li>Go to the <strong>SIP Account</strong> section  </li>
+<li>Enter:<ul>
+<li>Username  </li>
+<li>ID  </li>
+<li>Password  </li>
+<li>Display Name  </li>
+<li>Server Host  </li>
+<li>Port  </li>
+</ul>
+</li>
+<li>Set <strong>Expire Time &gt; 600</strong>  </li>
+<li>Set <strong>Auto Answer</strong> to <em>Immediately</em>  </li>
+<li>Save  </li>
+</ol>
+<p>Verify the status shows <strong>Registered</strong></p>
+<p><img src="../images/configuring-cameras-and-devices/sip-account-setup-example.png" alt=""></img></p>
+<hr></hr>
+<h3 id="toa-speaker">TOA speaker</h3>
+<ol>
+<li>Log in to the TOA speaker interface  </li>
+<li>Go to the <strong>SIP section</strong>  </li>
+<li>Enter:<ul>
+<li>SIP Server Address  </li>
+<li>SIP Server Port  </li>
+<li>Registration Expiry &gt; 3600  </li>
+<li>User ID  </li>
+<li>Display Name  </li>
+<li>Password  </li>
+</ul>
+</li>
+<li>Enable all audio codecs  </li>
+<li>Save  </li>
+</ol>
+<p><img src="../images/configuring-cameras-and-devices/toa-speaker-sip-account-registered.png" alt=""></img></p>
 
                                 
                                 </section>
@@ -2324,7 +2412,7 @@
                 </a>
                 
                 
-                <a href="recommended-streaming-settings.html" class="navigation navigation-next " aria-label="Next page: Recommended streaming settings">
+                <a href="configure-video-streaming.html" class="navigation navigation-next " aria-label="Next page: Configure video streaming">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -2335,7 +2423,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Camera networking options","level":"3.4","depth":1,"next":{"title":"Recommended streaming settings","level":"3.5","depth":1,"path":"configuring-cameras-and-devices/recommended-streaming-settings.md","ref":"configuring-cameras-and-devices/recommended-streaming-settings.md","articles":[]},"previous":{"title":"Enable PTZ control","level":"3.3","depth":1,"path":"configuring-cameras-and-devices/enable-ptz-control.md","ref":"configuring-cameras-and-devices/enable-ptz-control.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"configuring-cameras-and-devices/camera-networking-options.md","mtime":"2026-04-02T09:01:05.953Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-04-02T09:01:35.124Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Camera networking options","level":"3.4","depth":1,"next":{"title":"Configure video streaming","level":"3.5","depth":1,"path":"configuring-cameras-and-devices/configure-video-streaming.md","ref":"configuring-cameras-and-devices/configure-video-streaming.md","articles":[{"title":"Recommended streaming settings","level":"3.5.1","depth":2,"path":"configuring-cameras-and-devices/recommended-streaming-settings.md","ref":"configuring-cameras-and-devices/recommended-streaming-settings.md","articles":[]},{"title":"Lumana optimal camera configuration","level":"3.5.2","depth":2,"path":"configuring-cameras-and-devices/lumana-optimal-camera-configuration.md","ref":"configuring-cameras-and-devices/lumana-optimal-camera-configuration.md","articles":[]}]},"previous":{"title":"Enable PTZ control","level":"3.3","depth":1,"path":"configuring-cameras-and-devices/enable-ptz-control.md","ref":"configuring-cameras-and-devices/enable-ptz-control.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"configuring-cameras-and-devices/camera-networking-options.md","mtime":"2026-04-02T13:06:39.643Z","type":"markdown"},"gitbook":{"version":"6.1.7","time":"2026-04-03T17:56:37.149Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -2387,10 +2475,6 @@
     </script>
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
