@@ -1,1 +1,0 @@
-# Lumana glossary

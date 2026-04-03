@@ -22,7 +22,6 @@
 * [Camera networking options](configuring-cameras-and-devices/camera-networking-options.md)
 * [Configure video streaming](configuring-cameras-and-devices/configure-video-streaming.md)
   * [Recommended streaming settings](configuring-cameras-and-devices/recommended-streaming-settings.md)
-  * [Lumana optimal camera configuration](configuring-cameras-and-devices/lumana-optimal-camera-configuration.md)
 * [Set up a camera floor plan](configuring-cameras-and-devices/set-up-a-camera-floor-plan.md)
 * [Create links between cameras](configuring-cameras-and-devices/create-links-between-cameras.md)
 * [Connect cameras by brand](configuring-cameras-and-devices/connect-cameras-by-brand/README.md)
