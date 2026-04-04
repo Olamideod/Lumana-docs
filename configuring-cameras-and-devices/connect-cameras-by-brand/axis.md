@@ -85,7 +85,6 @@ Set the resolution, frame rate, and bit rate based on [Lumana Camera Optimal Con
 
 The profile name is used in the rtsp path once connecting the camera to Lumana core. Once setting the profile and saving, the RTSP that needs to be used t connect to Lumana core is /axis-media/media.amp?profile=<profile name>.
 
-
 In this example the RTSP path that was generated is /axis-media/media.amp?profile=lumana_sub
 
 ![AXIS camera web interface on Stream profiles with Add open for sub stream.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/axis-stream-profile-sub-add.png)

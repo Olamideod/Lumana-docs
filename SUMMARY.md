@@ -30,6 +30,7 @@
   * [Hanwha](configuring-cameras-and-devices/connect-cameras-by-brand/hanwha.md)
   * [Hikvision](configuring-cameras-and-devices/connect-cameras-by-brand/hikvision.md)
   * [Verkada](configuring-cameras-and-devices/connect-cameras-by-brand/verkada.md)
+  * [Other brands](configuring-cameras-and-devices/connect-cameras-by-brand/other-brands.md)
 * [Other devices](configuring-cameras-and-devices/other-devices/README.md)
   * [Network Attached Storage (NAS) devices](configuring-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md)
   * [FLIR sensors](configuring-cameras-and-devices/other-devices/flir-sensors.md)
