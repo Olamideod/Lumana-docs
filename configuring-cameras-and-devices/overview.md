@@ -44,9 +44,9 @@ Make sure you have:
 </tr>
 <tr>
 <td><img src="../.gitbook/assets/icons/icon-settings.svg" alt=""></td>
-<td><strong>Configure video streaming</strong></td>
-<td>Set up camera streams, then review optimal defaults and reference details.</td>
-<td><a href="configure-video-streaming.md">configure-video-streaming.md</a></td>
+<td><strong>Recommended streaming settings</strong></td>
+<td>Set up camera streams with recommended encoder, bitrate, and resolution defaults.</td>
+<td><a href="recommended-streaming-settings.md">recommended-streaming-settings.md</a></td>
 </tr>
 <tr>
 <td><img src="../.gitbook/assets/icons/icon-link.svg" alt=""></td>
