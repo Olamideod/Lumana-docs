@@ -31,7 +31,7 @@ Assign a Static IP (Recommended): Assign a static IP through the web interface o
 
 This can be done under **Basic → IP and port**.
 
-![Hanwha web interface on the IP address tab: IPv4 IP type Manual with sample IP, subnet mask, gateway, and DNS fields filled in; IPv6 Use unchecked; Apply available.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-network-ipv4-manual.png)
+![Hanwha camera network settings, IPv4 manual.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-network-ipv4-manual.png)
 
 **Configuring the profile on your Hanwha camera**
 
@@ -49,7 +49,7 @@ Note: you can always use the add button to add another video profile
 
 - **Step 3**: Make that profile the default profile and select codec H.265
 
-![Hanwha Vision web interface: Basic and Video profile selected; profile table with H.265 row selected as Default type; other profiles MJPEG, H.264, Live4NVR shown.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-video-profile-default-h265.png)
+![Hanwha Video profile with H.265 set as default.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-video-profile-default-h265.png)
 
 - **Step 4**: Configure the main profile 
 
@@ -62,7 +62,7 @@ Note: you can always use the add button to add another video profile
     - Dynamic GOV disable 
     - Dynamic FPS disabled
 
-![Hanwha camera web UI showing main profile settings: ATC mode Disable; resolution 2592 by 1944; frame rate 15 fps; target bitrate 3584 kbps; bitrate control CBR; GOV length 15; Smart codec Disable; Dynamic GOV and Dynamic FPS unchecked.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-main-profile-encoding-settings.png)
+![Hanwha main stream encoding and bitrate settings.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-main-profile-encoding-settings.png)
 
 - **Step 5**: Configure the substream create storage profile 
 
@@ -92,7 +92,7 @@ Make sure to select codec H.265 for it
 
 - Dynamic FPS disabled
 
-![Hanwha video profile table with Storage selected; codec H.265; resolution 1280 by 720 at 20 fps; maximum bitrate 2048 kbps; ATC mode Off; Default and Record profile unchecked.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-storage-profile-h265.png)
+![Hanwha Storage substream profile, 720p H.265.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-storage-profile-h265.png)
 
 Step 7: Add camera to core 
 

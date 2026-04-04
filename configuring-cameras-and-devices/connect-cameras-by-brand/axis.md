@@ -64,7 +64,7 @@ The profile name is used in the rtsp path once connecting the camera to Lumana c
 
 In the example below the RTSP path that was generated is /axis-media/media.amp?profile=lumana_main
 
-![AXIS camera web interface on Stream profiles with Add open for main stream.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/axis-stream-profile-main-add.png)
+![AXIS Stream profiles, main stream Add form.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/axis-stream-profile-main-add.png)
 
 **Sub stream profile**
 
@@ -87,7 +87,7 @@ The profile name is used in the rtsp path once connecting the camera to Lumana c
 
 In this example the RTSP path that was generated is /axis-media/media.amp?profile=lumana_sub
 
-![AXIS camera web interface on Stream profiles with Add open for sub stream.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/axis-stream-profile-sub-add.png)
+![AXIS Stream profiles, sub stream Add form.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/axis-stream-profile-sub-add.png)
 
 With the completion of configuring both the main profile and sub profile settings on your Axis camera, you have effectively laid the groundwork for optimal integration with Lumana Core. By assigning the appropriate user credentials and fine-tuning your camera’s stream configurations, you've ensured that Lumana Core can access and manage your camera's feeds efficiently, capitalizing on high-quality recordings for event-based captures and optimizing storage through the sub profile for continuous, non-event recordings.
 
