@@ -1,19 +1,16 @@
 # REST APIs
 
-This book documents Lumana HTTP usage where guides exist in these pages. There is no separate OpenAPI/Swagger file in this repository for every endpoint.
+The Lumana REST API lets you post structured events from external systems and tie them to camera footage by time and camera. You'll use it to send event tag data to Lumana, where it becomes searchable and available for visualization on any dashboard.
 
-## Event tag ingestion
+Lumana authenticates every API request using API keys as Bearer tokens. You generate your key under **Organization**, then **Organization settings**, then **API keys**, then **Generate Key**. Store the secret securely because Lumana won't show it again.
 
-Use this when you need to send events for a **custom event tag** you defined under **Organization database** → **Event tags**.
+## Available endpoints
 
-| Item | Value |
-|------|--------|
-| **Method and URL** | `POST https://access.lumana.ai/v1/events-tag/insert` |
-| **Auth** | `Authorization: Bearer <API key>` (create under **Organization** → **Organization settings** → **API keys** → **Generate Key**; use **Bearer Token** in Postman) |
-| **Event type ID in JSON** | `eventTypeId` — copy the **Event type ID** from the **Event tags** table in the portal (same row as your tag **Name**) |
+The Lumana API currently supports event tag ingestion. The full endpoint reference, including request fields, response schemas, error codes, and a cURL example, is in the [Lumana API reference](api-reference.md).
 
-Request body also requires `orgId`, `cameraId`, `timestamp` (Unix epoch **milliseconds**), and `fields` (keys must match the field **Name** values on that tag).
+## Related guides
 
-**End-to-end guide** (create tag, cURL example, verify data, dashboard counts): [Enhance your video data with Lumana Event Tags](../databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md).
+If you're setting up event tags for the first time, start with the end-to-end setup guide before calling the API. It walks you through generating an API key, creating an event tag, posting your first event, and verifying the data.
 
-**Dashboard widget** (**Datasource** → **Event tags**, axes, empty chart troubleshooting): [Event tags (Chart or table)](../dashboards/widgets/chart-or-table-event-tags.md).
+- [Enhance your video data with Lumana Event Tags](../databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) — full setup, cURL example, and data verification steps.
+- [Event tags (Chart or table)](../dashboards/widgets/chart-or-table-event-tags.md) — configure the dashboard widget to visualize event tag data after your first successful POST.
