@@ -14,6 +14,12 @@
 * [Connect a camera](getting-started/connect-a-camera.md)
 * [Use the Lumana mobile app](getting-started/use-the-lumana-mobile-app.md)
 
+## Concepts
+
+* [How VIA-1 works](concepts/how-via-1-works.md)
+* [Understand search in Lumana](concepts/understand-search-in-lumana.md)
+* [Understand AI detection and alerts](concepts/understand-ai-detection-and-alerts.md)
+
 ## Set up cameras and devices
 
 * [Overview](configuring-cameras-and-devices/overview.md)
@@ -169,9 +175,3 @@
 
 * [Professional monitoring with Lumana](monitoring-services/professional-monitoring-with-lumana.md)
 * [Partner Monitoring Portal](monitoring-services/partner-monitoring-portal.md)
-
-## Concepts
-
-* [How VIA-1 works](concepts/how-via-1-works.md)
-* [Understand search in Lumana](concepts/understand-search-in-lumana.md)
-* [Understand AI detection and alerts](concepts/understand-ai-detection-and-alerts.md)

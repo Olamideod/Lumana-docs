@@ -1,5 +1,9 @@
 # Reference
 
-This section brings together **API and integration reference** (REST APIs and Webhooks) and **FAQ and reference** topics: system requirements, deployment, security, storage, warranties, and the Lumana glossary.
+This section is organized into three areas:
 
-Use the **REST APIs** and **Webhooks** pages for programmatic access and event delivery. Use the FAQ and reference pages for product questions, compliance, and terminology.
+- **API reference** — REST integration: **Lumana API** (authenticated HTTP endpoints) and **Webhooks** (outbound events).
+- **Product reference** — requirements, deployment, access control, storage, offline behavior, security and compliance, and the glossary.
+- **Support** — getting started FAQs, returns, and warranty.
+
+Open **REST APIs** for an overview, then use **Lumana API** and **Webhooks** under that page for programmatic access. Use **Product reference** and **Support** for product questions, compliance, and terminology.
