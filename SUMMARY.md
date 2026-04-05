@@ -161,6 +161,11 @@
 * [Space occupancy analytics](databases-analytics-and-search/space-occupancy-analytics.md)
 * [Enhance your video data with Lumana Event Tags](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md)
 
+## Monitoring services
+
+* [Professional monitoring with Lumana](monitoring-services/professional-monitoring-with-lumana.md)
+* [Partner Monitoring Portal](monitoring-services/partner-monitoring-portal.md)
+
 ## Troubleshooting and maintenance
 
 * [General troubleshooting guide](troubleshooting-and-maintenance/general-troubleshooting-guide.md)
@@ -170,8 +175,3 @@
 * [Reset a Lumana camera password](troubleshooting-and-maintenance/reset-a-lumana-camera-password.md)
 * [Reboot your Lumana Core](troubleshooting-and-maintenance/reboot-your-lumana-core.md)
 * [Contact Lumana support](troubleshooting-and-maintenance/contact-lumana-support.md)
-
-## Monitoring services
-
-* [Professional monitoring with Lumana](monitoring-services/professional-monitoring-with-lumana.md)
-* [Partner Monitoring Portal](monitoring-services/partner-monitoring-portal.md)
