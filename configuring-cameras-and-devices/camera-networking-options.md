@@ -40,13 +40,13 @@ Use Camera VPN to securely access your camera’s native interface through Luman
 
 ## SIP configuration (Check Point router)
 
-Use SIP configuration to enable communication between Lumana and external audio devices such as speakers.
+Use Session Initiation Protocol (SIP) configuration to enable communication between Lumana and external audio devices such as speakers.
 
 This setup is typically required in advanced deployments using network-managed audio systems.
 
 
 ### Before you begin
-
+You'll need:
 - Administrative access to the Check Point router  
 - Access to Check Point SmartConsole  
 - Network topology details  
@@ -78,7 +78,7 @@ Enable **Use SIP Service Provider** and configure the following:
 #### Domains
 
 - lumana1.sip.twilio.com  
-- lumana1.sip.us1.twilio.com  
+- lumana1.sip.us1.twilio.com
 
  ![](../images/configuring-cameras-and-devices/off-premise-sip-provider-service-list.png)
 

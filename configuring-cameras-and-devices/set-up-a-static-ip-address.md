@@ -31,9 +31,12 @@ Your Network Includes a DHCP Server and You Wish to Assign a Permanent IP Addres
 3. Find the camera's IP address and MAC address:
 	- In Lumana, open the camera from the **Devices** list.
 	- Use the **IP address** shown for the camera.
+ 
  ![](../images/configuring-cameras-and-devices/devices-list-ip-address.png)
+
 	- Open **Camera** -> **Edit camera** -> **Details** to copy the **MAC address**.
-![](../images/configuring-cameras-and-devices/camera-details-mac-address.png)
+ 
+ ![](../images/configuring-cameras-and-devices/camera-details-mac-address.png)
 
 4. Configure DHCP reservation on your router using the MAC address.
 This ensures the camera keeps the same IP address after reboots or power interruptions.
@@ -42,8 +45,9 @@ Refer to your router documentation for instructions.
 Here's an example of [static mapping configuration](https://www.cisco.com/c/en/us/td/docs/ios/12_2sb/12_2sba/feature/guide/sbhcpsm.html) for Cisco routers.
 
 
-### Scenario 2: Your Network Lacks a DHCP Server
+### Scenario 2: 
 
+Your Network Lacks a DHCP Server
 If your network does not have a DHCP server, you will need to connect to the camera via the local page and configure the IP address directly on the camera.
 
 **Default camera settings (example)**
@@ -54,21 +58,25 @@ If your network does not have a DHCP server, you will need to connect to the cam
 - Default password: `123456`
 
 
-1. Open a web browser on a device connected to the same network.
+1. If your device is not receiving an IP address automatically, assign a temporary static IP address on the same subnet as the camera (for example, `192.168.1.10` with subnet mask `255.255.255.0`).
 
-2. Enter the camera’s IP address and log in.
+> **Note:** If needed, refer to your computer or operating system documentation for instructions on setting a temporary static IP address.
+
+2. Open a web browser on a device connected to the same network.
+
+3. Enter the camera’s IP address and log in.
 
     ![](../images/configuring-cameras-and-devices/lumix-camera-web-login-lb800.png)
 
-3. Change the default password when prompted.
+4. Change the default password when prompted.
 
-4. Go to **Setup → Network**.
+5. Go to **Setup → Network**.
     ![](../images/configuring-cameras-and-devices/lumix-network-ipv4-dhcp-settings.png)
-5. Change the network mode from DHCP to Static IP.
+6. Change the network mode from DHCP to Static IP.
 
-6. Enter your **IP address**, **subnet mask**, and **gateway**.
+7. Enter your **IP address**, **subnet mask**, and **gateway**.
 
-7. Save your changes.
+8. Save your changes.
 
 ![](../images/configuring-cameras-and-devices/lumix-network-ipv4-static-settings.png)
 
