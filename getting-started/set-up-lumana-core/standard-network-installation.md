@@ -1,0 +1,2 @@
+# Standard network installation
+

@@ -1,3 +1,0 @@
-# Microsoft Teams
-
-Coming soon!

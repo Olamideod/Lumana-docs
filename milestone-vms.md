@@ -1,3 +1,0 @@
-# Milestone VMS
-
-Coming soon!

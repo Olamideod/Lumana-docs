@@ -1,0 +1,2 @@
+# Isolated network installation
+
