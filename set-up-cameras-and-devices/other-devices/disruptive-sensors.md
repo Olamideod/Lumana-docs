@@ -2,17 +2,18 @@
 
 Integrating your Disruptive sensor with Lumana allows seamless linkage between external signals, such as temperature, and live camera views. For example, you can automatically send a snapshot when the temperature crosses a set threshold.
 
-## Adding Sensors to Lumana
+
+## Connecting Disruptive sensors to Lumana
 
 1. Generate Lumana API Key
 
 * Log in to the Lumana portal.
 * Navigate to Org → Settings → API Keys.
-* Generate a key and save it for later (used in step 3).
+* Generate a key and save it for later (used in step 2).
 
 ![Organization settings, API keys, Create API Key.](../../.gitbook/assets/disruptive-create-api-key.png)
 
-2. Configure in Disruptive Portal
+2. Configure in Disruptive portal
 
 * In Data Connector, create a new connector and name it (e.g., Lumana Production).
 * Set the Endpoint URL to:
