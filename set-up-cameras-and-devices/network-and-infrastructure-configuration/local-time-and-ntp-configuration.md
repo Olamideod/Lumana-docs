@@ -1,25 +1,30 @@
 # Local time and NTP configuration
 
-The time appears on screen when using live-view or playback is determined by the time-zone configured on the location in which the core and cameras are installed.
+The time shown in live view and playback is determined by the time zone configured on the location where the core and cameras are installed.
 
-To change the time zone, hover the name of the relevant location, click "Edit Location" then change the time zone.
+## Change the location time zone
 
-1. Hover the location, click "Edit location"
+1. Hover the name of the relevant location and click *Edit location*.
 
 ![Edit location button on location card.](../../.gitbook/assets/ntp-edit-location.png)
 
-2. Edit the "Time Zone" field.
+2. Edit the *Time Zone* field.
 
 ![Edit Location, Time Zone field.](../../.gitbook/assets/ntp-location-timezone-field.png)
 
-The Lumana Core requires a connection and synchronization with an NTP (Network Time Protocol) server to operate properly.
+## Configure Network Time Protocol (NTP)
 
-An NTP (Network Time Protocol) server is a server that uses the Network Time Protocol to provide accurate time synchronization to networked devices over the internet or local networks. This protocol ensures that the clocks of all machines within a network are kept in sync with UTC (Coordinated Universal Time).
+Lumana Core requires connection to a Network Time Protocol (NTP) server to synchronize time correctly.
 
-Lumana's defauls NTP servers are 0.pool.ntp.org 1.pool.ntp.org 0.fr.pool.ntp.org
+Lumana's default NTP servers are:
 
-Should you want to use your local server you can enable that under the Edit Core menue
+- `0.pool.ntp.org`
+- `1.pool.ntp.org`
+- `0.fr.pool.ntp.org`
 
-Step 1: Click on pencil icon under Core (edit Core) Step 2: Select NTP Step 3: Click on add server and type in the url of the new server you woul like to add Step 4: Click Save
+If you want to use a local NTP server instead:
 
-That's it you are all done!
+1. Click the *edit* icon for the core you want to update.
+2. Select *NTP*.
+3. Click *Add server* and enter the URL of the server you want to add.
+4. Click *Save*.
