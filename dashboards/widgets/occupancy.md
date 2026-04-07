@@ -8,6 +8,10 @@ Use this widget to monitor space capacity, understand when areas are busiest, an
 
 Before you add an Occupancy widget, you need at least one camera with a Traffic control configured. The widget uses Traffic control line crossings to count entries and exits. If you haven't set one up yet, you'll be prompted to do so during the widget setup flow.
 
+{% hint style="info" %}
+**Administrator access** s required to create a new **Entrances and exits**. Ask your organization administrator to configure Traffic control on the camera or to adjust your permissions if you cannot complete this step.
+{% endhint %}
+
 With your prerequisites in place, you're ready to add the widget to a dashboard.
 
 ## Add an Occupancy widget
@@ -16,34 +20,34 @@ Adding an Occupancy widget takes you through the main configuration dialog and a
 
 1. Follow **Add a widget** in [Create and manage dashboards](../create-and-manage-dashboards.md#add-a-widget) to open the widget list, then select **Occupancy**. The configuration dialog opens.
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-dialog.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-dialog.png" alt="" width="563"></div>
 
 2. Enter a name in the **Title** field. Use a name that identifies what the widget is tracking, for example, "Main entrance occupancy" or "Warehouse floor capacity."
 3. In the **Entrances and exits** row, select the **Select** dropdown. Any line crossings you've already configured appear as checkboxes. Select one or more to add them to the widget. If you need to create a new one, then select **+ Entrance and exit** to open the camera picker.
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-entrance-dropdown.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-entrance-dropdown.png" alt="" width="375"></div>
 
 4.  Choose the camera you want to configure, then select **Select**.
 
     If no Traffic control line crossing exists for that camera, a warning banner appears: "You must select a Traffic control, use the edit button next to the camera to select one."
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-camera-picker.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-camera-picker.png" alt="" width="375"></div>
 
 5. Select the **edit icon** next to the camera. The Select line crossing dialog opens over the camera's live feed.
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-line-crossing-dialog.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-line-crossing-dialog.png" alt="" width="563"></div>
 
 6. Enter a name for this line crossing configuration in the **Name** field at the top, for example, "Main entrance" or "Warehouse door."
 7. Select **How to draw?** to open the drawing instructions overlay. The overlay explains that you click once to place the line start point and click again to place the line end point.
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-how-to-draw.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-how-to-draw.png" alt="" width="563"></div>
 
 8. Select **Got it, I'm ready** to dismiss the overlay.
 9.  Click once on the camera preview to place the line start point. Click a second time to place the line's endpoint. A line appears between the two endpoints spanning the entrance or exit you want to track.
 
     Each line shows two labels: **In** and **Out**. These indicate which direction of crossing counts as an entry and which counts as an exit. A rotation icon sits between the labels. Select it to flip the direction if needed.
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-line-drawn.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-line-drawn.png" alt="" width="563"></div>
 
 10. Enter a name for this line in the **Name your line** field at the bottom. Use a name that describes the specific crossing point, for example, "Main entrance," "Front door," or "Warehouse exit."
 11. Optionally, select a color from the color dropdown. Use different colors if you draw more than one line on the same camera to distinguish them.
@@ -55,7 +59,7 @@ Adding an Occupancy widget takes you through the main configuration dialog and a
     > **Note:** There's no confirmation message after saving. Returning to the camera picker without any error confirms that the line crossing was saved successfully.
 14. Select **Select** to confirm. A success message appears confirming the line crossing was created, for example, "Main entrance has been created." The message uses the name you entered in the **Name** field.
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-success.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-success.png" alt="" width="563"></div>
 
 The line crossing name now appears as an option in the **Select** dropdown under **Entrances and exits**.
 
@@ -69,19 +73,19 @@ The line crossing name now appears as an option in the **Select** dropdown under
 
     > **Note:** The **Total in** and **Total out** options appear over time as the system records entry and exit data.
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-avg-dropdown.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-avg-dropdown.png" alt="" width="563"></div>
 
 17. Select the **Objects** dropdown to choose which object type the widget counts. The options are **People** and **Vehicles**. The default is **People**.
 18. Set the **Reset time**. This controls when the occupancy count resets to zero. The first dropdown sets the frequency, and the second sets the hour.
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-reset-time.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-reset-time.png" alt="" width="563"></div>
 
 * **Daily**: Resets the count once per day at the hour you set. The default is Daily at 0 AM.
 * **Weekly**: Resets the count once per week. Set the day and hour using the two additional dropdowns that appear.
 
 19. Select a visualization type from the icon row. The fields below update based on your selection, and the Time options change depending on which visualization you choose.
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-viz-icons.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-viz-icons.png" alt="" width="360"></div>
 
 Each visualization type shows different data and requires different fields. The table and counter visualizations have unique field requirements. The chart types all share the same Weekends field and Time options.
 
@@ -102,7 +106,7 @@ Each visualization type shows different data and requires different fields. The 
 
 For the **Table** visualization:
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-time-dropdown-table.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-time-dropdown-table.png" alt="" width="563"></div>
 
 * **This week**: Shows data for the current week only. Days that haven't occurred yet show 0.
 * **Last week**: Shows data for the previous week only. Days with no recorded data are shown as 0.
@@ -110,7 +114,7 @@ For the **Table** visualization:
 
 For the **Counter** visualization:
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-time-dropdown-counter.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-time-dropdown-counter.png" alt="" width="563"></div>
 
 * **Today**: Shows data for today only.
 * **Yesterday**: Shows data for yesterday only.
@@ -119,7 +123,7 @@ For the **Counter** visualization:
 
 For the **Line chart**, **Horizontal bar chart**, and **Vertical bar chart** visualizations, the Time options are the same:
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-time-dropdown-charts.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-time-dropdown-charts.png" alt="" width="563"></div>
 
 * **Today**: Shows data for today only.
 * **Yesterday**: Shows data for yesterday only.
@@ -135,7 +139,7 @@ The Table visualization displays a grid with days of the week as columns and hou
 
 The Start and End settings control which hours appear as rows. Cells are shaded using a heat map. The darker the cell, the higher the occupancy value relative to other cells in the table. Days with no recorded data are shown as 0 and appear unshaded.
 
-<div align="center"><img src="../../.gitbook/assets/widget-occupancy-live-table.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-live-table.png" alt="" width="563"></div>
 
 ## Edit or delete the widget
 
