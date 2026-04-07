@@ -2,13 +2,13 @@
 
 Dashboard filters let you control what data all widgets on a dashboard display. You can filter by camera, object type, and time range, and configure auto refresh, fullscreen mode, and default filter settings. Filters apply to every widget on the dashboard unless a widget has its own time setting configured.
 
-<div align="center"><img src="../.gitbook/assets/dashboard-filter-bar.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-filter-bar.png" alt="" width="563"></div>
 
 ## Camera filter
 
 The **Cameras** field controls which cameras contribute data to the dashboard. Select it to open the camera picker, then choose the cameras you want to include.
 
-<div align="center"><img src="../.gitbook/assets/filter-choose-cameras.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/filter-choose-cameras.png" alt="" width="563"></div>
 
 * Select **All cameras** to include every camera in your organization.
 * To filter by specific cameras, select individual cameras from the list or search by name or location.
@@ -20,7 +20,7 @@ The camera filter is now set. Next, narrow the data further by selecting which o
 
 The object type filter narrows the data to specific detection categories. Select the **All objects** dropdown to choose a filter mode.
 
-<div align="center"><img src="../.gitbook/assets/filter-object-group.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/filter-object-group.png" alt="" width="563"></div>
 
 There are three modes:
 
@@ -40,7 +40,7 @@ The picker has two tabs: **Relative** and **Calendar**. Select **Done** to apply
 
 Use **Relative** for rolling windows that count backward from now, for example, the last two weeks of data.
 
-<div align="center"><img src="../.gitbook/assets/filter-time-relative.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/filter-time-relative.png" alt="" width="563"></div>
 
 * Select a preset chip (minutes, hours, days, or weeks). The number field and unit dropdown below update to match.
 * To set a custom range, enter a number in the field and select a unit from the dropdown.
@@ -49,7 +49,7 @@ Use **Relative** for rolling windows that count backward from now, for example, 
 
 Use **Calendar** for exact start and end dates and times, for example, an incident window.
 
-<div align="center"><img src="../.gitbook/assets/filter-time-calendar.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/filter-time-calendar.png" alt="" width="563"></div>
 
 * Select a start day and an end day on the calendar. The range between them is highlighted.
 * Set the **From** and **To** date and time in the fields below for precision. Selecting a time field opens a time picker where you can set hours, minutes, and AM or PM.
@@ -61,13 +61,18 @@ Your filters are now set to the required period. Auto refresh controls how frequ
 
 The auto refresh toggle sits to the right of the time range. When auto refresh is on, the dashboard reloads data automatically at the interval you set.
 
-* Select the toggle to enable or disable auto refresh.
+* Select the toggle to enable or disable auto refresh.&#x20;
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/auto-refresh.png" alt="" width="282"><figcaption></figcaption></figure></div>
+
 * Use the **refresh rate** dropdown to set how often the dashboard reloads. The countdown timer shows how long until the next reload.
 * Select the **manual refresh** icon (circular arrow) to reload data immediately at any time.
 
 ## Save and reset filters
 
 Saving your filters sets them as the default for this dashboard. The same camera, object type, and time range configuration loads each time you open it.
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/reset-cancel.png" alt=""><figcaption></figcaption></figure></div>
 
 * Select the **pin icon** to save the current filters as the default for this dashboard.
 * Select the **X icon** next to the pin to reset the filters back to the saved default.
