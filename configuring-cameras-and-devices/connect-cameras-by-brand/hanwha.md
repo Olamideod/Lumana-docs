@@ -16,6 +16,14 @@ Supported Hanwha Wisenet series:
 
 This guide explains how to connect your Hanwha camera to Lumana Core. If needed, you can connect using the admin credentials, an ONVIF profile, or a new profile.
 
+Choose the connection method that fits your setup:
+
+- **Admin credentials:** Best option when available. Gives Lumana the highest level of access and compatibility.
+- **ONVIF:** Useful when you need a standards-based connection.
+- **New profile:** Useful when you do not want to use the admin account directly and want to manage access separately.
+
+> **Note:** Using reduced-permission accounts may limit some functionality in Lumana.
+ 
 > **Note:** Use the camera's admin username and password when possible. This provides the highest level of compatibility and access.
 
 ## Preparing Your Hanwha Camera
