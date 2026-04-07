@@ -1,1 +1,0 @@
-# NDAA compliance

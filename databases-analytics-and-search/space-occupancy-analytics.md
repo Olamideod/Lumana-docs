@@ -1,1 +1,0 @@
-# Space occupancy analytics

@@ -1,3 +1,0 @@
-# Event clearance
-
-Coming soon.

@@ -1,3 +1,0 @@
-# Developer
-
-Coming soon.

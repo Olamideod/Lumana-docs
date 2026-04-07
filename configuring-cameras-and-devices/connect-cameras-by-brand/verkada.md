@@ -1,3 +1,0 @@
-# Verkada
-
-Coming Soon
