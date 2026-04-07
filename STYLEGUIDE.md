@@ -169,6 +169,13 @@ All images and icons live in `.gitbook/assets/`. Use section-based subfolders to
 ├── getting-started/                images used in the Getting started section
 │   └── mobile-app/                 screenshots specific to the mobile app page
 ├── alerts-and-ai-detection/        screenshots used in the Alerts section
+├── dashboards/                     dashboard and widget screenshots
+│   ├── main/                       create/manage dashboard flows (canvas, add widget, edit, save)
+│   ├── filter/                     dashboard filter bar and filter modals
+│   └── widgets/                    grouped by widget doc (alerts, objects, event-tags, heatmap, …)
+│       ├── shared/                 reused across several widget pages (camera picker, time dropdown, …)
+│       ├── chart-or-table/         chart widget overview and shared visualization screenshots
+│       └── …/                      one subfolder per widget type where it makes sense
 └── lumana-docs-header.png          images used at the root level stay at the root
 ```
 

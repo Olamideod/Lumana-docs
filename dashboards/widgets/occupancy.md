@@ -1,3 +1,0 @@
-# Occupancy
-
-Coming soon!

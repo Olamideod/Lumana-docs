@@ -1,3 +1,0 @@
-# FLIR sensors
-
-### Coming Soon

@@ -1,0 +1,149 @@
+openapi: 3.0.3
+
+info:
+  title: Lumana API
+  version: 1.0.0
+  description: >
+    The Lumana API lets you post structured events from external systems and 
+    tie them to camera footage by time and camera. Use it to link point-of-sale 
+    transactions, warehouse scans, access control events, or any custom event 
+    to the exact moment it appeared on a camera. Once posted, events are 
+    searchable in Lumana and can be visualized in a Chart or table widget 
+    on any dashboard.
+
+servers:
+  - url: https://access.lumana.ai/v1
+
+security:
+  - BearerAuth: []
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      description: >
+        Lumana uses API keys as Bearer tokens to authenticate event tag POST 
+        requests. To generate a key, open Organization → Organization settings 
+        → API keys → Generate Key. Enter a name, set an expiration date, and 
+        save. Copy the secret that appears and store it securely — Lumana 
+        will not show it again. Use the key as the Bearer token in every 
+        API call. Keep your API key secure: anyone who has it can post events 
+        to your organization until it expires or you revoke it.
+
+  schemas:
+    EventTagInsertRequest:
+      type: object
+      required:
+        - orgId
+        - cameraId
+        - timestamp
+        - eventTypeId
+        - fields
+      properties:
+        orgId:
+          type: string
+          description: >
+            Your organization ID. Find it in Organization → Organization 
+            settings.
+          example: "631d897c32b1b5c5c0c6350f"
+        cameraId:
+          type: string
+          description: >
+            The ID of the camera the event is associated with. Find it on 
+            the camera's edit screen. The camera ID you use here must match 
+            a camera selected in your dashboard widget, or the event will 
+            not appear in the chart.
+          example: "646dd77b3b6af4f41e0c2129"
+        eventTypeId:
+          type: string
+          description: >
+            The Event type ID for the custom event tag you created in 
+            Organization database → Event tags. Copy it from the Event type ID 
+            column in the Event tags list — it appears in the same row as your 
+            tag Name. Each POST must reference a valid Event type ID or the 
+            event will not be ingested.
+          example: "655cb88d1ff98797b9dc0c3b"
+        timestamp:
+          type: integer
+          description: >
+            The time the event occurred, in Unix epoch milliseconds. Use a 
+            current timestamp — you can run Date.now() in a browser console 
+            to get the current value. If the timestamp falls outside the time 
+            range set on your dashboard widget, the event will not appear in 
+            the chart.
+          example: 1774968426317
+        fields:
+          type: object
+          description: >
+            An object of key-value pairs matching the field Names defined on 
+            your event tag. Keys must match the field Name values exactly, 
+            including spelling and casing. Not every field defined on the tag 
+            needs to be present in every POST — only include the fields 
+            relevant to the event you are recording.
+          example:
+            PalletID: "2acd"
+
+paths:
+  /events-tag/insert:
+    post:
+      summary: Insert an event tag
+      operationId: insertEventTag
+      description: >
+        Posts a single event to the Lumana API and ties it to a camera and 
+        timestamp. Use this endpoint when you need to send events for a custom 
+        event tag you defined under Organization database → Event tags.
+
+
+        Before calling this endpoint, complete the following setup:
+
+        1. Generate an API key under Organization → Organization settings → 
+        API keys → Generate Key.
+
+        2. Create an event tag under Organization database → Event tags. 
+        Each tag defines the structure of events you will post, including 
+        a display name, video clip length, and up to 10 custom fields.
+
+        3. Copy the Event type ID from the Event tags list and use it as 
+        eventTypeId in every POST for that tag.
+
+
+        A successful POST returns a 2xx response. The event then becomes 
+        searchable in Lumana and can be visualized in a Chart or table widget 
+        on any dashboard. If your POST returns a 4xx or 5xx response, the 
+        event was not ingested — check your field names, eventTypeId, cameraId, 
+        and timestamp before retrying.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EventTagInsertRequest"
+            example:
+              orgId: "631d897c32b1b5c5c0c6350f"
+              cameraId: "646dd77b3b6af4f41e0c2129"
+              eventTypeId: "655cb88d1ff98797b9dc0c3b"
+              fields:
+                PalletID: "2acd"
+              timestamp: 1774968426317
+      responses:
+        "200":
+          description: >
+            Event tag successfully inserted. The event is now searchable 
+            in Lumana and available for visualization in dashboard widgets.
+        "400":
+          description: >
+            Bad request. The request body is missing required fields, contains 
+            invalid values, or the field keys do not match the names defined 
+            on the event tag. Check that orgId, cameraId, eventTypeId, 
+            timestamp, and fields are all present and correctly formatted.
+        "401":
+          description: >
+            Unauthorized. The Bearer token is missing, expired, or invalid. 
+            Generate a new API key under Organization → Organization settings 
+            → API keys → Generate Key.
+        "500":
+          description: >
+            Internal server error. The request was received but Lumana was 
+            unable to process it. Retry the request. If the problem persists, 
+            contact Lumana support.
