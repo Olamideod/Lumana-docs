@@ -134,14 +134,12 @@ When adding supported camera brands, Lumana Core automatically applies optimized
 #### FAQ: Navigating your camera configuration concerns
 
 <details>
-<summary>What happens to video storage if you don't follow Lumana camera configuration best practice?</summary>
+<summary>What happens to video storage if you don't follow <a href="https://support.lumana.ai/knowledge/articles/11867496430354/en-us?brand_id=10899747518610">Lumana camera configuration best practice?</a></summary>
 
 Camera configuration best practice is required to bring you the best performance from Lumana Core. Not following the guidelines may impact two features:
 
 1. The number of cameras that you can connect to a single Core may be lower than the spec.
 2. The storage retention period may be lower than the spec. For more on retention, see [Lumana Video Storage: Revolutionizing Video Security Retention](https://support.lumana.ai/knowledge/articles/11078121786386/en-us?brand_id=10899747518610).
-
-For best practices, see [Lumana camera configuration best practice](https://support.lumana.ai/knowledge/articles/11867496430354/en-us?brand_id=10899747518610).
 
 </details>
 
