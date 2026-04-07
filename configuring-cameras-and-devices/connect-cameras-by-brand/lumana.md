@@ -1,3 +1,0 @@
-# Lumana
-
-Coming Soon

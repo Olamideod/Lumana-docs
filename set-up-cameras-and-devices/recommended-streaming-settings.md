@@ -1,6 +1,6 @@
 # Recommended streaming settings
 
-Configure your camera streams to ensure optimal performance for analytics, storage, and live monitoring in Lumana.
+Lumana is designed to integrate seamlessly with a range of IP cameras. If you’re using a camera outside of the Lumana portfolio, it is critical to correctly configure your camera before connecting it to Lumana.
 
 If you're unsure, use the recommended settings below.
 
@@ -10,32 +10,32 @@ Start with these defaults on each camera, then adjust only if you have a specifi
 
 ### Primary stream
 
-* Resolution: Highest available
-* Encoder: H.265 (H.264 supported but less efficient)
-* Bitrate type: CBR
-* Keyframe interval: Equal to FPS
+- Resolution: Highest available
+- Encoder: H.265 (H.264 supported but less efficient)
+- Bitrate type: CBR
+- Keyframe interval: Equal to FPS
 
 ### Sub stream
 
-* Resolution: 720p (or lower)
-* Encoder: H.265
-* Bitrate type: CBR
-* Image quality: Medium
-* Keyframe interval: 2 × FPS
+- Resolution: 720p (or lower)
+- Encoder: H.265
+- Bitrate type: CBR
+- Image quality: Medium
+- Keyframe interval: 2 × FPS
 
 ## Stream configuration overview
 
 Most IP cameras provide at least two video streams, and some offer more.
 
-* The **primary stream** uses the highest resolution and quality
-* The **sub stream** uses lower resolution for efficiency
+- The **primary stream** uses the highest resolution and quality
+- The **sub stream** uses lower resolution for efficiency
 
 Lumana uses these streams for:
 
-* AI analytics
-* High-quality storage
-* Standard-quality storage
-* High- and low-quality live view
+- AI analytics
+- High-quality storage
+- Standard-quality storage
+- High- and standard-quality live view
 
 We recommend configuring at least two streams to balance performance, storage, and bandwidth.
 
@@ -47,22 +47,24 @@ The primary stream is used for analytics, high-quality storage, and live monitor
 
 ### Recommended settings
 
-* Resolution: Highest available
-* Encoder: H.265 (H.264 is supported but less efficient)
-* Bitrate type: CBR
-* Keyframe interval: Equal to FPS
+- Resolution: Highest available
+- Encoder: H.265 (H.264 is supported but less efficient)
+- Bitrate type: CBR
+- Keyframe interval: Equal to FPS
 
 ### Keyframe guidance
 
 For optimal performance:
 
-* Use at least one keyframe every 2 seconds
-* In high-motion scenes, reduce the keyframe interval to match the FPS
+- Use at least one keyframe every 2 seconds
+- In high-motion scenes, reduce the keyframe interval to match the FPS
 
 For example:
 
-* At 25 FPS → keyframe interval should be ≤ 50
-* For high motion → set it to 25
+if your camera is at 25 fps, your keyframe interval should be no higher than 50. If you have a lot of motion in the scene, reduce the keyframe interval until it is equal to the FPS, like, if the camera is at 25 fps, set the keyframe interval to 25
+
+- At 25 FPS → keyframe interval should be ≤ 50
+- For high motion → set it to 25
 
 ### Reference values
 
@@ -85,11 +87,11 @@ The sub stream is used for standard-quality storage and bandwidth optimization.
 
 ### Recommended settings
 
-* Resolution: 720p (or lower)
-* Encoder: H.265
-* Bitrate type: CBR
-* Image quality: Medium
-* Keyframe interval: 2 × FPS
+- Resolution: 720p (or lower)
+- Encoder: H.265
+- Bitrate type: CBR
+- Image quality: Medium
+- Keyframe interval: 2 × FPS
 
 ### Reference values
 
@@ -106,17 +108,17 @@ The sub stream is used for standard-quality storage and bandwidth optimization.
 | 8MP        | 1920×1080  | 25  | 1,024          |
 | 12MP       | 1920×1080  | 25  | 1,024          |
 
-## Lumana cameras
+### Lumana cameras
 
 When using Lumana cameras, default settings already match recommended configuration.
 
 No additional setup is required.
 
-## Supported brand optimization
+### Supported brand optimization
 
 When adding supported camera brands, Lumana Core automatically applies optimized configurations.
 
-Some parameter names may differ between vendors.
+> **Note:** While some of the parameters have common terminology (e.g. compression, resolution and etc.), other vendors use different terminology for camera parameters. The following table outlines the custom settings per brand:
 
 |                 | Lumana | Axis | Hikvision | Uniview |
 | --------------- | ------ | ---- | --------- | ------- |
@@ -131,7 +133,7 @@ Some parameter names may differ between vendors.
 
 <details>
 
-<summary>What happens to video storage if you don't follow [Lumana camera configuration best practice?](https://support.lumana.ai/knowledge/articles/11867496430354/en-us?brand_id=10899747518610)</summary>
+<summary>What happens to video storage if you don't follow <a href="https://support.lumana.ai/knowledge/articles/11867496430354/en-us?brand_id=10899747518610">Lumana camera configuration best practice?</a></summary>
 
 Camera configuration best practice is required to bring you the best performance from Lumana Core. Not following the guidelines may impact two features:
 

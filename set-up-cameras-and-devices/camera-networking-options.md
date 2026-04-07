@@ -10,9 +10,9 @@ Use Camera VPN to securely access your camera’s native interface through Luman
 
 ### When to use this
 
-* You need to access camera settings remotely
-* You want to configure manufacturer-specific features
-* Your camera is behind a private network
+- You need to access camera settings remotely
+- You want to configure manufacturer-specific features
+- Your camera is behind a private network
 
 ### Steps
 
@@ -29,27 +29,29 @@ Use Camera VPN to securely access your camera’s native interface through Luman
 ![Hikvision manufacturer login page](../.gitbook/assets/hikvision-manufacturer-login.png)
 
 4. Enter your camera credentials to log in.
+
 5. Configure camera settings as needed.
 
 > The available settings depend on the camera manufacturer. Refer to the manufacturer’s documentation for details.
 
 ## SIP configuration (Check Point router)
 
-Use SIP configuration to enable communication between Lumana and external audio devices such as speakers.
+Use Session Initiation Protocol (SIP) configuration to enable communication between Lumana and external audio devices such as speakers.
 
 This setup is typically required in advanced deployments using network-managed audio systems.
 
 ### Before you begin
 
-* Administrative access to the Check Point router
-* Access to Check Point SmartConsole
-* Network topology details
+You'll need:
+- Administrative access to the Check Point router
+- Access to Check Point SmartConsole
+- Network topology details
 
 ### Step 1: Enable VoIP
 
-* Log in to Check Point
-* Go to **Access Policy → VoIP**
-* Enable VoIP
+- Log in to Check Point
+- Go to **Access Policy → VoIP**
+- Enable VoIP
 
 ![](../.gitbook/assets/check-point-voip-toggle-on.png)
 
@@ -69,15 +71,15 @@ Enable **Use SIP Service Provider** and configure the following:
 
 #### Domains
 
-* lumana1.sip.twilio.com
-* lumana1.sip.us1.twilio.com
+- lumana1.sip.twilio.com
+- lumana1.sip.us1.twilio.com
 
 ![](../.gitbook/assets/off-premise-sip-provider-service-list.png)
 
 ### Step 3: Configure RTP services
 
-* Disable SIP traffic inspection
-* Add the following services:
+- Disable SIP traffic inspection
+- Add the following services:
 
 | Name           | Protocol | Port |
 | -------------- | -------- | ---- |
@@ -86,7 +88,7 @@ Enable **Use SIP Service Provider** and configure the following:
 | SIP\_UDP       | UDP      | 5060 |
 | SIP\_UDP       | UDP      | 5061 |
 
-* Enable bidirectional traffic
+- Enable bidirectional traffic
 
 ![](../.gitbook/assets/sip-traffic-inspection-rtp-services.png)
 
@@ -94,9 +96,9 @@ Enable **Use SIP Service Provider** and configure the following:
 
 Add your devices (for example):
 
-| Name             | Type      | Address        |
-| ---------------- | --------- | -------------- |
-| Uniview\_speaker | Single IP | 192.168.100.30 |
+| Name            | Type      | Address        |
+| --------------- | --------- | -------------- |
+| Uniview_speaker | Single IP | 192.168.100.30 |
 
 ![](../.gitbook/assets/on-premise-devices-ip-phones.png)
 
@@ -123,33 +125,33 @@ Add the following services:
 1. Log in to the Uniview speaker interface
 2. Go to the **SIP Account** section
 3. Enter:
-   * Username
-   * ID
-   * Password
-   * Display Name
-   * Server Host
-   * Port
+   - Username
+   - ID
+   - Password
+   - Display Name
+   - Server Host
+   - Port
 4. Set **Expire Time > 600**
-5. Set **Auto Answer** to _Immediately_
+5. Set **Auto Answer** to *Immediately*
 6. Save
 
 Verify the status shows **Registered**
 
 ![](../.gitbook/assets/sip-account-setup-example.png)
 
-***
+---
 
 ### TOA speaker
 
 1. Log in to the TOA speaker interface
 2. Go to the **SIP section**
 3. Enter:
-   * SIP Server Address
-   * SIP Server Port
-   * Registration Expiry > 3600
-   * User ID
-   * Display Name
-   * Password
+   - SIP Server Address
+   - SIP Server Port
+   - Registration Expiry > 3600
+   - User ID
+   - Display Name
+   - Password
 4. Enable all audio codecs
 5. Save
 

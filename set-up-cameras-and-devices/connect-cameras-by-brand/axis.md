@@ -2,92 +2,88 @@
 
 Axis cameras are fully supported in Lumana and provide reliable performance for analytics, monitoring, and enterprise deployments.
 
-To create a new profile on the camera, follow [AXIS camera profiles (Lumana Support)](https://support.lumana.ai/hc/en-us/articles/20392123541010).
-
 ## Axis compatibility models
-
 Here is a list of compatible Axis models.
 
-* AXIS Q16 Series
-* AXIS P13 Series
-* AXIS M11 Series
-* AXIS Q17 Series
-* AXIS P14 Series
-* AXIS Q92 Series
-* AXIS Q38 Series
-* AXIS Q36 Series
-* AXIS P39 Series
-* AXIS P38 Series
-* AXIS P37 Series
-* AXIS P32 Series
-* AXIS M32 Series
-* AXIS M31 Series
-* AXIS M30 Series
-* AXIS Q60 Series
-* AXIS Q61 Series
-* AXIS Q62 Series
-* AXIS Q63 Series
-* AXIS P54 Series
-* AXIS P56 Series
-* AXIS M50 Series
-* AXIS Q86 Series (Thermal features will require additional integration)
-* AXIS Q87 Series (Thermal features will require additional integration)
-* AXIS Q29 Series (Thermal features will require additional integration)
-* AXIS Q19 Series (Thermal features will require additional integration)
+- AXIS Q16 Series
+- AXIS P13 Series
+- AXIS M11 Series
+- AXIS Q17 Series
+- AXIS P14 Series
+- AXIS Q92 Series
+- AXIS Q38 Series
+- AXIS Q36 Series
+- AXIS P39 Series
+- AXIS P38 Series
+- AXIS P37 Series
+- AXIS P32 Series
+- AXIS M32 Series
+- AXIS M31 Series
+- AXIS M30 Series
+- AXIS Q60 Series
+- AXIS Q61 Series
+- AXIS Q62 Series
+- AXIS Q63 Series
+- AXIS P54 Series
+- AXIS P56 Series
+- AXIS M50 Series
+- AXIS Q86 Series (Thermal features will require additional integration)
+- AXIS Q87 Series (Thermal features will require additional integration)
+- AXIS Q29 Series (Thermal features will require additional integration)
+- AXIS Q19 Series (Thermal features will require additional integration)
 
 ## Connecting your AXIS camera to Lumana Core
 
-When you add the camera in Lumana Core, enter the camera's **admin** username and password. Use the stream profile steps in the next section if you still need to create or tune profiles on the camera before you connect.
+Choose the connection method that fits your setup:
+
+- **Admin credentials:** Best option when available. Gives Lumana the highest level of access and compatibility.
+- **ONVIF:** Useful when you need a standards-based connection, including some PTZ use cases.
+- **New profile:** Useful when you do not want to use the admin account directly and want to manage access separately.
+
+> **Note:** Using reduced-permission accounts may limit some functionality in Lumana.
+
+Before connecting the camera:
+
+- For out-of-box cameras, if your network does not have a DHCP server, the default IP address is `192.168.0.90`.
+- Make sure your computer is on the same network as the camera before you start.
+- Use Axis IP Utility or the camera web interface to assign a static IP address.
+- Set the root password before continuing.
+
+If you plan to connect using Open Network Video Interface Forum (ONVIF):
+
+- In *System*, select *ONVIF*.
+- Add an ONVIF user with the *Administrator* role and a strong password.
+- Save your changes.
+- Note: Axis disables ONVIF support until an ONVIF user is added.
+
+To add the camera in Lumana Core, enter the camera's admin username and password. If you are using ONVIF instead, use the ONVIF user credentials you created on the camera. Use the stream profile steps in the next section if you still need to create or tune profiles on the camera before you connect.
 
 ## Stream configuration profiles
+If Lumana cannot create the required stream profiles automatically, you can configure them manually on the Axis camera before connecting it. Use the recommended values from [Recommended streaming settings](../recommended-streaming-settings.md), then follow the steps below to create the profiles in the Axis interface.
 
-To ensure your Axis camera is optimally configured for Lumana Core, especially when you're handling the setup manually due to providing lower-level credentials, you'll need to create profiles for Lumana core. This is crucial for maintaining both compatibility with Lumana Core and ensuring that your video streams are of high quality and efficiency. While the details on the exact values appear on [Lumana Camera Optimal Configuration](https://support.lumana.ai/knowledge/editor/01H9FQ7552QDHFC8J11X0BSQ2R/en-us?brand_id=10899747518610) guide, below are the detailed steps for setting these values on your Axis camera
+Before creating the stream profiles:
+
+- **Log in to the Axis Web Portal:** Use a web browser to log into the Axis camera interface with your admin credentials.
+- **Open Stream Profiles:** In the *System* tab, select *Stream Profiles* and click *Add stream Profile*.
+- **Turn enhanced features off:** Set *Zipstream*, *Dynamic FPS*, and *Optimized GOP* to *Off*. These features can cause compatibility issues with Lumana Core.
+- **Set a profile name:** The profile name is used in the [Real Time Streaming Protocol (RTSP)](../../faq-and-reference/lumana-glossary.md#rtsp) path when connecting the camera to Lumana Core. After you save the profile, use `/axis-media/media.amp?streamprofile=<profile name>` as the RTSP path in Lumana Core.
 
 **Main stream profile**
 
-* Login to the Axis Web Portal: Use a web browser to log into the Axis camera interface with your admin credentials. This is necessary to access and create new profile for the camera.
-* Once logged in, look for the System tab, select Stream Profiles and tap on Add stream Profile
+- **Resolution:** Select the highest available resolution for your camera.
+- **Frame Rate:** Set the frame rate to `15fps`.
+- **Video Encoding:** If your camera supports **H.265**, select this option for video encoding. If **H.265** is not available, **H.264** is a suitable alternative.
+- **Bitrate:** Set bitrate based on the [Recommended streaming settings](../recommended-streaming-settings.md) guide.
+- **Profile name:** In the example below the RTSP path that was generated is `/axis-media/media.amp?profile=lumana_main`
 
-**Adjust Video Quality Settings**:
-
-* Resolution: Select the highest available resolution for your camera. Higher resolution provides better video quality, which is essential for identification purposes and detailed monitoring.
-* Frame Rate: Set the frame rate to 15fps (frames per second). Video Encoding: If your camera supports H.265, select this option for video encoding. H.265 offers better compression, reducing file sizes and bandwidth usage without compromising video quality. If H.265 is not available, H.264 is a suitable alternative.
-* Bitrate: Set bitrate based on Lumana Camera Optimal Configuration guide,
-
-**Ensure Enhanced features are OFF**:
-
-* Make sure that Zipstream, Dynamic FPS, Optimized GOP is turned OFF. While these enhanced compression formats can significantly reduce storage and bandwidth needs, they might not be supported or fully optimized for use with Lumana Core, potentially leading to compatibility issues.
-
-**Set profile name**:
-
-The profile name is used in the rtsp path once connecting the camera to Lumana core. Once setting the profile and saving, the RTSP that needs to be used t connect to Lumana core is /axis-media/media.amp?streamprofile=.
-
-In the example below the RTSP path that was generated is /axis-media/media.amp?profile=lumana\_main
-
-![AXIS Stream profiles, main stream Add form.](../../.gitbook/assets/axis-stream-profile-main-add.png)
+![AXIS Stream profiles, main stream Add form.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/axis-stream-profile-main-add.png)
 
 **Sub stream profile**
 
-In **System** tab, select **Stream Profiles** and tap on \*_Add stream Profile_
+- **Video Encoding:** If your camera supports **H.265**, select this option for video encoding. If **H.265** is not available, **H.264** is a suitable alternative.
+- **Resolution, Frame Rate, and Bitrate:** Set these values based on the [Recommended streaming settings](../recommended-streaming-settings.md) guide.
+- **Profile name:** In this example the RTSP path that was generated is `/axis-media/media.amp?profile=lumana_sub`
 
-**Adjust Video Quality Settings**:
+![AXIS Stream profiles, sub stream Add form.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/axis-stream-profile-sub-add.png)
 
-**Video Encoding**: If your camera supports H.265, select this option for video encoding. **H.265** offers better compression, reducing file sizes and bandwidth usage without compromising video quality. If H.265 is not available, H.264 is a suitable alternative.
-
-Set the resolution, frame rate, and bit rate based on [Lumana Camera Optimal Configuration](https://support.lumana.ai/knowledge/editor/01H9FQ7552QDHFC8J11X0BSQ2R/en-us?brand_id=10899747518610) guide
-
-**Ensure Enhanced features are OFF**:
-
-* Make sure that Zipstream, Dynamic FPS, Optimized GOP is turned OFF. While these enhanced compression formats can significantly reduce storage and bandwidth needs, they might not be supported or fully optimized for use with Lumana Core, potentially leading to compatibility issues.
-
-**Set profile name**:
-
-The profile name is used in the rtsp path once connecting the camera to Lumana core. Once setting the profile and saving, the RTSP that needs to be used t connect to Lumana core is /axis-media/media.amp?profile=.
-
-In this example the RTSP path that was generated is /axis-media/media.amp?profile=lumana\_sub
-
-![AXIS Stream profiles, sub stream Add form.](../../.gitbook/assets/axis-stream-profile-sub-add.png)
-
-With the completion of configuring both the main profile and sub profile settings on your Axis camera, you have effectively laid the groundwork for optimal integration with Lumana Core. By assigning the appropriate user credentials and fine-tuning your camera’s stream configurations, you've ensured that Lumana Core can access and manage your camera's feeds efficiently, capitalizing on high-quality recordings for event-based captures and optimizing storage through the sub profile for continuous, non-event recordings.
-
-You are now ready to proceed to the next phase of the integration process: [How to configure and connect Camera to Lumana core](https://support.lumana.ai/knowledge/editor/01HB6K2TVX7JF7MPZFXBJYXCRV/en-us?brand_id=10899747518610) This guide will walk you through the steps to add your Axis camera to the Lumana Core platform
+After both profiles are saved, return to Lumana Core and connect the camera using its **admin** credentials.

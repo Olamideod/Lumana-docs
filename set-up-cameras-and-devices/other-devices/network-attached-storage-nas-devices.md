@@ -1,87 +1,78 @@
 # Network Attached Storage (NAS) devices
 
-This article explains how to connect an external network storage device (NAS) to Lumana to increase recording capacity or for additinal backup.
+Connect a network attached storage (NAS) device to Lumana to expand recording storage and keep a backup of recorded video.
 
-The user will retain all of Lumana’s capabilities. The NAS will serve both as a backup for the data recorded on the core and as an extension of the core’s storage for longer recording durations. If you choose to record on the NAS for more than 30 days and wish to maintain smart search functionality, an additional NAS license will be required. However, no license is needed for the first 30 days.
+Adding a NAS does not replace Lumana Core. The NAS works alongside the core as both an additional storage location for longer retention and a backup target for recorded data. Lumana's standard capabilities remain available.
 
-Prerequisites: The network storage device must support either NFS or S3-compatible object storage. Additionally, the storage device must be accessible on the network by the Lumana core unit.
+> **Note:** If you record to NAS for more than 30 days and want to keep smart search functionality, an additional NAS license is required. No license is needed for the first 30 days.
 
-## Part 1: Add an external storage server to Lumana
+## Prerequisites
 
-1. Save the IP of your network storage server as well as a path to which Lumana should be saving videos.
+- The storage device must support *NFS* or *S3-compatible object storage*.
+- The storage device must be reachable on the network by the Lumana Core unit.
+
+## Add an external storage server
+
+1. Save the IP of your network storage server and the path where Lumana should save videos.
 
 For example:
 
-NAS IP: 192.168.100.200
+- **NAS IP:** `192.168.100.200`
+- **NAS Path:** `/share/LumanaVideos`
 
-NAS Path: /share/LumanaVideos
+2. In the Lumana console, on the *Devices* page, find the location where the NAS device is physically connected and click *Edit Location*.
 
-2. In the Lumana console, on the Devices page, find the Location where the NAS device is physically connected and click "Edit Location".
+![Lumana Devices and Edit location.](../../.gitbook/assets/configuring-cameras-and-devices/other-devices/edit-location.png)
 
-![Lumana Devices and Edit location.](../../.gitbook/assets/edit-location.png)
+3. In the left menu, click *External Storage*, then click *Add external storage*.
 
-3. On the left menu, click "External Storage" then click "Add external storage"
+![External Storage and Add external storage.](../../.gitbook/assets/configuring-cameras-and-devices/other-devices/external-storage-add.png)
 
-![External Storage and Add external storage.](../../.gitbook/assets/external-storage-add.png)
+4. Choose your storage type. This can be either *NFS* or *Object Storage*. See the NFS example below.
 
-4. Choose your storage type, this could be either NFS or Object Storage. See NFS example below:
+- **Storage type:** `NFS`
+- **Name:** name your external storage server
+- **Path:** NAS IP and a directory path
 
-Storage type: NFS
+5. Click *Test* to check connectivity to the NFS server, then click *Save external storage*.
 
-Name: name your external storage server
+![NFS external storage form.](../../.gitbook/assets/configuring-cameras-and-devices/other-devices/nfs.png)
 
-Path: NAS IP and a directory path
+## Configure cameras to use the external storage server
 
-Check the connectivity to the NFS server by clicking "Test" and then click "Save external storage"
+1. On the live view page of the camera, click *Edit Camera*.
 
-![NFS external storage form.](../../.gitbook/assets/nfs.png)
+![Live view with Edit camera.](../../.gitbook/assets/configuring-cameras-and-devices/other-devices/edit-camera.png)
 
-Congratulations! You added an external storage server to Lumana. The next step is to configure cameras to use this server and save videos to it.
+2. In the edit camera menu, click *Storage*, then scroll down to *Additional Storage*.
 
-## Part 2: Configure your cameras to store videos in the external storage server
+3. Toggle *Additional storage* to *On*, then select *External*.
 
-1. On the live-view page of the camera, click "Edit Camera".
+![Edit camera, Storage and Additional storage.](../../.gitbook/assets/configuring-cameras-and-devices/other-devices/external-storage-camera.png)
 
-![Live view with Edit camera.](../../.gitbook/assets/edit-camera.png)
+4. After selecting *External*, choose the server where the camera should record. In this example, select the NFS server added earlier, named `NFS-Server-1`.
 
-2. On the edit camera menu, on the left side, click "Storage" and then scroll down to "Additional Storage".
+5. Configure the storage options:
 
-Toggle the "Additional storage" option to ON and then select "External".
+- Choose the retention period for videos on the external storage: `30 / 60 / 90 / 180 / 365` days
+- Enable `Storage (SQ)` for saving ordinary footage
+- Enable `Alerts (HQ)` for saving high-resolution clips of triggered alerts
+- If you wish to restrict the times in which the core uploads videos to the NAS server, use the scheduler at the bottom, *When the upload should occur*
 
-![Edit camera, Storage and Additional storage.](../../.gitbook/assets/external-storage-camera.png)
+## Storage capacity calculation
 
-After selecting "External", you will be prompted to choose the server where the camera should record. In our case, select the NFS server added earlier, named "NFS-Server-1"
+- `RAID 5` - minimum 3 disks
+- `RAID 6` - minimum 4 disks
+- For `5MP` camera SQ (`700Kbps`), `0.3TB` is required for 30 days of storage
+- For `8MP` camera SQ (`1000Kbps`), `0.45TB` is required for 30 days of storage
 
-a. Choose the retention period for videos on the external storage 30 / 60 / 90 / 180 / 365 days
+## Examples of NAS servers
 
-b. enable: Storage (SQ) (for saving ordinary footage)
+- QNAP TS-1673AU-RP-16G,16 Bay NAS
+- QNAP TS-464U-RP-8G 4Bay NAS 2.5Gbe
 
-c. enable: Alerts (HQ) (for saving high-resolution clips of triggered alerts)
+## Examples of HDDs
 
-d. If you wish to restrict the times in which the core uploads videos to the NAS server, use the scheduler at the bottom "When the upload should occur".
-
-Congratulations! You configured your cameras to back-up videos to an external storage device.
-
-## Storage Capacity calculation:
-
-RAID 5 - minimum 3 disks
-
-RAID 6 - minimum 4 disks
-
-For 5MP camera SQ (700Kbps) 0.3TB is required for 30 days of storage
-
-For 8MP camera SQ (1000Kbps) 0.45TB is required for 30 days of storage
-
-## Exampls of NAS Servers
-
-QNAP TS-1673AU-RP-16G,16 Bay NAS
-
-QNAP TS-464U-RP-8G 4Bay NAS 2.5Gbe
-
-## Exampls of HDDs
-
-MG09ACA18 Toshiba Enterprise 3.5HDD 512E 18TB
-
-MG09ACA16 Toshiba Enterprise 3.5HDD 512E 16TB
-
-MG09ACA14 Toshiba Enterprise 3.5HDD 512E 14TB
+- MG09ACA18 Toshiba Enterprise 3.5HDD 512E 18TB
+- MG09ACA16 Toshiba Enterprise 3.5HDD 512E 16TB
+- MG09ACA14 Toshiba Enterprise 3.5HDD 512E 14TB

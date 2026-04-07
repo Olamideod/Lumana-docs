@@ -8,34 +8,35 @@ Most cameras that support **ONVIF** or **RTSP streaming** can be integrated with
 
 Lumana works with:
 
-* Lumana cameras (fully optimized)
-* Third-party IP cameras
-* Cameras supporting ONVIF or RTSP
+- Lumana cameras (fully optimized)
+- Third-party IP cameras
+- Cameras supporting ONVIF or RTSP
 
 ## Supported brands
 
 Lumana has been tested with the following camera brands:
 
-* Axis
-* Hikvision
-* Hanwha
-* Verkada
-* Bosch
-* Dahua
-* Avigilon
-* Uniview
-* Mobotix
-* Pelco
-* And more
+- Axis
+- Hikvision
+- Hanwha
+- Verkada
+- Bosch
+- Dahua
+- Avigilon
+- Uniview
+- Mobotix
+- Pelco, and more...
 
 > If your camera is not listed, it may still work if it supports ONVIF or RTSP.
+
+Please contact [support@lumix.ai](mailto:support@lumix.ai) if you don’t find your camera model on this list.
 
 ## Choose your camera brand
 
 Select your camera brand to learn more about compatibility and configuration:
 
-* [Lumana cameras](../../configuring-cameras-and-devices/connect-cameras-by-brand/lumana-cameras/)
-* [Axis cameras](../../configuring-cameras-and-devices/connect-cameras-by-brand/axis-cameras/)
-* [Hanwha cameras](../../configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-cameras/)
-* [Hikvision cameras](../../configuring-cameras-and-devices/connect-cameras-by-brand/hikvision-cameras/)
-* [Verkada cameras](../../configuring-cameras-and-devices/connect-cameras-by-brand/verkada-cameras/)
+- [Lumana cameras](./lumana.md)
+- [Axis cameras](./axis.md)
+- [Hanwha cameras](./hanwha.md)
+- [Hikvision cameras](./hikvision.md)
+- [Verkada cameras](./verkada.md)

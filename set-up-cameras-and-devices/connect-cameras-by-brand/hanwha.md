@@ -2,89 +2,100 @@
 
 Hanwha Wisenet cameras are supported in Lumana for analytics, monitoring, and typical enterprise deployments.
 
-## Hanwha compatibility models
+## Supported Hanwha models
 
-Compatible Hanwha Wisenet series include:
+Supported Hanwha Wisenet series:
 
-* Hanwha Wisenet P Series
-* Hanwha Wisenet X Series
-* Hanwha Wisenet T Series (thermal features require additional integration)
-* Hanwha Wisenet A Series
-* Hanwha Wisenet L Series
+- Hanwha Wisenet P Series
+- Hanwha Wisenet X Series
+- Hanwha Wisenet T Series (thermal features require additional integration)
+- Hanwha Wisenet A Series
+- Hanwha Wisenet L Series
 
 ## Connecting Your Hanwha Camera to Lumana Core
 
-This guide provides detailed instructions for connecting your Hanwha camera to Lumana Core, facilitating a smooth and effective integration. For optimal functionality, using the admin username and password of your Hanwha camera when connecting to Lumana Core is recommended. Additionally, this guide explores alternative methods such as using an ONVIF profile or creating a new profile to cater to varying security preferences and flexibility.
+This guide explains how to connect your Hanwha camera to Lumana Core. If needed, you can connect using the admin credentials, an ONVIF profile, or a new profile.
 
-**Using Admin Credentials (recommended)**
+Choose the connection method that fits your setup:
 
-To achieve the most seamless integration and ensure peak performance between your Hanwha camera and Lumana Core, we strongly suggest using the admin username and password. This method ensures the highest level of compatibility and access, allowing Lumana Core to fully utilize all features and settings of your Hanwha camera.
+- **Admin credentials:** Best option when available. Gives Lumana the highest level of access and compatibility.
+- **ONVIF:** Useful when you need a standards-based connection.
+- **New profile:** Useful when you do not want to use the admin account directly and want to manage access separately.
+
+> **Note:** Using reduced-permission accounts may limit some functionality in Lumana.
+
+> **Note:** Use the camera's admin username and password when possible. This provides the highest level of compatibility and access.
 
 ## Preparing Your Hanwha Camera
 
 Ensure your Hanwha camera is updated, correctly configured, and ready to connect, whether using admin credentials, an ONVIF profile, or a new profile.
 
-**Setting IP address**
+### Prerequisite: Setting IP address
 
-Assign a Static IP (Recommended): Assign a static IP through the web interface or Wisenet device manager . Static IP is essential to ensure a consistent connection to Lumana Core.
+Assign a static IP through the web interface or Wisenet device manager. A static IP is recommended to ensure a consistent connection to Lumana Core.
 
-This can be done under **Basic → IP and port**.
+For general guidance, see [Set up a static IP address](../set-up-a-static-ip-address.md).
 
-![Hanwha camera network settings, IPv4 manual.](../../.gitbook/assets/hanwha-network-ipv4-manual.png)
+This can be done under *Basic* -> *IP and port*.
 
-**Configuring the profile on your Hanwha camera**
+![Hanwha camera network settings, IPv4 manual.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-network-ipv4-manual.png)
 
-* **Step 1**: Log into the Hanwha Web Portal
-* **Step 2**: Under Basic->Video Profile select the video profile name you would like to use
+### Configuring the profile on your Hanwha camera
+
+1. Log into the Hanwha Web Portal
+
+2. Under *Basic* -> *Video Profile*, select the video profile name you would like to use.
 
 (In the example below the selected profile is called H.265 and it is profile 3)
 
-Note: you can always use the add button to add another video profile
+Note: you can always use the *Add* button to add another video profile.
 
-* **Step 3**: Make that profile the default profile and select codec H.265
+3. Make that profile the default profile and select codec H.265.
 
-![Hanwha Video profile with H.265 set as default.](../../.gitbook/assets/hanwha-video-profile-default-h265.png)
+![Hanwha Video profile with H.265 set as default.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-video-profile-default-h265.png)
 
-* **Step 4**: Configure the main profile
-  * Disable ATC mode
-  * Frame rate should be 15
-  * Target bit rate follow the [Lumana optimal camera configuration](https://support.lumana.ai/hc/en-us/articles/11867496430354)
-  * Bitrate control CBR
-  * GOV length 15
-  * Smart Codec disabled
-  * Dynamic GOV disable
-  * Dynamic FPS disabled
+4. Configure the main profile:
 
-![Hanwha main stream encoding and bitrate settings.](../../.gitbook/assets/hanwha-main-profile-encoding-settings.png)
+- Disable ATC mode
+- Frame rate should be 15
+- Target bit rate follow the [Recommended streaming settings](../recommended-streaming-settings.md)
+- Bitrate control CBR
+- GOV length 15
+- Smart Codec disabled
+- Dynamic GOV disable
+- Dynamic FPS disabled
 
-* **Step 5**: Configure the substream create storage profile
+![Hanwha main stream encoding and bitrate settings.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-main-profile-encoding-settings.png)
 
-Select or add another profile, name it Storage
+5. Create the storage substream profile:
 
-In the below example it will be profile 4
+- Select or add another profile, name it *Storage*.
 
-Make sure to select codec H.265 for it
+- In the below example it will be profile 4.
 
-* **Step 6**: Configure the storage profile
-* Disable ATC mode
-* Frame rate should be 20-30
-* Target bit rate follow the [Lumana optimal camera configuration](https://support.lumana.ai/hc/en-us/articles/11867496430354)
-* Bitrate control CBR
-* GOV length 2x frame rate
-* Smart Codec disabled
-* Dynamic GOV disable
-* Dynamic FPS disabled
+- Make sure to select codec H.265 for it.
 
-![Hanwha Storage substream profile, 720p H.265.](../../.gitbook/assets/hanwha-storage-profile-h265.png)
+6. Configure the storage profile:
 
-Step 7: Add camera to core
+- Disable ATC mode
+- Frame rate should be 20-30
+- Target bit rate follow the [Recommended streaming settings](../recommended-streaming-settings.md)
+- Bitrate control CBR
+- GOV length 2x frame rate
+- Smart Codec disabled
+- Dynamic GOV disable
+- Dynamic FPS disabled
 
-[Follow Lumana article for adding camera](https://support.lumana.ai/hc/en-us/articles/11180060293266)
+![Hanwha Storage substream profile, 720p H.265.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-storage-profile-h265.png)
 
-For RTSP path you should use following the instructions above
+7. Add camera to core
 
-Main stream/; /0/profile3/media.smp or /profile3/media.smp
+[Follow Connect a camera](../../getting-started/connect-a-camera.md)
 
-Substream (Storage) : /0/profile4/media.smp or /profile4/media.smp
+Use the following [Real Time Streaming Protocol (RTSP)](../../faq-and-reference/lumana-glossary.md#rtsp) paths based on the profiles above:
 
-You’re all set!
+Main stream: `/0/profile3/media.smp or /profile3/media.smp`
+
+Substream (Storage): `/0/profile4/media.smp or /profile4/media.smp`
+
+Voila, You’re all set!
