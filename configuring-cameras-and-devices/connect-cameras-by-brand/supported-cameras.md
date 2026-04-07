@@ -26,18 +26,19 @@ Lumana has been tested with the following camera brands:
 - Avigilon
 - Uniview
 - Mobotix
-- Pelco
-- And more
+- Pelco, and more...
 
 > If your camera is not listed, it may still work if it supports ONVIF or RTSP.
+
+Please contact [support@lumix.ai](mailto:support@lumix.ai) if you don’t find your camera model on this list.
 
 
 ## Choose your camera brand
 
 Select your camera brand to learn more about compatibility and configuration:
 
-- [Lumana cameras](./lumana-cameras)
-- [Axis cameras](./axis-cameras)
-- [Hanwha cameras](./hanwha-cameras)
-- [Hikvision cameras](./hikvision-cameras)
-- [Verkada cameras](./verkada-cameras)
+- [Lumana cameras](./lumana.md)
+- [Axis cameras](./axis.md)
+- [Hanwha cameras](./hanwha.md)
+- [Hikvision cameras](./hikvision.md)
+- [Verkada cameras](./verkada.md)

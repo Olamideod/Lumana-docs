@@ -18,13 +18,15 @@ Key Benefits:
 
 1. Go to Floor Plans menu
 
+![Floor Plans menu overview.](../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/floor-plans-menu-overview.png)
+
 2. Create building
 
 ![Floor Plans page with Create building action.](../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/create-building-floor-plans.png)
 
 3. Upload a floor plan
 
-here
+![Create floor plan dialog with upload area.](../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/upload-floor-plan-dialog.png)
 
 4. Click on the Camera icon to start adding and positioning your cameras on the floor plan
 
