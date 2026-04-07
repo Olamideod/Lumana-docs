@@ -11,11 +11,11 @@ The Alerts datasource counts alert events fired by your configured alert rules. 
     The title appears on the widget on the dashboard canvas. Use a name that identifies what the widget is tracking, for example "Gun detection alerts this week" or "Safety helmet not worn after 3 mins."
 4. Under **Datasource**, select **Alerts**.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-alerts-datasource.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-datasource.png" alt="" width="313"></div>
 
 5. In **Visualization**, select a format from the icon row. The preview panel on the right updates immediately when you switch types.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-visualization-icons.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-icons.png" alt="" width="263"></div>
 
 Each visualization plots your selected X-axis grouping against Appearance total. Selecting a grouping from the dropdown updates the preview immediately, and the grouping can be time periods, locations, cameras, or alert types.
 
@@ -34,7 +34,7 @@ If you selected **Counter**, then skip to [Counter visualization](chart-or-table
 
 6. Set the **X-Axis**. The first dropdown controls how data is grouped.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-visualization-group.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-group.png" alt="" width="563"></div>
 
 * **Time**: Groups data by time interval. A second dropdown appears where you set the interval. The chart layout changes when you switch visualization types. For example, Time with a vertical bar chart shows bars per hour, while Time with a line chart shows a trend line across the same intervals.
 * **Locations**: Groups data by location. The X-axis label shows **Location name** and each bar or data point represents a location in your account. The chart layout updates when you switch visualization types.
@@ -45,7 +45,7 @@ If you selected **Counter**, then skip to [Counter visualization](chart-or-table
 
 If you selected **Time**, then set the interval in the second dropdown.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-alerts-xaxis-interval.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-xaxis-interval.png" alt="" width="563"></div>
 
 * `---`: No interval set. The widget determines the interval automatically.
 * **Hour**: Groups data by hour.
@@ -59,28 +59,28 @@ If you selected **Time**, then set the interval in the second dropdown.
 
     First dropdown, aggregation:
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-alerts-yaxis-aggregation.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-yaxis-aggregation.png" alt="" width="563"></div>
 
 * **Total**: The total alert count across the selected period. This is the only aggregation option for the Alerts datasource because the axis always counts alert events.
 
 Second dropdown, alert filter:
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-objects-yaxis-filter.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-objects-yaxis-filter.png" alt="" width="563"></div>
 
 * **All alerts**: Includes every alert type in the count.
 * **Group**: Filters by alert type category. Select one or more from the full list of configured alert types.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-alerts-yaxis-groups.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-yaxis-groups.png" alt="" width="563"></div>
 
 The full list of alert type options is: Motion, Tampering, Proximity, Trespassing, Trespassing zones, Tailgating, Zone protection, Gun detection, Speed control, Doors, Fire, Fall detection, Violence, Suspect, Gun brandished, Face recognition, License plate, Container, Appearing, Disappearing, Traffic control, Occupancy, Loitering, Holding a phone, Line crossing, Missing object, Absence, Snapshot, Camera status, Core status, Protective gear, Personal safety, Free text periodic, Gloves, Hands, Event tag, Event validation, Door tailgating, Event clearance, Developer, Shelf occupancy threshold, Shelf occupancy change, Custom state change, Custom state transition, Custom state duration, and Zone armed/disarmed. Each alert types, and its configuration rules, covered in [Alert types](../../../alerts-and-ai-detection/alert-types/).
 
 * **Individual**: Filters by a specific named alert rule configured in your account. Use the search bar to find the alert by name.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-alerts-yaxis-individual.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-yaxis-individual.png" alt="" width="563"></div>
 
 8. Select the **Cameras** field to choose which cameras contribute data.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-camera-field.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-camera-field.png" alt="" width="375"></div>
 
 * Search by camera name or location using the search field.
 * Select **All cameras** to include every camera in your account.
@@ -89,7 +89,7 @@ The full list of alert type options is: Motion, Tampering, Proximity, Trespassin
 
 9. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-time-dropdown.png" alt="" width="360"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-time-dropdown.png" alt="" width="375"></div>
 
 > **Note:** Setting a time disconnects the widget from the dashboard filters. To reconnect it, select **Reset**. This clears the **Cameras** and **Time** fields and the widget follows the dashboard filters again.
 
@@ -99,13 +99,13 @@ When you hover over a data point in the chart, a tooltip shows the exact alert c
 
 When you click a data point, Lumana opens the Alert records view for that period. Each card shows the alert rule name, the trigger description, a timestamp in MM/DD/YY HH:MM timezone format, the location, and the alert type. Click any card to open the alert preview. The preview shows the recorded video clip of the alert event, a timeline scrubber for the alert window, and four tabs: **Images**, **Video**, **Objects**, and **Activity**.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-alerts-records-view.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-records-view.png" alt="" width="563"></div>
 
 ## Counter visualization
 
 If you selected **Counter** in **Visualization** in step 5, two unlabelled dropdowns replace the X-Axis and Y-Axis fields. The count on the canvas changes based on what you select in each dropdown.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-alerts-counter-config.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-counter-config.png" alt="" width="563"></div>
 
 The first dropdown sets the aggregation:
 
@@ -127,14 +127,14 @@ If you selected **Table** in **Visualization** in step 5, the X-Axis becomes **G
 
 **Group** controls how rows are organized. The first dropdown sets the grouping type: Time, Locations, Cameras, or Alert types. If you select Time, then a second dropdown appears where you set the interval: Hour, Day, Week, or Month.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-alerts-table-group.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-table-group.png" alt="" width="563"></div>
 
 **Column** controls what value each column shows. Two dropdowns set the aggregation and the alert filter.
 
 * First dropdown: **Total**. This is the only option.
 * Second dropdown: **All alerts**, **Group**, or **Individual**.
 
-<div align="center"><img src="../../../.gitbook/assets/widget-chart-alerts-table-config (1).png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-table-config (1).png" alt="" width="563"></div>
 
 Once you've set Group and Column, continue with step 8 to select cameras.
 
