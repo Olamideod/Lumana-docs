@@ -1,7 +1,5 @@
 # Configure alerts
 
-<<<<<<< HEAD
-=======
 Lumana alerts monitor your cameras and notify you when specific conditions are detected. Some alerts are powered by AI, while others are rule-based. Each alert is built from a template written in plain language, so you can see exactly what it does before you configure it.
 
 This page covers how to create, manage, and delete alerts. Each alert type and what it detects is covered in the [Alert types](./alert-types/) section.
@@ -10,25 +8,66 @@ This page covers how to create, manage, and delete alerts. Each alert type and w
 
 1. Select the **bell icon** in the navigation bar. The Alerts monitoring view opens.
 
-<!-- IMAGE: alerts/alerts-monitoring-view.png — Alerts monitoring page showing live alert cards, filter bar with Cameras, Object, Alert type, Tags, and Unacknowledged dropdowns, and Add alert button in the top right. -->
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-monitoring-view1.png" alt="" width="563"></div>
 
 2. Select **Add alert** in the top right corner. The Configure alerts page opens.
 
-<!-- IMAGE: alerts/alerts-configure-page.png — Configure alerts page with left sidebar showing categories: Security, Identification, Tracking, Status, Safety and compliance, Integrations, Custom alert. Main area shows alert type cards grouped under Security, each with a description and Use template button. -->
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
 3. Find the alert type you want. Use the left sidebar to jump to a category, or scroll through the page to browse all alert types. Each card shows a plain-language description of what the alert detects.
 
 4. Select **Use template** on the alert type card. A new page opens with the alert rule displayed as an editable sentence.
 
-<!-- IMAGE: alerts/alerts-create-motion.png — Create alert page for Motion showing Alert name field set to Untitled alert, the alert rule sentence with clickable inline fields for sensitivity percentage, camera, and time, a default configuration link, a Then section, and a Create alert button in the top right. -->
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-create-motion.png" alt="" width="563"></div>
 
 5. Enter a name for the alert in the **Alert name** field, for example "Main entrance motion" or "PPE violation."
 
-6. Configure the alert rule by selecting the underlined fields in the sentence. Each field is clickable and opens an input or dropdown. The fields change depending on the alert type. For example, a Motion alert lets you set the sensitivity percentage, camera, and time window.
+6. Configure the alert rule by selecting the underlined fields in the sentence. Each field is clickable and opens a slider, modal, or dropdown depending on what it controls. The fields change depending on the alert type. For example, a Motion alert lets you set the sensitivity percentage, camera, and time window.
+
+   Selecting the **camera** field opens the Choose cameras modal.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-camera-picker.png" alt="" width="563"></div>
+
+   - Search by camera name or location using the search field.
+   - Select **All cameras** to apply the alert to every camera in your account.
+   - Select individual cameras by checking the box next to each one.
+   - Select **Select** to confirm your selection and close the modal.
+
+   Selecting the **time** field opens a schedule dropdown that controls when the alert is active. Use the **Search schedules...** field at the top to find a saved schedule by name.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-time-dropdown.png" alt="" width="563"></div>
+
+   - **all times**: The alert is active around the clock, every day.
+   - **Untitled schedule**: A saved schedule that hasn't been renamed. Any schedules you've previously created appear here by their name, between **all times** and **never**. Select one to apply it directly.
+   - **never**: The alert is saved but never triggers. Use this to pause an alert without deleting it.
+   - **custom schedule**: Opens the Select time dialog where you set active hours per day for this alert only. The schedule is not saved for reuse.
+   - **+ Schedule**: Opens the Create schedule dialog where you build a named schedule saved to your account for reuse across alerts.
+
+   To configure a one-off schedule, select **custom schedule**.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-select-time.png" alt="" width="563"></div>
+
+   In the Select time dialog, toggle each day on or off and adjust the time bar to set the active window. Select **Save** to apply the schedule to this alert.
+
+   To create a reusable schedule, select **+ Schedule**.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-create-schedule.png" alt="" width="563"></div>
+
+   In the Create schedule dialog:
+
+   a. Enter a name in the **Schedule name** field.
+   b. Select a day row in the weekly grid to open the time picker.
+
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-time-picker.png" alt="" width="563"></div>
+
+   c. Set the **From** and **To** times for when the alert should be active.
+   d. Select the days to repeat this time window using the **Repeat on** day selector.
+   e. Select **Done** to apply the time window to the selected days.
+   f. Select **Create schedule** to save the schedule. It appears in the time dropdown for all future alerts.
 
 7. Optionally, select **default configuration** to open the Advanced configuration panel. This panel controls how the alert is displayed, sets its confidence and priority levels, configures a blocking period to reduce alert fatigue, and lets you customise the alert message with dynamic data fields. If you skip this step, the alert uses the default settings.
 
-<!-- IMAGE: alerts/alerts-advanced-configuration.png — Advanced configuration panel showing Display alert toggle, Alert page and Walls checkboxes, Alert message text area with a dynamic field example, Confidence level dropdown set to High, Priority level dropdown set to High, Blocking period counter set to 0 seconds, Auto acknowledge toggle with seconds input, and Tags field. Done button at the bottom right. -->
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-advanced-configuration.png" alt="" width="563"></div>
 
    **Display and visibility**
 
@@ -38,19 +77,38 @@ This page covers how to create, manage, and delete alerts. Each alert type and w
 
    **Alert message**
 
-   The alert message is the notification text that appears when the alert fires. You can include dynamic fields to add context-specific information. To see the available fields, type `{{` in the message field. The supported parameters are:
+   The alert message is the notification text that appears when the alert triggers. You can include dynamic fields to add context-specific information. To see the available fields, type `{{` in the message field. The supported parameters are:
 
    - `alert_name`
-   - `timestamp`
-   - `camera_name`
-   - `location`
+   - `alert_priority`
+   - `alert_instance_id`
+   - `alert_category`
+   - `alert_category_code`
+   - `alert_flow`
+   - `alert_flow_code`
    - `alert_link`
-   - `live_view_link`
-   - Object attributes such as `lower_body_color`, `upper_body_color`, `hair`, `vehicle_type`, and `vehicle_color`
+   - `alert_video`
+   - `event_id`
+   - `event_tag_name`
+   - `event_tag_id`
+   - `timestamp`
+   - `camera_id`
+   - `camera_name`
+   - `camera_metadata`
+   - `camera_live_view_link`
+   - `camera_coords`
+   - `edge_id`
+   - `edge_name`
+   - `location_id`
+   - `location_name`
+   - `org_id`
+   - `org_name`
+   - `thumbnail`
+   - `sensitivity`
 
    **Detection and filtering**
 
-   - **Confidence level**: The AI confidence threshold required before the alert fires. Higher confidence reduces false positives but might miss some events. Lower confidence captures more events but may include more false positives. The options are **Low**, **Medium**, and **High**. The default is **High**.
+   - **Confidence level**: The AI confidence threshold required before the alert triggers. Higher confidence reduces false positives but might miss some events. Lower confidence captures more events but may include more false positives. The options are **Low**, **Medium**, and **High**. The default is **High**.
    - **Priority level**: The priority assigned to this alert. The options are **Low**, **Medium**, and **High**. The default is **High**.
    - **Blocking period**: The minimum time in seconds between consecutive alerts for the same condition. Use this to reduce notification overload and focus attention on meaningful incidents. Set to 0 to allow back-to-back alerts.
    - **Auto acknowledge**: When enabled, the alert automatically acknowledges itself after the number of seconds you set. Use this for informational alerts that don't require manual review.
@@ -58,9 +116,9 @@ This page covers how to create, manage, and delete alerts. Each alert type and w
 
    Select **Done** to close the panel and return to the alert rule. The link updates from **default configuration** to **custom configuration** to confirm your changes were applied.
 
-8. Select **Then** to choose the action Lumana takes when the alert fires. Select one action from the list.
+8. Select **Then** to choose the action Lumana takes when the alert triggers. Select one action from the list.
 
-<!-- IMAGE: alerts/alerts-then-actions.png — Then dropdown showing Actions section with all 11 options: Notify, Toggle GPIO, Send syslog record, Play sound, Change alert group state, Change alert status, Trigger Remote IO, Notify Team3, Use http request, Send Microsoft Teams message, and Change variable value. -->
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-then-actions.png" alt="" width="563"></div>
 
    The available actions are:
 
@@ -68,7 +126,7 @@ This page covers how to create, manage, and delete alerts. Each alert type and w
    - **Toggle GPIO**: Trigger a GPIO output, for example to activate a door lock or light.
    - **Send syslog record**: Send a syslog entry to an external logging system.
    - **Play sound**: Play an audio alert on a connected speaker.
-   - **Change alert group state**: Update the state of an alert group when this alert fires.
+   - **Change alert group state**: Update the state of an alert group when this alert triggers.
    - **Change alert status**: Change the status of this alert automatically.
    - **Trigger Remote IO**: Trigger a remote input/output device.
    - **Notify Team3**: Send a notification through Team3.
@@ -84,7 +142,7 @@ This page covers how to create, manage, and delete alerts. Each alert type and w
 
 To view all configured alerts, select **Configurations** from the Alerts monitoring view. The list shows every alert in your account with its name, a plain-language description of its trigger condition, and its current status.
 
-<!-- IMAGE: alerts/alerts-list-view.png — Alerts list page showing rows of configured alerts. Each row has an enable/disable toggle on the left, a camera thumbnail, the alert name and trigger description, a green checkmark status icon, and a delete icon on the right. -->
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-list-view.png" alt="" width="563"></div>
 
 Each row in the list shows:
 
@@ -100,4 +158,3 @@ To edit a configured alert, select its row in the list. The alert configuration 
 To delete an alert, select the **delete icon** on the right side of the alert row in the configured alerts list.
 
 > **Warning:** Deletion is permanent and cannot be undone.
->>>>>>> 1f9c766 (modified alert group)
