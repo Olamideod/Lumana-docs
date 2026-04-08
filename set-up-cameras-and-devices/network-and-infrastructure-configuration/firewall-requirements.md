@@ -2,6 +2,8 @@
 
 Lumana requires an outbound internet connection to communicate with Lumana Cloud. The system does not require inbound connections. If your firewall monitors outbound traffic, you'll need to allow the endpoints and ports below to ensure the platform and web application function correctly.
 
+This page is organized by function: start with the outbound requirements for Lumana Core and the platform, then review the shared live view and media requirements that also support the web application, and use the final section for web application-specific endpoints.
+
 ## Lumana Core and platform requirements
 
 ### Infrastructure URLs
@@ -24,7 +26,7 @@ Allow outbound TCP `443` to the following:
 - `production.cloudflare.docker.com` - 443 TCP outbound
 - `storage.googleapis.com` - 443 TCP outbound
 - `www.googleapis.com` - 443 TCP outbound
-- `*bc.googleusercontent.com` - 443, TCP outbound
+- `*bc.googleusercontent.com` - 443 TCP outbound
 - `*nac.nodebalancer.linode.com` - 443 TCP outbound
 - `prometheus-prod-56-prod-us-east-2.grafana.net` - 443 TCP outbound
 - `prometheus-us-central1.grafana.net` - 443 TCP outbound
@@ -40,7 +42,7 @@ Instead of managing URL-based firewall rules, you may whitelist IPs directly.
 
    Navigate to:
 
-   *Organisation Settings* -> *API Keys* -> *Generate Key*
+   **Organization settings** -> **API keys** -> **Generate Key**
 
 2. Get the list of IPs.
 
@@ -58,14 +60,14 @@ Instead of managing URL-based firewall rules, you may whitelist IPs directly.
 
 > **Note:** Lumana infrastructure IPs may change periodically. Annual review and update is recommended.
 
-### NTP (Time Synchronization)
+### NTP (time synchronization)
 
-Need minimum two of the below:
+Allow at least two of the following NTP servers.
 
 - `time.cloudflare.com` - 123 UDP outbound
 - `ntp.ubuntu.com` - 123 UDP outbound
 - `pool.ntp.org` - 123 UDP outbound
-- `time.google.com` - 123 UDP out
+- `time.google.com` - 123 UDP outbound
 - `0.pool.ntp.org` - 123 UDP outbound
 - `1.pool.ntp.org` - 123 UDP outbound
 - `0.fr.pool.ntp.org` - 123 UDP outbound
@@ -83,7 +85,7 @@ Need minimum two of the below:
 
 These requirements apply to Lumana Live View and the Lumana Web application.
 
-Lumana Live View uses WebRTC + WebSocket.
+Lumana Live View uses WebRTC and WebSocket.
 
 All traffic is encrypted with TLS and DTLS.
 
@@ -97,9 +99,9 @@ If UDP is blocked, TURN/TLS over TCP 443 is used.
 
 ### Ports
 
-- UDP 3478 – TURN
-- UDP 50000–60000 – WebRTC media
-- TCP/UDP 7881 – ICE
+- `TURN` - 3478 UDP outbound
+- `WebRTC media` - 50000-60000 UDP outbound
+- `ICE` - 7881 TCP/UDP outbound
 
 For best audio/video performance:
 
@@ -108,7 +110,7 @@ For best audio/video performance:
 
 ### Regional media server details
 
-#### US-Central
+#### US Central
 
 - `stream-us-central1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket
 - `turn-us-central1.lumana.ai` - 443 TCP outbound - TURN/TLS. Used when UDP connection isn't viable. Need to allow TLS traffic (not only HTTPS traffic)
@@ -128,7 +130,7 @@ Media server IPs:
 - `34.45.55.192`
 - `34.60.41.218`
 
-#### US-East
+#### US East
 
 - `stream-us-east1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket
 - `turn-us-east1.lumana.ai` - 443 TCP outbound - TURN/TLS. Used when UDP connection isn't viable. Need to allow TLS traffic (not only HTTPS traffic)
@@ -148,7 +150,7 @@ Media server IPs:
 - `35.196.67.179`
 - `34.23.19.135`
 
-#### US-West
+#### US West
 
 - `stream-us-west1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket
 - `turn-us-west1.lumana.ai` - 443 TCP outbound - TURN/TLS. Used when UDP connection isn't viable. Need to allow TLS traffic (not only HTTPS traffic)

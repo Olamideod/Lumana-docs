@@ -132,7 +132,7 @@ Add the following services:
    - Server Host
    - Port
 4. Set **Expire Time > 600**
-5. Set **Auto Answer** to *Immediately*
+5. Set **Auto Answer** to **Immediately**
 6. Save
 
 Verify the status shows **Registered**

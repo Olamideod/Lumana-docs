@@ -8,7 +8,7 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
 * Confirm the camera is added to your Lumana organization and is online.
 * Verify that PTZ is accessible via `ONVIF` or your camera’s supported protocol.
 
-## Key Capabilities:
+## Key capabilities
 
 ✔ **Full Coverage Control** – Pan, tilt, and zoom to monitor every area.
 

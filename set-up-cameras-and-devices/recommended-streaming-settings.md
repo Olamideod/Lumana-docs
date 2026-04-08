@@ -133,12 +133,12 @@ When adding supported camera brands, Lumana Core automatically applies optimized
 
 <details>
 
-<summary>What happens to video storage if you don't follow <a href="https://support.lumana.ai/knowledge/articles/11867496430354/en-us?brand_id=10899747518610">Lumana camera configuration best practice?</a></summary>
+<summary>What happens to <a href="../faq-and-reference/video-storage.md">video storage and retention</a> if you don't follow Lumana camera configuration best practice?</summary>
 
 Camera configuration best practice is required to bring you the best performance from Lumana Core. Not following the guidelines may impact two features:
 
 1. The number of cameras that you can connect to a single Core may be lower than the spec.
-2. The storage retention period may be lower than the spec. For more on retention, see [Lumana Video Storage: Revolutionizing Video Security Retention](https://support.lumana.ai/knowledge/articles/11078121786386/en-us?brand_id=10899747518610).
+2. The storage retention period may be lower than the spec. For more on retention, see [Video storage](../faq-and-reference/video-storage.md).
 
 </details>
 
@@ -146,7 +146,7 @@ Camera configuration best practice is required to bring you the best performance
 
 <summary>What is the impact of using H.264 instead of H.265?</summary>
 
-When choosing H.264 over H.265 on primary stream, it's important to consider the impact on both image quality and Lumana core performance. Opting for H.264 can lead to a reduction in image quality of approximately 20%. This is because H.264, being an older codec, is less efficient at compressing video data, requiring more bandwidth and storage to maintain comparable quality levels. Furthermore, the core performance can suffer a significant reduction, by as much as 40%. This decrease in performance stems from the additional processing power required to handle the larger, less efficient H.264 files. As a result, the system's ability to manage multiple video streams concurrently is diminished, reducing the total number of cameras that can be connected to the Lumana core.
+When choosing H.264 over H.265 on primary stream, it's important to consider the impact on both image quality and Lumana Core performance. Opting for H.264 can lead to a reduction in image quality of approximately 20%. This is because H.264, being an older codec, is less efficient at compressing video data, requiring more bandwidth and storage to maintain comparable quality levels. Furthermore, Core performance can suffer a significant reduction, by as much as 40%. This decrease in performance stems from the additional processing power required to handle the larger, less efficient H.264 files. As a result, the system's ability to manage multiple video streams concurrently is diminished, reducing the total number of cameras that can be connected to Lumana Core.
 
 **Primary stream impact**
 
@@ -201,6 +201,6 @@ If the bitrate is set too low, even on CBR, it may lead to poor video quality, c
 
 <summary>What should you configure when using Lumana cameras?</summary>
 
-Nothing. Lumana default configuration fits [Lumana Optimal Camera Configuration requirements](https://support.lumana.ai/knowledge/articles/11867496430354/en-us?brand_id=10899747518610).
+Nothing. Lumana's default configuration matches the [recommended streaming settings](./recommended-streaming-settings.md).
 
 </details>

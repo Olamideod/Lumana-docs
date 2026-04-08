@@ -13,7 +13,7 @@ Follow the steps for your network configuration:
 - **Scenario 2**: You do not have a DHCP server
 - **Scenario 3**: You want to assign a static IP outside the DHCP pool
 
-### Scenario 1: Your Network Includes a DHCP Server and You Wish to Assign a Permanent IP Address
+### Scenario 1: Your network includes a DHCP server and you wish to assign a permanent IP Address
 
 1. Connect the camera to your network
 2. Find the camera's IP address and MAC address
@@ -36,7 +36,7 @@ Refer to your router documentation for instructions.
 
 Here's an example of [static mapping configuration](https://www.cisco.com/c/en/us/td/docs/ios/12_2sb/12_2sba/feature/guide/sbhcpsm.html) for Cisco routers.
 
-### Scenario 2: Your Network Lacks a DHCP Server
+### Scenario 2: Your network lacks a DHCP server
 
 If your network does not have a DHCP server, you will need to connect to the camera via the local page and configure the IP address directly on the camera.
 
@@ -70,7 +70,7 @@ If your network does not have a DHCP server, you will need to connect to the cam
 
 ![](../.gitbook/assets/lumix-network-ipv4-static-settings.png)
 
-### Scenario 3:
+### Scenerio 3: Assign a static IP outside the DHCP pool
 
 Use this method if you want to manually assign a static IP without DHCP reservation.
 
