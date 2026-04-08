@@ -18,7 +18,7 @@ Update the location time zone so live view and playback show the correct local t
 
 Configure NTP so Lumana Core can keep its system time accurate. Use this task if you need to point the Core to a local NTP server instead of the default Lumana NTP servers.
 
-Lumana Core requires connection to a Network Time Protocol (NTP) server to synchronize time correctly.
+Lumana Core must connect to a Network Time Protocol (NTP) server to synchronize time correctly.
 
 Lumana's default NTP servers are:
 
