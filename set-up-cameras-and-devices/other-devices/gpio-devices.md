@@ -33,10 +33,10 @@ R2 is the Base Resistor which tells how much current to let flow in the circuit.
 
 ## Use GPIO in alerts
 
-1. Contact your technical support team to enable GPIO on your core.
+1. Contact your technical support team to enable GPIO on your Core.
 
 2. Once enabled, add the action to toggle the GPIO in the alerts.
 
-3. Select the GPIO to use. The core can support up to 4 GPIOs, toggle high or low, and control how long the signal remains active.
+3. Select the GPIO to use. The Core can support up to 4 GPIOs, toggle high or low, and control how long the signal remains active.
 
 ![Alert editor, Toggle GPIO action.](../../.gitbook/assets/gpio-alert-toggle-gpio.png)

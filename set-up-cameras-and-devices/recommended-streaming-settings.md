@@ -146,7 +146,7 @@ Camera configuration best practice is required to bring you the best performance
 
 <summary>What is the impact of using H.264 instead of H.265?</summary>
 
-When choosing H.264 over H.265 on primary stream, it's important to consider the impact on both image quality and Lumana core performance. Opting for H.264 can lead to a reduction in image quality of approximately 20%. This is because H.264, being an older codec, is less efficient at compressing video data, requiring more bandwidth and storage to maintain comparable quality levels. Furthermore, the core performance can suffer a significant reduction, by as much as 40%. This decrease in performance stems from the additional processing power required to handle the larger, less efficient H.264 files. As a result, the system's ability to manage multiple video streams concurrently is diminished, reducing the total number of cameras that can be connected to the Lumana core.
+When choosing H.264 over H.265 on primary stream, it's important to consider the impact on both image quality and Lumana Core performance. Opting for H.264 can lead to a reduction in image quality of approximately 20%. This is because H.264, being an older codec, is less efficient at compressing video data, requiring more bandwidth and storage to maintain comparable quality levels. Furthermore, Core performance can suffer a significant reduction, by as much as 40%. This decrease in performance stems from the additional processing power required to handle the larger, less efficient H.264 files. As a result, the system's ability to manage multiple video streams concurrently is diminished, reducing the total number of cameras that can be connected to Lumana Core.
 
 **Primary stream impact**
 

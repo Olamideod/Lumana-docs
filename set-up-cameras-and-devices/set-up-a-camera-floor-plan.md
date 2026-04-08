@@ -14,7 +14,7 @@ Key Benefits:
 
 > **Common use cases:** Offices, malls, hospitals, warehouses, and schools.
 
-### How to Use the Camera Floor Plan Feature
+### Use the camera floor plan feature
 
 1. Go to Floor Plans menu
 
