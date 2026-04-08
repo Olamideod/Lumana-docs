@@ -9,11 +9,11 @@ To get started, open the Dashboards page from the left navigation bar. The Dashb
 1. Select **Dashboards** in the left navigation bar. The Dashboards view opens at `app.lumana.ai/dashboards/main`.
 2. Select **Create dashboard** in the top right corner.
 
-<div align="center"><img src="../.gitbook/assets/dashboards-list.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboards-list.png" alt="" width="563"></div>
 
 3. Enter a name in the **Untitled dashboard** field at the top left of the canvas.
 
-<div align="center"><img src="../.gitbook/assets/dashboard-empty-canvas.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-empty-canvas.png" alt="" width="563"></div>
 
 With your dashboard created, you're ready to add widgets.
 
@@ -23,7 +23,7 @@ Widgets are the building blocks of a dashboard. Each widget type displays a diff
 
 1. From the dashboard canvas, select **Add widget** in the top right corner. A dropdown lists the five widget types.
 
-<div align="center"><img src="../.gitbook/assets/add-widget-dropdown.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/add-widget-dropdown.png" alt="" width="563"></div>
 
 2. Select the widget type you want to add. A configuration dialog opens.
 3. Configure the widget settings, then select **Add**. The widget appears on the canvas.
@@ -38,7 +38,7 @@ Most dashboard changes, including moving widgets, resizing them, and updating th
 
 1. Select the **edit icon** (pencil) in the top right corner. The tooltip reads **Edit dashboard**.
 
-<div align="center"><img src="../.gitbook/assets/dashboard-edit-dashboard-tooltip.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-edit-dashboard-tooltip.png" alt="" width="563"></div>
 
 The canvas enters edit mode. From here, you can make the following changes:
 
@@ -61,7 +61,7 @@ Moving and resizing widgets lets you organise the dashboard layout to match your
 * To move a widget, select and drag it to a new position on the grid.
 * To resize a widget, drag its edges or corners until it reaches the size you want.
 
-<div align="center"><img src="../.gitbook/assets/dashboard-resize-widget.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-resize-widget.png" alt="" width="563"></div>
 
 When the layout is ready, save your changes before leaving edit mode. How saving works is covered in [Save dashboard changes](create-and-manage-dashboards.md#save-dashboard-changes).
 
@@ -72,7 +72,7 @@ You can update a widget's configuration at any time while the dashboard is in ed
 1. Select the **edit icon** (pencil) on the widget you want to change.
 2. Update the settings in the dialog that opens, then select **Save**.
 
-<div align="center"><img src="../.gitbook/assets/dashboard-edit-widget.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-edit-widget.png" alt="" width="563"></div>
 
 Once you've updated the settings, you may also want to remove widgets you no longer need.
 
@@ -104,7 +104,7 @@ Saving locks in every change you made during the current edit session, including
 
 1. When you've finished all changes for this session, select **Save** in the top right corner. The control is a floppy disk icon; the tooltip reads **Save**.
 
-<div align="center"><img src="../.gitbook/assets/dashboard-save-button.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-save-button.png" alt="" width="563"></div>
 
 2. Confirm that the dashboard leaves edit mode, which means your changes are saved.
 

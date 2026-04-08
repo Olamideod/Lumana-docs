@@ -6,11 +6,11 @@ Hanwha Wisenet cameras are supported in Lumana for analytics, monitoring, and ty
 
 Supported Hanwha Wisenet series:
 
-- Hanwha Wisenet P Series
-- Hanwha Wisenet X Series
-- Hanwha Wisenet T Series (thermal features require additional integration)
-- Hanwha Wisenet A Series
-- Hanwha Wisenet L Series
+* Hanwha Wisenet P Series
+* Hanwha Wisenet X Series
+* Hanwha Wisenet T Series (thermal features require additional integration)
+* Hanwha Wisenet A Series
+* Hanwha Wisenet L Series
 
 ## Connect your Hanwha camera to Lumana Core
 
@@ -18,9 +18,9 @@ This guide explains how to connect your Hanwha camera to Lumana Core. If needed,
 
 Choose the connection method that fits your setup:
 
-- **Admin credentials:** Best option when available. Gives Lumana the highest level of access and compatibility.
-- **ONVIF:** Useful when you need a standards-based connection.
-- **New profile:** Useful when you do not want to use the admin account directly and want to manage access separately.
+* **Admin credentials:** Best option when available. Gives Lumana the highest level of access and compatibility.
+* **ONVIF:** Useful when you need a standards-based connection.
+* **New profile:** Useful when you do not want to use the admin account directly and want to manage access separately.
 
 > **Note:** Using reduced-permission accounts may limit some functionality in Lumana.
 
@@ -40,6 +40,7 @@ This can be done under **Basic** -> **IP and port**.
 
 ![Hanwha camera network settings, IPv4 manual.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-network-ipv4-manual.png)
 
+
 ### Configure the profile on your Hanwha camera
 
 1. Log into the Hanwha Web Portal
@@ -50,22 +51,18 @@ This can be done under **Basic** -> **IP and port**.
 
 Note: you can always use the **Add** button to add another video profile.
 
+
 3. Make that profile the default profile and select codec H.265.
-
-![Hanwha Video profile with H.265 set as default.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-video-profile-default-h265.png)
-
 4. Configure the main profile:
 
-- Disable ATC mode
-- Frame rate should be 15
-- Target bit rate follow the [Recommended streaming settings](../recommended-streaming-settings.md)
-- Bitrate control CBR
-- GOV length 15
-- Smart Codec disabled
-- Dynamic GOV disable
-- Dynamic FPS disabled
-
-![Hanwha main stream encoding and bitrate settings.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-main-profile-encoding-settings.png)
+* Disable ATC mode
+* Frame rate should be 15
+* Target bit rate follow the [Recommended streaming settings](../recommended-streaming-settings.md)
+* Bitrate control CBR
+* GOV length 15
+* Smart Codec disabled
+* Dynamic GOV disable
+* Dynamic FPS disabled
 
 5. Create the storage substream profile:
 
@@ -77,16 +74,14 @@ Note: you can always use the **Add** button to add another video profile.
 
 6. Configure the storage profile:
 
-- Disable ATC mode
-- Frame rate should be 20-30
-- Target bit rate follow the [Recommended streaming settings](../recommended-streaming-settings.md)
-- Bitrate control CBR
-- GOV length 2x frame rate
-- Smart Codec disabled
-- Dynamic GOV disable
-- Dynamic FPS disabled
-
-![Hanwha Storage substream profile, 720p H.265.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-storage-profile-h265.png)
+* Disable ATC mode
+* Frame rate should be 20-30
+* Target bit rate follow the [Recommended streaming settings](../recommended-streaming-settings.md)
+* Bitrate control CBR
+* GOV length 2x frame rate
+* Smart Codec disabled
+* Dynamic GOV disable
+* Dynamic FPS disabled
 
 7. Add camera to Core
 

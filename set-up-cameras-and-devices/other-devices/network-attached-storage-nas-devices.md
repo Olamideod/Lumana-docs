@@ -8,8 +8,8 @@ Adding a NAS does not replace Lumana Core. The NAS works alongside the Core as b
 
 ## Prerequisites
 
-- The storage device must support *NFS* or *S3-compatible object storage*.
-- The storage device must be reachable on the network by the Lumana Core unit.
+* The storage device must support _NFS_ or _S3-compatible object storage_.
+* The storage device must be reachable on the network by the Lumana Core unit.
 
 ## Add an external storage server
 
@@ -17,12 +17,14 @@ Adding a NAS does not replace Lumana Core. The NAS works alongside the Core as b
 
 For example:
 
-- **NAS IP:** `192.168.100.200`
-- **NAS Path:** `/share/LumanaVideos`
+* **NAS IP:** `192.168.100.200`
+* **NAS Path:** `/share/LumanaVideos`
 
 2. In the Lumana console, on the **Devices** page, find the location where the NAS device is physically connected and click **Edit Location**.
 
-![Lumana Devices and Edit location.](../../.gitbook/assets/configuring-cameras-and-devices/other-devices/edit-location.png)
+* **Storage type:** `NFS`
+* **Name:** name your external storage server
+* **Path:** NAS IP and a directory path
 
 3. In the left menu, click **External Storage**, then click **Add external storage**.
 
@@ -61,18 +63,18 @@ For example:
 
 ## Storage capacity calculation
 
-- `RAID 5` - minimum 3 disks
-- `RAID 6` - minimum 4 disks
-- For `5MP` camera SQ (`700Kbps`), `0.3TB` is required for 30 days of storage
-- For `8MP` camera SQ (`1000Kbps`), `0.45TB` is required for 30 days of storage
+* `RAID 5` - minimum 3 disks
+* `RAID 6` - minimum 4 disks
+* For `5MP` camera SQ (`700Kbps`), `0.3TB` is required for 30 days of storage
+* For `8MP` camera SQ (`1000Kbps`), `0.45TB` is required for 30 days of storage
 
 ## Examples of NAS servers
 
-- QNAP TS-1673AU-RP-16G,16 Bay NAS
-- QNAP TS-464U-RP-8G 4Bay NAS 2.5Gbe
+* QNAP TS-1673AU-RP-16G,16 Bay NAS
+* QNAP TS-464U-RP-8G 4Bay NAS 2.5Gbe
 
 ## Examples of HDDs
 
-- MG09ACA18 Toshiba Enterprise 3.5HDD 512E 18TB
-- MG09ACA16 Toshiba Enterprise 3.5HDD 512E 16TB
-- MG09ACA14 Toshiba Enterprise 3.5HDD 512E 14TB
+* MG09ACA18 Toshiba Enterprise 3.5HDD 512E 18TB
+* MG09ACA16 Toshiba Enterprise 3.5HDD 512E 16TB
+* MG09ACA14 Toshiba Enterprise 3.5HDD 512E 14TB

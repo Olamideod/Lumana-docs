@@ -2,7 +2,7 @@
 
 Dashboards give you a workspace for analyzing data from your cameras over time. Use them to spot trends, track occupancy, and review alert activity without watching live footage.
 
-<div align="center"><img src="../.gitbook/assets/dashboard.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard.png" alt="" width="563"></div>
 
 ## What dashboards are for
 

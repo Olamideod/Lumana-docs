@@ -6,13 +6,13 @@ Hikvision cameras are supported in Lumana when you use compatible series and rec
 
 Compatible Hikvision networked camera lines include:
 
-- Hikvision Networked camera Value series with AcuSense
-- Hikvision Networked camera Value series with ColorVu
-- Hikvision Networked camera DeepinView Series
-- Hikvision Networked camera Panoramic Series
-- Hikvision Networked camera Performance Series
-- Hikvision Networked camera Solar-powered Series
-- Hikvision Networked camera Value Express Series
+* Hikvision Networked camera Value series with AcuSense
+* Hikvision Networked camera Value series with ColorVu
+* Hikvision Networked camera DeepinView Series
+* Hikvision Networked camera Panoramic Series
+* Hikvision Networked camera Performance Series
+* Hikvision Networked camera Solar-powered Series
+* Hikvision Networked camera Value Express Series
 
 ## Connect your Hikvision camera to Lumana Core
 
@@ -20,9 +20,9 @@ This guide explains how to connect your Hikvision camera to Lumana Core. If need
 
 Choose the connection method that fits your setup:
 
-- **Admin credentials:** Best option when available. Gives Lumana the highest level of access and compatibility.
-- **ONVIF:** Useful when you need a standards-based connection, including some PTZ use cases.
-- **New profile:** Useful when you do not want to use the admin account directly and want to manage access separately.
+* **Admin credentials:** Best option when available. Gives Lumana the highest level of access and compatibility.
+* **ONVIF:** Useful when you need a standards-based connection, including some PTZ use cases.
+* **New profile:** Useful when you do not want to use the admin account directly and want to manage access separately.
 
 > **Note:** Using reduced-permission accounts may limit some functionality in Lumana.
 
@@ -34,20 +34,14 @@ Ensure your Hikvision camera is updated, correctly configured, and ready to conn
 
 ### Activate your camera with the SADP tool
 
-![Hikvision SADP tool listing discovered devices and IP addresses.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hikvision-sadp-device-list.png)
-
-![Diagram: cameras and a PC on the same network via a switch.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hikvision-cameras-switch-laptop-diagram.png)
-
-- **Download SADP Tool:** If your camera is new or hasn’t been initialized yet, start by downloading the SADP (Search Active Device Protocol) tool from the [Hikvision official website](https://www.hikvision.com/en/support/tools/hitools/clea8b3e4ea7da90a9/). This software is designed to help find and initialize Hikvision devices on your network. Note: Hikvision's SADP tool requires Windows OS
-- **Install and Launch SADP:** After downloading, install and open the SADP tool on a computer connected to the same network as your Hikvision camera.
-- **Detect and Initialize the Camera:** The SADP tool will scan your network and list all Hikvision devices that are not initialized. Select your camera from the list and set a password for it, effectively initializing the device. Note down the IP address assigned to your camera; you will need it for later steps.
-- **Assign a static IP (Recommended):** To ensure your camera maintains a consistent connection to Lumana Core, assign it a static IP address through its web interface under the network settings.
+* **Download SADP Tool:** If your camera is new or hasn’t been initialized yet, start by downloading the SADP (Search Active Device Protocol) tool from the [Hikvision official website](https://www.hikvision.com/en/support/tools/hitools/clea8b3e4ea7da90a9/). This software is designed to help find and initialize Hikvision devices on your network. Note: Hikvision's SADP tool requires Windows OS
+* **Install and Launch SADP:** After downloading, install and open the SADP tool on a computer connected to the same network as your Hikvision camera.
+* **Detect and Initialize the Camera:** The SADP tool will scan your network and list all Hikvision devices that are not initialized. Select your camera from the list and set a password for it, effectively initializing the device. Note down the IP address assigned to your camera; you will need it for later steps.
+* **Assign a static IP (Recommended):** To ensure your camera maintains a consistent connection to Lumana Core, assign it a static IP address through its web interface under the network settings.
 
 ### Continue after you log in
 
 If you have successfully logged into your Hikvision camera's web interface using the IP address identified via the SADP tool, this indicates that your camera has been initialized properly. At this stage, your device is ready to be connected to Lumana Core using the recommended admin credentials method for optimal compatibility and feature access.
-
-![Hikvision device web login page.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hikvision-web-login.png)
 
 If you are using admin credentials, you can proceed directly to [Connect a camera](../../getting-started/connect-a-camera.md).
 
@@ -55,8 +49,8 @@ If you are using admin credentials, you can proceed directly to [Connect a camer
 
 1. Log into the Hikvision Web Portal.
 
-- **Open a web browser:** Enter the IP address of your Hikvision camera into the browser’s address bar.
-- **Administrator login:** Use your administrator credentials to log into the Hikvision web portal. These credentials are the admin username and password established during the initial setup of your camera.
+* **Open a web browser:** Enter the IP address of your Hikvision camera into the browser’s address bar.
+* **Administrator login:** Use your administrator credentials to log into the Hikvision web portal. These credentials are the admin username and password established during the initial setup of your camera.
 
 2. Open **Configuration** -> **Network** -> **Advanced Settings**.
 
@@ -75,8 +69,8 @@ If you are using admin credentials, you can proceed directly to [Connect a camer
 
 5. Add an ONVIF user.
 
-- Add a user specifically for ONVIF access.
-- Use the same login information as the camera at the admin level. This means creating an ONVIF user with administrative privileges.
+* Add a user specifically for ONVIF access.
+* Use the same login information as the camera at the admin level. This means creating an ONVIF user with administrative privileges.
 
 6. Save your settings.
 
@@ -85,13 +79,12 @@ If you are using admin credentials, you can proceed directly to [Connect a camer
 
 ![Hikvision Integration Protocol: ONVIF and Hikvision-CGI enabled.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hikvision-integration-protocol-onvif.png)
 
+
 After completing ONVIF setup, proceed to [Connect a camera](../../getting-started/connect-a-camera.md).
 
 ### Create a new user on your Hikvision camera
 
 1. Access the Hikvision Web Portal.
-- Open your web browser: Enter the IP address of your Hikvision camera into the browser’s address bar.
-- Log in: Use the administration credentials to log into the Hikvision web portal. These are the admin username and password that were set up during the camera's initial setup.
 
 2. Open **Configuration** -> **System** -> **User Management**.
 - Once logged in, look for the **Configuration** tab on the top menu of the web portal's interface. Click on this tab to access the various configuration settings available for your camera.
@@ -107,9 +100,10 @@ After completing ONVIF setup, proceed to [Connect a camera](../../getting-starte
 - After filling in the details and assigning the appropriate role and permissions, click **Save** to finalize the creation of the new user profile.
 - A confirmation message or indicator should appear, confirming that the new user has been added successfully.
 
-![Hikvision Add user dialog, Operator level.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hikvision-add-user-dialog.png)
+4. Save the new user profile.
 
-![Hikvision User management list.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hikvision-user-management-list.png)
+* After filling in the details and assigning the appropriate role and permissions, click _Save_ to finalize the creation of the new user profile.
+* A confirmation message or indicator should appear, confirming that the new user has been added successfully.
 
 Using an **Operator** user with **All** permissions allows Lumana Core to configure camera settings, including stream configurations, automatically.
 
