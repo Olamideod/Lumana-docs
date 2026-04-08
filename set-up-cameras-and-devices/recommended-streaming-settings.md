@@ -133,7 +133,7 @@ When adding supported camera brands, Lumana Core automatically applies optimized
 
 <details>
 
-<summary>What happens to video storage if you don't follow <a href="./recommended-streaming-settings.md">Lumana camera configuration best practice?</a></summary>
+<summary>What happens to <a href="../faq-and-reference/video-storage.md">video storage and retention</a> if you don't follow Lumana camera configuration best practice?</summary>
 
 Camera configuration best practice is required to bring you the best performance from Lumana Core. Not following the guidelines may impact two features:
 
@@ -201,6 +201,6 @@ If the bitrate is set too low, even on CBR, it may lead to poor video quality, c
 
 <summary>What should you configure when using Lumana cameras?</summary>
 
-Nothing. Lumana default configuration fits the [recommended streaming settings](./recommended-streaming-settings.md).
+Nothing. Lumana's default configuration matches the [recommended streaming settings](./recommended-streaming-settings.md).
 
 </details>
