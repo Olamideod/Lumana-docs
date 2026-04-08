@@ -1,6 +1,6 @@
 # Custom alert
 
-A custom alert lets you build an alert condition from scratch instead of starting from a predefined template. Use it when none of the standard alert types match what you need to detect, or when you want to combine conditions in a way that a template doesn't support.
+<!-- A custom alert lets you build an alert condition from scratch instead of starting from a predefined template. Use it when none of the standard alert types match what you need to detect, or when you want to combine conditions in a way that a template doesn't support.
 
 ## Create a custom alert
 
@@ -24,4 +24,4 @@ A custom alert lets you build an alert condition from scratch instead of startin
 
 8. Select **Then** to choose what Lumana does when the alert fires. Each action and how to configure it is covered in [Alert actions](../alert-actions.md).
 
-9. Select **Create alert**. The alert is saved and appears in the configured alerts list.
+9. Select **Create alert**. The alert is saved and appears in the configured alerts list. -->

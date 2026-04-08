@@ -10,7 +10,7 @@ When creating or editing an alert, scroll down to the **Then** section and selec
 
 <!-- IMAGE: alerts/alerts-then-actions.png — Then dropdown showing the Actions section with all available action options listed. -->
 
-Select the action you want to use. The section expands to show the configuration fields for that action. Fill in the required fields, then continue to save the alert.
+<!-- Select the action you want to use. The section expands to show the configuration fields for that action. Fill in the required fields, then continue to save the alert.
 
 ## Available actions
 
@@ -78,4 +78,4 @@ To configure it, connect your Microsoft Teams account and select the channel whe
 
 Updates the value of a configured variable when the alert fires. Use this in combination with variable-based alert rules to create conditional or stateful alert logic.
 
-To configure it, select the variable and enter the new value to set. -->
+To configure it, select the variable and enter the new value to set. --> -->
