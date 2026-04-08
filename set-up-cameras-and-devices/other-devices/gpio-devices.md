@@ -1,6 +1,6 @@
 # GPIO devices
 
-GPIO (General-Purpose Input/Output) is an interface on Lumana Core that allows it to interact with external devices.
+GPIO (general-purpose input/output) is an interface on Lumana Core that allows it to interact with external devices.
 
 In Lumana, GPIO pins can be programmed to toggle high or low in response to an alert, enabling third-party devices to read hardwired signals from Lumana or control devices such as LEDs, motors, or relays.
 
@@ -12,7 +12,7 @@ Use the following pinout reference when wiring a device to GPIO.
 
 ## Connect a device
 
-In the example below, an LED is connected to the GPIO. Each time the alert is triggered, the LED will blink.
+In the example below, an LED is connected to the GPIO. Each time the alert triggers, the LED blinks.
 
 ### Parts list
 
@@ -23,11 +23,9 @@ In the example below, an LED is connected to the GPIO. Each time the alert is tr
 
 ### Wiring notes
 
-The transistor will act as a switch and amplify the current to the led
-
-R1 is the current limiting resistor for the LED
-
-R2 is the Base Resistor which tells how much current to let flow in the circuit.
+- The transistor acts as a switch and amplifies the current to the LED.
+- `R1` is the current-limiting resistor for the LED.
+- `R2` is the base resistor that controls how much current flows in the circuit.
 
 ![GPIO LED breadboard wiring and schematic.](../../.gitbook/assets/gpio-led-wiring.png)
 
@@ -35,7 +33,7 @@ R2 is the Base Resistor which tells how much current to let flow in the circuit.
 
 1. Contact your technical support team to enable GPIO on your Core.
 
-2. Once enabled, add the action to toggle the GPIO in the alerts.
+2. Once enabled, open the alert editor and add the **Toggle GPIO** action.
 
 3. Select the GPIO to use. The Core can support up to 4 GPIOs, toggle high or low, and control how long the signal remains active.
 
