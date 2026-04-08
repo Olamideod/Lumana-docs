@@ -1,6 +1,6 @@
 # Alert view
 
-<!-- The alert monitoring view gives you a live feed of all alerts triggered across your organization's cameras. You can filter, review, acknowledge, and save alert views from a single screen.
+The alert monitoring view gives you a live feed of all alerts triggered across your organization's cameras. You can filter, review, acknowledge, and save alert views from a single screen.
 
 ## Access the alert monitoring view
 
@@ -76,4 +76,4 @@ Once your filters and time range are set, you can open individual alerts to revi
 
 ## Next steps
 
-* [Configure alerts](configure-alerts.md) walks you through setting up alert rules for your cameras. -->
+* [Configure alerts](configure-alerts.md) walks you through setting up alert rules for your cameras.

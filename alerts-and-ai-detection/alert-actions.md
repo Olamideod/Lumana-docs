@@ -1,6 +1,6 @@
 # Alert actions
 
-<!-- When an alert fires, Lumana can do more than just log the event. Actions let you define what happens next, whether that's notifying a person, triggering a device, or sending data to an external system. You set the action in the **Then** section when creating or editing an alert.
+When an alert fires, Lumana can do more than just log the event. Actions let you define what happens next, whether that's notifying a person, triggering a device, or sending data to an external system. You set the action in the **Then** section when creating or editing an alert.
 
 Each alert supports one action. The action runs every time the alert's conditions are met, subject to any blocking period you've configured.
 
@@ -8,9 +8,9 @@ Each alert supports one action. The action runs every time the alert's condition
 
 When creating or editing an alert, scroll down to the **Then** section and select it to open the action list.
 
-<!-- IMAGE: alerts/alerts-then-actions.png — Then dropdown showing the Actions section with all available action options listed. -->
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-then-actions.png" alt="" width="563"></div>
 
-<!-- Select the action you want to use. The section expands to show the configuration fields for that action. Fill in the required fields, then continue to save the alert.
+Select the action you want to use. The section expands to show the configuration fields for that action. Fill in the required fields, then continue to save the alert.
 
 ## Available actions
 
@@ -78,4 +78,4 @@ To configure it, connect your Microsoft Teams account and select the channel whe
 
 Updates the value of a configured variable when the alert fires. Use this in combination with variable-based alert rules to create conditional or stateful alert logic.
 
-To configure it, select the variable and enter the new value to set. --> -->
+To configure it, select the variable and enter the new value to set.
