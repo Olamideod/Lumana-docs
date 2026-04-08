@@ -10,9 +10,9 @@ Drawing a detection zone reduces false positives in busy environments where only
 
 ## When to use it
 
-- Monitoring after-hours offices or facilities where any movement signals a potential security concern.
-- Detecting activity in restricted storage areas where access is limited to authorized personnel.
-- Flagging movement in perimeter zones that should remain clear outside scheduled operating hours.
+* Monitoring after-hours offices or facilities where any movement signals a potential security concern.
+* Detecting activity in restricted storage areas where access is limited to authorized personnel.
+* Flagging movement in perimeter zones that should remain clear outside scheduled operating hours.
 
 ## Configure the alert
 
@@ -24,38 +24,34 @@ The general alert configuration flow, including advanced configuration and alert
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-template.png" alt="" width="563"></div>
 
 3. Enter a name in the **Alert name** field, for example "After-hours motion" or "Warehouse perimeter."
-
 4. Select the sensitivity value in the alert rule sentence. A slider opens.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-sensitivity-slider.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-sensitivity-slider.png" alt="" width="242"></div>
 
-   Drag the slider to set the motion sensitivity threshold. The range is 0 to 100 and the default is 50. A higher value requires more significant movement before the alert triggers, which reduces false positives. A lower value makes the alert more sensitive to subtle movement.
+Drag the slider to set the motion sensitivity threshold. The range is 0 to 100 and the default is 50. A higher value requires more significant movement before the alert triggers, which reduces false positives. A lower value makes the alert more sensitive to subtle movement.
 
 5. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor and select **Select** to confirm.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
 
-   After selecting a camera, you can optionally draw a detection zone to limit motion detection to a specific area of the frame. Select the **edit icon** next to the camera name to open the Select region of interest dialog.
+After selecting a camera, you can optionally draw a detection zone to limit motion detection to a specific area of the frame. Select the **edit icon** next to the camera name to open the Select region of interest dialog.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-zone-drawing.png" alt="" width="563"></div>
 
-   Select points on the camera feed to define the zone boundary. Each point connects to the next with a green line. When the polygon is closed, the enclosed area fills with a green overlay indicating the active detection zone.
+Select points on the camera feed to define the zone boundary. Each point connects to the next with a green line. When the polygon is closed, the enclosed area fills with a green overlay indicating the active detection zone.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-zone-complete.png" alt="" width="563"></div>
 
-   - **Exclude**: Toggle on to invert the zone. Motion outside the drawn area triggers the alert instead of motion inside it.
+* **Exclude**: Toggle on to invert the zone. Motion outside the drawn area triggers the alert instead of motion inside it.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-zone-invert.png" alt="" width="563"></div>
 
-   - **Reset**: Clears all points and lets you start over.
-   - **Select**: Confirms the zone and closes the dialog.
+* **Reset**: Clears all points and lets you start over.
+* **Select**: Confirms the zone and closes the dialog.
 
-   If you do not draw a zone, motion anywhere in the full camera frame triggers the alert.
+If you do not draw a zone, motion anywhere in the full camera frame triggers the alert.
 
 6. Select the **time** field to set when the alert is active. The schedule options are covered in [Configure alerts](../../configure-alerts.md#create-an-alert).
-
 7. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. These settings are covered in [Configure alerts](../../configure-alerts.md#create-an-alert).
-
 8. Select **Then** to choose the action Lumana takes when the alert triggers. The available actions are covered in [Alert actions](../../alert-actions.md).
-
 9. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.
