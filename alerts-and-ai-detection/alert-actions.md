@@ -8,7 +8,7 @@ Each alert supports one action. The action runs every time the alert's condition
 
 When creating or editing an alert, scroll down to the **Then** section and select it to open the action list.
 
-<!-- IMAGE: alerts/alerts-then-actions.png — Then dropdown showing the Actions section with all available action options listed. -->
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-then-actions.png" alt="" width="563"></div>
 
 Select the action you want to use. The section expands to show the configuration fields for that action. Fill in the required fields, then continue to save the alert.
 

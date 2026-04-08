@@ -8,11 +8,11 @@ A custom alert lets you build an alert condition from scratch instead of startin
 
 2. Select **Add alert** in the top right corner. The Configure alerts page opens.
 
-<!-- IMAGE: alerts/alerts-configure-page.png — Configure alerts page with the left sidebar showing categories including Custom alert at the bottom. -->
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
 3. Select **Custom alert** from the left sidebar, or scroll to the bottom of the alert type list. The Custom alert card appears.
 
-<!-- IMAGE: alerts/alerts-custom-alert-card.png — Custom alert card showing a description and a Use template button. -->
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-custom-alert-card.png" alt="" width="563"></div>
 
 4. Select **Use template**. The alert creation page opens with a blank rule sentence.
 
@@ -22,6 +22,6 @@ A custom alert lets you build an alert condition from scratch instead of startin
 
 7. Optionally, select **default configuration** to open the Advanced configuration panel. This lets you set confidence level, priority, blocking period, alert message, and display options. Select **Done** to close the panel.
 
-8. Select **Then** to choose what Lumana does when the alert fires. Each action and how to configure it is covered in [Alert actions](../alert-actions.md).
+8. Select **Then** to choose what Lumana does when the alert fires. Each action and how to configure it is covered in [Alert actions](./alert-actions.md).
 
 9. Select **Create alert**. The alert is saved and appears in the configured alerts list.
