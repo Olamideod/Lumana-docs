@@ -12,56 +12,27 @@ The Objects datasource counts camera detections of people, vehicles, and animals
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-datasource.png" alt="" width="313"></div>
 
-4.  Select a **Visualization** type from the icon row. The preview panel updates immediately when you switch types.
+4. Select a **Visualization** type from the icon row. The preview panel updates immediately when you switch types.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-icons.png" alt="" width="263"></div>
 
-    The preview tables below show each visualization type for both Appearance and Dwell Time. Use them to choose a chart format before continuing. You'll select between Appearance and Dwell Time in step 6 when you set the Y-Axis metric.
+The preview tables below show each visualization type for both Appearance and Dwell Time. Use them to choose a chart format before continuing. You'll select between Appearance and Dwell Time in step 6 when you set the Y-Axis metric.
 
-    If you selected **Number**, then skip to [Number visualization](chart-or-table-objects.md#number-visualization). If you selected **Table**, then skip to [Table visualization](chart-or-table-objects.md#table-visualization). For all other types, continue with step 5 below.
+If you selected **Number**, then skip to [Number visualization](chart-or-table-objects.md#number-visualization). If you selected **Table**, then skip to Table visualization. For all other types, continue with step 5 below.
 
 ### Appearance
 
 Appearance counts how many times objects were detected in the frame. The Y-axis label reads "Appearance total."
 
-<table>
-<thead>
-<tr>
-<th>Visualization type</th>
-<th>Preview</th>
-</tr>
-</thead>
-<tbody>
-<tr valign="top">
-<td><p><strong>Vertical bar chart</strong></p><p>Bars grouped by time period or category, vertical layout. Use this to compare detection counts across time intervals. For example, a bar peaking at 6:00 AM with 91 detections tells you that hour had the most activity. Click the bar to open the Object records view and see the actual camera frames from that hour.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/widget-chart-viz-vertical-bar.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Horizontal bar chart</strong></p><p>Bars grouped by time period or category, horizontal layout. Use this when comparing many time periods or when hour labels are long. Click a bar to open the Object records for that period.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/widget-chart-viz-horizontal.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Line chart</strong></p><p>A line connecting data points over time. Use this to track trends across a longer period, for example spotting a weekly pattern where activity spikes on weekday mornings. Click a data point to open the Object records for that time.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/widget-chart-viz-line.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Vertical stacked bar chart</strong></p><p>Vertical bars split by object type, showing composition. Use this to see how people, vehicles, and animals each contribute to the total at each time interval. Click a segment to open the Object records for that object type and time.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/widget-chart-viz-stacked-vertical.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Horizontal stacked bar chart</strong></p><p>Horizontal bars split by object type, showing composition. Use this for the same purpose as the vertical stacked chart when a horizontal layout suits your dashboard better.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/widget-chart-viz-stacked-horizontal.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Number</strong></p><p>A single large count. Use this for a quick at-a-glance total, for example the total number of people detected today.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/widget-chart-viz-number.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Table</strong></p><p>Data in rows and columns. Use this when you need precise values rather than a visual trend, or when you want to review exact counts per hour, location, or camera.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/widget-chart-viz-table.png" alt="" width="280"></td>
-</tr>
-</tbody>
-</table>
+| Visualization type                                                                                                                                                                                                                                                                                                                                                        | Preview                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| <p><strong>Vertical bar chart</strong></p><p>Bars grouped by time period or category, vertical layout. Use this to compare detection counts across time intervals. For example, a bar peaking at 6:00 AM with 91 detections tells you that hour had the most activity. Click the bar to open the Object records view and see the actual camera frames from that hour.</p> | ![](../../../.gitbook/assets/widget-chart-viz-vertical-bar.png)       |
+| <p><strong>Horizontal bar chart</strong></p><p>Bars grouped by time period or category, horizontal layout. Use this when comparing many time periods or when hour labels are long. Click a bar to open the Object records for that period.</p>                                                                                                                            | ![](../../../.gitbook/assets/widget-chart-viz-horizontal.png)         |
+| <p><strong>Line chart</strong></p><p>A line connecting data points over time. Use this to track trends across a longer period, for example spotting a weekly pattern where activity spikes on weekday mornings. Click a data point to open the Object records for that time.</p>                                                                                          | ![](../../../.gitbook/assets/widget-chart-viz-line.png)               |
+| <p><strong>Vertical stacked bar chart</strong></p><p>Vertical bars split by object type, showing composition. Use this to see how people, vehicles, and animals each contribute to the total at each time interval. Click a segment to open the Object records for that object type and time.</p>                                                                         | ![](../../../.gitbook/assets/widget-chart-viz-stacked-vertical.png)   |
+| <p><strong>Horizontal stacked bar chart</strong></p><p>Horizontal bars split by object type, showing composition. Use this for the same purpose as the vertical stacked chart when a horizontal layout suits your dashboard better.</p>                                                                                                                                   | ![](../../../.gitbook/assets/widget-chart-viz-stacked-horizontal.png) |
+| <p><strong>Number</strong></p><p>A single large count. Use this for a quick at-a-glance total, for example the total number of people detected today.</p>                                                                                                                                                                                                                 | ![](../../../.gitbook/assets/widget-chart-viz-number.png)             |
+| <p><strong>Table</strong></p><p>Data in rows and columns. Use this when you need precise values rather than a visual trend, or when you want to review exact counts per hour, location, or camera.</p>                                                                                                                                                                    | ![](../../../.gitbook/assets/widget-chart-viz-table.png)              |
 
 The Appearance table shows detection counts. If you want to measure how long objects stayed in view instead, the Dwell Time table below shows the same visualization types using seconds as the unit.
 
@@ -69,44 +40,15 @@ The Appearance table shows detection counts. If you want to measure how long obj
 
 Dwell Time measures how long objects remained in the camera's view, in seconds. The Y-axis label reads "Dwell Time average (seconds)."
 
-<table>
-<thead>
-<tr>
-<th>Visualization type</th>
-<th>Preview</th>
-</tr>
-</thead>
-<tbody>
-<tr valign="top">
-<td><p><strong>Vertical bar chart</strong></p><p>Bars grouped by time period or category, vertical layout. Use this to compare how long objects stayed in view across time intervals.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-vertical-bar.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Horizontal bar chart</strong></p><p>Bars grouped by time period or category, horizontal layout.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-horizontal-bar.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Line chart</strong></p><p>A line connecting data points over time. Use this to track how dwell time changes across a period.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-line.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Vertical stacked bar chart</strong></p><p>Vertical bars split by object type, showing how dwell time is distributed across people, vehicles, and animals.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-stacked-vertical.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Horizontal stacked bar chart</strong></p><p>Horizontal bars split by object type, showing dwell time composition.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-stacked-horizontal.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Number</strong></p><p>A single large dwell time value in seconds.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-number.png" alt="" width="280"></td>
-</tr>
-<tr valign="top">
-<td><p><strong>Table</strong></p><p>Data in rows and columns with dwell time values per group or time interval.</p></td>
-<td align="center"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-table.png" alt="" width="280"></td>
-</tr>
-</tbody>
-</table>
+| Visualization type                                                                                                                                                                    | Preview                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| <p><strong>Vertical bar chart</strong></p><p>Bars grouped by time period or category, vertical layout. Use this to compare how long objects stayed in view across time intervals.</p> | ![](../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-vertical-bar.png)       |
+| <p><strong>Horizontal bar chart</strong></p><p>Bars grouped by time period or category, horizontal layout.</p>                                                                        | ![](../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-horizontal-bar.png)     |
+| <p><strong>Line chart</strong></p><p>A line connecting data points over time. Use this to track how dwell time changes across a period.</p>                                           | ![](../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-line.png)               |
+| <p><strong>Vertical stacked bar chart</strong></p><p>Vertical bars split by object type, showing how dwell time is distributed across people, vehicles, and animals.</p>              | ![](../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-stacked-vertical.png)   |
+| <p><strong>Horizontal stacked bar chart</strong></p><p>Horizontal bars split by object type, showing dwell time composition.</p>                                                      | ![](../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-stacked-horizontal.png) |
+| <p><strong>Number</strong></p><p>A single large dwell time value in seconds.</p>                                                                                                      | ![](../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-number.png)             |
+| <p><strong>Table</strong></p><p>Data in rows and columns with dwell time values per group or time interval.</p>                                                                       | ![](../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-table.png)              |
 
 5. Set the **X-Axis**. The first dropdown controls how data is grouped.
 
@@ -173,20 +115,9 @@ Third dropdown, object filter:
 
 When you click on a data point in the chart, Lumana opens the Object records view for that time period, showing the actual camera frames that contributed to that count.
 
-<table>
-<thead>
-<tr>
-<th>Object records</th>
-<th>Record detail</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><p>Results for the period you clicked in the chart.</p><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-records-view.png" alt="" width="400"></td>
-<td align="center"><p>Frame and detections for a selected time.</p><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-records-live.png" alt="" width="400"></td>
-</tr>
-</tbody>
-</table>
+| Object records                                                                                                                                                             | Record detail                                                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Results for the period you clicked in the chart.</p><p><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-records-view.png" alt=""></p> | <p>Frame and detections for a selected time.</p><p><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-records-live.png" alt=""></p> |
 
 ## Number visualization
 
@@ -205,22 +136,9 @@ The second dropdown controls aggregation: how the number is calculated across th
 * **Average**: The mean detection count per time unit. For example, an average of 3 appearances per hour.
 * **Max**: The highest count in any single time unit. For example, the busiest hour had 11 appearances.
 
-<table>
-<thead>
-<tr>
-<th>Total</th>
-<th>Average</th>
-<th>Max</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-total.png" alt="" width="280"></td>
-<td align="center"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-average.png" alt="" width="280"></td>
-<td align="center"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-max.png" alt="" width="280"></td>
-</tr>
-</tbody>
-</table>
+| Total                                                                                      | Average                                                                                      | Max                                                                                      |
+| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| ![](../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-total.png) | ![](../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-average.png) | ![](../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-max.png) |
 
 The third dropdown controls the object filter:
 
@@ -250,20 +168,9 @@ If you selected Table in step 4, the X-Axis becomes **Group** and the Y-Axis bec
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-table-config.png" alt="" width="563"></div>
 
-<table>
-<thead>
-<tr>
-<th>Locations</th>
-<th>Cameras</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><p>Preview lists each location as a row.</p><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-table-group-locations.png" alt="" width="400"></td>
-<td align="center"><p>Preview lists each camera as a row.</p><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-table-group-cameras.png" alt="" width="400"></td>
-</tr>
-</tbody>
-</table>
+| Locations                                                                                                                                                  | Cameras                                                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p>Preview lists each location as a row.</p><p><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-table-group-locations.png" alt=""></p> | <p>Preview lists each camera as a row.</p><p><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-table-group-cameras.png" alt=""></p> |
 
 Once you've set Group and Column, continue with step 7 to select cameras.
 
