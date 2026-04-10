@@ -1,5 +1,7 @@
 # Chart or table
 
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Chart_or_Table.png" alt=""><figcaption></figcaption></figure></div>
+
 The Chart or table widget turns camera data into visual reports. You choose a datasource, pick a format in **Visualization**, and configure your axes and filters to track what matters across seven different chart and table formats.
 
 A datasource is the type of data the widget draws from. Lumana records three kinds of events from your cameras: object detections, alert firings, and manually applied event tags. The datasource you select determines which of these the widget counts, what filters are available, and how the axes behave. Each datasource has its own configuration guide.

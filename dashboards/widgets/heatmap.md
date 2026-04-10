@@ -1,5 +1,7 @@
 # Heatmap
 
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Main_entrance_heatmap.png" alt=""><figcaption></figcaption></figure></div>
+
 The Heatmap widget shows where activity is concentrated in a camera's field of view. It overlays a color-coded map on the camera feed, with more intense colors indicating higher detection activity.
 
 Use this widget to understand movement patterns: which entrance gets the most traffic, where people tend to congregate, or which areas see the most activity over a given period.

@@ -1,5 +1,7 @@
 # Text
 
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Text.png" alt=""><figcaption></figcaption></figure></div>
+
 The Text widget adds a formatted text block to your dashboard. Use it to label a group of widgets, describe what a dashboard section shows, or add written context that helps make sense of the data at a glance.
 
 ## Add a Text widget

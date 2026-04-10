@@ -1,5 +1,7 @@
 # Occupancy
 
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Entrance_area_occupancy.png" alt=""><figcaption></figcaption></figure></div>
+
 The Occupancy widget tracks the number of people or vehicles in a defined space at any given time. It counts entries and exits by detecting people who cross a line you draw in the camera's view and uses those crossings to maintain a running occupancy count.
 
 Use this widget to monitor space capacity, understand when areas are busiest, and compare occupancy across business hours and days of the week.
