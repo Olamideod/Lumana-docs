@@ -1,10 +1,12 @@
 # Understand live view streaming and quality
 
-Use this page to understand how Lumana delivers live video, when local or cloud streaming is used, and how stream quality changes based on your device and layout.
+This page explains how Lumana delivers live video, when local or cloud streaming is used, and how stream quality changes based on your device, browser support, and layout.
 
 ## How live view delivery works
 
 Lumana can deliver live video through a local connection or through Lumana Cloud. The available path depends on your network, device, browser support, and the number of streams you open.
+
+In most cases, the biggest factors are whether the viewing device can reach Lumana Core directly on the network and whether the browser or device supports the available stream format. Stream layout and bandwidth then affect which quality level Lumana can use.
 
 ## Local streaming
 
@@ -19,7 +21,7 @@ Use local streaming when the viewing device can reach Lumana Core directly on th
 
 > **Note:** If a camera uses H.265 and the viewing browser or device does not support H.265, then MQ local streaming may work while HQ local streaming does not.
 
-![Local streaming diagram.](../.gitbook/assets/live-video-monitoring-and-operations/live-view-local-streaming-diagram.png)
+![Diagram showing local streaming from Lumana Core to the viewing device through the local network.](../.gitbook/assets/live-video-monitoring-and-operations/live-view-local-streaming-diagram.png)
 
 ### Local live view flow
 
@@ -27,11 +29,11 @@ When you open Live view, Lumana first checks whether the viewing device can reac
 
 ## Cloud streaming
 
-Cloud streaming delivers live video through Lumana Cloud when local streaming is not available. Use this path when the viewing device cannot connect directly to Lumana Core.
+Cloud streaming delivers live video through Lumana Cloud when local streaming is not available. Use this path when the viewing device cannot connect directly to Lumana Core. This lets you keep using Live view remotely or across restricted networks where a direct local connection is not possible.
 
 ### Cloud live view flow
 
-If Lumana cannot establish a local connection, then it switches to cloud streaming. Cloud streaming uses WebRTC to deliver the live view to the client.
+If Lumana cannot establish a local connection, then it switches to cloud streaming. Cloud streaming uses WebRTC to deliver the live view to the client. This keeps Live view available when the client cannot reach Lumana Core directly, though latency and compatibility may vary by browser, device, and connection quality.
 
 ![Cloud streaming diagram.](../.gitbook/assets/live-video-monitoring-and-operations/live-view-cloud-streaming-diagram.png)
 
