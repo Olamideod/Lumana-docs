@@ -12,6 +12,8 @@ In most cases, the biggest factors are whether the viewing device can reach Luma
 
 Local streaming sends video from Lumana Core directly to the viewing device without relying on Lumana Cloud. This reduces internet traffic and can improve live view performance on the local network.
 
+This matters most when you need lower latency and more consistent live view performance on the same local network.
+
 ### Requirements for local streaming
 
 Use local streaming when the viewing device can reach Lumana Core directly on the network.
@@ -19,7 +21,7 @@ Use local streaming when the viewing device can reach Lumana Core directly on th
 - Direct access to the Lumana Core local IP.
 - No proxy between the client and Lumana Core.
 
-> **Note:** If a camera uses H.265 and the viewing browser or device does not support H.265, then MQ local streaming may work while HQ local streaming does not.
+> **Note:** If a camera uses H.265 and the viewing browser or device does not support H.265, then medium-quality (MQ) local streaming may work while high-quality (HQ) local streaming does not.
 
 ![Diagram showing local streaming from Lumana Core to the viewing device through the local network.](../.gitbook/assets/live-video-monitoring-and-operations/live-view-local-streaming-diagram.png)
 
@@ -31,9 +33,13 @@ When you open Live view, Lumana first checks whether the viewing device can reac
 
 Cloud streaming delivers live video through Lumana Cloud when local streaming is not available. Use this path when the viewing device cannot connect directly to Lumana Core. This lets you keep using Live view remotely or across restricted networks where a direct local connection is not possible.
 
+This is especially useful when you need to access live video from another location or when local network constraints prevent a direct connection.
+
 ### Cloud live view flow
 
 If Lumana cannot establish a local connection, then it switches to cloud streaming. Cloud streaming uses WebRTC to deliver the live view to the client. This keeps Live view available when the client cannot reach Lumana Core directly, though latency and compatibility may vary by browser, device, and connection quality.
+
+Cloud streaming also helps distribute live video to multiple viewers without requiring each viewer to connect directly to Lumana Core.
 
 ![Cloud streaming diagram.](../.gitbook/assets/live-video-monitoring-and-operations/live-view-cloud-streaming-diagram.png)
 
@@ -41,11 +47,13 @@ If Lumana cannot establish a local connection, then it switches to cloud streami
 
 Lumana can adjust live view quality automatically, and you can also change it manually in the player.
 
+This helps balance video clarity, bandwidth use, and playback performance across different layouts and network conditions.
+
 ![Streaming quality diagram.](../.gitbook/assets/live-video-monitoring-and-operations/live-view-quality-routing-diagram.png)
 
 ### How quality selection works
 
-Lumana supports `SQ`, `MQ`, and `HQ` live view quality modes. The selected mode depends on the stream layout, the available bandwidth, and the player size.
+Lumana supports standard quality (SQ), medium quality (MQ), and high quality (HQ) live view modes. The selected mode depends on the stream layout, the available bandwidth, and the player size.
 
 - Lumana may choose a lower quality automatically when you open multiple streams at the same time.
 - You can change the stream quality manually from the player controls.
@@ -57,7 +65,7 @@ In the example above, the top cameras use `MQ`, while the lower cameras use `SQ`
 
 ### Reference values
 
-Use the following table as a reference for typical local and cloud live view resolutions and bitrates.
+Use the following table as a reference for typical local and cloud live view resolutions and approximate bitrates. Values may vary by codec, scene complexity, and camera configuration.
 
 | Native resolution | Quality    | Resolution | Estimated bitrate |
 | ----------------- | ---------- | ---------- | ----------------- |
@@ -85,3 +93,9 @@ Use the following table as a reference for typical local and cloud live view res
 | 1280x720 (HD)     | HQ (Cloud) | 1280x720   | <1.8 Mbps         |
 | 1280x720 (HD)     | MQ         | 960x540    | <0.8 Mbps         |
 | 1280x720 (HD)     | SQ         | 426x240    | <0.2 Mbps         |
+
+## Next steps
+
+- Use [Use live view](live-view.md) to work with the player, thumbnails, and controls.
+- Use [Video walls and shared displays](video-walls-and-shared-displays.md) to monitor multiple cameras in one layout.
+- Use [Multi-camera playback](multi-camera-playback.md) to review more than one camera at the same time.
