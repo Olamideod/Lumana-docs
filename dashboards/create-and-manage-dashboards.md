@@ -13,7 +13,7 @@ To get started, open the Dashboards page from the left navigation bar. The Dashb
 
 3. Enter a name in the **Untitled dashboard** field at the top left of the canvas.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-empty-canvas.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-empty-canvas (1).png" alt="" width="563"></div>
 
 With your dashboard created, you're ready to add widgets.
 
