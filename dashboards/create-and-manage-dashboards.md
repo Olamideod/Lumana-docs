@@ -110,7 +110,9 @@ Saving locks in every change you made during the current edit session, including
 
 > **Note**: Widget configuration dialogs have their own **Add** or **Save** buttons. Those save the individual widget settings. The floppy disk **Save** on the dashboard saves the full layout and all session edits together.
 
-> **Warning**: If you leave edit mode or close the page before selecting **Save**, then your dashboard changes will be lost.
+{% hint style="warning" %}
+If you leave edit mode or close the page before selecting **Save**, then your dashboard changes will be lost.
+{% endhint %}
 
 If you no longer need a dashboard, you can delete it entirely.
 
@@ -120,6 +122,12 @@ Deleting a dashboard permanently removes it and all its widgets, and this action
 
 1. Open the dashboard you want to delete.
 2. Select the **delete icon** (trash) in the top right corner, next to the edit icon.
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/dashboard-delect.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
 3. Confirm the deletion.
 
-> **Warning**: Deleting a dashboard removes it and all its widgets permanently.
+{% hint style="warning" %}
+Deleting a dashboard removes it and all its widgets permanently.
+{% endhint %}
+
