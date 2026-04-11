@@ -76,6 +76,18 @@ You can update a widget's configuration at any time while the dashboard is in ed
 
 Once you've updated the settings, you may also want to remove widgets you no longer need.
 
+## Filter chart series
+
+Charts with multiple data series display a legend at the top of the widget. Each legend item represents a series, such as an object type or alert category. You can use the legend to show or hide individual series directly on the canvas without reconfiguring the widget.
+
+Select a legend item to toggle that series off. Its label appears with a strikethrough and its bars or lines are hidden from the chart. Select the same item again to restore it.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-chart-legend-filter.png" alt="" width="563"></div>
+
+This is useful when a chart has several series and you want to focus on one or two without the others adding visual noise. The widget configuration is not affected and the hidden series reappears when you select its legend item again.
+
+> **Note:** Multiple series appear in charts when the Y-axis filter is set to **Group** or **Individual**. Charts set to **All** show a single series and have no legend to filter.
+
 ## Delete a widget
 
 Removing a widget permanently removes it from the dashboard. The dashboard must be in [edit mode](create-and-manage-dashboards.md#enter-edit-mode) before you can delete a widget.
