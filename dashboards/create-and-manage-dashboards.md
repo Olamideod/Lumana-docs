@@ -83,7 +83,9 @@ Removing a widget permanently removes it from the dashboard. The dashboard must 
 1. Select the **delete icon** (trash) on the widget you want to remove.
 2. Confirm the deletion.
 
-> **Warning**: Deleting a widget is permanent. There's no way to recover it after removal.
+{% hint style="warning" %}
+Deleting a widget is permanent. There's no way to recover it after removal.
+{% endhint %}
 
 With your layout finalised, you can also rename the dashboard to keep things organised.
 
