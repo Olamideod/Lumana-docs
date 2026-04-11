@@ -82,7 +82,7 @@ Charts with multiple data series display a legend at the top of the widget. Each
 
 Select a legend item to toggle that series off. Its label appears with a strikethrough and its bars or lines are hidden from the chart. Select the same item again to restore it.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-chart-legend-filter.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-chart-legend-filter.png" alt="" width="375"></div>
 
 This is useful when a chart has several series and you want to focus on one or two without the others adding visual noise. The widget configuration is not affected and the hidden series reappears when you select its legend item again.
 
@@ -144,4 +144,3 @@ Deleting a dashboard permanently removes it and all its widgets, and this action
 {% hint style="warning" %}
 Deleting a dashboard removes it and all its widgets permanently.
 {% endhint %}
-
