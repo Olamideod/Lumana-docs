@@ -1,17 +1,17 @@
 # Create and manage dashboards
 
-Dashboards let you monitor your sites, cameras, and alerts from a single view. You can build a dashboard from scratch, add different widget types, and adjust the layout to fit your workflow. This page covers how to create, edit, and delete dashboards.
+Dashboards enable you to monitor your sites, cameras, and alerts from a single view. You can build a dashboard from scratch, add different widget types, and adjust the layout to fit your workflow. This page covers how to create, edit, and delete dashboards.
 
 ## Create a dashboard
 
 To get started, open the Dashboards page from the left navigation bar. The Dashboards page shows all dashboards in your account, so it's where dashboard management begins.
 
-1. Select **Dashboards** in the left navigation bar. The Dashboards view opens at `app.lumana.ai/dashboards/main`.
+1. Select **Dashboards** in the left navigation bar, or go directly to `https://app.lumana.ai/dashboards/main`.
 2. Select **Create dashboard** in the top right corner.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboards-list.png" alt="" width="563"></div>
 
-3. Enter a name in the **Untitled dashboard** field at the top left of the canvas.
+3. Give the dashboard a name by typing in the **Untitled dashboard** field at the top left of the canvas.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-empty-canvas (1).png" alt="" width="563"></div>
 
@@ -21,12 +21,12 @@ With your dashboard created, you're ready to add widgets.
 
 Widgets are the building blocks of a dashboard. Each widget type displays a different kind of data, so you can mix and match them to build the view you need.
 
-1. From the dashboard canvas, select **Add widget** in the top right corner. A dropdown lists the five widget types.
+1. From the dashboard canvas, select **Add widget** in the top right corner. A dropdown lists the widget types that are available.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/add-widget-dropdown.png" alt="" width="563"></div>
 
-2. Select the widget type you want to add. A configuration dialog opens.
-3. Configure the widget settings, then select **Add**. The widget appears on the canvas.
+2. Select the type of widget that you want to add. A configuration dialog opens.
+3. Configure the widget's settings, then select **Add**. The widget appears on the canvas.
 
 Each widget type has its own configuration options, covered in the [Widgets](widgets/) section.
 
@@ -42,19 +42,22 @@ Most dashboard changes, including moving widgets, resizing them, and updating th
 
 The canvas enters edit mode. From here, you can make the following changes:
 
-* **Add widgets**: Select **Add widget** in the top right to open the widget list and place new widgets on the grid.
-* **Move widgets**: Drag any widget to a new position on the grid.
-* **Resize widgets**: Drag a widget's edges or corners to change its size.
-* **Change a widget**: Select the **edit icon** (pencil) on a widget to open its settings dialog.
-* **Remove a widget**: Select the **delete icon** (trash) on a widget to remove it from the dashboard.
-* **Rename the dashboard**: Select the dashboard title at the top left and enter a new name.
-* **Save your work**: When you've finished all changes for this session, select **Save** (floppy disk) in the top right. How saving works is covered in [Save dashboard changes](create-and-manage-dashboards.md#save-dashboard-changes).
+* [**Add widgets**](create-and-manage-dashboards.md#add-a-widget): Select **Add widget** in the top right to open the widget list and place new widgets on the grid.
+* [**Arrange or resize widgets**](create-and-manage-dashboards.md#arrange-and-resize-widgets): Drag any widget to a new position on the grid, or drag the edge or corner of a widget to change its size and shape.
+* [**Edit widgets**](create-and-manage-dashboards.md#change-widget-settings): Select an individual widget's **Edit** icon (pencil) on a widget to open its settings dialog.
+* [**Delete widgets**](create-and-manage-dashboards.md#delete-a-widget): Select the **Delete** icon (trash) on an individual widget to remove it from the dashboard.
 
-> **Note**: The **delete icon** (trash) in the dashboard header removes the entire dashboard. This is separate from deleting individual widgets.
+{% hint style="info" %}
+The **delete icon** (trash) in the dashboard header deletes the _entire_ dashboard. Do not use this button if you want to remove an individual widget.
+{% endhint %}
+
+* [**Rename the dashboard**](create-and-manage-dashboards.md#rename-a-dashboard): Select the dashboard title at the top left and enter a new name.
+* [**Delete the dashboard**](create-and-manage-dashboards.md#delete-a-dashboard): Select the **Delete** icon (trash) in the dashboard header.
+* [**Save your changes**](create-and-manage-dashboards.md#save-dashboard-changes): When you've finished editing the dashboard to your satisfaction, select **Save** (floppy disk) in the top right.
 
 Once the dashboard is in edit mode and you have widgets on the canvas, you can rearrange them.
 
-## Arrange and resize widgets
+## Arrange or resize a widget
 
 Moving and resizing widgets lets you organise the dashboard layout to match your monitoring priorities.
 
@@ -65,7 +68,7 @@ Moving and resizing widgets lets you organise the dashboard layout to match your
 
 When the layout is ready, save your changes before leaving edit mode. How saving works is covered in [Save dashboard changes](create-and-manage-dashboards.md#save-dashboard-changes).
 
-## Change widget settings
+## Edit a widget
 
 You can update a widget's configuration at any time while the dashboard is in edit mode.
 
