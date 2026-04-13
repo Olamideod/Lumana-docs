@@ -118,15 +118,15 @@ Create the API token, collect the camera IDs, choose the display options, and th
 
 6. Build the shared video wall URL with the following format:
 
-```text
-https://external-walls.lumana.ai/live-view-wall.html?resolution=<0|1|2>&cameraNames=1&cameraIds=<CAMERA_ID1>,<CAMERA_ID2>&token=<YOUR_API_TOKEN>
-```
+   ```text
+   https://external-walls.lumana.ai/live-view-wall.html?resolution=<0|1|2>&cameraNames=1&cameraIds=<CAMERA_ID1>,<CAMERA_ID2>&token=<YOUR_API_TOKEN>
+   ```
 
    For example:
 
-```text
-https://external-walls.lumana.ai/live-view-wall.html?resolution=1&cameraNames=1&cameraIds=<CAMERA_ID1>,<CAMERA_ID2>&token=<YOUR_API_TOKEN>
-```
+   ```text
+   https://external-walls.lumana.ai/live-view-wall.html?resolution=1&cameraNames=1&cameraIds=<CAMERA_ID1>,<CAMERA_ID2>&token=<YOUR_API_TOKEN>
+   ```
 
    Use these parameters:
 
@@ -137,10 +137,7 @@ https://external-walls.lumana.ai/live-view-wall.html?resolution=1&cameraNames=1&
 
 ## Next steps
 
+After you create or share a wall, you can continue with related live monitoring tasks.
+
 - Use [Use live view](live-view.md) to work with player controls and thumbnails.
 - Read [Understand live view streaming and quality](understand-live-view-streaming-and-quality.md) to understand how live video delivery and quality selection work.
-
-
-
-
-
