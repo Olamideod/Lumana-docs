@@ -97,53 +97,50 @@ Quick live view walls also use the same live view controls available in [Use liv
 
 Use a shared external video wall when you need a secure, video wall URL for external viewers. No app installation or login is required, and access is controlled through a token in the generated URL.
 
-### Create an API token
+Create the API token, collect the camera IDs, choose the display options, and then build the shared wall URL.
 
-1. Open **Settings** -> **Organization Settings** -> **API Keys**.
+1. In **Settings**, click **Organization Settings**, and then click **API Keys**.
 2. Click **Create API Key**.
 3. Copy the generated token.
 
    You will use this token in the shared video wall URL.
 
-### Collect camera IDs
+4. Open **Edit Camera** for each camera you want to include, then copy the camera ID for each selected camera.
+5. Choose the video quality and decide whether to show camera names in the shared wall.
 
-1. Open **Edit Camera** for each camera you want to include.
-2. Copy the camera ID for each selected camera.
+   Use one of the following resolution values:
 
-### Choose display options
+   - `0` = standard quality (SQ)
+   - `1` = medium quality (MQ)
+   - `2` = high quality (HQ)
 
-Choose the video quality and whether to show camera names in the shared wall.
+   Higher resolution improves clarity but increases bandwidth usage. To show camera names, add `cameraNames=1` to the URL. This is useful when you share the wall with viewers who are unfamiliar with camera placements.
 
-- `0` = standard quality (SQ)
-- `1` = medium quality (MQ)
-- `2` = high quality (HQ)
-
-Higher resolution improves clarity but increases bandwidth usage.
-
-To show camera names, add `cameraNames=1` to the URL. This is useful when you share the wall with viewers who are unfamiliar with camera placements.
-
-### Build the video wall URL
-
-Use the following format:
+6. Build the shared video wall URL with the following format:
 
 ```text
 https://external-walls.lumana.ai/live-view-wall.html?resolution=<0|1|2>&cameraNames=1&cameraIds=<CAMERA_ID1>,<CAMERA_ID2>&token=<YOUR_API_TOKEN>
 ```
 
-For example:
+   For example:
 
 ```text
 https://external-walls.lumana.ai/live-view-wall.html?resolution=1&cameraNames=1&cameraIds=<CAMERA_ID1>,<CAMERA_ID2>&token=<YOUR_API_TOKEN>
 ```
 
-Parameter details:
+   Use these parameters:
 
-- `resolution=1` uses medium quality.
-- `cameraNames=1` shows camera names.
-- `cameraIds=...` lists the selected camera IDs, separated by commas.
-- `token=...` uses your API token to secure access.
+   - `resolution=...` sets the video quality. For example, `resolution=1` uses medium quality.
+   - `cameraNames=1` shows camera names.
+   - `cameraIds=...` lists the selected camera IDs, separated by commas.
+   - `token=...` uses your API token to secure access.
 
 ## Next steps
 
 - Use [Use live view](live-view.md) to work with player controls and thumbnails.
 - Read [Understand live view streaming and quality](understand-live-view-streaming-and-quality.md) to understand how live video delivery and quality selection work.
+
+
+
+
+
