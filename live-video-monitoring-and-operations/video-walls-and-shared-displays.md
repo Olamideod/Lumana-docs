@@ -147,3 +147,8 @@ Parameter details:
 
 - Use [Use live view](live-view.md) to work with player controls and thumbnails.
 - Read [Understand live view streaming and quality](understand-live-view-streaming-and-quality.md) to understand how live video delivery and quality selection work.
+
+
+
+
+
