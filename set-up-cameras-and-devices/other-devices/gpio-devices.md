@@ -8,7 +8,7 @@ In Lumana, GPIO pins can be programmed to toggle high or low in response to an a
 
 Use the following pinout reference when wiring a device to GPIO.
 
-![GPIO pinout diagram and address table.](../../.gitbook/assets/gpio-pinout.png)
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/gpio-pinout.png" alt="GPIO pinout diagram and address table."></div>
 
 ## Connect a device
 
@@ -27,7 +27,7 @@ In the example below, an LED is connected to the GPIO. Each time the alert trigg
 - `R1` is the current-limiting resistor for the LED.
 - `R2` is the base resistor that controls how much current flows in the circuit.
 
-![GPIO LED breadboard wiring and schematic.](../../.gitbook/assets/gpio-led-wiring.png)
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/gpio-led-wiring.png" alt="GPIO LED breadboard wiring and schematic."></div>
 
 ## Use GPIO in alerts
 
@@ -37,4 +37,4 @@ In the example below, an LED is connected to the GPIO. Each time the alert trigg
 
 3. Select the GPIO to use. The Core can support up to 4 GPIOs, toggle high or low, and control how long the signal remains active.
 
-![Alert editor, Toggle GPIO action.](../../.gitbook/assets/gpio-alert-toggle-gpio.png)
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/gpio-alert-toggle-gpio.png" alt="Alert editor, Toggle GPIO action."></div>

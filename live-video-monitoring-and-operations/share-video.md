@@ -2,7 +2,7 @@
 
 Use Lumana sharing options to send live camera views and archived footage to other viewers. You can start from a live camera, an alert, search results, or an existing archive, then control how long access lasts and whether viewers need a password or can download the footage.
 
-![Share video icon used to open sharing options.](../.gitbook/assets/live-video-monitoring-and-operations/share-video-icon.png)
+<div align="center"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-icon.png" alt="Share video icon used to open sharing options." style="max-height:42px;width:auto;"></div>
 
 ## Before you begin
 
@@ -15,7 +15,7 @@ When you share footage from Lumana, the **Share archive** dialog lets you choose
 - **Sharing methods:** Generate a shareable link, send the share by email, or send it by SMS.
 - **Access controls:** Set how long the share stays available, require a password, and choose whether viewers can download the archive.
 
-![Share archive dialog with link, password, and access duration options.](../.gitbook/assets/live-video-monitoring-and-operations/share-video-archive-dialog.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-archive-dialog.png" alt="Share archive dialog with link, password, and access duration options."></div>
 
 ## Share a live camera
 
@@ -58,7 +58,7 @@ Use this option when the archive already exists and you only need to manage shar
 2. Select the archive you want to share, then click **Share**.
 3. Choose how long access stays available and whether viewers can download the archive or need a password.
 
-![Share archive dialog showing existing links and sharing options.](../.gitbook/assets/live-video-monitoring-and-operations/share-video-existing-links-dialog.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-existing-links-dialog.png" alt="Share archive dialog showing existing links and sharing options."></div>
 
 4. Click the arrow button next to the share link.
 

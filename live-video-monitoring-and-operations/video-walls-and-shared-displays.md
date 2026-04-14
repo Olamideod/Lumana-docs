@@ -24,19 +24,19 @@ Use the **Walls** page to open existing walls and make changes to saved layouts.
 
    The wall list shows the walls available in your organization.
 
-![Walls list and quick live view button.](../.gitbook/assets/live-video-monitoring-and-operations/video-walls-list.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-walls-list.png" alt="Walls list and quick live view button."></div>
 
 2. Click a wall to open it.
 
    A wall can show multiple live camera tiles, alert tiles, or both in the same layout.
 
-![Video wall with camera and alert tiles.](../.gitbook/assets/live-video-monitoring-and-operations/video-wall-example.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-example.png" alt="Video wall with camera and alert tiles."></div>
 
 3. Hover over the wall you want to change and click the pencil icon.
 
    Editing lets you change the wall layout, update individual tiles, and save the revised wall.
 
-![Wall editing view.](../.gitbook/assets/live-video-monitoring-and-operations/video-wall-editing-view.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-editing-view.png" alt="Wall editing view."></div>
 
 4. Click the pencil icon on a tile to replace that tile with a different camera.
 5. Use the upper-right controls to change the layout, adjust alert settings and filters, delete the wall, discard changes, or save changes.
@@ -51,19 +51,19 @@ Create a saved wall when you need a reusable layout for ongoing monitoring.
 
    Alert tiles help you monitor real-time events without opening a separate view.
 
-![Cameras and alerts tab.](../.gitbook/assets/live-video-monitoring-and-operations/video-wall-cameras-and-alerts-tab.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-cameras-and-alerts-tab.png" alt="Cameras and alerts tab."></div>
 
 4. Open **Alert view settings** to choose how alerts appear on the wall.
 
    You can position the alert list, choose display and picture-in-picture options, set the view duration, and enable alert sound.
 
-![Alert view settings.](../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-view-settings.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-view-settings.png" alt="Alert view settings."></div>
 
 5. Configure alert filtering to choose which alerts appear on the wall.
 
    You can filter by location, camera, and priority so the wall only shows the events that matter to your team.
 
-![Alert filtering panel.](../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-filtering.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-filtering.png" alt="Alert filtering panel."></div>
 
 6. Click **Done**, then click **Create**.
 
@@ -73,21 +73,21 @@ Use **Quick live view** when you need a temporary wall without building a full s
 
 1. On **Walls**, click **Quick live view**.
 
-![Quick live view button.](../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-button.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-button.png" alt="Quick live view button."></div>
 
 2. Select the cameras you want to display, then click **Select**.
 
    Quick live view is useful when visibility matters immediately and you need to open a wall fast.
 
-![Select cameras dialog.](../.gitbook/assets/live-video-monitoring-and-operations/video-wall-select-cameras-dialog.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-select-cameras-dialog.png" alt="Select cameras dialog."></div>
 
 3. Review the temporary wall.
 
-![Quick live view wall example.](../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-example.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-example.png" alt="Quick live view wall example."></div>
 
 4. Use the upper-right controls to open full-screen mode, adjust the settings, or save the wall.
 
-![Quick live view toolbar.](../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-toolbar.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-toolbar.png" alt="Quick live view toolbar."></div>
 
 5. Save the wall if you want it to appear in your wall list later.
 

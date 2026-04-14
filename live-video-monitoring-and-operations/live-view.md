@@ -14,7 +14,7 @@ Open Live view when you want to watch a camera in real time and confirm what is 
 2. Select the location and camera you want to view.
 3. Click **Play** to start the live stream.
 
-![Live view camera grid and location list.](../.gitbook/assets/live-video-monitoring-and-operations/live-view-main-grid.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-main-grid.png" alt="Live view camera grid and location list."></div>
 
 ## Use the timeline and thumbnails
 
@@ -24,13 +24,13 @@ Use the timeline and thumbnails to review recent footage without leaving Live vi
 2. Scrub the thumbnail or the main timeline to move through recent footage.
 3. Change the date, time range, clip duration, or resolution as needed.
 
-![Live view timeline and thumbnail.](../.gitbook/assets/live-video-monitoring-and-operations/live-view-thumbnail-timeline.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-thumbnail-timeline.png" alt="Live view timeline and thumbnail."></div>
 
 ## Use live view controls
 
 Use the player controls to change the stream view and capture the footage you need during live monitoring.
 
-![Live view controls and timeline.](../.gitbook/assets/live-video-monitoring-and-operations/live-view-controls-and-timeline.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-controls-and-timeline.png" alt="Live view controls and timeline."></div>
 
 - **Quality control:** In the bottom left corner of Live view, you can toggle between available stream qualities.
 - **Zoom:** On the right side of Live view, use the plus "**+**" icon to zoom in and the minus "**-**" icon to zoom out.

@@ -12,7 +12,7 @@ Timelapse is enabled by default and is available for the most recent three days 
 
 Timelapse snapshots are not generated retroactively. If you increase retention today, then the system starts collecting additional days of timelapse snapshots from that point forward.
 
-![Create timelapse dialog with camera, timeframe, and duration settings.](../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-create-dialog.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-create-dialog.png" alt="Create timelapse dialog with camera, timeframe, and duration settings."></div>
 
 ## Extend timelapse retention
 
@@ -26,7 +26,7 @@ You can extend timelapse retention up to 30 days when you need a longer review w
 
    > **Note:** Once you increase retention, additional snapshots begin collecting from that point. You must wait for time to pass before you can generate longer timelapse videos.
 
-   ![Edit selected cameras dialog showing snapshot retention settings for timelapse.](../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-retention-settings.png)
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-retention-settings.png" alt="Edit selected cameras dialog showing snapshot retention settings for timelapse."></div>
 
 Once you understand the default window and the retention limit, you can decide whether the built-in range is enough for your workflow.
 
