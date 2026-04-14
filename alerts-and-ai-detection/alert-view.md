@@ -10,7 +10,7 @@ Select **Alerts** in the left navigation bar, then select **Monitoring**. This o
 
 The monitoring view has a filter bar across the top and a results area below.
 
-<div align="center"><img src="../.gitbook/assets/alerts-monitoring-view.png" alt="" width="700"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-monitoring-view.png" alt="" width="563"></div>
 
 ### Filters
 
@@ -23,7 +23,7 @@ The filter bar has six controls you can use in any combination to narrow down th
 * **Tags**: Filter by tags assigned to cameras or alerts. Select **Manage tags** from the dropdown to create or edit tags in your organization database.
 * **Acknowledge**: Show **Acknowledged**, **Unacknowledged**, or both. Both options are selected by default.
 
-<div align="center"><img src="../.gitbook/assets/alerts-object-filter.png" alt="" width="220"> <img src="../.gitbook/assets/alerts-acknowledge-filter.png" alt="" width="220"> <img src="../.gitbook/assets/alerts-tags-filter.png" alt="" width="220"></div>
+<div align="center"><img src="../.gitbook/assets/alerts-object-filter.png" alt="" width="165"> <img src="../.gitbook/assets/alerts-acknowledge-filter.png" alt="" width="220"> <img src="../.gitbook/assets/alerts-tags-filter.png" alt="" width="220"></div>
 
 Active filters appear as chips below the filter bar. Select the **x** on any chip to remove it.
 
@@ -31,7 +31,7 @@ Active filters appear as chips below the filter bar. Select the **x** on any chi
 
 The time range control sits to the left of the **Clips / Objects** toggle. Select it to open the time picker. The timezone shown is based on your organization's settings.
 
-<div align="center"><img src="../.gitbook/assets/alerts-time-filter.png" alt="" width="500"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-time-filter.png" alt="" width="563"></div>
 
 The time picker has two tabs:
 
@@ -48,7 +48,7 @@ The speaker icon to the left of the time range field controls alert sound notifi
 
 Use the **Clips / Objects** toggle to switch between two views of your results.
 
-<div align="center"><img src="../.gitbook/assets/alerts-clips-objects-toggle.png" alt="" width="200"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-clips-objects-toggle.png" alt="" width="221"></div>
 
 * **Clips**: Shows each alert as a video clip.
 * **Objects**: Shows the detected objects associated with each alert.
