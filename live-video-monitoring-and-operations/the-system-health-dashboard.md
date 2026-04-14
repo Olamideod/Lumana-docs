@@ -1,4 +1,4 @@
-# The system health dashboard
+# Use the system health dashboard
 
 Use the system health dashboard to check the current status of your Lumana Core, cameras, and storage, and to review recent health history for each camera. This helps you spot outages, recording issues, and analytics problems before they affect monitoring or investigation work.
 
@@ -12,7 +12,7 @@ Open the dashboard from a camera view page to see the current health status of y
 
 1. On the camera view page, click **Health view**.
 
-   The system health dashboard opens and shows the current status of your Cores, cameras, storage, and the most recent recorded file.
+   The system health dashboard opens and shows the current status of your Cores, cameras, storage, and recent recording status information.
 
    ![Health view button on the camera view page.](../.gitbook/assets/live-video-monitoring-and-operations/health-view-button.png)
 
@@ -22,14 +22,21 @@ Open the dashboard from a camera view page to see the current health status of y
 
 Use the row controls to inspect recent online and offline history for an individual camera.
 
-1. In the rightmost column for a camera, click the bars icon.
+1. In the rightmost column for a camera, click the small bar-chart icon.
 
-   The analytics view opens for that camera and shows recent status activity.
+   A camera-specific status view opens and shows recent online and offline activity.
 
 2. Hover over the status bars to see more detail.
+ 
+   Hover details appear for the selected time segment.
+
 3. Adjust the number of days to change the time window.
 
+   The status view updates to match the selected time range.
+
    ![System Health Dashboard row showing camera health indicators and status columns.](../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-camera-row.png)
+
+Once you review recent status history, the health indicators help you identify which part of the camera workflow needs attention.
 
 ## Understand health indicators
 
@@ -40,7 +47,9 @@ Use the status indicators to identify which part of the camera workflow needs at
 - **Storage:** Shows the status of 24/7 local storage on the Core. Retention is based on your 30-day, 60-day, or 90-day subscription.
 - **Smart Storage:** Shows the status of alerts and detected objects saved to the cloud in high quality.
 - **Substream:** Supports storage retention and smart storage. If a substream is not configured, then this indicator may not appear. If it is unhealthy or offline, storage may be affected.
-- **Trained:** Shows the status of the camera's AI optimization cycle. This process runs automatically and usually requires no action. An unhealthy status can mean the camera was recently added and is still completing its first training cycle, or that another training cycle is due. If you have questions, contact your Customer Success Manager.
+- **Trained:** Shows the status of the camera's AI optimization cycle. This process runs automatically and usually requires no action. An unhealthy status can mean the camera was recently added and is still completing its first training cycle. It can also mean another training cycle is due.
+
+> **Note:** If the **Trained** indicator stays unhealthy and you are not sure why, contact your Customer Success Manager.
 
 ## Next steps
 
