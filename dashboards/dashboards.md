@@ -14,15 +14,15 @@ You build a dashboard from a grid of widgets of the following types:&#x20;
 * [Image](widgets/image.md)
 * [Text](widgets/text.md)
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/Dashboard_of_all_elements.png" alt="The Dashboards main page, with a grid of widgets including a chart, a heatmap, an occupancy counter, an image, and a text block."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/Dashboard_of_all_elements.png" alt=""></div>
 
 ## How dashboards connect to the rest of the system
 
-Dashboards draw from [the data sources that you configured in your system](/broken/pages/ioucctKGfP0RbF5jMnzB):
+Dashboards draw from three data sources already configured in your Lumana setup:
 
-* **Objects**: Detections recorded by your cameras, including people, vehicles, and animals.
-* **Alerts**: Events fired by the alert rules you've configured in Alerts and AI detection.
-* **Event tags**: Custom tags created through the Event tag alert type.
+* [**Objects**](widgets/chart-or-table/chart-or-table-objects.md): Detections recorded by your cameras, including people, vehicles, and animals.
+* [**Alerts**](widgets/chart-or-table/chart-or-table-alerts.md): Events fired by the alert rules you've configured in Alerts and AI detection.
+* [**Event tags**](widgets/chart-or-table/chart-or-table-event-tags/): Custom tags created through the Event tag alert type.
 
 When you apply a filter to a dashboard, for example by selecting specific cameras, object types, or time ranges, that applies to all the widgets on the dashboard by default.
 
