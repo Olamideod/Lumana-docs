@@ -67,7 +67,7 @@
 * [Use the system health dashboard](live-video-monitoring-and-operations/the-system-health-dashboard.md)
 * [Use Lumana timelapse](live-video-monitoring-and-operations/lumana-timelapse.md)
 * [Share video](live-video-monitoring-and-operations/share-video.md)
-* [Dark mode and light mode](live-video-monitoring-and-operations/dark-mode-and-light-mode.md)
+* [Change dark mode and light mode](live-video-monitoring-and-operations/dark-mode-and-light-mode.md)
 
 ## Alerts and AI detection
 
