@@ -38,19 +38,14 @@ For general guidance, see [Set up a static IP address](../set-up-a-static-ip-add
 
 This can be done under **Basic** -> **IP and port**.
 
-![Hanwha camera network settings, IPv4 manual.](../../.gitbook/assets/configuring-cameras-and-devices/connect-cameras-by-brand/hanwha-network-ipv4-manual.png)
-
-
 ### Configure the profile on your Hanwha camera
 
 1. Log into the Hanwha Web Portal
-
 2. Under **Basic** -> **Video Profile**, select the video profile name you would like to use.
 
 (In the example below the selected profile is called H.265 and it is profile 3)
 
 Note: you can always use the **Add** button to add another video profile.
-
 
 3. Make that profile the default profile and select codec H.265.
 4. Configure the main profile:
@@ -66,11 +61,9 @@ Note: you can always use the **Add** button to add another video profile.
 
 5. Create the storage substream profile:
 
-- Select or add another profile, name it **Storage**.
-
-- In the below example it will be profile 4.
-
-- Make sure to select codec H.265 for it.
+* Select or add another profile, name it **Storage**.
+* In the below example it will be profile 4.
+* Make sure to select codec H.265 for it.
 
 6. Configure the storage profile:
 

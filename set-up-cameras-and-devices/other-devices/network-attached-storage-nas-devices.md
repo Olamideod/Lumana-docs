@@ -27,39 +27,26 @@ For example:
 * **Path:** NAS IP and a directory path
 
 3. In the left menu, click **External Storage**, then click **Add external storage**.
-
-![External Storage and Add external storage.](../../.gitbook/assets/configuring-cameras-and-devices/other-devices/external-storage-add.png)
-
 4. Choose your storage type. This can be either **NFS** or **Object Storage**. See the NFS example below.
 
-- **Storage type:** `NFS`
-- **Name:** name your external storage server
-- **Path:** NAS IP and a directory path
+* **Storage type:** `NFS`
+* **Name:** name your external storage server
+* **Path:** NAS IP and a directory path
 
 5. Click **Test** to check connectivity to the NFS server, then click **Save external storage**.
-
-![NFS external storage form.](../../.gitbook/assets/configuring-cameras-and-devices/other-devices/nfs.png)
 
 ## Configure cameras to use the external storage server
 
 1. On the live view page of the camera, click **Edit Camera**.
-
-![Live view with Edit camera.](../../.gitbook/assets/configuring-cameras-and-devices/other-devices/edit-camera.png)
-
 2. In the edit camera menu, click **Storage**, then scroll down to **Additional Storage**.
-
 3. Toggle **Additional storage** to **On**, then select **External**.
-
-![Edit camera, Storage and Additional storage.](../../.gitbook/assets/configuring-cameras-and-devices/other-devices/external-storage-camera.png)
-
 4. After selecting **External**, choose the server where the camera should record. In this example, select the NFS server added earlier, named `NFS-Server-1`.
-
 5. Configure the storage options:
 
-- Choose the retention period for videos on the external storage: `30 / 60 / 90 / 180 / 365` days
-- Enable `Storage (SQ)` for saving ordinary footage
-- Enable `Alerts (HQ)` for saving high-resolution clips of triggered alerts
-- If you wish to restrict the times in which the Core uploads videos to the NAS server, use the scheduler at the bottom, **When the upload should occur**
+* Choose the retention period for videos on the external storage: `30 / 60 / 90 / 180 / 365` days
+* Enable `Storage (SQ)` for saving ordinary footage
+* Enable `Alerts (HQ)` for saving high-resolution clips of triggered alerts
+* If you wish to restrict the times in which the Core uploads videos to the NAS server, use the scheduler at the bottom, **When the upload should occur**
 
 ## Storage capacity calculation
 

@@ -81,6 +81,8 @@ Saving your filters sets them as the default for this dashboard. The same camera
 
 Select the **fullscreen icon** at the far right of the filter bar to expand the dashboard to fill the screen. This is useful for displaying dashboards on a dedicated monitor or in a security operations center.
 
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-04-11 at 07.42.13.png" alt="" width="65"><figcaption></figcaption></figure></div>
+
 ## Widget-level time override
 
 Individual widgets can have their own time setting that overrides the dashboard filter. When a widget has a time setting applied, it shows data for that period regardless of the dashboard filter.

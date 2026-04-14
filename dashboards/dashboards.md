@@ -1,35 +1,33 @@
-# Dashboards
+# Introduction to Dashboards
 
-Dashboards give you a workspace for analyzing data from your cameras over time. Use them to spot trends, track occupancy, and review alert activity without watching live footage.
-
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard.png" alt="" width="563"></div>
-
-## What dashboards are for
-
-Unlike Live View, which shows what's happening right now, dashboards show what has already happened. Security managers use them to review patterns across days, weeks, or months.
-
-A dashboard can answer questions like:
+Dashboards give you a workspace for analyzing historical data from your cameras. They enable you to review patterns across days, weeks, or months, answering questions like:
 
 * How many people passed through the main entrance last week?
 * Which camera triggered the most alerts this month?
 * What does foot traffic look like at different times of day?
 
-Dashboards pull this data from sources already configured in your Lumana setup, so there's nothing extra to connect.
+You build a dashboard from a grid of widgets of the following types:&#x20;
+
+* [Chart or table](widgets/chart-or-table/)
+* [Heatmap](widgets/heatmap.md)
+* [Occupancy](widgets/occupancy.md)
+* [Image](widgets/image.md)
+* [Text](widgets/text.md)
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/Dashboard_of_all_elements.png" alt="The Dashboards main page, with a grid of widgets including a chart, a heatmap, an occupancy counter, an image, and a text block."></div>
 
 ## How dashboards connect to the rest of the system
 
-Dashboards draw from three data sources in your Lumana setup:
+Dashboards draw from [the data sources that you configured in your system](/broken/pages/ioucctKGfP0RbF5jMnzB):
 
 * **Objects**: Detections recorded by your cameras, including people, vehicles, and animals.
 * **Alerts**: Events fired by the alert rules you've configured in Alerts and AI detection.
 * **Event tags**: Custom tags created through the Event tag alert type.
 
-The cameras and object types available in dashboards are the same ones configured across the rest of the platform. Filters you apply to a dashboard (cameras, object types, and time range) apply to all widgets on that dashboard by default.
+When you apply a filter to a dashboard, for example by selecting specific cameras, object types, or time ranges, that applies to all the widgets on the dashboard by default.
 
-With your data sources in place, you can start building dashboards with widgets.
+With your data sources in mind, you can start building your first dashboard.
 
-## What you can build
+## Building a dashboard
 
-Each dashboard is a grid of widgets. Add widgets to the canvas first to add data, then use edit mode to arrange and fine-tune the layout. The full setup flow is covered in [Create and manage dashboards](create-and-manage-dashboards.md). Each widget type and its configuration options are covered in [Widgets](widgets/).
-
-All users can create, edit, and delete dashboards.
+See [Create and manage dashboards](create-and-manage-dashboards.md) for a walkthrough of the setup of a dashboard. You will add widgets to the canvas first, then use edit mode to arrange and fine-tune the layout. See [Widgets](widgets/) for details about each widget type and its configuration options.

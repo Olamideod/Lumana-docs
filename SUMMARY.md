@@ -136,7 +136,7 @@
 
 ## Dashboards
 
-* [Dashboards](dashboards/dashboards.md)
+* [Introduction to Dashboards](dashboards/dashboards.md)
 * [Create and manage dashboards](dashboards/create-and-manage-dashboards.md)
 * [Filter a dashboard](dashboards/filter-a-dashboard.md)
 * [Widgets](dashboards/widgets/README.md)

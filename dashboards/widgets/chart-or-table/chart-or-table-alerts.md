@@ -4,16 +4,15 @@ The Alerts datasource counts alert events fired by your configured alert rules. 
 
 ## Add the widget
 
-1. From the dashboard canvas, select **Add widget** in the top right corner. A dropdown lists the five widget types.
-2. Select **Chart or table**. The configuration dialog opens.
-3.  Enter a name in the **Title** field.
+1. Follow **Add a widget** in [Create and manage dashboards](../../create-and-manage-dashboards.md#add-a-widget) to open the widget list, then select **Chart or table**. The configuration dialog opens.
+2.  Enter a name in the **Title** field.
 
     The title appears on the widget on the dashboard canvas. Use a name that identifies what the widget is tracking, for example "Gun detection alerts this week" or "Safety helmet not worn after 3 mins."
-4. Under **Datasource**, select **Alerts**.
+3. Under **Datasource**, select **Alerts**.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-datasource.png" alt="" width="313"></div>
 
-5. In **Visualization**, select a format from the icon row. The preview panel on the right updates immediately when you switch types.
+4. In **Visualization**, select a format from the icon row. The preview panel on the right updates immediately when you switch types.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-icons.png" alt="" width="263"></div>
 
@@ -21,18 +20,53 @@ Each visualization plots your selected X-axis grouping against Appearance total.
 
 > **Note:** When the Y-axis filter is set to All alerts, all chart types display a single color with no breakdown. When you select Group or Individual, each alert type or named alert rule gets its own color and appears as a separate line, bar, or segment in the chart. This applies across all visualization types.
 
-| <p><strong>Vertical bar chart</strong></p><p>Vertical bars with Appearance total on the Y-axis. Each bar represents the alert count for one group in your selected X-axis grouping. When the Y-axis filter is set to Group or Individual, each alert type or named alert rule gets its own bar per interval, displayed side by side. For example, selecting Group with Protective gear, Face recognition, and Gun detection shows three colored bars per day, one for each type. Hover over any bar to see the exact count. For example, a bar at 3/30 10:00 PM, which is March 30, showing 17 tells you that hour had the most alert events.</p> |    ![](../../../.gitbook/assets/widget-chart-alerts-viz-vertical-bar.png)    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------: |
-| <p><strong>Horizontal bar chart</strong></p><p>Horizontal bars with Appearance total on the X-axis. This works like the vertical bar chart but with a horizontal layout. When the Y-axis filter is set to Group or Individual, each alert type or named alert rule gets its own bar per interval, displayed side by side. Use this when labels are long or you're comparing many intervals. Hover over any bar to see the exact count.</p>                                                                                                                                                                                                        |   ![](../../../.gitbook/assets/widget-chart-alerts-viz-horizontal-bar.png)   |
-| <p><strong>Line chart</strong></p><p>A line connecting alert counts across your selected grouping. Use this to spot trends over time. For example, you might track whether gun detection alerts are rising week over week or whether alerts for a safety helmet not worn after 3 minutes increase on some days.</p>                                                                                                                                                                                                                                                                                                                               |        ![](../../../.gitbook/assets/widget-chart-alerts-viz-line.png)        |
-| <p><strong>Vertical stacked bar chart</strong></p><p>Vertical bars with Appearance total on the Y-axis. This works like the vertical bar chart, but instead of placing bars side by side, it stacks them within each interval. When the Y-axis filter is set to Group or Individual, each alert type or named alert rule appears as a colored segment within the bar, so you can see both the total and the breakdown at the same time. For example, selecting Group with Protective gear, Face recognition, and Gun detection shows one stacked bar per day where each color represents a different alert type.</p>                              |  ![](../../../.gitbook/assets/widget-chart-alerts-viz-stacked-vertical.png)  |
-| <p><strong>Horizontal stacked bar chart</strong></p><p>Horizontal bars with Appearance total on the X-axis. This works like the horizontal bar chart, but stacks bars within each interval instead of placing them side by side. When the Y-axis filter is set to Group or Individual, each alert type or named alert rule appears as a colored segment within the bar. Use this when a horizontal layout suits your dashboard better.</p>                                                                                                                                                                                                        | ![](../../../.gitbook/assets/widget-chart-alerts-viz-stacked-horizontal.png) |
-| <p><strong>Counter</strong></p><p>A single large alert count on the canvas. Use this for a quick at-a-glance total, for example the total gun detection alerts fired today. This is the only visualization that supports <strong>Alert types</strong> as the X-axis grouping.</p>                                                                                                                                                                                                                                                                                                                                                                 |       ![](../../../.gitbook/assets/widget-chart-alerts-viz-counter.png)      |
-| <p><strong>Table</strong></p><p>Alert counts in rows and columns. Each row represents your selected grouping, such as a time period, location, camera, or alert type, with its Appearance total in the adjacent column. Use this when you need exact values rather than a visual trend.</p>                                                                                                                                                                                                                                                                                                                                                       |        ![](../../../.gitbook/assets/widget-chart-alerts-viz-table.png)       |
+### Visualization previews
 
-If you selected **Counter**, then skip to [Counter visualization](chart-or-table-alerts.md#counter-visualization). If you selected **Table**, then skip to [Table visualization](chart-or-table-alerts.md#table-visualization). For all other types, continue with step 6 below.
+#### Vertical bar chart
 
-6. Set the **X-Axis**. The first dropdown controls how data is grouped.
+Vertical bars with Appearance total on the Y-axis. Each bar represents the alert count for one group in your selected X-axis grouping. When the Y-axis filter is set to Group or Individual, each alert type or named alert rule gets its own bar per interval, displayed side by side. For example, selecting Group with Protective gear, Face recognition, and Gun detection shows three colored bars per day, one for each type. Hover over any bar to see the exact count. For example, a bar at 3/30 10:00 PM, which is March 30, showing 17 tells you that hour had the most alert events.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-viz-vertical-bar.png" alt="" width="280"></div>
+
+#### Horizontal bar chart
+
+Horizontal bars with Appearance total on the X-axis. This works like the vertical bar chart but with a horizontal layout. When the Y-axis filter is set to Group or Individual, each alert type or named alert rule gets its own bar per interval, displayed side by side. Use this when labels are long or you're comparing many intervals. Hover over any bar to see the exact count.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-viz-horizontal-bar.png" alt="" width="280"></div>
+
+#### Line chart
+
+A line connecting alert counts across your selected grouping. Use this to spot trends over time. For example, you might track whether gun detection alerts are rising week over week or whether alerts for a safety helmet not worn after 3 minutes increase on some days.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-viz-line.png" alt="" width="280"></div>
+
+#### Vertical stacked bar chart
+
+Vertical bars with Appearance total on the Y-axis. This works like the vertical bar chart, but instead of placing bars side by side, it stacks them within each interval. When the Y-axis filter is set to Group or Individual, each alert type or named alert rule appears as a colored segment within the bar, so you can see both the total and the breakdown at the same time. For example, selecting Group with Protective gear, Face recognition, and Gun detection shows one stacked bar per day where each color represents a different alert type.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-viz-stacked-vertical.png" alt="" width="280"></div>
+
+#### Horizontal stacked bar chart
+
+Horizontal bars with Appearance total on the X-axis. This works like the horizontal bar chart, but stacks bars within each interval instead of placing them side by side. When the Y-axis filter is set to Group or Individual, each alert type or named alert rule appears as a colored segment within the bar. Use this when a horizontal layout suits your dashboard better.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-viz-stacked-horizontal.png" alt="" width="280"></div>
+
+#### Counter
+
+A single large alert count on the canvas. Use this for a quick at-a-glance total, for example the total gun detection alerts fired today. This is the only visualization that supports **Alert types** as the X-axis grouping.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-viz-counter.png" alt="" width="280"></div>
+
+#### Table
+
+Alert counts in rows and columns. Each row represents your selected grouping, such as a time period, location, camera, or alert type, with its Appearance total in the adjacent column. Use this when you need exact values rather than a visual trend.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-viz-table.png" alt="" width="280"></div>
+
+If you selected **Counter**, then skip to [Counter visualization](#counter-visualization). If you selected **Table**, then skip to [Table visualization](#table-visualization). For all other types, continue with step 5 below.
+
+5. Set the **X-Axis**. The first dropdown controls how data is grouped.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-group.png" alt="" width="563"></div>
 
@@ -53,7 +87,7 @@ If you selected **Time**, then set the interval in the second dropdown.
 * **Week**: Groups data by week.
 * **Month**: Groups data by month.
 
-7.  Set the **Y-Axis**. Two dropdowns control what is measured and which alerts are included.
+6.  Set the **Y-Axis**. Two dropdowns control what is measured and which alerts are included.
 
     The Y-axis always measures alert count. The rendered chart labels this axis **Appearance total**.
 
@@ -78,7 +112,7 @@ The full list of alert type options is: Motion, Tampering, Proximity, Trespassin
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-yaxis-individual.png" alt="" width="563"></div>
 
-8. Select the **Cameras** field to choose which cameras contribute data.
+7. Select the **Cameras** field to choose which cameras contribute data.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-camera-field.png" alt="" width="375"></div>
 
@@ -87,13 +121,13 @@ The full list of alert type options is: Motion, Tampering, Proximity, Trespassin
 * Select individual cameras to filter to specific ones.
 * Select **Select** to apply. The field shows how many cameras are selected, for example "1 cameras selected."
 
-9. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
+8. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-time-dropdown.png" alt="" width="375"></div>
 
 > **Note:** Setting a time disconnects the widget from the dashboard filters. To reconnect it, select **Reset**. This clears the **Cameras** and **Time** fields and the widget follows the dashboard filters again.
 
-10. Select **Add**. The widget appears on the dashboard canvas.
+9. Select **Add**. The widget appears on the dashboard canvas.
 
 When you hover over a data point in the chart, a tooltip shows the exact alert count for that interval. Timestamps in the tooltip use the format M/DD HH:MM, where the first number is the month and the second is the day. For example, 3/30 10:00 PM means March 30 at 10:00 PM.
 
@@ -103,7 +137,7 @@ When you click a data point, Lumana opens the Alert records view for that period
 
 ## Counter visualization
 
-If you selected **Counter** in **Visualization** in step 5, two unlabelled dropdowns replace the X-Axis and Y-Axis fields. The count on the canvas changes based on what you select in each dropdown.
+If you selected **Counter** in **Visualization** in step 4, two unlabelled dropdowns replace the X-Axis and Y-Axis fields. The count on the canvas changes based on what you select in each dropdown.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-counter-config.png" alt="" width="563"></div>
 
@@ -117,13 +151,13 @@ The second dropdown sets the alert filter:
 * **Group**: Counts by alert type category. Select one or more from the alert type list.
 * **Individual**: Counts a specific named alert rule. Use the search bar to find it by name.
 
-Once you've set the two dropdowns, continue with step 8 to select cameras.
+Once you've set the two dropdowns, continue with step 7 to select cameras.
 
 > **Note:** Setting a time disconnects the widget from the dashboard filters. To reconnect it, select **Reset**. This clears the **Cameras** and **Time** fields and the widget follows the dashboard filters again.
 
 ## Table visualization
 
-If you selected **Table** in **Visualization** in step 5, the X-Axis becomes **Group** and the Y-Axis becomes **Column**.
+If you selected **Table** in **Visualization** in step 4, the X-Axis becomes **Group** and the Y-Axis becomes **Column**.
 
 **Group** controls how rows are organized. The first dropdown sets the grouping type: Time, Locations, Cameras, or Alert types. If you select Time, then a second dropdown appears where you set the interval: Hour, Day, Week, or Month.
 
@@ -134,9 +168,9 @@ If you selected **Table** in **Visualization** in step 5, the X-Axis becomes **G
 * First dropdown: **Total**. This is the only option.
 * Second dropdown: **All alerts**, **Group**, or **Individual**.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-table-config (1).png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-table-config.png" alt="" width="563"></div>
 
-Once you've set Group and Column, continue with step 8 to select cameras.
+Once you've set Group and Column, continue with step 7 to select cameras.
 
 > **Note:** Setting a time disconnects the widget from the dashboard filters. To reconnect it, select **Reset**. This clears the **Cameras** and **Time** fields and the widget follows the dashboard filters again.
 
