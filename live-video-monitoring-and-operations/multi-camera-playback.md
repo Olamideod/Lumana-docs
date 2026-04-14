@@ -19,29 +19,29 @@ Start from a camera preview, then open the video timeline and add more cameras t
 
    The playback view opens and shows the multi-camera playback icon in the upper-right corner.
 
-![Video tab view with the multi-camera playback icon highlighted.](../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-video-tab.png)
+   ![Video tab view with the multi-camera playback icon highlighted.](../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-video-tab.png)
 
-3. Click the multi-camera playback icon.
+3. In the upper-right corner of the playback view, click the multi-camera playback icon.
 
    The icon appears in the playback toolbar.
 
-![Multi-camera playback icon in the playback toolbar.](../.gitbook/assets/icons/icon-multi-camera-playback.png)
+   ![Multi-camera playback icon in the playback toolbar.](../.gitbook/assets/icons/icon-multi-camera-playback.png)
 
 4. Select up to three additional cameras, then click **Select**.
 
    The chooser lets you search cameras and locations before you add them.
 
-![Choose cameras dialog for multi-camera playback with selected cameras and Select button.](../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-choose-cameras.png)
+   ![Choose cameras dialog for multi-camera playback with selected cameras and Select button.](../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-choose-cameras.png)
 
 5. Review the synchronized playback view.
 
    All selected cameras stay on one timeline. You can scrub across the incident, change playback speed, and export footage to the archive.
 
-![Synchronized multi-camera playback view with four camera tiles and shared timeline controls.](../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-synced-view.png)
+   ![Synchronized multi-camera playback view with four camera tiles and shared timeline controls.](../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-synced-view.png)
 
-**Note:** In search-based playback, a green highlight on a camera timeline marks frames where the searched object appears.
+   > **Note:** In search-based playback, a green highlight on a camera timeline marks frames where the searched object appears.
 
-![Multi-camera playback wall view with synchronized camera tiles and shared timeline.](../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-wall-view.png)
+   ![Multi-camera playback wall view with synchronized camera tiles and shared timeline.](../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-wall-view.png)
 
 ## Next steps
 
