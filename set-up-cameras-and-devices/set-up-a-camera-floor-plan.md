@@ -18,22 +18,22 @@ Key Benefits:
 
 1. Go to Floor Plans menu
 
-![Floor Plans menu overview.](../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/floor-plans-menu-overview.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/floor-plans-menu-overview.png" alt="Floor Plans menu overview."></div>
 
 2. Create building
 
-![Floor Plans page with Create building action.](../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/create-building-floor-plans.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/create-building-floor-plans.png" alt="Floor Plans page with Create building action."></div>
 
 3. Upload a floor plan
 
-![Create floor plan dialog with upload area.](../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/upload-floor-plan-dialog.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/upload-floor-plan-dialog.png" alt="Create floor plan dialog with upload area."></div>
 
 4. Click on the Camera icon to start adding and positioning your cameras on the floor plan
 
 5. Save when finished
 
-![Floor plan editor with camera placement and save action.](../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/edit-floor-plan-layout.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/edit-floor-plan-layout.png" alt="Floor plan editor with camera placement and save action."></div>
 
 Now you are able to view the floor plan, when you hover over a camera you will get a live view for it.
 
-![Floor plan with live view preview on camera hover.](../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/floor-plan-live-view-hover.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/floor-plan-live-view-hover.png" alt="Floor plan with live view preview on camera hover."></div>

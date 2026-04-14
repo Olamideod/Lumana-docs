@@ -24,11 +24,11 @@ Follow the steps for your network configuration:
    - In Lumana, open the camera from the **Devices** list.
    - Use the **IP address** shown for the camera.
 
- ![](../.gitbook/assets/devices-list-ip-address.png)
+ <div align="center" data-with-frame="true"><img src="../.gitbook/assets/devices-list-ip-address.png" alt="Devices list showing the camera IP address."></div>
 
    - Open **Camera** -> **Edit camera** -> **Details** to copy the **MAC address**.
 
- ![](../.gitbook/assets/camera-details-mac-address.png)
+ <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-details-mac-address.png" alt="Camera details page showing the MAC address field."></div>
 
 4. Configure DHCP reservation on your router using the MAC address.
 This ensures the camera keeps the same IP address after reboots or power interruptions.
@@ -55,12 +55,12 @@ If your network does not have a DHCP server, you will need to connect to the cam
 
 3. Enter the camera’s IP address and log in.
 
-    ![](../.gitbook/assets/lumix-camera-web-login-lb800.png)
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-camera-web-login-lb800.png" alt="Camera local web interface login page."></div>
 
 4. Change the default password when prompted.
 
 5. Go to **Setup → Network**.
-    ![](../.gitbook/assets/lumix-network-ipv4-dhcp-settings.png)
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-network-ipv4-dhcp-settings.png" alt="Camera network settings showing IPv4 DHCP mode."></div>
 
 6. Change the network mode from DHCP to Static IP.
 
@@ -68,7 +68,7 @@ If your network does not have a DHCP server, you will need to connect to the cam
 
 8. Save your changes.
 
-![](../.gitbook/assets/lumix-network-ipv4-static-settings.png)
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-network-ipv4-static-settings.png" alt="Camera network settings showing static IP, subnet mask, and gateway."></div>
 
 ### Scenerio 3: Assign a static IP outside the DHCP pool
 
