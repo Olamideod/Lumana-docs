@@ -80,6 +80,7 @@
     * [Tampering](alerts-and-ai-detection/alert-types/security/tampering.md)
     * [Proximity](alerts-and-ai-detection/alert-types/security/proximity.md)
     * [Trespassing](alerts-and-ai-detection/alert-types/security/trespassing.md)
+    * [Trespassing zones](alerts-and-ai-detection/alert-types/security/trespassing-zones.md)
     * [Tailgating](alerts-and-ai-detection/alert-types/security/tailgating.md)
     * [Zone protection](alerts-and-ai-detection/alert-types/security/zone-protection.md)
     * [Gun detection](alerts-and-ai-detection/alert-types/security/gun-detection.md)
