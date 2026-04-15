@@ -30,4 +30,4 @@ With your data sources in mind, you can start building your first dashboard.
 
 ## Building a dashboard
 
-See [Create and manage dashboards](create-and-manage-dashboards.md) for a walkthrough of the setup of a dashboard. You will add widgets to the canvas first, then use edit mode to arrange and fine-tune the layout. See [Widgets](widgets/) for details about each widget type and its configuration options.
+Add widgets to the canvas first, then use edit mode to arrange and fine-tune the layout. [Create and manage dashboards](create-and-manage-dashboards.md) walks you through the full setup flow, and [Widgets](widgets/) covers each widget type and its configuration options.
