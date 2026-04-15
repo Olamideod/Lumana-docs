@@ -99,11 +99,6 @@ After completing ONVIF setup, proceed to [Connect a camera](../../getting-starte
 * After filling in the details and assigning the appropriate role and permissions, click **Save** to finalize the creation of the new user profile.
 * A confirmation message or indicator should appear, confirming that the new user has been added successfully.
 
-4. Save the new user profile.
-
-* After filling in the details and assigning the appropriate role and permissions, click _Save_ to finalize the creation of the new user profile.
-* A confirmation message or indicator should appear, confirming that the new user has been added successfully.
-
 Using an **Operator** user with **All** permissions allows Lumana Core to configure camera settings, including stream configurations, automatically.
 
 You can now proceed to [Connect a camera](../../getting-started/connect-a-camera.md), which will guide you through the process of adding your camera to Lumana Core and ensuring everything is functioning as expected.
