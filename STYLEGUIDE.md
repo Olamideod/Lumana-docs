@@ -57,7 +57,29 @@ Mix these naturally throughout writing:
 
 ---
 
-## Sentence and paragraph style
+## Audience and user roles
+
+Lumana documentation is written for two primary user profiles.
+
+**The director (security manager)** — responsible for monitoring, reviewing alerts, and managing day-to-day security operations. Not always technical. Needs clear, task-focused guidance on using the platform without deep configuration knowledge.
+
+**The installer (expert)** — responsible for deploying hardware, configuring cameras, setting up alerts, and managing the system. Technical and experienced. Needs precise, complete instructions including admin-level configuration steps.
+
+When content applies only to administrators or installers, mark it clearly so directors and end users can skip it. Do not bury admin-only steps inside general user flows without signalling who they are for.
+
+---
+
+## AI limitations and managing expectations
+
+AI limitations are the number one customer friction point. Documentation must set accurate expectations about what Lumana's AI can and cannot do, rather than overpromising.
+
+- Do not describe AI features as infallible. Acknowledge that confidence levels, lighting conditions, camera placement, and other factors affect detection accuracy.
+- When documenting AI-powered alerts, explain the confidence level setting and what it means for false positives and missed detections.
+- Configuration, installation, and AI limitation guidance are the highest priority content areas. Get these right before expanding to edge cases.
+
+If a feature has known limitations, document them inline where users will encounter them, not only in a separate troubleshooting section.
+
+---
 
 One main idea per sentence. Keep paragraphs to two to four sentences. Avoid nested clauses when a simpler structure works. Write so readers can quickly scan and find what they need.
 
@@ -67,11 +89,16 @@ Additional rules:
 
 - Maximum 25 words per sentence. Shorter is better.
 - If you start with "if," then include "then" in the predicate.
+  - Not: "If you need updates, use Option A."
+  - Use: "If you need updates, then use Option A."
 - Use "may" for permission, "might" for possibility.
 - Use "Enter" not "add" for form fields.
 - After a colon or a hyphen, proceed with a capital letter.
 - Avoid "where" to connect clauses; use conjunctions ("because," "since," "so") instead.
+  - Not: "Teams maintain duplicate codebases where maintenance costs double."
+  - Use: "Teams maintain duplicate codebases, so maintenance costs double."
 - Avoid marketing words; use technical words instead.
+- Avoid using em-dashes.
 - Use contractions naturally: "you'll need to", "it's important", "don't forget".
 - Occasionally start sentences with "And" or "But" when it creates natural flow.
 
@@ -122,6 +149,8 @@ Every how-to guide must follow this structure. Each section below is required.
 
 ## Lists, steps, and tables
 
+Use bullet lists for unordered information and numbered lists for sequences. Keep items parallel in structure. Use periods consistently: all items end with a period or none do. Every list needs at least two items.
+
 ### Lists
 
 Use bullet lists for unordered information and numbered lists for sequences. Keep list items parallel in structure. Use periods consistently: all items end with a period or none do. Every list needs at least two items. Format four or more related items as a list rather than running them together in prose.
@@ -138,7 +167,15 @@ Use tables for parameter lists, option comparisons, and reference data. Do not u
 
 ## UI text and messages
 
-Match UI labels, buttons, and error messages exactly, including capitalisation. Use bold for buttons and clickable elements, without quotation marks. Use bold for field names and keys.
+Match UI labels, buttons, and error messages exactly, including capitalisation. Use bold for buttons and clickable elements, without quotation marks. Use bold for field names and keys. Place colons outside bold formatting, not inside.
+
+- Not: **Add widgets:**
+- Use: **Add widgets**:
+
+Use **select** for all UI interactions, not "click." "Click" is device-specific and assumes a mouse. "Select" works across mouse, touch, and keyboard.
+
+- Not: "Click **Save**."
+- Use: "Select **Save**."
 
 For error messages, quote the message exactly, then explain what it means and what the reader should do next.
 
@@ -152,12 +189,29 @@ Use callouts strategically: do not overuse them. Use a **Note** block for inform
 
 ## Images and screenshots
 
-Use screenshots when they clarify an important step or result. Write alt text that describes what the reader should notice, not just "screenshot." Do not use images as the only way to convey critical information.
+Use screenshots when they clarify an important step or result. Do not use images as the only way to convey critical information.
 
-| Good alt text | Bad alt text |
-|---|---|
-| VMS+ Devices page showing Lumana Core listed with a green online status indicator. | Screenshot |
-| Alert settings panel with sensitivity slider set to medium. | Image of settings |
+### Alt text
+
+Do not write alt text for screenshots in Lumana documentation. Leave the `alt` attribute empty. Alt text is reserved for diagrams or images that convey information not available in the surrounding text.
+
+### Image frames
+
+All images must use a frame. The frame provides a consistent visual boundary and prevents screenshots from blending into the page background.
+
+Use this format for every image:
+
+```html
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/frame-image.png" alt="" width="563"></div>
+```
+
+The `data-with-frame="true"` attribute is what renders the frame around the image. Do not remove it. (`../` or `../../` or `../../../`) to match the location of the page relative to the assets folder. Use `width="563"` as the default. Use a smaller width for narrow UI elements such as dropdowns or counters.
+
+Example from a page three levels deep:
+
+```html
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="375"></div>
+```
 
 ### Asset folder structure
 
@@ -200,40 +254,39 @@ Use "people with disabilities," not "the disabled" or "disabled people."
 
 ---
 
-## Links
+## Links and signposting
 
-Make link text descriptive. Do not use "click here" or raw URLs. Add introductory context before reference links. Every major page should end with a "Next steps" section.
+Make link text descriptive. Do not use "click here" or raw URLs. Every major page should end with a "Next steps" section.
 
-| Good | Bad |
-|---|---|
-| See the Lumana API reference for authentication details. | Click here. |
-| Read about Smart Search in the VMS+ concepts guide. | More info at support.lumana.ai/article/123 |
+**Inline linking is the preferred approach** for web-based documentation. Embed links naturally as part of the sentence so the reader stays in context and understands why the link is relevant before selecting it.
 
----
+- Not: "For configuration details, see the [Widgets](#) section."
+- Use: "Each widget type has its own configuration options, covered in the [Widgets](#) section."
 
-## Numbers, dates, and units
+**"See X for Y" is acceptable in limited cases:** when the reference is the subject of the sentence, when flagging a major topic shift, or when the linked content is a warning or prerequisite. This pattern comes from print documentation and should not be the default in web-based docs. Never use "see" as a casual signpost.
 
-Spell out one through nine. Use numeric form for 10 and above, unless it's a unit or parameter. Use unambiguous date formats: write "21 November 2025" in body text and "2025-11-21" in code or logs.
-
----
-
-## Inclusive and bias-free language
-
-Avoid terms that stereotype or exclude. Use neutral, precise language. When in doubt, check the Google developer documentation style guide word list.
+If the link belongs in the sentence, inline it. If it doesn't belong in the sentence, put it in a related links section at the end of the page.
 
 | Good | Bad |
 |---|---|
-| IT administrators, security managers | ninja coders, rockstar admins |
-| People with disabilities | the disabled, the handicapped |
-| Example data, test data | dummy data |
+| Each widget type has its own configuration options, covered in the [Widgets](#) section. | For configuration details, see the [Widgets](#) section. |
+| Read about Smart Search in the [VMS+ concepts guide](#). | Click here for more info. |
 
 ---
 
 ## Transitions between sections
 
-Connect sections so the reader always knows where they are and where they're going next. Use two sentences before each new heading: the first closes out what just happened, the second sets up the reason for the next section.
+Transitions between sections depend on the content type.
 
-You can also vary transitions naturally. Use a natural bridge ("Once you've completed X, you can move on to Y"), a problem-solution setup ("This raises a question: how do you handle Z?"), or a context shift ("Understanding X helps explain why Y matters"). Don't follow the two-sentence pattern rigidly every time: let the content guide you.
+**For narrative or conceptual content** — use a short transition before each new heading to close the current section and set up the next. Keep it to one or two sentences. Don't force it if the sections are clearly distinct.
+
+- Natural bridge: "Once you've set up X, you can move on to Y."
+- Problem-solution: "This raises a question: how do you handle Z?"
+- Context shift: "Understanding X helps explain why Y matters."
+
+**For task-based or reference documentation** — do not add transitions between sections. Users rarely read these pages linearly. They arrive at a specific section from search or a sidebar link. Each section should open with a direct statement of what it covers and stand on its own. Sentences that bridge one section to the next assume sequential reading and add noise without value.
+
+The test: if removing the sentence between two sections leaves both sections fully clear, then the sentence doesn't belong.
 
 ---
 
@@ -283,7 +336,7 @@ Natural writing mixes long and short sentences and uses conjunctions to connect 
 - Natural conjunctions: "since," "so," "because."
 - Contractions in explanatory text.
 - Sentences that occasionally start with "And" or "But."
-- Transition words between ideas.
+- Transition words between ideas within a section.
 - Every heading followed by a description paragraph.
 
 **Avoid:**
@@ -299,7 +352,19 @@ Natural writing mixes long and short sentences and uses conjunctions to connect 
 
 ## Before you publish
 
-Before submitting documentation, confirm: every sentence is 25 words or fewer; the writing is in second person throughout; every heading has a paragraph beneath it; all Lumana product terms are spelled correctly; UI elements are bolded and capitalised exactly as they appear in the product; notes and warnings are placed immediately after the relevant step; there is a transition before every new major heading; all lists are parallel in structure and punctuation; and the content is free of marketing language.
+Before submitting documentation, confirm:
+
+- Every sentence is 25 words or fewer.
+- The writing is in second person throughout.
+- Every heading has a paragraph beneath it.
+- All Lumana product terms are spelled correctly.
+- UI elements are bolded and capitalised exactly as they appear in the product.
+- Notes and warnings are placed immediately after the relevant step.
+- Transitions are used only in narrative or conceptual content, not in task-based or reference documentation.
+- Each section in task-based documentation opens with a direct statement and stands on its own.
+- Links are inline where the context makes them relevant. "See X" is used only when the reference is the subject of the sentence or signals a major topic shift.
+- All lists are parallel in structure and punctuation.
+- The content is free of marketing language.
 
 ---
 
