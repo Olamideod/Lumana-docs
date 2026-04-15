@@ -51,7 +51,7 @@ Your options are as follows:
 
 8. Optionally, set a **Time** range that the heatmap will cover.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 If you set this to `---`, then this widget will use [the time range that is set for the dashboard as a whole](../filter-a-dashboard.md#time-range).
 
