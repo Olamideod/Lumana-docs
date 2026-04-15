@@ -15,7 +15,7 @@ Select the ![](<../.gitbook/assets/image (8).png>) (**Refresh data**) icon to up
 
 ### Auto refresh
 
-To tell the dashboard to refresh automatically at regular intervals, The auto refresh toggle sits to the right of the time range. When auto refresh is on, the dashboard reloads data automatically at the interval you set.
+To tell the dashboard to refresh automatically at regular intervals, use the auto refresh toggle. When auto refresh is on, the dashboard reloads data automatically at the interval you set.
 
 1. Use the refresh rate dropdown to set how often the dashboard reloads. The countdown timer shows how long until the next reload.
 
