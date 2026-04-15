@@ -162,6 +162,7 @@
 * [Search video footage for other objects](databases-analytics-and-search/search-video-footage-for-other-objects.md)
 * [Free text search](databases-analytics-and-search/free-text-search.md)
 * [Generate reports](databases-analytics-and-search/generate-reports.md)
+* [Configure a space occupancy dashboard](databases-analytics-and-search/configure-a-space-occupancy-dashboard.md)
 * [Space occupancy analytics](databases-analytics-and-search/space-occupancy-analytics.md)
 * [Enhance your video data with Lumana Event Tags](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md)
 
