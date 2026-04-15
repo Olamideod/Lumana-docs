@@ -24,7 +24,7 @@ The general alert configuration flow, including advanced configuration and alert
 3. Enter a name in the **Alert name** field, for example "Main entrance tailgating" or "Server room entry."
 4. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="375"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="262"></div>
 
 Select one or more object types to monitor:
 
