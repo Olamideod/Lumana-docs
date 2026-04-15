@@ -59,8 +59,8 @@
 
 ## Live video monitoring and operations
 
-* [Understand live view streaming and quality](live-video-monitoring-and-operations/understand-live-view-streaming-and-quality.md)
 * [Use live view](live-video-monitoring-and-operations/live-view.md)
+* [Understand live view streaming and quality](live-video-monitoring-and-operations/understand-live-view-streaming-and-quality.md)
 * [PTZ control](live-video-monitoring-and-operations/ptz-control.md)
 * [Video walls and shared displays](live-video-monitoring-and-operations/video-walls-and-shared-displays.md)
 * [Multi-camera playback](live-video-monitoring-and-operations/multi-camera-playback.md)
