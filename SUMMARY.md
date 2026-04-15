@@ -139,7 +139,7 @@
 
 * [Introduction to Dashboards](dashboards/dashboards.md)
 * [Create and manage dashboards](dashboards/create-and-manage-dashboards.md)
-* [Filter a dashboard](dashboards/filter-a-dashboard.md)
+* [View and filter a dashboard](dashboards/filter-a-dashboard.md)
 * [Widgets](dashboards/widgets/README.md)
   * [Chart or table](dashboards/widgets/chart-or-table/README.md)
     * [Visualization types](dashboards/widgets/chart-or-table/chart-or-table-visualization-types.md)

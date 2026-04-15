@@ -14,7 +14,7 @@ You build a dashboard from a grid of widgets of the following types:&#x20;
 * [Image](widgets/image.md)
 * [Text](widgets/text.md)
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/Dashboard_of_all_elements.png" alt=""></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/Dashboard_of_all_elements.png" alt="An example of a dashboard, with a grid of widgets including a chart, a heatmap, an occupancy counter, an image, and a text block."></div>
 
 ## How dashboards connect to the rest of the system
 
@@ -27,6 +27,8 @@ Dashboards draw from three data sources already configured in your Lumana setup:
 When you apply a filter to a dashboard, for example by selecting specific cameras, object types, or time ranges, that applies to all the widgets on the dashboard by default.
 
 With your data sources in mind, you can start building your first dashboard.
+
+
 
 ## Building a dashboard
 

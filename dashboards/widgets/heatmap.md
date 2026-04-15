@@ -2,92 +2,57 @@
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Main_entrance_heatmap.png" alt=""><figcaption></figcaption></figure></div>
 
-The Heatmap widget shows where activity is concentrated in a camera's field of view. It overlays a color-coded map on the camera feed, with more intense colors indicating higher detection activity.
+A heatmap widget shows where activity is concentrated in a camera's field of view. It overlays a color-coded map on the camera feed, with more intense colors indicating higher detection activity.
 
 Use this widget to understand movement patterns: which entrance gets the most traffic, where people tend to congregate, or which areas see the most activity over a given period.
 
 ## Prerequisites
 
-Before you can add a Heatmap widget, you need at least one camera configured and online in your system.
+A heatmap widget requires that your system contain at least one camera that is configured and online.
 
 ## Add a Heatmap widget
 
-Adding a Heatmap widget opens a single configuration dialog where you select a camera, set the display mode, and choose a time range.
+Adding a Heatmap widget opens a configuration dialog where you select a camera, set the display mode, and choose a time range.
 
-1. From the dashboard canvas, select **Add widget** in the top right corner. A dropdown lists the five widget types.
-2. Select **Heatmap**. The configuration dialog opens.
+1. While [creating your dashboard](../create-and-manage-dashboards.md#create-a-dashboard), or while it is in [edit mode](../create-and-manage-dashboards.md#edit-a-dashboard), select **Add widget** in the top right corner. Select **Heatmap** from the list that appears. The configuration dialog opens.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-heatmap-dialog.png" alt="" width="563"></div>
 
-3. Enter a name in the **Title** field.
-4. Enter a camera name in the **Camera** field or select one from the list.
-
-The preview panel on the right updates to show that camera's view.
-
-5. Set the **Display** mode. The options are covered in [Display mode](heatmap.md#display-mode) below.
-6. Adjust the **Opacity** slider.
-7. Select a **Visualization** scale. The options are covered in [Visualization scale](heatmap.md#visualization-scale) below.
-8. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
-9. Select **Add**.
-
-With the widget added, the heatmap renders on the dashboard canvas using the settings you configured.
-
-## Camera
-
-The **Camera** field lists all cameras configured in your system. The Heatmap widget displays activity from a single camera at a time. To compare activity across multiple cameras, add a separate Heatmap widget for each one.
+2. Enter a name in the **Title** field.
+3. Choose a camera from the **Camera** field.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-camera-field.png" alt="" width="375"></div>
 
-## Display mode
+The Heatmap widget displays activity from a single camera at a time. To compare activity across multiple cameras, add a separate Heatmap widget for each one.
 
-The **Display** setting controls which detected object types the heatmap visualizes. Select the dropdown to choose a mode.
-
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-heatmap-display-group.png" alt="" width="563"></div>
-
-* **All objects**: Tracks every detected object type across the camera feed.
-* **Group**: Shows activity grouped by object category. Select **Person**, **Vehicle**, or **Animal**, or use **Select all** for all three.
-* **Individual**: Shows activity for specific detected subjects, such as Unknown person, Adult male, or Bus. The options shown depend on what the camera has detected.
+4. Select **Select.** The preview panel on the right updates to show the view from the selected camera.
+5. Use the **Display** field to select which objects to track in the camera's view.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-heatmap-display-individual.png" alt="" width="563"></div>
 
-With your display mode set, you can control how strongly the overlay appears on the camera image.
+Your options are as follows:
 
-## Opacity
+* **All objects**: All detectable objects are included.
+* **Group**: Only objects in the selected category or categories are included. Some examples of categories: **Person**, **Vehicle**, **Animal**, **Shopping cart**, and **Container**.
+* **Individual**: Filter by specific detected subjects. The options available depend on what your cameras have detected.
 
-The **Opacity** slider controls how much the heatmap overlay covers the underlying camera image. Drag it left for a more transparent overlay, or right for a more opaque one. The default is 41%.
+6. Adjust the **Opacity** slider. This controls how much the heatmap overlay covers the underlying camera image. Drag it left for a more transparent overlay, or right for a more opaque one. The default is 50%.
+7. Select a **Visualization** scale. Your options are:
 
-With opacity set, you can choose how the color scale represents activity intensity.
-
-## Visualization scale
-
-The scale affects how differences in activity density are represented across the overlay.
-
-* **Linear**: Activity values map directly to color intensity, so the busiest areas appear most intense. Use this to quickly identify high-traffic zones, chokepoints, or entry points. Low-activity areas appear faint or empty.
+* **Linear**: The color of a pixel reflects the raw number of objects detected in that area, and additional detections change the color value at a constant rate. For example, if it currently takes 5 more detections to change the color of a pixel, the color will change whether the number of detections increases from 0 to 5 or from 1,000 to 1,005.\
+  This is useful for quickly identifying high-traffic zones, chokepoints, and entry points, but is less useful for noticing isolated cases of activity in forbidden areas.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-heatmap-viz-linear.png" alt="" width="563"></div>
 
-* **Logarithmic**: Compresses high-activity areas and expands low-activity ones on the color scale. Use this when one area dominates the data so heavily that everything else appears flat, for example, when you suspect movement in a rarely used exit or a low-traffic zone that a linear scale would hide.
+* **Logarithmic**: The color of a pixel reflects the _relative_ number of objects detected in an area. For example, if it currently takes twice as many detections to change the color of a pixel, the color will change by the same amount whether the number of detections increases from 10 to 20 or from 3,000 to 6,000.\
+  This is useful for making sure small changes at the lower end of the scale become highly noticeable. It highlights isolated instances of activity in places where there shouldn't be any, but makes it harder to differentiate between high-traffic and very-high-traffic areas.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-heatmap-viz-logarithmic.png" alt="" width="563"></div>
 
-With your visualization scale set, you can optionally lock the widget to a specific time range.
+8. Optionally, set a **Time** range that the heatmap will cover.
 
-## Widget-level time
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-Each Heatmap widget can have its own time range, independent of the dashboard filter. Set it in the **Time** dropdown at the bottom of the configuration dialog.
+If you set this to `---`, then this widget will use [the time range that is set for the dashboard as a whole](../filter-a-dashboard.md#time-range).
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-heatmap-time-dropdown.png" alt="" width="563"></div>
-
-> **Note:** Setting a widget-level time disconnects the widget from the dashboard time filter. To reconnect it, then clear the widget's time setting back to `---`.
-
-## Edit or delete the widget
-
-You can update or remove the widget at any time while the dashboard is in edit mode.
-
-To edit the widget:
-
-1. Select the **edit icon** (pencil) in the top right corner of the dashboard. The tooltip reads **Edit dashboard**.
-2. Select the **edit icon** on the widget. The same configuration dialog opens with your current settings.
-3. Update the settings and select **Save**.
-
-To delete the widget, select the **delete icon** on the widget while in edit mode.
+9. Select **Add** in the lower right. The heatmap apperas on the dashboard canvas using the settings you configured.
