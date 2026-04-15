@@ -93,7 +93,9 @@ Additional rules:
   - Use: "If you need updates, then use Option A."
 - Use "may" for permission, "might" for possibility.
 - Use "Enter" not "add" for form fields.
-- After a colon or a hyphen, proceed with a capital letter.
+- After a colon or a hyphen, proceed with a capital letter when a full sentence follows. Use lowercase when what follows is a phrase or fragment.
+  - Full sentence: "Note: This action is irreversible."
+  - Fragment: "Options: daily, weekly, or monthly."
 - Avoid "where" to connect clauses; use conjunctions ("because," "since," "so") instead.
   - Not: "Teams maintain duplicate codebases where maintenance costs double."
   - Use: "Teams maintain duplicate codebases, so maintenance costs double."
@@ -149,11 +151,18 @@ Every how-to guide must follow this structure. Each section below is required.
 
 ## Lists, steps, and tables
 
-Use bullet lists for unordered information and numbered lists for sequences. Keep items parallel in structure. Use periods consistently: all items end with a period or none do. Every list needs at least two items.
-
 ### Lists
 
-Use bullet lists for unordered information and numbered lists for sequences. Keep list items parallel in structure. Use periods consistently: all items end with a period or none do. Every list needs at least two items. Format four or more related items as a list rather than running them together in prose.
+Use bullet lists for unordered information and numbered lists for sequences. Keep list items parallel in structure. Every list needs at least two items. Format four or more related items as a list rather than running them together in prose.
+
+**Periods in lists:** Use periods when list items contain full sentences. Omit periods when list items are phrases or fragments. Apply consistently across all items in the same list.
+
+- Full sentences: "Select **Save** to apply your changes. The dashboard exits edit mode."
+- Phrases or fragments: "Daily, weekly, or monthly"
+
+**Mixed-structure list items:** When a list item opens with a definition-style label followed by full sentences of explanation, treat the item as a full sentence entry. Use a period at the end and lowercase after the colon.
+
+- **Blocking period:** The minimum time in seconds between consecutive alerts for the same condition. Set to 0 to allow back-to-back alerts.
 
 ### Steps
 
@@ -202,7 +211,7 @@ All images must use a frame. The frame provides a consistent visual boundary and
 Use this format for every image:
 
 ```html
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/frame-image.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/IMAGE-NAME.png" alt="" width="563"></div>
 ```
 
 The `data-with-frame="true"` attribute is what renders the frame around the image. Do not remove it. (`../` or `../../` or `../../../`) to match the location of the page relative to the assets folder. Use `width="563"` as the default. Use a smaller width for narrow UI elements such as dropdowns or counters.

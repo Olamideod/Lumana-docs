@@ -1,10 +1,10 @@
 # Fall detection
 
-The fall detection alert triggers when a person falls in the camera view. It's used in healthcare facilities, care homes, workplaces, and any environment where a fall is a safety event that needs an immediate response.
+The fall detection alert triggers when a person falls in the camera view and doesn't recover within a time threshold you set. It's used in healthcare facilities, care homes, workplaces, and any environment where a fall is a safety event that needs an immediate response.
 
 ## How it works
 
-Lumana uses AI to analyze body posture and movement in the video feed. The model distinguishes between normal movements, such as walking, sitting, or bending, and an actual fall. When a fall is detected, the alert captures a clip and notifies the designated contacts.
+Lumana uses AI to analyze body posture and movement in the video feed. The model distinguishes between normal movements, such as walking, sitting, or bending, and an actual fall. When a fall is detected, Lumana starts a timer. If the person doesn't recover within the configured threshold, the alert triggers, captures a clip, and notifies the designated contacts. Falls where the person recovers quickly don't trigger the alert.
 
 ## Camera placement
 
@@ -13,13 +13,13 @@ Camera placement directly affects detection accuracy. For reliable fall detectio
 * Position cameras at a corner or overhead angle that captures the person's full body.
 * Ensure there are no obstructions between the person and the camera. Furniture, walls, or other people blocking the view can trigger false alerts.
 * Maintain adequate lighting to ensure clear visibility.
-* Keep individuals within a reasonable distance from the camera. Subjects too far from the lens may not be detected reliably.
+* Keep individuals within a reasonable distance from the camera. Subjects too far from the lens might not be detected reliably.
 
 Not every environment is suitable for this alert type. Review the limitations below before deploying.
 
 ## Limitations
 
-Fall detection works best in controlled, low-traffic environments. It may not perform reliably in the following conditions:
+Fall detection works best in controlled, low-traffic environments. It might not perform reliably in the following conditions:
 
 * **Object size**: The detected person must cover at least 5% of the camera frame and be positioned within the central 80% of the frame.
 * **Analysis limit**: Only three individuals are analyzed per frame. If more than three people are present, the three largest are prioritized.
@@ -31,15 +31,24 @@ Environments that are low-traffic, well-lit, and have cameras positioned to capt
 
 ## Configure the alert
 
-Use these steps to set up the alert once your environment meets the placement requirements.
+{% hint style="warning" %}
+Fall detection is currently in beta. Detection accuracy might vary depending on camera placement, lighting, and the conditions described in the limitations above. Test the alert in your environment before relying on it for critical safety decisions.
+{% endhint %}
 
-1. Select **Alerts** in the left navigation bar, then select **Configurations**.
-2. Select **Add alert**.
-3. Under the **Security** category, select **Fall detection**.
-4. Give the alert a name.
-5. Select the camera or cameras positioned to monitor the relevant area.
-6. Set the time frame for when the alert should be active, or leave it set to all day.
-7. Select **Then do this** to configure notifications. You can notify emergency services, medical personnel, or security staff by SMS, email, or the Lumana app.
-8. Select **Create alert**.
+The general alert configuration flow, including advanced configuration and alert actions, is covered in [Configure alerts](../../configure-alerts.md). This section covers the fields specific to fall detection.
 
-When a fall is detected, the designated contacts are notified immediately and a clip of the event is saved to the alert feed for review.
+1. Select the **bell icon** in the navigation bar, then select **Add alert**.
+2. Under **Security**, select **Use template** on the **Fall detection** card. The Create fall detection page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/fall-detection-template.png" alt="" width="563"></div>
+
+3. Enter a name in the **Alert name** field, for example "Care home fall detection" or "Warehouse floor fall alert."
+4. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
+
+5. Set the recovery time threshold. Select **+** to increase the value or **-** to decrease it. Then select the unit dropdown and choose **seconds**, **minutes**, or **hours**. The alert only triggers when a person falls and doesn't recover within this time.
+6. Select the **time** field to set when the alert is active. The schedule options are covered in [Configure alerts](../../configure-alerts.md#create-an-alert).
+7. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. These settings are covered in [Configure alerts](../../configure-alerts.md#create-an-alert).
+8. Select **Then** to choose the action Lumana takes when the alert triggers. The available actions are covered in [Alert actions](../../alert-actions.md).
+9. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.
