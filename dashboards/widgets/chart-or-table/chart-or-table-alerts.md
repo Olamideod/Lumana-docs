@@ -170,7 +170,7 @@ If you selected **Table** in **Visualization** in step 4, the X-Axis becomes **G
 * First dropdown: **Total**. This is the only option.
 * Second dropdown: **All alerts**, **Group**, or **Individual**.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/chart-or-table-coloum.png" alt=""></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/chart-or-table-coloum.png" alt="" width="563"></div>
 
 Once you've set Group and Column, continue with step 7 to select cameras.
 
