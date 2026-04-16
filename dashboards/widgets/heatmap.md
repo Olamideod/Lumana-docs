@@ -2,13 +2,13 @@
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Main_entrance_heatmap.png" alt=""><figcaption></figcaption></figure></div>
 
-A heatmap widget shows where activity is concentrated in a camera's field of view. It overlays a color-coded map on the camera feed, with more intense colors indicating higher detection activity.
+A Heatmap widget shows where activity is concentrated in a camera's field of view. It overlays a color-coded map on the camera feed, with more intense colors indicating higher detection activity.
 
 Use this widget to understand movement patterns: which entrance gets the most traffic, where people tend to congregate, or which areas see the most activity over a given period.
 
 ## Prerequisites
 
-A heatmap widget requires that your system contain at least one camera that is configured and online.
+A Heatmap widget requires that your system contain at least one camera that is configured and online.
 
 ## Add a Heatmap widget
 
@@ -46,7 +46,7 @@ Your options are as follows:
 
 If you set this to `---`, then this widget will use [the time range that is set for the dashboard as a whole](../filter-a-dashboard.md#time-range).
 
-9. Select **Add** in the lower right. The heatmap apperas on the dashboard canvas using the settings you configured.
+9. Select **Add** in the lower right. The heatmap appears on the dashboard canvas using the settings you configured.
 
 ## Linear vs. Logarithmic
 
