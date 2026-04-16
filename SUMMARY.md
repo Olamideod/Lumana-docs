@@ -59,8 +59,8 @@
 
 ## Live video monitoring and operations
 
-* [Understand live view streaming and quality](live-video-monitoring-and-operations/understand-live-view-streaming-and-quality.md)
 * [Use live view](live-video-monitoring-and-operations/live-view.md)
+* [Understand live view streaming and quality](live-video-monitoring-and-operations/understand-live-view-streaming-and-quality.md)
 * [PTZ control](live-video-monitoring-and-operations/ptz-control.md)
 * [Video walls and shared displays](live-video-monitoring-and-operations/video-walls-and-shared-displays.md)
 * [Multi-camera playback](live-video-monitoring-and-operations/multi-camera-playback.md)
@@ -163,6 +163,7 @@
 * [Search video footage for other objects](databases-analytics-and-search/search-video-footage-for-other-objects.md)
 * [Free text search](databases-analytics-and-search/free-text-search.md)
 * [Generate reports](databases-analytics-and-search/generate-reports.md)
+* [Configure a space occupancy dashboard](databases-analytics-and-search/configure-a-space-occupancy-dashboard.md)
 * [Space occupancy analytics](databases-analytics-and-search/space-occupancy-analytics.md)
 * [Enhance your video data with Lumana Event Tags](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md)
 

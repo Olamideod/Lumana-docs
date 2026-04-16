@@ -2,7 +2,11 @@
 
 Event tags let you record structured events from external systems and tie them to camera footage by time and camera. You might use them to link a point-of-sale transaction, a warehouse scan, or an access control event to the exact moment it appeared on a camera. Once posted, events are searchable in Lumana and can be visualized in a Chart or table widget on any dashboard.
 
-This guide walks you through the full setup: generating an API key, creating an event tag, posting events to the Lumana API, and verifying the data. To add and configure the dashboard widget, visit [Event tags](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/) after completing this guide.
+This guide walks you through the full setup: generating an API key, creating an event tag, posting events to the Lumana API, and verifying the data. To add and configure the dashboard widget after setup, use the [Event tags dashboard widget guide](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/).
+
+## Before you begin
+
+Make sure you can open **Organization settings**, generate API keys, and access the Lumana API reference or an API client such as Postman. You also need your organization ID, a valid camera ID, and access to **Search** so you can verify the posted data.
 
 ## Step 1: Generate an API key
 
@@ -32,7 +36,7 @@ An event tag is a template that defines the structure of events you'll post. Eac
 
 <div align="center"><img src="../.gitbook/assets/alerts-monitoring-tags-manage-tags.png" alt="Tags filter in the Monitoring view with Manage tags option highlighted." width="480"></div>
 
-Lumana takes you to **Organization database** → **Event tags**.
+Lumana opens the **Event tags** page in **Organization database**.
 
 ### Create the tag
 
@@ -112,9 +116,9 @@ curl --location 'https://access.lumana.ai/v1/events-tag/insert' \
 
 ### Test the request
 
-You can send a test POST directly from the Lumana API reference without leaving your browser. Open [Insert an event tag](../api-reference/rest-apis/lumana-api.md) and select **Test it** at the bottom right of the cURL block. Enter your Bearer token (API key) under **Authentication**, replace the body values with your real orgId, cameraId, eventTypeId, and a current timestamp, then select **Send**. A successful request returns a **200 OK** response with the following body:
+You can send a test POST directly from the Lumana API reference without leaving your browser. Open [Insert an event tag in the Lumana API reference](../api-reference/rest-apis/lumana-api.md) and select **Test it** at the bottom right of the cURL block. Enter your Bearer token (API key) under **Authentication**, replace the body values with your real orgId, cameraId, eventTypeId, and a current timestamp, then select **Send**. A successful request returns a **200 OK** response with the following body:
 
-<div align="center"><img src="../.gitbook/assets/lumana-event-tag-test.png" alt="" width="480"></div>
+<div align="center"><img src="../.gitbook/assets/lumana-event-tag-test.png" alt="API reference test panel showing a successful event tag request and response." width="480"></div>
 
 If you prefer to test locally, use Postman instead.
 
@@ -147,18 +151,21 @@ Before checking the dashboard, confirm the following:
 
 If the event appears in Search, the POST was ingested correctly and the data is ready for the dashboard. If Search shows nothing, fix the POST before checking the chart.
 
-## Step 5: Create an alert for an event tag
+## Next steps
+
+After you verify that Event Tag data is arriving correctly, you can use it in alerts and dashboards.
+
+### Create an alert for an event tag
 
 You can build alerts that react to event tag data in two ways.
 
-**Event tag alert**: Fires when an event tag is received. Select the **Event tag** alert type, choose the event tag and camera, set a trigger delay, configure actions, and create the alert.
+- **Event tag alert:** Fires when an event tag is received. Select the **Event tag** alert type, choose the event tag and camera, set a trigger delay, configure actions, and create the alert.
+- **Event validation alert:** Adds an object detection check on top of an event tag. For example, require a person to be present or absent for a set duration when the event arrives. Select the event tag, camera, appearance or absence, object type, duration, and actions, then create the alert.
 
-**Event validation alert**: Adds an object detection check on top of an event tag. For example, require a person to be present or absent for a set duration when the event arrives. Select the event tag, camera, appearance or absence, object type, duration, and actions, then create the alert.
+For full configuration steps, use the [Event tag alert guide](../alerts-and-ai-detection/alert-types/integrations/event-tag.md).
 
-For full configuration steps, visit [Event tag](../alerts-and-ai-detection/alert-types/integrations/event-tag.md).
+### Chart event tags on a dashboard
 
-## Step 6: Chart event tags on a dashboard
+Once your events are verified in Search, add a Chart or table widget to a dashboard to visualize the counts over time. Full configuration steps, including axis options, camera selection, time settings, and how to drill into clips from the chart, are covered in the [Event tags dashboard widget guide](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/).
 
-Once your events are verified in Search, add a Chart or table widget to a dashboard to visualize the counts over time. Full configuration steps, including axis options, camera selection, time settings, and how to drill into clips from the chart, are covered in [Event tags](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/).
-
-<div align="center"><img src="../.gitbook/assets/widget-event-tags-chart-tooltip.png" alt="" width="480"></div>
+<div align="center"><img src="../.gitbook/assets/widget-event-tags-chart-tooltip.png" alt="Event tags chart tooltip showing event count for a selected time on the dashboard." width="480"></div>
