@@ -14,7 +14,7 @@ You build a dashboard from a grid of widgets of the following types:&#x20;
 * [Image](widgets/image.md)
 * [Text](widgets/text.md)
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/Dashboard_of_all_elements.png" alt=""></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/Dashboard_of_all_elements.png" alt="An example of a dashboard, with a grid of widgets including a chart, a heatmap, an occupancy counter, an image, and a text block."></div>
 
 ## How dashboards connect to the rest of the system
 
@@ -28,6 +28,8 @@ When you apply a filter to a dashboard, for example by selecting specific camera
 
 With your data sources in mind, you can start building your first dashboard.
 
+
+
 ## Building a dashboard
 
-See [Create and manage dashboards](create-and-manage-dashboards.md) for a walkthrough of the setup of a dashboard. You will add widgets to the canvas first, then use edit mode to arrange and fine-tune the layout. See [Widgets](widgets/) for details about each widget type and its configuration options.
+Add widgets to the canvas first, then use edit mode to arrange and fine-tune the layout. [Create and manage dashboards](create-and-manage-dashboards.md) walks you through the full setup flow, and [Widgets](widgets/) covers each widget type and its configuration options.

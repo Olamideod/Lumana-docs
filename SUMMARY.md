@@ -80,6 +80,7 @@
     * [Tampering](alerts-and-ai-detection/alert-types/security/tampering.md)
     * [Proximity](alerts-and-ai-detection/alert-types/security/proximity.md)
     * [Trespassing](alerts-and-ai-detection/alert-types/security/trespassing.md)
+    * [Trespassing zones](alerts-and-ai-detection/alert-types/security/trespassing-zones.md)
     * [Tailgating](alerts-and-ai-detection/alert-types/security/tailgating.md)
     * [Zone protection](alerts-and-ai-detection/alert-types/security/zone-protection.md)
     * [Gun detection](alerts-and-ai-detection/alert-types/security/gun-detection.md)
@@ -138,7 +139,7 @@
 
 * [Introduction to Dashboards](dashboards/dashboards.md)
 * [Create and manage dashboards](dashboards/create-and-manage-dashboards.md)
-* [Filter a dashboard](dashboards/filter-a-dashboard.md)
+* [View and filter a dashboard](dashboards/filter-a-dashboard.md)
 * [Widgets](dashboards/widgets/README.md)
   * [Chart or table](dashboards/widgets/chart-or-table/README.md)
     * [Visualization types](dashboards/widgets/chart-or-table/chart-or-table-visualization-types.md)
