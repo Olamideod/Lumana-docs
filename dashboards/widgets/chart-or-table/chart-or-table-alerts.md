@@ -64,7 +64,7 @@ Alert counts in rows and columns. Each row represents your selected grouping, su
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-viz-table.png" alt="" width="280"></div>
 
-If you selected **Counter**, then skip to [Counter visualization](#counter-visualization). If you selected **Table**, then skip to [Table visualization](#table-visualization). For all other types, continue with step 5 below.
+If you selected **Counter**, then skip to [Counter visualization](chart-or-table-alerts.md#counter-visualization). If you selected **Table**, then skip to [Table visualization](chart-or-table-alerts.md#table-visualization). For all other types, continue with step 5 below.
 
 5. Set the **X-Axis**. The first dropdown controls how data is grouped.
 
@@ -168,7 +168,7 @@ If you selected **Table** in **Visualization** in step 4, the X-Axis becomes **G
 * First dropdown: **Total**. This is the only option.
 * Second dropdown: **All alerts**, **Group**, or **Individual**.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-table-config.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-table-group.png" alt="" width="563"></div>
 
 Once you've set Group and Column, continue with step 7 to select cameras.
 
