@@ -12,11 +12,11 @@ Before uploading, confirm that your file is a PNG or JPG and that its name conta
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-image-dialog.png" alt="" width="375"></div>
 
-3. Drag an image file into the upload area, or select **Or upload from your computer** to browse and select a file. When the file loads successfully, the dialog shows the file name, and the **Add** button becomes active.
+2. Drag an image file into the upload area, or select **Or upload from your computer** to browse and select a file. When the file loads successfully, the dialog shows the file name, and the **Add** button becomes active.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-image-upload-success.png" alt="" width="375"></div>
 
-4. Select **Add**. The image appears on the dashboard canvas.
+3. Select **Add**. The image appears on the dashboard canvas.
 
 ## File names
 
@@ -34,9 +34,18 @@ The Image widget accepts PNG and JPG files only. SVG, GIF, WebP, and other forma
 
 ## Troubleshoot upload issues
 
-If the upload area turns red after you drop or select a file, the file name is invalid. The upload area shows the message: "Name must contain only letters, numbers, or underscores." Rename the file to contain only letters, numbers, and underscores, then select **Upload different images** and try again.
+If the upload area turns red after you drop or select a file:
 
-If the upload shows a progress indicator but takes a long time, the file may be too large. The larger the file, the longer the upload takes. Images above 15 MB may stall without showing an error. Close the dialog, reduce the file size, and upload again.
+1. Check that the file name contains only letters, numbers, and underscores.
+2. Rename the file if it contains spaces, hyphens, or other special characters.
+3. Select **Upload different images** and try again.
+
+If the upload shows a progress indicator but takes a long time:
+
+1. Check your file size. Images above 15 MB may stall without showing an error.
+2. Close the dialog.
+3. Reduce the file size.
+4. Upload the file again.
 
 ## Edit or delete the widget
 
