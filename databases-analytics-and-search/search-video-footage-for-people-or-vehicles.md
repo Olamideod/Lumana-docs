@@ -1,5 +1,34 @@
 # Search video footage for people or vehicles
 
+
+# Lumana's Powerful Multi-Object Search
+
+With Lumana’s powerful Smart Search, you can locate vehicles, people, and even pets in a matter of seconds. The brainpower behind this function is the Lumana Core, an advanced search engine that allows you to filter based on more than forty different attributes. With Multi-Object Search, you can now find a specific person near that white Tesla Model S!
+
+Note: License plate recognition (LPR) and make model color (MMC) capabilities require enablement. To learn how to enable those features, please follow this [link](https://support.lumana.ai/hc/en-us/articles/11892546981138). 
+
+ 
+
+### How to Get Started with Search
+
+To get to the search page simply select the magnifying glass icon <img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-icon.png" alt="Magnifying glass search icon" height="18"> on the left Navigation menu.
+
+<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-multi-object-search-page.png" alt="Lumana Search page with the magnifying glass icon selected in the left navigation and filter categories for Time range, Camera, Person, Face, Vehicle, Precision, Time period, Motion, and Event tags." width="620"></div>
+
+Use the filters to select the time range, cameras, and objects you would like to search for.
+
+ 
+
+### How to Search for Multiple Objects  
+
+You can use Multi-Object Search to look for objects the same way you can search for a [person](https://support.lumana.ai/hc/en-us/articles/11176329842194) or a  [vehicle](https://support.lumana.ai/hc/en-us/articles/11890679495954).
+
+You may search for up to four different objects at a time. The results will show frames containing all the selected objects with their specified attributes. 
+
+
+
+
+
 # Person Attribute Search
 
 With Lumana’s powerful Smart Search, you can find vehicles, people, and even pets in a matter of seconds. The Lumana Core is an advanced search engine that allows you to filter based on more than thirty attributes and find a single frame with certain people near a specific car—like a person wearing a red T-shirt and a hat standing next to a white Tesla Model S.
