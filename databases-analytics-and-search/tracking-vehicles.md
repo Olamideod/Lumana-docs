@@ -188,13 +188,10 @@ A parking facility wants to automate vehicle entry by recognizing license plates
 
 **Day view**
 
-image.png
+<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-lpr-camera-view-example.png" alt="Daytime LPR camera view showing a vehicle detected with its license plate highlighted at a parking facility entrance." width="480"></div>
 
+**Night view**
 
-Night view
+<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-lpr-night-view-example.png" alt="Nighttime LPR camera view with IR illumination detecting a vehicle's license plate in low-light conditions." width="480"></div>
 
-
-
- 
-
-     
+<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-lpr-night-plate-detail.png" alt="Close-up nighttime LPR capture showing a clearly readable California license plate '8YOW996' alongside a cropped plate detail." width="600"></div>
