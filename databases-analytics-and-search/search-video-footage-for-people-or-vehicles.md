@@ -1,145 +1,103 @@
 # Search video footage for people or vehicles
 
+Use Smart Search to find people and vehicles across your cameras by time range, location, and attribute filters. Lumana Core runs the search so you can combine filters such as clothing or vehicle details and review matching clips without scrubbing every feed manually.
 
-# Lumana's Powerful Multi-Object Search
+## Before you begin
 
-With Lumana’s powerful Smart Search, you can locate vehicles, people, and even pets in a matter of seconds. The brainpower behind this function is the Lumana Core, an advanced search engine that allows you to filter based on more than forty different attributes. With Multi-Object Search, you can now find a specific person near that white Tesla Model S!
+Make sure you can open **Search** from the main navigation and select the cameras and time range you need. If you plan to filter by license plate or make, model, and color (MMC), those capabilities must be enabled for your organization.
 
-Note: License plate recognition (LPR) and make model color (MMC) capabilities require enablement. To learn how to enable those features, please follow this [link](https://support.lumana.ai/hc/en-us/articles/11892546981138). 
+> **Note:** License plate recognition (LPR) and MMC require enablement. For setup steps, see [Enable LPR and MMC in Lumana](https://support.lumana.ai/hc/en-us/articles/11892546981138).
 
- 
+## Open Search and set the scope
 
-### How to Get Started with Search
+1. In the left sidebar, click **Search** <img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-icon.png" alt="Search magnifying glass icon in the sidebar." height="18">.
 
-To get to the search page simply select the magnifying glass icon <img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-icon.png" alt="Magnifying glass search icon" height="18"> on the left Navigation menu.
+   The Search page opens with filters for time range, cameras, and object types.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-multi-object-search-page.png" alt="Lumana Search page with the magnifying glass icon selected in the left navigation and filter categories for Time range, Camera, Person, Face, Vehicle, Precision, Time period, Motion, and Event tags." width="620"></div>
+2. Set the **Time range** and **Camera** (or cameras) you want to include.
 
-Use the filters to select the time range, cameras, and objects you would like to search for.
+3. Add or adjust other filters as needed, such as **Precision**, **Time period**, or **Event tags**.
 
- 
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-page.png" alt="Search page with Time range, Camera, Person, Vehicle, Precision, Time period, and Event tags filters." width="600"></div>
 
-### How to Search for Multiple Objects  
+Use the filter list to narrow results before you add a **Person** or **Vehicle** object.
 
-You can use Multi-Object Search to look for objects the same way you can search for a [person](https://support.lumana.ai/hc/en-us/articles/11176329842194) or a  [vehicle](https://support.lumana.ai/hc/en-us/articles/11890679495954).
+## Search for multiple objects in one frame
 
-You may search for up to four different objects at a time. The results will show frames containing all the selected objects with their specified attributes. 
+You can combine several object filters so results only include moments where **all** selected objects appear together (for example, a specific person near a specific vehicle). The same pattern applies as when you search primarily for a [person in Smart Search](https://support.lumana.ai/hc/en-us/articles/11176329842194) or a [vehicle in Smart Search](https://support.lumana.ai/hc/en-us/articles/11890679495954).
 
+You may search for up to **four** different objects at a time. Results show frames that contain **every** selected object with the attributes you configured.
 
+For more detail on multi-object searches, see [Search for multiple people or vehicles in the same frame](https://support.lumana.ai/hc/en-us/articles/11890670516242).
 
+The Search layout can include extra categories when you work across object types, such as **Face**, **Motion**, or additional filters alongside **Person** and **Vehicle**.
 
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-multi-object-search-page.png" alt="Search page with Person, Face, Vehicle, Precision, Time period, Motion, and Event tags visible in the filter column." width="620"></div>
 
-# Person Attribute Search
+## Search for a person
 
-With Lumana’s powerful Smart Search, you can find vehicles, people, and even pets in a matter of seconds. The Lumana Core is an advanced search engine that allows you to filter based on more than thirty attributes and find a single frame with certain people near a specific car—like a person wearing a red T-shirt and a hat standing next to a white Tesla Model S.
+1. On the Search page, select the time range and cameras you want. Then open the **Person** section and start a person search.
 
-## How to Get Started with Search
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-person-filter-selected.png" alt="Search filters with time range, cameras, and Person expanded with Add person." width="600"></div>
 
-To get to the search page simply select the magnifying glass icon <img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-icon.png" alt="Magnifying glass search icon" height="18"> on the left Navigation menu.
+2. Click **+** to add a person row.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-page.png" alt="Lumana Search page with the magnifying glass icon selected in the left navigation and filter categories for Time range, Camera, Person, Vehicle, Precision, Time period, and Event tags." width="600"></div>
+   The search returns clips that include at least one person in the chosen cameras and time range.
 
-Use the filters to select the time range, cameras, and objects you would like to search for.
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-person-filter-expanded.png" alt="Person filter with Add person and Person 1 added." width="600"></div>
 
- 
+3. To filter by appearance, expand the person row with the down arrow and turn on the attributes you want, such as clothing colors, face, gender, age, or accessories.
 
-## How to Search for a Person 
-Step 1: Be sure to select the relevant time range and cameras you'd like to search through. Then, select “**Person.**”
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-person-attributes.png" alt="Person 1 expanded with Face, Gender, Age, clothing, hair, and accessory toggles." width="420"></div>
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-person-filter-selected.png" alt="Search filters with Time range set to Last 3 days, 11 cameras selected, and the Person section expanded showing the Add person button." width="600"></div>
+4. You can add up to **four** people. If you add more than one, **all** of them must appear in the **same** frame for a clip to match.
 
-Step 2: Click on the + to add a person. This will filter for all clips with at least 1 person from the designated cameras and time range.
+## Search for a vehicle
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-person-filter-expanded.png" alt="Search page with the Person filter expanded, showing the Add person button and a Person 1 entry added to the filter." width="600"></div>
+Vehicle search uses attribute filters such as color, make, model, type, and license plate when LPR and MMC are available.
 
-Step 3: If you would like to add details, such as clothing colors, expand the search using the down arrow on the right and select the attributes you want the system to match.
+1. On the Search page, select the time range and cameras you want. Then open the **Vehicle** section.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-person-attributes.png" alt="Person 1 expanded in the Search filters showing toggles for Face, Gender, Age, Footwear, Lower body, Upper body, Hair, Accessory, Carrying, and Protective gear." width="420"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-vehicle-filter-selected.png" alt="Search filters with Vehicle expanded and Add vehicle visible." width="600"></div>
 
-Step 4: You can search for up to four people at a time, but if you do so, all four people must be in the same frame.
+2. Click **+** to add a vehicle row.
 
-### Search Results 
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-vehicle-filter-expanded.png" alt="Vehicle filter with Add vehicle and Vehicle 1 added." width="600"></div>
 
-When you select the attributes and objects to filter by, the search results begin showing immediately. Let’s review what type of data you should expect.
+3. To narrow the match, expand the vehicle row and select attributes such as **Colors**, **Make**, **Model**, **Type**, or **License plate**.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-results-overview.png" alt="Search results page with annotations: (1) 60 second thumbnail clips, (2) filter markers at the top showing the active search selections, and (3) the Clips / Objects toggle for switching result views." width="900"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-vehicle-attributes.png" alt="Vehicle 1 expanded with Colors, Make, Model, Type, and License plate toggles." width="420"></div>
 
-1. 60 seconds thumbnail clips. 
+4. You can add up to **four** vehicles. If you add more than one, **all** of them must appear in the **same** frame for a clip to match.
 
-2. Markers showing search selections.
+For more on vehicle-focused Smart Search, see [Smart vehicle search in Lumana](https://support.lumana.ai/hc/en-us/articles/11890679495954).
 
-3. An easy way to switch between thumbnails and clips.  
+## Understand search results and the clip preview
 
-Each clip will show you information about the camera and the time and date. If you would like to dig further, simply click on the clip to scrub through the thumbnails, crop or zoom in on the object of interest, or play back the video of that event.
+Results update as you set filters. Each row ties to a camera and a time.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-clip-preview-details.png" alt="Clip preview modal with six numbered callouts: (1) the green thumbnail timeline marker, (2) Images tab, (3) Video tab, (4) Objects tab, (5) Add cameras, and (6) Archive." width="900"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-results-overview.png" alt="Search results with thumbnail clips, active filter markers, and Clips Objects toggle." width="900"></div>
 
-1. Green marker on the thumbnail timeline where the object of interest appears.
+1. **Thumbnail clips:** About 60 seconds of context per result.
+2. **Filter markers:** Show which Person, Vehicle, or other filters are active.
+3. **Clips / Objects:** Switch how results are grouped or displayed.
 
-2. **Images**: Thumbnail view.
+Click a result to open the preview. You can scrub thumbnails, zoom or crop on the object, and play video for that moment.
 
-3. **Video**: Playback view.
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-clip-preview-details.png" alt="Clip preview with timeline marker, Images, Video, Objects, Add cameras, and Archive." width="900"></div>
 
-4. **Objects**: Auto-zoom on the object of interest.
+1. **Green marker** on the thumbnail timeline where the match appears.
+2. **Images:** Thumbnail view.
+3. **Video:** Playback view.
+4. **Objects:** Focused view on the detected object.
+5. **Add cameras:** Add more cameras for synchronized review (see [Multi-camera playback](../live-video-monitoring-and-operations/multi-camera-playback.md)).
+6. **Archive:** Save the clip to your archive for later.
 
-5. **Add Camera**: Add multiple cameras to the view for a synchronized scrub.
+## Refine results with High Confidence
 
-6. **Archive**: Archive the video corresponding to the search results for future use.
+Under **Precision**, the **High Confidence** control limits results to higher-confidence detections. If you see too few matches, turn **High Confidence** off to include more candidates. That usually increases recall but can add more false positives.
 
-### Smart Vehicle Search and Multi-Object Search
+## Next steps
 
-To learn more about Smart Vehicle Search, please follow this [link](https://support.lumana.ai/hc/en-us/articles/11890679495954).
-
-To learn more about how to search for multiple people or vehicles in the same frame, please follow this [link](https://support.lumana.ai/hc/en-us/articles/11890670516242).
-
-### Advance mode
-
-**High Confidence Knob**
-
-Lumana system enables you to utilize AI confidence level to sort your results. If you can not find what you are looking for, turn off the High Confidence knob to get more results with a high probability of detection but also with a higher probability of false detection.
-
-
-
-
-## Vehicle Attribute Search
-
-With Lumana’s powerful Smart Search, you can locate vehicles, people, and even pets in a matter of seconds. The brainpower behind this function is the Lumana Core, an advanced search engine equipped with license plate recognition (LPR) capability that enables any camera to capture license plate information. The system allows you to filter based on more than ten different attributes. Such detailed searches empower you to find a frame that includes multiple people and a particular vehicle.
-
-Note: License plate recognition (LPR) and make model color (MMC) capabilities require enablement. To learn how to enable those features, please follow this [link](https://support.lumana.ai/hc/en-us/articles/11892546981138). 
-
-## How to Get Started with Search
-
-To get to the search page simply select the magnifying glass icon <img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-icon.png" alt="Magnifying glass search icon" height="18"> on the left Navigation menu.
-
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-page.png" alt="Lumana Search page with the magnifying glass icon selected in the left navigation and filter categories for Time range, Camera, Person, Vehicle, Precision, Time period, and Event tags." width="600"></div>
-
-Use the filters to select the time range, cameras, and objects you would like to search for.
-
- 
-
-### How to Search for a Vehicle 
-
-Step 1: Be sure to select the relevant time range and cameras you'd like to search through. Then, select “Vehicle.”
-
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-vehicle-filter-selected.png" alt="Search filters with Time range set to Last 3 days, 11 cameras selected, and the Vehicle section expanded showing the Add vehicle button." width="600"></div>
-
-Step 2: Click on the + to add a vehicle.
-
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-vehicle-filter-expanded.png" alt="Search page with the Vehicle filter expanded, showing the Add vehicle button and a Vehicle 1 entry added to the filter." width="600"></div>
-
-Step 3: If you would like to add details to the vehicle search (such as make, model, type, color, or license plate), expand the search using the down arrow on the right and select the attributes you want the system to match.
-
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-vehicle-attributes.png" alt="Vehicle 1 expanded in the Search filters showing toggles for Colors, Make, Model, Type, and License plate." width="420"></div>
-
-Step 4: You can search for up to four vehicles at a time, but if you do so, all four vehicles must be in the same frame.
-
-### Smart Vehicle Search and Multi-Object Search
-
-To learn more about Smart People Search, please follow this [link](https://support.lumana.ai/hc/en-us/articles/11176329842194)
-
-To learn more about how to search for multiple people or vehicles in the same frame, please follow this [link](https://support.lumana.ai/hc/en-us/articles/11890670516242)
-
-### Advance Mode
-**High Confidence Knob**
-Lumana system enables you to utilize AI confidence level to sort your results. If you can not find what you are looking for, turn off the High Confidence knob to get more results with a high probability of detection but also with a higher probability of false detection. 
-
+- Use [Free text search](free-text-search.md) when you want to describe a scene in natural language.
+- Use [Build a database of people and vehicles](build-a-database-of-people-and-vehicles.md) to manage known people and vehicles for ongoing search and alerts.
