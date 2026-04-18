@@ -9,7 +9,6 @@ The **Missing Object Alert** feature detects and notifies users when a selected 
 🔹 **Operational continuity** – Ensures critical items remain in place.
 
  
-
 ## How to configure:
 
 1. Click on the alert icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-alert-icon.png" alt="Alert bell icon" height="18"> on the left menu

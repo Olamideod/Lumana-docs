@@ -158,7 +158,7 @@
 * [Tracking people](databases-analytics-and-search/tracking-people.md)
 * [Tracking vehicles](databases-analytics-and-search/tracking-vehicles.md)
 * [Tracking containers](databases-analytics-and-search/tracking-containers.md)
-* [Custom objects](databases-analytics-and-search/custom-objects.md)
+* [Create a Missing object alert](databases-analytics-and-search/missing-object-alert.md)
 * [Search video footage for people or vehicles](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md)
 * [Search video footage for other objects](databases-analytics-and-search/search-video-footage-for-other-objects.md)
 * [Free text search](databases-analytics-and-search/free-text-search.md)
