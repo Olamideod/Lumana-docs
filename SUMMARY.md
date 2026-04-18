@@ -160,7 +160,7 @@
 * [Tracking containers](databases-analytics-and-search/tracking-containers.md)
 * [Create a Missing object alert](databases-analytics-and-search/missing-object-alert.md)
 * [Search video footage for people or vehicles](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md)
-* [Search video footage for other objects](databases-analytics-and-search/search-video-footage-for-other-objects.md)
+* [Filter people, faces, vehicles, and license plates from the camera view](databases-analytics-and-search/search-video-footage-for-other-objects.md)
 * [Free text search](databases-analytics-and-search/free-text-search.md)
 * [Generate reports](databases-analytics-and-search/generate-reports.md)
 * [Configure a space occupancy dashboard](databases-analytics-and-search/configure-a-space-occupancy-dashboard.md)
