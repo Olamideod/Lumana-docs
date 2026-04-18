@@ -1,136 +1,130 @@
 # Tracking people
 
-# Introduction 
+Lumana combines video management with an AI engine so you can search large archives of footage quickly, receive real-time alerts, and automate responses. People analytics builds on that stack: you can search, track, and review occupancy-related activity using person detection, attributes, cross-camera association, and—where enabled—face recognition.
 
-Lumana is a modern, cloud-based VMS+ platform built around our powerful AI-Engine, enabling users to search 1000’s of hours of video in seconds, get real-time alerts, and trigger automatic responses. By unlocking the power of visual intelligence, Lumana transforms video surveillance into a proactive, action-based video management system that enables safer spaces and smarter operations.
+The platform is designed to install with standard cameras. Detection and analytics improve as the system processes each stream; positioning and resolution still matter, especially for face recognition and attribute detail at distance.
 
-Lumana is easy to install and can achieve novel analytics without human intervention. Our patented video AI algorithms are designed to optimize your cameras and continuously train on the video stream captured by each camera, delivering unprecedented object detection results that get smarter over time.
+## Before you begin
 
-Powered by our novel AI engine, Lumana people analytics allow you to search, track and analyze occupancy trends based on facial recognition, person attributes and long range detection of persons.
+- Cameras are added in Lumana and streaming reliably.
+- You know which sites or cameras should run people-related analytics (and any org policies that apply to face recognition or cross-camera identity).
+- For mounting and aiming, see [camera guidelines for people analytics](https://support.lumana.ai/knowledge/editor/01HEN6TW1P90ZT21YXAJT7FV3X/en-us?brand_id=10899747518610) on the support site.
 
 ## People analytics features
 
 ### Person detection
 
-Lumana's AI engine excels in long-range person detection, capable of tracking individuals and storing their images in high resolution. This functionality allows for comprehensive viewing of all detected persons within your organization. You can select either a single person or groups appearing together, setting alerts based on their specific activities. This powerful tool enhances security, surveillance, and operational efficiency, providing a sophisticated layer of monitoring and response to movements within your premises
+The engine supports long-range person detection: individuals can be tracked and their crops stored at useful resolution. You can review everyone detected across your organization, select one person or groups that appear together, and base alerts on their activity. This supports security, investigations, and operations that depend on knowing who moved where and when.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-detection-results.png" alt="Person detection results showing tracked people across multiple camera views and time ranges." width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-detection-results.png" alt="Person detection results showing tracked people across multiple camera views and time ranges." width="480"></div>
 
 ### Person attributes
 
-Leverage the power of person attribute recognition to set proactive alerts and conduct searches across your organization based on specific characteristics such as clothing color, type, accessories, and gender. This advanced feature enhances security measures, streamlines search operations, and personalizes user experiences, allowing for a highly customized approach to monitoring and interaction within any organizational setting.
+You can filter and alert on person attributes such as clothing color and type, accessories, and gender (where the model provides them). That narrows search and review without manually scanning every clip.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-attributes-filters.png" alt="Person attributes search showing filters for appearance, clothing, and accessories." width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-attributes-filters.png" alt="Person attributes search showing filters for appearance, clothing, and accessories." width="480"></div>
 
 ### Cross camera tracking
-Cross camera tracking technology extends beyond facial recognition, utilizing body structure, clothing, and unique physical characteristics to track individuals across an organization. This approach ensures robust monitoring in situations where facial recognition may not be viable, enhancing security and operational efficiency. It serves as a critical tool for managing attendance, preventing unauthorized access, and ensuring safety, all with a keen eye on privacy and ethics.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-cross-camera-tracking-results.png" alt="Cross-camera tracking results showing the same person matched across multiple camera views." width="480"></div>
+Cross-camera tracking uses body shape, clothing, and other visible cues—not only the face—to associate the same person across cameras. That helps when the face is not visible or not suitable for recognition. Typical uses include attendance, access and investigations across large sites, and safety monitoring where you need continuity beyond a single camera view. Configure and use this capability according to your organization’s policies and applicable privacy requirements.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-cross-camera-tracking-results.png" alt="Cross-camera tracking results showing the same person matched across multiple camera views." width="480"></div>
 
 ### Face recognition
 
-Lumana's face recognition technology enables swift search and alert setting based on facial recognition, enhancing both security and user experience. By using advanced algorithms, it can accurately identify individuals in various conditions, streamlining processes from personalized interactions to security monitoring. Lumana prioritizes user privacy and data protection, ensuring the ethical use of this powerful tool.
+Face recognition supports search and alerts based on enrolled or observed faces. Performance depends on lighting, angle, and resolution (see [Head angle impact](#head-angle-impact) and the PPF section below). Use face data in line with your policies and regulatory obligations.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-recognition-database-view.png" alt="Face recognition database view showing saved people profiles and unsaved people seen on cameras." width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-recognition-database-view.png" alt="Face recognition database view showing saved people profiles and unsaved people seen on cameras." width="480"></div>
 
-
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-recognition-example.png" alt="Face recognition example showing a detected face highlighted within a meeting room camera view." width="480"></div>
- 
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-recognition-example.png" alt="Face recognition example showing a detected face highlighted within a meeting room camera view." width="480"></div>
 
 ### Head angle impact
-For optimal performance of face recognition cameras should capture faces head–on, facing the camera and within face recognition distance.
 
-The angle of captured faces must be within the following range of values:
+For best face recognition results, faces should be roughly head-on—looking toward the camera—and within the distance your setup can support for the required pixels per foot (PPF).
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-angle-guidelines.png" alt="Face angle guidelines showing acceptable pitch, yaw, and roll ranges for face recognition." width="480"></div>
+Acceptable head orientation falls in the ranges illustrated below (pitch, yaw, roll).
 
-## Optimizing Your Camera Setup 
-Ensure your cameras are positioned according to the [following guidelines](https://support.lumana.ai/knowledge/editor/01HEN6TW1P90ZT21YXAJT7FV3X/en-us?brand_id=10899747518610) to get the
-optimized results with People Analytics.
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-angle-guidelines.png" alt="Face angle guidelines showing acceptable pitch, yaw, and roll ranges for face recognition." width="480"></div>
 
-### Determining Optimal Distance for Person analysis
-When integrating person detection and facial recognition capabilities into a security system, it's crucial to understand that each camera's effective operational distance is determined by its specific resolution. The concept of pixels per foot (PPF) is central to this understanding, as it directly correlates the camera's resolution to the level of detail required for accurate detection and recognition. High PPF values indicate a higher resolution, which is crucial for identifying specific features or actions of individuals in surveillance footage.
+## Optimize your camera setup
 
-### The Necessity of PPF in People Analytics
+Position and aim cameras using the [camera guidelines for people analytics](https://support.lumana.ai/knowledge/editor/01HEN6TW1P90ZT21YXAJT7FV3X/en-us?brand_id=10899747518610) so people analytics gets consistent coverage.
 
-In people analytics, clarity is non-negotiable. Whether it's for identifying individuals or analyzing person details. The detail captured can be the difference between useful insight and ambiguity. Calculating the optimal PPF is thus a foundational step in setting up an effective surveillance system.
+### PPF and distance
 
-### Step-by-Step Calculation of PPF
+For person detection and face recognition, usable range is tied to **resolution** and **horizontal field of view (HFOV)**. **Pixels per foot (PPF)** relates the camera’s horizontal pixel count to the real-world width the scene covers at a given distance: higher PPF means more pixels across each foot of scene, which supports finer detail for attributes and faces.
 
-1. **Determine the Horizontal Field of View of the Camera (HFoV)**: Begin by assessing the camera's field of view, which is the observable area the camera can capture. This is often provided in the camera's specifications.
+Clarity at the subject matters: the same camera can be adequate for detection at one distance and too weak for recognition closer or farther depending on geometry and lighting. Estimating PPF is a practical first step when you place cameras.
 
-2. **Understand the Camera's Resolution**: Know the resolution of the camera, typically denoted in pixels (e.g., 2560x1440 in 4MP camera).
+### Calculate PPF
 
-3. **Identify the Distance**: Identify the distance from the camera to the area of interest where individuals will be monitored.
-With these elements, you can calculate the PPF.
+1. **Horizontal field of view (HFOV)** — From the camera datasheet or configuration; this is the horizontal angle the lens sees.
+2. **Resolution** — Horizontal pixel count of the encoded or analyzed stream (for example, 3840 for a wide 8MP frame).
+3. **Distance** — Distance from the lens to the region where you need a given level of detail (for example, where faces should be recognized).
 
-First, we would like to find what is the horizontal length the camera covers
+**Horizontal width of the scene** at distance **D** (use the same unit for **D** and **W**, e.g. feet):
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-horizontal-length-formula.png" alt="Formula for calculating the horizontal length covered by the camera using distance and horizontal field of view." width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-horizontal-length-formula.png" alt="Formula for calculating the horizontal length covered by the camera using distance and horizontal field of view." width="480"></div>
 
-where:
+Where:
 
+- **W** is the horizontal width of the area the camera sees at that distance.
+- **D** is the distance from the camera to the subject or plane of interest.
+- **HFOV** is the horizontal field of view of the camera.
 
-�W is the horizontal length the camera can see
+**Example (Lumana 8MP camera, HFOV = 112.9°):** at **20 feet** distance, the horizontal width **W** is about **60.3 feet**.
 
-�D is the distance from the camera to the subject
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-horizontal-length-example.png" alt="Worked example of the horizontal length calculation using a Lumana 8MP camera field of view at 20 feet." width="480"></div>
 
-����HFOV is the horizontal field of view of the camera
-Example based on Lumana 8MP camera (HFOV=112.9)
+**PPF** is the horizontal resolution divided by that width **W** (pixels per foot):
 
-On 20 feet distance the horizontal length of the image plane is approximately 60.3 feet width.
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-ppf-formula.png" alt="Formula for calculating pixels per foot using camera resolution and horizontal field of view." width="480"></div>
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-horizontal-length-example.png" alt="Worked example of the horizontal length calculation using a Lumana 8MP camera field of view at 20 feet." width="480"></div>
+Using the numbers above for an **8MP** stream:
 
-The next step is to calculate the PPF at this distance
+- Horizontal resolution = **3840** pixels  
+- Horizontal width **W** = **60.3** feet  
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-ppf-formula.png" alt="Formula for calculating pixels per foot using camera resolution and horizontal field of view." width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-ppf-worked-example.png" alt="Worked example of the pixels-per-foot calculation using 3840 pixels over a 60.3 foot horizontal field of view." width="480"></div>
 
+**PPF ≈ 63.6** pixels per foot at that distance.
 
-Using the numbers from above with camera horizontal resolution of 8MP camera
+You can also solve for **distance** when you target a required PPF:
 
-Horizontal Resolution of the Camera = 3840 pixels
-Horizontal Field of View (Width) = 60.3 feet
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-distance-formula.png" alt="Formula for calculating camera distance based on resolution, pixels per foot, and horizontal field of view." width="480"></div>
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-ppf-worked-example.png" alt="Worked example of the pixels-per-foot calculation using 3840 pixels over a 60.3 foot horizontal field of view." width="480"></div>
+For example, for a target of **128 PPF**, the corresponding distance in the same model is about **9.95 feet**.
 
-PPF is approximately 63.6 pixels per foot 
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-ppf-over-distance-chart.png" alt="Chart comparing pixels per foot over distance for 8MP and 5MP cameras." width="480"></div>
 
- You can also find what is the distance for a required PPF. 
+### Planning notes
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-distance-formula.png" alt="Formula for calculating camera distance based on resolution, pixels per foot, and horizontal field of view." width="480"></div>
+1. **Minimum PPF** — For people analytics, about **18 PPF** is a common minimum for identifying individuals in the scene; **higher PPF** is needed for finer detail, including typical face recognition setups.
+2. **Environment** — Lighting, occlusion, and aim change how much effective detail you get; treat calculated PPF as a starting point and validate on site.
+3. **Re-check over time** — If you change resolution, lenses, or scenes, recalculate PPF for the distances you care about.
 
-For example if we want to know what is the distance for 128 PPF. The distance for having 128 PPF is approximately 9.95 feets
+A small reference table per camera model (PPF vs. distance) speeds up placement and troubleshooting.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-ppf-over-distance-chart.png" alt="Chart comparing pixels per foot over distance for 8MP and 5MP cameras." width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-distance-to-person-capabilities-diagram.png" alt="Top-down diagram showing how people analytics capabilities change with distance from the camera, from person detection to face recognition." width="480"></div>
 
-### Practical Considerations
+Use the following **PPF targets** when planning which capability you need at a given distance:
 
-1. **Minimum PPF for Identification**: For effective people analytics, a minimum of 18 PPF is recommended for identifying individuals. Higher values are necessary for more detailed analytics, such as facial recognition.
-2. **Environmental Factors**: Lighting, obstructions, and the angle of the camera can all affect the effective PPF. It's crucial to account for these factors in both the calculation and physical setup.
-3. **Continuous Assessment**: As conditions and technologies evolve, regularly reassess your PPF calculations to ensure your surveillance system remains effective for people analytics.
-
-To apply this knowledge practically, consider setting up a reference table that lists the PPF values against varying distances for each camera model in your inventory. This table will act as a quick guide to determining the maximum effective distance for person detection and facial recognition for each camera.
-
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-distance-to-person-capabilities-diagram.png" alt="Top-down diagram showing how people analytics capabilities change with distance from the camera, from person detection to face recognition." width="480"></div>
- 
-
-Requirement table per feature: 
-
-|  | Requirement |
+| Capability | Requirement (PPF) |
 | --- | --- |
 | Person detection | 7.5 PPF |
 | Person attributes | 15 PPF |
 | Person tracking | 18 PPF |
 | Face recognition | 137 PPF |
- 
 
-People analytic performance over Lumana cameras: 
-
-Assembly with 9 feet height, 25 degree tilt, 5'10" person height
+**Approximate maximum distances** on Lumana cameras (assembly height **9 feet**, tilt **25°**, reference person height **5′10″**). Treat these as **typical** planning values; your mounting, scene, and lighting will change results.
 
 | Camera resolution | Person detection | Person attributes | Person tracking | Face recognition |
 | --- | --- | --- | --- | --- |
-| 5MP | 120 feets | 63 feet | 53 feet | 7 feet |
-| 8MP | 160 feets | 84 feet | 70 feet | 9.3 feet |
- 
+| 5MP | 120 feet | 63 feet | 53 feet | 7 feet |
+| 8MP | 160 feet | 84 feet | 70 feet | 9.3 feet |
+
+## Next steps
+
+- [Build a database of people and vehicles](build-a-database-of-people-and-vehicles.md) — enroll faces and organize profiles for search and alerts.
+- [Search video footage for people or vehicles](search-video-footage-for-people-or-vehicles.md) — query by person, attributes, and time.
+- [Tracking vehicles](tracking-vehicles.md) — parallel guidance for vehicle analytics and placement.
