@@ -157,6 +157,7 @@
 * [Build a database of people and vehicles](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md)
 * [Tracking people](databases-analytics-and-search/tracking-people.md)
 * [Tracking vehicles](databases-analytics-and-search/tracking-vehicles.md)
+* [Pixels per foot (PPF) for camera placement](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md)
 * [Tracking containers](databases-analytics-and-search/tracking-containers.md)
 * [Create a Missing object alert](databases-analytics-and-search/missing-object-alert.md)
 * [Search video footage for people or vehicles](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md)
