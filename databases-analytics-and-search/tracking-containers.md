@@ -1,46 +1,40 @@
 # Tracking containers
 
-Lumana’s **Container Detection & ID Recognition** automates container tracking using AI-driven video analytics. It captures and identifies container IDs in real time, reducing errors and improving logistics efficiency.
+**Container** analytics reads container identifiers from the video stream. You can turn it on per camera, then use **Search** to find footage and narrow results by serial number, size code, and owner code.
 
-### Key Benefits:
+Many teams use it at gates, yards, and warehouse doors where containers pass fixed cameras. Results still depend on lighting, angle, and how clearly the ID is visible in frame.
 
-✔ **Real-Time Tracking** – Instantly locate and verify containers.
+## Before you begin
 
-✔ **Accurate Inventory** – Automate logging, reduce manual errors.
+- You can **edit camera** settings and analytics for the target cameras.
+- The scene shows enough of the container ID that reads are plausible for your use case.
+- Optional: you already know how to open **Search** in VMS+.
 
-✔ **Enhanced Security** – Detect unauthorized movements.
+## Enable container detection on a camera
 
-✔ **Optimized Operations** – Speed up yard and terminal workflows.
+Turn on container detection in **Edit camera** for each camera that should run it.
 
-✔ **Regulatory Compliance** – Maintain accurate audit trails.
+1. Open the camera where you want container detection.
+2. Select **Edit camera** in the toolbar.
 
- 
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-containers-edit-camera.png" alt="" width="563"></div>
 
-**Ideal for: Ports, warehouses, and logistics hubs**.
+3. In the sidebar, select **Analytics**.
+4. Under **Custom capabilities**, select **Container**.
+5. Select **Save**.
 
- 
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-containers-enable-container-analytics.png" alt="" width="563"></div>
 
-## How to enable container detection:
-**Container detection enablement is performed via Camera configuration**.
+## Search for containers
 
-1. Choose the camera where you would like to detect containers
+After you enable **Container** and save, use **Search** to find matching clips or events. Add a container filter when you need to restrict results.
 
-2. Press edit camera button
+You can filter by **Serial number**, **Size code**, and **Owner code** when those fields apply to your inventory.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-containers-edit-camera.png" alt="Camera live view in Lumana with the Edit camera button highlighted in the top-right toolbar." width="720"></div>
- 
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-containers-search-example.png" alt="" width="563"></div>
 
-3. Go to Analytics
+## Next steps
 
-4. Select Container
-
-5. Save changes
-
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-containers-enable-container-analytics.png" alt="Edit camera Analytics tab highlighting the Analytics sidebar item, the Container checkbox under Custom capabilities, and the Save button in the top-right." width="720"></div>
- 
-
-After container added, you will be able to perform Search and find the containers that you need. See example below.
-
-You can filter the search results by specifying container details such as serial number, size code, or owner code.
-
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-containers-search-example.png" alt="Lumana Search page with the Add container filter expanded, serial number, size code, and owner code fields highlighted, and a grid of container search results displayed." width="720"></div>
+- [Understand search in Lumana](../concepts/understand-search-in-lumana.md) — how **Search** fits the rest of VMS+.
+- [Free text search](free-text-search.md) — query by keywords across your archive.
+- [Container detection](../alerts-and-ai-detection/alert-types/identification/container.md) — alert when Lumana identifies a container.
