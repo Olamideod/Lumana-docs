@@ -1,6 +1,12 @@
-# Lumana documentation writing guide
+<img width="26" height="25" alt="image" src="https://github.com/user-attachments/assets/8ed6844a-4d9f-433d-ba54-fbed792cf350" /># Lumana documentation writing guide
 
 This guide builds on the Google developer documentation style guide. When something is not covered here, follow Google's guidance. If it's still not clear, choose the option that is easier to read, scan, and understand.
+
+---
+
+## Rule 0: Always tell the truth.
+
+This principle overrides all other considerations.
 
 ---
 
@@ -43,11 +49,10 @@ Write like you're talking to a security professional or IT administrator who kno
 - Precise, deliberate, trustworthy, and mature.
 - Minimize jargon and complex sentences.
 - Use plural antecedents and pronouns.
-- Always tell the truth.
 
 ### Voice markers
 
-Mix these naturally throughout writing:
+If you are stuck for how to proceed, consider using one of the following phrases.
 
 - **Direct address:** "Here's what you need to know" or "Think of it this way."
 - **Casual connectors:** "Now" / "So" / "Here's the thing" at sentence starts.
@@ -89,18 +94,18 @@ Additional rules:
 
 - Maximum 25 words per sentence. Shorter is better.
 - If you start with "if," then include "then" in the predicate.
-  - Not: "If you need updates, use Option A."
+  - Instead of: "If you need updates, use Option A."
   - Use: "If you need updates, then use Option A."
 - Use "may" for permission, "might" for possibility.
 - Use "Enter" not "add" for form fields.
-- After a colon or a hyphen, proceed with a capital letter.
 - Avoid "where" to connect clauses; use conjunctions ("because," "since," "so") instead.
-  - Not: "Teams maintain duplicate codebases where maintenance costs double."
+  - Instead of: "Teams maintain duplicate codebases where maintenance costs double."
   - Use: "Teams maintain duplicate codebases, so maintenance costs double."
 - Avoid marketing words; use technical words instead.
 - Avoid using em-dashes.
 - Use contractions naturally: "you'll need to", "it's important", "don't forget".
 - Occasionally start sentences with "And" or "But" when it creates natural flow.
+- Do not use bold except in reference to UI elements (see below). Where necessary, you can use italics for emphasis, but do so sparingly.
 
 ---
 
@@ -155,9 +160,15 @@ Use bullet lists for unordered information and numbered lists for sequences. Kee
 
 Use bullet lists for unordered information and numbered lists for sequences. Keep list items parallel in structure. Use periods consistently: all items end with a period or none do. Every list needs at least two items. Format four or more related items as a list rather than running them together in prose.
 
+Do not introduce a list by saying how many items there are on it. This reduces maintenance and prevents possible confusion in cases where the number of options on the list changes. 
+  - Instead of: "You have three options:"
+  - Use: "You have the following options:"
+
 ### Steps
 
 Each numbered step is one clear action. If the step produces a visible result, describe it in the line immediately following the step. Never use a numbered list for unordered information.
+
+Every step should contain a screenshot unless it is obviously unnecessary.
 
 ### Tables
 
@@ -167,23 +178,32 @@ Use tables for parameter lists, option comparisons, and reference data. Do not u
 
 ## UI text and messages
 
-Match UI labels, buttons, and error messages exactly, including capitalisation. Use bold for buttons and clickable elements, without quotation marks. Use bold for field names and keys. Place colons outside bold formatting, not inside.
+Match UI labels, buttons, and error messages exactly, including capitalisation. Use bold for buttons and clickable elements, without quotation marks. Use bold for field names and keys. Do not use bold when referencing the content of a UI element, even if it has the same name as the element. 
 
-- Not: **Add widgets:**
+- Instead of: Enter a **Name**.
+- Use: Enter a name in the **Name** field.
+
+Place colons outside bold formatting, not inside.
+
+- Instead of: **Add widgets:**
 - Use: **Add widgets**:
 
 Use **select** for all UI interactions, not "click." "Click" is device-specific and assumes a mouse. "Select" works across mouse, touch, and keyboard.
 
-- Not: "Click **Save**."
+- Instead of: "Click **Save**."
 - Use: "Select **Save**."
 
 For error messages, quote the message exactly, then explain what it means and what the reader should do next.
+
+When instructing the user to select an icon that has no label, and the icon is small enough, put the icon inline and put the icon's name (as defined by tooltip) in bold in parentheses beside it. Example: Select the ![trash icon](/images/trash_icon.png "Refresh data") (**Refresh data**) icon to update the data in your dashboard.
 
 ---
 
 ## Notes and warnings
 
-Use callouts strategically: do not overuse them. Use a **Note** block for information that prevents common mistakes. Use a **Warning** block for actions that are irreversible or have significant consequences. Place notes and warnings immediately after the step or statement they relate to.
+Use callouts strategically: do not overuse them. Use a **Note** block for information that prevents common mistakes. Use a **Warning** block for actions that are irreversible or have significant consequences. 
+
+Place warnings immediately before the step or statement they relate to. Notes may be placed immediately before or after the step or statement they relate to.
 
 ---
 
@@ -193,7 +213,11 @@ Use screenshots when they clarify an important step or result. Do not use images
 
 ### Alt text
 
-Do not write alt text for screenshots in Lumana documentation. Leave the `alt` attribute empty. Alt text is reserved for diagrams or images that convey information not available in the surrounding text.
+Include alt text for every image included in the documentation. Alt text should describe what is present in the screenshot for those who cannot see it. Never use alt text to add information that is not available in the surrounding text.
+
+### Image captions
+
+Add a caption only if it would otherwise not be clear what an image is intended to illustrate. Even then, try to provide that information in the surrounding text instead. Use an image caption only if this is not possible to do cleanly and naturally.
 
 ### Image frames
 
@@ -256,11 +280,11 @@ Use "people with disabilities," not "the disabled" or "disabled people."
 
 ## Links and signposting
 
-Make link text descriptive. Do not use "click here" or raw URLs. Every major page should end with a "Next steps" section.
+Make link text descriptive. Do not use "click here" or raw URLs.
 
 **Inline linking is the preferred approach** for web-based documentation. Embed links naturally as part of the sentence so the reader stays in context and understands why the link is relevant before selecting it.
 
-- Not: "For configuration details, see the [Widgets](#) section."
+- Instead of: "See the [Widgets](#) section."
 - Use: "Each widget type has its own configuration options, covered in the [Widgets](#) section."
 
 **"See X for Y" is acceptable in limited cases:** when the reference is the subject of the sentence, when flagging a major topic shift, or when the linked content is a warning or prerequisite. This pattern comes from print documentation and should not be the default in web-based docs. Never use "see" as a casual signpost.
@@ -278,13 +302,13 @@ If the link belongs in the sentence, inline it. If it doesn't belong in the sent
 
 Transitions between sections depend on the content type.
 
+**For task-based or reference documentation** — do not add transitions between sections. Users rarely read these pages linearly. They arrive at a specific section from search or a sidebar link. Each section should open with a direct statement of what it covers and stand on its own. Sentences that bridge one section to the next assume sequential reading and add noise without value.
+
 **For narrative or conceptual content** — use a short transition before each new heading to close the current section and set up the next. Keep it to one or two sentences. Don't force it if the sections are clearly distinct.
 
 - Natural bridge: "Once you've set up X, you can move on to Y."
 - Problem-solution: "This raises a question: how do you handle Z?"
 - Context shift: "Understanding X helps explain why Y matters."
-
-**For task-based or reference documentation** — do not add transitions between sections. Users rarely read these pages linearly. They arrive at a specific section from search or a sidebar link. Each section should open with a direct statement of what it covers and stand on its own. Sentences that bridge one section to the next assume sequential reading and add noise without value.
 
 The test: if removing the sentence between two sections leaves both sections fully clear, then the sentence doesn't belong.
 
@@ -306,6 +330,11 @@ Be consistent within each section: do not mix naming patterns across pages of th
 ---
 
 ## Word choices
+
+Use American spelling.
+
+Instead of: colour, behaviour, organise, analyse, prioritise, centre
+Use: color, behavior, organize, analyze, prioritize, center
 
 ### Banned words
 
