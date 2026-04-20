@@ -45,7 +45,7 @@ Write like you're talking to a security professional or IT administrator who kno
 - Use plural antecedents and pronouns.
 - Always tell the truth.
 
-### Voice markers
+### Voice markers (Optional)
 
 Mix these naturally throughout writing:
 
