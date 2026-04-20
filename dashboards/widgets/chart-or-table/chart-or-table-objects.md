@@ -1,4 +1,4 @@
-# Objects
+# Object visualization
 
 The Objects datasource counts camera detections of people, vehicles, and animals. Every time the camera's AI detects an object in the frame, that's recorded as a detection event. Use this datasource to track physical activity: how many times objects appeared in an area, how long they stayed, and how activity breaks down across time, location, or camera.
 

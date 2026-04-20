@@ -1,4 +1,4 @@
-# Event tags
+# Event tag visualization
 
 The Event tags datasource counts how many times event tags were applied to video clips across your selected cameras. Each count represents a tagged moment, confirmed by a POST to the Lumana API, and recorded against a specific camera and timestamp. Use this datasource to track how often specific events were flagged, and to drill into the clips behind each count.
 
@@ -15,7 +15,7 @@ Before you can use this datasource, you need at least one event tag configured a
 
 <div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-chart-event-tags-datasource.png" alt="" width="217"></div>
 
-5.  Select a **Visualization** type from the icon row. The preview panel on the right updates immediately when you switch types. Each visualization type is covered in [Visualization types](../chart-or-table-visualization-types.md).
+5.  Select a **Visualization** type from the icon row. The preview panel on the right updates immediately when you switch types.
 
     If you selected **Number**, then skip to [Number visualization](./#number-visualization). If you selected **Table**, then skip to [Table visualization](./#table-visualization). For all other types, continue with step 6 below.
 6. Set the **X-Axis**. The first dropdown controls how data is grouped.

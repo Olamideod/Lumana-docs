@@ -1,10 +1,10 @@
 # Trespassing
 
-Trespassing detection flags any object that enters a defined area, with no minimum time requirement. Unlike zone protection, which waits for a dwell threshold before triggering, this alert triggers the moment an object appears.
+Trespassing detection flags any object that enters the monitored camera view, with no minimum time requirement. Unlike zone protection, which waits for a dwell threshold before triggering, this alert triggers the moment an object appears.
 
 ## How it works
 
-Lumana detects when a person, vehicle, or other object enters the configured camera view or zone. The alert triggers immediately and records a clip for review.
+Lumana detects when a person, vehicle, or other object enters the full camera view. The alert triggers immediately and records a clip for review.
 
 **Trespassing zones** work the same way but apply to a specific drawn zone within the camera frame rather than the full view.
 

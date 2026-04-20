@@ -1,14 +1,16 @@
 # Motion
 
-The Motion alert triggers when Lumana detects movement within a camera's view. Use it as a baseline alert for spaces where any activity is significant, such as after-hours offices, restricted storage areas, or perimeter zones that should remain clear outside authorized hours.
+The Motion alert triggers when Lumana detects movement within a camera's view. Use it as a baseline alert for spaces where any activity outside normal hours is a security concern.
 
 ## How it works
 
-Lumana analyzes the video feed continuously and triggers the alert when movement exceeds the sensitivity threshold you set. You can restrict detection to a specific zone within the frame or apply it to the entire camera view. If no zone is drawn, any movement across the full frame triggers the alert.
+Lumana analyzes the video feed continuously and triggers the alert when movement exceeds the sensitivity threshold you set. You can restrict detection to a specific zone within the frame or apply it to the entire camera view. If no zone is drawn, then any movement across the full frame triggers the alert.
 
 Drawing a detection zone reduces false positives in busy environments where only a portion of the frame needs monitoring.
 
 ## When to use it
+
+Motion detection is a good fit for any environment where movement itself is the signal, not just specific behaviour.
 
 * Monitoring after-hours offices or facilities where any movement signals a potential security concern.
 * Detecting activity in restricted storage areas where access is limited to authorized personnel.

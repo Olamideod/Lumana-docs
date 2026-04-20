@@ -10,7 +10,7 @@ Lumana monitors the positions of detected objects in the camera view. When two o
 
 Proximity detection works well in environments where you need to distinguish incidental contact from sustained closeness.
 
-* Detecting a person loitering near a parked vehicle, which may indicate an attempted theft.
+* Detecting a person loitering near a parked vehicle, which might indicate an attempted theft.
 * Monitoring restricted areas where people should not approach certain equipment or assets.
 * Identifying sustained contact between individuals in sensitive or secure environments.
 

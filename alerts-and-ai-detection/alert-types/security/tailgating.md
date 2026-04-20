@@ -4,7 +4,7 @@ The tailgating alert detects when multiple people enter through a single access 
 
 ## How it works
 
-When Kisi registers a single badge scan, Lumana monitors the camera feed to count how many people pass through the entry point. If more than one person enters, the alert triggers and captures a clip of the event.
+When Kisi registers a single badge scan, Lumana monitors the camera feed to count how many people pass through the entry point. If more than one person enters, then the alert triggers and captures a clip of the event.
 
 ## Requirements
 
@@ -32,7 +32,7 @@ Select one or more object types to monitor:
 * **vehicles**: Detects vehicles.
 * **animals**: Detects animals.
 
-Any custom objects you've already created appear below the built-in types, tagged as **Custom**. You can select multiple types. If you need to detect a specific object that isn't in the list, then select **+ New custom object**. The custom object creation process is covered in [Proximity — Create a custom object](proximity.md#create-a-custom-object).
+Any custom objects you've already created appear below the built-in types, tagged as **Custom**. You can select multiple types. If you need to detect a specific object that isn't in the list, then select **+ New custom object**. The custom object creation process is covered in [Proximity: Create a custom object](proximity.md#create-a-custom-object).
 
 5. Select the duration counter and use the **−** and **+** controls to set the time window after entry during which Lumana checks for tailgating. The default is 0.
 
