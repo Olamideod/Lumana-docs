@@ -45,9 +45,9 @@ Moving and resizing widgets lets you organize the dashboard layout to match your
 * To move a widget, select and drag it to a new position on the grid.
 * To resize a widget, drag its edges or corners until it reaches the size you want.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-resize-widget.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/resize-widget.png" alt="" width="563"></div>
 
-When the layout is ready, [save your changes](create-and-manage-dashboards.md#save-dashboard-changes) before leaving edit mode.&#x20;
+When the layout is ready, [save your changes](create-and-manage-dashboards.md#save-dashboard-changes) before leaving edit mode.
 
 ## Edit a widget
 
@@ -77,7 +77,7 @@ Multiple series appear in a chart whenever the Y-axis filter is set to **Group**
 
 ## Delete a widget
 
-Deleting a widget permanently removes it from the dashboard.&#x20;
+Deleting a widget permanently removes it from the dashboard.
 
 The dashboard must be in [edit mode](create-and-manage-dashboards.md#edit-a-widget) before you can delete a widget.
 
@@ -90,7 +90,7 @@ Deleting a widget is permanent. There's no way to recover it after removal.
 
 ## Edit a dashboard
 
-Once a dashboard has been saved, you need to go into edit mode if you want to make any new changes to it. These changes can include moving widgets, resizing them, and updating their settings.&#x20;
+Once a dashboard has been saved, you need to go into edit mode if you want to make any new changes to it. These changes can include moving widgets, resizing them, and updating their settings.
 
 1. Select the ![](<../.gitbook/assets/image (1).png>) (Edit) icon in the top right corner. The tooltip reads **Edit dashboard**.
 
@@ -154,4 +154,3 @@ This action cannot be undone.
 3. Confirm the deletion.
 
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4).png" alt="" width="300"><figcaption></figcaption></figure></div>
-

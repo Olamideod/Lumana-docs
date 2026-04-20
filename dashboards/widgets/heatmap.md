@@ -2,13 +2,13 @@
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Main_entrance_heatmap.png" alt=""><figcaption></figcaption></figure></div>
 
-A heatmap widget shows where activity is concentrated in a camera's field of view. It overlays a color-coded map on the camera feed, with more intense colors indicating higher detection activity.
+A Heatmap widget shows where activity is concentrated in a camera's field of view. It overlays a color-coded map on the camera feed, with more intense colors indicating higher detection activity.
 
 Use this widget to understand movement patterns: which entrance gets the most traffic, where people tend to congregate, or which areas see the most activity over a given period.
 
 ## Prerequisites
 
-A heatmap widget requires that your system contain at least one camera that is configured and online.
+A Heatmap widget requires that your system contain at least one camera that is configured and online.
 
 ## Add a Heatmap widget
 
@@ -37,22 +37,31 @@ Your options are as follows:
 * **Individual**: Filter by specific detected subjects. The options available depend on what your cameras have detected.
 
 6. Adjust the **Opacity** slider. This controls how much the heatmap overlay covers the underlying camera image. Drag it left for a more transparent overlay, or right for a more opaque one. The default is 50%.
-7. Select a **Visualization** scale. Your options are:
-
-* **Linear**: The color of a pixel reflects the raw number of objects detected in that area, and additional detections change the color value at a constant rate. For example, if it currently takes 5 more detections to change the color of a pixel, the color will change whether the number of detections increases from 0 to 5 or from 1,000 to 1,005.\
-  This is useful for quickly identifying high-traffic zones, chokepoints, and entry points, but is less useful for noticing isolated cases of activity in forbidden areas.
-
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-heatmap-viz-linear.png" alt="" width="563"></div>
-
-* **Logarithmic**: The color of a pixel reflects the _relative_ number of objects detected in an area. For example, if it currently takes twice as many detections to change the color of a pixel, the color will change by the same amount whether the number of detections increases from 10 to 20 or from 3,000 to 6,000.\
-  This is useful for making sure small changes at the lower end of the scale become highly noticeable. It highlights isolated instances of activity in places where there shouldn't be any, but makes it harder to differentiate between high-traffic and very-high-traffic areas.
-
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-heatmap-viz-logarithmic.png" alt="" width="563"></div>
-
+7. Select a Visualization scale. Your options are **Linear** and **Logarithmic.**\
+   In general, choose **Linear** if you want to track high-traffic zones, chokepoints, and entry points. Choose **Logarithmic** if you want to spot isolated cases of activity in unusual areas.\
+   The [Linear vs. Logarithmic](heatmap.md#linear-vs.-logarithmic) section below explains these in more detail.
 8. Optionally, set a **Time** range that the heatmap will cover.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 If you set this to `---`, then this widget will use [the time range that is set for the dashboard as a whole](../filter-a-dashboard.md#time-range).
 
-9. Select **Add** in the lower right. The heatmap apperas on the dashboard canvas using the settings you configured.
+9. Select **Add** in the lower right. The heatmap appears on the dashboard canvas using the settings you configured.
+
+## Linear vs. Logarithmic
+
+You can choose between **Linear** and **Logarithmic** for the Visualization setting. Here’s what each one does:
+
+* **Linear**: The color of a pixel reflects the _raw_ number of objects detected in that area. Additional detections change the color value at a constant rate. \
+  Example: Imagine a case where the color of a pixel happens to change with every 10 detections. It will change by the same amount whether the number increases from 0 to 10 or from 1,000 to 1,010.\
+  Use **Linear** when you want to identify and compare high-traffic and very-high-traffic areas. An increase from 1,500 people to 1,600 people stands out because the color shifts 10 times.\
+  Avoid it when you want to spot isolated cases of activity in forbidden or unusual areas; even a jump from 1 to 8 is not large enough to change the color of a pixel.
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-heatmap-viz-linear.png" alt="" width="563"></div>
+
+* **Logarithmic**: The color of a pixel reflects the _relative_ number of objects detected in an area. Additional detections change the color value only if they represent a meaningful increase.\
+  Example: Imagine a case where the color of a pixel happens to change whenever the number of detections doubles. It will change by the same amount whether the number increases from 10 to 20 or from 3,000 to 6,000.\
+  Use **Logarithmic** when you want to identify unusual activity in low-traffic areas, such as forbidden zones or emergency exits. An increase from 1 to 8 detections stands out because the color shifts 4 times. \
+  Avoid it when you want to compare high-traffic and very-high-traffic areas; an increase from 1,500 to 1,600 people isn't meaningful enough to change the color of a pixel.
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-heatmap-viz-logarithmic.png" alt="" width="563"></div>

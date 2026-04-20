@@ -26,7 +26,7 @@ The general alert configuration flow, including advanced configuration and alert
 3. Enter a name in the **Alert name** field, for example "Vehicle perimeter" or "Restricted area proximity."
 4. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="375"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="262"></div>
 
 Select one or more object types to monitor:
 
@@ -36,14 +36,14 @@ Select one or more object types to monitor:
 
 Any custom objects you've already created appear below the built-in types, tagged as **Custom**. You can select multiple types. The alert rule sentence updates to reflect your selection, for example "vehicles and animals."
 
-If you need to detect a specific object that isn't in the list, then select **+ New custom object**. The Create custom object dialog opens. The full process is covered in [Create a custom object](#create-a-custom-object) below.
+If you need to detect a specific object that isn't in the list, then select **+ New custom object**. The Create custom object dialog opens. The full process is covered in [Create a custom object](proximity.md#create-a-custom-object) below.
 
 5. Select the **proximity behavior** field and choose how the objects relate:
 
 * **are close to each other**: Triggers when both objects are within a close physical distance.
 * **appear together**: Triggers when both objects appear in the same camera frame at the same time.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-behavior.png" alt="" width="242"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-behavior.png" alt="" width="563"></div>
 
 6. Select the duration counter and use the **−** and **+** controls to set how long the objects must remain in proximity before the alert triggers. The default is 0.
 
@@ -66,9 +66,9 @@ If you need to detect a specific object that isn't in the list, then select **+ 
 
 If the built-in object types don't cover what you need to detect, then you can train Lumana to recognize a custom object. The process uses footage from your cameras to build a recognition model, and it takes a few minutes to complete.
 
-1. In the objects dropdown, select **+ New custom object**. 
+1. In the objects dropdown, select **+ New custom object**.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-custom-object.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-custom-object.png" alt="" width="257"></div>
 
 The Create custom object dialog opens.
 

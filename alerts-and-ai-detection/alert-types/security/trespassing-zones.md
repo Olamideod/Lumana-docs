@@ -21,12 +21,12 @@ The general alert configuration flow, including advanced configuration and alert
 1. Select the **bell icon** in the navigation bar, then select **Add alert**.
 2. Under **Security**, select **Use template** on the **Trespassing zones** card. The Create trespassing zones page opens.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/trespassing-zones-template.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/trespassing-template.png" alt="" width="563"></div>
 
 3. Enter a name in the **Alert name** field, for example "Server room entry zone" or "Loading dock boundary."
 4. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="375"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="262"></div>
 
 Select one or more object types to monitor:
 

@@ -1,65 +1,108 @@
 # Build a database of people and vehicles
 
-## Build a database of people and vehicles
+Use the organization database to organize detected people, doors, and vehicles into a searchable list your team can manage over time. You can also use Event Tags to attach structured external data to video and import vehicle lists in bulk when you need faster setup.
 
-## Directory
+## Before you begin
 
-Introducing your organization’s directory in Lumana. Here you have a collection of the Faces, doors and vehicles that have been detected at your organization. You can organize this collection of detected objects by applying data - making it your database! Additionally, you will find Event Tags here. Event Tags enables you to enrich video footage with useful data to assist your team with critical operations. More on Event Tags here \[link]
+Make sure you can open the organization database and edit the people, doors, or vehicles you want to manage. If you plan to use Event Tags or import vehicles from a CSV file, you also need access to those features in your organization.
 
-### People Directory
+## Understand the organization database
 
-Your people directory contains Faces that have been detected at your organization. You can assign a profile facial recognition, upload an image to create a profile and designate groups for people at your location(s).
+The organization database stores detected items that Lumana has already identified in your environment. This gives your team one place to review people, doors, vehicles, and event-related data.
 
-#### Profiles
+People and vehicles can move from detected items into a maintained database entry with names, groups, and other identifying details. Groups work in a similar way across the directory, so once you understand the group workflow for people, the same pattern applies elsewhere.
 
-**Unsaved people** Under unsaved people are the recognitions waiting to be added as a known person. You can find them under the People seen on camera section.
+## Manage people profiles and groups
 
-**Saved profiles within your database**
+Use the people directory to review detected faces, save profiles, and organize people into groups.
 
-Profiles contain the collection of recognitions you have assigned to a person. Note you can also add a person by uploading an image of their face. See [Working with Lumana Faces](https://support.lumana.ai/hc/en-us/articles/13972302272658) for more information on how to manage Faces.
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/people-directory-profiles.png" alt="Organization database people directory showing unsaved people, saved profiles, and search controls."></div>
 
-Groups Under groups, Luman enables your team to organize the individuals at your organization further by adding profiles to unique groups.
+Unsaved people are recognitions waiting to be added as known people. Saved profiles contain the recognitions you have assigned to a person. You can also create a profile by uploading an image of that person's face.
 
-Notice: Groups works similarly for all items in your Directory.
+### Create a group
 
-Create a new group Step 1: Select create group
+Create groups when you need to organize people into reusable sets for review or workflow purposes.
 
-Step 2: Give your group a name & select the relevant profiles to be added
+1. In the people directory, click **Create group**.
 
-Step 3: Hover over your group to Edit or Delete
+   The group creation dialog opens.
 
-Doors Directory Doors Any doors seen on camera can be added to your organization's database and used to configure door detection alerts. In this case, your team can activate an alert to trigger when a door is left open for a certain period of time. First, you add the door to the database. Then configure a Door Detection alert.
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/people-directory-groups.png" alt="People directory groups view with Create group button and group list."></div>
 
-Vehicles Directory Vehicles Lumana’s Vehicle directory takes license plate recognition to the next level!
+2. Enter a group name and select the profiles to include.
 
-All vehicles detected by license plate on cameras at your organization will be collected here. Similar to people, you can create a database of specific vehicles.
+   The dialog shows the selected people before you save the group.
 
-Vehicles seen on camera All images collected of any vehicle seen on camera will be collected here.
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/create-group-dialog.png" alt="Create a group dialog with group name field, searchable people list, and Create button."></div>
 
-List of existing vehicles By choosing a vehicle that has been detected on screen, you can add a useful identifying data to create a list of existing vehicles within your organization.
+3. Save the group.
 
-Add vehicle to existing directory Step 1: Click on the vehicle icon in your ‘Vehicles seen on cameras’ list
+   You can later hover over the group to edit or delete it.
 
-Step 2: Provide the name of owner and verify all data
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/people-groups-table-edit-delete.png" alt="Groups table with group names, member counts, and edit and delete actions."></div>
 
-Step 3: Click ‘Add’
+## Use doors in the database
 
-Step 4: You can also add a vehicle manually by uploading an image and filling in the relevant details
+Use the doors section to store doors seen on camera so you can work with them later in alerting workflows. Once a door is in the database, you can use it with alerts such as [Door state change](../alerts-and-ai-detection/alert-types/security/doors.md).
 
-You’re all set! You’ve added a vehicle to your organization’s database.
+## Add vehicles to the database
 
-Event Tags Event Tags enables users to integrate and utilize data from various external systems, on-premise or from the cloud. This feature empowers your team with advanced context based video search.
+Use the vehicles directory to review detected vehicles, save known vehicles, and maintain a list your team can reuse in alerts and investigations.
 
-Here is where you create Event Tags for your organization in a few easy steps:
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/vehicles-directory-vehicles.png" alt="Vehicles directory showing seen vehicles, add manually option, and existing vehicle records."></div>
 
-Generate your Public API Key Token Setup Event Tag POST Event data
+Vehicles seen on camera appear in the detected list. Existing vehicles are the saved records your team maintains over time.
 
-For the full article on creating and managing Event Tags see Enhance Your Video Data with Lumana Event Tag.
+### Add a detected vehicle
 
-A new feature is now available, allowing users to upload a CSV file containing a list of vehicles to the database. By clicking "Add File," users can download a template, input vehicle data, and upload the completed list back to Lumana’s database. This functionality is also accessible during alert creation.
+Add a detected vehicle when Lumana has already captured the plate and vehicle details from camera footage.
 
-This feature enables customers to efficiently upload multiple vehicles in bulk, either to trigger alerts or exclude them from alerting when entering the property.
+1. In **Vehicles seen on camera**, select the vehicle you want to save.
+2. Enter the owner name and verify the vehicle details.
 
-Alert creation upload When creating a license plate alert, click on the list and select "Import from File" to upload a CSV file.
+   The validation dialog shows the detected plate, make, color, and other saved fields.
 
-DataBase Update Under Organisation->Database ->Vehicles Directory -> Vehicles click on
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/vehicle-seen-validation-dialog.png" alt="Vehicle validation dialog with owner name, license plate, make, color, and Add button."></div>
+
+3. Click **Add**.
+
+   The vehicle is added to your organization's saved vehicle list.
+
+4. If needed, add a vehicle manually by uploading an image and entering the relevant details.
+
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/vehicle-manual-upload-form.png" alt="Manual vehicle upload form with image upload area and vehicle detail fields."></div>
+
+## Import vehicles from a CSV file
+
+Use CSV import when you need to add many vehicles at once instead of entering them one by one.
+
+1. In the vehicles directory, open **Vehicles**.
+2. Click the **Add from file** button.
+3. Download the template, enter the vehicle data, and upload the completed CSV file.
+
+   The import adds vehicles to the organization database in bulk.
+
+4. If you are creating a license plate alert, you can also select **Import from file** in the alert flow.
+
+   This lets you use a CSV list while you configure [License plate recognition](../alerts-and-ai-detection/alert-types/identification/license-plate.md).
+
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/license-plate-import-from-file-dialog.png" alt="License plate dialog with vehicle list, Import from file option, and action buttons."></div>
+
+## Use Event Tags
+
+Use Event Tags when you want to attach structured external data to video, such as access control events, point-of-sale records, or warehouse scan data. This makes those events searchable alongside camera footage and helps your team add more context to investigations.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-configuration-fields.png" alt="Event tag setup showing name, clip length, and custom field configuration."></div>
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/organization-database-event-tags.png" alt="Organization database Event tags view with create action, tag count, and tag list."></div>
+
+To create and manage Event Tags, read [Enhance your video data with Lumana Event Tags](enhance-your-video-data-with-lumana-event-tags.md).
+
+## Next steps
+
+After you organize your database, you can continue with related search and alert workflows.
+
+- Use [Search video footage for people or vehicles](search-video-footage-for-people-or-vehicles.md) to review results from saved profiles and vehicles.
+- Read [Enhance your video data with Lumana Event Tags](enhance-your-video-data-with-lumana-event-tags.md) to connect external systems to video.
+- Use [License plate recognition](../alerts-and-ai-detection/alert-types/identification/license-plate.md) to create alerts from saved vehicle lists.

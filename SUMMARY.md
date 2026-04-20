@@ -59,8 +59,8 @@
 
 ## Live video monitoring and operations
 
-* [Understand live view streaming and quality](live-video-monitoring-and-operations/understand-live-view-streaming-and-quality.md)
 * [Use live view](live-video-monitoring-and-operations/live-view.md)
+* [Understand live view streaming and quality](live-video-monitoring-and-operations/understand-live-view-streaming-and-quality.md)
 * [PTZ control](live-video-monitoring-and-operations/ptz-control.md)
 * [Video walls and shared displays](live-video-monitoring-and-operations/video-walls-and-shared-displays.md)
 * [Multi-camera playback](live-video-monitoring-and-operations/multi-camera-playback.md)
@@ -156,12 +156,14 @@
 * [Build a database of people and vehicles](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md)
 * [Tracking people](databases-analytics-and-search/tracking-people.md)
 * [Tracking vehicles](databases-analytics-and-search/tracking-vehicles.md)
+* [Pixels per foot (PPF) for camera placement](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md)
 * [Tracking containers](databases-analytics-and-search/tracking-containers.md)
-* [Custom objects](databases-analytics-and-search/custom-objects.md)
+* [Create a Missing object alert](databases-analytics-and-search/missing-object-alert.md)
 * [Search video footage for people or vehicles](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md)
-* [Search video footage for other objects](databases-analytics-and-search/search-video-footage-for-other-objects.md)
+* [Filter people, faces, vehicles, and license plates from the camera view](databases-analytics-and-search/search-video-footage-for-other-objects.md)
 * [Free text search](databases-analytics-and-search/free-text-search.md)
 * [Generate reports](databases-analytics-and-search/generate-reports.md)
+* [Configure a space occupancy dashboard](databases-analytics-and-search/configure-a-space-occupancy-dashboard.md)
 * [Space occupancy analytics](databases-analytics-and-search/space-occupancy-analytics.md)
 * [Enhance your video data with Lumana Event Tags](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md)
 

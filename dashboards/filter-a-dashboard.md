@@ -5,7 +5,7 @@
 1. Select **Dashboards** in the left navigation bar, or go directly to `https://app.lumana.ai/dashboards/main`.
 2. A list of dashboards is displayed. Select the dashboard you want to open.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Refresh the dashboard's data
 
@@ -19,7 +19,7 @@ To tell the dashboard to refresh automatically at regular intervals, use the aut
 
 1. Use the refresh rate dropdown to set how often the dashboard reloads. The countdown timer shows how long until the next reload.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>
 
 2. Select the toggle to enable auto refresh.&#x20;
 
