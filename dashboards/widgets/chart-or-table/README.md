@@ -14,8 +14,4 @@ Select the datasource that matches what you want to track. Each one measures som
 
 Not sure which datasource to use? Start with Objects if you want to track what the camera sees. Switch to Alerts if you want to track when rules were triggered. Use Event tags if your team labels clips and you want to measure how often.
 
-## Visualization types
-
-Once you've picked a datasource, you'll choose how to display the data. In **Visualization**, the widget supports seven formats: vertical bar chart, horizontal bar chart, line chart, vertical stacked bar chart, horizontal stacked bar chart, **Counter**, and **Table**. Each suits a different goal. For guidance on choosing the right format, visit [Visualization types](chart-or-table-visualization-types.md).
-
-When you're ready, select a datasource above to start building your widget. Each configuration guide walks you through every field from start to finish.
+When you're ready, select a datasource above to start building your widget. Each configuration guide walks you through every field from start to finish, including a preview of each visualization type.

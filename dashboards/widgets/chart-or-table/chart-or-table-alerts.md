@@ -1,4 +1,4 @@
-# Alerts
+# Alert visualization
 
 The Alerts datasource counts alert events fired by your configured alert rules. Each count represents a moment a rule condition was met, confirmed by Lumana's AI, and recorded as an alert event. Use this datasource to monitor how often specific conditions occur, track incident trends over time, and identify which cameras or alert types are most active.
 
