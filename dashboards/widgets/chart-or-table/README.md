@@ -14,4 +14,12 @@ Select the datasource that matches what you want to track. Each one measures som
 
 Not sure which datasource to use? Start with Objects if you want to track what the camera sees. Switch to Alerts if you want to track when rules were triggered. Use Event tags if your team labels clips and you want to measure how often.
 
-When you're ready, select a datasource above to start building your widget. Each configuration guide walks you through every field from start to finish, including a preview of each visualization type.
+## Add the widget
+
+1. Follow **Add a widget** in [Create and manage dashboards](../../create-and-manage-dashboards.md#add-a-widget) to open the widget list, then select **Chart or table**. The configuration dialog opens.
+2. Enter a name in the **Title** field. Use a name that identifies what the widget is tracking, for example "Main entrance detections today" or "Gun detection alerts this week."
+3. Under **Datasource**, select **Objects**, **Alerts**, or **Event tags**.
+4. In **Visualization**, select a format from the icon row. The available visualization types and how they behave depend on the datasource you selected. Continue in the relevant page to complete the configuration:
+   * [Object visualization](chart-or-table-objects.md)
+   * [Alert visualization](chart-or-table-alerts.md)
+   * [Event tag visualization](chart-or-table-event-tags/)
