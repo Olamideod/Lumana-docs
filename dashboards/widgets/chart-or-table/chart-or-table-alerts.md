@@ -2,17 +2,7 @@
 
 The Alerts datasource counts alert events fired by your configured alert rules. Each count represents a moment a rule condition was met, confirmed by Lumana's AI, and recorded as an alert event. Use this datasource to monitor how often specific conditions occur, track incident trends over time, and identify which cameras or alert types are most active.
 
-## Add the widget
-
-1. Follow **Add a widget** in [Create and manage dashboards](../../create-and-manage-dashboards.md#add-a-widget) to open the widget list, then select **Chart or table**. The configuration dialog opens.
-2.  Enter a name in the **Title** field.
-
-    The title appears on the widget on the dashboard canvas. Use a name that identifies what the widget is tracking, for example "Gun detection alerts this week" or "Safety helmet not worn after 3 mins."
-3. Under **Datasource**, select **Alerts**.
-
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-datasource.png" alt="" width="313"></div>
-
-4. In **Visualization**, select a format from the icon row. The preview panel on the right updates immediately when you switch types.
+In **Visualization**, select a format from the icon row. The preview panel on the right updates immediately when you switch types.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-icons.png" alt="" width="263"></div>
 
@@ -66,9 +56,9 @@ Alert counts in rows and columns. Each row represents your selected grouping, su
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-viz-table.png" alt="" width="563"></div>
 
-If you selected **Counter**, then skip to [Counter visualization](chart-or-table-alerts.md#counter-visualization). If you selected **Table**, then skip to [Table visualization](chart-or-table-alerts.md#table-visualization). For all other types, continue with step 5 below.
+If you selected **Counter**, then skip to [Counter visualization](chart-or-table-alerts.md#counter-visualization). If you selected **Table**, then skip to [Table visualization](chart-or-table-alerts.md#table-visualization). For all other types, continue with step 1 below.
 
-5. Set the **X-Axis**. The first dropdown controls how data is grouped.
+1. Set the **X-Axis**. The first dropdown controls how data is grouped.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-group.png" alt="" width="563"></div>
 
@@ -89,7 +79,7 @@ If you selected **Time**, then set the interval in the second dropdown.
 * **Week**: Groups data by week.
 * **Month**: Groups data by month.
 
-6.  Set the **Y-Axis**. Two dropdowns control what is measured and which alerts are included.
+2.  Set the **Y-Axis**. Two dropdowns control what is measured and which alerts are included.
 
     The Y-axis always measures alert count. The rendered chart labels this axis **Appearance total**.
 
@@ -114,7 +104,7 @@ The full list of alert type options is: Motion, Tampering, Proximity, Trespassin
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-yaxis-individual.png" alt="" width="563"></div>
 
-7. Select the **Cameras** field to choose which cameras contribute data.
+3. Select the **Cameras** field to choose which cameras contribute data.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-camera-field.png" alt="" width="375"></div>
 
@@ -123,13 +113,13 @@ The full list of alert type options is: Motion, Tampering, Proximity, Trespassin
 * Select individual cameras to filter to specific ones.
 * Select **Select** to apply. The field shows how many cameras are selected, for example "1 cameras selected."
 
-8. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
+4. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-time-dropdown.png" alt="" width="375"></div>
 
 > **Note:** Setting a time disconnects the widget from the dashboard filters. To reconnect it, select **Reset**. This clears the **Cameras** and **Time** fields and the widget follows the dashboard filters again.
 
-9. Select **Add**. The widget appears on the dashboard canvas.
+5. Select **Add**. The widget appears on the dashboard canvas.
 
 When you hover over a data point in the chart, a tooltip shows the exact alert count for that interval. Timestamps in the tooltip use the format M/DD HH:MM, where the first number is the month and the second is the day. For example, 3/30 10:00 PM means March 30 at 10:00 PM.
 
@@ -139,7 +129,7 @@ When you click a data point, Lumana opens the Alert records view for that period
 
 ## Counter visualization
 
-If you selected **Counter** in **Visualization** in step 4, two unlabelled dropdowns replace the X-Axis and Y-Axis fields. The count on the canvas changes based on what you select in each dropdown.
+If you selected **Counter** in **Visualization**, two unlabelled dropdowns replace the X-Axis and Y-Axis fields. The count on the canvas changes based on what you select in each dropdown.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-alerts-counter-config.png" alt="" width="563"></div>
 
@@ -153,13 +143,13 @@ The second dropdown sets the alert filter:
 * **Group**: Counts by alert type category. Select one or more from the alert type list.
 * **Individual**: Counts a specific named alert rule. Use the search bar to find it by name.
 
-Once you've set the two dropdowns, continue with step 7 to select cameras.
+Once you've set the two dropdowns, continue with step 3 to select cameras.
 
 > **Note:** Setting a time disconnects the widget from the dashboard filters. To reconnect it, select **Reset**. This clears the **Cameras** and **Time** fields and the widget follows the dashboard filters again.
 
 ## Table visualization
 
-If you selected **Table** in **Visualization** in step 4, the X-Axis becomes **Group** and the Y-Axis becomes **Column**.
+If you selected **Table** in **Visualization**, the X-Axis becomes **Group** and the Y-Axis becomes **Column**.
 
 **Group** controls how rows are organized. The first dropdown sets the grouping type: Time, Locations, Cameras, or Alert types. If you select Time, then a second dropdown appears where you set the interval: Hour, Day, Week, or Month.
 
@@ -172,7 +162,7 @@ If you selected **Table** in **Visualization** in step 4, the X-Axis becomes **G
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/chart-or-table-coloum.png" alt="" width="563"></div>
 
-Once you've set Group and Column, continue with step 7 to select cameras.
+Once you've set Group and Column, continue with step 3 to select cameras.
 
 > **Note:** Setting a time disconnects the widget from the dashboard filters. To reconnect it, select **Reset**. This clears the **Cameras** and **Time** fields and the widget follows the dashboard filters again.
 

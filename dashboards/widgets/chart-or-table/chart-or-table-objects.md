@@ -2,23 +2,13 @@
 
 The Objects datasource counts camera detections of people, vehicles, and animals. Every time the camera's AI detects an object in the frame, that's recorded as a detection event. Use this datasource to track physical activity: how many times objects appeared in an area, how long they stayed, and how activity breaks down across time, location, or camera.
 
-## Add the widget
-
-1. Follow **Add a widget** in [Create and manage dashboards](../../create-and-manage-dashboards.md#add-a-widget) to open the widget list, then select **Chart or table**. The configuration dialog opens.
-2.  Enter a name in the **Title** field.
-
-    The title appears on the widget on the dashboard canvas. Use a name that identifies what the widget is tracking, for example "Main entrance detections today" or "Vehicle dwell time by hour."
-3. Select **Objects** as the **Datasource**.
-
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-datasource.png" alt="" width="356"></div>
-
-4. Select a **Visualization** type from the icon row. The preview panel updates immediately when you switch types.
+In **Visualization**, select a format from the icon row. The preview panel updates immediately when you switch types.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-icons.png" alt="" width="263"></div>
 
-The preview sections below show each visualization type for both Appearance and Dwell Time. Use them to choose a chart format before continuing. You'll select between Appearance and Dwell Time in step 6 when you set the Y-Axis metric.
+The preview sections below show each visualization type for both Appearance and Dwell Time. Use them to choose a format before continuing. You'll select between Appearance and Dwell Time in step 2 when you set the Y-Axis metric.
 
-If you selected **Number**, then skip to [Number visualization](chart-or-table-objects.md#number-visualization). If you selected **Table**, then skip to [Table visualization](chart-or-table-objects.md#table-visualization). For all other types, continue with step 5 below.
+If you selected **Number**, then skip to [Number visualization](chart-or-table-objects.md#number-visualization). If you selected **Table**, then skip to [Table visualization](chart-or-table-objects.md#table-visualization). For all other types, continue with step 1 below.
 
 ### Appearance
 
@@ -114,7 +104,7 @@ Data in rows and columns with dwell time values per group or time interval.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-dwell-table.png" alt="" width="467"></div>
 
-5. Set the **X-Axis**. The first dropdown controls how data is grouped.
+1. Set the **X-Axis**. The first dropdown controls how data is grouped.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-xaxis-dropdown.png" alt="" width="563"></div>
 
@@ -132,7 +122,7 @@ If you selected **Time**, then set the interval in the second dropdown.
 * **Week**: Groups data by week.
 * **Month**: Groups data by month.
 
-6.  Set the **Y-Axis**. Three dropdowns control what is measured.
+2.  Set the **Y-Axis**. Three dropdowns control what is measured.
 
     First dropdown, aggregation:
 
@@ -160,7 +150,7 @@ Third dropdown, object filter:
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-individual.png" alt="" width="563"></div>
 
-7. Select the **Cameras** field to choose which cameras contribute data.
+3. Select the **Cameras** field to choose which cameras contribute data.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-camera-field.png" alt="" width="375"></div>
 
@@ -169,13 +159,13 @@ Third dropdown, object filter:
 * Select individual cameras to filter to specific ones.
 * Select **Select** to apply. The field shows how many cameras are selected, for example "1 cameras selected."
 
-8. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
+4. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-time-dropdown.png" alt="" width="375"></div>
 
 > **Note:** Setting a widget-level time disconnects the widget from the dashboard time filter. To reconnect it, then clear the widget's time setting back to `---`.
 
-9. Select **Add**. The widget appears on the dashboard canvas.
+5. Select **Add**. The widget appears on the dashboard canvas.
 
 When you click on a data point in the chart, Lumana opens the Object records view for that time period, showing the actual camera frames that contributed to that count.
 
@@ -193,7 +183,7 @@ Frame and detections for a selected time.
 
 ## Number visualization
 
-If you selected Number in step 4, three unlabelled dropdowns replace the X-Axis and Y-Axis fields. The number on the canvas changes based on what you select in each dropdown.
+If you selected **Number** in **Visualization**, three unlabelled dropdowns replace the X-Axis and Y-Axis fields. The number on the canvas changes based on what you select in each dropdown.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-aggregation.png" alt="" width="563"></div>
 
@@ -230,11 +220,11 @@ When Dwell Time is selected and no data has been recorded, the widget displays 0
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-viz-number-dwell-config.png" alt="" width="563"></div>
 
-Once you've set the three dropdowns, continue with step 7 to select cameras.
+Once you've set the three dropdowns, continue with step 3 to select cameras.
 
 ## Table visualization
 
-If you selected Table in step 4, the X-Axis becomes **Group** and the Y-Axis becomes **Column**.
+If you selected **Table** in **Visualization**, the X-Axis becomes **Group** and the Y-Axis becomes **Column**.
 
 **Group** controls how rows are organized. The first dropdown sets the grouping type: **Time**, **Locations**, or **Cameras**.
 
@@ -260,7 +250,7 @@ Preview lists each camera as a row.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-table-group-cameras.png" alt="" width="563"></div>
 
-Once you've set Group and Column, continue with step 7 to select cameras.
+Once you've set Group and Column, continue with step 3 to select cameras.
 
 ## Edit or delete the widget
 
