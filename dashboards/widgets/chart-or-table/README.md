@@ -14,13 +14,13 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
 
 4. In **Visualization**, select a format from the icon row. The preview panel updates immediately when you switch types. For a description of each format, see [Visualization types](#visualization-types) below.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-icons.png" alt="" width="263"></div>
+   <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-icons.png" alt="" width="263"></div>
 
    If you selected **Counter**, then skip to [Counter visualization](#counter-visualization). If you selected **Table**, then skip to [Table visualization](#table-visualization). For all other types, continue with step 5.
 
 5. Set the **X-axis**. The first dropdown controls how data is grouped.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-xaxis-dropdown.png" alt="" width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-xaxis-dropdown.png" alt="" width="563"></div>
 
    * **Time**: Groups data by time interval. A second dropdown appears where you set the interval.
    * **Locations**: Groups data by location.
@@ -29,7 +29,7 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
 
    If you selected **Time**, use the second dropdown to set the interval.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-xaxis-interval.png" alt="" width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-xaxis-interval.png" alt="" width="563"></div>
 
    * `---`: No interval set. The widget determines the interval automatically.
    * **Hour**: Groups data by hour.
@@ -41,7 +41,7 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
 
    First dropdown, aggregation:
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-aggregation.png" alt="" width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-aggregation.png" alt="" width="563"></div>
 
    * **Total**: The sum of all events across the selected period.
    * **Average**: The mean count per time unit. Not available when **Datasource** is set to **Alerts**.
@@ -49,7 +49,7 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
 
    Second dropdown, metric (Objects datasource only):
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-metric.png" alt="" width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-metric.png" alt="" width="563"></div>
 
    * **Appearance**: Counts how many times objects were detected in the frame.
    * **Dwell Time**: Measures how long objects remained in the camera's view, in seconds.
@@ -60,7 +60,7 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
 
    Third dropdown, filter:
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-group.png" alt="" width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-group.png" alt="" width="563"></div>
 
    * **All objects / All alerts / All event tags**: Includes every item in the count.
    * **Group**: Filters by broad category. For Objects: Person, Vehicle, Animal, Shopping cart, or Container. For Alerts: one or more alert type categories. Not available when **Datasource** is set to **Event tags**.
@@ -73,7 +73,7 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
 
 7. Select the **Cameras** field to choose which cameras contribute data.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-camera-field.png" alt="" width="375"></div>
+   <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-camera-field.png" alt="" width="375"></div>
 
    * Search by camera name or location using the search field.
    * Select **All cameras** to include every camera in your account.
@@ -86,7 +86,7 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
 
 8. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-time-dropdown.png" alt="" width="375"></div>
+   <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-time-dropdown.png" alt="" width="375"></div>
 
    {% hint style="info" %}
    Setting a widget-level time disconnects the widget from the dashboard time filter. To reconnect it, clear the **Time** field back to `---`.
