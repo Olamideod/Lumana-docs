@@ -8,31 +8,28 @@ Lumana analyzes the video feed continuously and triggers the alert when movement
 
 Drawing a detection zone reduces false positives in busy environments where only a portion of the frame needs monitoring.
 
-## When to use it
-
-Motion detection is a good fit for any environment where movement itself is the signal, not just specific behaviour.
-
-* Monitoring after-hours offices or facilities where any movement signals a potential security concern.
-* Detecting activity in restricted storage areas where access is limited to authorized personnel.
-* Flagging movement in perimeter zones that should remain clear outside scheduled operating hours.
-
 ## Configure the alert
 
-The general alert configuration flow, including advanced configuration and alert actions, is covered in [Configure alerts](../../configure-alerts.md). This section covers the fields specific to Motion.
+1. Select the **bell icon** in the navigation bar. The Alerts monitoring view opens.
 
-1. Select the **bell icon** in the navigation bar, then select **Add alert**.
-2. Under **Security**, select **Use template** on the **Motion** card. The Create motion page opens.
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-monitoring-view1.png" alt="" width="563"></div>
+
+2. Select **Add alert** in the top right corner. The Configure alerts page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
+
+3. Under **Security**, select **Use template** on the **Motion** card. The Create motion page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-template.png" alt="" width="563"></div>
 
-3. Enter a name in the **Alert name** field, for example "After-hours motion" or "Warehouse perimeter."
-4. Select the sensitivity value in the alert rule sentence. A slider opens.
+4. Enter a name in the **Alert name** field, for example "After-hours motion" or "Warehouse perimeter."
+5. Select the sensitivity value in the alert rule sentence. A slider opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-sensitivity-slider.png" alt="" width="242"></div>
 
 Drag the slider to set the motion sensitivity threshold. The range is 0 to 100 and the default is 50. A higher value requires more significant movement before the alert triggers, which reduces false positives. A lower value makes the alert more sensitive to subtle movement.
 
-5. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor and select **Select** to confirm.
+6. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor and select **Select** to confirm.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
 
@@ -53,7 +50,7 @@ Select points on the camera feed to define the zone boundary. Each point connect
 
 If you do not draw a zone, motion anywhere in the full camera frame triggers the alert.
 
-6. Select the **time** field to set when the alert is active. The schedule options are covered in [Configure alerts](../../configure-alerts.md#create-an-alert).
-7. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. These settings are covered in [Configure alerts](../../configure-alerts.md#create-an-alert).
-8. Select **Then** to choose the action Lumana takes when the alert triggers. The available actions are covered in [Alert actions](../../alert-actions.md).
-9. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.
+7. Select the **time** field to set when the alert is active. [Configure alerts](../../configure-alerts.md#schedule) covers the schedule options.
+8. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../configure-alerts.md#default-configuration) covers these settings.
+9. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. The available actions are covered in [Alert actions](../../alert-actions.md).
+10. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

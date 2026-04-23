@@ -1,36 +1,58 @@
 # Appearing
 
-The appearing alert triggers the moment an object enters a zone you've drawn in the camera view. There's no minimum time requirement, and entry alone is enough to trigger it.
+The appearing alert triggers the moment an object enters a zone you define in the camera view. Entry alone is enough to trigger it, with no minimum time requirement.
 
 ## How it works
 
-Draw a detection zone in the camera frame. When an object of the configured type crosses into that zone, the alert triggers and saves a clip. This is useful when you want to know as soon as something appears, rather than waiting for it to linger.
-
-Compare this with the [loitering alert](loitering.md), which requires an object to remain in a zone for a set duration before triggering.
-
-## When to use it
-
-Appearing detection is well suited for monitored zones where any entry, no matter how brief, is worth flagging.
-
-* Monitoring a delivery area to know the moment a vehicle or person arrives.
-* Detecting any entry into a zone where only scheduled access is expected.
-* Triggering an alert the instant someone steps into a defined restricted area.
-
-These are the most common scenarios, but any zone where the moment of entry is more important than how long an object stays is a good fit.
+Lumana monitors a zone you draw in the camera frame. When an object of the configured type crosses into that zone, the alert triggers immediately.
 
 ## Configure the alert
 
-Use these steps to create the alert once you've identified the zone to monitor.
+1. Select the **bell icon** in the navigation bar. The Alerts monitoring view opens.
 
-1. Select **Alerts** in the left navigation bar, then select **Configurations**.
-2. Select **Add alert**.
-3. Under the **Tracking** category, select **Appearing**.
-4. Give the alert a name.
-5. Select the object types to monitor, such as **Person** or **Vehicle**.
-6. Draw the zone in the camera view.
-7. Select the camera or cameras to monitor.
-8. Set the time frame for when the alert should be active.
-9. Select **Then do this** to configure a notification.
-10. Select **Create alert**.
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-monitoring-view1.png" alt="" width="563"></div>
 
-Once active, every entry into the zone triggers a clip you can review, share, or archive directly from the alert feed.
+2. Select **Add alert** in the top right corner. The Configure alerts page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
+
+3. Under **Tracking**, select **Use template** on the **Appearing** card. The Create appearing page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/appearing-template.png" alt="" width="563"></div>
+
+4. Enter a name in the **Alert name** field, for example "Delivery area arrival" or "Restricted zone entry."
+5. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="262"></div>
+
+Select one or more object types to monitor:
+
+* **people**: Detects people.
+* **vehicles**: Detects vehicles.
+* **animals**: Detects animals.
+
+Any custom objects you've already created appear below the built-in types, tagged as **Custom**. You can select multiple types. If you need to detect a specific object that isn't in the list, then select **+ New custom object**. Follow the steps in [Create a custom object](../security/proximity.md#create-a-custom-object) to complete setup.
+
+6. Select the **zone** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
+
+After selecting a camera, draw a detection zone to define the area within the frame. Select the **edit icon** next to the camera name to open the Select region of interest dialog.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-zone-drawing.png" alt="" width="563"></div>
+
+Select points on the camera feed to define the zone boundary. Each point connects to the next with a green line. When the polygon is closed, the enclosed area fills with a green overlay indicating the active detection zone.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-zone-complete.png" alt="" width="563"></div>
+
+* **Exclude**: Toggle on to invert the zone. Objects outside the drawn area trigger the alert instead of objects inside it.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-zone-invert.png" alt="" width="563"></div>
+
+* **Reset**: Clears all points and lets you start over.
+* **Select**: Confirms the zone and closes the dialog.
+
+7. Select the **time** field to set when the alert is active. [Configure alerts](../../configure-alerts.md#schedule) covers the schedule options.
+8. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../configure-alerts.md#default-configuration) covers these settings.
+9. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. [Alert actions](../../alert-actions.md) covers the available actions.
+10. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

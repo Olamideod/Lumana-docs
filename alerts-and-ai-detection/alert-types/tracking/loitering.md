@@ -1,19 +1,51 @@
 # Loitering
 
-Loitering detection triggers when something stays in a monitored zone past a time limit you set. Brief visits don't trigger it, and the alert only triggers once the dwell threshold is crossed.
+Loitering detection triggers when an object stays in the camera view longer than a duration you set. Brief appearances do not trigger it.
 
 ## How it works
 
-Set up a detection zone in the camera frame and configure a minimum dwell time in seconds. Lumana tracks objects inside the zone and flags the event once one has stayed past the threshold. A clip is saved when the alert triggers.
+Set a minimum dwell time. Lumana tracks objects in the camera feed and triggers the alert only after one has remained in view past the configured duration.
 
-Compare this with the [appearing alert](appearing.md), which triggers the moment an object enters with no time requirement.
+## Configure the alert
 
-## When to use it
+1. Select the **bell icon** in the navigation bar. The Alerts monitoring view opens.
 
-Loitering detection is a good fit when you need to separate incidental contact with an area from deliberate, extended presence.
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-monitoring-view1.png" alt="" width="563"></div>
 
-* Detecting someone lingering near a cash register, ATM, or point of sale terminal.
-* Monitoring parking areas for vehicles that stay far beyond normal visit durations.
-* Identifying unauthorized extended presence in restricted or sensitive spaces.
+2. Select **Add alert** in the top right corner. The Configure alerts page opens.
 
-These scenarios share a common need: distinguishing between passing contact and deliberate presence.
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
+
+3. Under **Tracking**, select **Use template** on the **Loitering** card. The Create loitering page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/loitering-template.png" alt="" width="563"></div>
+
+4. Enter a name in the **Alert name** field, for example "ATM loitering" or "Parking zone overstay."
+5. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="262"></div>
+
+Select one or more object types to monitor:
+
+* **people**: Detects people.
+* **vehicles**: Detects vehicles.
+* **animals**: Detects animals.
+
+Any custom objects you've already created appear below the built-in types, tagged as **Custom**. You can select multiple types. If you need to detect a specific object that isn't in the list, then select **+ New custom object**. Follow the steps in [Create a custom object](../security/proximity.md#create-a-custom-object) to complete setup.
+
+6. Set the duration in the **for more than** field. Select **−** or **+** to adjust the value, or enter a value directly.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-counter.png" alt="" width="242"></div>
+
+7. Select the **seconds** field and choose **seconds**, **minutes**, or **hours**.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/tampering-duration.png" alt="" width="242"></div>
+
+8. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
+
+9. Select the **time** field to set when the alert is active. [Configure alerts](../../configure-alerts.md#schedule) covers the schedule options.
+10. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../configure-alerts.md#default-configuration) covers these settings.
+11. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. [Alert actions](../../alert-actions.md) covers the available actions.
+12. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

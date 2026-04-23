@@ -1,34 +1,53 @@
 # Protective gear
 
-Protective gear detection flags workers who are missing required PPE in the camera view. It's built for environments where continuous manual compliance checks aren't practical.
+Protective gear detection triggers when workers are detected wearing or not wearing configured safety equipment for longer than a duration you set.
 
 ## How it works
 
-Lumana analyzes the camera feed and checks whether detected individuals are wearing the configured safety equipment. When someone is found without the required gear, Lumana flags the person and saves a clip of the event. You can configure it to check for specific items such as hard hats, safety helmets, or reflective vests.
-
-## When to use it
-
-This alert is most effective in environments where PPE requirements are non-negotiable and manual supervision can't provide continuous coverage.
-
-* Enforcing hard hat requirements on construction sites or in industrial facilities.
-* Monitoring production floors for workers not wearing required safety equipment.
-* Providing a continuous compliance check without relying solely on manual supervision.
-
-These are the most common scenarios, but any environment with a defined PPE requirement and a camera covering the work area is a good fit.
+Select a wearing condition and a gear type. Lumana monitors the camera feed and triggers the alert when workers match the condition for longer than the configured duration.
 
 ## Configure the alert
 
-Use these steps to create the alert once you've identified the cameras and areas to cover.
+1. Select the **bell icon** in the navigation bar. The Alerts monitoring view opens.
 
-1. Select **Alerts** in the left navigation bar, then select **Configurations**.
-2. Select **Add alert**.
-3. Under the **Safety & Compliance** category, select **Protective gear**.
-4. Give the alert a name.
-5. Select the gear type to check for, such as **Helmet** or **Safety vest**.
-6. Select the camera or cameras to monitor.
-7. Optionally draw a zone to restrict detection to a specific area.
-8. Set the time frame for when the alert should be active.
-9. Select **Then do this** to configure a notification.
-10. Select **Create alert**.
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-monitoring-view1.png" alt="" width="563"></div>
 
-Each triggered event is saved with a clip of the non-compliant worker, giving you a timestamped record for compliance reporting and follow-up.
+2. Select **Add alert** in the top right corner. The Configure alerts page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
+
+3. Under **Safety and compliance**, select **Use template** on the **Protective gear** card. The Create protective gear page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/protective-gear-template.png" alt="" width="563"></div>
+
+4. Enter a name in the **Alert name** field, for example "Hard hat violation" or "Safety vest compliance."
+5. Select the **are not wearing** field in the alert rule sentence. A dropdown opens with the wearing conditions.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/protective-gear-condition-dropdown.png" alt="" width="262"></div>
+
+   * **are not wearing**: Triggers when workers are not wearing the configured gear type.
+   * **are wearing**: Triggers when workers are wearing the configured gear type.
+
+6. Select the **a safety gear** field in the alert rule sentence. A dropdown opens with the gear types.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/protective-gear-type-dropdown.png" alt="" width="262"></div>
+
+   * **safety helmet**: Detects whether workers are wearing a safety helmet.
+   * **safety vest**: Detects whether workers are wearing a safety vest.
+
+7. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
+
+8. Set the duration in the **for more than** field. Select **−** or **+** to adjust the value, or enter a value directly.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-counter.png" alt="" width="242"></div>
+
+9. Select the **seconds** field and choose **seconds**, **minutes**, or **hours**.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/tampering-duration.png" alt="" width="242"></div>
+
+10. Select the **time** field to set when the alert is active. [Configure alerts](../../configure-alerts.md#schedule) covers the schedule options.
+11. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../configure-alerts.md#default-configuration) covers these settings.
+12. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. [Alert actions](../../alert-actions.md) covers the available actions.
+13. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

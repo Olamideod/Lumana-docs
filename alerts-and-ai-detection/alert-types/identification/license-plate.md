@@ -1,34 +1,51 @@
 # License plate recognition
 
-License plate recognition lets you flag specific vehicles as they enter or exit your camera coverage area. The alert triggers when a detected plate matches, or doesn't match, a list you configure.
+License plate recognition alerts you when a detected plate matches or doesn't match a list you configure. Use it to control vehicle access, track specific vehicles, or detect unreadable plates.
 
 ## How it works
 
-Lumana reads license plates from the camera feed and compares them against your configured list. When a match is found, the alert triggers and a clip of the vehicle is saved. You can set it to trigger on plates that are on the list, such as an approved-entry list, or on plates that aren't on it.
-
-## When to use it
-
-License plate recognition is most effective when you need to control or audit vehicle access at a defined entry point.
-
-* Monitoring gated entry points to flag vehicles that aren't on an approved list.
-* Tracking the arrival and departure of specific vehicles at a premises.
-* Detecting a known vehicle of interest associated with previous incidents.
-
-These are the most common scenarios, but any situation requiring vehicle-level access control or audit trails at a defined entry point is a good fit.
+Lumana reads license plates from the camera feed and compares them against your configured list. When the detection meets the condition you set, the alert triggers. You configure the trigger condition to match your use case. Choose to alert on matching plates, non-matching plates, or vehicles whose plate can't be read.
 
 ## Configure the alert
 
-Use these steps to create the alert once your plate list is ready.
+1. Select the **bell icon** in the navigation bar. The Alerts monitoring view opens.
 
-1. Select **Alerts** in the left navigation bar, then select **Configurations**.
-2. Select **Add alert**.
-3. Under the **Identification** category, select **License plate**.
-4. Give the alert a name.
-5. Add the plate numbers to watch for, or import a list.
-6. Choose whether to alert when a plate is found on the list or when it isn't on the list.
-7. Select the camera or cameras to monitor.
-8. Set the time frame for when the alert should be active.
-9. Select **Then do this** to configure a notification.
-10. Select **Create alert**.
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-monitoring-view1.png" alt="" width="563"></div>
 
-Each match is logged with a clip of the vehicle and the detected plate number, creating a timestamped record for access audits or incident review.
+2. Select **Add alert** in the top right corner. The Configure alerts page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
+
+3. Under **Identification**, select **Use template** on the **License plate** card. The Create license plate page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/license-plate-template.png" alt="" width="563"></div>
+
+4. Enter a name in the **Alert name** field, for example "Gated entry unauthorized plate" or "Known vehicle arrival."
+5. Select the **appears** field in the alert rule sentence. A dropdown opens with the trigger conditions.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/appears-dropdown.png" alt="" width="375"></div>
+
+   * **appears**: Triggers when a detected plate matches a plate on the list.
+   * **does not appear**: Triggers when a detected plate does not match any plate on the list.
+   * **is not identified or appears**: Triggers when the plate cannot be read, or when the plate is on the list.
+   * **is not identified or does not appear**: Triggers when the plate cannot be read, or when the plate is not on the list.
+
+6. Select the **list** field to open the License plate modal.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/license-plate-modal.png" alt="" width="375"></div>
+
+   Select **Add** <img src="../../../.gitbook/assets/license-plate-add-button.png" alt="" height="18"> to create a new entry. An editable row appears with a **Vehicle name** field and a **Plate** field.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/license-plate-modal-entry.png" alt="" width="375"></div>
+
+   Enter the vehicle name and plate number, then select the save icon to save the entry. To remove an entry, select the delete icon next to it. To import multiple plates at once, select **Import from file**.
+
+   Select **Done** to confirm the list and close the modal.
+7. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
+
+8. Select the **time** field to set when the alert is active. [Configure alerts](../../configure-alerts.md#schedule) covers the schedule options.
+9. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../configure-alerts.md#default-configuration) covers these settings.
+10. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. The available actions are covered in [Alert actions](../../alert-actions.md).
+11. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

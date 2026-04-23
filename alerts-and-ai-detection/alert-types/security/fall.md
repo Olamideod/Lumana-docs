@@ -4,7 +4,7 @@ The fall detection alert triggers when a person falls in the camera view and doe
 
 ## How it works
 
-Lumana uses AI to analyze body posture and movement in the video feed. The model distinguishes between normal movements, such as walking, sitting, or bending, and an actual fall. When a fall is detected, Lumana starts a timer. If the person doesn't recover within the configured threshold, the alert triggers, captures a clip, and notifies the designated contacts. Falls where the person recovers quickly don't trigger the alert.
+Lumana uses AI to analyze body posture and movement in the video feed. The model distinguishes between normal movements, such as walking, sitting, or bending, and an actual fall. When a fall is detected, Lumana starts a timer. If the person doesn't recover within the configured threshold, the alert triggers. Falls where the person recovers quickly don't trigger the alert.
 
 ## Camera placement
 
@@ -35,20 +35,25 @@ Environments that are low-traffic, well-lit, and have cameras positioned to capt
 Fall detection is currently in beta. Detection accuracy might vary depending on camera placement, lighting, and the conditions described in the limitations above. Test the alert in your environment before relying on it for critical safety decisions.
 {% endhint %}
 
-The general alert configuration flow, including advanced configuration and alert actions, is covered in [Configure alerts](../../configure-alerts.md). This section covers the fields specific to fall detection.
+1. Select the **bell icon** in the navigation bar. The Alerts monitoring view opens.
 
-1. Select the **bell icon** in the navigation bar, then select **Add alert**.
-2. Under **Security**, select **Use template** on the **Fall detection** card. The Create fall detection page opens.
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-monitoring-view1.png" alt="" width="563"></div>
+
+2. Select **Add alert** in the top right corner. The Configure alerts page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
+
+3. Under **Security**, select **Use template** on the **Fall detection** card. The Create fall detection page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/fall-detection-template.png" alt="" width="563"></div>
 
-3. Enter a name in the **Alert name** field, for example "Care home fall detection" or "Warehouse floor fall alert."
-4. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
+4. Enter a name in the **Alert name** field, for example "Care home fall detection" or "Warehouse floor fall alert."
+5. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
 
-5. Set the recovery time threshold. Select **+** to increase the value or **-** to decrease it. Then select the unit dropdown and choose **seconds**, **minutes**, or **hours**. The alert only triggers when a person falls and doesn't recover within this time.
-6. Select the **time** field to set when the alert is active. The schedule options are covered in [Configure alerts](../../configure-alerts.md#create-an-alert).
-7. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. These settings are covered in [Configure alerts](../../configure-alerts.md#create-an-alert).
-8. Select **Then** to choose the action Lumana takes when the alert triggers. The available actions are covered in [Alert actions](../../alert-actions.md).
-9. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.
+6. Set the recovery time threshold. Select **+** to increase the value or **-** to decrease it. Then select the unit dropdown and choose **seconds**, **minutes**, or **hours**. The alert only triggers when a person falls and doesn't recover within this time.
+7. Select the **time** field to set when the alert is active. [Configure alerts](../../configure-alerts.md#schedule) covers the schedule options.
+8. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../configure-alerts.md#default-configuration) covers these settings.
+9. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. The available actions are covered in [Alert actions](../../alert-actions.md).
+10. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

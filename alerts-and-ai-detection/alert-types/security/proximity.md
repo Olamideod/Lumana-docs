@@ -4,27 +4,24 @@ The Proximity alert triggers when two objects remain within a close distance of 
 
 ## How it works
 
-Lumana monitors the positions of detected objects in the camera view. When two objects stay within the proximity threshold for longer than the duration you set, the alert triggers and Lumana saves a video clip to the alert feed. You can choose from built-in object types or train Lumana to recognize a custom object specific to your environment.
-
-## When to use it
-
-Proximity detection works well in environments where you need to distinguish incidental contact from sustained closeness.
-
-* Detecting a person loitering near a parked vehicle, which might indicate an attempted theft.
-* Monitoring restricted areas where people should not approach certain equipment or assets.
-* Identifying sustained contact between individuals in sensitive or secure environments.
+Lumana monitors the positions of detected objects in the camera view. When two objects stay within the proximity threshold for longer than the duration you set, the alert triggers. You can choose from built-in object types or train Lumana to recognize a custom object specific to your environment.
 
 ## Configure the alert
 
-The general alert configuration flow, including advanced configuration and alert actions, is covered in [Configure alerts](../../configure-alerts.md). This section covers the fields specific to Proximity.
+1. Select the **bell icon** in the navigation bar. The Alerts monitoring view opens.
 
-1. Select the **bell icon** in the navigation bar, then select **Add alert**.
-2. Under **Security**, select **Use template** on the **Proximity** card. The Create proximity page opens.
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-monitoring-view1.png" alt="" width="563"></div>
+
+2. Select **Add alert** in the top right corner. The Configure alerts page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
+
+3. Under **Security**, select **Use template** on the **Proximity** card. The Create proximity page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-template.png" alt="" width="563"></div>
 
-3. Enter a name in the **Alert name** field, for example "Vehicle perimeter" or "Restricted area proximity."
-4. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
+4. Enter a name in the **Alert name** field, for example "Vehicle perimeter" or "Restricted area proximity."
+5. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="262"></div>
 
@@ -38,29 +35,29 @@ Any custom objects you've already created appear below the built-in types, tagge
 
 If you need to detect a specific object that isn't in the list, then select **+ New custom object**. The Create custom object dialog opens. The full process is covered in [Create a custom object](proximity.md#create-a-custom-object) below.
 
-5. Select the **proximity behavior** field and choose how the objects relate:
+6. Select the **proximity behavior** field and choose how the objects relate:
 
 * **are close to each other**: Triggers when both objects are within a close physical distance.
 * **appear together**: Triggers when both objects appear in the same camera frame at the same time.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-behavior.png" alt="" width="563"></div>
 
-6. Select the duration counter and use the **−** and **+** controls to set how long the objects must remain in proximity before the alert triggers. The default is 0.
+7. Select the duration counter and use the **−** and **+** controls to set how long the objects must remain in proximity before the alert triggers. The default is 0.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-counter.png" alt="" width="242"></div>
 
-7. Select the time unit field and choose **seconds**, **minutes**, or **hours**.
+8. Select the time unit field and choose **seconds**, **minutes**, or **hours**.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/tampering-duration.png" alt="" width="242"></div>
 
-8. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
+9. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
 
-9. Select the **time** field to set when the alert is active. The schedule options are covered in [Configure alerts](../../configure-alerts.md#create-an-alert).
-10. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. These settings are covered in [Configure alerts](../../configure-alerts.md#create-an-alert).
-11. Select **Then** to choose the action Lumana takes when the alert triggers. The available actions are covered in [Alert actions](../../alert-actions.md).
-12. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.
+10. Select the **time** field to set when the alert is active. [Configure alerts](../../configure-alerts.md#schedule) covers the schedule options.
+11. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../configure-alerts.md#default-configuration) covers these settings.
+12. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. The available actions are covered in [Alert actions](../../alert-actions.md).
+13. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.
 
 ## Create a custom object
 

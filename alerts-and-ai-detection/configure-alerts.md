@@ -31,6 +31,8 @@ This page covers how to create, manage, and delete alerts. Each alert type and w
 * Select individual cameras by checking the box next to each one.
 * Select **Select** to confirm your selection and close the modal.
 
+<a id="schedule"></a>
+
 Selecting the **time** field opens a schedule dropdown that controls when the alert is active. Use the **Search schedules...** field at the top to find a saved schedule by name.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-time-dropdown.png" alt="" width="249"></div>
@@ -58,6 +60,8 @@ a. Enter a name in the **Schedule name** field. b. Select a day row in the weekl
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-time-picker.png" alt="" width="344"></div>
 
 c. Set the **From** and **To** times for when the alert should be active. d. Select the days to repeat this time window using the **Repeat on** day selector. e. Select **Done** to apply the time window to the selected days. f. Select **Create schedule** to save the schedule. It appears in the time dropdown for all future alerts.
+
+<a id="default-configuration"></a>
 
 7. Optionally, select **default configuration** to open the Advanced configuration panel. This panel controls how the alert is displayed, sets its confidence and priority levels, configures a blocking period to reduce alert fatigue, and lets you customise the alert message with dynamic data fields. If you skip this step, the alert uses the default settings.
 
@@ -109,6 +113,8 @@ The alert message is the notification text that appears when the alert triggers.
 * **Tags**: Labels you can attach to this alert for filtering in the monitoring view.
 
 Select **Done** to close the panel and return to the alert rule. The link updates from **default configuration** to **custom configuration** to confirm your changes were applied.
+
+<a id="then"></a>
 
 8. Select **Then** to choose the action Lumana takes when the alert triggers. Select one action from the list.
 
