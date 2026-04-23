@@ -74,23 +74,23 @@ The highlight color control applies a background color to selected text. It uses
 
 ### Alignment
 
-The alignment control sets how text is positioned horizontally. Select it to choose an option.
+The alignment control sets how text is positioned horizontally. Select it to choose between left, center, right, and justify.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-text-alignment.png" alt="" width="563"></div>
 
-The options are left, center, right, and justify.
-
-### Lists
+Lists
 
 The bullet list and numbered list controls each have a dropdown with multiple style options.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-text-bullet-list.png" alt="" width="563"></div>
 
-Bullet list styles: **Disc**, **Circle**, and **Square**.
+Available bullet list styles: **Disc**, **Circle**, and **Square**.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-text-numbered-list.png" alt="" width="563"></div>
 
-Numbered list styles: 1.2.3., 01.02.03., a.b.c., and A.B.C. Select **List properties** to adjust list settings.
+Available numbered list styles: 1. 2. 3., 01. 02. 03., a. b. c., and A. B. C.
+
+Select **List properties** to adjust list settings.
 
 ### Link
 

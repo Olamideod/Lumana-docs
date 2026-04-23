@@ -8,7 +8,7 @@ The Image widget displays a static image on your dashboard. Use it to add a floo
 
 Before uploading, confirm that your file is a PNG or JPG and that its name contains only letters, numbers, and underscores.
 
-1. While [creating your dashboard](https://app.gitbook.com/o/j4bw8XbXYB2hlb70Ntmo/s/5hwf4HoJ2sd0Q0VlFYar/dashboards/create-and-manage-dashboards/~/comments#create-a-dashboard), or while it is in [edit mode](../create-and-manage-dashboards.md#edit-a-dashboard), select **Add widget** in the top right corner. Select **Image** from the list that appears. The configuration dialog opens.
+1. While [creating your dashboard](../create-and-manage-dashboards.md#create-a-dashboard), or while it is in [edit mode](../create-and-manage-dashboards.md#edit-a-dashboard), select **Add widget** in the top right corner. Select **Image** from the list that appears. The configuration dialog opens.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-image-dialog.png" alt="" width="375"></div>
 
@@ -32,7 +32,7 @@ With a valid file name, the upload proceeds normally.
 
 The Image widget accepts PNG and JPG files only. SVG, GIF, WebP, and other formats are not supported. If your image is in an unsupported format, convert it to PNG or JPG before uploading.
 
-## Troubleshoot upload issues
+## Troubleshooting upload issues
 
 If the upload area turns red after you drop or select a file:
 
