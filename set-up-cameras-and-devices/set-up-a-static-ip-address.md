@@ -66,7 +66,10 @@ Use this method if you want to manually assign a static IP on the camera without
 Assigning an IP address inside the DHCP pool without a reservation can cause duplicate IP conflicts.
 {% endhint %}
 
-On the camera, follow the same workflow as in [Scenario 3: Your network lacks a DHCP server](#scenario-3-your-network-lacks-a-dhcp-server). If you can already open the camera’s local web UI, continue from **Setup → Network**, switch to **Static IP**, enter **IP address**, **subnet mask**, and **gateway**, then save. If you cannot reach the camera yet, start at the beginning of that scenario and stop when the static values are saved.
+On the camera, use the same workflow as [Scenario 3: Your network lacks a DHCP server](#scenario-3-your-network-lacks-a-dhcp-server):
+
+- If you **can** open the camera’s local web UI, go to **Setup → Network**, switch to **Static IP**, enter **IP address**, **subnet mask**, and **gateway**, then save.
+- If you **cannot** reach the camera yet, start at step 1 of that scenario and work through until the static values are saved.
 
 ### Scenario 3: Your network lacks a DHCP server
 
