@@ -32,22 +32,17 @@ You likely **do not** have DHCP if every device uses manually entered IPs and no
 
 ### Scenario 1: Your network includes a DHCP server and you wish to assign a permanent IP address
 
-1. Connect the camera to your network
-2. Find the camera's IP address and MAC address
-   - Open the Lumana app
-   - Go to the **Devices** list
-   - Add the camera to your organization
-3. Find the camera's IP address and MAC address:
-   - In Lumana, open the camera from the **Devices** list.
-   - Use the **IP address** shown for the camera.
+1. Connect the camera to your network.
+2. In Lumana, collect the **IP address** and **MAC address** you will map on the DHCP server. If the camera is not listed under **Devices** yet, add it to your organization first.
+   - From **Devices**, open the camera and note the **IP address**.
 
  <div align="center" data-with-frame="true"><img src="../.gitbook/assets/devices-list-ip-address.png" alt="Devices list showing the camera IP address."></div>
 
-   - Open **Camera** -> **Edit camera** -> **Details** to copy the **MAC address**.
+   - Open **Edit camera** → **Details** and copy the **MAC address**.
 
  <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-details-mac-address.png" alt="Camera details page showing the MAC address field."></div>
 
-4. Configure DHCP reservation on your router using the MAC address.
+3. Configure DHCP reservation on your router using the MAC address.
 The camera keeps the same IP address after reboots or power interruptions when the server always offers that lease to this MAC address.
 Refer to your router documentation for instructions.
 
