@@ -15,13 +15,13 @@ Lumana uses API keys to authenticate event tag POST requests. You'll use the key
 1. Open **Organization** and select **Organization settings**.
 2. In the left menu, select **API keys**.
 
-<div align="center"><img src="../.gitbook/assets/org-settings-api-keys-navigation.png" alt="Organization settings navigation with API keys selected in the left menu." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/org-settings-api-keys-navigation.png" alt="Organization settings navigation with API keys selected in the left menu." width="300"></div>
 
 3. Select **Generate Key**.
 4. Enter a name for the key, set an expiration date, and select **Save**.
 5. Copy the secret that appears and store it securely. You'll paste it into your API client as the Bearer token. Lumana won't show it again.
 
-<div align="center"><img src="../.gitbook/assets/org-settings-api-keys-list.png" alt="API keys list showing a generated key with its name, expiration date, and creation date." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/org-settings-api-keys-list.png" alt="API keys list showing a generated key with its name, expiration date, and creation date." width="563"></div>
 
 {% hint style="warning" %}
 Keep your API key secure. Anyone who has it can post events to your organization until it expires or you revoke it.
@@ -36,7 +36,7 @@ An event tag is a template that defines the structure of events you'll post. Eac
 1. Go to **Alerts** and select **Monitoring**.
 2. In the filter row, open the **Tags** control and select **Manage tags**.
 
-<div align="center"><img src="../.gitbook/assets/alerts-monitoring-tags-manage-tags.png" alt="Tags filter in the Monitoring view with Manage tags option highlighted." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/alerts-monitoring-tags-manage-tags.png" alt="Tags filter in the Monitoring view with Manage tags option highlighted." width="563"></div>
 
 Lumana opens the **Event tags** page in **Organization database**.
 
@@ -44,9 +44,9 @@ Lumana opens the **Event tags** page in **Organization database**.
 
 If no tags exist yet, the page shows a **Create event tags** button. Select it to open the creation form.
 
-<div align="center"><img src="../.gitbook/assets/event-tags-empty-state.png" alt="Event tags empty state showing No event tags yet and a Create event tags button." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/event-tags-empty-state.png" alt="Event tags empty state showing No event tags yet and a Create event tags button." width="563"></div>
 
-<div align="center"><img src="../.gitbook/assets/create-event-tag-placeholders.png" alt="Create event tag form showing Event tag name, Video length, and field rows with Name and Type columns." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/create-event-tag-placeholders.png" alt="Create event tag form showing Event tag name, Video length, and field rows with Name and Type columns." width="563"></div>
 
 Fill in the form:
 
@@ -55,7 +55,7 @@ Fill in the form:
 * **Name** (field column): The key name for each piece of data you'll send in the API. Use clear, stable names that match what your integration will send, for example "PalletID" or "RegisterNumber."
 * **Type** (field column): The data type for that field. Choose **Text** for strings, **Number** for whole numbers, **Decimal** for fractional numbers, or **True/False** for booleans.
 
-<div align="center"><img src="../.gitbook/assets/create-event-tag-field-types.png" alt="Field type picker showing Text, Number, Decimal, and True/False options." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/create-event-tag-field-types.png" alt="Field type picker showing Text, Number, Decimal, and True/False options." width="563"></div>
 
 Select **Add field** to add more rows. You can add up to 10 fields per tag. Select **Create event tag** when you're done.
 
@@ -63,7 +63,7 @@ Select **Add field** to add more rows. You can add up to 10 fields per tag. Sele
 
 After saving, Lumana returns you to the Event tags list. The list shows each tag's **Name** and **Event type ID**. The Event type ID is what you'll send as `eventTypeId` in every API POST for this tag. Copy it and keep it with your integration configuration.
 
-<div align="center"><img src="../.gitbook/assets/event-tags-list.png" alt="Event tags list showing Name and Event type ID columns with one tag entry." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/event-tags-list.png" alt="Event tags list showing Name and Event type ID columns with one tag entry." width="563"></div>
 
 ## Step 3: POST event data
 
@@ -120,7 +120,7 @@ curl --location 'https://access.lumana.ai/v1/events-tag/insert' \
 
 You can send a test POST directly from the Lumana API reference without leaving your browser. Open [Insert an event tag in the Lumana API reference](../api-reference/rest-apis/lumana-api.md) and select **Test it** at the bottom right of the cURL block. Enter your Bearer token (API key) under **Authentication**, replace the body values with your real orgId, cameraId, eventTypeId, and a current timestamp, then select **Send**. A successful request returns a **200 OK** response with the following body:
 
-<div align="center"><img src="../.gitbook/assets/lumana-event-tag-test.png" alt="API reference test panel showing a successful event tag request and response." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/lumana-event-tag-test.png" alt="API reference test panel showing a successful event tag request and response." width="563"></div>
 
 If you prefer to test locally, use Postman instead.
 
@@ -163,8 +163,8 @@ After you verify that Event Tag data is arriving correctly, you can use it in al
 
 You can build alerts that react to event tag data in two ways.
 
-- **Event tag alert:** Fires when an event tag is received. Select the **Event tag** alert type, choose the event tag and camera, set a trigger delay, configure actions, and create the alert.
-- **Event validation alert:** Adds an object detection check on top of an event tag. For example, require a person to be present or absent for a set duration when the event arrives. Select the event tag, camera, appearance or absence, object type, duration, and actions, then create the alert.
+* **Event tag alert:** Fires when an event tag is received. Select the **Event tag** alert type, choose the event tag and camera, set a trigger delay, configure actions, and create the alert.
+* **Event validation alert:** Adds an object detection check on top of an event tag. For example, require a person to be present or absent for a set duration when the event arrives. Select the event tag, camera, appearance or absence, object type, duration, and actions, then create the alert.
 
 For full configuration steps, use the [Event tag alert guide](../alerts-and-ai-detection/alert-types/integrations/event-tag.md).
 
