@@ -23,7 +23,9 @@ Lumana uses API keys to authenticate event tag POST requests. You'll use the key
 
 <div align="center"><img src="../.gitbook/assets/org-settings-api-keys-list.png" alt="API keys list showing a generated key with its name, expiration date, and creation date." width="480"></div>
 
-> **Note:** Keep your API key secure. Anyone who has it can post events to your organization until it expires or you revoke it.
+{% hint style="warning" %}
+Keep your API key secure. Anyone who has it can post events to your organization until it expires or you revoke it.
+{% endhint %}
 
 ## Step 2: Create an event tag
 
@@ -129,7 +131,9 @@ If you prefer to test locally, use Postman instead.
 3. Under **Body**, select **raw** and **JSON**. Paste your JSON body and replace all placeholders.
 4. Select **Send**. A successful ingest returns a `2xx` response.
 
-> **Note:** Use a current timestamp in milliseconds. You can run `Date.now()` in a browser console to get the current value. If your timestamp falls outside the time range set on the dashboard widget, the event won't appear in the chart.
+{% hint style="info" %}
+Use a current timestamp in milliseconds. You can run `Date.now()` in a browser console to get the current value. If your timestamp falls outside the time range set on the dashboard widget, the event won't appear in the chart.
+{% endhint %}
 
 ## Step 4: Verify the data
 

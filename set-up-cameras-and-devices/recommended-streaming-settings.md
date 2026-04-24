@@ -39,7 +39,9 @@ Lumana uses these streams for:
 
 We recommend configuring at least two streams to balance performance, storage, and bandwidth.
 
-> If your camera only supports one stream, you will need to balance resolution, storage retention, and live view performance.
+{% hint style="info" %}
+If your camera only supports one stream, you will need to balance resolution, storage retention, and live view performance.
+{% endhint %}
 
 ## Primary stream settings
 
@@ -118,7 +120,9 @@ No additional setup is required.
 
 When adding supported camera brands, Lumana Core automatically applies optimized configurations.
 
-> **Note:** While some of the parameters have common terminology (e.g. compression, resolution and etc.), other vendors use different terminology for camera parameters. The following table outlines the custom settings per brand:
+{% hint style="info" %}
+While some of the parameters have common terminology (for example, compression and resolution), other vendors use different terminology for camera parameters. The following table outlines the custom settings per brand:
+{% endhint %}
 
 |                 | Lumana | Axis | Hikvision | Uniview |
 | --------------- | ------ | ---- | --------- | ------- |

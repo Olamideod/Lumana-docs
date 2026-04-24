@@ -27,7 +27,9 @@ Lumana has been tested with the following camera brands:
 - Mobotix
 - Pelco, and more...
 
-> If your camera is not listed, it may still work if it supports ONVIF or RTSP.
+{% hint style="info" %}
+If your camera is not listed, it may still work if it supports ONVIF or RTSP.
+{% endhint %}
 
 Please contact [support@lumix.ai](mailto:support@lumix.ai) if you don’t find your camera model on this list.
 

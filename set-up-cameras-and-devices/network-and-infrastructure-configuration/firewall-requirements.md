@@ -58,7 +58,9 @@ Instead of managing URL-based firewall rules, you may whitelist IPs directly.
 
    Add the returned IPs to your firewall’s allowlist.
 
-> **Note:** Lumana infrastructure IPs may change periodically. Annual review and update is recommended.
+{% hint style="info" %}
+Lumana infrastructure IPs may change periodically. Annual review and update is recommended.
+{% endhint %}
 
 ### NTP (time synchronization)
 

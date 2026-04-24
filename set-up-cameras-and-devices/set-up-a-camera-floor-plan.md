@@ -12,7 +12,9 @@ Key Benefits:
 
 ✔ Scalable & Versatile – Ideal for large facilities and multi-site operations.
 
-> **Common use cases:** Offices, malls, hospitals, warehouses, and schools.
+{% hint style="info" %}
+**Common use cases:** Offices, malls, hospitals, warehouses, and schools.
+{% endhint %}
 
 ### Use the camera floor plan feature
 

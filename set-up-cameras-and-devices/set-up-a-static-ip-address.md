@@ -1,8 +1,11 @@
 # Set up a static IP address
 
-Assign a static IP address so your camera stays reachable and does not change after reboots or network interruptions.
+Assign a static IP address so your camera keeps the **same** IP after reboots or when **DHCP** would otherwise supply a new address.
+Lumana and other systems can keep using that one address for the camera.
 
-> **Note:** Do not assign a static IP that falls inside the **Dynamic Host Configuration Protocol (DHCP)** pool unless you use a reservation for that address. Otherwise you can get IP conflicts.
+{% hint style="warning" %}
+Do not assign a static IP that falls inside the **Dynamic Host Configuration Protocol (DHCP)** pool unless you use a reservation for that address. Otherwise you can get IP conflicts.
+{% endhint %}
 
 **DHCP** expands to **Dynamic Host Configuration Protocol**. That service assigns each device an IP address automatically, usually from a range your router, firewall, or Lumana Core manages. Devices can then communicate without manual IP entry on each device.
 
@@ -59,7 +62,9 @@ Use this method if you want to manually assign a static IP on the camera without
 - Identify your network’s DHCP range
 - Choose an IP address outside that range
 
-> **Note:** Assigning an IP address inside the DHCP pool without a reservation can cause duplicate IP conflicts.
+{% hint style="warning" %}
+Assigning an IP address inside the DHCP pool without a reservation can cause duplicate IP conflicts.
+{% endhint %}
 
 On the camera, follow the same workflow as in [Scenario 3: Your network lacks a DHCP server](#scenario-3-your-network-lacks-a-dhcp-server). If you can already open the camera’s local web UI, continue from **Setup → Network**, switch to **Static IP**, enter **IP address**, **subnet mask**, and **gateway**, then save. If you cannot reach the camera yet, start at the beginning of that scenario and stop when the static values are saved.
 
@@ -76,7 +81,9 @@ If your network does not have a DHCP server, you will need to connect to the cam
 
 1. If your device is not receiving an IP address automatically, assign a temporary static IP address on the same subnet as the camera (for example, `192.168.1.10` with subnet mask `255.255.255.0`).
 
-> **Note:** If needed, refer to your computer or operating system documentation for instructions on setting a temporary static IP address.
+{% hint style="info" %}
+If needed, refer to your computer or operating system documentation for instructions on setting a temporary static IP address.
+{% endhint %}
 
 2. Open a web browser on a device connected to the same network.
 

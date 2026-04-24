@@ -32,7 +32,9 @@ Use Camera VPN to securely access your camera’s native interface through Luman
 
 5. Configure camera settings as needed.
 
-> The available settings depend on the camera manufacturer. Refer to the manufacturer’s documentation for details.
+{% hint style="info" %}
+The available settings depend on the camera manufacturer. Refer to the manufacturer’s documentation for details.
+{% endhint %}
 
 ## SIP configuration (Check Point router)
 

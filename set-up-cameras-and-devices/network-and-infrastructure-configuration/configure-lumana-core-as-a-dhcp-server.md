@@ -2,7 +2,9 @@
 
 Lumana Core can function as a DHCP server, allowing it to dynamically assign IP addresses to connected devices on its network. This feature is supported on Ethernet 2, enabling automated network management without requiring manual IP address configuration for each device.
 
-> **Note:** Use this feature when you want Lumana Core to assign IP addresses to devices connected on Ethernet 2.
+{% hint style="info" %}
+Use this feature when you want Lumana Core to assign IP addresses to devices connected on Ethernet 2.
+{% endhint %}
 
 ## Key DHCP server capabilities
 

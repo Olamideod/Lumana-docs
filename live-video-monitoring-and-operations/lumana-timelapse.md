@@ -24,7 +24,9 @@ You can extend timelapse retention up to 30 days when you need a longer review w
 
    The new retention setting applies going forward.
 
-   > **Note:** Once you increase retention, additional snapshots begin collecting from that point. You must wait for time to pass before you can generate longer timelapse videos.
+{% hint style="info" %}
+Once you increase retention, additional snapshots begin collecting from that point. You must wait for time to pass before you can generate longer timelapse videos.
+{% endhint %}
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-retention-settings.png" alt="Edit selected cameras dialog showing snapshot retention settings for timelapse."></div>
 

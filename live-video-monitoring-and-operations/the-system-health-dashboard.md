@@ -49,7 +49,9 @@ Use the status indicators to identify which part of the camera workflow needs at
 - **Substream:** Supports storage retention and smart storage. If a substream is not configured, then this indicator may not appear. If it is unhealthy or offline, storage may be affected.
 - **Trained:** Shows the status of the camera's AI optimization cycle. This process runs automatically and usually requires no action. An unhealthy status can mean the camera was recently added and is still completing its first training cycle. It can also mean another training cycle is due.
 
-> **Note:** If the **Trained** indicator stays unhealthy and you are not sure why, contact your Customer Success Manager.
+{% hint style="info" %}
+If the **Trained** indicator stays unhealthy and you are not sure why, contact your Customer Success Manager.
+{% endhint %}
 
 ## Next steps
 

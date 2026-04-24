@@ -21,7 +21,9 @@ Use local streaming when the viewing device can reach Lumana Core directly on th
 - Direct access to the Lumana Core local IP.
 - No proxy between the client and Lumana Core.
 
-> **Note:** If a camera uses H.265 and the viewing browser or device does not support H.265, then medium-quality (MQ) local streaming may work while high-quality (HQ) local streaming does not.
+{% hint style="info" %}
+If a camera uses H.265 and the viewing browser or device does not support H.265, then medium-quality (MQ) local streaming may work while high-quality (HQ) local streaming does not.
+{% endhint %}
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-local-streaming-diagram.png" alt="Diagram showing local streaming from Lumana Core to the viewing device through the local network."></div>
 

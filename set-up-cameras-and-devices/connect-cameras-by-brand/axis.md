@@ -41,7 +41,9 @@ Choose the connection method that fits your setup:
 * **ONVIF:** Useful when you need a standards-based connection, including some PTZ use cases.
 * **New profile:** Useful when you do not want to use the admin account directly and want to manage access separately.
 
-> **Note:** Using reduced-permission accounts may limit some functionality in Lumana.
+{% hint style="info" %}
+Using reduced-permission accounts may limit some functionality in Lumana.
+{% endhint %}
 
 Before connecting the camera:
 

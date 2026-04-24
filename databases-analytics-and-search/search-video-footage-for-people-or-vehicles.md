@@ -6,7 +6,9 @@ Use Smart Search to find people and vehicles across your cameras by time range, 
 
 Make sure you can open **Search** from the main navigation and select the cameras and time range you need. If you plan to filter by license plate or make, model, and color (MMC), those capabilities must be enabled for your organization.
 
-> **Note:** License plate recognition (LPR) and MMC require enablement. For setup steps, see [Enable LPR and MMC in Lumana](https://support.lumana.ai/hc/en-us/articles/11892546981138).
+{% hint style="info" %}
+License plate recognition (LPR) and MMC require enablement. For setup steps, see [Enable LPR and MMC in Lumana](https://support.lumana.ai/hc/en-us/articles/11892546981138).
+{% endhint %}
 
 ## Open Search and set the scope
 
