@@ -53,7 +53,7 @@ When the layout is ready, [save your changes](create-and-manage-dashboards.md#sa
 
 You can change a widget's configuration at any time while the dashboard is in edit mode.
 
-1. Select the ![](<../.gitbook/assets/image (1).png>) (Edit) icon on the widget you want to change.
+1. Select the ![](<../.gitbook/assets/image (1) (1).png>) (Edit) icon on the widget you want to change.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-edit-widget.png" alt="" width="563"></div>
 
@@ -92,7 +92,7 @@ Deleting a widget is permanent. There's no way to recover it after removal.
 
 Once a dashboard has been saved, you need to go into edit mode if you want to make any new changes to it. These changes can include moving widgets, resizing them, and updating their settings.
 
-1. Select the ![](<../.gitbook/assets/image (1).png>) (Edit) icon in the top right corner. The tooltip reads **Edit dashboard**.
+1. Select the ![](<../.gitbook/assets/image (1) (1).png>) (Edit) icon in the top right corner. The tooltip reads **Edit dashboard**.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-edit-dashboard-tooltip.png" alt="" width="563"></div>
 
@@ -100,7 +100,7 @@ The canvas enters edit mode. From here, you can make the following changes:
 
 * [**Add widgets**](create-and-manage-dashboards.md#add-a-widget): Select **Add widget** in the top right to open the widget list and place new widgets on the grid.
 * [**Arrange or resize widgets**](create-and-manage-dashboards.md#arrange-or-resize-a-widget): Drag any widget to a new position on the grid, or drag the edge or corner of a widget to change its size and shape.
-* [**Edit widgets**](create-and-manage-dashboards.md#edit-a-widget): Select an individual widget's ![](<../.gitbook/assets/image (1).png>) (Edit) icon to open its settings dialog.
+* [**Edit widgets**](create-and-manage-dashboards.md#edit-a-widget): Select an individual widget's ![](<../.gitbook/assets/image (1) (1).png>) (Edit) icon to open its settings dialog.
 * [**Delete widgets**](create-and-manage-dashboards.md#delete-a-widget): Select the ![](<../.gitbook/assets/image (2).png>) (Delete) icon on an individual widget to remove it from the dashboard.
 
 {% hint style="warning" %}

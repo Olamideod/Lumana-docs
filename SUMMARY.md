@@ -12,7 +12,34 @@
   * [Isolated network installation](getting-started/set-up-lumana-core/isolated-network-installation.md)
   * [Dual-network installation](getting-started/set-up-lumana-core/dual-network-installation.md)
 * [Connect a camera](getting-started/connect-a-camera.md)
-* [Use the Lumana mobile app](getting-started/use-the-lumana-mobile-app.md)
+
+## The Lumana mobile app
+
+* [Install the app](the-lumana-mobile-app/use-the-lumana-mobile-app.md)
+* [Navigation](the-lumana-mobile-app/navigation.md)
+* [View live feed from a single camera](the-lumana-mobile-app/view-live-feed-from-a-single-camera.md)
+* [View feeds from multiple cameras](the-lumana-mobile-app/view-feeds-from-multiple-cameras/README.md)
+  * [Create a permanent video wall](the-lumana-mobile-app/view-feeds-from-multiple-cameras/create-a-permanent-video-wall.md)
+* [Access camera control](the-lumana-mobile-app/access-camera-control/README.md)
+  * [Share a snapshot or recording](the-lumana-mobile-app/access-camera-control/share-a-snapshot-or-recording.md)
+  * [Share a camera's live feed](the-lumana-mobile-app/access-camera-control/share-a-cameras-live-feed.md)
+  * [Play back recorded footage](the-lumana-mobile-app/access-camera-control/play-back-recorded-footage.md)
+  * [Save footage to the archives](the-lumana-mobile-app/access-camera-control/save-footage-to-the-archives.md)
+  * [Push-to-talk](the-lumana-mobile-app/access-camera-control/push-to-talk.md)
+  * [PTZ (pan, tilt, zoom) control](the-lumana-mobile-app/access-camera-control/ptz-pan-tilt-zoom-control.md)
+  * [Lock or unlock doors in view](the-lumana-mobile-app/access-camera-control/lock-or-unlock-doors-in-view.md)
+  * [Check camera connection status and history](the-lumana-mobile-app/access-camera-control/check-camera-connection-status-and-history.md)
+* [Monitor alerts](the-lumana-mobile-app/monitor-alerts.md)
+* [Search footage for people or objects](the-lumana-mobile-app/search-footage-for-people-or-objects.md)
+* [View archive footage](the-lumana-mobile-app/view-archive-footage.md)
+* [Settings](the-lumana-mobile-app/settings/README.md)
+  * [Notification settings](the-lumana-mobile-app/settings/notification-settings.md)
+  * [Set language](the-lumana-mobile-app/settings/set-language.md)
+  * [Change default camera selection screen](the-lumana-mobile-app/settings/change-default-camera-selection-screen.md)
+  * [Change critical alert sound](the-lumana-mobile-app/settings/change-critical-alert-sound.md)
+  * [Contact support](the-lumana-mobile-app/settings/contact-support.md)
+  * [Sign out](the-lumana-mobile-app/settings/sign-out.md)
+  * [Delete your account](the-lumana-mobile-app/settings/delete-your-account.md)
 
 ## Concepts
 
