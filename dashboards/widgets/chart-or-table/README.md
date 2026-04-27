@@ -58,19 +58,19 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
 This dropdown only appears when **Datasource** is set to **Objects**.
 {% endhint %}
 
-    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-metric.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-metric.png" alt="" width="563"></div>
 
-    * **Appearance**: Counts how many times each object is detected in the camera's view.
-    * **Dwell Time**: Measures how long each object remains in the camera's view, in seconds.
+* **Appearance**: Counts how many times each object is detected in the camera's view.
+* **Dwell Time**: Measures how long each object remains in the camera's view, in seconds.
 
-    The third dropdown, filter, controls what the widget is measuring:
+The third dropdown, filter, controls what the widget is measuring:
 
-    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-group.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-group.png" alt="" width="563"></div>
 
-    * **All objects / All alerts / All event tags**: Includes every item in the count.
-    * **Group**: Includes every item that fits in one or more categories that you select. For example, if the widget is counting objects, you can choose categories such as Person, Shopping cart, and Container. If the widget is counting alerts, you can choose categories such as Gun brandished, Traffic control, or License plate. Not available when **Datasource** is set to **Event tags**.
-    * **Individual**: Includes only a specific item. For Objects: a specific detected subject, such as a specific person or vehicle. For Alerts: a named alert rule. For Event tags: a specific event tag.
-    * **Additional fields**: Filters by field-level values from your API POST requests. Only available when **Datasource** is set to **Event tags**.
+* **All objects / All alerts / All event tags**: Includes every item in the count.
+* **Group**: Includes every item that fits in one or more categories that you select. For example, if the widget is counting objects, you can choose categories such as Person, Shopping cart, and Container. If the widget is counting alerts, you can choose categories such as Gun brandished, Traffic control, or License plate. Not available when **Datasource** is set to **Event tags**.
+* **Individual**: Includes only a specific item. For Objects: a specific detected subject, such as a specific person or vehicle. For Alerts: a named alert rule. For Event tags: a specific event tag.
+* **Additional fields**: Filters by field-level values from your API POST requests. Only available when **Datasource** is set to **Event tags**.
 
 {% hint style="info" %}
 When **Datasource** is set to **Event tags**, the Y-axis label in the preview shows the last metric you set for **Objects**. The data is correct, but only the label is affected. To update the label, switch to **Objects**, change the metric, then switch back to **Event tags**.
