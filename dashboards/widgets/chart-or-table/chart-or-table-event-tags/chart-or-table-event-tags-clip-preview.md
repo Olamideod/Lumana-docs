@@ -1,6 +1,6 @@
 # Event tag clip preview
 
-When you click a data point in an Event tags chart, Lumana opens the Event tag records view for that period. Selecting a result from that view opens the clip preview window, where you can review the video footage, navigate between events, and manage archives.
+When you select a data point in an Event tags chart, Lumana opens the Event tag records view for that period. Selecting a clip from that view opens the clip preview window, so you can review the video footage, navigate between events, and manage archives.
 
 This page covers everything available in the clip preview window. To get here, follow the steps in [Event tags](./) first.
 
@@ -25,10 +25,10 @@ A shared control bar sits below the viewer on all three tabs.
 <div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-event-tags-clip-playback-controls.png" alt="" width="222"></div>
 
 * **Previous alert** and **Next alert**: Move to the previous or next event in the records list.
-* **Play**: Starts video playback. If you're on the Images tab, selecting Play switches to the Video tab and begins playing. While playing, the same control acts as Pause.
+* **Play**: Starts video playback. If you're on the Images tab, then selecting Play switches to the Video tab and begins playing. While playing, the same control acts as Pause.
 * **Previous captured image** and **Next captured image**: Step backward or forward through the still frames captured for the current event.
 
-## Zoom, snapshot, and fullscreen
+## Adjust the view
 
 A floating toolbar appears over the feed with controls for adjusting the view.
 
@@ -38,15 +38,50 @@ A floating toolbar appears over the feed with controls for adjusting the view.
 * **Snapshot**: Saves the current frame to your device as a PNG file.
 * **Fullscreen**: Expands the viewer to fill the screen.
 
-## Archive, cameras, and layout
+## Save an archive, add cameras, and change the layout
 
 The toolbar on the right side of the tab row gives you three additional controls.
 
 <div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-event-tags-clip-preview-images-icons.png" alt="" width="563"></div>
 
-* **Create archive**: Opens the Create archive dialog. Enter a name, set the From and To time range, optionally add the clip to a case, then select **Create** to save the segment.
+* **Create archive**: Opens the Create archive dialog.
 
 <div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-event-tags-clip-create-archive.png" alt="" width="563"></div>
+
+   Fill in the dialog:
+
+   * **Name**: Enter a name for the archive.
+   * **From** and **To**: Set the time range for the segment. The fields pre-populate based on the clip. Select either field to open the date and time picker. Choose a date from the calendar, then set the hour, minute, and second using the scrollers. Select **Done** to apply.
+
+<div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-event-tags-clip-archive-date-picker.png" alt="" width="563"></div>
+   * **Duration**: Shows the length of the segment. Lumana calculates this automatically when you change **From** or **To**.
+   * **Add to case**: Link the archive to a case. Search for an existing case by name, select **+ Create** to create a new case, or select **Manage** to open the Cases page in Lumana.
+
+   Selecting **+ Create** opens the Create case dialog.
+
+<div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-event-tags-clip-create-case.png" alt="" width="563"></div>
+
+   Fill in the required fields (marked with \*):
+
+   * **Case Name**: The name of the case, for example "Warehouse break-in" or "PPE violation north entrance."
+   * **Description**: A summary of what the case covers, for example "Unauthorized access detected at the north entrance on March 31 at 3:47 PM."
+   * **Case start time**: The date and time the incident began, for example "2026-03-31 15:47 WAT."
+   * **Case end time**: The date and time the incident ended, for example "2026-03-31 16:00 WAT."
+   * **Address**: The location where the incident occurred, for example "123 Main Street, Warehouse A."
+   * **Category**: The category that determines the retention period for the case and all its data.
+
+   {% hint style="warning" %}
+   The retention period is set when the case is created and cannot be changed afterward. When the retention period ends, the case and all related data are permanently deleted.
+   {% endhint %}
+
+   The following fields are optional:
+
+   * **Record number**: An internal reference number for the case, for example "INC-2026-0341."
+   * **External incident number**: A reference number from an external system, for example "POL-4821."
+   * **Tags**: Labels you can attach to the case for filtering, for example "ppe-violation" or "unauthorized-access."
+   * **Protected from deletion**: Select this checkbox to prevent the case from being deleted.
+
+   Select **Save** to create the case. Lumana returns you to the Create archive dialog with the new case selected. Select **Create** to save the archive.
 
 * **Choose cameras**: Opens the Choose cameras dialog. Search by name or location, select individual cameras or **All cameras**, then select **Select** to add feeds to the preview.
 
@@ -62,9 +97,10 @@ After adding cameras and selecting a multi-tile layout, you can view several fee
 
 <div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-event-tags-clip-multi-camera-view.png" alt="" width="563"></div>
 
-## Video paused for inactivity
+## Resume a paused video
 
-If a video feed has been idle for a while, Lumana shows a short countdown before pausing to reduce bandwidth use. You can select **Keep playing** or **Pause video** during that prompt. After playback stops, a message appears on the tile with a **Resume video** button, select it to restart that feed.
+If a video feed has been idle for a while, then Lumana shows a short countdown before pausing to reduce bandwidth use. Select **Keep playing** to continue or **Pause video** to stop. After playback stops, a **Resume video** button appears on the tile. Select it to restart the feed.
 
-| <p><strong>Countdown before pause</strong></p><p><img src="../../../../.gitbook/assets/widget-event-tags-clip-video-inactivity-warning.png" alt=""></p> | <p><strong>Resume playback</strong></p><p><img src="../../../../.gitbook/assets/widget-event-tags-clip-video-inactivity-paused.png" alt=""></p> |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Countdown before pause** | **Resume playback** |
+|:---:|:---:|
+| <img src="../../../../.gitbook/assets/widget-event-tags-clip-video-inactivity-warning.png" alt=""> | <img src="../../../../.gitbook/assets/widget-event-tags-clip-video-inactivity-paused.png" alt=""> |
