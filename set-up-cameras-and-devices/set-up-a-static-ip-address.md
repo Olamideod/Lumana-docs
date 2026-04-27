@@ -1,6 +1,7 @@
 # Set up a static IP address
 
 Assign a static IP address so your camera keeps the **same** IP after reboots or when **DHCP** would otherwise supply a new address.
+
 Lumana and other systems can keep using that one address for the camera.
 
 {% hint style="warning" %}
@@ -15,22 +16,17 @@ Do not assign a static IP that falls inside the **Dynamic Host Configuration Pro
 
 You likely have DHCP if a **router, office firewall, or Lumana Core** on the network assigns addresses and your camera already shows an IP in Lumana without you setting a static address on the device. Check your router or Core admin UI for **DHCP** or **LAN** settings if you are unsure.
 
-You likely **do not** have DHCP if every device uses manually entered IPs and nothing on the subnet offers leases.
-
+You likely **do not** have DHCP if every device uses manually entered IPs and nothing on the subnet offers leases. Use **Scenario 3** in that case.
 
 ## Choose your setup scenario
 
-- **Scenario 1**: DHCP server present; use a **reservation** so the camera always gets the same IP.
-- **Scenario 2**: DHCP server present; **manual static on the camera** outside the lease pool (camera UI steps are in **Scenario 3**).
-- **Scenario 3**: **No** DHCP server; configure the camera’s IP in its local web UI.
+Follow the scenario below that matches your network.
 
-| Scenario | When to use it |
-| --- | --- |
-| **Scenario 1 — DHCP reservation** | You have a DHCP server. You leave the camera on **DHCP** and map its **MAC address** to a fixed IP on the DHCP server (router or Core). Prefer this when you want central control on the server and fewer changes on the camera. |
-| **Scenario 2 — Static IP outside the pool** | You have a DHCP server, but you set a **static IP on the camera** in a range **outside** the DHCP lease pool instead of using a reservation. Prefer this when policy or operations favor camera-side statics, or you do not want to maintain reservations. |
-| **Scenario 3 — No DHCP server** | Nothing on the network hands out leases. You open the camera’s local web interface and set **Static IP**, **subnet mask**, and **gateway** yourself. You may need a temporary static IP on your laptop to reach the camera’s factory or default address first. |
+- **Scenario 1: Your network includes a DHCP server and you want to assign a permanent IP address** — You keep the camera on **DHCP** and create a **reservation** on the router or Core so this camera always receives the same address.
+- **Scenario 2: Your network includes a DHCP server and you want a permanent static IP on the camera outside the DHCP pool** — You set a fixed **IP address**, **subnet mask**, and **gateway** on the camera, **outside** the DHCP pool.
+- **Scenario 3: Your network lacks a DHCP server** — No device hands out **DHCP** leases. You configure the camera’s IP in its local web interface (you may need a temporary static IP on your PC first).
 
-### Scenario 1: Your network includes a DHCP server and you wish to assign a permanent IP address
+### Scenario 1: Your network includes a DHCP server and you want to assign a permanent IP address
 
 1. Connect the camera to your network.
 2. In Lumana, collect the **IP address** and **MAC address** you will map on the DHCP server. If the camera is not listed under **Devices** yet, add it to your organization first.
@@ -48,9 +44,9 @@ Refer to your router documentation for instructions.
 
 Here's an example of [static mapping configuration](https://www.cisco.com/c/en/us/td/docs/ios/12_2sb/12_2sba/feature/guide/sbhcpsm.html) for Cisco routers.
 
-### Scenario 2: Assign a static IP outside the DHCP pool
+### Scenario 2: Your network includes a DHCP server and you want a permanent static IP on the camera outside the DHCP pool
 
-Use this method if you want to manually assign a static IP on the camera without a DHCP reservation, and the address sits **outside** the range your DHCP server may assign.
+You still have **DHCP** on the network, but you set a fixed address on the camera that sits **outside** the DHCP pool instead of using a reservation.
 
 **Before you begin**
 
@@ -68,7 +64,7 @@ On the camera, use the same workflow as [Scenario 3: Your network lacks a DHCP s
 
 ### Scenario 3: Your network lacks a DHCP server
 
-If your network does not have a DHCP server, you will need to connect to the camera via the local page and configure the IP address directly on the camera.
+If your network does not have a DHCP server, connect to the camera’s local page and configure the IP address on the camera.
 
 **Default camera settings (example)**
 
