@@ -12,24 +12,22 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
    * **Alerts**: Counts alert events triggered by your configured alert rules. Use this to monitor rule-triggered incidents. For example, how many safety helmet alerts occurred this week or which camera triggers the most trespassing alerts.
    * **Event tags**: Counts how often event tags were applied to video clips. Use this when your team tags clips and you want to measure how often. For example, how many clips were flagged for review this month, or whether tagging is consistent across shifts. Before using this datasource, you need at least one event tag configured and one successful POST to the Lumana API. See [Enhance your video data with Lumana Event Tags](../../../databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md).
 
-4. In **Visualization**, select a format from the icon row. The preview panel updates immediately when you switch types. For a description of each format, see [Visualization types](#visualization-types) below.
+4. Under **Visualization**, select a format from the icon row. The preview panel updates immediately when you switch types. For a description of each format, see [Visualization types](#visualization-types) below.
 
    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-icons.png" alt="" width="263"></div>
 
-   For all chart types, continue with step 5.
+   If you selected **Counter**, skip to step 6.
 
-   If you selected **Counter**, then steps 5 and 6 don't apply. Lumana replaces the X-axis and Y-axis with unlabelled dropdowns: aggregation (**Total**, **Average**, or **Max**; only **Total** is available for Alerts), metric (**Appearance** or **Dwell Time**, Objects datasource only), and filter (**All objects / All alerts / All event tags**, **Group**, **Individual**, or **Additional fields**). Set these, then skip to step 7.
+5. Set the parameters that define the **X-axis** in your chart. If you are creating a table, this defines how a **Group** of datapoints are combined into a row.
 
-   If you selected **Table**, then the X-axis becomes **Group** (how rows are organized: Time, Locations, Cameras, or Alert types) and the Y-axis becomes **Column** (the same aggregation, metric, and filter dropdowns as step 6). Set both, then continue with step 7.
-
-5. Set the **X-axis**. The first dropdown controls how data is grouped.
+   The first dropdown controls how data is grouped.
 
    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-xaxis-dropdown.png" alt="" width="563"></div>
 
    * **Time**: Groups data by time interval. When you select this, a second dropdown appears where you set the interval.
    * **Locations**: Groups data by location.
    * **Cameras**: Groups data by camera name.
-   * **Alert types**: Groups data by alert type. Only available when **Datasource** is set to **Alerts**. When you use this option, set the Y-axis filter to **Group** or **Individual** for reliable results. Setting the filter to **All alerts** may not display correctly.
+   * **Alert types**: Groups data by alert type. Only available when **Datasource** is set to **Alerts**.
 
    If you selected **Time**, use the second dropdown to set the interval.
 
@@ -41,9 +39,9 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
    * **Week**: Groups data by week.
    * **Month**: Groups data by month.
 
-6. Set the **Y-axis**. Aggregation controls how Lumana combines multiple data points into a single value for each group on the chart.
+7. Set the parameters that define the **Y-axis** in a chart, each **Column** in a table, or the single value that is displayed by a counter.
 
-   First dropdown, aggregation:
+   The first dropdown, aggregation, controls how the widget combines multiple data points into a single value for each group on the chart or table.
 
    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-aggregation.png" alt="" width="563"></div>
 
@@ -51,7 +49,7 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
    * **Average**: The average number of events per time unit across your selected range. Use this to compare activity rates rather than totals. Not available when **Datasource** is set to **Alerts**.
    * **Max**: The highest count in any single time unit. Not available when **Datasource** is set to **Alerts**.
 
-   Second dropdown, metric:
+   The second dropdown, metric, controls the type of measurement that the widget uses:
 
    {% hint style="info" %}
    This dropdown only appears when **Datasource** is set to **Objects**.
@@ -59,10 +57,10 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
 
    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-metric.png" alt="" width="563"></div>
 
-   * **Appearance**: Counts how many times the selected objects were detected in the frame.
-   * **Dwell Time**: Measures how long the selected objects remained in the camera's view, in seconds.
+   * **Appearance**: Counts how many times each object is detected in the camera's view.
+   * **Dwell Time**: Measures how long each object remains in the camera's view, in seconds.
 
-   Third dropdown, filter:
+   The third dropdown, filter, controls what the widget is measuring:
 
    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-group.png" alt="" width="563"></div>
 
@@ -75,7 +73,7 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
    When **Datasource** is set to **Event tags**, the Y-axis label in the preview shows the last metric you set for **Objects**. The data is correct, but only the label is affected. To update the label, switch to **Objects**, change the metric, then switch back to **Event tags**.
    {% endhint %}
 
-7. Select the **Cameras** field to choose which cameras contribute data.
+8. Select the **Cameras** field to choose which cameras contribute data.
 
    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-camera-field.png" alt="" width="375"></div>
 
@@ -88,7 +86,7 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
    If **Datasource** is set to **Event tags**, then select every camera you included as `cameraId` in your API POST requests. The widget only shows events for cameras selected here. If a camera isn't selected, then its events won't appear in the chart.
    {% endhint %}
 
-8. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget uses the dashboard's time filter.
+9. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget uses the dashboard's time filter.
 
    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-time-dropdown.png" alt="" width="375"></div>
 
@@ -96,7 +94,7 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
    Setting a widget-level time disconnects the widget from the dashboard time filter. To reconnect it, clear the **Time** field back to `---`.
    {% endhint %}
 
-9. Select **Add**. The widget appears on the dashboard canvas.
+10. Select **Add**. The widget appears on the dashboard canvas.
 
 When you select a data point in the chart, Lumana opens the records view for that period. For **Objects**, it shows the camera frames that contributed to the count. For **Alerts**, it shows alert cards with video clips and timestamps. For **Event tags**, it shows clip thumbnails with the field values from your POST request.
 
