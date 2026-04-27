@@ -2,7 +2,7 @@
 
 Event tags let you record structured events from external systems and tie them to camera footage by time and camera. You might use them to link a point-of-sale transaction, a warehouse scan, or an access control event to the exact moment it appeared on a camera. Once posted, events are searchable in Lumana and can be visualized in a Chart or table widget on any dashboard.
 
-This guide walks you through the full setup: generating an API key, creating an event tag, posting events to the Lumana API, and verifying the data. To add and configure the dashboard widget after setup, use the [Event tags dashboard widget guide](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/).
+This guide walks you through the full setup: generating an API key, creating an event tag, posting events to the Lumana API, and verifying the data. To add and configure the dashboard widget after setup, use the [Event tags dashboard widget guide](/broken/pages/Dsi4oiK829G9U1zTaJuJ).
 
 ## Before you begin
 
@@ -170,6 +170,6 @@ For full configuration steps, use the [Event tag alert guide](../alerts-and-ai-d
 
 ### Chart event tags on a dashboard
 
-Once your events are verified in Search, add a Chart or table widget to a dashboard to visualize the counts over time. Full configuration steps, including axis options, camera selection, time settings, and how to drill into clips from the chart, are covered in the [Event tags dashboard widget guide](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/).
+Once your events are verified in Search, add a Chart or table widget to a dashboard to visualize the counts over time. Full configuration steps, including axis options, camera selection, time settings, and how to drill into clips from the chart, are covered in the [Event tags dashboard widget guide](/broken/pages/Dsi4oiK829G9U1zTaJuJ).
 
 <div align="center"><img src="../.gitbook/assets/widget-event-tags-chart-tooltip.png" alt="Event tags chart tooltip showing event count for a selected time on the dashboard." width="480"></div>

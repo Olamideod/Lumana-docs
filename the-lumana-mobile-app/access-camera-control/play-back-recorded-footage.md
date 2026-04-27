@@ -16,7 +16,7 @@ On this screen, you can:
 
 1.  Tap on a camera's live feed and select the **Playback** tab.<br>
 
-    <figure><img src="../../.gitbook/assets/Screenshot_20260318_110620_Lumana (1).jpg" alt="" width="188"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot_20260318_110620_Lumana.jpg" alt="" width="188"><figcaption></figcaption></figure>
 2. Scroll the timeline to the time and date you want to review.
 3. Tap **When** to open the date and time picker. Scroll the wheels to select a date, hour, minute, and AM/PM, then tap **Save** to jump to that point.
 4. Use the **1x** control to adjust playback speed.
@@ -29,8 +29,6 @@ The **Playback** tab also has the following controls:
 * **Multi-cameras**: View up to four cameras simultaneously on the same screen.
 * **Album**: Browse all archived clips for the camera, filtered by time.
 
-<div align="center"><img src="../../.gitbook/assets/Screenshot_20260317_143604_Lumana (1).jpg" alt="" width="188"> <img src="../../.gitbook/assets/mobile-create-archive.png" alt="" width="188"></div>
-
-
+<div align="center"><img src="../../.gitbook/assets/Screenshot_20260317_143604_Lumana.jpg" alt="" width="188"> <img src="../../.gitbook/assets/mobile-create-archive.png" alt="" width="188"></div>
 
 <div align="center"><img src="../../.gitbook/assets/mobile-playback-multicamera.png" alt="" width="300"> <img src="../../.gitbook/assets/mobile-album.png" alt="" width="300"></div>

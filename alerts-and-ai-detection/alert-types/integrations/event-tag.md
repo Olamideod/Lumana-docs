@@ -18,4 +18,4 @@ In each case, the value is in connecting an external system event to the moment 
 
 ## API and dashboards
 
-To define event tags, send `eventTypeId` and payloads, and chart counts, see [Enhance your video data with Lumana Event Tags](../../../databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) and [Event tags (Chart or table)](../../../dashboards/widgets/chart-or-table/chart-or-table-event-tags/).
+To define event tags, send `eventTypeId` and payloads, and chart counts, see [Enhance your video data with Lumana Event Tags](../../../databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) and [Event tags (Chart or table)](/broken/pages/Dsi4oiK829G9U1zTaJuJ).

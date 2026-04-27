@@ -2,7 +2,7 @@
 
 When you select a data point in an Event tags chart, Lumana opens the Event tag records view for that period. Selecting a clip from that view opens the clip preview window, so you can review the video footage, navigate between events, and manage archives.
 
-This page covers everything available in the clip preview window. To get here, follow the steps in [Event tags](./) first.
+This page covers everything available in the clip preview window. To get here, follow the steps in [Event tags](/broken/pages/Dsi4oiK829G9U1zTaJuJ) first.
 
 ## Review the clip
 

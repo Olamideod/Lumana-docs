@@ -10,7 +10,7 @@ Tap **Walls** in the bottom navigation bar or in the left navigation bar to open
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Walls main page.jpg" alt="" width="188"><figcaption></figcaption></figure></div>
 
-&#x20;Tap the name of any wall on the list to open it. While the live view is open, you can rotate your device or tap the ![](<../../.gitbook/assets/image (31).png>) (**Full screen**) icon to expand the images for a closer look.&#x20;
+Tap the name of any wall on the list to open it. While the live view is open, you can rotate your device or tap the ![](<../../.gitbook/assets/image (31).png>) (**Full screen**) icon to expand the images for a closer look.
 
 <figure><img src="../../.gitbook/assets/Screenshot_20260426_115018_Lumana.jpg" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -31,21 +31,17 @@ This type of video wall is limited to a maximum of four cameras.
 {% columns %}
 {% column %}
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (15).png" alt="" width="188"><figcaption></figcaption></figure></div>
-
-
 {% endcolumn %}
 
 {% column %}
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Multi-cameras.png" alt="" width="188"><figcaption></figcaption></figure></div>
-
-
 {% endcolumn %}
 {% endcolumns %}
 
 2. The video feed from the current camera is made smaller and placed in the corner of a 2x2 grid. Each other cell in the grid displays a **+** icon. Tap this icon to bring up a list of the other cameras in your system.
 3. Tap on a camera's thumbnail, then tap **Select** to add it to that location in the grid. This screenshot, for example, shows a spontaneous video wall with three camera feeds and room for one more:
 
-<div align="center" data-full-width="false" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot_20260319_125041_Lumana (2).jpg" alt="" width="188"><figcaption></figcaption></figure></div>
+<div align="center" data-full-width="false" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot_20260319_125041_Lumana.jpg" alt="" width="188"><figcaption></figcaption></figure></div>
 
 4. If you want to add more cameras, repeat steps 2 and 3 for the other cells in the grid. You can also tap on a feed you already selected to replace its footage with that of another camera.
 
@@ -88,11 +84,10 @@ If you select a layout that supports fewer cameras than you have in your wall, t
 
 <figure><img src="../../.gitbook/assets/Screenshot_20260426_115018_Lumana.jpg" alt="" width="188"><figcaption></figcaption></figure>
 
-While the live view is open, you can rotate your device or tap the ![](<../../.gitbook/assets/image (31).png>) (**Full screen**) icon to expand the images for a closer look.&#x20;
+While the live view is open, you can rotate your device or tap the ![](<../../.gitbook/assets/image (31).png>) (**Full screen**) icon to expand the images for a closer look.
 
 To edit the live view, tap the ![](<../../.gitbook/assets/image (30).png>)(**Edit**) icon. There you can change the camera feeds or the layout as described in step 3 above.
 
 {% hint style="warning" %}
 The live view is not permanently saved; it only exists as long as you are viewing it.
 {% endhint %}
-

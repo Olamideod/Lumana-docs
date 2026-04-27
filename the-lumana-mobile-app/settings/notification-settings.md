@@ -10,7 +10,7 @@ To receive alert notifications on your phone, you need to enable them in two pla
 
 The bell icon in the top right controls your in-app notification settings. Tap it to open the notification panel.
 
-<div align="center"><img src="../../.gitbook/assets/Screenshot_20260317_152307_Lumana.jpg" alt="" width="188"> <figure><img src="../../.gitbook/assets/Screenshot_20260317_152315_Lumana (2).jpg" alt="" width="188"><figcaption></figcaption></figure></div>
+<div align="center"><img src="../../.gitbook/assets/Screenshot_20260317_152307_Lumana.jpg" alt="" width="188"> <figure><img src="../../.gitbook/assets/Screenshot_20260317_152315_Lumana.jpg" alt="" width="188"><figcaption></figcaption></figure></div>
 
 From the notification panel you can:
 
