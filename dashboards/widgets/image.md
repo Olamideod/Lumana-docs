@@ -1,6 +1,6 @@
 # Image
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Floor_map_image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/Floor_map_image.png" alt=""></div>
 
 The Image widget displays a static image on your dashboard. Use it to add a floor plan, site map, or reference photo. It helps put your camera data in context alongside the other widgets on your dashboard.
 

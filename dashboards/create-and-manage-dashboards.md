@@ -8,7 +8,7 @@ The Dashboards page shows all dashboards in your account, so it's where dashboar
 
 1. Select **Dashboards** in the left navigation bar, or go directly to `https://app.lumana.ai/dashboards/main`.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/lumana-dashboard.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumana-dashboard.png" alt="" width="563"></div>
 
 2. Select **Create dashboard** in the top right corner.
 
@@ -18,7 +18,7 @@ The Dashboards page shows all dashboards in your account, so it's where dashboar
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-empty-canvas (1).png" alt="" width="563"></div>
 
-4. With your dashboard created, you're ready to add widgets. Follow the instructions in the next section to add each widget. When you are done, click **Create dashboard** in the top right to permanently save your dashboard.
+4. With your dashboard created, you're ready to add widgets. Follow the instructions in the next section to add each widget. When you are done, select **Create dashboard** in the top right to permanently save your dashboard.
 
 ## Add a widget
 
@@ -131,7 +131,7 @@ Saving your dashboard locks in every change you made during the current edit ses
 2. Confirm that the dashboard leaves edit mode, which means your changes are saved.
 
 {% hint style="info" %}
-Widget configuration dialogs have their own **Add** or **Save** buttons. Those save the individual widget settings. You still need to click the dashboard's **Save** button to save the full layout and all session edits together.
+Widget configuration dialogs have their own **Add** or **Save** buttons. Those save the individual widget settings. You still need to select the dashboard's **Save** button to save the full layout and all session edits together.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -149,8 +149,8 @@ This action cannot be undone.
 1. Open the dashboard you want to delete.
 2. Select the ![](<../.gitbook/assets/image (2).png>) (Delete) icon in the top right corner, next to the edit icon.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/dashboard-delect.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/dashboard-delect.png" alt="" width="563"></div>
 
 3. Confirm the deletion.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4).png" alt="" width="300"><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/image (4).png" alt="" width="300"></div>

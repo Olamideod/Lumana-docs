@@ -1,6 +1,6 @@
 # Chart or table
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Chart_or_Table.png" alt=""><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/Chart_or_Table.png" alt=""></div>
 
 The chart or table widget turns camera data into visual reports. Choose a datasource, choose a visualization format, and configure your axes and filters to track the data that matters.
 
@@ -8,13 +8,14 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
 
 1. Follow **Add a widget** in [Create and manage dashboards](../../create-and-manage-dashboards.md#add-a-widget) to open the widget list, then select **Chart or table**. The configuration dialog opens.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-04-27 at 18.11.19.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/Screenshot 2026-04-27 at 18.11.19.png" alt="" width="563"></div>
 
 2. Enter a name in the **Title** field. Use a name that identifies what the widget is tracking, for example "Main entrance detections today" or "Gun detection alerts this week."
 3. Under **Datasource**, choose from:
    * **Objects**: Counts camera detections of people, vehicles, and animals. Use this to track physical activity. For example, how many people passed through the main entrance between 6 and 9 AM, or which hour of the day sees the most foot traffic.
    * **Alerts**: Counts alert events triggered by your configured alert rules. Use this to monitor rule-triggered incidents. For example, how many safety helmet alerts occurred this week or which camera triggers the most trespassing alerts.
    * **Event tags**: Counts how often event tags were applied to video clips. Use this when your team tags clips and you want to measure how often. For example, how many clips were flagged for review this month, or whether tagging is consistent across shifts. Before using this datasource, you need at least one event tag configured and one successful POST to the Lumana API. See [Enhance your video data with Lumana Event Tags](../../../databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md).
+
 4.  Under **Visualization**, select a format from the icon row. The preview panel updates immediately when you switch types. For a description of each format, see [Visualization types](./#visualization-types) below.
 
     <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/widget-chart-visualization-icons.png" alt="" width="263"></div>
@@ -40,35 +41,36 @@ The chart or table widget turns camera data into visual reports. Choose a dataso
     * **Day**: Groups data by day.
     * **Week**: Groups data by week.
     * **Month**: Groups data by month.
+
 6.  Set the parameters that define the **Y-axis** in a chart, each **Column** in a table, or the single value that is displayed by a counter.
 
     The first dropdown, aggregation, controls how the widget combines multiple data points into a single value for each group on the chart or table.
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-aggregation.png" alt="" width="563"></div>
+    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-aggregation.png" alt="" width="563"></div>
 
-* **Total**: The sum of all events across the selected period.
-* **Average**: The average number of events per time unit across your selected range. Use this to compare activity rates rather than totals. Not available when **Datasource** is set to **Alerts**.
-* **Max**: The highest count in any single time unit. Not available when **Datasource** is set to **Alerts**.
+    * **Total**: The sum of all events across the selected period.
+    * **Average**: The average number of events per time unit across your selected range. Use this to compare activity rates rather than totals. Not available when **Datasource** is set to **Alerts**.
+    * **Max**: The highest count in any single time unit. Not available when **Datasource** is set to **Alerts**.
 
-The second dropdown, metric, controls the type of measurement that the widget uses:
+    The second dropdown, metric, controls the type of measurement that the widget uses:
 
 {% hint style="info" %}
 This dropdown only appears when **Datasource** is set to **Objects**.
 {% endhint %}
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-metric.png" alt="" width="563"></div>
+    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-metric.png" alt="" width="563"></div>
 
-* **Appearance**: Counts how many times each object is detected in the camera's view.
-* **Dwell Time**: Measures how long each object remains in the camera's view, in seconds.
+    * **Appearance**: Counts how many times each object is detected in the camera's view.
+    * **Dwell Time**: Measures how long each object remains in the camera's view, in seconds.
 
-The third dropdown, filter, controls what the widget is measuring:
+    The third dropdown, filter, controls what the widget is measuring:
 
-<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-group.png" alt="" width="563"></div>
+    <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/dashboards/widgets/objects/widget-chart-objects-yaxis-group.png" alt="" width="563"></div>
 
-* **All objects / All alerts / All event tags**: Includes every item in the count.
-* **Group**: Includes every item that fits in one or more categories that you select. For example, if the widget is counting objects, you can choose categories such as Person, Shopping cart, and Container. If the widget is counting alerts, you can choose categories such as Gun brandished, Traffic control, or License plate. Not available when **Datasource** is set to **Event tags**.
-* **Individual**: Includes only a specific item. For Objects: a specific detected subject, such as a specific person or vehicle. For Alerts: a named alert rule. For Event tags: a specific event tag.
-* **Additional fields**: Filters by field-level values from your API POST requests. Only available when **Datasource** is set to **Event tags**.
+    * **All objects / All alerts / All event tags**: Includes every item in the count.
+    * **Group**: Includes every item that fits in one or more categories that you select. For example, if the widget is counting objects, you can choose categories such as Person, Shopping cart, and Container. If the widget is counting alerts, you can choose categories such as Gun brandished, Traffic control, or License plate. Not available when **Datasource** is set to **Event tags**.
+    * **Individual**: Includes only a specific item. For Objects: a specific detected subject, such as a specific person or vehicle. For Alerts: a named alert rule. For Event tags: a specific event tag.
+    * **Additional fields**: Filters by field-level values from your API POST requests. Only available when **Datasource** is set to **Event tags**.
 
 {% hint style="info" %}
 When **Datasource** is set to **Event tags**, the Y-axis label in the preview shows the last metric you set for **Objects**. The data is correct, but only the label is affected. To update the label, switch to **Objects**, change the metric, then switch back to **Event tags**.
@@ -151,4 +153,4 @@ Data in rows and columns. Use this when you need precise values rather than a vi
 
 ## Edit or delete the widget
 
-To edit or delete the widget, follow the steps in [Change widget settings](../../create-and-manage-dashboards.md#change-widget-settings) and [Delete a widget](../../create-and-manage-dashboards.md#delete-a-widget) in Create and manage dashboards.
+To edit or delete the widget, follow the steps in [Edit a widget](../../create-and-manage-dashboards.md#edit-a-widget) and [Delete a widget](../../create-and-manage-dashboards.md#delete-a-widget) in Create and manage dashboards.

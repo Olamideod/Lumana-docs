@@ -1,6 +1,6 @@
 # Text
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Text.png" alt=""><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/Text.png" alt=""></div>
 
 The Text widget adds a formatted text block to your dashboard. Use it to label a group of widgets, describe what a dashboard section shows, or add written context that helps make sense of the data at a glance.
 
@@ -78,7 +78,7 @@ The alignment control sets how text is positioned horizontally. Select it to cho
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-text-alignment.png" alt="" width="563"></div>
 
-Lists
+### Lists
 
 The bullet list and numbered list controls each have a dropdown with multiple style options.
 
@@ -100,4 +100,4 @@ The link button adds a hyperlink to selected text. Select the text you want to l
 
 ## Edit or delete the widget
 
-To edit or delete the widget, follow the steps in [Change widget settings](../create-and-manage-dashboards.md#change-widget-settings) and [Delete a widget](../create-and-manage-dashboards.md#delete-a-widget) in Create and manage dashboards.
+To edit or delete the widget, follow the steps in [Edit a widget](../create-and-manage-dashboards.md#edit-a-widget) and [Delete a widget](../create-and-manage-dashboards.md#delete-a-widget) in Create and manage dashboards.

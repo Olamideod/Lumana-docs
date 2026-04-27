@@ -1,6 +1,6 @@
 # Occupancy
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Entrance_area_occupancy.png" alt=""><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/Entrance_area_occupancy.png" alt=""></div>
 
 The Occupancy widget tracks the number of people or vehicles in a defined space at any given time. It counts entries and exits by detecting people who cross a line you draw in the camera's view and uses those crossings to maintain a running occupancy count.
 
@@ -11,7 +11,7 @@ Use this widget to monitor space capacity, understand when areas are busiest, an
 Before you add an Occupancy widget, you need at least one camera with a Traffic control configured. The widget uses Traffic control line crossings to count entries and exits. If you haven't set one up yet, you'll be prompted to do so during the widget setup flow.
 
 {% hint style="info" %}
-**Administrator access** s required to create a new **Entrances and exits**. Ask your organization administrator to configure Traffic control on the camera or to adjust your permissions if you cannot complete this step.
+**Administrator access** is required to create a new **Entrances and exits**. Ask your organization administrator to configure Traffic control on the camera or to adjust your permissions if you cannot complete this step.
 {% endhint %}
 
 With your prerequisites in place, you're ready to add the widget to a dashboard.
@@ -40,7 +40,7 @@ Adding an Occupancy widget takes you through the main configuration dialog and a
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-line-crossing-dialog.png" alt="" width="563"></div>
 
 6. Enter a name for this line crossing configuration in the **Name** field at the top, for example, "Main entrance" or "Warehouse door."
-7. Select **How to draw?** to open the drawing instructions overlay. The overlay explains that you click once to place the line start point and click again to place the line end point.
+7. Select **How to draw?** to open the drawing instructions overlay. The overlay explains that you select once to place the line start point and select again to place the line end point.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-how-to-draw.png" alt="" width="563"></div>
 
@@ -54,11 +54,15 @@ Adding an Occupancy widget takes you through the main configuration dialog and a
 10. Enter a name for this line in the **Name your line** field at the bottom. Use a name that describes the specific crossing point, for example, "Main entrance," "Front door," or "Warehouse exit."
 11. Optionally, select a color from the color dropdown. Use different colors if you draw more than one line on the same camera to distinguish them.
 
-    > **Note:** Draw multiple lines on one camera when the space has separate entry and exit points that are both visible in the same camera view, for example, a lobby with distinct in and out doors.
+{% hint style="info" %}
+Draw multiple lines on one camera when the space has separate entry and exit points that are both visible in the same camera view, for example, a lobby with distinct in and out doors.
+{% endhint %}
 12. To delete a specific line, select the **delete icon** next to that line's name field at the bottom of the dialog. To clear all lines and start over, select **Reset**.
 13. Select **Save**. The camera picker opens again.
 
-    > **Note:** There's no confirmation message after saving. Returning to the camera picker without any error confirms that the line crossing was saved successfully.
+{% hint style="info" %}
+There's no confirmation message after saving. Returning to the camera picker without any error confirms that the line crossing was saved successfully.
+{% endhint %}
 14. Select **Select** to confirm. A success message appears confirming the line crossing was created, for example, "Main entrance has been created." The message uses the name you entered in the **Name** field.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-success.png" alt="" width="563"></div>
@@ -73,7 +77,9 @@ The line crossing name now appears as an option in the **Select** dropdown under
     * **Total in**: The total number of people who entered across the selected period. For example, Monday showing Total in: 363 means 363 entries were recorded on Monday.
     * **Total out**: The total number of people who exited across the selected period. For example, Monday showing Total out: 336 means 336 exits were recorded on Monday.
 
-    > **Note:** The **Total in** and **Total out** options appear over time as the system records entry and exit data.
+{% hint style="info" %}
+The **Total in** and **Total out** options appear over time as the system records entry and exit data.
+{% endhint %}
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-avg-dropdown.png" alt="" width="563"></div>
 

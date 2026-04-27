@@ -14,7 +14,7 @@ You build a dashboard from a grid of widgets of the following types:
 * [Image](widgets/image.md)
 * [Text](widgets/text.md)
 
-<div align="center" data-with-frame="true"><figure><img src="../.gitbook/assets/Dashboard_of_all_elements.png" alt="An example of a dashboard, with a grid of widgets including a text block, an occupancy, an image, a chart, an occupancy counter, an image, a chart and a heatmap."><figcaption><p>An example of a dashboard, with a grid of widgets including a chart, a heatmap, an occupancy counter, an image, and a text block.</p></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/Dashboard_of_all_elements.png" alt=""></div>
 
 ## Building a dashboard
 

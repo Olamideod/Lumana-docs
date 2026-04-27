@@ -1,10 +1,10 @@
 # Widgets
 
-Widgets are the tiles on a [dashboard](../dashboards.md) grid. Each one displays a different type of data or content from your cameras. The [Dashboards overview](../dashboards.md#how-dashboards-connect-to-the-rest-of-the-system) explains how widgets connect to the rest of the system.
+Widgets are the tiles on a [dashboard](../dashboards.md) grid. Each one displays a different type of data or content from your cameras.
 
 To add, move, resize, or update widgets, follow the steps in [Create and manage dashboards](../create-and-manage-dashboards.md).
 
-<div align="center"><img src="../../.gitbook/assets/add-widget-dropdown-image.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/add-widget-dropdown-image.png" alt="" width="480"></div>
 
 ## Widget types
 
