@@ -48,40 +48,41 @@ The toolbar on the right side of the tab row gives you three additional controls
 
 <div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-event-tags-clip-create-archive.png" alt="" width="563"></div>
 
-   Fill in the dialog:
+Fill in the dialog:
 
-   * **Name**: Enter a name for the archive.
-   * **From** and **To**: Set the time range for the segment. The fields pre-populate based on the clip. Select either field to open the date and time picker. Choose a date from the calendar, then set the hour, minute, and second using the scrollers. Select **Done** to apply.
+* **Name**: Enter a name for the archive.
+* **From** and **To**: Set the time range for the segment. The fields pre-populate based on the clip. Select either field to open the date and time picker. Choose a date from the calendar, then set the hour, minute, and second using the scrollers. Select **Done** to apply.
 
 <div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-event-tags-clip-archive-date-picker.png" alt="" width="563"></div>
-   * **Duration**: Shows the length of the segment. Lumana calculates this automatically when you change **From** or **To**.
-   * **Add to case**: Link the archive to a case. Search for an existing case by name, select **+ Create** to create a new case, or select **Manage** to open the Cases page in Lumana.
 
-   Selecting **+ Create** opens the Create case dialog.
+**Duration**: The length of time between the **From** and **To** values. \
+**Add to case**: Link the archive to a case. Search for an existing case by name, select \*\*+ Create\*\* to create a new case, or select **Manage** to open the Cases page in Lumana.
+
+Selecting **+ Create** opens the Create case dialog.
 
 <div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-event-tags-clip-create-case.png" alt="" width="563"></div>
 
-   Fill in the required fields (marked with \*):
+Fill in the required fields (marked with \*):
 
-   * **Case Name**: The name of the case, for example "Warehouse break-in" or "PPE violation north entrance."
-   * **Description**: A summary of what the case covers, for example "Unauthorized access detected at the north entrance on March 31 at 3:47 PM."
-   * **Case start time**: The date and time the incident began, for example "2026-03-31 15:47 WAT."
-   * **Case end time**: The date and time the incident ended, for example "2026-03-31 16:00 WAT."
-   * **Address**: The location where the incident occurred, for example "123 Main Street, Warehouse A."
-   * **Category**: The category that determines the retention period for the case and all its data.
+* **Case Name**: The name of the case, for example "Warehouse break-in" or "PPE violation north entrance."
+* **Description**: A summary of what the case covers, for example "Unauthorized access detected at the north entrance on March 31 at 3:47 PM."
+* **Case start time**: The date and time the incident began, for example "2026-03-31 15:47 WAT."
+* **Case end time**: The date and time the incident ended, for example "2026-03-31 16:00 WAT."
+* **Address**: The location where the incident occurred, for example "123 Main Street, Warehouse A."
+* **Category**: The category that determines the retention period for the case and all its data.
 
-   {% hint style="warning" %}
-   The retention period is set when the case is created and cannot be changed afterward. When the retention period ends, the case and all related data are permanently deleted.
-   {% endhint %}
+{% hint style="warning" %}
+The retention period is set when the case is created and cannot be changed afterward. When the retention period ends, the case and all related data are permanently deleted.
+{% endhint %}
 
-   The following fields are optional:
+The following fields are optional:
 
-   * **Record number**: An internal reference number for the case, for example "INC-2026-0341."
-   * **External incident number**: A reference number from an external system, for example "POL-4821."
-   * **Tags**: Labels you can attach to the case for filtering, for example "ppe-violation" or "unauthorized-access."
-   * **Protected from deletion**: Select this checkbox to prevent the case from being deleted.
+* **Record number**: An internal reference number for the case, for example "INC-2026-0341."
+* **External incident number**: A reference number from an external system, for example "POL-4821."
+* **Tags**: Labels you can attach to the case for filtering, for example "ppe-violation" or "unauthorized-access."
+* **Protected from deletion**: Select this checkbox to prevent the case from being deleted.
 
-   Select **Save** to create the case. Lumana returns you to the Create archive dialog with the new case selected. Select **Create** to save the archive.
+Select **Save** to create the case. Lumana returns you to the Create archive dialog with the new case selected. Select **Create** to save the archive.
 
 * **Choose cameras**: Opens the Choose cameras dialog. Search by name or location, select individual cameras or **All cameras**, then select **Select** to add feeds to the preview.
 
@@ -101,6 +102,6 @@ After adding cameras and selecting a multi-tile layout, you can view several fee
 
 If a video feed has been idle for a while, then Lumana shows a short countdown before pausing to reduce bandwidth use. Select **Keep playing** to continue or **Pause video** to stop. After playback stops, a **Resume video** button appears on the tile. Select it to restart the feed.
 
-| **Countdown before pause** | **Resume playback** |
-|:---:|:---:|
-| <img src="../../../../.gitbook/assets/widget-event-tags-clip-video-inactivity-warning.png" alt=""> | <img src="../../../../.gitbook/assets/widget-event-tags-clip-video-inactivity-paused.png" alt=""> |
+|                              **Countdown before pause**                              |                                 **Resume playback**                                 |
+| :----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| ![](../../../../.gitbook/assets/widget-event-tags-clip-video-inactivity-warning.png) | ![](../../../../.gitbook/assets/widget-event-tags-clip-video-inactivity-paused.png) |
