@@ -18,7 +18,7 @@ Drawing a detection zone reduces false positives in busy environments where only
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Security**, select **Use template** on the **Motion** card. The Create motion page opens.
+3. Select **Security** in the left sidebar to go to that section, then select **Use template** on the **Motion** card. The Create motion page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-template.png" alt="" width="563"></div>
 

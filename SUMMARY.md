@@ -115,7 +115,7 @@
     * [Personal safety](alerts-and-ai-detection/alert-types/safety-and-compliance/personal-safety.md)
     * [Free text periodic](alerts-and-ai-detection/alert-types/safety-and-compliance/free-text-periodic.md)
     * [Gloves](alerts-and-ai-detection/alert-types/safety-and-compliance/gloves.md)
-    * [Hands detected](alerts-and-ai-detection/alert-types/safety-and-compliance/hands.md)
+    * [Hands](alerts-and-ai-detection/alert-types/safety-and-compliance/hands.md)
   * [Integrations](alerts-and-ai-detection/alert-types/integrations/README.md)
     * [Event tag](alerts-and-ai-detection/alert-types/integrations/event-tag.md)
     * [Event validation](alerts-and-ai-detection/alert-types/integrations/event-validation.md)

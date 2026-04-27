@@ -16,7 +16,7 @@ Set an object count and a minimum detection time. Lumana counts objects on the c
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Tracking**, select **Use template** on the **Occupancy** card. The Create occupancy page opens.
+3. Select **Tracking** in the left sidebar to go to that section, then select **Use template** on the **Occupancy** card. The Create occupancy page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/occupancy-template.png" alt="" width="563"></div>
 

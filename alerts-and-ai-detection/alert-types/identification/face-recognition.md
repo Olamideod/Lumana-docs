@@ -16,7 +16,7 @@ Lumana matches detected faces in the camera feed against a people list you build
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Identification**, select **Use template** on the **Face recognition** card. The Create face recognition page opens.
+3. Select **Identification** in the left sidebar to go to that section, then select **Use template** on the **Face recognition** card. The Create face recognition page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/face-recognition-template.png" alt="" width="563"></div>
 

@@ -1,21 +1,45 @@
 # Event tag
 
-Event tag connects Lumana to external systems such as point-of-sale, warehouse management, or access control, and triggers an alert when a defined event is received from that system. Use it when the condition you need to monitor lives in an external platform, not in the camera feed alone.
+Event tag triggers when Lumana receives an event from the event tag you select on a camera you monitor. Use it to trigger an alert when an external system, such as a point-of-sale, warehouse management, or access control platform, sends an event to Lumana.
 
 ## How it works
 
-You create an API key in Lumana and configure an event with the fields you want to track (text, integer, decimal, or boolean). Your external system sends a POST request to Lumana when the event occurs. Lumana indexes the event against the camera footage at that timestamp and triggers the alert. The footage tied to the event becomes searchable in Smart Search.
+Your external system posts events to Lumana via the API. When Lumana receives an event matching the event tag you select, it waits for the delay you set, then triggers the alert. Lumana indexes the camera footage at that timestamp and links it to the event.
 
-## When to use it
+To create event tags and configure the API integration before using this alert, see [Enhance your video data with Lumana Event Tags](../../../databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md).
 
-Event tag alerts are useful when you need to correlate video footage with data from another system.
+## Configure the alert
 
-* Alerting security when a high-value refund is processed at a POS terminal, so footage of the transaction can be reviewed immediately.
-* Flagging shipment arrivals in a warehouse by pulling pallet IDs from a warehouse management system.
-* Triggering an alert when a specific access control event occurs and linking it to the corresponding camera view.
+1. Select the **bell icon** in the navigation bar. The Alerts monitoring view opens.
 
-In each case, the value is in connecting an external system event to the moment it happened on camera.
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-monitoring-view1.png" alt="" width="563"></div>
 
-## API and dashboards
+2. Select **Add alert** in the top right corner. The Configure alerts page opens.
 
-To define event tags, send `eventTypeId` and payloads, and chart counts, see [Enhance your video data with Lumana Event Tags](../../../databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) and [Event tags (Chart or table)](../../../dashboards/widgets/chart-or-table/chart-or-table-event-tags/).
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
+
+3. Select **Integrations** in the left sidebar to go to that section, then select **Use template** on the **Event tag** card. The Create event tag page opens.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/event-tag-template.png" alt="" width="563"></div>
+
+4. Enter a name in the **Alert name** field, for example "High-value transaction" or "Pallet scan received."
+5. Select the **event tag** field in the alert rule sentence. A dropdown opens listing all event tags created in your organization.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/event-tag-dropdown.png" alt="" width="262"></div>
+
+6. Select the event tag you want to monitor.
+7. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
+
+8. Set the delay in the **wait** field. The default is 10. Select **−** or **+** to adjust the value, or enter a value directly. Lumana waits this long after receiving the event before triggering the alert.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-counter.png" alt="" width="242"></div>
+
+9. Select the **seconds** field and choose **seconds**, **minutes**, or **hours**.
+
+<div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/tampering-duration.png" alt="" width="242"></div>
+
+10. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../configure-alerts.md#default-configuration) covers these settings.
+11. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. [Alert actions](../../alert-actions.md) covers the available actions.
+12. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

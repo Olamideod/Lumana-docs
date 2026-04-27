@@ -16,7 +16,7 @@ Lumana reads license plates from the camera feed and compares them against your 
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Identification**, select **Use template** on the **License plate** card. The Create license plate page opens.
+3. Select **Identification** in the left sidebar to go to that section, then select **Use template** on the **License plate** card. The Create license plate page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/license-plate-template.png" alt="" width="563"></div>
 

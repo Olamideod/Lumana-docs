@@ -1,16 +1,12 @@
-# Hands detected
+# Hands
 
-Hands detected triggers when hands are detected in a zone you draw on the camera view.
+Hands detection triggers when hands are detected in a zone you draw on the camera view.
 
 ## How it works
 
 Lumana monitors the zone you define within the camera frame. When hands are detected inside that zone, the alert triggers.
 
 ## Configure the alert
-
-{% hint style="warning" %}
-Hands detection is currently in beta. Detection accuracy might vary depending on camera angle, image quality, and lighting conditions. Test the alert in your environment before relying on it for critical safety decisions.
-{% endhint %}
 
 1. Select the **bell icon** in the navigation bar. The Alerts monitoring view opens.
 
@@ -20,7 +16,7 @@ Hands detection is currently in beta. Detection accuracy might vary depending on
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Safety and compliance**, select **Use template** on the **Hands detected** card. The Create hands page opens.
+3. Select **Safety and compliance** in the left sidebar to go to that section, then select **Use template** on the **Hands** card. The Create hands page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/hands-template.png" alt="" width="563"></div>
 

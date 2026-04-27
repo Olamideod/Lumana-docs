@@ -16,7 +16,7 @@ Lumana monitors the camera feed for sudden visual changes that indicate physical
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Security**, select **Use template** on the **Tampering** card. The Create tampering page opens.
+3. Select **Security** in the left sidebar to go to that section, then select **Use template** on the **Tampering** card. The Create tampering page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/tampering-template.png" alt="" width="563"></div>
 

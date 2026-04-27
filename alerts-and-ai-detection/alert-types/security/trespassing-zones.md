@@ -16,7 +16,7 @@ Lumana monitors the area you define within the camera frame. When a detected obj
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Security**, select **Use template** on the **Trespassing zones** card. The Create trespassing zones page opens.
+3. Select **Security** in the left sidebar to go to that section, then select **Use template** on the **Trespassing zones** card. The Create trespassing zones page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/trespassing-template.png" alt="" width="563"></div>
 

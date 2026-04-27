@@ -16,7 +16,7 @@ Set an interval and draw a zone on the camera frame. Lumana captures a still ima
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Tracking**, select **Use template** on the **Snapshot** card. The Create snapshot page opens.
+3. Select **Tracking** in the left sidebar to go to that section, then select **Use template** on the **Snapshot** card. The Create snapshot page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/snapshot-template.png" alt="" width="563"></div>
 

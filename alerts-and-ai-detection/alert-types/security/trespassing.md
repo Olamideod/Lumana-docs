@@ -18,7 +18,7 @@ Lumana detects when a person, vehicle, or other object enters the full camera vi
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Security**, select **Use template** on the **Trespassing** card. The Create trespassing page opens.
+3. Select **Security** in the left sidebar to go to that section, then select **Use template** on the **Trespassing** card. The Create trespassing page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/trespassing-template.png" alt="" width="563"></div>
 

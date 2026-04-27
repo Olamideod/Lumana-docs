@@ -16,7 +16,7 @@ Set a minimum dwell time. Lumana tracks objects in the camera feed and triggers 
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Tracking**, select **Use template** on the **Loitering** card. The Create loitering page opens.
+3. Select **Tracking** in the left sidebar to go to that section, then select **Use template** on the **Loitering** card. The Create loitering page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/loitering-template.png" alt="" width="563"></div>
 

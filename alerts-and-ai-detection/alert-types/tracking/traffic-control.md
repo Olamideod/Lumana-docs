@@ -16,7 +16,7 @@ Draw two or more lines across the camera frame and place them in the order objec
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Tracking**, select **Use template** on the **Traffic control** card. The Create traffic control page opens.
+3. Select **Tracking** in the left sidebar to go to that section, then select **Use template** on the **Traffic control** card. The Create traffic control page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/traffic-control-template.png" alt="" width="563"></div>
 

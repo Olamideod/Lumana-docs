@@ -16,7 +16,7 @@ Lumana reads container serial numbers from the camera feed and compares them aga
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Identification**, select **Use template** on the **Container detection** card. The Create container detection page opens.
+3. Select **Identification** in the left sidebar to go to that section, then select **Use template** on the **Container detection** card. The Create container detection page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/container-detection-template.png" alt="" width="563"></div>
 

@@ -16,7 +16,7 @@ Lumana's AI model analyzes the video feed for the visual signatures of fire or s
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Security**, select **Use template** on the **Fire** card. The Create fire page opens.
+3. Select **Security** in the left sidebar to go to that section, then select **Use template** on the **Fire** card. The Create fire page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/fire-template.png" alt="" width="563"></div>
 

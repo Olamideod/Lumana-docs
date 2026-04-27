@@ -16,7 +16,7 @@ Lumana monitors a zone you draw in the camera frame. When an object of the confi
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Tracking**, select **Use template** on the **Disappearing** card. The Create disappearing page opens.
+3. Select **Tracking** in the left sidebar to go to that section, then select **Use template** on the **Disappearing** card. The Create disappearing page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/disappearing-template.png" alt="" width="563"></div>
 

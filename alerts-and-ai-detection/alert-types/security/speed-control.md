@@ -16,7 +16,7 @@ You define a path on the camera feed and set a minimum traversal time. Lumana tr
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Security**, select **Use template** on the **Speed control** card. The Create speed control page opens.
+3. Select **Security** in the left sidebar to go to that section, then select **Use template** on the **Speed control** card. The Create speed control page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/speed-control-template.png" alt="" width="563"></div>
 

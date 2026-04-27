@@ -16,7 +16,7 @@ Select a wearing condition and a gear type. Lumana monitors the camera feed and 
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Safety and compliance**, select **Use template** on the **Protective gear** card. The Create protective gear page opens.
+3. Select **Safety and compliance** in the left sidebar to go to that section, then select **Use template** on the **Protective gear** card. The Create protective gear page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/protective-gear-template.png" alt="" width="563"></div>
 

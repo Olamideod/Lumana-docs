@@ -16,7 +16,7 @@ Lumana monitors the camera feed for workers in close proximity to vehicles. When
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Safety and compliance**, select **Use template** on the **Personal safety** card. The Create personal safety page opens.
+3. Select **Safety and compliance** in the left sidebar to go to that section, then select **Use template** on the **Personal safety** card. The Create personal safety page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/personal-safety-template.png" alt="" width="563"></div>
 

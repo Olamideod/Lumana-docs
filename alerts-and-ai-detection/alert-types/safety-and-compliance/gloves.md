@@ -20,7 +20,7 @@ Gloves detection is currently in beta. Detection accuracy might vary depending o
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Safety and compliance**, select **Use template** on the **Gloves** card. The Create gloves page opens.
+3. Select **Safety and compliance** in the left sidebar to go to that section, then select **Use template** on the **Gloves** card. The Create gloves page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/gloves-template.png" alt="" width="563"></div>
 

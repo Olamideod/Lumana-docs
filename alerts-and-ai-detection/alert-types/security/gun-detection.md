@@ -20,7 +20,7 @@ Gun detection is currently in beta. Detection accuracy might vary depending on c
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Security**, select **Use template** on the **Gun detection** card. The Create gun detection page opens.
+3. Select **Security** in the left sidebar to go to that section, then select **Use template** on the **Gun detection** card. The Create gun detection page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/gun-detection-template.png" alt="" width="563"></div>
 

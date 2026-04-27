@@ -16,7 +16,7 @@ Lumana monitors the positions of detected objects in the camera view. When two o
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Security**, select **Use template** on the **Proximity** card. The Create proximity page opens.
+3. Select **Security** in the left sidebar to go to that section, then select **Use template** on the **Proximity** card. The Create proximity page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-template.png" alt="" width="563"></div>
 

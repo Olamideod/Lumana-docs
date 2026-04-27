@@ -16,7 +16,7 @@ Set a minimum duration. Lumana monitors Core device connection status and trigge
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Status**, select **Use template** on the **Core status** card. The Create core status page opens.
+3. Select **Status** in the left sidebar to go to that section, then select **Use template** on the **Core status** card. The Create core status page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/core-status-template.png" alt="" width="563"></div>
 

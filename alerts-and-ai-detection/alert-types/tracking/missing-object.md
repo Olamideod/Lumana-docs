@@ -16,7 +16,7 @@ Mark a specific object in the camera view. Lumana monitors the marked object con
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Tracking**, select **Use template** on the **Missing object** card. The Create missing object page opens.
+3. Select **Tracking** in the left sidebar to go to that section, then select **Use template** on the **Missing object** card. The Create missing object page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/missing-object-template.png" alt="" width="563"></div>
 

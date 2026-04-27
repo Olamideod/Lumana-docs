@@ -20,7 +20,7 @@ This alert requires the Kisi access control integration to be active in your org
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
-3. Under **Security**, select **Use template** on the **Tailgating** card. The Create tailgating page opens.
+3. Select **Security** in the left sidebar to go to that section, then select **Use template** on the **Tailgating** card. The Create tailgating page opens.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/tailgating-template.png" alt="" width="563"></div>
 
