@@ -1,5 +1,7 @@
 # Chart or table
 
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Chart_or_Table.png" alt=""><figcaption></figcaption></figure></div>
+
 The chart or table widget turns camera data into visual reports. Choose a datasource, choose a visualization format, and configure your axes and filters to track the data that matters.
 
 ## Add the widget
