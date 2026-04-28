@@ -39,14 +39,16 @@ Follow the scenario below that matches your network.
  <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-details-mac-address.png" alt="Camera details page showing the MAC address field."></div>
 
 3. Configure DHCP reservation on your router using the MAC address.
-The camera keeps the same IP address after reboots or power interruptions when the server always offers that lease to this MAC address.
+This way the camera keeps the same IP address after reboots or power interruptions when the server always offers that lease to this MAC address.
 Refer to your router documentation for instructions.
 
 Here's an example of [static mapping configuration](https://www.cisco.com/c/en/us/td/docs/ios/12_2sb/12_2sba/feature/guide/sbhcpsm.html) for Cisco routers.
 
 ### Scenario 2: Your network includes a DHCP server and you want a permanent static IP on the camera outside the DHCP pool
 
-You still have **DHCP** on the network, but you set a fixed address on the camera that sits **outside** the DHCP pool instead of using a reservation.
+Assign a static IP on the camera itself and skip a **DHCP** reservation on the server. **DHCP** can keep running on the network for other devices.
+
+Confirm which addresses on your network sit **outside** the **DHCP** pool (sometimes described as the static IP range for your LAN) before you choose the camera’s IP. Picking from inside the pool can let **DHCP** give the same address to another device, so two devices may share one IP.
 
 **Before you begin**
 
@@ -57,10 +59,7 @@ You still have **DHCP** on the network, but you set a fixed address on the camer
 Assigning an IP address inside the DHCP pool without a reservation can cause duplicate IP conflicts.
 {% endhint %}
 
-On the camera, use the same workflow as [Scenario 3: Your network lacks a DHCP server](#scenario-3-your-network-lacks-a-dhcp-server):
-
-- If you **can** open the camera’s local web UI, go to **Setup → Network**, switch to **Static IP**, enter **IP address**, **subnet mask**, and **gateway**, then save.
-- If you **cannot** reach the camera yet, start at step 1 of that scenario and work through until the static values are saved.
+Identify the range outside the pool, choose the camera’s address, then complete [Scenario 3: Your network lacks a DHCP server](#scenario-3-your-network-lacks-a-dhcp-server). Use Scenario 3’s first step only when the camera did not get an address automatically.
 
 ### Scenario 3: Your network lacks a DHCP server
 
@@ -73,19 +72,19 @@ If your network does not have a DHCP server, connect to the camera’s local pag
 - Default user: `admin`
 - Default password: `123456`
 
-1. If your device is not receiving an IP address automatically, assign a temporary static IP address on the same subnet as the camera (for example, `192.168.1.10` with subnet mask `255.255.255.0`).
+1. Assign a temporary static IP on your computer, on the same subnet as the camera (for example `192.168.1.10`, subnet mask `255.255.255.0`), if the camera did not receive an address automatically.
 
 {% hint style="info" %}
 If needed, refer to your computer or operating system documentation for instructions on setting a temporary static IP address.
 {% endhint %}
 
-2. Open a web browser on a device connected to the same network.
+2. Open a web browser on a computer on the same network as the camera. Enter the camera **IP address** in the address bar to open the configuration page.
 
-3. Enter the camera’s IP address and log in.
+3. Enter the camera **username** and **password** on the login page, then sign in.
 
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-camera-web-login-lb800.png" alt="Camera local web interface login page."></div>
 
-4. Change the default password when prompted.
+4. Change the default password when prompted, then record the new credentials where your team expects them.
 
 5. Go to **Setup → Network**.
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-network-ipv4-dhcp-settings.png" alt="Camera network settings showing IPv4 DHCP mode."></div>
