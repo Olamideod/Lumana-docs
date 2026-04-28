@@ -6,17 +6,17 @@ From a [camera control screen](share-a-snapshot-or-recording.md#camera-control),
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (35).png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (34).png" alt="" width="188"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (36).png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (35).png" alt="" width="188"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
 The app brings up the Android or iOS sharing menu, from which you can choose what to do with the image:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (24).png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (25).png" alt="" width="188"><figcaption></figcaption></figure></div>
 
 ### Share a recording of live or playback footage
 
@@ -24,7 +24,7 @@ From a [camera control screen](share-a-snapshot-or-recording.md#camera-control),
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (34).png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (33).png" alt="" width="188"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -38,4 +38,4 @@ The app begins recording:
 
 Press the stop button to end the recording. The app briefly processes the recording, then brings up the Android or iOS sharing menu, from which you can choose what to do with the recording:
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (37).png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (36).png" alt="" width="188"><figcaption></figcaption></figure></div>

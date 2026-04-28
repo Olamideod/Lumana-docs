@@ -4,7 +4,7 @@
 
 The bottom navigation bar contains links to the most commonly used screens in the mobile app:
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 * [**Devices**](view-live-feed-from-a-single-camera.md): Browse the camera feeds and other devices owned by your organization. By default, this brings you to the [**Cameras**](view-live-feed-from-a-single-camera.md#cameras) screen; you can change this in [Change default camera selection screen](settings/change-default-camera-selection-screen.md).
 * [**Search**](search-footage-for-people-or-objects.md): Search for people or objects across your cameras using filters.

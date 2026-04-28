@@ -18,14 +18,14 @@ This matters most when you need lower latency and more consistent live view perf
 
 Use local streaming when the viewing device can reach Lumana Core directly on the network.
 
-- Direct access to the Lumana Core local IP.
-- No proxy between the client and Lumana Core.
+* Direct access to the Lumana Core local IP.
+* No proxy between the client and Lumana Core.
 
 {% hint style="info" %}
 If a camera uses H.265 and the viewing browser or device does not support H.265, then medium-quality (MQ) local streaming may work while high-quality (HQ) local streaming does not.
 {% endhint %}
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-local-streaming-diagram.png" alt="Diagram showing local streaming from Lumana Core to the viewing device through the local network."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-local-streaming-diagram.png" alt="Diagram showing local streaming from Lumana Core to the viewing device through the local network."></div>
 
 ### Local live view flow
 
@@ -43,7 +43,7 @@ If Lumana cannot establish a local connection, then it switches to cloud streami
 
 Cloud streaming also helps distribute live video to multiple viewers without requiring each viewer to connect directly to Lumana Core.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-cloud-streaming-diagram.png" alt="Cloud streaming diagram."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-cloud-streaming-diagram.png" alt="Cloud streaming diagram."></div>
 
 ## Manage streaming quality
 
@@ -51,17 +51,17 @@ Lumana can adjust live view quality automatically, and you can also change it ma
 
 This helps balance video clarity, bandwidth use, and playback performance across different layouts and network conditions.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-quality-routing-diagram.png" alt="Streaming quality diagram."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-quality-routing-diagram.png" alt="Streaming quality diagram."></div>
 
 ### How quality selection works
 
 Lumana supports standard quality (SQ), medium quality (MQ), and high quality (HQ) live view modes. The selected mode depends on the stream layout, the available bandwidth, and the player size.
 
-- Lumana may choose a lower quality automatically when you open multiple streams at the same time.
-- You can change the stream quality manually from the player controls.
-- In multi-camera layouts, Lumana may prioritize smoother playback over higher quality.
+* Lumana may choose a lower quality automatically when you open multiple streams at the same time.
+* You can change the stream quality manually from the player controls.
+* In multi-camera layouts, Lumana may prioritize smoother playback over higher quality.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-multi-stream-example.png" alt="Multi-stream live view example."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-multi-stream-example.png" alt="Multi-stream live view example."></div>
 
 In the example above, the top cameras use `MQ`, while the lower cameras use `SQ`. Hovering over a stream lets you change the stream quality.
 
@@ -98,6 +98,6 @@ Use the following table as a reference for typical local and cloud live view res
 
 ## Next steps
 
-- Use [Use live view](live-view.md) to work with the player, thumbnails, and controls.
-- Use [Video walls and shared displays](video-walls-and-shared-displays.md) to monitor multiple cameras in one layout.
-- Use [Multi-camera playback](multi-camera-playback.md) to review more than one camera at the same time.
+* Use [Use live view](live-view.md) to work with the player, thumbnails, and controls.
+* Use [Video walls and shared displays](video-walls-and-shared-displays.md) to monitor multiple cameras in one layout.
+* Use [Multi-camera playback](multi-camera-playback.md) to review more than one camera at the same time.

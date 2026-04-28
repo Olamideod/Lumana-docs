@@ -12,10 +12,10 @@ This means the feature works best when every way into and out of the space is co
 
 Space occupancy data can help you answer different operational questions depending on how you use the dashboard.
 
-- **Current occupancy:** Check how many people or vehicles are in a space right now.
-- **Historical trends:** Review peak periods and compare space usage across days or time ranges.
-- **Capacity monitoring:** Watch for spaces that are approaching or exceeding expected occupancy levels.
-- **Operational planning:** Compare usage patterns so teams can plan staffing, access, or layout changes.
+* **Current occupancy:** Check how many people or vehicles are in a space right now.
+* **Historical trends:** Review peak periods and compare space usage across days or time ranges.
+* **Capacity monitoring:** Watch for spaces that are approaching or exceeding expected occupancy levels.
+* **Operational planning:** Compare usage patterns so teams can plan staffing, access, or layout changes.
 
 ## Choose a camera placement
 
@@ -25,29 +25,29 @@ Camera placement has a direct effect on counting accuracy. In most cases, you sh
 
 Use overhead placement when counting accuracy is the highest priority and the camera can look straight down across the entry path.
 
-- **Placement:** Mount the camera directly above the entrance so it captures movement across the camera's field of view.
-- **Best for:** High-traffic entrances where multiple people may enter or exit at the same time.
-- **Limitation:** The top-down angle can limit facial visibility and license plate visibility.
+* **Placement:** Mount the camera directly above the entrance so it captures movement across the camera's field of view.
+* **Best for:** High-traffic entrances where multiple people may enter or exit at the same time.
+* **Limitation:** The top-down angle can limit facial visibility and license plate visibility.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-top-down-camera-placement.png" alt="Top-down camera placement for space occupancy counting across an entryway." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/space-occupancy-top-down-camera-placement.png" alt="Top-down camera placement for space occupancy counting across an entryway." width="480"></div>
 
 ### Front-facing camera placement
 
 Use front-facing placement when you need occupancy data and also want better visibility for identification workflows.
 
-- **Placement:** Position the camera at eye level or slightly above, about eight to 10 feet in front of the entry or exit point.
-- **Best for:** Spaces where occupancy monitoring and identification both matter.
-- **Limitation:** In crowded conditions, people can overlap and create minor counting mismatches.
+* **Placement:** Position the camera at eye level or slightly above, about eight to 10 feet in front of the entry or exit point.
+* **Best for:** Spaces where occupancy monitoring and identification both matter.
+* **Limitation:** In crowded conditions, people can overlap and create minor counting mismatches.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-front-facing-camera-placement.png" alt="Front-facing camera placement balancing occupancy tracking with facial and license plate visibility." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/space-occupancy-front-facing-camera-placement.png" alt="Front-facing camera placement balancing occupancy tracking with facial and license plate visibility." width="480"></div>
 
 ### Maintain counting accuracy
 
 Regardless of camera angle, accurate counting depends on a few common conditions.
 
-- **Clear sightlines:** Avoid doors, pillars, signs, or other objects that block the camera view.
-- **Full access-point coverage:** Make sure every entrance and exit is covered.
-- **Usable lighting:** Low light can reduce detection quality, so adjust placement or use cameras that work well in those conditions.
+* **Clear sightlines:** Avoid doors, pillars, signs, or other objects that block the camera view.
+* **Full access-point coverage:** Make sure every entrance and exit is covered.
+* **Usable lighting:** Low light can reduce detection quality, so adjust placement or use cameras that work well in those conditions.
 
 ## Common accuracy issues
 
@@ -75,6 +75,5 @@ The setup flow uses the **Occupancy** widget, entrance and exit line crossings, 
 
 After you understand how space occupancy works, you can configure the dashboard and related workflows.
 
-- Use [Configure a space occupancy dashboard](configure-a-space-occupancy-dashboard.md) to add the occupancy widget and set counting behavior.
-- Read [Occupancy](../dashboards/widgets/occupancy.md) for the full widget guide and advanced dashboard options.
-
+* Use [Configure a space occupancy dashboard](configure-a-space-occupancy-dashboard.md) to add the occupancy widget and set counting behavior.
+* Read [Occupancy](../dashboards/widgets/occupancy.md) for the full widget guide and advanced dashboard options.

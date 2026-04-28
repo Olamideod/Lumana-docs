@@ -54,11 +54,10 @@ Before connecting the camera:
 
 If you plan to connect using Open Network Video Interface Forum (ONVIF):
 
-- In **System**, select **ONVIF**.
-- Add an ONVIF user with the **Administrator** role and a strong password.
-- Save your changes.
-- Note: Axis disables ONVIF support until an ONVIF user is added.
-
+* In **System**, select **ONVIF**.
+* Add an ONVIF user with the **Administrator** role and a strong password.
+* Save your changes.
+* Note: Axis disables ONVIF support until an ONVIF user is added.
 
 To add the camera in Lumana Core, enter the camera's admin username and password. If you are using ONVIF instead, use the ONVIF user credentials you created on the camera. Use the stream profile steps in the next section if you still need to create or tune profiles on the camera before you connect.
 
@@ -68,11 +67,10 @@ If Lumana cannot create the required stream profiles automatically, you can conf
 
 Before creating the stream profiles:
 
-- **Log in to the Axis Web Portal:** Use a web browser to log into the Axis camera interface with your admin credentials.
-- **Open Stream Profiles:** In the **System** tab, select **Stream Profiles** and click **Add stream Profile**.
-- **Turn enhanced features off:** Set **Zipstream**, **Dynamic FPS**, and **Optimized GOP** to **Off**. These features can cause compatibility issues with Lumana Core.
-- **Set a profile name:** The profile name is used in the [Real Time Streaming Protocol (RTSP)](../../faq-and-reference/lumana-glossary.md#rtsp) path when connecting the camera to Lumana Core. After you save the profile, use `/axis-media/media.amp?streamprofile=<profile name>` as the RTSP path in Lumana Core.
-
+* **Log in to the Axis Web Portal:** Use a web browser to log into the Axis camera interface with your admin credentials.
+* **Open Stream Profiles:** In the **System** tab, select **Stream Profiles** and click **Add stream Profile**.
+* **Turn enhanced features off:** Set **Zipstream**, **Dynamic FPS**, and **Optimized GOP** to **Off**. These features can cause compatibility issues with Lumana Core.
+* **Set a profile name:** The profile name is used in the [Real Time Streaming Protocol (RTSP)](https://github.com/Olamideod/Lumana-docs/blob/main/faq-and-reference/lumana-glossary.md#rtsp) path when connecting the camera to Lumana Core. After you save the profile, use `/axis-media/media.amp?streamprofile=<profile name>` as the RTSP path in Lumana Core.
 
 **Main stream profile**
 

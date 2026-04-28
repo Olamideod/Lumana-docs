@@ -169,7 +169,7 @@
 * [View and filter a dashboard](dashboards/filter-a-dashboard.md)
 * [Widgets](dashboards/widgets/README.md)
   * [Chart or table](dashboards/widgets/chart-or-table/README.md)
-    * [Event tag clip preview](dashboards/widgets/chart-or-table/chart-or-table-event-tags/chart-or-table-event-tags-clip-preview.md)
+    * [Event tag clip preview](dashboards/widgets/chart-or-table/chart-or-table-event-tags-clip-preview.md)
   * [Heatmap](dashboards/widgets/heatmap.md)
   * [Occupancy](dashboards/widgets/occupancy.md)
   * [Image](dashboards/widgets/image.md)

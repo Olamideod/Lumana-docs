@@ -44,7 +44,7 @@ Your options are as follows:
    The [Linear vs. Logarithmic](heatmap.md#linear-vs.-logarithmic) section below explains these in more detail.
 8. Optionally, set a **Time** range that the heatmap will cover.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/image (6).png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/image (7).png" alt="" width="563"></div>
 
 If you set this to `---`, then this widget will use [the time range that is set for the dashboard as a whole](../filter-a-dashboard.md#time-range).
 
@@ -54,7 +54,7 @@ If you set this to `---`, then this widget will use [the time range that is set 
 
 You can choose between **Linear** and **Logarithmic** for the Visualization setting. Here’s what each one does:
 
-* **Linear**: The color of a pixel reflects the _raw_ number of objects detected in that area. Additional detections change the color value at a constant rate. \
+* **Linear**: The color of a pixel reflects the _raw_ number of objects detected in that area. Additional detections change the color value at a constant rate.\
   Example: Imagine a case where the color of a pixel happens to change with every 10 detections. It will change by the same amount whether the number increases from 0 to 10 or from 1,000 to 1,010.\
   Use **Linear** when you want to identify and compare high-traffic and very-high-traffic areas. An increase from 1,500 people to 1,600 people stands out because the color shifts 10 times.\
   Avoid it when you want to spot isolated cases of activity in forbidden or unusual areas; even a jump from 1 to 8 is not large enough to change the color of a pixel.
@@ -63,7 +63,7 @@ You can choose between **Linear** and **Logarithmic** for the Visualization sett
 
 * **Logarithmic**: The color of a pixel reflects the _relative_ number of objects detected in an area. Additional detections change the color value only if they represent a meaningful increase.\
   Example: Imagine a case where the color of a pixel happens to change whenever the number of detections doubles. It will change by the same amount whether the number increases from 10 to 20 or from 3,000 to 6,000.\
-  Use **Logarithmic** when you want to identify unusual activity in low-traffic areas, such as forbidden zones or emergency exits. An increase from 1 to 8 detections stands out because the color shifts 4 times. \
+  Use **Logarithmic** when you want to identify unusual activity in low-traffic areas, such as forbidden zones or emergency exits. An increase from 1 to 8 detections stands out because the color shifts 4 times.\
   Avoid it when you want to compare high-traffic and very-high-traffic areas; an increase from 1,500 to 1,600 people isn't meaningful enough to change the color of a pixel.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-heatmap-viz-logarithmic.png" alt="" width="563"></div>

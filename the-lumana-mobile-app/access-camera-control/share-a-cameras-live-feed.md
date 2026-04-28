@@ -4,7 +4,7 @@ There will be times when you want to provide people outside of your organization
 
 To share a camera feed, tap the **Share** icon on the [camera control screen](./).
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 The **Share camera** screen opens:
 
@@ -14,5 +14,4 @@ Use the dropdown to select how long this access will last (from 1 hour to 4 mont
 
 Finally, select **Share live view link** to bring up the Android or iOS sharing menu, from which you can choose what to do with the link:
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>

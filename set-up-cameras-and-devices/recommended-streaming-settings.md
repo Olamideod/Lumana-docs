@@ -10,32 +10,32 @@ Start with these defaults on each camera, then adjust only if you have a specifi
 
 ### Primary stream
 
-- Resolution: Highest available
-- Encoder: H.265 (H.264 supported but less efficient)
-- Bitrate type: CBR
-- Keyframe interval: Equal to FPS
+* Resolution: Highest available
+* Encoder: H.265 (H.264 supported but less efficient)
+* Bitrate type: CBR
+* Keyframe interval: Equal to FPS
 
 ### Sub stream
 
-- Resolution: 720p (or lower)
-- Encoder: H.265
-- Bitrate type: CBR
-- Image quality: Medium
-- Keyframe interval: 2 × FPS
+* Resolution: 720p (or lower)
+* Encoder: H.265
+* Bitrate type: CBR
+* Image quality: Medium
+* Keyframe interval: 2 × FPS
 
 ## Stream configuration overview
 
 Most IP cameras provide at least two video streams, and some offer more.
 
-- The **primary stream** uses the highest resolution and quality
-- The **sub stream** uses lower resolution for efficiency
+* The **primary stream** uses the highest resolution and quality
+* The **sub stream** uses lower resolution for efficiency
 
 Lumana uses these streams for:
 
-- AI analytics
-- High-quality storage
-- Standard-quality storage
-- High- and standard-quality live view
+* AI analytics
+* High-quality storage
+* Standard-quality storage
+* High- and standard-quality live view
 
 We recommend configuring at least two streams to balance performance, storage, and bandwidth.
 
@@ -49,24 +49,24 @@ The primary stream is used for analytics, high-quality storage, and live monitor
 
 ### Recommended settings
 
-- Resolution: Highest available
-- Encoder: H.265 (H.264 is supported but less efficient)
-- Bitrate type: CBR
-- Keyframe interval: Equal to FPS
+* Resolution: Highest available
+* Encoder: H.265 (H.264 is supported but less efficient)
+* Bitrate type: CBR
+* Keyframe interval: Equal to FPS
 
 ### Keyframe guidance
 
 For optimal performance:
 
-- Use at least one keyframe every 2 seconds
-- In high-motion scenes, reduce the keyframe interval to match the FPS
+* Use at least one keyframe every 2 seconds
+* In high-motion scenes, reduce the keyframe interval to match the FPS
 
 For example:
 
 if your camera is at 25 fps, your keyframe interval should be no higher than 50. If you have a lot of motion in the scene, reduce the keyframe interval until it is equal to the FPS, like, if the camera is at 25 fps, set the keyframe interval to 25
 
-- At 25 FPS → keyframe interval should be ≤ 50
-- For high motion → set it to 25
+* At 25 FPS → keyframe interval should be ≤ 50
+* For high motion → set it to 25
 
 ### Reference values
 
@@ -89,11 +89,11 @@ The sub stream is used for standard-quality storage and bandwidth optimization.
 
 ### Recommended settings
 
-- Resolution: 720p (or lower)
-- Encoder: H.265
-- Bitrate type: CBR
-- Image quality: Medium
-- Keyframe interval: 2 × FPS
+* Resolution: 720p (or lower)
+* Encoder: H.265
+* Bitrate type: CBR
+* Image quality: Medium
+* Keyframe interval: 2 × FPS
 
 ### Reference values
 
@@ -137,12 +137,12 @@ While some of the parameters have common terminology (for example, compression a
 
 <details>
 
-<summary>What happens to <a href="../faq-and-reference/video-storage.md">video storage and retention</a> if you don't follow Lumana camera configuration best practice?</summary>
+<summary>What happens to <a href="https://github.com/Olamideod/Lumana-docs/blob/main/faq-and-reference/video-storage.md">video storage and retention</a> if you don't follow Lumana camera configuration best practice?</summary>
 
 Camera configuration best practice is required to bring you the best performance from Lumana Core. Not following the guidelines may impact two features:
 
 1. The number of cameras that you can connect to a single Core may be lower than the spec.
-2. The storage retention period may be lower than the spec. For more on retention, see [Video storage](../faq-and-reference/video-storage.md).
+2. The storage retention period may be lower than the spec. For more on retention, see [Video storage](https://github.com/Olamideod/Lumana-docs/blob/main/faq-and-reference/video-storage.md).
 
 </details>
 
@@ -205,6 +205,6 @@ If the bitrate is set too low, even on CBR, it may lead to poor video quality, c
 
 <summary>What should you configure when using Lumana cameras?</summary>
 
-Nothing. Lumana's default configuration matches the [recommended streaming settings](./recommended-streaming-settings.md).
+Nothing. Lumana's default configuration matches the [recommended streaming settings](recommended-streaming-settings.md).
 
 </details>

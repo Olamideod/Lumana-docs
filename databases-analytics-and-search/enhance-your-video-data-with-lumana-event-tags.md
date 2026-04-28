@@ -118,7 +118,7 @@ curl --location 'https://access.lumana.ai/v1/events-tag/insert' \
 
 ### Test the request
 
-You can send a test POST directly from the Lumana API reference without leaving your browser. Open [Insert an event tag in the Lumana API reference](../api-reference/rest-apis/lumana-api.md) and select **Test it** at the bottom right of the cURL block. Enter your Bearer token (API key) under **Authentication**, replace the body values with your real orgId, cameraId, eventTypeId, and a current timestamp, then select **Send**. A successful request returns a **200 OK** response with the following body:
+You can send a test POST directly from the Lumana API reference without leaving your browser. Open [Insert an event tag in the Lumana API reference](https://github.com/Olamideod/Lumana-docs/blob/main/api-reference/rest-apis/lumana-api.md) and select **Test it** at the bottom right of the cURL block. Enter your Bearer token (API key) under **Authentication**, replace the body values with your real orgId, cameraId, eventTypeId, and a current timestamp, then select **Send**. A successful request returns a **200 OK** response with the following body:
 
 <div align="center"><img src="../.gitbook/assets/lumana-event-tag-test.png" alt="API reference test panel showing a successful event tag request and response." width="563"></div>
 

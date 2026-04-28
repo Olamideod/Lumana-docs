@@ -1,6 +1,6 @@
 # Gun detection
 
-Gun detection alerts you when a firearm is visible in the camera view, regardless of whether it's being actively held or brandished. It's distinct from the [gun drawn alert](gun-drawn.md), which looks specifically for a weapon raised in a threatening posture.
+Gun detection alerts you when a firearm is visible in the camera view, regardless of whether it's being actively held or brandished. It's distinct from the [gun drawn alert](https://github.com/Olamideod/Lumana-docs/blob/main/alerts-and-ai-detection/alert-types/security/gun-drawn.md), which looks specifically for a weapon raised in a threatening posture.
 
 ## How it works
 
@@ -13,7 +13,6 @@ This alert is suited for locations where unauthorized weapons are a defined secu
 * Monitoring access points, lobbies, or public spaces for unauthorized weapons.
 * Providing an early warning layer alongside the gun drawn alert for higher-risk environments.
 * Supporting compliance in locations where weapons are prohibited.
-
 
 ## Configure the alert
 

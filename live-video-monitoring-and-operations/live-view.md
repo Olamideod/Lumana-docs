@@ -14,7 +14,7 @@ Open Live view when you want to watch a camera in real time and confirm what is 
 2. Select the location and camera you want to view.
 3. Click **Play** to start the live stream.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-main-grid.png" alt="Live view camera grid and location list."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-main-grid.png" alt="Live view camera grid and location list."></div>
 
 ## Use the timeline and thumbnails
 
@@ -24,7 +24,7 @@ Use the timeline and thumbnails to review recent footage without leaving Live vi
 2. Scrub the thumbnail or the main timeline to move through recent footage.
 3. Change the date, time range, clip duration, or resolution as needed.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-thumbnail-timeline.png" alt="Live view timeline and thumbnail."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-thumbnail-timeline.png" alt="Live view timeline and thumbnail."></div>
 
 ## Use live view controls
 

@@ -10,7 +10,7 @@ The mobile app offers several ways to find the camera you want:
 * [**Floor plan**](view-live-feed-from-a-single-camera.md#floor-plan)
 * [**List**](view-live-feed-from-a-single-camera.md#list)
 
-### Cameras
+### Cameras&#x20;
 
 The **Cameras** view is the default view when you open the app. It is also the default view when you tap **Devices** in the bottom navigation bar, unless you changed this in [Change default camera selection screen](settings/change-default-camera-selection-screen.md). You can also tap **Devices** → **Cameras** in the left navigation bar to access this view.
 
@@ -70,4 +70,4 @@ This setting is not available for all cameras.
 
 On the camera control page, you can change the quality of the livestream. Tap **Quality** to bring up a menu of streaming options to choose from:
 
-<figure><img src="../.gitbook/assets/image (23).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt="" width="188"><figcaption></figcaption></figure>

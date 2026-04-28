@@ -10,11 +10,11 @@ Tap **Walls** in the bottom navigation bar or in the left navigation bar to open
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Walls main page.jpg" alt="" width="188"><figcaption></figcaption></figure></div>
 
-Tap the name of any wall on the list to open it. While the live view is open, you can rotate your device or tap the ![](<../../.gitbook/assets/image (31).png>) (**Full screen**) icon to expand the images for a closer look.
+Tap the name of any wall on the list to open it. While the live view is open, you can rotate your device or tap the ![](<../../.gitbook/assets/image (30).png>) (**Full screen**) icon to expand the images for a closer look.
 
 <figure><img src="../../.gitbook/assets/Screenshot_20260426_115018_Lumana.jpg" alt="" width="188"><figcaption></figcaption></figure>
 
-If you have the necessary permissions, you can tap the ![](<../../.gitbook/assets/image (30).png>)(**Edit**) icon to make changes to the video wall.
+If you have the necessary permissions, you can tap the ![](<../../.gitbook/assets/image (29).png>)(**Edit**) icon to make changes to the video wall.
 
 ## Create and monitor a temporary video wall
 
@@ -30,7 +30,7 @@ This type of video wall is limited to a maximum of four cameras.
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (15).png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (16).png" alt="" width="188"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -55,7 +55,7 @@ This type of wall is useful when you want to monitor live footage from more than
 
 1. Tap **Walls** in the bottom navigation bar or in the left navigation bar to open the Walls page. Then tap the **+** icon in the upper right to create a new video wall.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (17).png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (18).png" alt="" width="188"><figcaption></figcaption></figure></div>
 
 2. A list of the cameras in your system appears. Select any number of cameras, then tap **Select**.
 
@@ -68,7 +68,7 @@ This type of wall is useful when you want to monitor live footage from more than
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (25).png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (26).png" alt="" width="188"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -84,9 +84,9 @@ If you select a layout that supports fewer cameras than you have in your wall, t
 
 <figure><img src="../../.gitbook/assets/Screenshot_20260426_115018_Lumana.jpg" alt="" width="188"><figcaption></figcaption></figure>
 
-While the live view is open, you can rotate your device or tap the ![](<../../.gitbook/assets/image (31).png>) (**Full screen**) icon to expand the images for a closer look.
+While the live view is open, you can rotate your device or tap the ![](<../../.gitbook/assets/image (30).png>) (**Full screen**) icon to expand the images for a closer look.
 
-To edit the live view, tap the ![](<../../.gitbook/assets/image (30).png>)(**Edit**) icon. There you can change the camera feeds or the layout as described in step 3 above.
+To edit the live view, tap the ![](<../../.gitbook/assets/image (29).png>)(**Edit**) icon. There you can change the camera feeds or the layout as described in step 3 above.
 
 {% hint style="warning" %}
 The live view is not permanently saved; it only exists as long as you are viewing it.

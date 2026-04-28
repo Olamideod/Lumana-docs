@@ -7,7 +7,7 @@ Dashboard filters let you control what every widget displays at once. You can fi
 1. Select **Dashboards** in the left navigation bar, or go directly to `https://app.lumana.ai/dashboards/main`.
 2. A list of dashboards is displayed. Select the dashboard you want to open.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/image (5).png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/image (6).png" alt="" width="563"></div>
 
 ## Refresh the dashboard's data
 
@@ -15,7 +15,7 @@ You can refresh dashboard data manually at any time or set it to reload automati
 
 ### Manual refresh
 
-Select the ![](<../.gitbook/assets/image (8).png>) (**Refresh data**) icon to update the data in your dashboard. This button can be found in the upper right.
+Select the ![](<../.gitbook/assets/image (9).png>) (**Refresh data**) icon to update the data in your dashboard. This button can be found in the upper right.
 
 ### Auto refresh
 
@@ -23,9 +23,9 @@ To tell the dashboard to refresh automatically at regular intervals, use the aut
 
 1. Use the refresh rate dropdown to set how often the dashboard reloads. The countdown timer shows how long until the next reload.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/image (9).png" alt=""></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/image (10).png" alt=""></div>
 
-2. Select the toggle to enable auto refresh.&#x20;
+2. Select the toggle to enable auto refresh.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/auto-refresh.png" alt="" width="282"></div>
 
@@ -33,7 +33,7 @@ To disable auto refresh, select the toggle again.
 
 ## Fullscreen mode
 
-Select the ![](<../.gitbook/assets/image (11).png>) (**Fullscreen**) icon in the upper right to expand the dashboard to fill the screen. This is useful when displaying dashboards on a dedicated monitor or in a security operations center.
+Select the ![](<../.gitbook/assets/image (12).png>) (**Fullscreen**) icon in the upper right to expand the dashboard to fill the screen. This is useful when displaying dashboards on a dedicated monitor or in a security operations center.
 
 Select the icon again to return the dashboard to the browser window.
 
@@ -67,7 +67,7 @@ There are three modes:
 
 ### Time range
 
-The time range filter sets the time period that is covered by the widgets in the dashboard.&#x20;
+The time range filter sets the time period that is covered by the widgets in the dashboard.
 
 The time range field in the filter bar shows the current range, which may be a relative range such as "Last 2 Weeks" or an absolute range such as "From: 2026-03-16 11:32 - To: 2026-03-26 23:59 EST".
 
@@ -97,9 +97,9 @@ Select **Done** to apply your changes to the dashboard.
 
 You can store a set of filters as the default for this dashboard. The same camera, object type, and time range configuration loads each time you open it.
 
-Select the ![](<../.gitbook/assets/image (12).png>) (**Save as default filters**) icon to save the current filters as the default for this dashboard.
+Select the ![](<../.gitbook/assets/image (13).png>) (**Save as default filters**) icon to save the current filters as the default for this dashboard.
 
-Once you have a default set of filters, you can bring up that set at any time by selecting the ![](<../.gitbook/assets/image (13).png>) (**Reset to default filters**) icon.
+Once you have a default set of filters, you can bring up that set at any time by selecting the ![](<../.gitbook/assets/image (14).png>) (**Reset to default filters**) icon.
 
 ### Widget-level time override
 

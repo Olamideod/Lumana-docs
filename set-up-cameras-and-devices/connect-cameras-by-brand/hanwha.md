@@ -84,7 +84,7 @@ Note: you can always use the **Add** button to add another video profile.
 
 [Follow Connect a camera](../../getting-started/connect-a-camera.md)
 
-Use the following [Real Time Streaming Protocol (RTSP)](../../faq-and-reference/lumana-glossary.md#rtsp) paths based on the profiles above:
+Use the following [Real Time Streaming Protocol (RTSP)](https://github.com/Olamideod/Lumana-docs/blob/main/faq-and-reference/lumana-glossary.md#rtsp) paths based on the profiles above:
 
 Main stream: `/0/profile3/media.smp or /profile3/media.smp`
 

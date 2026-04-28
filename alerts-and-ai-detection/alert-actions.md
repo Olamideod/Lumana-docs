@@ -26,7 +26,7 @@ To configure it, select the users or groups who should receive the notification.
 
 Triggers a GPIO output on a connected Core device. Use this to activate a physical device, for example a door relay, a siren, or a warning light, when the alert fires.
 
-To configure it, select the Core device and the GPIO output you want to toggle. For more on how GPIO works, see [GPIO](../configuring-cameras-and-devices/other-devices/gpio.md).
+To configure it, select the Core device and the GPIO output you want to toggle. For more on how GPIO works, see [GPIO](https://github.com/Olamideod/Lumana-docs/blob/main/configuring-cameras-and-devices/other-devices/gpio.md).
 
 ### Send syslog record
 
