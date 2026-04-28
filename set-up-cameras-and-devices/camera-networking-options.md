@@ -6,7 +6,7 @@ This page covers common networking options used when managing cameras in Lumana.
 
 ## Remote camera access (Camera VPN)
 
-Use Camera VPN to securely access your camera’s native interface through Lumana without exposing it directly to the internet.
+Use **Camera VPN** in the Lumana portal to access and use your camera’s native interface from anywhere. The feature supports third-party cameras and remote access so you can operate more efficiently and save time.
 
 ### When to use this
 
@@ -20,7 +20,7 @@ Use Camera VPN to securely access your camera’s native interface through Luman
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-player-live-view-timeline.png" alt="Camera player live view with timeline scrubber"></div>
 
-2. Click the **VPN icon** in the top-right corner of the camera player.
+2. Click the **VPN icon** in the top-right corner of the camera player page.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/manufacturer-vpn-login-redirect.png" alt="Manufacturer VPN login redirect"></div>
 
