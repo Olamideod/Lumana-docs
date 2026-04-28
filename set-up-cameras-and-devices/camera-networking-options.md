@@ -59,7 +59,9 @@ You'll need:
 
 ### Step 2: Configure SIP service provider
 
-Enable **Use SIP Service Provider** and configure the following:
+- Enable **Use SIP Service Provider**.
+- Set **Name** to **SIP-Provider**.
+- Add the following addresses:
 
 #### Networks
 
