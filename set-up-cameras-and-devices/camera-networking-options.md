@@ -74,6 +74,7 @@ You'll need:
 | Media\_server\_2    | 3.235.11.128   | 255.255.255.128 |
 
 #### Domains
+Add the following domain names
 
 - lumana1.sip.twilio.com
 - lumana1.sip.us1.twilio.com
@@ -98,7 +99,9 @@ You'll need:
 
 ### Step 4: Configure on-premise devices
 
-Add your devices (for example):
+- Use on-premise phones without a SIP server (PBX).
+
+- Add all relevant resources, for example:
 
 | Name            | Type      | Address        |
 | --------------- | --------- | -------------- |
@@ -122,7 +125,11 @@ Add the following services:
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-service-ports-table.png" alt="Check Point SIP-related services with protocols and destination ports."></div>
 
-## Speaker configuration examples
+## Speaker configuration - Examples
+
+{% hint style="info" %}
+**Note:** SIP credentials (address, username, password) are supplied by your CSM.
+{% endhint %}
 
 ### Uniview speaker
 
@@ -132,31 +139,29 @@ Add the following services:
    - Username
    - ID
    - Password
-   - Display Name
+   - Display Name - used as identifier to use on alerts
    - Server Host
    - Port
 4. Set **Expire Time > 600**
 5. Set **Auto Answer** to **Immediately**
 6. Save
-
-Verify the status shows **Registered**
+7. Verify the speakers status shows **Registered**
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-account-setup-example.png" alt="Uniview speaker SIP account settings with registered status."></div>
 
----
 
 ### TOA speaker
 
 1. Log in to the TOA speaker interface
 2. Go to the **SIP section**
-3. Enter:
+3. Update the following details:
    - SIP Server Address
    - SIP Server Port
    - Registration Expiry > 3600
    - User ID
    - Display Name
    - Password
-4. Enable all audio codecs
+4. Audion Codec: Enable all audio codecs
 5. Save
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/toa-speaker-sip-account-registered.png" alt="TOA speaker SIP settings with registration status."></div>
