@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/lumana-docs-header.png)
 
-Lumana is an AI-powered video security platform that turns any camera into an intelligent sensor for real-time monitoring, detection, and response. These docs cover everything you need to deploy, configure, and operate Lumana across your organization. If you're setting up Lumana starts with [getting started](getting-started/what-to-expect.md) for the first time. If you're looking for a specific feature, guide, or reference, use the sections below to go directly to what you need.
+Lumana is an AI-powered video security platform that turns any camera into an intelligent sensor for real-time monitoring, detection, and response. These docs cover everything you need to deploy, configure, and operate Lumana across your organization. If you're setting up Lumana starts with [getting started](getting-started/what-to-expect.md) for the first time. If you're looking for a specific feature, guide, or reference, use the sections below to go directly to what you need .
 
 ## Getting started
 
@@ -16,7 +16,7 @@ Lumana is an AI-powered video security platform that turns any camera into an in
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/icon-users.svg" alt=""></td><td><strong>System administration</strong></td><td>Manage users, roles, permissions, organization settings, system logs, and compliance documentation.</td><td><a href="system-administration/manage-users-and-permissions.md">manage-users-and-permissions.md</a></td></tr><tr><td><img src=".gitbook/assets/icon-video.svg" alt=""></td><td><strong>Live video monitoring and operations</strong></td><td>Monitor live and recorded video across your sites using layouts, PTZ control, video walls, and playback tools.</td><td><a href="live-video-monitoring-and-operations/live-view.md">live-view.md</a></td></tr><tr><td><img src=".gitbook/assets/icon-bell.svg" alt=""></td><td><strong>Alerts and AI detection</strong></td><td>Configure AI-powered detection rules, triage alerts in Alert View, and reference every alert type Lumana supports.</td><td><a href="alerts-and-ai-detection/introduction-to-lumana-alerts.md">introduction-to-lumana-alerts.md</a></td></tr><tr><td><img src=".gitbook/assets/icon-dashboard.svg" alt=""></td><td><strong>Dashboards</strong></td><td>Build dashboards with charts, heatmaps, occupancy counters, and other widgets to visualize activity across your cameras.</td><td><a href="dashboards/dashboards.md">dashboards.md</a></td></tr><tr><td><img src=".gitbook/assets/icon-search.svg" alt=""></td><td><strong>Databases, analytics, and search</strong></td><td>Build databases, search footage, generate reports, analyze occupancy, and connect external event data using Event Tags.</td><td><a href="databases-analytics-and-search/build-a-database-of-people-and-vehicles.md">build-a-database-of-people-and-vehicles.md</a></td></tr></tbody></table>
 
-## Monitoring  services
+## Monitoring services
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/icon-radio.svg" alt=""></td><td><strong>Monitoring services</strong></td><td>Set up Lumana professional monitoring and configure the Partner Monitoring Portal for monitoring-center workflows.</td><td><a href="monitoring-services/professional-monitoring-with-lumana.md">professional-monitoring-with-lumana.md</a></td></tr></tbody></table>
 
