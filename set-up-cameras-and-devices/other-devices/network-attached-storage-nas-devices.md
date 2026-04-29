@@ -22,33 +22,48 @@ For example:
 * **NAS IP:** `192.168.100.200`
 * **NAS Path:** `/share/LumanaVideos`
 
-2. In the Lumana console, on the **Devices** page, find the location where the NAS device is physically connected and click **Edit Location**.
+2. In the Lumana console, open the **Devices** page, find the location where the NAS is used, and click **Edit location** (pencil icon) for that site.
 
-* **Storage type:** `NFS`
-* **Name:** name your external storage server
-* **Path:** NAS IP and a directory path
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-home-devices-edit-location.png" alt="Lumana Home Devices: Devices tab and Edit location pencil icon for a location such as HQ Los Gatos."></div>
 
-3. In the left menu, click **External Storage**, then click **Add external storage**.
+3. In the left menu, select **External Storage**, then click **Add external storage**.
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-location-add-external-storage.png" alt="Edit Location with External Storage selected and Add external storage button."></div>
+
 4. Choose your storage type. This can be either **NFS** or **Object Storage**. See the NFS example below.
 
 * **Storage type:** `NFS`
-* **Name:** name your external storage server
-* **Path:** NAS IP and a directory path
+* **Name:** a label you will recognize when assigning cameras (for example `NFS-Server-1`)
+* **Path:** combine the NAS IP and export path, for example `192.168.100.200/share/LumanaVideos/` (format can vary; match what your NAS expects)
 
-5. Click **Test** to check connectivity to the NFS server, then click **Save external storage**.
+5. Click **Test** to verify connectivity to the server, then click **Save external storage**.
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-location-external-storage-form.png" alt="Edit Location External Storage: NFS type, name NFS-Server-1, path to share, Test and Save external storage."></div>
 
 ## Configure cameras to use the external storage server
 
-1. On the live view page of the camera, click **Edit Camera**.
-2. In the edit camera menu, click **Storage**, then scroll down to **Additional Storage**.
-3. Toggle **Additional storage** to **On**, then select **External**.
-4. After selecting **External**, choose the server where the camera should record. In this example, select the NFS server added earlier, named `NFS-Server-1`.
-5. Configure the storage options:
+1. Open the camera’s **live view** (or the camera page). In the top bar, click **Edit camera** (pencil icon).
 
-* Choose the retention period for videos on the external storage: `30 / 60 / 90 / 180 / 365` days
-* Enable `Storage (SQ)` for saving ordinary footage
-* Enable `Alerts (HQ)` for saving high-resolution clips of triggered alerts
-* If you wish to restrict the times in which the Core uploads videos to the NAS server, use the scheduler at the bottom, **When the upload should occur**
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-live-view-edit-camera.png" alt="Camera live view with Edit camera pencil icon and tooltip in the toolbar."></div>
+
+2. In the edit camera menu, select **Storage**, then scroll to **Additional storage**.
+
+3. Turn **Additional storage** **On**, set the target type to **External**, and choose the NFS (or object storage) entry you created for this location—for example **`NFS-Server-1`**.
+
+4. Set **External retention** and what to copy to the NAS:
+
+* Choose the retention period for videos on external storage: **30 / 60 / 90 / 180 / 365** days (or the options your UI shows).
+* Turn on **Storage (SQ)** for standard-quality continuous footage backups.
+* Turn on **Alerts (HQ)** for high-quality clips tied to alerts.
+* Use **Event types** only if you want that subset of footage uploaded.
+
+5. Optional: under **When the upload should occur**, leave **All time** for continuous backup or limit uploads to specific schedules.
+
+6. Click **Save** on the edit camera page to apply your storage settings.
+
+Example — **Storage** with **Additional storage** on **External**, a named NAS target, retention, **Storage (SQ)** / **Alerts (HQ)**, and upload timing:
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-camera-storage-additional.png" alt="Edit camera Storage: Additional storage on External, NFS server selected, retention, video to backup toggles, upload schedule."></div>
 
 ## Storage capacity calculation
 
