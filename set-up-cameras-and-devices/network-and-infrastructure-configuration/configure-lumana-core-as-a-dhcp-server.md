@@ -14,7 +14,11 @@ When enabled, the DHCP server on Lumana Core provides essential networking servi
 - Management of network connectivity for connected devices
 - Centralized configuration of network settings such as DNS servers and gateways
 
-Before you start, make sure you can edit the relevant Core and that the devices you want Lumana Core to manage are connected to Ethernet 2. If another DHCP server is already active on that network, then review the impact first because enabling this feature can change IP assignments for connected devices.
+## Before you start
+
+- Confirm you can edit the relevant Core in Lumana.
+- Connect the devices you want Lumana Core to manage to **Ethernet 2**.
+- If **another DHCP server** is already active on that segment, review the impact before you enable this feature. Turning on Lumana’s DHCP server can change IP assignments for devices on the network.
 
 ## Configure DHCP server on Lumana Core
 
