@@ -1,16 +1,13 @@
 # Set up a camera floor plan
 
-Lumana’s Floor Plan feature provides a real-time, interactive view of camera locations. Upload facility layouts, place cameras accurately, and preview live feeds instantly—simplifying security management.
+This guide walks you through adding a **floor plan**, placing cameras on the layout, and saving so you can preview live video from the map. Floor plans tie each camera to a location on your site, which makes coverage easier to understand than scrolling a flat device list alone.
 
-Key Benefits:
+**Key benefits**
 
-✔ Instant Awareness – See coverage areas at a glance.
-
-✔ Faster Response – Quickly access live feeds.
-
-✔ Effortless Navigation – Manage multiple cameras easily.
-
-✔ Scalable & Versatile – Ideal for large facilities and multi-site operations.
+- **Instant awareness:** Allows you to see coverage areas at a glance.
+- **Faster response:** Opens live feeds from cameras on the floor plan so you do not have to search the full device list first.
+- **Effortless navigation:** Lets you work with many cameras on one layout and move between them by location.
+- **Scalable and versatile:** Supports multiple floors and buildings when your organization spans more than one site or structure.
 
 {% hint style="info" %}
 **Common use cases:** Offices, malls, hospitals, warehouses, and schools.

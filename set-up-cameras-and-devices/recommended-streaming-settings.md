@@ -2,26 +2,7 @@
 
 Lumana is designed to integrate seamlessly with a range of IP cameras. If you’re using a camera outside of the Lumana portfolio, it is critical to correctly configure your camera before connecting it to Lumana.
 
-If you're unsure, use the recommended settings below.
-
-## Quick recommended configuration
-
-Start with these defaults on each camera, then adjust only if you have a specific constraint. The sections below explain what each stream does and how to tune bitrate, resolution, and keyframes.
-
-### Primary stream
-
-- Resolution: Highest available
-- Encoder: H.265 (H.264 supported but less efficient)
-- Bitrate type: CBR
-- Keyframe interval: Equal to FPS
-
-### Sub stream
-
-- Resolution: 720p (or lower)
-- Encoder: H.265
-- Bitrate type: CBR
-- Image quality: Medium
-- Keyframe interval: 2 × FPS
+If you're unsure, use the recommended settings in the **Primary stream settings** and **Sub stream settings** sections below.
 
 ## Stream configuration overview
 
@@ -49,9 +30,9 @@ The primary stream is used for analytics, high-quality storage, and live monitor
 
 ### Recommended settings
 
-- Resolution: Highest available
+- Resolution: Highest available camera resolution 
 - Encoder: H.265 (H.264 is supported but less efficient)
-- Bitrate type: CBR
+- Bitrate type: CBR (Constant Bit Rate)
 - Keyframe interval: Equal to FPS
 
 ### Keyframe guidance
@@ -62,11 +43,8 @@ For optimal performance:
 - In high-motion scenes, reduce the keyframe interval to match the FPS
 
 For example:
-
-if your camera is at 25 fps, your keyframe interval should be no higher than 50. If you have a lot of motion in the scene, reduce the keyframe interval until it is equal to the FPS, like, if the camera is at 25 fps, set the keyframe interval to 25
-
-- At 25 FPS → keyframe interval should be ≤ 50
-- For high motion → set it to 25
+- At **25 FPS**, keep the keyframe interval **50** or lower
+- For heavy motion, set the interval to match **FPS** (for example **25** at 25 FPS)
 
 ### Reference values
 

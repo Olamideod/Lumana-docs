@@ -6,7 +6,7 @@ This page covers common networking options used when managing cameras in Lumana.
 
 ## Remote camera access (Camera VPN)
 
-Use Camera VPN to securely access your camera’s native interface through Lumana without exposing it directly to the internet.
+Use **Camera VPN** in the Lumana portal to access and use your camera’s native interface from anywhere. The feature supports third-party cameras and remote access so you can operate more efficiently and save time.
 
 ### When to use this
 
@@ -20,7 +20,7 @@ Use Camera VPN to securely access your camera’s native interface through Luman
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-player-live-view-timeline.png" alt="Camera player live view with timeline scrubber"></div>
 
-2. Click the **VPN icon** in the top-right corner of the camera player.
+2. Click the **VPN icon** in the top-right corner of the camera player page.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/manufacturer-vpn-login-redirect.png" alt="Manufacturer VPN login redirect"></div>
 
@@ -59,7 +59,9 @@ You'll need:
 
 ### Step 2: Configure SIP service provider
 
-Enable **Use SIP Service Provider** and configure the following:
+- Enable **Use SIP Service Provider**.
+- Set **Name** to **SIP-Provider**.
+- Add the following addresses:
 
 #### Networks
 
@@ -72,6 +74,7 @@ Enable **Use SIP Service Provider** and configure the following:
 | Media\_server\_2    | 3.235.11.128   | 255.255.255.128 |
 
 #### Domains
+Add the following domain names
 
 - lumana1.sip.twilio.com
 - lumana1.sip.us1.twilio.com
@@ -96,7 +99,9 @@ Enable **Use SIP Service Provider** and configure the following:
 
 ### Step 4: Configure on-premise devices
 
-Add your devices (for example):
+- Use on-premise phones without a SIP server (PBX).
+
+- Add all relevant resources, for example:
 
 | Name            | Type      | Address        |
 | --------------- | --------- | -------------- |
@@ -120,7 +125,11 @@ Add the following services:
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-service-ports-table.png" alt="Check Point SIP-related services with protocols and destination ports."></div>
 
-## Speaker configuration examples
+## Speaker configuration - Examples
+
+{% hint style="info" %}
+**Note:** SIP credentials (address, username, password) are supplied by your CSM.
+{% endhint %}
 
 ### Uniview speaker
 
@@ -130,31 +139,29 @@ Add the following services:
    - Username
    - ID
    - Password
-   - Display Name
+   - Display Name - used as identifier to use on alerts
    - Server Host
    - Port
 4. Set **Expire Time > 600**
 5. Set **Auto Answer** to **Immediately**
 6. Save
-
-Verify the status shows **Registered**
+7. Verify the speakers status shows **Registered**
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-account-setup-example.png" alt="Uniview speaker SIP account settings with registered status."></div>
 
----
 
 ### TOA speaker
 
 1. Log in to the TOA speaker interface
 2. Go to the **SIP section**
-3. Enter:
+3. Update the following details:
    - SIP Server Address
    - SIP Server Port
    - Registration Expiry > 3600
    - User ID
    - Display Name
    - Password
-4. Enable all audio codecs
+4. Audion Codec: Enable all audio codecs
 5. Save
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/toa-speaker-sip-account-registered.png" alt="TOA speaker SIP settings with registration status."></div>
