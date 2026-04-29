@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/lumana-docs-header.png)
 
-Lumana is an AI-powered video security platform that turns any camera into an intelligent sensor for real-time monitoring, detection, and response. These docs cover everything you need to deploy, configure, and operate Lumana across your organization. If you're setting up Lumana starts with [getting started](getting-started/what-to-expect.md) for the first time. If you're looking for a specific feature, guide, or reference, use the sections below to go directly to what you need.
+Lumana is an AI-powered video security platform that turns any camera into an intelligent sensor for real-time monitoring, detection, and response. These docs cover everything you need to deploy, configure, and operate Lumana across your organization. If you're setting up Lumana starts with [getting started](getting-started/what-to-expect.md) for the first time. If you're looking for a specific feature, guide, or reference, use the sections below to go directly to what you need .
 
 ## Getting started
 
