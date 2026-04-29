@@ -58,6 +58,18 @@ When your policy allows it, connect with the camera’s **admin (root)** credent
 * **Discovery and addressing:** Use **[Axis IP Utility](https://www.axis.com/support/tools/axis-ip-utility)** (or the camera web interface) to find the camera, **set the root password**, and assign a **static IP**. A stable IP prevents Lumana Core from losing the device when DHCP leases change.
 * **ONVIF and passwords:** After the root password is set, **Axis disables ONVIF until you add an ONVIF user** (see below). Plan that step if you will use ONVIF in Lumana.
 
+Put the workstation you use for setup on the **same LAN** as the camera (for example, cameras and a computer on one switch) so discovery and the web UI work reliably.
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-setup-network-topology.png" alt="Diagram: security cameras and a laptop connected to a network switch on the same local network."></div>
+
+**First visit — root password and HTTPS:** The first time you open the camera in a browser, you may need to create a **self-signed certificate** (for HTTPS) and set the **root** password. The page may state that **ONVIF is disabled** until you add an ONVIF user later under **System** → **ONVIF** (wording and menu paths can vary slightly by firmware).
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-setup-root-password-certificate.png" alt="Axis first-time setup: Create Certificate, Configure Root Password for user root, factory reset warning, and note that ONVIF is disabled until enabled in System."></div>
+
+**Sign in:** When the login page appears, enter your **root** (or administrator) credentials. A short **System is getting ready** state is normal on some units right after power-up.
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-web-sign-in.png" alt="Axis camera Sign in dialog in the browser with username and password fields."></div>
+
 If you cannot activate the camera, reach its web UI, or complete network setup, see the [General troubleshooting guide](../../troubleshooting-and-maintenance/general-troubleshooting-guide.md) or your Axis documentation for device activation.
 
 ### Configure ONVIF on your Axis camera
@@ -69,6 +81,10 @@ Use this section when you chose **ONVIF** as the connection method above.
 3. **Add an ONVIF user:** Add a user intended for ONVIF access. Use a **strong password** and assign the **Administrator** role (or the role your organization requires for streaming control).
 4. **Save:** Click **Save** (or equivalent). Confirm the device reports success so the account and ONVIF access are persisted.
 
+Example — **System** → **ONVIF** → **Add user**, **Administrator** role, and **Save**:
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-system-onvif-add-user-modal.png" alt="Axis System ONVIF page with Add user dialog: username, passwords, Administrator role, Save button."></div>
+
 After this, use the **ONVIF username and password** you created when you [connect the camera in Lumana Core](../../getting-started/connect-a-camera.md#connect-a-camera).
 
 ### Add a dedicated user on your Axis camera
@@ -77,8 +93,14 @@ Use this section when you chose **Dedicated camera user** instead of the root ac
 
 1. **Log in to the Axis web interface** with an account that can manage users (typically **root**).
 2. **Open user management:** Select the **System** tab, then **Users**.
-3. **Add a user:** Create a user for Lumana. Use a **strong password** and assign an **Administrator** role (or the minimum role your security team approves—know that lower roles may block some Lumana features).
-4. **Save:** Apply the changes and confirm the camera saved successfully.
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-system-users-page.png" alt="Axis System Users page: Add user button and table listing Administrator users such as root and lumana."></div>
+
+3. **Add a user:** Select **Add user**. Enter a **username** and **strong password**, set **Role** to **Administrator** (or the minimum role your security team approves—know that lower roles may block some Lumana features).
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-system-users-add-user-modal.png" alt="Axis Add user modal on Users page: username lumana, password fields, Administrator role, Save button."></div>
+
+4. **Save:** Click **Save** and confirm the camera stored the new user.
 
 Use this **username and password** in Lumana Core when you [connect the camera](../../getting-started/connect-a-camera.md#connect-a-camera), not the root password, unless you switch back to the admin-credentials path.
 
