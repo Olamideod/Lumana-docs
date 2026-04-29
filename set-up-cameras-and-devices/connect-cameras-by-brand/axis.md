@@ -64,28 +64,37 @@ To add the camera in Lumana Core, enter the camera's admin username and password
 
 ## Stream configuration profiles
 
-If Lumana cannot create the required stream profiles automatically, you can configure them manually on the Axis camera before connecting it. Use the recommended values from [Recommended streaming settings](../recommended-streaming-settings.md), then follow the steps below to create the profiles in the Axis interface.
+If Lumana cannot create the required stream profiles automatically, you can configure them manually on the Axis camera before connecting it. Use the recommended values from [Recommended streaming settings](../recommended-streaming-settings.md), then follow the steps below in the Axis interface.
 
-Before creating the stream profiles:
+Each Axis **stream profile** has a fixed **profile name** you assign on the camera. That name feeds the [Real Time Streaming Protocol (RTSP)](../../faq-and-reference/lumana-glossary.md#rtsp) path Lumana Core uses—for example `/axis-media/media.amp?streamprofile=<your profile name>` or `/axis-media/media.amp?profile=<your profile name>`—so Lumana resolves the encoder you configured. Decide **distinct** names up front for the main and sub streams so nothing collides. If the name in Axis and the name in Lumana do not match **exactly**, video will not attach.
+
+### Before you create each stream profile
 
 - **Log in to the Axis Web Portal:** Use a web browser to log into the Axis camera interface with your admin credentials.
 - **Open Stream Profiles:** In the **System** tab, select **Stream Profiles** and click **Add stream Profile**.
 - **Turn enhanced features off:** Set **Zipstream**, **Dynamic FPS**, and **Optimized GOP** to **Off**. These features can cause compatibility issues with Lumana Core.
-- **Set a profile name:** The profile name is used in the [Real Time Streaming Protocol (RTSP)](../../faq-and-reference/lumana-glossary.md#rtsp) path when connecting the camera to Lumana Core. After you save the profile, use `/axis-media/media.amp?streamprofile=<profile name>` as the RTSP path in Lumana Core.
-
+- **Set the profile name before you leave the profile editor:** Enter the final **profile name** field for that stream in the Axis UI, save, then use the **same string** when Lumana asks for the RTSP path or stream profile token. If you rename it later, update Lumana to match.
 
 **Main stream profile**
+
+Build the main stream first. **Set the profile name** to a value you will recognize in RTSP paths (example: `lumana_main`).
 
 * **Resolution:** Select the highest available resolution for your camera.
 * **Frame Rate:** Set the frame rate to `15fps`.
 * **Video Encoding:** If your camera supports **H.265**, select this option for video encoding. If **H.265** is not available, **H.264** is a suitable alternative.
 * **Bitrate:** Set bitrate based on the [Recommended streaming settings](../recommended-streaming-settings.md) guide.
-* **Profile name:** In the example below the RTSP path that was generated is `/axis-media/media.amp?profile=lumana_main`
+* **Profile name:** Save the profile with the name you chose. With profile name `lumana_main`, the RTSP path can look like `/axis-media/media.amp?profile=lumana_main` (Axis may also show `streamprofile=` forms depending on UI). Keep the **profile name segment** aligned with Lumana.
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-stream-profile-lumana-main.png" alt="Axis web interface: System, Stream profiles, Add stream profile showing Name lumana_main, H.265 codec, resolution, frame rate, and Create."></div>
 
 **Sub stream profile**
 
+Repeat **Add stream Profile** for the secondary stream and **assign a separate profile name** (example: `lumana_sub`) so the main stream name is unchanged.
+
 * **Video Encoding:** If your camera supports **H.265**, select this option for video encoding. If **H.265** is not available, **H.264** is a suitable alternative.
 * **Resolution, Frame Rate, and Bitrate:** Set these values based on the [Recommended streaming settings](../recommended-streaming-settings.md) guide.
-* **Profile name:** In this example the RTSP path that was generated is `/axis-media/media.amp?profile=lumana_sub`
+* **Profile name:** Save with the secondary name—for example `/axis-media/media.amp?profile=lumana_sub` should reference `lumana_sub`.
 
-After both profiles are saved, return to Lumana Core and connect the camera using its **admin** credentials.
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-stream-profile-lumana-sub.png" alt="Axis web interface: Stream profiles with Add stream profile showing Name lumana_sub, H.265, 1280x720, and existing lumana_main profile listed."></div>
+
+After **both profiles are saved** with their stable names applied in Axis, return to Lumana Core and connect the camera using its **admin** credentials unless your workflow uses dedicated users or ONVIF as described earlier. When onboarding asks for URLs or profiles, reuse the profile names verbatim.
