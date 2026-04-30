@@ -8,11 +8,11 @@ Update the location time zone so live view and playback show the correct local t
 
 1. Hover the name of the relevant location and select **Edit location**.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-edit-location.png" alt="Edit location button on location card."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-edit-location.png" alt="Edit location button on location card." width="563"></div>
 
 2. Edit the **Time Zone** field.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-location-timezone-field.png" alt="Edit Location, Time Zone field."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-location-timezone-field.png" alt="Edit Location, Time Zone field." width="563"></div>
 
 ## Configure Network Time Protocol (NTP)
 

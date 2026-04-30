@@ -44,7 +44,7 @@ Do this before video profile steps. A static IP keeps the camera on a predictabl
 
 For more context, see [Set up a static IP address](../set-up-a-static-ip-address.md).
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-ip-address-ipv4-setup.png" alt="Hanwha web interface: Basic, IP and port, IP address tab with manual IPv4, subnet mask, gateway, and DNS."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-ip-address-ipv4-setup.png" alt="Hanwha web interface: Basic, IP and port, IP address tab with manual IPv4, subnet mask, gateway, and DNS." width="563"></div>
 
 ### Configure video profiles on the camera
 
@@ -53,7 +53,7 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 3. Select the profile row you want for the *main* stream, or select **Add** to create a row if you need one. In the examples below, the main stream uses the **H.265** row as *profile 3*.
 4. Set that row as the **Default** profile and set **Codec** to **H.265**.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-video-profile-h265-default.png" alt="Hanwha web interface: Basic, Video profile with H.265 set as the default profile."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-video-profile-h265-default.png" alt="Hanwha web interface: Basic, Video profile with H.265 set as the default profile." width="563"></div>
 
 5. Open the main profile’s encoding settings and apply these values:
 
@@ -65,7 +65,7 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 * Set **Smart codec** to **Off** (or **Disable**).
 * Leave **Dynamic GOV** and **Dynamic FPS** disabled.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-main-profile-stream-settings.png" alt="Hanwha main stream profile editor: ATC mode off, 15 fps, CBR, GOV length 15, Smart codec and Dynamic GOV and Dynamic FPS disabled."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-main-profile-stream-settings.png" alt="Hanwha main stream profile editor: ATC mode off, 15 fps, CBR, GOV length 15, Smart codec and Dynamic GOV and Dynamic FPS disabled." width="563"></div>
 
 6. Add or select a second profile row for the storage substream: name it **Storage**, set **Codec** to **H.265**. In the examples below, this is *profile 4*.
 
@@ -79,7 +79,7 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 * Set **Smart codec** to **Off** (or **Disable**).
 * Leave **Dynamic GOV** and **Dynamic FPS** disabled.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-storage-profile-settings.png" alt="Hanwha Storage profile: H.265, 1280x720, 20 fps, ATC off, maximum bitrate 2048 kbps."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-storage-profile-settings.png" alt="Hanwha Storage profile: H.265, 1280x720, 20 fps, ATC off, maximum bitrate 2048 kbps." width="563"></div>
 
 ### Add the camera in Lumana Core
 

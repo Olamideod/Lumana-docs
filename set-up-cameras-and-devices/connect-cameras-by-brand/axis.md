@@ -60,15 +60,15 @@ When your policy allows it, connect with the camera’s *admin (root)* credentia
 
 Put the workstation you use for setup on the *same LAN* as the camera (for example, cameras and a computer on one switch) so discovery and the web UI work reliably.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-setup-network-topology.png" alt="Diagram: security cameras and a laptop connected to a network switch on the same local network."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-setup-network-topology.png" alt="Diagram: security cameras and a laptop connected to a network switch on the same local network." width="563"></div>
 
 *First visit — root password and HTTPS:* The first time you open the camera in a browser, you may need to create a self-signed certificate (for HTTPS) and set the *root* password. The page may state that ONVIF is disabled until you add an ONVIF user later under **System** → **ONVIF** (wording and menu paths can vary slightly by firmware).
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-setup-root-password-certificate.png" alt="Axis first-time setup: Create Certificate, Configure Root Password for user root, factory reset warning, and note that ONVIF is disabled until enabled in System."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-setup-root-password-certificate.png" alt="Axis first-time setup: Create Certificate, Configure Root Password for user root, factory reset warning, and note that ONVIF is disabled until enabled in System." width="563"></div>
 
 *Sign in:* When the login page appears, enter your *root* (or administrator) credentials. A short **System is getting ready** state is normal on some units right after power-up.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-web-sign-in.png" alt="Axis camera Sign in dialog in the browser with username and password fields."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-web-sign-in.png" alt="Axis camera Sign in dialog in the browser with username and password fields." width="563"></div>
 
 If you cannot activate the camera, reach its web UI, or complete network setup, see the [General troubleshooting guide](../../troubleshooting-and-maintenance/general-troubleshooting-guide.md) or your Axis documentation for device activation.
 
@@ -83,7 +83,7 @@ Use this section when you chose *ONVIF* as the connection method above.
 
 Example — **System** → **ONVIF** → **Add user**, **Administrator** role, and **Save**:
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-system-onvif-add-user-modal.png" alt="Axis System ONVIF page with Add user dialog: username, passwords, Administrator role, Save button."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-system-onvif-add-user-modal.png" alt="Axis System ONVIF page with Add user dialog: username, passwords, Administrator role, Save button." width="563"></div>
 
 After this, use the ONVIF username and password you created when you [connect the camera in Lumana Core](../../getting-started/connect-a-camera.md#connect-a-camera).
 
@@ -94,11 +94,11 @@ Use this section when you chose *Dedicated camera user* instead of the root acco
 1. Log in to the Axis web interface with an account that can manage users (typically *root*).
 2. Open user management: Select the **System** tab, then **Users**.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-system-users-page.png" alt="Axis System Users page: Add user button and table listing Administrator users such as root and lumana."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-system-users-page.png" alt="Axis System Users page: Add user button and table listing Administrator users such as root and lumana." width="563"></div>
 
 3. Add a user: Select **Add user**. Enter a username and strong password, set **Role** to **Administrator** (or the minimum role your security team approves—know that lower roles may block some Lumana features).
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-system-users-add-user-modal.png" alt="Axis Add user modal on Users page: username lumana, password fields, Administrator role, Save button."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-system-users-add-user-modal.png" alt="Axis Add user modal on Users page: username lumana, password fields, Administrator role, Save button." width="563"></div>
 
 4. Save: Select **Save** and confirm the camera stored the new user.
 
@@ -137,7 +137,7 @@ Build the *main* stream first. Set the **profile name** to something you will re
 * *Bitrate*: Follow [Recommended streaming settings](../recommended-streaming-settings.md).
 * *Profile name and RTSP*: Save the profile. Example RTSP fragment: `/axis-media/media.amp?profile=lumana_main` (your UI may show `streamprofile=` instead of `profile=`). Keep whatever query parameter and name your firmware uses *identical* in Lumana.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-stream-profile-lumana-main.png" alt="Axis web interface: System, Stream profiles, Add stream profile showing Name lumana_main, H.265 codec, resolution, frame rate, and Create."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-stream-profile-lumana-main.png" alt="Axis web interface: System, Stream profiles, Add stream profile showing Name lumana_main, H.265 codec, resolution, frame rate, and Create." width="563"></div>
 
 ### Sub stream profile
 
@@ -148,6 +148,6 @@ Select **Add stream Profile** again and assign a different **profile name** (exa
 * *Enhanced features*: Again set **Zipstream**, **Dynamic FPS**, and **Optimized GOP** to **Off**.
 * *Profile name and RTSP*: Save as `lumana_sub` (or your name). Example: `/axis-media/media.amp?profile=lumana_sub`.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-stream-profile-lumana-sub.png" alt="Axis web interface: Stream profiles with Add stream profile showing Name lumana_sub, H.265, 1280x720, and existing lumana_main profile listed."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-stream-profile-lumana-sub.png" alt="Axis web interface: Stream profiles with Add stream profile showing Name lumana_sub, H.265, 1280x720, and existing lumana_main profile listed." width="563"></div>
 
 After both profiles are saved with stable names on the camera, return to Lumana Core and finish [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera) using *root*, your ONVIF user, or your dedicated user as planned. Where the onboarding flow asks for URLs or profile tokens, paste the *same profile names* you configured in Axis.

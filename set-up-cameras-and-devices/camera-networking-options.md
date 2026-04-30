@@ -18,15 +18,15 @@ Use **Camera VPN** in the Lumana portal to access and use your camera’s native
 
 1. Open the camera from the **Devices** list.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-player-live-view-timeline.png" alt="Camera player live view with timeline scrubber"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-player-live-view-timeline.png" alt="Camera player live view with timeline scrubber" width="563"></div>
 
 2. Select the **VPN** icon in the top-right corner of the camera player page.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/manufacturer-vpn-login-redirect.png" alt="Manufacturer VPN login redirect"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/manufacturer-vpn-login-redirect.png" alt="Manufacturer VPN login redirect" width="563"></div>
 
 3. You will be redirected to the camera manufacturer’s login page.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/hikvision-manufacturer-login.png" alt="Hikvision manufacturer login page"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/hikvision-manufacturer-login.png" alt="Hikvision manufacturer login page" width="563"></div>
 
 4. Enter your camera credentials to log in.
 
@@ -55,7 +55,7 @@ You'll need:
 - Go to **Access Policy → VoIP**
 - Enable VoIP
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/check-point-voip-toggle-on.png" alt="Check Point SmartConsole Access Policy VoIP settings with VoIP enabled."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/check-point-voip-toggle-on.png" alt="Check Point SmartConsole Access Policy VoIP settings with VoIP enabled." width="563"></div>
 
 ### Step 2: Configure SIP service provider
 
@@ -79,7 +79,7 @@ Add the following domain names
 - lumana1.sip.twilio.com
 - lumana1.sip.us1.twilio.com
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/off-premise-sip-provider-service-list.png" alt="Check Point SIP service provider networks and domain configuration."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/off-premise-sip-provider-service-list.png" alt="Check Point SIP service provider networks and domain configuration." width="563"></div>
 
 ### Step 3: Configure RTP services
 
@@ -95,7 +95,7 @@ Add the following domain names
 
 - Enable bidirectional traffic
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-traffic-inspection-rtp-services.png" alt="Check Point SIP traffic inspection disabled and RTP-related services configured."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-traffic-inspection-rtp-services.png" alt="Check Point SIP traffic inspection disabled and RTP-related services configured." width="563"></div>
 
 ### Step 4: Configure on-premise devices
 
@@ -107,7 +107,7 @@ Add the following domain names
 | --------------- | --------- | -------------- |
 | Uniview_speaker | Single IP | 192.168.100.30 |
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/on-premise-devices-ip-phones.png" alt="Check Point on-premise devices list including IP phones."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/on-premise-devices-ip-phones.png" alt="Check Point on-premise devices list including IP phones." width="563"></div>
 
 ### Step 5: Configure SIP services
 
@@ -123,7 +123,7 @@ Add the following services:
 | SIP\_UDP       | SIP\_UDP       | UDP      | 5061              |
 | Any\_UDP       | Any\_UDP       | UDP      | 1-65535           |
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-service-ports-table.png" alt="Check Point SIP-related services with protocols and destination ports."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-service-ports-table.png" alt="Check Point SIP-related services with protocols and destination ports." width="563"></div>
 
 ## Speaker configuration - Examples
 
@@ -147,7 +147,7 @@ Add the following services:
 6. Save
 7. Verify the speakers status shows **Registered**
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-account-setup-example.png" alt="Uniview speaker SIP account settings with registered status."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-account-setup-example.png" alt="Uniview speaker SIP account settings with registered status." width="563"></div>
 
 
 ### TOA speaker
@@ -164,4 +164,4 @@ Add the following services:
 4. Audion Codec: Enable all audio codecs
 5. Save
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/toa-speaker-sip-account-registered.png" alt="TOA speaker SIP settings with registration status."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/toa-speaker-sip-account-registered.png" alt="TOA speaker SIP settings with registration status." width="563"></div>

@@ -29,7 +29,7 @@ Use overhead placement when counting accuracy is the highest priority and the ca
 - *Best for*: High-traffic entrances where multiple people may enter or exit at the same time.
 - *Limitation*: The top-down angle can limit facial visibility and license plate visibility.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-top-down-camera-placement.png" alt="Top-down camera placement for space occupancy counting across an entryway." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-top-down-camera-placement.png" alt="Top-down camera placement for space occupancy counting across an entryway." width="563"></div>
 
 ### Front-facing camera placement
 
@@ -39,7 +39,7 @@ Use front-facing placement when you need occupancy data and also want better vis
 - *Best for*: Spaces where occupancy monitoring and identification both matter.
 - *Limitation*: In crowded conditions, people can overlap and create minor counting mismatches.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-front-facing-camera-placement.png" alt="Front-facing camera placement balancing occupancy tracking with facial and license plate visibility." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-front-facing-camera-placement.png" alt="Front-facing camera placement balancing occupancy tracking with facial and license plate visibility." width="563"></div>
 
 ### Maintain counting accuracy
 

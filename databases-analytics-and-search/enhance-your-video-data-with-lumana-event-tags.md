@@ -15,7 +15,7 @@ Lumana uses API keys to authenticate event tag POST requests. You'll use the key
 1. Open **Organization** and select **Organization settings**.
 2. In the left menu, select **API keys**.
 
-<div align="center"><img src="../.gitbook/assets/org-settings-api-keys-navigation.png" alt="Organization settings navigation with API keys selected in the left menu." width="300"></div>
+<div align="center"><img src="../.gitbook/assets/org-settings-api-keys-navigation.png" alt="Organization settings navigation with API keys selected in the left menu." width="375"></div>
 
 3. Select **Generate Key**.
 4. Enter a name for the key, set an expiration date, and select **Save**.
@@ -172,4 +172,4 @@ For full configuration steps, use the [Event tag alert guide](../alerts-and-ai-d
 
 Once your events are verified in Search, add a Chart or table widget to a dashboard to visualize the counts over time. Full configuration steps, including axis options, camera selection, time settings, and how to drill into clips from the chart, are covered in the [Event tags dashboard widget guide](/broken/pages/Dsi4oiK829G9U1zTaJuJ).
 
-<div align="center"><img src="../.gitbook/assets/widget-event-tags-chart-tooltip.png" alt="Event tags chart tooltip showing event count for a selected time on the dashboard." width="480"></div>
+<div align="center"><img src="../.gitbook/assets/widget-event-tags-chart-tooltip.png" alt="Event tags chart tooltip showing event count for a selected time on the dashboard." width="375"></div>

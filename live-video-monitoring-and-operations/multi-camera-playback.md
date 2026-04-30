@@ -2,7 +2,7 @@
 
 Use multi-camera playback to review footage from up to four cameras on one synchronized timeline. This helps you compare activity across nearby cameras, reconstruct incidents, and confirm alerts without scrubbing each feed separately.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-preview.png" alt="Multi-camera playback preview with image results, selected time range, and Add cameras button."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-preview.png" alt="Multi-camera playback preview with image results, selected time range, and Add cameras button." width="563"></div>
 
 ## Before you begin
 
@@ -19,27 +19,27 @@ Start from a camera preview, then open the video timeline and add more cameras t
 
    The playback view opens and shows the multi-camera playback icon in the upper-right corner.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-video-tab.png" alt="Video tab view with the multi-camera playback icon highlighted."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-video-tab.png" alt="Video tab view with the multi-camera playback icon highlighted." width="563"></div>
 
-3. In the upper-right corner of the playback view, select the <img src="../.gitbook/assets/icons/icon-multi-camera-playback.png" alt="Multi-camera playback icon in the playback toolbar." style="display:inline-block;vertical-align:middle;max-height:1.5em;width:auto;"> **multi-camera playback** icon.
+3. In the upper-right corner of the playback view, select the <img src="../.gitbook/assets/icons/icon-multi-camera-playback.png" alt="Multi-camera playback icon in the playback toolbar." width="188"> **multi-camera playback** icon.
 
 4. Select up to three additional cameras, then select **Select**.
 
    The chooser lets you search cameras and locations before you add them.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-choose-cameras.png" alt="Choose cameras dialog for multi-camera playback with selected cameras and Select button."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-choose-cameras.png" alt="Choose cameras dialog for multi-camera playback with selected cameras and Select button." width="563"></div>
 
 5. Review the synchronized playback view.
 
    All selected cameras stay on one timeline. You can scrub across the incident, change playback speed, and export footage to the archive.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-synced-view.png" alt="Synchronized multi-camera playback view with four camera tiles and shared timeline controls."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-synced-view.png" alt="Synchronized multi-camera playback view with four camera tiles and shared timeline controls." width="563"></div>
 
 {% hint style="info" %}
 In search-based playback, a green highlight on a camera timeline marks frames where the searched object appears.
 {% endhint %}
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-wall-view.png" alt="Multi-camera playback wall view with synchronized camera tiles and shared timeline."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-wall-view.png" alt="Multi-camera playback wall view with synchronized camera tiles and shared timeline." width="563"></div>
 
 ## Next steps
 

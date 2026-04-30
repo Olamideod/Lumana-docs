@@ -12,13 +12,13 @@ Open your user settings, then update the theme from your account details.
 
 1. In the lower-left corner of the page, select the user icon.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-home-view.png" alt="Dark mode home view with the user menu button highlighted in the lower left."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-home-view.png" alt="Dark mode home view with the user menu button highlighted in the lower left." width="563"></div>
 
 2. Select **User settings**.
 
    The user settings menu opens.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-user-settings-menu.png" alt="Dark mode user menu with the User settings option highlighted."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-user-settings-menu.png" alt="Dark mode user menu with the User settings option highlighted." width="563"></div>
 
 3. Select **Account details**.
 
@@ -28,13 +28,13 @@ Open your user settings, then update the theme from your account details.
 
    The theme setting becomes editable.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-account-details-theme.png" alt="Account details page showing the Theme setting in dark mode."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-account-details-theme.png" alt="Account details page showing the Theme setting in dark mode." width="563"></div>
 
 5. Select **Dark** or **Light**, then select **Save**.
 
    The theme updates for your account.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-theme-selection-dialog.png" alt="Theme selection dialog with Dark selected and Save button visible."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-theme-selection-dialog.png" alt="Theme selection dialog with Dark selected and Save button visible." width="563"></div>
 
 ## Next steps
 

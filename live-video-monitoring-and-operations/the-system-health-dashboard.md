@@ -16,7 +16,7 @@ Open the dashboard from a camera view page to see the current health status of y
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/health-view-button.png" alt="Health view button on the camera view page."></div>
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-overview.png" alt="System Health Dashboard showing Core and camera status indicators."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-overview.png" alt="System Health Dashboard showing Core and camera status indicators." width="563"></div>
 
 ## Review camera health history
 
@@ -34,7 +34,7 @@ Use the row controls to inspect recent online and offline history for an individ
 
    The status view updates to match the selected time range.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-camera-row.png" alt="System Health Dashboard row showing camera health indicators and status columns."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-camera-row.png" alt="System Health Dashboard row showing camera health indicators and status columns." width="563"></div>
 
 Once you review recent status history, the health indicators help you identify which part of the camera workflow needs attention.
 

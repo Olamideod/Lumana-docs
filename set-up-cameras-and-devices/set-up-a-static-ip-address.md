@@ -32,11 +32,11 @@ Follow the scenario below that matches your network.
 2. In Lumana, collect the **IP address** and **MAC address** you will map on the DHCP server. If the camera is not listed under **Devices** yet, add it to your organization first.
    - From **Devices**, open the camera and note the **IP address**.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/devices-list-ip-address.png" alt="Devices list showing the camera IP address."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/devices-list-ip-address.png" alt="Devices list showing the camera IP address." width="563"></div>
 
    - Open **Edit camera** → **Details** and copy the **MAC address**.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-details-mac-address.png" alt="Camera details page showing the MAC address field."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-details-mac-address.png" alt="Camera details page showing the MAC address field." width="563"></div>
 
 3. Configure DHCP reservation on your router using the MAC address.
 This way the camera keeps the same IP address after reboots or power interruptions when the server always offers that lease to this MAC address.
@@ -82,12 +82,12 @@ If needed, refer to your computer or operating system documentation for instruct
 
 3. Enter the camera **username** and **password** on the login page, then sign in.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-camera-web-login-lb800.png" alt="Camera local web interface login page."></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-camera-web-login-lb800.png" alt="Camera local web interface login page." width="563"></div>
 
 4. Change the default password when prompted, then record the new credentials where your team expects them.
 
 5. Go to **Setup → Network**.
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-network-ipv4-dhcp-settings.png" alt="Camera network settings showing IPv4 DHCP mode."></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-network-ipv4-dhcp-settings.png" alt="Camera network settings showing IPv4 DHCP mode." width="563"></div>
 
 6. Change the network mode from DHCP to Static IP.
 
@@ -95,4 +95,4 @@ If needed, refer to your computer or operating system documentation for instruct
 
 8. Select **Save** to apply your changes.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-network-ipv4-static-settings.png" alt="Camera network settings showing static IP, subnet mask, and gateway."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-network-ipv4-static-settings.png" alt="Camera network settings showing static IP, subnet mask, and gateway." width="563"></div>

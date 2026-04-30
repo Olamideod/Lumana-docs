@@ -8,7 +8,7 @@ Reports summarize analytics from your VMS+ data (alerts, attendance, license pla
 
 The **Reports** feature creates CSV exports and can automate delivery by download or email. Select **Reports** in the main navigation. The entry uses a list-style icon, as shown below.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/generate-reports-navigation-icon.png" alt="" width="96"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/generate-reports-navigation-icon.png" alt="" width="375"></div>
 
 ## Before you begin
 

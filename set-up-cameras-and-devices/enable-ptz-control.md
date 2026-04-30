@@ -24,7 +24,7 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
 
     * Select **Edit camera**.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-edit-camera-button.png" alt="Camera view with Edit camera highlighted."></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-edit-camera-button.png" alt="Camera view with Edit camera highlighted." width="563"></div>
 3. Configure PTZ settings
 
     * Navigate to the **PTZ** section.
@@ -36,7 +36,7 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
         `{camera_IP}:80/onvif/device_service`
     * Specify the **port** (if different from default `80`).
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/ptz-settings-onvif-address-port.png" alt="PTZ settings with ONVIF driver address and port fields."></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/ptz-settings-onvif-address-port.png" alt="PTZ settings with ONVIF driver address and port fields." width="563"></div>
 4. Save configuration
    * Select **Save** to apply changes.
 
@@ -45,10 +45,10 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
 1. Open the camera from the **Devices** list.
 2. Enable **PTZ control** at the bottom of the camera view.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-ptz-toggle.png" alt="PTZ control toggle at the bottom of the camera view."></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-ptz-toggle.png" alt="PTZ control toggle at the bottom of the camera view." width="563"></div>
 3. Use the on-screen controls:
 
     * *Arrow controls* to pan and tilt
     * *Zoom controls* to adjust magnification
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-ptz-controls-overlay.png" alt="PTZ pan, tilt, and zoom controls overlaid on the live view."></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-ptz-controls-overlay.png" alt="PTZ pan, tilt, and zoom controls overlaid on the live view." width="563"></div>

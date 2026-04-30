@@ -17,22 +17,22 @@ This guide walks you through adding a *floor plan*, placing cameras on the layou
 
 1. Go to Floor Plans menu
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/floor-plans-menu-overview.png" alt="Floor Plans menu overview."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/floor-plans-menu-overview.png" alt="Floor Plans menu overview." width="563"></div>
 
 2. Create building
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/create-building-floor-plans.png" alt="Floor Plans page with Create building action."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/create-building-floor-plans.png" alt="Floor Plans page with Create building action." width="563"></div>
 
 3. Upload a floor plan
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/upload-floor-plan-dialog.png" alt="Create floor plan dialog with upload area."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/upload-floor-plan-dialog.png" alt="Create floor plan dialog with upload area." width="563"></div>
 
 4. Select on the Camera icon to start adding and positioning your cameras on the floor plan
 
 5. Save when finished
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/edit-floor-plan-layout.png" alt="Floor plan editor with camera placement and save action."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/edit-floor-plan-layout.png" alt="Floor plan editor with camera placement and save action." width="563"></div>
 
 Now you are able to view the floor plan, when you hover over a camera you will get a live view for it.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/floor-plan-live-view-hover.png" alt="Floor plan with live view preview on camera hover."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/floor-plan-live-view-hover.png" alt="Floor plan with live view preview on camera hover." width="563"></div>

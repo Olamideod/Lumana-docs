@@ -22,15 +22,15 @@ When enabled, the DHCP server on Lumana Core provides essential networking servi
 
 ## Configure DHCP server on Lumana Core
 
-1. In the left sidebar, select the <img src="../../.gitbook/assets/dhcp-sidebar-cameras-icon.png" alt="Cameras icon in the sidebar." style="display:inline-block;vertical-align:middle;max-height:1.35em;width:auto;"> **Cameras** icon.
+1. In the left sidebar, select the <img src="../../.gitbook/assets/dhcp-sidebar-cameras-icon.png" alt="Cameras icon in the sidebar." width="188"> **Cameras** icon.
 
-2. Select the Core where you want to enable DHCP server and select the <img src="../../.gitbook/assets/dhcp-edit-pencil-icon.png" alt="Edit pencil icon." style="display:inline-block;vertical-align:middle;max-height:1.35em;width:auto;"> pencil icon.
+2. Select the Core where you want to enable DHCP server and select the <img src="../../.gitbook/assets/dhcp-edit-pencil-icon.png" alt="Edit pencil icon." width="188"> pencil icon.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-edit-core-location.png" alt="Cores list, edit Core."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-edit-core-location.png" alt="Cores list, edit Core." width="563"></div>
 
 3. Open **DHCP Server** and enter the required parameters.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-server-configuration-form.png" alt="DHCP Server configuration form."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-server-configuration-form.png" alt="DHCP Server configuration form." width="563"></div>
 
 ## Configuration parameters
 
@@ -46,7 +46,7 @@ To set up the DHCP server on Lumana Core, the following parameters need to be co
 
 The example below shows a completed DHCP server configuration.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-example-configuration-filled.png" alt="Example DHCP Server configuration with sample values."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-example-configuration-filled.png" alt="Example DHCP Server configuration with sample values." width="563"></div>
 
 When you enable DHCP, the page shows an option to reserve IP addresses.
 
@@ -66,4 +66,4 @@ Lumana Core supports DHCP address reservation, allowing specific devices to alwa
 - Ensuring stable IP addresses for critical infrastructure such as servers and other network devices
 - Preventing IP conflicts by pre-assigning known addresses
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-address-reservation-ui.png" alt="DHCP Server with address reservations and attached devices."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-address-reservation-ui.png" alt="DHCP Server with address reservations and attached devices." width="563"></div>
