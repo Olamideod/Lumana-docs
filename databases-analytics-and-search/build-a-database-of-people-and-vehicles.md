@@ -75,7 +75,7 @@ Use CSV import when you need to add many vehicles at once instead of entering th
 
 1. In the vehicles directory, open **Vehicles**.
 2. Select the **Add from file** button.
-3.  Download the template, enter the vehicle data, and upload the completed CSV file.
+3.  **Add from file** <img src="../.gitbook/assets/databases-analytics-and-search/add-from-file-button.png" alt="" data-size="line"> opens the importer. Download the template, enter the vehicle data, and upload the completed CSV file.
 
     The import adds vehicles to the organization database in bulk.
 4.  If you are creating a license plate alert, you can also select **Import from file** in the alert flow.
