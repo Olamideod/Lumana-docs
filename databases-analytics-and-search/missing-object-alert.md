@@ -15,7 +15,7 @@ Make sure you can open **Alerts** and create alert rules. You need a camera that
 
 ## Configure the alert
 
-1. In the left sidebar, select **Alerts** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-alert-icon.png" alt="Alerts bell icon in the sidebar." width="188">.
+1. In the left sidebar, select **Alerts** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-alert-icon.png" alt="Alerts bell icon in the sidebar." data-size="line">.
 
 2. Select **Add alert**.
 
@@ -35,13 +35,13 @@ Make sure you can open **Alerts** and create alert rules. You need a camera that
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-choose-cameras-edit.png" alt="Choose cameras dialog with camera list and pencil icon to mark the object." width="563"></div>
 
-7. Select the pencil icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-edit-pencil-icon.png" alt="Pencil icon to edit object region." width="188"> next to the camera so you can mark the object the alert should track.
+7. Select the pencil icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-edit-pencil-icon.png" alt="Pencil icon to edit object region." data-size="line"> next to the camera so you can mark the object the alert should track.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-mark-object-dialog.png" alt="Mark object dialog with polygon on the object and Select button." width="375"></div>
 
 8. In the **Mark object** dialog, outline the object, then select **Select**.
 
-9. When the rest of the rule is complete, select **Create alert** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-create-alert-button.png" alt="Create alert button." width="188">.
+9. When the rest of the rule is complete, select **Create alert** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-create-alert-button.png" alt="Create alert button." data-size="line">.
 
    After you save, the alert runs when the marked object leaves the monitored region and is no longer visible as configured.
 
@@ -55,7 +55,7 @@ Select the alert to open a video clip or image for that event.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-video-preview.png" alt="Alert preview with Video tab and playback controls." width="563"></div>
 
-From the preview, you can save footage to the archive with the archive icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-archive-icon.png" alt="Archive icon." width="188">, or use **Share** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-share-icon.png" alt="Share icon." width="188"> to share the clip according to your organization's policy.
+From the preview, you can save footage to the archive with the archive icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-archive-icon.png" alt="Archive icon." data-size="line">, or use **Share** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-share-icon.png" alt="Share icon." data-size="line"> to share the clip according to your organization's policy.
 
 ## Next steps
 

@@ -219,6 +219,16 @@ Example from a page three levels deep:
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="375"></div>
 ```
 
+### Inline icons (GitBook line size)
+
+For small UI icons embedded **in a sentence** (sidebar glyphs, toolbar buttons, inline pencils), use GitBook line sizing instead of pixel `width` or a framed block:
+
+```html
+<img src="../../.gitbook/assets/EXAMPLE-icon.png" alt="Description of the icon for accessibility." data-size="line">
+```
+
+Place the tag directly in the step text where the reader looks for that control. Keep `alt` meaningful for inline icons when the surrounding text does not already name the control.
+
 ### Asset folder structure
 
 All images and icons live in `.gitbook/assets/`. Use section-based subfolders to mirror the content hierarchy. Keep the hierarchy shallow: a maximum of three levels deep.

@@ -22,9 +22,9 @@ When enabled, the DHCP server on Lumana Core provides essential networking servi
 
 ## Configure DHCP server on Lumana Core
 
-1. In the left sidebar, select the <img src="../../.gitbook/assets/dhcp-sidebar-cameras-icon.png" alt="Cameras icon in the sidebar." width="188"> **Cameras** icon.
+1. In the left sidebar, select the <img src="../../.gitbook/assets/dhcp-sidebar-cameras-icon.png" alt="Cameras icon in the sidebar." data-size="line"> **Cameras** icon.
 
-2. Select the Core where you want to enable DHCP server and select the <img src="../../.gitbook/assets/dhcp-edit-pencil-icon.png" alt="Edit pencil icon." width="188"> pencil icon.
+2. Select the Core where you want to enable DHCP server and select the <img src="../../.gitbook/assets/dhcp-edit-pencil-icon.png" alt="Edit pencil icon." data-size="line"> pencil icon.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-edit-core-location.png" alt="Cores list, edit Core." width="563"></div>
 

@@ -21,7 +21,7 @@ Start from a camera preview, then open the video timeline and add more cameras t
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-video-tab.png" alt="Video tab view with the multi-camera playback icon highlighted." width="563"></div>
 
-3. In the upper-right corner of the playback view, select the <img src="../.gitbook/assets/icons/icon-multi-camera-playback.png" alt="Multi-camera playback icon in the playback toolbar." width="188"> **multi-camera playback** icon.
+3. In the upper-right corner of the playback view, select the <img src="../.gitbook/assets/icons/icon-multi-camera-playback.png" alt="Multi-camera playback icon in the playback toolbar." data-size="line"> **multi-camera playback** icon.
 
 4. Select up to three additional cameras, then select **Select**.
 

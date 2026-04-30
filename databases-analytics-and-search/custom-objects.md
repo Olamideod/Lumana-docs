@@ -17,7 +17,7 @@ For the full task-based guide (same workflow), see [Create a Missing object aler
 
 ## Configure the alert
 
-1. In the left sidebar, select **Alerts** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-alert-icon.png" alt="" width="188">.
+1. In the left sidebar, select **Alerts** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-alert-icon.png" alt="" data-size="line">.
 
 2. Select **Add alert**.
 
@@ -37,13 +37,13 @@ For the full task-based guide (same workflow), see [Create a Missing object aler
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-choose-cameras-edit.png" alt="" width="563"></div>
 
-7. Select the pencil icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-edit-pencil-icon.png" alt="" width="188"> next to the camera so you can mark the object the alert should track.
+7. Select the pencil icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-edit-pencil-icon.png" alt="" data-size="line"> next to the camera so you can mark the object the alert should track.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-mark-object-dialog.png" alt="" width="375"></div>
 
 8. In the **Mark object** dialog, outline the object, then select **Select**.
 
-9. When the rest of the rule is complete, select **Create alert** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-create-alert-button.png" alt="" width="188">.
+9. When the rest of the rule is complete, select **Create alert** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-create-alert-button.png" alt="" data-size="line">.
 
 ## Review alerts in monitoring
 
@@ -55,7 +55,7 @@ Select the alert to open a video clip or image for that event.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-video-preview.png" alt="" width="563"></div>
 
-From the preview, you can save footage to the archive with the archive icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-archive-icon.png" alt="" width="188">, or select **Share** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-share-icon.png" alt="" width="188"> to share the clip according to your organization's policy.
+From the preview, you can save footage to the archive with the archive icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-archive-icon.png" alt="" data-size="line">, or select **Share** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-share-icon.png" alt="" data-size="line"> to share the clip according to your organization's policy.
 
 ## Next steps
 

@@ -12,7 +12,7 @@ License plate recognition (LPR) and MMC require enablement. For setup steps, see
 
 ## Open Search and set the scope
 
-1. In the left sidebar, select **Search** <img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-icon.png" alt="Search magnifying glass icon in the sidebar." width="188">.
+1. In the left sidebar, select **Search** <img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-icon.png" alt="Search magnifying glass icon in the sidebar." data-size="line">.
 
    The Search page opens with filters for time range, cameras, and object types.
 

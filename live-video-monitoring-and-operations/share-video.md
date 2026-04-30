@@ -1,8 +1,6 @@
 # Share video
 
-Use Lumana sharing options to send live camera views and archived footage to other viewers. You can start from a live camera, an alert, search results, or an existing archive, then control how long access lasts and whether viewers need a password or can download the footage.
-
-<div align="center"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-icon.png" alt="Share video icon used to open sharing options."></div>
+Use Lumana sharing options to send live camera views and archived footage to other viewers. You can start from a live camera, an alert, search results, or an existing archive, then control how long access lasts and whether viewers need a password or can download the footage. <img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-icon.png" alt="Share video icon used to open sharing options." data-size="line">
 
 ## Before you begin
 
