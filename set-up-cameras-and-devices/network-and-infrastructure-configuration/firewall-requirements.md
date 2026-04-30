@@ -10,8 +10,8 @@ This page is organized by function: start with the outbound requirements for Lum
 
 Lumana provides two methods to configure your firewall:
 
-- **Lumana URLs:** A list of domains with their corresponding access requirements
-- **Lumana IPs:** An API endpoint that returns all Lumana infrastructure IPs
+- *Lumana URLs*: A list of domains with their corresponding access requirements
+- *Lumana IPs*: An API endpoint that returns all Lumana infrastructure IPs
 
 Allow outbound TCP `443` to the following:
 
@@ -58,8 +58,56 @@ Instead of managing URL-based firewall rules, you may whitelist IPs directly.
 
    Add the returned IPs to your firewall’s allowlist.
 
+#### Reference IP allowlist (snapshot)
+
+Prefer the [API response](#infrastructure-ips) above when your tools can consume it. The table below is a **static reference** grouped by **category** and **region**—useful for ticketing, change control, or firewalls that need explicit rows. Entries can change; reconcile with the API and review at least annually.
+
+| IP | Protocol | Port | Category | Region |
+| --- | --- | --- | --- | --- |
+| 34.133.223.153 | tcp | 443 | MQTT | All |
+| 34.54.76.179 | tcp | 443 | HTTPS | All |
+| 35.231.124.3 | tcp | 443 | Playback | All |
+| 34.68.222.66 | tcp | 443 | Remote Camera Management | All |
+| 34.36.94.198 | tcp | 443 | API Server | All |
+| 34.102.140.197 | tcp | 443 | Grafana | All |
+| 34.36.15.174 | tcp | 443 | Grafana | All |
+| 34.30.23.184 | tcp | 443 | SW update | All |
+| 34.36.94.198 | tcp | 443 | Storage | All |
+| 34.165.189.157 | tcp | 443 | Playback | ME-West |
+| 34.165.107.42 | tcp | 443 | Playback | ME-West |
+| 34.165.113.111 | tcp | 443 | Playback | ME-West |
+| 34.165.67.45 | tcp | 443 | Playback | ME-West |
+| 34.165.124.67 | tcp | 443 | Playback | ME-West |
+| 34.165.184.208 | tcp | 443 | Playback | ME-West |
+| 34.165.220.253 | tcp | 443 | Playback | ME-West |
+| 34.165.148.21 | tcp | 443 | Playback | ME-West |
+| 34.165.11.252 | tcp | 443 | Playback | ME-West |
+| 34.105.92.245 | tcp | 443 | Playback | US-West |
+| 34.82.111.200 | tcp | 443 | Playback | US-West |
+| 34.58.73.221 | tcp | 443 | Playback | US-Center |
+| 34.123.183.49 | tcp | 443 | Playback | US-Center |
+| 34.59.105.110 | tcp | 443 | Playback | US-Center |
+| 34.58.114.37 | tcp | 443 | Playback | US-Center |
+| 34.172.162.34 | tcp | 443 | Playback | US-Center |
+| 34.31.30.74 | tcp | 443 | Playback | US-Center |
+| 34.135.104.177 | tcp | 443 | Playback | US-Center |
+| 34.171.227.109 | tcp | 443 | Playback | US-Center |
+| 34.31.15.238 | tcp | 443 | Playback | US-Center |
+| 35.184.148.35 | tcp | 443 | Playback | US-Center |
+| 34.46.140.117 | tcp | 443 | Playback | US-Center |
+| 34.173.210.144 | tcp | 443 | Playback | US-Center |
+| 34.66.245.180 | tcp | 443 | Playback | US-Center |
+| 35.237.79.158 | tcp | 443 | Playback | US-East |
+| 104.196.47.65 | tcp | 443 | Playback | US-East |
+| 35.231.124.3 | tcp | 443 | Playback | US-East |
+| 35.185.42.155 | tcp | 443 | Playback | US-East |
+| 34.23.128.144 | tcp | 443 | Playback | US-East |
+| 34.165.255.223 | tcp | 443 | Camera API | ME West |
+| 34.68.222.66 | tcp | 443 | Camera API | US |
+| 34.27.47.112 | tcp | 443 | Camera API | US |
+
 {% hint style="info" %}
-Lumana infrastructure IPs may change periodically. Annual review and update is recommended.
+Lumana infrastructure IPs may change periodically. Annual review and update is recommended. When in doubt, use the IP list from `get-ip-addresses` rather than this table alone.
 {% endhint %}
 
 ### NTP (time synchronization)

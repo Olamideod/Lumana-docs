@@ -11,7 +11,7 @@ Make sure the relevant entry and exit points are covered by cameras and that you
 Add the widget first, then choose the entrances and exits you want the dashboard to track.
 
 1. Open your dashboard in edit mode.
-2. Click **Add widget**.
+2. Select **Add widget**.
 3. Select **Occupancy**.
 
    The occupancy widget configuration opens.

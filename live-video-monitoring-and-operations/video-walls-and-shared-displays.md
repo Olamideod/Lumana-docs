@@ -10,11 +10,11 @@ Make sure you can access the cameras and locations you want to display. If you p
 
 Choose the wall type based on how long you need the layout and who needs to view it.
 
-- **Saved walls:** Use a saved wall when you need a reusable layout with camera tiles, alert tiles, and alert filtering.
-- **Quick live view:** Use **Quick live view** when you need a temporary wall quickly and may want to save it later.
-- **Shared external video wall:** Use a shared external video wall when you need a secure URL for viewers outside Lumana.
-- **Standard camera and alert tiles:** Use standard camera tiles and alert tiles when you need to combine live monitoring with event visibility in the same wall.
-- **Advanced alert tile:** Use the advanced alert tile when you want alerts to stream directly to the video wall without extra clicks.
+- *Saved walls*: Use a saved wall when you need a reusable layout with camera tiles, alert tiles, and alert filtering.
+- *Quick live view*: Use it when you need a temporary wall quickly and may want to save it later.
+- *Shared external video wall*: Use a shared external video wall when you need a secure URL for viewers outside Lumana.
+- *Standard camera and alert tiles*: Use standard camera tiles and alert tiles when you need to combine live monitoring with event visibility in the same wall.
+- *Advanced alert tile*: Use the advanced alert tile when you want alerts to stream directly to the video wall without extra clicks.
 
 ## View and edit walls
 
@@ -26,26 +26,26 @@ Use the **Walls** page to open existing walls and make changes to saved layouts.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-walls-list.png" alt="Walls list and quick live view button."></div>
 
-2. Click a wall to open it.
+2. Select a wall to open it.
 
    A wall can show multiple live camera tiles, alert tiles, or both in the same layout.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-example.png" alt="Video wall with camera and alert tiles."></div>
 
-3. Hover over the wall you want to change and click the pencil icon.
+3. Hover over the wall you want to change and select the pencil icon.
 
    Editing lets you change the wall layout, update individual tiles, and save the revised wall.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-editing-view.png" alt="Wall editing view."></div>
 
-4. Click the pencil icon on a tile to replace that tile with a different camera.
+4. Select the pencil icon on a tile to replace that tile with a different camera.
 5. Use the upper-right controls to change the layout, adjust alert settings and filters, delete the wall, discard changes, or save changes.
 
 ## Create a wall
 
 Create a saved wall when you need a reusable layout for ongoing monitoring.
 
-1. On **Walls**, click **Create wall**.
+1. On **Walls**, select **Create wall**.
 2. Enter a wall name and choose a layout that fits the number of cameras or alert tiles you want to show.
 3. Open **Cameras & alerts** to add camera tiles and alert tiles.
 
@@ -65,17 +65,17 @@ Create a saved wall when you need a reusable layout for ongoing monitoring.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-filtering.png" alt="Alert filtering panel."></div>
 
-6. Click **Done**, then click **Create**.
+6. Select **Done**, then select **Create**.
 
 ## Create a quick live view wall
 
 Use **Quick live view** when you need a temporary wall without building a full saved wall first.
 
-1. On **Walls**, click **Quick live view**.
+1. On **Walls**, select **Quick live view**.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-button.png" alt="Quick live view button."></div>
 
-2. Select the cameras you want to display, then click **Select**.
+2. Select the cameras you want to display, then select **Select**.
 
    Quick live view is useful when visibility matters immediately and you need to open a wall fast.
 
@@ -99,8 +99,8 @@ Use a shared external video wall when you need a secure, video wall URL for exte
 
 Create the API token, collect the camera IDs, choose the display options, and then build the shared wall URL.
 
-1. In **Settings**, click **Organization Settings**, and then click **API Keys**.
-2. Click **Create API Key**.
+1. In **Settings**, select **Organization Settings**, and then select **API Keys**.
+2. Select **Create API Key**.
 3. Copy the generated token.
 
    You will use this token in the shared video wall URL.

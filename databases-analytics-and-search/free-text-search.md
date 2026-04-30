@@ -21,7 +21,7 @@ Open the text search mode first, then choose the cameras and enter your query.
 1.  Open **Search**.
 
     <div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/free-text-search-start-screen.png" alt="Search screen showing filters and the Switch to text search button." width="480"></div>
-2.  Click **Switch to text search**.
+2.  Select **Switch to text search**.
 
     The text search view opens.
 

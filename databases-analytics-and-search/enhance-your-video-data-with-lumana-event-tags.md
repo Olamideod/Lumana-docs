@@ -69,13 +69,13 @@ After saving, Lumana returns you to the Event tags list. The list shows each tag
 
 Send a POST request to the Lumana API for each event you want to record.
 
-**Endpoint:**
+**Endpoint**:
 
 ```
 POST https://access.lumana.ai/v1/events-tag/insert
 ```
 
-**Required fields:**
+**Required fields**:
 
 | Field         | Description                                                                                                    |
 | ------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -85,7 +85,7 @@ POST https://access.lumana.ai/v1/events-tag/insert
 | `timestamp`   | The time the event occurred, in Unix epoch milliseconds.                                                       |
 | `fields`      | An object of field names and values as defined on your tag. Not every field needs to be present in every POST. |
 
-**Authorization:** Set the Authorization header to `Bearer YOUR_API_KEY` using the key from step 1.
+**Authorization**: Set the Authorization header to `Bearer YOUR_API_KEY` using the key from step 1.
 
 ### Example JSON body
 
@@ -163,8 +163,8 @@ After you verify that Event Tag data is arriving correctly, you can use it in al
 
 You can build alerts that react to event tag data in two ways.
 
-* **Event tag alert:** Fires when an event tag is received. Select the **Event tag** alert type, choose the event tag and camera, set a trigger delay, configure actions, and create the alert.
-* **Event validation alert:** Adds an object detection check on top of an event tag. For example, require a person to be present or absent for a set duration when the event arrives. Select the event tag, camera, appearance or absence, object type, duration, and actions, then create the alert.
+* **Event tag alert**: Fires when an event tag is received. Select the **Event tag** alert type, choose the event tag and camera, set a trigger delay, configure actions, and create the alert.
+* **Event validation alert**: Adds an object detection check on top of an event tag. For example, require a person to be present or absent for a set duration when the event arrives. Select the event tag, camera, appearance or absence, object type, duration, and actions, then create the alert.
 
 For full configuration steps, use the [Event tag alert guide](../alerts-and-ai-detection/alert-types/integrations/event-tag.md).
 

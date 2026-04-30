@@ -2,7 +2,7 @@
 
 Lumana supports a wide range of IP cameras, giving you the flexibility to use hardware that fits your deployment needs.
 
-Most cameras that support **ONVIF** or **RTSP streaming** can be integrated with Lumana.
+Most cameras that support ONVIF or RTSP streaming can be integrated with Lumana.
 
 ## Compatibility overview
 

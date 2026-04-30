@@ -12,8 +12,8 @@ Make sure you can access the camera, alert, search result, or archive you want t
 
 When you share footage from Lumana, the **Share archive** dialog lets you choose how people receive access and what restrictions apply.
 
-- **Sharing methods:** Generate a shareable link, send the share by email, or send it by SMS.
-- **Access controls:** Set how long the share stays available, require a password, and choose whether viewers can download the archive.
+- *Sharing methods*: Generate a shareable link, send the share by email, or send it by SMS.
+- *Access controls*: Set how long the share stays available, require a password, and choose whether viewers can download the archive.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-archive-dialog.png" alt="Share archive dialog with link, password, and access duration options."></div>
 
@@ -22,7 +22,7 @@ When you share footage from Lumana, the **Share archive** dialog lets you choose
 Use this option when you want someone to watch a live camera feed.
 
 1. Select the desired camera.
-2. In the upper-right corner of the live view page, click **Share**.
+2. In the upper-right corner of the live view page, select **Share**.
 
    The **Share archive** dialog opens.
 
@@ -31,7 +31,7 @@ Use this option when you want someone to watch a live camera feed.
 Use this option when you want to share footage from a specific alert.
 
 1. Choose the alert you’d like to share by clicking on it.
-2. In the upper-right corner of the alert view window, click **Share**.
+2. In the upper-right corner of the alert view window, select **Share**.
 
    The **Share archive** dialog opens.
 
@@ -40,13 +40,13 @@ Use this option when you want to share footage from a specific alert.
 Use this option when you want to share a clip based on search results.
 
 1. Choose the correct thumbnail in the search results.
-2. Click **Create archive**.
+2. Select **Create archive**.
 
    The archive creation flow opens for the selected footage.
 
 3. Give the archive a name.
-4. Select the clip duration, then click **Create**.
-5. Click **Share**.
+4. Select the clip duration, then select **Create**.
+5. Select **Share**.
 
    The **Share archive** dialog opens.
 
@@ -55,16 +55,16 @@ Use this option when you want to share a clip based on search results.
 Use this option when the archive already exists and you only need to manage sharing settings.
 
 1. Navigate to the archive page.
-2. Select the archive you want to share, then click **Share**.
+2. Select the archive you want to share, then select **Share**.
 3. Choose how long access stays available and whether viewers can download the archive or need a password.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-existing-links-dialog.png" alt="Share archive dialog showing existing links and sharing options."></div>
 
-4. Click the arrow button next to the share link.
+4. Select the arrow button next to the share link.
 
    You can enter one or more email addresses or phone numbers.
 
-5. Click **Send**.
+5. Select **Send**.
 
 ## Next steps
 

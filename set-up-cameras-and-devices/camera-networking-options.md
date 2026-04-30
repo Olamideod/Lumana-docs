@@ -20,7 +20,7 @@ Use **Camera VPN** in the Lumana portal to access and use your camera’s native
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-player-live-view-timeline.png" alt="Camera player live view with timeline scrubber"></div>
 
-2. Click the **VPN icon** in the top-right corner of the camera player page.
+2. Select the **VPN** icon in the top-right corner of the camera player page.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/manufacturer-vpn-login-redirect.png" alt="Manufacturer VPN login redirect"></div>
 
@@ -128,7 +128,7 @@ Add the following services:
 ## Speaker configuration - Examples
 
 {% hint style="info" %}
-**Note:** SIP credentials (address, username, password) are supplied by your CSM.
+**Note**: SIP credentials (address, username, password) are supplied by your CSM.
 {% endhint %}
 
 ### Uniview speaker

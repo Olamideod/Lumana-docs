@@ -1,16 +1,16 @@
 # Set up a camera floor plan
 
-This guide walks you through adding a **floor plan**, placing cameras on the layout, and saving so you can preview live video from the map. Floor plans tie each camera to a location on your site, which makes coverage easier to understand than scrolling a flat device list alone.
+This guide walks you through adding a *floor plan*, placing cameras on the layout, and saving so you can preview live video from the map. Floor plans tie each camera to a location on your site, which makes coverage easier to understand than scrolling a flat device list alone.
 
-**Key benefits**
+## Key benefits
 
-- **Instant awareness:** Allows you to see coverage areas at a glance.
-- **Faster response:** Opens live feeds from cameras on the floor plan so you do not have to search the full device list first.
-- **Effortless navigation:** Lets you work with many cameras on one layout and move between them by location.
-- **Scalable and versatile:** Supports multiple floors and buildings when your organization spans more than one site or structure.
+- *Instant awareness*: Allows you to see coverage areas at a glance.
+- *Faster response*: Opens live feeds from cameras on the floor plan so you do not have to search the full device list first.
+- *Effortless navigation*: Lets you work with many cameras on one layout and move between them by location.
+- *Scalable and versatile*: Supports multiple floors and buildings when your organization spans more than one site or structure.
 
 {% hint style="info" %}
-**Common use cases:** Offices, malls, hospitals, warehouses, and schools.
+*Common use cases*: Offices, malls, hospitals, warehouses, and schools.
 {% endhint %}
 
 ### Use the camera floor plan feature
@@ -27,7 +27,7 @@ This guide walks you through adding a **floor plan**, placing cameras on the lay
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/upload-floor-plan-dialog.png" alt="Create floor plan dialog with upload area."></div>
 
-4. Click on the Camera icon to start adding and positioning your cameras on the floor plan
+4. Select on the Camera icon to start adding and positioning your cameras on the floor plan
 
 5. Save when finished
 
