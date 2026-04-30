@@ -24,7 +24,7 @@ Connecting a Disruptive sensor to Lumana lets you link sensor events, such as te
 
 4. Link Disruptive to Lumana.
 
-   In the Lumana platform, go to **Organization Settings** -> **Integration** -> **Disruptive**. Enter the `Project ID`, `Key ID`, and `Secret`, then click **Install**.
+   In the Lumana platform, go to **Organization Settings** -> **Integration** -> **Disruptive**. Enter the `Project ID`, `Key ID`, and `Secret`, then select **Install**.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/disruptive-install-integration.png" alt="Install Disruptive integration form."></div>
 

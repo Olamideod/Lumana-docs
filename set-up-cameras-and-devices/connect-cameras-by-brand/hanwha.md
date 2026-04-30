@@ -18,9 +18,9 @@ This guide explains how to connect your Hanwha camera to Lumana Core. If needed,
 
 Choose the connection method that fits your setup:
 
-* **Admin credentials:** Best option when available. Gives Lumana the highest level of access and compatibility.
-* **ONVIF:** Useful when you need a standards-based connection.
-* **New profile:** Useful when you do not want to use the admin account directly and want to manage access separately.
+* *Admin credentials*: Best option when available. Gives Lumana the highest level of access and compatibility.
+* *ONVIF*: Useful when you need a standards-based connection.
+* *New profile*: Useful when you do not want to use the admin account directly and want to manage access separately.
 
 {% hint style="info" %}
 Using reduced-permission accounts may limit some functionality in Lumana.
@@ -32,7 +32,7 @@ Use the camera's admin username and password when possible. This provides the hi
 
 ## Prepare your Hanwha camera
 
-Update the camera firmware if needed, then work through the steps below **in order**: **set a static IP first** (so the camera stays reachable), **tune video profiles on the camera**, then **register the camera in Lumana Core**.
+Update the camera firmware if needed, then work through the steps below *in order*: *set a static IP first* (so the camera stays reachable), *tune video profiles on the camera*, then *register the camera in Lumana Core*.
 
 ### Set a static IP address
 
@@ -50,7 +50,7 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 
 1. Log in to the Hanwha web portal in a browser (use the camera IP from the previous step).
 2. Open **Basic** > **Video profile**.
-3. Select the profile row you want for the **main** stream, or select **Add** to create a row if you need one. In the examples below, the main stream uses the **H.265** row as **profile 3**.
+3. Select the profile row you want for the *main* stream, or select **Add** to create a row if you need one. In the examples below, the main stream uses the **H.265** row as *profile 3*.
 4. Set that row as the **Default** profile and set **Codec** to **H.265**.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-video-profile-h265-default.png" alt="Hanwha web interface: Basic, Video profile with H.265 set as the default profile."></div>
@@ -67,7 +67,7 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-main-profile-stream-settings.png" alt="Hanwha main stream profile editor: ATC mode off, 15 fps, CBR, GOV length 15, Smart codec and Dynamic GOV and Dynamic FPS disabled."></div>
 
-6. Add or select a **second** profile row for the storage substream: name it **Storage**, set **Codec** to **H.265**. In the examples below, this is **profile 4**.
+6. Add or select a second profile row for the storage substream: name it **Storage**, set **Codec** to **H.265**. In the examples below, this is *profile 4*.
 
 7. Open the **Storage** profile encoding settings and apply these values:
 
@@ -75,7 +75,7 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 * Set **Frame rate** between **20** and **30** fps.
 * Set **Target bitrate** (or **Maximum bitrate**) using [Recommended streaming settings](../recommended-streaming-settings.md).
 * Set **Bitrate control** to **CBR**.
-* Set **GOV length** to **two times** the frame rate (for example, **40** at **20** fps).
+* Set **GOV length** to *two times* the frame rate (for example, **40** at **20** fps).
 * Set **Smart codec** to **Off** (or **Disable**).
 * Leave **Dynamic GOV** and **Dynamic FPS** disabled.
 
@@ -83,8 +83,8 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 
 ### Add the camera in Lumana Core
 
-1. [Connect the camera](../../getting-started/connect-a-camera.md) with the credentials and method you chose at the top of this page (admin, ONVIF, or dedicated user).
-2. When you need stream or [RTSP](../../faq-and-reference/lumana-glossary.md#rtsp) paths, use URLs that match your profile numbers. For the **profile 3** / **profile 4** layout in this guide:
+1. [Connect the camera](../../getting-started/connect-a-camera.md#connect-a-camera) with the credentials and method you chose at the top of this page (admin, ONVIF, or dedicated user).
+2. When you need stream or [RTSP](../../faq-and-reference/lumana-glossary.md#rtsp) paths, use URLs that match your profile numbers. For the *profile 3* / *profile 4* layout in this guide:
 
 * Main stream: `/0/profile3/media.smp` or `/profile3/media.smp`
 * Substream (Storage): `/0/profile4/media.smp` or `/profile4/media.smp`

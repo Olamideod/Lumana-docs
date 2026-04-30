@@ -24,7 +24,7 @@ Unsaved people are recognitions waiting to be added as known people. Saved profi
 
 Create groups when you need to organize people into reusable sets for review or workflow purposes.
 
-1.  In the people directory, click **Create group**.
+1.  In the people directory, select **Create group**.
 
     The group creation dialog opens.
 
@@ -62,7 +62,7 @@ Add a detected vehicle when Lumana has already captured the plate and vehicle de
     The validation dialog shows the detected plate, make, color, and other saved fields.
 
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/vehicle-seen-validation-dialog.png" alt="Vehicle validation dialog with owner name, license plate, make, color, and Add button."></div>
-3.  Click **Add**.
+3.  Select **Add**.
 
     The vehicle is added to your organization's saved vehicle list.
 4.  If needed, add a vehicle manually by uploading an image and entering the relevant details.
@@ -74,7 +74,7 @@ Add a detected vehicle when Lumana has already captured the plate and vehicle de
 Use CSV import when you need to add many vehicles at once instead of entering them one by one.
 
 1. In the vehicles directory, open **Vehicles**.
-2. Click the **Add from file** button.
+2. Select the **Add from file** button.
 3.  Download the template, enter the vehicle data, and upload the completed CSV file.
 
     The import adds vehicles to the organization database in bulk.

@@ -12,7 +12,7 @@ Open Live view when you want to watch a camera in real time and confirm what is 
 
 1. Open **Cameras**.
 2. Select the location and camera you want to view.
-3. Click **Play** to start the live stream.
+3. Select **Play** to start the live stream.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-main-grid.png" alt="Live view camera grid and location list."></div>
 
@@ -32,17 +32,17 @@ Use the player controls to change the stream view and capture the footage you ne
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/Live view controls modified.png" alt="Live view controls and timeline."></div>
 
-* **Quality control:** In the bottom left corner of Live view, you can toggle between available stream qualities.
-* **Zoom:** On the right side of Live view, use the plus "**+**" icon to zoom in and the minus "**-**" icon to zoom out.
-* **Snapshot:** Click the camera icon to capture a snapshot of the current view.
-* **Full-screen mode:** Click the full-screen icon to expand the player.
+- *Quality control*: In the bottom left corner of Live view, you can toggle between available stream qualities.
+- *Zoom*: On the right side of Live view, use the plus (+) icon to zoom in and the minus (-) icon to zoom out.
+- *Snapshot*: Select the camera icon to capture a snapshot of the current view.
+- *Full-screen mode*: Select the full-screen icon to expand the player.
 
 ## Use thumbnail actions
 
 Use thumbnails to navigate Live view and review captured moments more quickly. They help you access footage, scrub through recent activity, and take follow-up actions such as archiving or opening related views.
 
 1. Scroll down on the live footage page to open the thumbnails section.
-2.  Click a thumbnail to open the selected clip.
+2. Select a thumbnail to open the selected clip.
 
     The selected thumbnail opens with playback controls and available actions.
 3. Use the available actions to scrub through the footage, add cameras to a video wall layout, or archive footage to share it later.

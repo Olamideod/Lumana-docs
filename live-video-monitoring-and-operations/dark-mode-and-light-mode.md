@@ -10,27 +10,27 @@ Make sure you are signed in and can open your account settings.
 
 Open your user settings, then update the theme from your account details.
 
-1. In the lower-left corner of the page, click the user icon.
+1. In the lower-left corner of the page, select the user icon.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-home-view.png" alt="Dark mode home view with the user menu button highlighted in the lower left."></div>
 
-2. Click **User settings**.
+2. Select **User settings**.
 
    The user settings menu opens.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-user-settings-menu.png" alt="Dark mode user menu with the User settings option highlighted."></div>
 
-3. Click **Account details**.
+3. Select **Account details**.
 
    The account details page opens.
 
-4. Next to **Theme**, click the pencil icon.
+4. Next to **Theme**, select the pencil icon.
 
    The theme setting becomes editable.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-account-details-theme.png" alt="Account details page showing the Theme setting in dark mode."></div>
 
-5. Select **Dark** or **Light**, then click **Save**.
+5. Select **Dark** or **Light**, then select **Save**.
 
    The theme updates for your account.
 

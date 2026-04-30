@@ -28,7 +28,7 @@ Open the camera you want to review and make sure you can see the timeline and th
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-other-objects-vehicles-results.png" alt="Camera metadata filtered by Vehicles with thumbnail tiles grouped under Yesterday." width="520"></div>
 
-6. Click a tile to open the preview. Use **Images**, **Video**, **Objects**, or **Faces** to review the moment, zoom on the detection, or play the clip. Download controls are available on the preview when your role allows it.
+6. Select a tile to open the preview. Use **Images**, **Video**, **Objects**, or **Faces** to review the moment, zoom on the detection, or play the clip. Download controls are available on the preview when your role allows it.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-other-objects-object-preview.png" alt="Preview with Images, Video, Objects, and Faces tabs and playback timeline." width="720"></div>
 
@@ -36,7 +36,7 @@ Open the camera you want to review and make sure you can see the timeline and th
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-other-objects-objects-tab-vehicle.png" alt="Objects tab with a cropped view of the detected vehicle." width="720"></div>
 
-7. To save a clip to your archive, start archive creation from this preview flow. Enter a **Name**, set **From** and **To** (and duration if shown), then click **Create**.
+7. To save a clip to your archive, start archive creation from this preview flow. Enter a **Name**, set **From** and **To** (and duration if shown), then select **Create**.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-other-objects-create-archive-dialog.png" alt="Create archive dialog with name, time range, duration, and Create." width="420"></div>
 

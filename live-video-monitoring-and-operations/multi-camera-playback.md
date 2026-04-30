@@ -15,15 +15,15 @@ You can start multi-camera playback from views that show thumbnails, such as cam
 Start from a camera preview, then open the video timeline and add more cameras to the same playback session.
 
 1. Open the camera you want to review and select the time range you need.
-2. Click **Video**.
+2. Select **Video**.
 
    The playback view opens and shows the multi-camera playback icon in the upper-right corner.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-video-tab.png" alt="Video tab view with the multi-camera playback icon highlighted."></div>
 
-3. In the upper-right corner of the playback view, click the <img src="../.gitbook/assets/icons/icon-multi-camera-playback.png" alt="Multi-camera playback icon in the playback toolbar." style="display:inline-block;vertical-align:middle;max-height:1.5em;width:auto;"> **multi-camera playback** icon.
+3. In the upper-right corner of the playback view, select the <img src="../.gitbook/assets/icons/icon-multi-camera-playback.png" alt="Multi-camera playback icon in the playback toolbar." style="display:inline-block;vertical-align:middle;max-height:1.5em;width:auto;"> **multi-camera playback** icon.
 
-4. Select up to three additional cameras, then click **Select**.
+4. Select up to three additional cameras, then select **Select**.
 
    The chooser lets you search cameras and locations before you add them.
 

@@ -1,12 +1,12 @@
 # Generate reports
 
-By the end of this guide, you can configure **Reports**, choose a **Type**, and export **CSV** files.
+By the end of this guide, you can configure **Reports**, choose a **Type**, and export CSV files.
 
 You can set **One time** or **Recurring** runs and pick **Notify** recipients.
 
 Reports summarize analytics from your VMS+ data (alerts, attendance, license plates), alongside **Search** and tracking in this section.
 
-The **Reports** feature creates **CSV** exports and can automate delivery by download or email. Select **Reports** in the main navigation. The entry uses a list-style icon, as shown below.
+The **Reports** feature creates CSV exports and can automate delivery by download or email. Select **Reports** in the main navigation. The entry uses a list-style icon, as shown below.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/generate-reports-navigation-icon.png" alt="" width="96"></div>
 
@@ -26,9 +26,9 @@ Under **Type**, you select **Alerts**, **Attendance**, or **License plates**.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/generate-reports-create-report-form.png" alt="" width="563"></div>
 
-1. **Alerts report** – Summarizes triggered alerts based on selected filters (for example, alert type, camera, location).
-2. **Attendance report** – Tracks entries and presence data for individuals.
-3. **License plates report** – Extracts license plate recognition data from selected cameras and time ranges.
+1. **Alerts**: Summarizes triggered alerts based on selected filters (for example, alert type, camera, location).
+2. **Attendance**: Tracks entries and presence data for individuals.
+3. **License plates**: Extracts license plate recognition data from selected cameras and time ranges.
 
 Each type uses the filters you set on **Create report** for cameras, time range, and report-specific options.
 
@@ -44,7 +44,7 @@ Use a one-time export when you need a fixed date range and a single run.
 
 - Select the time range for which to gather data.
 - Manually trigger the report generation.
-- Download the **CSV** file or email it to designated recipients.
+- Download the CSV file or email it to designated recipients.
 
 ## Recurring report
 
@@ -54,9 +54,9 @@ Select **Recurring**, then configure **Period** (for example **Weekly**), **Incl
 
 Use a recurring export when the same report should run on a cadence.
 
-- Choose the **report period**: daily, weekly, or monthly.
-- Define **inclusion or exclusion rules** (for example, skip weekends).
-- Set the **report frequency** and **delivery schedule**.
+- Choose the report period: daily, weekly, or monthly.
+- Define inclusion or exclusion rules (for example, skip weekends).
+- Set the report frequency and delivery schedule.
 
 Recurring runs still use **Notifications** so recipients get each delivery by **Email** or **SMS** when you configure them.
 
@@ -68,15 +68,15 @@ On **Create report**, open **Notifications** to choose who receives the export. 
 
 ## Delivery and format
 
-All reports are exported as **CSV** files. You can open them in spreadsheets or load them into **BI** tools. You can:
+All reports are exported as CSV files. You can open them in spreadsheets or load them into BI tools. You can:
 
 - **Download** exports from the **Reports** section.
 - **Email** exports to one or more recipients when delivery is configured.
 
-**CSV** gives you a stable record of alert, attendance, or plate activity without repeating manual exports for the same question.
+CSV gives you a stable record of alert, attendance, or plate activity without repeating manual exports for the same question.
 
 ## Next steps
 
-- [Understand search in Lumana](../concepts/understand-search-in-lumana.md) — how search relates to the data you report on.
-- [Free text search](free-text-search.md) — keyword search across your archive.
-- [Search video footage for people or vehicles](search-video-footage-for-people-or-vehicles.md) — drill into footage behind report metrics when you need video proof.
+- [Understand search in Lumana](../concepts/understand-search-in-lumana.md) - how search relates to the data you report on.
+- [Free text search](free-text-search.md) - keyword search across your archive.
+- [Search video footage for people or vehicles](search-video-footage-for-people-or-vehicles.md) - drill into footage behind report metrics when you need video proof.

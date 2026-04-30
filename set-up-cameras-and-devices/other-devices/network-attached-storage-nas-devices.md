@@ -10,56 +10,56 @@ If you record to NAS for more than 30 days and want to keep smart search functio
 
 ## Prerequisites
 
-* The storage device must support _NFS_ or _S3-compatible object storage_.
+* The storage device must support *NFS* or *S3-compatible object storage*.
 * The storage device must be reachable on the network by the Lumana Core unit.
 
 ## Add an external storage server
 
 1. Save the IP of your network storage server and the path where Lumana should save videos.
 
-For example:
+   For example:
 
-* **NAS IP:** `192.168.100.200`
-* **NAS Path:** `/share/LumanaVideos`
+   * *NAS IP*: `192.168.100.200`
+   * *NAS Path*: `/share/LumanaVideos`
 
-2. In the Lumana console, open the **Devices** page, find the location where the NAS is used, and click **Edit location** (pencil icon) for that site.
+2. In the Lumana console, open the **Devices** page, find the location where the NAS is used, and select **Edit location** (pencil icon) for that site.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-home-devices-edit-location.png" alt="Lumana Home Devices: Devices tab and Edit location pencil icon for a location such as HQ Los Gatos."></div>
 
-3. In the left menu, select **External Storage**, then click **Add external storage**.
+3. In the left menu, select **External Storage**, then select **Add external storage**.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-location-add-external-storage.png" alt="Edit Location with External Storage selected and Add external storage button."></div>
 
 4. Choose your storage type. This can be either **NFS** or **Object Storage**. See the NFS example below.
 
-* **Storage type:** `NFS`
-* **Name:** a label you will recognize when assigning cameras (for example `NFS-Server-1`)
-* **Path:** combine the NAS IP and export path, for example `192.168.100.200/share/LumanaVideos/` (format can vary; match what your NAS expects)
+   * *Storage type*: `NFS`
+   * *Name*: a label you will recognize when assigning cameras (for example `NFS-Server-1`)
+   * *Path*: combine the NAS IP and export path, for example `192.168.100.200/share/LumanaVideos/` (format can vary; match what your NAS expects)
 
-5. Click **Test** to verify connectivity to the server, then click **Save external storage**.
+5. Select **Test** to verify connectivity to the server, then select **Save external storage**.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-location-external-storage-form.png" alt="Edit Location External Storage: NFS type, name NFS-Server-1, path to share, Test and Save external storage."></div>
 
 ## Configure cameras to use the external storage server
 
-1. Open the camera’s **live view** (or the camera page). In the top bar, click **Edit camera** (pencil icon).
+1. Open the camera’s live view (or the camera page). In the top bar, select **Edit camera** (pencil icon).
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-live-view-edit-camera.png" alt="Camera live view with Edit camera pencil icon and tooltip in the toolbar."></div>
 
 2. In the edit camera menu, select **Storage**, then scroll to **Additional storage**.
 
-3. Turn **Additional storage** **On**, set the target type to **External**, and choose the NFS (or object storage) entry you created for this location—for example **`NFS-Server-1`**.
+3. Set **Additional storage** to **On**, set the target type to **External**, and choose the NFS (or object storage) entry you created for this location—for example `NFS-Server-1`.
 
 4. Set **External retention** and what to copy to the NAS:
 
-* Choose the retention period for videos on external storage: **30 / 60 / 90 / 180 / 365** days (or the options your UI shows).
-* Turn on **Storage (SQ)** for standard-quality continuous footage backups.
-* Turn on **Alerts (HQ)** for high-quality clips tied to alerts.
-* Use **Event types** only if you want that subset of footage uploaded.
+   * Choose the retention period for videos on external storage: 30 / 60 / 90 / 180 / 365 days (or the options your UI shows).
+   * Turn on **Storage (SQ)** for standard-quality continuous footage backups.
+   * Turn on **Alerts (HQ)** for high-quality clips tied to alerts.
+   * Use **Event types** only if you want that subset of footage uploaded.
 
 5. Optional: under **When the upload should occur**, leave **All time** for continuous backup or limit uploads to specific schedules.
 
-6. Click **Save** on the edit camera page to apply your storage settings.
+6. Select **Save** on the edit camera page to apply your storage settings.
 
 Example — **Storage** with **Additional storage** on **External**, a named NAS target, retention, **Storage (SQ)** / **Alerts (HQ)**, and upload timing:
 

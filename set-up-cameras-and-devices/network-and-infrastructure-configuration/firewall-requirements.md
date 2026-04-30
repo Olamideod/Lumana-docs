@@ -10,8 +10,8 @@ This page is organized by function: start with the outbound requirements for Lum
 
 Lumana provides two methods to configure your firewall:
 
-- **Lumana URLs:** A list of domains with their corresponding access requirements
-- **Lumana IPs:** An API endpoint that returns all Lumana infrastructure IPs
+- *Lumana URLs*: A list of domains with their corresponding access requirements
+- *Lumana IPs*: An API endpoint that returns all Lumana infrastructure IPs
 
 Allow outbound TCP `443` to the following:
 

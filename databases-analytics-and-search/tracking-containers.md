@@ -35,6 +35,6 @@ You can filter by **Serial number**, **Size code**, and **Owner code** when thos
 
 ## Next steps
 
-- [Understand search in Lumana](../concepts/understand-search-in-lumana.md) — how **Search** fits the rest of VMS+.
-- [Free text search](free-text-search.md) — query by keywords across your archive.
-- [Container detection](../alerts-and-ai-detection/alert-types/identification/container.md) — alert when Lumana identifies a container.
+- [Understand search in Lumana](../concepts/understand-search-in-lumana.md) - how **Search** fits the rest of VMS+.
+- [Free text search](free-text-search.md) - query by keywords across your archive.
+- [Container detection](../alerts-and-ai-detection/alert-types/identification/container.md) - alert when Lumana identifies a container.

@@ -55,7 +55,6 @@ Mix these naturally throughout writing:
 - **Real-world framing:** "In practice" / "Typically" / "Most teams find that."
 - **Honest caveats:** "This approach works well, though it has trade-offs."
 
----
 
 ## Audience and user roles
 
@@ -67,7 +66,6 @@ Lumana documentation is written for two primary user profiles.
 
 When content applies only to administrators or installers, mark it clearly so directors and end users can skip it. Do not bury admin-only steps inside general user flows without signalling who they are for.
 
----
 
 ## AI limitations and managing expectations
 
@@ -79,7 +77,6 @@ AI limitations are the number one customer friction point. Documentation must se
 
 If a feature has known limitations, document them inline where users will encounter them, not only in a separate troubleshooting section.
 
----
 
 One main idea per sentence. Keep paragraphs to two to four sentences. Avoid nested clauses when a simpler structure works. Write so readers can quickly scan and find what they need.
 
