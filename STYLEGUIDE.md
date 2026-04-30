@@ -382,7 +382,6 @@ Before submitting documentation, confirm:
 - All lists are parallel in structure and punctuation.
 - The content is free of marketing language.
 
----
 
 ## How to use this guide
 
