@@ -36,7 +36,7 @@ Start from a camera preview, then open the video timeline and add more cameras t
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-synced-view.png" alt="Synchronized multi-camera playback view with four camera tiles and shared timeline controls." width="563"></div>
 
 {% hint style="info" %}
-In search-based playback, a green highlight on a camera timeline marks frames where the searched object appears.
+In search-based playback, a green highlight on a camera timeline marks frames where the searched object appears, like in the image below.
 {% endhint %}
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-wall-view.png" alt="Multi-camera playback wall view with synchronized camera tiles and shared timeline." width="563"></div>
