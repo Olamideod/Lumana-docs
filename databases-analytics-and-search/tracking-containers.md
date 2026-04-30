@@ -4,6 +4,18 @@
 
 Many teams use it at gates, yards, and warehouse doors where containers pass fixed cameras. Results still depend on lighting, angle, and how clearly the ID is visible in frame.
 
+## Key benefits
+
+✔ *Real-time tracking* – Instantly locate and verify containers.
+
+✔ *Accurate inventory* – Automate logging and reduce manual errors.
+
+✔ *Enhanced security* – Detect unauthorized movements.
+
+✔ *Optimized operations* – Speed up yard and terminal workflows.
+
+✔ *Regulatory compliance* – Maintain accurate audit trails.
+
 ## Before you begin
 
 - You can **edit camera** settings and analytics for the target cameras.
