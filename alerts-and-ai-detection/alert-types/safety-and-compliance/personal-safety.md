@@ -20,6 +20,8 @@ Lumana monitors the camera feed for workers in close proximity to vehicles. When
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/personal-safety-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Forklift proximity alert" or "Vehicle pedestrian warning."
 5. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
 

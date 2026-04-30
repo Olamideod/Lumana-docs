@@ -20,6 +20,8 @@ You define a path on the camera feed and set a minimum traversal time. Lumana tr
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/speed-control-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Warehouse forklift speed" or "Car park vehicle speed."
 5. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
 

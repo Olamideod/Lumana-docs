@@ -20,6 +20,8 @@ Set an interval and draw a zone on the camera frame. Lumana captures a still ima
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/snapshot-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Entrance hourly check" or "Storage area snapshot."
 5. Set the interval in the **every** field. Select **−** or **+** to adjust the value, or enter a value directly.
 

@@ -20,6 +20,8 @@ Lumana monitors the area you define within the camera frame. When a detected obj
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/trespassing-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Server room entry zone" or "Loading dock boundary."
 5. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
 

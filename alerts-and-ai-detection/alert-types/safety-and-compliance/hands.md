@@ -20,6 +20,8 @@ Lumana monitors the zone you define within the camera frame. When hands are dete
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/hands-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Hands in restricted area" or "Hands detected alert."
 5. Select the **zone** field to open the Choose cameras modal. Select the camera you want to monitor, then select **Select** to confirm.
 

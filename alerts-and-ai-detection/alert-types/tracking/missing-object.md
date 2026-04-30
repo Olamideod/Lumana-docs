@@ -20,6 +20,8 @@ Mark a specific object in the camera view. Lumana monitors the marked object con
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/missing-object-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Equipment removal" or "Asset missing from storage."
 5. Select the **cameras** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
 

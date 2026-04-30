@@ -20,6 +20,8 @@ Set a minimum dwell time. Lumana tracks objects in the camera feed and triggers 
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/loitering-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "ATM loitering" or "Parking zone overstay."
 5. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
 

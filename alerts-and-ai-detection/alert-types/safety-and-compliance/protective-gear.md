@@ -20,6 +20,8 @@ Select a wearing condition and a gear type. Lumana monitors the camera feed and 
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/protective-gear-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Hard hat violation" or "Safety vest compliance."
 5. Select the **are not wearing** field in the alert rule sentence. A dropdown opens with the wearing conditions.
 

@@ -20,6 +20,8 @@ Lumana monitors the camera feed for sudden visual changes that indicate physical
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/tampering-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Camera tampering" or "Entrance camera interference."
 5. Select the camera environment field in the alert rule sentence and choose **Indoor** or **Outdoor** depending on where the camera is installed.
 6. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.

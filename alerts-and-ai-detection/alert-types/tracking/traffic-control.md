@@ -20,6 +20,8 @@ Draw two or more lines across the camera frame and place them in the order objec
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/traffic-control-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Loading dock path" or "Checkpoint route."
 5. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
 

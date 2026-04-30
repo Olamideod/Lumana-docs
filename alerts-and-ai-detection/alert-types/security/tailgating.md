@@ -24,6 +24,8 @@ This alert requires the Kisi access control integration to be active in your org
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/tailgating-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Main entrance tailgating" or "Server room entry."
 5. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
 

@@ -133,6 +133,7 @@
     * [Zone armed/disarmed](alerts-and-ai-detection/alert-types/arm-disarm/zone-armed-disarmed.md)
 * [Alert actions](alerts-and-ai-detection/alert-actions.md)
 * [Custom alert](alerts-and-ai-detection/custom-alert.md)
+* [Custom alert parameters](alerts-and-ai-detection/custom-alert-parameters.md)
 * [Alert group](alerts-and-ai-detection/alert-group.md)
 
 ## Dashboards

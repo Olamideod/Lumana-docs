@@ -20,6 +20,8 @@ Lumana reads container serial numbers from the camera feed and compares them aga
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/container-detection-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Loading dock container" or "Restricted area container."
 5. Select the **appears** field in the alert rule sentence. A dropdown opens with the trigger conditions.
 

@@ -20,6 +20,8 @@ Set a minimum duration. Lumana monitors Core device connection status and trigge
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/core-status-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Core offline alert" or "Site connection lost."
 5. Select the **core** field to open the Select core modal. Core devices are listed by location. Use the **Search cores** field to find one by name, or select directly from the list. Select **Select** to confirm.
 

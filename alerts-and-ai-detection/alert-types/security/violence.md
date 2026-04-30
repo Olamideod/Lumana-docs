@@ -30,6 +30,8 @@ Violence detection is currently in beta. Detection accuracy might vary depending
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/violence-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Lobby violence detection" or "Car park altercation alert."
 5. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
 

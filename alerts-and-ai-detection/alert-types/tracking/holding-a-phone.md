@@ -20,6 +20,8 @@ Set a minimum detection time. Lumana monitors the camera feed and triggers the a
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/holding-a-phone-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Production floor phone use" or "Restricted area phone detection."
 5. Set the duration in the **for more than** field. Select **−** or **+** to adjust the value, or enter a value directly.
 

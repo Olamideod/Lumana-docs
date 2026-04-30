@@ -22,6 +22,8 @@ Drawing a detection zone reduces false positives in busy environments where only
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "After-hours motion" or "Warehouse perimeter."
 5. Select the sensitivity value in the alert rule sentence. A slider opens.
 

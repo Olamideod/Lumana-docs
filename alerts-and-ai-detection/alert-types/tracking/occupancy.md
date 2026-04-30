@@ -20,6 +20,8 @@ Set an object count and a minimum detection time. Lumana counts objects on the c
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/occupancy-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Lobby overcrowding" or "Loading dock vehicle limit."
 5. Set the count in the **more than** field. Select **−** or **+** to adjust the threshold, or enter a value directly.
 

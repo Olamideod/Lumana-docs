@@ -20,6 +20,8 @@ Lumana's AI model analyzes the video feed for the visual signatures of fire or s
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/fire-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Warehouse fire detection" or "Loading dock smoke alert."
 5. Select the **fire** field in the alert rule sentence. A dropdown opens with the available detection types.
 

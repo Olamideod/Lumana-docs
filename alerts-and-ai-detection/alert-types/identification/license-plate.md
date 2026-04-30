@@ -20,6 +20,8 @@ Lumana reads license plates from the camera feed and compares them against your 
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/license-plate-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Gated entry unauthorized plate" or "Known vehicle arrival."
 5. Select the **appears** field in the alert rule sentence. A dropdown opens with the trigger conditions.
 

@@ -24,6 +24,8 @@ Gloves detection is currently in beta. Detection accuracy might vary depending o
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/gloves-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Gloves violation" or "Hand protection compliance."
 5. Select the **not wearing** field in the alert rule sentence. A dropdown opens with the wearing conditions.
 

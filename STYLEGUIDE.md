@@ -294,6 +294,11 @@ Use **select** for all UI interactions, not "click." "Click" assumes a mouse. "S
 - Not: "Click **Save**."
 - Use: "Select **Save**."
 
+When a UI element is named "Select," add a qualifying word to break the repetition. This follows SAP's pattern of qualifying UI elements by type.
+
+- Not: "Select **Select**."
+- Use: "Select the **Select** button." or "Select the **Select** option."
+
 For error messages, quote the message exactly. Then explain what it means and what the reader should do next.
 
 ---
@@ -368,7 +373,7 @@ Make link text descriptive. Don't use "click here" or raw URLs. Every major page
 
 **Inline linking is the preferred approach** for web-based documentation. Embed links naturally as part of the sentence so the reader stays in context and understands why the link is relevant before selecting it.
 
-- Not: "For configuration details, see the [Widgets](#) section."
+- Instead of: "See the [Widgets](#) section."
 - Use: "Each widget type has its own configuration options, covered in the [Widgets](#) section."
 
 **"See X for Y" is acceptable in limited cases:** when the reference is the subject of the sentence, when flagging a major topic shift, or when the linked content is a warning or prerequisite. Don't use "see" as a casual signpost.

@@ -20,6 +20,8 @@ Lumana matches detected faces in the camera feed against a list of people you bu
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/suspect-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Persons of interest" or "Restricted area watchlist."
 5. Select the **appears** field in the alert rule sentence. A dropdown opens confirming the alert triggers when a person on the list is detected.
 

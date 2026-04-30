@@ -20,6 +20,8 @@ Set the object types to monitor and a minimum absence duration. Lumana monitors 
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/absence-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Security post unstaffed" or "Parking lot empty."
 5. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
 

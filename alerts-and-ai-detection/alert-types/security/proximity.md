@@ -20,6 +20,8 @@ Lumana monitors the positions of detected objects in the camera view. When two o
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Vehicle perimeter" or "Restricted area proximity."
 5. Select the **objects** field in the alert rule sentence. A dropdown opens with the available object types.
 

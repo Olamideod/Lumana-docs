@@ -20,6 +20,8 @@ Set a minimum duration. Lumana monitors camera connection status and triggers th
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/camera-status-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "Camera offline alert" or "Camera connection lost."
 5. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
 

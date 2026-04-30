@@ -22,6 +22,8 @@ To create event tags and configure the API integration before using this alert, 
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/event-tag-template.png" alt="" width="563"></div>
 
+<a id="parameters"></a>
+
 4. Enter a name in the **Alert name** field, for example "High-value transaction" or "Pallet scan received."
 5. Select the **event tag** field in the alert rule sentence. A dropdown opens listing all event tags created in your organization.
 
