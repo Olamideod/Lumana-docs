@@ -55,7 +55,7 @@
 * [Camera networking options](set-up-cameras-and-devices/camera-networking-options.md)
 * [Recommended streaming settings](set-up-cameras-and-devices/recommended-streaming-settings.md)
 * [Set up a camera floor plan](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md)
-* [Create links between cameras](set-up-cameras-and-devices/create-links-between-cameras.md)
+* [Create camera shortcuts](set-up-cameras-and-devices/create-camera-shortcuts.md)
 * [Connect cameras by brand](set-up-cameras-and-devices/connect-cameras-by-brand/README.md)
   * [Supported cameras](set-up-cameras-and-devices/connect-cameras-by-brand/supported-cameras.md)
   * [Lumana](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md)
