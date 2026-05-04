@@ -6,7 +6,7 @@ Connecting a Disruptive sensor to Lumana lets you link sensor events, such as te
 
 1. Generate a Lumana API key.
 
-   Log in to the Lumana portal, then navigate to **Org** -> **Settings** -> **API Keys**. Generate a key and save it. You will use it in the next step.
+   Log in to the Lumana portal, then navigate to **Organization settings** -> **API Keys**. Generate a key and save it. You will use it in the next step.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/disruptive-create-api-key.png" alt="Organization settings, API keys, Create API Key." width="563"></div>
 
