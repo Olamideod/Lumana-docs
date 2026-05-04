@@ -140,4 +140,4 @@ Create the API token, collect the camera IDs, choose the display options, and th
 After you create or share a wall, you can continue with related live monitoring tasks.
 
 - Use [Use live view](live-view.md) to work with player controls and thumbnails.
-- Read [Understand live view streaming and quality](understand-live-view-streaming-and-quality.md) to understand how live video delivery and quality selection work.
+- Read [Live view streaming and quality](live-view-streaming-and-quality.md) to understand how live video delivery and quality selection work.

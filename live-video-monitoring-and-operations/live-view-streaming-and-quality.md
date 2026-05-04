@@ -1,4 +1,4 @@
-# Understand live view streaming and quality
+# Live view streaming and quality
 
 This page explains how Lumana delivers live video, when local or cloud streaming is used, and how stream quality changes based on your device, browser support, and layout.
 
