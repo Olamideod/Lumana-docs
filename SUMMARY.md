@@ -79,6 +79,7 @@
 ## System administration
 
 * [Manage users and permissions](system-administration/manage-users-and-permissions.md)
+  * [Available permissions](system-administration/available-permissions.md)
 * [User settings](system-administration/user-settings.md)
 * [System logs](system-administration/system-logs.md)
 * [NDAA compliance](system-administration/ndaa-compliance.md)
