@@ -1,3 +1,3 @@
 # Smart speakers
 
-### Coming soon
+Coming soon!

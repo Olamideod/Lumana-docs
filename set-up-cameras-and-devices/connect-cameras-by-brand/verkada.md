@@ -1,3 +1,3 @@
 # Verkada
 
-## Coming soon
+Coming soon!

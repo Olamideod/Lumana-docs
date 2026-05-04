@@ -1,4 +1,3 @@
 # Lumana
 
-Coming Soon
-
+Coming soon!

@@ -1,3 +1,3 @@
 # Lumana Core hardware specifications
 
-### Coming soon
+Coming soon!
