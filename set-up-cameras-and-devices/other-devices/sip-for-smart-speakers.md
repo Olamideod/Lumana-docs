@@ -1,6 +1,6 @@
 # Configure SIP for smart speakers
 
-Use *Session Initiation Protocol* (SIP) to enable communication between Lumana and external audio devices such as network speakers.
+Use _Session Initiation Protocol_ (SIP) to enable communication between Lumana and external audio devices such as network speakers.
 
 This setup is typically required in advanced deployments that use network-managed audio and a firewall such as Check Point.
 
@@ -16,17 +16,17 @@ You need:
 
 ### Step 1: Enable VoIP
 
-- Log in to Check Point
-- Go to **Access Policy → VoIP**
-- Enable VoIP
+1. Log in to Check Point
+2. Go to **Access Policy → VoIP**
+3. Enable VoIP
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/check-point-voip-toggle-on.png" alt="Check Point SmartConsole Access Policy VoIP settings with VoIP enabled."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/check-point-voip-toggle-on.png" alt="" width="563"></div>
 
 ### Step 2: Configure SIP service provider
 
-- Enable **Use SIP Service Provider**.
-- Set **Name** to **SIP-Provider**.
-- Add the following addresses:
+1. Enable **Use SIP Service Provider**.
+2. Set **Name** to **SIP-Provider**.
+3. Add the following addresses:
 
 #### Networks
 
@@ -49,8 +49,8 @@ Add the following domain names:
 
 ### Step 3: Configure RTP services
 
-- Disable SIP traffic inspection
-- Add the following services:
+1. Disable SIP traffic inspection
+2. Add the following services:
 
 | Name           | Protocol | Port |
 | -------------- | -------- | ---- |
@@ -59,21 +59,20 @@ Add the following domain names:
 | SIP\_UDP       | UDP      | 5060 |
 | SIP\_UDP       | UDP      | 5061 |
 
-- Enable bidirectional traffic
+3. Enable bidirectional traffic
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/sip-traffic-inspection-rtp-services.png" alt="Check Point SIP traffic inspection disabled and RTP-related services configured."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/sip-traffic-inspection-rtp-services.png" alt="" width="563"></div>
 
 ### Step 4: Configure on-premise devices
 
-- Use on-premise phones without a SIP server (PBX).
+1. Use on-premise phones without a SIP server (PBX).
+2. Add all relevant resources, for example:
 
-- Add all relevant resources, for example:
+| Name             | Type      | Address        |
+| ---------------- | --------- | -------------- |
+| Uniview\_speaker | Single IP | 192.168.100.30 |
 
-| Name            | Type      | Address        |
-| --------------- | --------- | -------------- |
-| Uniview_speaker | Single IP | 192.168.100.30 |
-
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/on-premise-devices-ip-phones.png" alt="Check Point on-premise devices list including IP phones."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/on-premise-devices-ip-phones.png" alt="" width="563"></div>
 
 ### Step 5: Configure SIP services
 
@@ -102,31 +101,36 @@ Add the following services:
 1. Log in to the Uniview speaker interface
 2. Go to the **SIP Account** section
 3. Enter:
-   - Username
-   - ID
-   - Password
-   - Display Name — used as the identifier on alerts
-   - Server Host
-   - Port
+   1. Username
+   2. ID
+   3. Password
+   4. Display Name — used as the identifier on alerts
+   5. Server Host
+   6. Port
 4. Set **Expire Time > 600**
 5. Set **Auto Answer** to **Immediately**
 6. Save
 7. Verify the speaker status shows **Registered**
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/sip-account-setup-example.png" alt="Uniview speaker SIP account settings with registered status."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/sip-account-setup-example.png" alt="" width="563"></div>
 
 ### TOA speaker
 
 1. Log in to the TOA speaker interface
 2. Go to the **SIP section**
 3. Update the following details:
-   - SIP Server Address
-   - SIP Server Port
-   - Registration Expiry > 3600
-   - User ID
-   - Display Name
-   - Password
-4. **Audio codec**: enable all audio codecs
+   1. SIP Server Address
+   2. SIP Server Port
+   3. Registration Expiry > 3600
+   4. User ID
+   5. Display Name
+   6. Password
+4. **Audio codec**: Enable all audio codecs
 5. Save
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/toa-speaker-sip-account-registered.png" alt="TOA speaker SIP settings with registration status."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/toa-speaker-sip-account-registered.png" alt="" width="563"></div>
+
+## Next steps
+
+- To add IP speakers you trigger with patterns over REST or TCP/UDP in VMS+, continue with [Smart speakers](smart-speakers.md).
+- The [Camera networking options](../camera-networking-options.md) page includes this Check Point SIP section for readers who start from camera networking.
