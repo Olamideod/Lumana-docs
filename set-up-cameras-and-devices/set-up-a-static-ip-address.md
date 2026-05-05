@@ -86,7 +86,7 @@ If needed, refer to your computer or operating system documentation for instruct
 5. Go to **Setup → Network**.
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-network-ipv4-dhcp-settings.png" alt="Camera network settings showing IPv4 DHCP mode." width="563"></div>
 
-6. Change the network mode from DHCP to Static IP.
+6. Change the **network mode** from **DHCP** to **Static IP**.
 
 7. Enter your **IP address**, **subnet mask**, and **gateway**.
 
