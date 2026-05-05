@@ -38,6 +38,7 @@ You likely do not have DHCP if every device uses manually entered IPs and nothin
 Do not forget to create a DHCP reservation for the camera’s address on the router or Core. Otherwise, the server can still offer that address to another device, and you can get an IP conflict.
 {% endhint %}
 
+
 3. Configure DHCP reservation on your router using the MAC address.
 This way the camera keeps the same IP address after reboots or power interruptions when the server always offers that lease to this MAC address.
 Refer to your router documentation for instructions.
