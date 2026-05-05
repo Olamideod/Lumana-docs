@@ -33,15 +33,6 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
 4. Save configuration
    * Select **Save** to apply changes.
 
-## Using PTZ controls
+## Next steps
 
-1. Open the camera from the **Devices** list.
-2. Enable **PTZ control** at the bottom of the camera view.
-
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-ptz-toggle.png" alt="PTZ control toggle at the bottom of the camera view."></div>
-3. Use the on-screen controls:
-
-    * **Arrow controls** to pan and tilt
-    * **Zoom controls** to adjust magnification
-
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-ptz-controls-overlay.png" alt="PTZ pan, tilt, and zoom controls overlaid on the live view."></div>
+To try PTZ in the web player after you save (pan, tilt, zoom), see [PTZ control](../live-video-monitoring-and-operations/ptz-control.md).
