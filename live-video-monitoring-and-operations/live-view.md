@@ -30,7 +30,7 @@ Use the timeline and thumbnails to review recent footage without leaving Live vi
 
 Use the player controls to change the stream view and capture the footage you need during live monitoring.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/Live view controls modified.png" alt="Live view controls and timeline." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-screenshots/live-view-player-office-hq.png" alt="" width="563"></div>
 
 - *Quality control*: In the bottom left corner of Live view, you can toggle between available stream qualities.
 - *Zoom*: On the right side of Live view, use the plus (+) icon to zoom in and the minus (-) icon to zoom out.
