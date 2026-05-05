@@ -8,7 +8,7 @@ Lumana and other systems can keep using that one address for the camera.
 Do not assign a static IP that falls inside the DHCP pool unless you use a reservation for that address. Otherwise you can get IP conflicts.
 {% endhint %}
 
-_DHCP_ stands for Dynamic Host Configuration Protocol. That service assigns each device an IP address automatically, usually from a range your router, firewall, or Lumana Core manages. Devices can then communicate without manual IP entry on each device.
+*DHCP* stands for Dynamic Host Configuration Protocol. That service assigns each device an IP address automatically, usually from a range your router, firewall, or Lumana Core manages. Devices can then communicate without manual IP entry on each device.
 
 ### How do I know if I have a DHCP server?
 
