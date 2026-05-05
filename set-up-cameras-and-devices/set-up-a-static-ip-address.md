@@ -4,11 +4,9 @@ Assign a static IP address so your camera keeps the same IP after reboots or whe
 
 Lumana and other systems can keep using that one address for the camera.
 
-_DHCP_ stands for Dynamic Host Configuration Protocol. That service assigns each device an IP address automatically, usually from a range your router, firewall, or Lumana Core manages. Devices can then communicate without manual IP entry on each device.
-
 ### How do I know if I have a DHCP server?
 
-DHCP is the service that hands out IP addresses automatically. Most sites have one.
+_DHCP_ stands for Dynamic Host Configuration Protocol. That service assigns each device an IP address automatically, usually from a range your router, firewall, or Lumana Core manages. Devices can then communicate without manual IP entry on each device.
 
 You likely have DHCP if a router, office firewall, or Lumana Core on the network assigns addresses and your camera already shows an IP in Lumana without you setting a static address on the device. Check your router or Core admin UI for DHCP or LAN settings if you are unsure.
 
