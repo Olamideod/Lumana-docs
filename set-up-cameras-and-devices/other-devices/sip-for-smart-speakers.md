@@ -14,15 +14,18 @@ You need:
 - Access to Check Point SmartConsole
 - Network topology details
 
-### Step 1: Enable VoIP
+### Step 1: Open VoIP settings
 
-1. Log in to Check Point
-2. Go to **Access Policy → VoIP**
-3. Enable VoIP
+1. Log in to Check Point.
+2. Go to **Access Policy → VoIP**.
+
+### Step 2: Enable VoIP
+
+On the **Access Policy → VoIP** screen, enable VoIP.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/check-point-voip-toggle-on.png" alt="" width="563"></div>
 
-### Step 2: Configure SIP service provider
+### Step 3: Configure SIP service provider
 
 1. Enable **Use SIP Service Provider**.
 2. Set **Name** to **SIP-Provider**.
@@ -47,7 +50,7 @@ Add the following domain names:
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/off-premise-sip-provider-service-list.png" alt="Check Point SIP service provider networks and domain configuration."></div>
 
-### Step 3: Configure RTP services
+### Step 4: Configure RTP services
 
 1. Disable SIP traffic inspection
 2. Add the following services:
@@ -63,7 +66,7 @@ Add the following domain names:
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/sip-traffic-inspection-rtp-services.png" alt="" width="563"></div>
 
-### Step 4: Configure on-premise devices
+### Step 5: Configure on-premise devices
 
 1. Use on-premise phones without a SIP server (PBX).
 2. Add all relevant resources, for example:
@@ -74,7 +77,7 @@ Add the following domain names:
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/on-premise-devices-ip-phones.png" alt="" width="563"></div>
 
-### Step 5: Configure SIP services
+### Step 6: Configure SIP services
 
 Add the following services:
 
@@ -133,4 +136,4 @@ Add the following services:
 ## Next steps
 
 - To add IP speakers you trigger with patterns over REST or TCP/UDP in VMS+, continue with [Smart speakers](smart-speakers.md).
-- The [Camera networking options](../camera-networking-options.md) page includes this Check Point SIP section for readers who start from camera networking.
+- For remote access to a camera manufacturer’s web UI, see [Camera networking options](../camera-networking-options.md).
