@@ -15,6 +15,8 @@ From here, you have two paths:
 * Select **Add alert** to create a new alert. Follow the steps in [Create an alert](#create-an-alert).
 * Select **Configurations** to view and manage your existing alerts. Follow the steps in [View and manage configured alerts](#view-and-manage-configured-alerts).
 
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-monitoring-configurations.png" alt="" width="563"></div>
+
 ## Create an alert
 
 1. From the Alerts monitoring view, select **Add alert** in the top right corner. The Configure alerts page opens.
@@ -149,7 +151,7 @@ Each action and how to configure it is covered in [Alert actions](alert-actions.
 
 From the Alerts monitoring view, select **Configurations**. The list shows every alert in your account with its name and a plain-language summary of its trigger condition.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-list-view.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-configurations-button.png" alt="" width="563"></div>
 
 Use the filters at the top of the list to narrow what you see:
 
@@ -168,6 +170,8 @@ Use the filters at the top of the list to narrow what you see:
 
 Each row in the list shows:
 
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-list-view1.png" alt="" width="563"></div>
+
 * **Toggle**: Hover to see **Enable alert** or **Disable alert**. Select the toggle to enable or disable the alert without deleting it.
 * **Alert name and condition**: The name you entered and a plain-language summary of the trigger condition.
 * **Camera thumbnail**: Shows a preview of the camera feed. A green indicator means the camera is online.
@@ -179,4 +183,6 @@ To edit a configured alert, select its row in the list. The alert configuration 
 
 To delete an alert, select the **delete icon** on the right side of the alert row in the configured alerts list.
 
-> **Warning:** Deletion is permanent and cannot be undone.
+{% hint style="warning" %}
+Deletion is permanent and cannot be undone.
+{% endhint %}
