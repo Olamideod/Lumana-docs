@@ -15,7 +15,7 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
    * Open the camera from the **Devices** list.
 2. Open camera settings
 
-    * Select **Edit camera**.
+    * Select the <img src="../.gitbook/assets/dhcp-edit-pencil-icon.png" alt="Edit camera pencil icon." data-size="line"> **Edit camera** control.
 
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-edit-camera-button.png" alt="Camera view with Edit camera highlighted."></div>
 3. Configure PTZ settings
