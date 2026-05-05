@@ -125,7 +125,9 @@ Add the following services:
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-service-ports-table.png" alt="Check Point SIP-related services with protocols and destination ports." width="563"></div>
 
-## Speaker configuration - Examples
+## Configure SIP on each speaker (examples)
+
+After you complete the Check Point SmartConsole steps above, open each speaker’s own admin interface and enter its SIP account so the device can register. The subsections below walk through Uniview and TOA as examples.
 
 {% hint style="info" %}
 **Note**: SIP credentials (address, username, password) are supplied by your CSM.
@@ -147,7 +149,7 @@ Add the following services:
 4. Set **Expire Time > 600**
 5. Set **Auto Answer** to **Immediately**
 6. Save
-7. Verify the speakers status shows **Registered**
+7. Verify the speaker's status shows **Registered**
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-account-setup-example.png" alt="Uniview speaker SIP account settings with registered status." width="563"></div>
 

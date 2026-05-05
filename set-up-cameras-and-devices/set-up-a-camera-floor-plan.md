@@ -1,6 +1,8 @@
 # Set up a camera floor plan
 
-This guide walks you through adding a floor plan, placing cameras on the layout, and saving so you can preview live video from the map. Floor plans tie each camera to a location on your site, which makes coverage easier to understand than scrolling a flat device list alone.
+This guide walks you through adding a *floor plan*, an interactive map of your location that labels where each camera is located. From this map you can select a camera to watch the live video feed.
+
+Floor plans tie each camera to a location on your site, which makes coverage easier to understand than scrolling a list of devices.
 
 ## Key benefits
 
