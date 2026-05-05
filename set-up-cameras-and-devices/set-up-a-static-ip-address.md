@@ -4,11 +4,7 @@ Assign a static IP address so your camera keeps the same IP after reboots or whe
 
 Lumana and other systems can keep using that one address for the camera.
 
-{% hint style="warning" %}
-Do not assign a static IP that falls inside the DHCP pool unless you use a reservation for that address. Otherwise you can get IP conflicts.
-{% endhint %}
-
-*DHCP* stands for Dynamic Host Configuration Protocol. That service assigns each device an IP address automatically, usually from a range your router, firewall, or Lumana Core manages. Devices can then communicate without manual IP entry on each device.
+_DHCP_ stands for Dynamic Host Configuration Protocol. That service assigns each device an IP address automatically, usually from a range your router, firewall, or Lumana Core manages. Devices can then communicate without manual IP entry on each device.
 
 ### How do I know if I have a DHCP server?
 
@@ -37,6 +33,10 @@ Follow the scenario below that matches your network.
    - Open **Edit camera** → **Details** and copy the **MAC address**.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-details-mac-address.png" alt="Camera details page showing the MAC address field." width="563"></div>
+
+{% hint style="warning" %}
+Do not forget to create a DHCP reservation for the camera’s address on the router or Core. Otherwise, the server can still offer that address to another device, and you can get an IP conflict.
+{% endhint %}
 
 3. Configure DHCP reservation on your router using the MAC address.
 This way the camera keeps the same IP address after reboots or power interruptions when the server always offers that lease to this MAC address.
