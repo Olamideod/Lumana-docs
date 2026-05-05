@@ -25,7 +25,7 @@ You likely do not have DHCP if every device uses manually entered IPs and nothin
 ### Scenario 1: Your network includes a DHCP server and you want to assign a permanent IP address
 
 1. Connect the camera to your network.
-2. In Lumana, collect the **IP address** and **MAC address** you will map on the DHCP server. If the camera is not listed under **Devices** yet, add it to your organization first.
+2. In Lumana, collect the **IP address** and **MAC address** you will map on the DHCP server. If the camera is not listed under **Devices** yet, [add the camera to your organization](../getting-started/connect-a-camera.md#connect-a-camera) first.
    - From **Devices**, open the camera and note the **IP address**.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/devices-list-ip-address.png" alt="Devices list showing the camera IP address." width="563"></div>
