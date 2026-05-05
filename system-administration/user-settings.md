@@ -79,9 +79,9 @@ Set your preferred **Date and time** format (including 12 or 24-hour clock), **L
 
 Set **Auto logout** to control whether Lumana signs you out after a period of inactivity and how long that period is. Turn this off if you need to stay signed in during long shifts.
 
-{% hint style="info" %}
-[PLACEHOLDER — SME answer needed: What does Device management show? What does Global search settings sync?]
-{% endhint %}
+Select **Global search settings** to control how search results display across your account. Turn on **Highlight search matches** to highlight matching terms in results. Turn on **Include match reasons** to show why each result was returned. Select **Save** to apply your changes.
+
+Select **Device management** to choose how your devices display — select **Overview** for a summary view or **Table** for a list view. Select **Save** to apply your choice.
 
 ## Manage your security settings
 
@@ -96,14 +96,6 @@ Requires a second form of identification when you sign in. Turn this on to add a
 ### Sign in
 
 Keeps you signed in between sessions. Turn this on if you don't want to sign in each time you open Lumana.
-
-### Reset password
-
-Lets you reset your account password. Select **Reset** to begin.
-
-{% hint style="info" %}
-[PLACEHOLDER — SME answer needed: What happens after selecting Reset? Does it send an email link or open a direct reset flow?]
-{% endhint %}
 
 ## Change your password
 
