@@ -1,6 +1,6 @@
 # Configure SIP for smart speakers
 
-Use Session Initiation Protocol (SIP) to enable communication between Lumana and external audio devices such as network speakers.
+Use *Session Initiation Protocol* (SIP) to enable communication between Lumana and external audio devices such as network speakers.
 
 This setup is typically required in advanced deployments that use network-managed audio and a firewall such as Check Point.
 
