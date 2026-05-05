@@ -1,8 +1,6 @@
 # Recommended streaming settings
 
-Lumana is designed to work with a range of IP cameras. If you're using a camera outside of the Lumana portfolio, then it is critical to correctly configure your camera before connecting it to Lumana.
-
-If you're unsure, then use the recommended settings in the [Primary stream settings](#primary-stream-settings) and [Sub stream settings](#sub-stream-settings) sections below.
+Use this page to see how your primary and sub streams should look for Lumana. If you use Lumana cameras or a supported brand that Lumana Core sets up for you, you may not need to change anything; otherwise copy the values from [Primary stream settings](#primary-stream-settings) and [Sub stream settings](#sub-stream-settings) into the camera’s own settings.
 
 ## Stream configuration overview
 
@@ -16,7 +14,8 @@ Lumana uses these streams for:
 - AI analytics
 - High-quality storage
 - Standard-quality storage
-- High- and standard-quality live view
+- High-quality live view
+- Standard-quality live view
 
 Configure at least two streams to balance performance, storage, and bandwidth.
 
@@ -89,7 +88,7 @@ The sub stream is used for standard-quality storage and bandwidth optimization.
 | 8MP        | 1920×1080  | 25  | 1,024          |
 | 12MP       | 1920×1080  | 25  | 1,024          |
 
-### Lumana cameras
+## Lumana cameras
 
 When using Lumana cameras, default settings already match recommended configuration.
 
@@ -97,11 +96,13 @@ No additional setup is required.
 
 ### Supported brand optimization
 
-When adding supported camera brands, Lumana Core automatically applies optimized configurations.
+When you add a camera from a **supported brand**, Lumana Core updates its streaming options so they match the recommendations on this page.
 
 {% hint style="info" %}
-While some of the parameters have common terminology (for example, compression and resolution), other vendors use different terminology for camera parameters. The following table outlines the custom settings per brand:
+Many options use familiar names such as compression and resolution, but vendors label those settings differently.
 {% endhint %}
+
+The table below lists bitrate type and quality targets for the main and sub streams by brand.
 
 |                 | Lumana | Axis | Hikvision | Uniview |
 | --------------- | ------ | ---- | --------- | ------- |
@@ -112,17 +113,16 @@ While some of the parameters have common terminology (for example, compression a
 | Bitrate type    | CBR    | ABR  | CBR       | CBR     |
 | Quality         | N/A    | 60   | 60        | N/A     |
 
-The rows group bitrate and quality targets for the main and sub streams.
 
-#### FAQ: Navigating your camera configuration concerns
+#### Frequently asked questions
 
 These questions cover how streaming settings affect storage, codecs, CBR, and Lumana cameras.
 
 <details>
 
-<summary>What happens to <a href="../faq-and-reference/video-storage.md">video storage and retention</a> if you don't follow Lumana camera configuration best practice?</summary>
+<summary>What happens to <a href="../faq-and-reference/video-storage.md">video storage and retention</a> if you don't follow Lumana camera configuration Best practices?</summary>
 
-Camera configuration best practice is required to bring you the best performance from Lumana Core. Not following the guidelines may impact two features:
+Camera configuration Best practices is required to bring you the best performance from Lumana Core. Not following the guidelines may impact two features:
 
 1. The number of cameras that you can connect to a single Core may be lower than the spec.
 2. The storage retention period may be lower than the spec. For more on retention, read [Video storage](../faq-and-reference/video-storage.md).
@@ -133,13 +133,12 @@ Camera configuration best practice is required to bring you the best performance
 
 <summary>What is the impact of using H.264 instead of H.265?</summary>
 
-When you choose H.264 over H.265 on the primary stream, consider image quality and Core performance together. H.264 is an older codec, so it compresses video less efficiently than H.265.
+When you choose H.264 over H.265 on the primary stream, weigh image quality and Core performance together. H.264 is an older codec and compresses video less efficiently than H.265.
 
-You may see roughly 20% lower image quality than you would at the same settings with H.265. Comparable quality then needs more bandwidth and storage.
+- You may see roughly 20% lower image quality than at the same settings with H.265. Matching that quality needs more bandwidth and storage.
+- Core performance can drop by about 40%. The extra work to decode larger H.264 streams leaves less headroom for concurrent cameras.
 
-Core performance can drop by about 40%. The extra work to decode larger H.264 streams leaves less headroom for concurrent cameras.
-
-The next tables show camera counts and FPS targets for each codec.
+The tables below show camera counts and FPS targets for each codec.
 
 #### Primary stream impact
 

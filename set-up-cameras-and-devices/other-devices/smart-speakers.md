@@ -2,6 +2,8 @@
 
 You can tie IP speakers to **VMS+** so alerts trigger audible messages: pre-recorded clips, warnings, or other patterns you define on the device.
 
+Lumana can also use Session Initiation Protocol (SIP) with supported network speakers. That usually involves firewall or router rules on your side plus SIP account settings on each speaker. For Check Point SIP configuration and Uniview or TOA setup examples, see [Configure SIP for smart speakers](sip-for-smart-speakers.md).
+
 ## Key use cases
 
 Typical reasons teams add speakers include:

@@ -69,6 +69,7 @@
   * [FLIR sensors](set-up-cameras-and-devices/other-devices/flir-sensors.md)
   * [Disruptive sensors](set-up-cameras-and-devices/other-devices/disruptive-sensors.md)
   * [Smart speakers](set-up-cameras-and-devices/other-devices/smart-speakers.md)
+  * [Configure SIP for smart speakers](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md)
   * [GPIO devices](set-up-cameras-and-devices/other-devices/gpio-devices.md)
 * [Network and infrastructure configuration](set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md)
   * [Lumana Core hardware specifications](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md)
