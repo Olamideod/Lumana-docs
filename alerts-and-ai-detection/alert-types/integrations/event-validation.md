@@ -30,7 +30,7 @@ To create event tags and configure the API integration before using this alert, 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/event-validation-dropdown.png" alt="" width="262"></div>
 
 6. Select the event tag you want to monitor.
-7. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
+7. Select the **camera** field to open the Choose cameras modal. Select the cameras you want to monitor, then confirm your selection.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
 
@@ -61,6 +61,6 @@ To create event tags and configure the API integration before using this alert, 
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/tampering-duration.png" alt="" width="242"></div>
 
-12. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../configure-alerts.md#default-configuration) covers these settings.
+12. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../create-and-manage-alerts.md#default-configuration) covers these settings.
 13. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. [Alert actions](../../alert-actions.md) covers the available actions.
 14. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

@@ -73,7 +73,7 @@
 
 * [Introduction to Lumana alerts](alerts-and-ai-detection/introduction-to-lumana-alerts.md)
 * [Alert view](alerts-and-ai-detection/alert-view.md)
-* [Configure alerts](alerts-and-ai-detection/configure-alerts.md)
+* [Create and manage alerts](alerts-and-ai-detection/create-and-manage-alerts.md)
 * [Alert types](alerts-and-ai-detection/alert-types/README.md)
   * [Security](alerts-and-ai-detection/alert-types/security/README.md)
     * [Motion](alerts-and-ai-detection/alert-types/security/motion.md)
@@ -119,7 +119,7 @@
   * [Integrations](alerts-and-ai-detection/alert-types/integrations/README.md)
     * [Event tag](alerts-and-ai-detection/alert-types/integrations/event-tag.md)
     * [Event validation](alerts-and-ai-detection/alert-types/integrations/event-validation.md)
-    * [Door tailgating](alerts-and-ai-detection/alert-types/security/tailgating.md)
+    * [Door tailgating](alerts-and-ai-detection/alert-types/integrations/door-tailgating.md)
     * [Event clearance](alerts-and-ai-detection/alert-types/integrations/event-clearance.md)
     * [Developer](alerts-and-ai-detection/alert-types/integrations/developer.md)
   * [Retail](alerts-and-ai-detection/alert-types/retail/README.md)

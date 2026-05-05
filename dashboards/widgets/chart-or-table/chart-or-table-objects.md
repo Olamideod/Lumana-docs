@@ -157,7 +157,7 @@ Third dropdown, object filter:
 * Search by camera name or location using the search field.
 * Select **All cameras** to include every camera in your account.
 * Select individual cameras to filter to specific ones.
-* Select **Select** to apply. The field shows how many cameras are selected, for example "1 cameras selected."
+* Confirm your selection. The field shows how many cameras are selected, for example "1 cameras selected."
 
 4. Optionally, set a widget-level **Time** range. If you leave this as `---`, then the widget follows the dashboard time filter.
 

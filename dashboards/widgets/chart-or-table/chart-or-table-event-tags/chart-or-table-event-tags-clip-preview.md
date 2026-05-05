@@ -48,7 +48,7 @@ The toolbar on the right side of the tab row gives you three additional controls
 
 <div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-event-tags-clip-create-archive.png" alt="" width="563"></div>
 
-* **Choose cameras**: Opens the Choose cameras dialog. Search by name or location, select individual cameras or **All cameras**, then select **Select** to add feeds to the preview.
+* **Choose cameras**: Opens the Choose cameras dialog. Search by name or location, select individual cameras or **All cameras**, then confirm your selection to add feeds to the preview.
 
 <div align="center" data-with-frame="true"><img src="../../../../.gitbook/assets/widget-event-tags-clip-choose-cameras.png" alt="" width="563"></div>
 

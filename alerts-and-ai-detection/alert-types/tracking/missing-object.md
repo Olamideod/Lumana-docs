@@ -23,7 +23,7 @@ Mark a specific object in the camera view. Lumana monitors the marked object con
 <a id="parameters"></a>
 
 4. Enter a name in the **Alert name** field, for example "Equipment removal" or "Asset missing from storage."
-5. Select the **cameras** field to open the Choose cameras modal. Select the cameras you want to monitor, then select **Select** to confirm.
+5. Select the **cameras** field to open the Choose cameras modal. Select the cameras you want to monitor, then confirm your selection.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
 
@@ -31,7 +31,7 @@ After selecting a camera, mark the object you want Lumana to monitor. Select the
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/missing-object-mark.png" alt="" width="563"></div>
 
-6. Select the **time** field to set when the alert is active. [Configure alerts](../../configure-alerts.md#schedule) covers the schedule options.
-7. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../configure-alerts.md#default-configuration) covers these settings.
+6. Select the **time** field to set when the alert is active. [Configure alerts](../../create-and-manage-alerts.md#schedule) covers the schedule options.
+7. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../create-and-manage-alerts.md#default-configuration) covers these settings.
 8. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. [Alert actions](../../alert-actions.md) covers the available actions.
 9. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

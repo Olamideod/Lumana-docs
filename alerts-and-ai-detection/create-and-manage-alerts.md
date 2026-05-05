@@ -1,16 +1,23 @@
-# Configure alerts
+# Create and manage alerts
 
 Lumana alerts monitor your cameras and notify you when specific conditions are detected. Some alerts are powered by AI, while others are rule-based. Each alert is built from a template written in plain language, so you can see exactly what it does before you configure it.
 
 This page covers how to create, manage, and delete alerts. Each alert type and what it detects is covered in the [Alert types](alert-types/) section.
 
-## Create an alert
+## Open the Alerts section
 
-1. Select the **bell icon** in the navigation bar. The Alerts monitoring view opens.
+Select the **bell icon** in the left navigation. The Alerts monitoring view opens.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-monitoring-view1.png" alt="" width="563"></div>
 
-2. Select **Add alert** in the top right corner. The Configure alerts page opens.
+From here, you have two paths:
+
+* Select **Add alert** to create a new alert. Follow the steps in [Create an alert](#create-an-alert).
+* Select **Configurations** to view and manage your existing alerts. Follow the steps in [View and manage configured alerts](#view-and-manage-configured-alerts).
+
+## Create an alert
+
+1. From the Alerts monitoring view, select **Add alert** in the top right corner. The Configure alerts page opens.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
 
@@ -29,7 +36,7 @@ This page covers how to create, manage, and delete alerts. Each alert type and w
 * Search by camera name or location using the search field.
 * Select **All cameras** to apply the alert to every camera in your account.
 * Select individual cameras by checking the box next to each one.
-* Select **Select** to confirm your selection and close the modal.
+* Confirm your selection to close the modal.
 
 <a id="schedule"></a>
 
@@ -140,15 +147,30 @@ Each action and how to configure it is covered in [Alert actions](alert-actions.
 
 ## View and manage configured alerts
 
-To view all configured alerts, select **Configurations** from the Alerts monitoring view. The list shows every alert in your account with its name, a plain-language description of its trigger condition, and its current status.
+From the Alerts monitoring view, select **Configurations**. The list shows every alert in your account with its name and a plain-language summary of its trigger condition.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-list-view.png" alt="" width="563"></div>
 
+Use the filters at the top of the list to narrow what you see:
+
+* **Search alerts**: Enter an alert name to filter the list as you type.
+* **Cameras**: Opens the Choose cameras modal. Select one or more cameras to show only alerts assigned to those cameras.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-list-cameras-filter.png" alt="" width="563"></div>
+
+* **Alert type**: Opens a dropdown of alert types. Select one or more types to filter by detection category, for example Motion, Trespassing, or Gun detection.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-list-alert-type-filter.png" alt="" width="375"></div>
+
+* **Tags**: Opens a tag dropdown. Select one or more tags to show only alerts with those tags applied. Select **Manage tags** to rename or delete tags.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-list-tags-filter.png" alt="" width="375"></div>
+
 Each row in the list shows:
 
-* **Toggle**: Enable or disable the alert without deleting it.
-* **Alert name and description**: The name you entered and a plain-language summary of the trigger condition.
-* **Status icon**: A green checkmark indicates the alert is active.
+* **Toggle**: Hover to see **Enable alert** or **Disable alert**. Select the toggle to enable or disable the alert without deleting it.
+* **Alert name and condition**: The name you entered and a plain-language summary of the trigger condition.
+* **Camera thumbnail**: Shows a preview of the camera feed. A green indicator means the camera is online.
 * **Delete icon**: Removes the alert permanently.
 
 To edit a configured alert, select its row in the list. The alert configuration page opens with the current settings. Update the fields you want to change, then select **Update Alert** to save. Select **Discard** to exit without saving.

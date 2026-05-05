@@ -55,7 +55,7 @@ Second dropdown, event tag filter:
 * Search by camera name or location using the search field.
 * Select **All cameras** to include every camera in your account.
 * Select individual cameras to filter to specific ones.
-* Select **Select** to apply. The field shows how many cameras are selected, for example "1 cameras selected."
+* Confirm your selection. The field shows how many cameras are selected, for example "1 cameras selected."
 
 > **Note:** Include every camera you used as `cameraId` in your API POSTs. If a camera isn't selected here, its events won't appear in the chart.
 

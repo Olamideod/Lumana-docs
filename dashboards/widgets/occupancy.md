@@ -29,7 +29,7 @@ Adding an Occupancy widget takes you through the main configuration dialog and a
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-entrance-dropdown.png" alt="" width="375"></div>
 
-4.  Choose the camera you want to configure, then select **Select**.
+4.  Choose the camera you want to configure, then confirm your selection.
 
     If no Traffic control line crossing exists for that camera, a warning banner appears: "You must select a Traffic control, use the edit button next to the camera to select one."
 
@@ -59,7 +59,7 @@ Adding an Occupancy widget takes you through the main configuration dialog and a
 13. Select **Save**. The camera picker opens again.
 
     > **Note:** There's no confirmation message after saving. Returning to the camera picker without any error confirms that the line crossing was saved successfully.
-14. Select **Select** to confirm. A success message appears confirming the line crossing was created, for example, "Main entrance has been created." The message uses the name you entered in the **Name** field.
+14. Confirm your selection. A success message appears confirming the line crossing was created, for example, "Main entrance has been created." The message uses the name you entered in the **Name** field.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-success.png" alt="" width="563"></div>
 

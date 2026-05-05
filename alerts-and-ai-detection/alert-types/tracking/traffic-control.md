@@ -35,7 +35,7 @@ Select one or more object types to monitor:
 
 Any custom objects you've already created appear below the built-in types, tagged as **Custom**. You can select multiple types. If you need to detect a specific object that isn't in the list, then select **+ New custom object**. Follow the steps in [Create a custom object](../security/proximity.md#create-a-custom-object) to complete setup.
 
-6. Select the **camera** field to open the Choose cameras modal. Select the camera you want to monitor, then select **Select** to confirm.
+6. Select the **camera** field to open the Choose cameras modal. Select the camera you want to monitor, then confirm your selection.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/motion-camera-picker.png" alt="" width="375"></div>
 
@@ -65,7 +65,7 @@ Use the navigation icons below the camera feed to browse snapshots from the came
 * **Reset**: Clears all lines and lets you start over.
 * **Select**: Confirms the lines and closes the dialog.
 
-7. Select the **time** field to set when the alert is active. [Configure alerts](../../configure-alerts.md#schedule) covers the schedule options.
-8. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../configure-alerts.md#default-configuration) covers these settings.
+7. Select the **time** field to set when the alert is active. [Configure alerts](../../create-and-manage-alerts.md#schedule) covers the schedule options.
+8. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../create-and-manage-alerts.md#default-configuration) covers these settings.
 9. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. [Alert actions](../../alert-actions.md) covers the available actions.
 10. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

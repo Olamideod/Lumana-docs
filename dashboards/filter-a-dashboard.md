@@ -47,7 +47,7 @@ The **Cameras** field controls which cameras contribute data to the dashboard. S
 
 * Select **All cameras** to include every camera in your organization.
 * To filter by specific cameras, select individual cameras from the list. You can use the search field at the top to search for cameras by name or location.
-* Select **Select** to apply your selection and return to the dashboard. The data being displayed updates immediately to reflect the change.
+* Confirm your selection to return to the dashboard. The data updates immediately to reflect the change.
 
 ### Object type filter
 
