@@ -20,9 +20,9 @@ This guide explains how to connect your Hikvision camera to Lumana Core. If need
 
 Choose the connection method that fits your setup:
 
-* *Admin credentials*: Best option when available. Gives Lumana the highest level of access and compatibility.
-* *ONVIF*: Useful when you need a standards-based connection, including some PTZ use cases.
-* *New profile*: Useful when you do not want to use the admin account directly and want to manage access separately.
+* **Admin credentials**: Best option when available. Gives Lumana the highest level of access and compatibility.
+* **ONVIF**: Useful when you need a standards-based connection, including some PTZ use cases.
+* **New profile**: Useful when you do not want to use the admin account directly and want to manage access separately.
 
 {% hint style="info" %}
 Using reduced-permission accounts may limit some functionality in Lumana.
@@ -38,16 +38,17 @@ Ensure your Hikvision camera is updated, correctly configured, and ready to conn
 
 ### Activate your camera with the SADP tool
 
-* *Download SADP Tool*: If your camera is new or hasn’t been initialized yet, start by downloading the SADP (Search Active Device Protocol) tool from the [Hikvision official website](https://www.hikvision.com/en/support/tools/hitools/clea8b3e4ea7da90a9/). This software is designed to help find and initialize Hikvision devices on your network. Note: Hikvision's SADP tool requires Windows OS
-* *Install and Launch SADP*: After downloading, install and open the SADP tool on a computer connected to the *same local network* as your Hikvision camera (for example, cameras and your PC on one switch).
+* **Download SADP Tool**: If your camera is new or hasn’t been initialized yet, start by downloading the SADP (Search Active Device Protocol) tool from the [Hikvision official website](https://www.hikvision.com/en/support/tools/hitools/clea8b3e4ea7da90a9/). This software is designed to help find and initialize Hikvision devices on your network. Note: Hikvision's SADP tool requires Windows OS.
+
+* **Install and Launch SADP**: After downloading, install and open the SADP tool on a computer connected to the same local network as your Hikvision camera (for example, cameras and your PC on one switch).
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hikvision-setup-network-topology.png" alt="Diagram: IP cameras, network switch, and laptop on the same LAN for discovery and configuration."></div>
 
-* *Detect and Initialize the Camera*: The SADP tool will scan your network and list Hikvision devices. Select your camera, note its *IPv4 address* and status, and—if the device is not initialized yet—set a password to activate it. Keep the IP address for the next steps.
+* **Detect and Initialize the Camera**: The SADP tool will scan your network and list Hikvision devices. Select your camera, note its IPv4 address and status, and—if the device is not initialized yet—set a password to activate it. Keep the IP address for the next steps.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hikvision-sadp-tool.png" alt="Hikvision SADP utility listing online devices with IPv4 addresses, ports, and status columns."></div>
 
-* *Assign a static IP (Recommended)*: To ensure your camera maintains a consistent connection to Lumana Core, assign it a static IP address through its web interface under the network settings.
+* **Assign a static IP (Recommended)**: To ensure your camera maintains a consistent connection to Lumana Core, assign it a static IP address through its web interface under the network settings.
 
 ### Continue after you log in
 
@@ -63,8 +64,8 @@ If you are using admin credentials, you can proceed directly to [Connect a camer
 
 1. Log in to the Hikvision Web Portal.
 
-* *Open a web browser*: Enter the IP address of your Hikvision camera into the browser’s address bar.
-* *Administrator login*: Use your administrator credentials to log into the Hikvision web portal. These credentials are the admin username and password established during the initial setup of your camera.
+* **Open a web browser**: Enter the IP address of your Hikvision camera into the browser’s address bar.
+* **Administrator login**: Use your administrator credentials to log into the Hikvision web portal. These credentials are the admin username and password established during the initial setup of your camera.
 
 2. Open **Configuration** → **Network** → **Advanced Settings**, then select the **Integration Protocol** tab.
 

@@ -200,6 +200,8 @@ Use italics sparingly. Prefer clear wording over typographic stress.
 
 **Markdown:** Google recommends underscores for italics (`_like this_`) so italics are easy to tell apart from bold (`**like this**`) in source. Use `**` for bold, not `__`.
 
+**Run-in labels (not UI):** When a list item starts with a short bold label and a colon, put the colon outside the bold—the same rule as in [UI text and messages](#ui-text-and-messages). Example: `**Scenario 1**: description`. Not: `**Scenario 1:** description`.
+
 ---
 
 ## Notes and warnings

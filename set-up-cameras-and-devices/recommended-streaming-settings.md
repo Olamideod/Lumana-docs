@@ -8,8 +8,8 @@ If you're unsure, then use the recommended settings in the [Primary stream setti
 
 Most IP cameras provide at least two video streams, and some offer more.
 
-- The *primary stream* uses the highest resolution and quality
-- The *sub stream* uses lower resolution for efficiency
+- The primary stream uses the highest resolution and quality
+- The sub stream uses lower resolution for efficiency
 
 Lumana uses these streams for:
 
@@ -30,10 +30,10 @@ The primary stream is used for analytics, high-quality storage, and live monitor
 
 ### Recommended settings
 
-- *Resolution*: Highest available camera resolution
-- *Encoder*: H.265 (H.264 is supported but less efficient)
-- *Bitrate type*: CBR (Constant Bit Rate)
-- *Keyframe interval*: Equal to FPS
+- **Resolution**: Highest available camera resolution
+- **Encoder**: H.265 (H.264 is supported but less efficient)
+- **Bitrate type**: CBR (Constant Bit Rate)
+- **Keyframe interval**: Equal to FPS
 
 ### Keyframe guidance
 
@@ -44,8 +44,8 @@ For optimal performance:
 
 For example:
 
-- At *25 FPS*, keep the keyframe interval *50* or lower
-- For heavy motion, set the interval to match *FPS* (for example *25* at 25 FPS)
+- At 25 FPS, keep the keyframe interval 50 or lower
+- For heavy motion, set the interval to match FPS (for example 25 at 25 FPS)
 
 ### Reference values
 
@@ -68,11 +68,11 @@ The sub stream is used for standard-quality storage and bandwidth optimization.
 
 ### Recommended settings
 
-- *Resolution*: 720p (or lower)
-- *Encoder*: H.265
-- *Bitrate type*: CBR
-- *Image quality*: Medium
-- *Keyframe interval*: 2 × FPS
+- **Resolution**: 720p (or lower)
+- **Encoder**: H.265
+- **Bitrate type**: CBR
+- **Image quality**: Medium
+- **Keyframe interval**: 2 × FPS
 
 ### Reference values
 
@@ -165,8 +165,8 @@ The next tables show camera counts and FPS targets for each codec.
 
 Lumana Core requires IP cameras to use CBR for several important reasons:
 
-- *Stability and reliability*: CBR keeps a steady data rate. That consistency helps live view and recording stay predictable.
-- *Network bandwidth management*: With CBR, you can plan bandwidth per camera so each stream gets enough capacity for usable video.
+- **Stability and reliability**: CBR keeps a steady data rate. That consistency helps live view and recording stay predictable.
+- **Network bandwidth management**: With CBR, you can plan bandwidth per camera so each stream gets enough capacity for usable video.
 
 </details>
 
@@ -176,9 +176,9 @@ Lumana Core requires IP cameras to use CBR for several important reasons:
 
 Lumana Core runs video analytics, including object recognition, behavior analysis, and anomaly detection. Those features need clear input video. Here is why bitrate matters with CBR:
 
-- *Analytics quality*: A higher CBR bitrate keeps more detail in the image. Clearer frames help detection stay accurate.
-- *Model learning*: Steady, high-quality feeds support training and tuning of analytics models over time.
-- *Storage with alerts*: Higher bitrates use more disk space by default. Lumana Core still targets efficient storage. It keeps rich video for review when alerts fire, without storing bulk high-bitrate footage when nothing is happening.
+- **Analytics quality**: A higher CBR bitrate keeps more detail in the image. Clearer frames help detection stay accurate.
+- **Model learning**: Steady, high-quality feeds support training and tuning of analytics models over time.
+- **Storage with alerts**: Higher bitrates use more disk space by default. Lumana Core still targets efficient storage. It keeps rich video for review when alerts fire, without storing bulk high-bitrate footage when nothing is happening.
 
 </details>
 

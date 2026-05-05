@@ -22,9 +22,9 @@ You likely do not have DHCP if every device uses manually entered IPs and nothin
 
 Follow the scenario below that matches your network.
 
-- **Scenario 1:** Your network includes a DHCP server and you want to assign a permanent IP address — You keep the camera on DHCP and create a reservation on the router or Core so this camera always receives the same address.
-- **Scenario 2:** Your network includes a DHCP server and you want a permanent static IP on the camera outside the DHCP pool — You set a fixed **IP address**, **subnet mask**, and **gateway** on the camera, outside the DHCP pool.
-- **Scenario 3:** Your network lacks a DHCP server — No device hands out DHCP leases. You configure the camera’s IP in its local web interface (you may need a temporary static IP on your PC first).
+- **Scenario 1**: Your network includes a DHCP server and you want to assign a permanent IP address — You keep the camera on DHCP and create a reservation on the router or Core so this camera always receives the same address.
+- **Scenario 2**: Your network includes a DHCP server and you want a permanent static IP on the camera outside the DHCP pool — You set a fixed **IP address**, **subnet mask**, and **gateway** on the camera, outside the DHCP pool.
+- **Scenario 3**: Your network lacks a DHCP server — No device hands out DHCP leases. You configure the camera’s IP in its local web interface (you may need a temporary static IP on your PC first).
 
 ### Scenario 1: Your network includes a DHCP server and you want to assign a permanent IP address
 

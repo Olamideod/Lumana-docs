@@ -10,11 +10,11 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
 
 ## Key capabilities
 
-✔ *Full coverage control* – Pan, tilt, and zoom to monitor every area.
+✔ **Full coverage control**: Pan, tilt, and zoom to monitor every area.
 
-✔ *Remote operations* – Control cameras from anywhere via Lumana.
+✔ **Remote operations**: Control cameras from anywhere via Lumana.
 
-✔ *Preset positions* – Configure and return to predefined camera angles.
+✔ **Preset positions**: Configure and return to predefined camera angles.
 
 ## Steps to enable PTZ control
 
@@ -48,7 +48,7 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-ptz-toggle.png" alt="PTZ control toggle at the bottom of the camera view."></div>
 3. Use the on-screen controls:
 
-    * *Arrow controls* to pan and tilt
-    * *Zoom controls* to adjust magnification
+    * **Arrow controls** to pan and tilt
+    * **Zoom controls** to adjust magnification
 
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-ptz-controls-overlay.png" alt="PTZ pan, tilt, and zoom controls overlaid on the live view."></div>

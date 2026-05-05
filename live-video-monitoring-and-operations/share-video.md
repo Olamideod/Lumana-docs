@@ -12,8 +12,8 @@ Make sure you can access the camera, alert, search result, or archive you want t
 
 When you share footage from Lumana, the **Share archive** dialog lets you choose how people receive access and what restrictions apply.
 
-- *Sharing methods*: Generate a shareable link, send the share by email, or send it by SMS.
-- *Access controls*: Set how long the share stays available, require a password, and choose whether viewers can download the archive.
+- **Sharing methods**: Generate a shareable link, send the share by email, or send it by SMS.
+- **Access controls**: Set how long the share stays available, require a password, and choose whether viewers can download the archive.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-archive-dialog.png" alt="Share archive dialog with link, password, and access duration options."></div>
 

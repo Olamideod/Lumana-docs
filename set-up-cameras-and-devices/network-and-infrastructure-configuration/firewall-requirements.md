@@ -10,16 +10,16 @@ This page is organized by function: start with the outbound requirements for Lum
 
 Lumana provides two methods to configure your firewall:
 
-- *Lumana URLs*: A list of domains with their corresponding access requirements
-- *Lumana IPs*: An API endpoint that returns all Lumana infrastructure IPs
+- **Lumana URLs**: A list of domains with their corresponding access requirements
+- **Lumana IPs**: An API endpoint that returns all Lumana infrastructure IPs
 
 Allow outbound TCP `443` to the following:
 
 - `*.lumix.ai` - 443 TCP outbound
 - `*.lumana.ai` - 443 TCP outbound
-- `*.us-west*.compute.amazonaws.com` - 443 TCP outbound
-- `*eu-central*.compute.amazonaws.com` - 443 TCP outbound
-- `*.us-east*.compute.amazonaws.com` - 443 TCP outbound
+- `.us-west.compute.amazonaws.com` - 443 TCP outbound
+- `eu-central.compute.amazonaws.com` - 443 TCP outbound
+- `.us-east.compute.amazonaws.com` - 443 TCP outbound
 - `*cloudfront.net` - 443 TCP outbound
 - `auth.docker.io` - 443 TCP outbound
 - `*.docker.io` - 443 TCP outbound

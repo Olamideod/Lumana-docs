@@ -10,11 +10,11 @@ Make sure you can access the cameras and locations you want to display. If you p
 
 Choose the wall type based on how long you need the layout and who needs to view it.
 
-- *Saved walls*: Use a saved wall when you need a reusable layout with camera tiles, alert tiles, and alert filtering.
-- *Quick live view*: Use it when you need a temporary wall quickly and may want to save it later.
-- *Shared external video wall*: Use a shared external video wall when you need a secure URL for viewers outside Lumana.
-- *Standard camera and alert tiles*: Use standard camera tiles and alert tiles when you need to combine live monitoring with event visibility in the same wall.
-- *Advanced alert tile*: Use the advanced alert tile when you want alerts to stream directly to the video wall without extra clicks.
+- **Saved walls**: Use a saved wall when you need a reusable layout with camera tiles, alert tiles, and alert filtering.
+- **Quick live view**: Use it when you need a temporary wall quickly and may want to save it later.
+- **Shared external video wall**: Use a shared external video wall when you need a secure URL for viewers outside Lumana.
+- **Standard camera and alert tiles**: Use standard camera tiles and alert tiles when you need to combine live monitoring with event visibility in the same wall.
+- **Advanced alert tile**: Use the advanced alert tile when you want alerts to stream directly to the video wall without extra clicks.
 
 ## View and edit walls
 
