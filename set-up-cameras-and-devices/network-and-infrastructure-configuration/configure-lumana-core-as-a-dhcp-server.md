@@ -18,7 +18,7 @@ When enabled, the DHCP server on Lumana Core provides essential networking servi
 
 - Confirm you can edit the relevant Core in Lumana.
 - Connect the devices you want Lumana Core to manage to **Ethernet 2**.
-- If *another DHCP server* is already active on that segment, review the impact before you enable this feature. Turning on Lumana’s DHCP server can change IP assignments for devices on the network.
+- If another DHCP server is already active on that segment, review the impact before you enable this feature. Turning on Lumana’s DHCP server can change IP assignments for devices on the network.
 
 ## Configure DHCP server on Lumana Core
 
@@ -36,11 +36,11 @@ When enabled, the DHCP server on Lumana Core provides essential networking servi
 
 To set up the DHCP server on Lumana Core, the following parameters need to be configured:
 
-- *Starting IP Address*: The first IP address in the DHCP pool that Lumana Core will assign to devices.
-- *Ending IP Address*: The last IP address in the DHCP pool, defining the range of available IPs.
-- *DNS Servers*: A list of DNS servers that clients should use for domain name resolution. Multiple servers can be specified, separated by commas.
-- *Gateway*: The default gateway IP address that clients will use to communicate with external networks.
-- *Lease Time*: The duration, in seconds, for which an IP address is leased to a device before it needs renewal.
+- **Starting IP Address**: The first IP address in the DHCP pool that Lumana Core will assign to devices.
+- **Ending IP Address**: The last IP address in the DHCP pool, defining the range of available IPs.
+- **DNS Servers**: A list of DNS servers that clients should use for domain name resolution. Multiple servers can be specified, separated by commas.
+- **Gateway**: The default gateway IP address that clients will use to communicate with external networks.
+- **Lease Time**: The duration, in seconds, for which an IP address is leased to a device before it needs renewal.
 
 ## Example configuration
 

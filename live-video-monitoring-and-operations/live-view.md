@@ -32,10 +32,10 @@ Use the player controls to change the stream view and capture the footage you ne
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-screenshots/live-view-player-office-hq.png" alt="" width="563"></div>
 
-- *Quality control*: In the bottom left corner of Live view, you can toggle between available stream qualities.
-- *Zoom*: On the right side of Live view, use the plus (+) icon to zoom in and the minus (-) icon to zoom out.
-- *Snapshot*: Select the camera icon to capture a snapshot of the current view.
-- *Full-screen mode*: Select the full-screen icon to expand the player.
+- **Quality control**: In the bottom left corner of Live view, you can toggle between available stream qualities.
+- **Zoom**: On the right side of Live view, use the plus (+) icon to zoom in and the minus (-) icon to zoom out.
+- **Snapshot**: Select the camera icon to capture a snapshot of the current view.
+- **Full-screen mode**: Select the full-screen icon to expand the player.
 
 ## Use thumbnail actions
 

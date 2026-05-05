@@ -187,6 +187,23 @@ For error messages, quote the message exactly, then explain what it means and wh
 
 ---
 
+## Italics and emphasis
+
+Use italics sparingly. Prefer clear wording over typographic stress.
+
+**Permitted uses:**
+
+1. **Introducing a term you define in the same sentence** — Italicize the term on that **first** mention only, then use plain text everywhere afterward. This matches [Use italics to discuss terms](https://developers.google.com/style/italics-terms) in the Google developer documentation style guide. For abbreviations expanded on first use, see also [Format abbreviations](https://developers.google.com/style/abbreviations#format-abbreviations).
+2. **Strong emphasis (rare)** — When importance would be lost without it, use italics rather than bold or underline. In practice this should be **at most once or twice per page**; often a tighter sentence removes the need. See the **Italic** section of Google's [Text-formatting summary](https://developers.google.com/style/text-formatting).
+
+**Do not** use italics for UI labels (use **bold**, matching the [UI elements](https://developers.google.com/style/ui-elements#formatting) guidance), for general emphasis on ordinary words, or to repeat a term after you have already defined it.
+
+**Markdown:** Google recommends underscores for italics (`_like this_`) so italics are easy to tell apart from bold (`**like this**`) in source. Use `**` for bold, not `__`.
+
+**Run-in labels (not UI):** When a list item starts with a short bold label and a colon, put the colon outside the bold—the same rule as in [UI text and messages](#ui-text-and-messages). Example: `**Scenario 1**: description`. Not: `**Scenario 1:** description`.
+
+---
+
 ## Notes and warnings
 
 Use callouts strategically: do not overuse them. Use a **Note** block for information that prevents common mistakes. Use a **Warning** block for actions that are irreversible or have significant consequences. Place notes and warnings immediately after the step or statement they relate to.

@@ -36,11 +36,10 @@ Use dashboards to present occupancy metrics in one place. You can:
 
 ### Security and compliance
 
-Occupancy data supports operational safety and policy checks. For example:
-
-- Track counts against maximum occupancy for busy areas.
-- Use current totals when you plan for evacuations or headcount checks.
-- Review unusual spikes or drops in occupancy that may deserve follow-up.
+- **Current occupancy**: Check how many people or vehicles are in a space right now.
+- **Historical trends**: Review peak periods and compare space usage across days or time ranges.
+- **Capacity monitoring**: Watch for spaces that are approaching or exceeding expected occupancy levels.
+- **Operational planning**: Compare usage patterns so teams can plan staffing, access, or layout changes.
 
 ## How space occupancy works
 
@@ -48,7 +47,7 @@ Space occupancy relies on cameras that watch entry and exit points. You place vi
 
 The feature works best when every way into and out of the counted area is covered. If someone can enter or leave without crossing a line, the total will drift from the real number inside.
 
-## Choose a camera placement
+### Choose a camera placement
 
 Camera placement affects counting accuracy. Aim each camera so it has a clear view of the crossing you want to measure for every entrance and exit you include in the count.
 
@@ -56,10 +55,10 @@ Camera placement affects counting accuracy. Aim each camera so it has a clear vi
 
 Use overhead placement when counting accuracy matters most and you can mount the camera to look straight down across the path.
 
-- *Placement*: Mount directly above the entrance so movement crosses the field of view horizontally.
-- *Key benefit*: Highest counting accuracy, including when several people enter or leave at once.
-- *Best for*: High-traffic doors or lanes with simultaneous in/out traffic.
-- *Limitation*: A top-down angle limits how useful the same view is for face or license plate detail.
+- **Placement**: Mount the camera directly above the entrance so it captures movement across the camera's field of view.
+- **Best for**: High-traffic entrances where multiple people may enter or exit at the same time.
+- **Limitation**: The top-down angle can limit facial visibility and license plate visibility.
+
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-top-down-camera-placement.png" alt="Overhead camera view with a virtual count line across a doorway, In and Out labels on the line." width="563"></div>
 
@@ -67,10 +66,10 @@ Use overhead placement when counting accuracy matters most and you can mount the
 
 Use front-facing placement when you want occupancy counts and a view that is also useful for identification (for example face or plate workflows where the scene supports it).
 
-- *Placement*: Mount at eye level or slightly above, roughly 8–10 feet in front of the entry or exit.
-- *Key benefit*: Same feed can support occupancy trends and clearer identity context than a strict top-down shot.
-- *Best for*: Spaces where you monitor occupancy and still need a forward view of people or vehicles.
-- *Limitation*: Crowding can cause overlap and small counting mismatches.
+- **Placement**: Position the camera at eye level or slightly above, about eight to 10 feet in front of the entry or exit point.
+- **Best for**: Spaces where occupancy monitoring and identification both matter.
+- **Limitation**: In crowded conditions, people can overlap and create minor counting mismatches.
+
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-front-facing-camera-placement.png" alt="Front-facing entrance view with a virtual count line on the floor, In and Out labels." width="563"></div>
 
@@ -78,9 +77,9 @@ Use front-facing placement when you want occupancy counts and a view that is als
 
 Whatever angle you choose, the same conditions usually apply:
 
-- *Clear sightlines*: Keep doors, pillars, signage, or furniture from blocking the crossing.
-- *Lighting*: Poor light hurts detection; change aim, add light, or use cameras suited to low light or infrared if your devices support it.
-- *Full access-point coverage*: Partial coverage produces wrong totals; count every path in and out of the space.
+- **Clear sightlines**: Avoid doors, pillars, signs, or other objects that block the camera view.
+- **Full access-point coverage**: Make sure every entrance and exit is covered.
+- **Usable lighting**: Low light can reduce detection quality, so adjust placement or use cameras that work well in those conditions.
 
 ## Common accuracy issues
 

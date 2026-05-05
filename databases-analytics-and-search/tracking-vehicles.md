@@ -2,7 +2,7 @@
 
 Lumana combines video management with an AI engine so you can search large archives quickly, get real-time alerts, and automate responses.
 
-*Vehicle analytics* adds detection, attributes, and cross-camera association. It also adds license plate recognition (LPR). You can filter, alert, and investigate by plate, make, model, type, and color.
+Vehicle analytics adds detection, attributes, and cross-camera association. It also adds license plate recognition (LPR). You can filter, alert, and investigate by plate, make, model, type, and color.
 
 Use the sections below for what each capability does. When you need to relate resolution and distance to detail, use [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md).
 
@@ -56,9 +56,9 @@ Vehicle detection and LPR both depend on resolution and HFOV at the lane or regi
 
 ### Planning notes
 
-1. *Targets* - Use the PPF column for each capability as a planning minimum. Plan above the minimum when lighting is poor, motion is fast, or plates are shallow to the camera.
-2. *Environment* - Glare, rain, occlusion, and aim change effective detail. Validate on site after install.
-3. *Changes* - If you change resolution, lens, or crop, then recalculate PPF for the distances you care about.
+1. **Targets** - Use the PPF column for each capability as a planning minimum. Plan above the minimum when lighting is poor, motion is fast, or plates are shallow to the camera.
+2. **Environment** - Glare, rain, occlusion, and aim change effective detail. Validate on site after install.
+3. **Changes** - If you change resolution, lens, or crop, then recalculate PPF for the distances you care about.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-ppf-requirements-diagram.png" alt="" width="563"></div>
 
@@ -69,7 +69,7 @@ Vehicle detection and LPR both depend on resolution and HFOV at the lane or regi
 | Vehicle tracking | 40 PPF |
 | License plate recognition | 80 PPF |
 
-The next table lists approximate maximum distances on Lumana cameras. Values assume assembly height 9 feet, tilt 25°, and a typical US plate 12 inches wide. Treat them as *typical* planning numbers; your scene and lighting will change results.
+The next table lists approximate maximum distances on Lumana cameras. Values assume assembly height 9 feet, tilt 25°, and a typical US plate 12 inches wide. Treat them as typical planning numbers; your scene and lighting will change results.
 
 | Camera resolution | Vehicle detection | Vehicle attributes | Vehicle tracking | License plate recognition |
 | --- | --- | --- | --- | --- |
@@ -122,11 +122,11 @@ A garage wants automated entry from plate reads at a single inbound lane. The go
 
 In this example layout, teams often reach stable reads to about 60 feet in good conditions. Your lane geometry, speed, and glare will raise or lower that distance.
 
-*Day view*
+**Day view**
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-lpr-camera-view-example.png" alt="" width="563"></div>
 
-*Night view*
+**Night view**
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-lpr-night-view-example.png" alt="" width="563"></div>
 

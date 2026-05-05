@@ -4,10 +4,11 @@ The **Missing object** alert notifies you when a marked object is no longer visi
 
 ## Why this alert helps
 
-- *Real-time detection* – You get instant alerts when the object disappears, so you respond sooner instead of scrubbing footage later.
-- *Automated tracking* – The system watches the marked region for you, so you rely less on manual checks of the same view.
-- *Security enforcement* – Detects unauthorized removals or theft of equipment or inventory in the region you marked.
-- *Operational continuity* – Helps confirm that critical items stay in place during the hours you monitor.
+
+- **Real-time detection**: You get instant alerts when the object disappears, so you respond sooner instead of scrubbing footage later.
+- **Automated tracking**: The system watches the marked region for you, so you rely less on manual checks of the same view.
+- **Security enforcement**: Detects unauthorized removals or theft of equipment or inventory in the region you marked.
+- **Operational continuity**: Helps confirm that critical items stay in place during the hours you monitor.
 
 ## Before you begin
 
