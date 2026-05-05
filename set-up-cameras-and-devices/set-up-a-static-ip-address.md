@@ -4,14 +4,6 @@ Assign a static IP address so your camera keeps the same IP after reboots or whe
 
 Lumana and other systems can keep using that one address for the camera.
 
-### How do I know if I have a DHCP server?
-
-_DHCP_ stands for Dynamic Host Configuration Protocol. That service assigns each device an IP address automatically, usually from a range your router, firewall, or Lumana Core manages. Devices can then communicate without manual IP entry on each device.
-
-You likely have DHCP if a router, office firewall, or Lumana Core on the network assigns addresses and your camera already shows an IP in Lumana without you setting a static address on the device. Check your router or Core admin UI for DHCP or LAN settings if you are unsure.
-
-You likely do not have DHCP if every device uses manually entered IPs and nothing on the subnet offers leases. Use Scenario 3 in that case.
-
 ## Choose your setup scenario
 
 Follow the scenario below that matches your network.
@@ -19,6 +11,16 @@ Follow the scenario below that matches your network.
 - **Scenario 1**: Your network includes a DHCP server and you want to assign a permanent IP address — You keep the camera on DHCP and create a reservation on the router or Core so this camera always receives the same address.
 - **Scenario 2**: Your network includes a DHCP server and you want a permanent static IP on the camera outside the DHCP pool — You set a fixed **IP address**, **subnet mask**, and **gateway** on the camera, outside the DHCP pool.
 - **Scenario 3**: Your network lacks a DHCP server — No device hands out DHCP leases. You configure the camera’s IP in its local web interface (you may need a temporary static IP on your PC first).
+
+If you are not sure whether your network uses DHCP, then use the following subsection to pick Scenario 1, 2, or 3.
+
+### How do I know if I have a DHCP server?
+
+_DHCP_ stands for Dynamic Host Configuration Protocol. That service assigns each device an IP address automatically, usually from a range your router, firewall, or Lumana Core manages. Devices can then communicate without manual IP entry on each device.
+
+You likely have DHCP if a router, office firewall, or Lumana Core on the network assigns addresses and your camera already shows an IP in Lumana without you setting a static address on the device. Check your router or Core admin UI for DHCP or LAN settings if you are unsure.
+
+You likely do not have DHCP if every device uses manually entered IPs and nothing on the subnet offers leases. Use Scenario 3 in that case.
 
 ### Scenario 1: Your network includes a DHCP server and you want to assign a permanent IP address
 
