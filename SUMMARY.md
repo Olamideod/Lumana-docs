@@ -55,7 +55,7 @@
 * [Camera networking options](set-up-cameras-and-devices/camera-networking-options.md)
 * [Recommended streaming settings](set-up-cameras-and-devices/recommended-streaming-settings.md)
 * [Set up a camera floor plan](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md)
-* [Create links between cameras](set-up-cameras-and-devices/create-links-between-cameras.md)
+* [Create camera shortcuts](set-up-cameras-and-devices/create-camera-shortcuts.md)
 * [Connect cameras by brand](set-up-cameras-and-devices/connect-cameras-by-brand/README.md)
   * [Supported cameras](set-up-cameras-and-devices/connect-cameras-by-brand/supported-cameras.md)
   * [Lumana](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md)
@@ -88,7 +88,7 @@
 ## Live video monitoring and operations
 
 * [Use live view](live-video-monitoring-and-operations/live-view.md)
-* [Understand live view streaming and quality](live-video-monitoring-and-operations/understand-live-view-streaming-and-quality.md)
+* [Live view streaming and quality](live-video-monitoring-and-operations/live-view-streaming-and-quality.md)
 * [PTZ control](live-video-monitoring-and-operations/ptz-control.md)
 * [Video walls and shared displays](live-video-monitoring-and-operations/video-walls-and-shared-displays.md)
 * [Multi-camera playback](live-video-monitoring-and-operations/multi-camera-playback.md)

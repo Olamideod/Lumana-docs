@@ -14,9 +14,9 @@ Open the dashboard from a camera view page to see the current health status of y
 
    The system health dashboard opens and shows the current status of your Cores, cameras, storage, and recent recording status information.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/health-view-button.png" alt="Health view button on the camera view page."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/health-view-button.png" alt="" width="563"></div>
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-overview.png" alt="System Health Dashboard showing Core and camera status indicators."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-overview.png" alt="" width="563"></div>
 
 ## Review camera health history
 
@@ -26,15 +26,15 @@ Use the row controls to inspect recent online and offline history for an individ
 
    A camera-specific status view opens and shows recent online and offline activity.
 
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-uptime-history.png" alt="" width="563"></div>
+
 2. Hover over the status bars to see more detail.
- 
+
    Hover details appear for the selected time segment.
 
 3. Adjust the number of days to change the time window.
 
    The status view updates to match the selected time range.
-
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-camera-row.png" alt="System Health Dashboard row showing camera health indicators and status columns."></div>
 
 Once you review recent status history, the health indicators help you identify which part of the camera workflow needs attention.
 

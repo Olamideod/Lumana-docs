@@ -24,11 +24,11 @@ If you record to NAS for more than 30 days and want to keep smart search functio
 
 2. In the Lumana console, open the **Devices** page, find the location where the NAS is used, and select **Edit location** (pencil icon) for that site.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-home-devices-edit-location.png" alt="Lumana Home Devices: Devices tab and Edit location pencil icon for a location such as HQ Los Gatos."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-home-devices-edit-location.png" alt="Lumana Home Devices: Devices tab and Edit location pencil icon for a location such as HQ Los Gatos." width="563"></div>
 
 3. In the left menu, select **External Storage**, then select **Add external storage**.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-location-add-external-storage.png" alt="Edit Location with External Storage selected and Add external storage button."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-location-add-external-storage.png" alt="Edit Location with External Storage selected and Add external storage button." width="563"></div>
 
 4. Choose your storage type. This can be either **NFS** or **Object Storage**. See the NFS example below.
 
@@ -38,13 +38,13 @@ If you record to NAS for more than 30 days and want to keep smart search functio
 
 5. Select **Test** to verify connectivity to the server, then select **Save external storage**.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-location-external-storage-form.png" alt="Edit Location External Storage: NFS type, name NFS-Server-1, path to share, Test and Save external storage."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-location-external-storage-form.png" alt="Edit Location External Storage: NFS type, name NFS-Server-1, path to share, Test and Save external storage." width="563"></div>
 
 ## Configure cameras to use the external storage server
 
 1. Open the camera’s live view (or the camera page). In the top bar, select **Edit camera** (pencil icon).
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-live-view-edit-camera.png" alt="Camera live view with Edit camera pencil icon and tooltip in the toolbar."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-live-view-edit-camera.png" alt="Camera live view with Edit camera pencil icon and tooltip in the toolbar." width="563"></div>
 
 2. In the edit camera menu, select **Storage**, then scroll to **Additional storage**.
 
@@ -63,7 +63,7 @@ If you record to NAS for more than 30 days and want to keep smart search functio
 
 Example — **Storage** with **Additional storage** on **External**, a named NAS target, retention, **Storage (SQ)** / **Alerts (HQ)**, and upload timing:
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-camera-storage-additional.png" alt="Edit camera Storage: Additional storage on External, NFS server selected, retention, video to backup toggles, upload schedule."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-camera-storage-additional.png" alt="Edit camera Storage: Additional storage on External, NFS server selected, retention, video to backup toggles, upload schedule." width="563"></div>
 
 ## Storage capacity calculation
 

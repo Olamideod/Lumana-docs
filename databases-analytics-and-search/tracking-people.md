@@ -18,27 +18,27 @@ These capabilities apply when people analytics is enabled on your cameras.
 
 The engine supports long-range person detection: individuals can be tracked and their crops stored at useful resolution. You can review everyone detected across your organization, select one person or groups that appear together, and base alerts on their activity. This supports security, investigations, and operations that depend on knowing who moved where and when.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-detection-results.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-detection-results.png" alt="" width="563"></div>
 
 ### Person attributes
 
 You can filter and alert on person attributes such as clothing color and type, accessories, and gender (where the model provides them). That narrows search and review without manually scanning every clip.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-attributes-filters.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-attributes-filters.png" alt="" width="563"></div>
 
 ### Cross camera tracking
 
 Cross-camera tracking uses body shape, clothing, and other visible cues, not only the face, to associate the same person across cameras. That helps when the face is not visible or not suitable for recognition. Typical uses include attendance, access and investigations across large sites, and safety monitoring where you need continuity beyond a single camera view. Configure and use this capability according to your organization’s policies and applicable privacy requirements.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-cross-camera-tracking-results.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-cross-camera-tracking-results.png" alt="" width="563"></div>
 
 ### Face recognition
 
 Face recognition supports search and alerts based on enrolled or observed faces. Performance depends on lighting, angle, and resolution (see [Head angle impact](#head-angle-impact) and [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md)). Use face data in line with your policies and regulatory obligations.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-recognition-database-view.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-recognition-database-view.png" alt="" width="563"></div>
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-recognition-example.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-recognition-example.png" alt="" width="563"></div>
 
 ### Head angle impact
 
@@ -46,7 +46,7 @@ For best face recognition results, faces should be roughly head-on, looking towa
 
 Acceptable head orientation falls in the ranges illustrated below (pitch, yaw, roll).
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-angle-guidelines.png" alt="" width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-angle-guidelines.png" alt="" width="563"></div>
 
 ## Optimize your camera setup
 

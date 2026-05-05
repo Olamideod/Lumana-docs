@@ -36,6 +36,10 @@ Cross-camera tracking follows a vehicle across views using the plate when it is 
 
 LPR identifies and catalogs plates so you can search, filter, and alert on plate text. Teams often use it for access control, parking, and traffic monitoring. Accuracy depends on aim, PPF, lighting, and speed (see [License plate recognition deployment](#license-plate-recognition-deployment)).
 
+On the **Objects** tab, Lumana can show the vehicle and a dedicated license plate crop side by side so you can confirm the read in context.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-objects-tab-lpr.png" alt="" width="563"></div>
+
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-license-plate-recognition-results.png" alt="" width="563"></div>
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-license-plate-preview-dialog.png" alt="" width="563"></div>
