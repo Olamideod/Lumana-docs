@@ -51,6 +51,6 @@ Use thumbnails to navigate Live view and review captured moments more quickly. T
 
 If you want to understand how Lumana delivers live video, check out the pages:
 
-* Read [Understand live view streaming and quality](understand-live-view-streaming-and-quality.md) to learn how local and cloud streaming work.
+* Read [Live view streaming and quality](live-view-streaming-and-quality.md) to learn how local and cloud streaming work.
 * Use [Multi-camera playback](multi-camera-playback.md) to review more than one camera at the same time.
 * Use [Video walls and shared displays](video-walls-and-shared-displays.md) to monitor multiple cameras in one layout.
