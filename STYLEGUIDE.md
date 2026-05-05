@@ -187,6 +187,21 @@ For error messages, quote the message exactly, then explain what it means and wh
 
 ---
 
+## Italics and emphasis
+
+Use italics sparingly. Prefer clear wording over typographic stress.
+
+**Permitted uses:**
+
+1. **Introducing a term you define in the same sentence** — Italicize the term on that **first** mention only, then use plain text everywhere afterward. This matches [Use italics to discuss terms](https://developers.google.com/style/italics-terms) in the Google developer documentation style guide. For abbreviations expanded on first use, see also [Format abbreviations](https://developers.google.com/style/abbreviations#format-abbreviations).
+2. **Strong emphasis (rare)** — When importance would be lost without it, use italics rather than bold or underline. In practice this should be **at most once or twice per page**; often a tighter sentence removes the need. See the **Italic** section of Google's [Text-formatting summary](https://developers.google.com/style/text-formatting).
+
+**Do not** use italics for UI labels (use **bold**, matching the [UI elements](https://developers.google.com/style/ui-elements#formatting) guidance), for general emphasis on ordinary words, or to repeat a term after you have already defined it.
+
+**Markdown:** Google recommends underscores for italics (`_like this_`) so italics are easy to tell apart from bold (`**like this**`) in source. Use `**` for bold, not `__`.
+
+---
+
 ## Notes and warnings
 
 Use callouts strategically: do not overuse them. Use a **Note** block for information that prevents common mistakes. Use a **Warning** block for actions that are irreversible or have significant consequences. Place notes and warnings immediately after the step or statement they relate to.
@@ -218,6 +233,16 @@ Example from a page three levels deep:
 ```html
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/proximity-objects-dropdown.png" alt="" width="375"></div>
 ```
+
+### Inline icons (GitBook line size)
+
+For small UI icons embedded **in a sentence** (sidebar glyphs, toolbar buttons, inline pencils), use GitBook line sizing instead of pixel `width` or a framed block:
+
+```html
+<img src="../../.gitbook/assets/EXAMPLE-icon.png" alt="Description of the icon for accessibility." data-size="line">
+```
+
+Place the tag directly in the step text where the reader looks for that control. Keep `alt` meaningful for inline icons when the surrounding text does not already name the control.
 
 ### Asset folder structure
 
@@ -372,7 +397,6 @@ Before submitting documentation, confirm:
 - All lists are parallel in structure and punctuation.
 - The content is free of marketing language.
 
----
 
 ## How to use this guide
 
