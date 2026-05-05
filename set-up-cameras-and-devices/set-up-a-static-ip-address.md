@@ -48,18 +48,15 @@ Here is an example of [static mapping configuration](https://www.cisco.com/c/en/
 
 Assign a static IP on the camera itself and skip a DHCP reservation on the server. DHCP can keep running on the network for other devices.
 
-Confirm which addresses on your network sit outside the DHCP pool (sometimes described as the static IP range for your LAN) before you choose the camera’s IP. Picking from inside the pool can let DHCP give the same address to another device, so two devices may share one IP.
-
 #### Before you begin
 
-- Identify your network’s DHCP range
-- Choose an IP address outside that range
+Confirm which addresses on your network sit outside the DHCP pool before you choose the camera’s IP. Some LAN documentation describes that block as the static IP range for your LAN.
 
-{% hint style="warning" %}
-Assigning an IP address inside the DHCP pool without a reservation can cause duplicate IP conflicts.
-{% endhint %}
+- Identify your network’s DHCP pool range.
+- Choose an IP address outside that range.
+- Do not use an in-pool address unless you also create a DHCP reservation for it. Otherwise, DHCP may assign the same address to another device and cause duplicate IP conflicts.
 
-Identify the range outside the pool, choose the camera’s address, then complete [Scenario 3: Your network lacks a DHCP server](#scenario-3-your-network-lacks-a-dhcp-server). Use Scenario 3’s first step only when the camera did not get an address automatically.
+When you have an address picked out, complete [Scenario 3: Your network lacks a DHCP server](#scenario-3-your-network-lacks-a-dhcp-server). Use Scenario 3’s first step only when the camera did not get an address automatically.
 
 ### Scenario 3: Your network lacks a DHCP server
 
