@@ -162,7 +162,7 @@ The tables below show camera counts and FPS targets for each codec.
 
 <summary>Why use CBR when connecting to Lumana Core?</summary>
 
-Lumana Core requires IP cameras to use CBR for several important reasons:
+Lumana Core requires IP cameras to use **CBR** (constant bit rate) for several important reasons:
 
 - **Stability and reliability**: CBR keeps a steady data rate. That consistency helps live view and recording stay predictable.
 - **Network bandwidth management**: With CBR, you can plan bandwidth per camera so each stream gets enough capacity for usable video.
