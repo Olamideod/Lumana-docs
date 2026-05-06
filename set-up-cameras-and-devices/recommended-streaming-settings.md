@@ -171,13 +171,15 @@ Lumana Core requires IP cameras to use CBR for several important reasons:
 
 <details>
 
-<summary>Why is a high bitrate important for CBR on Lumana Core?</summary>
+<summary>Why does bitrate need to be high enough when you use CBR with Lumana Core?</summary>
 
-Lumana Core runs video analytics, including object recognition, behavior analysis, and anomaly detection. Those features need clear input video. Here is why bitrate matters with CBR:
+Lumana Core uses an **AI engine** for video analytics—object recognition, behavior analysis, and anomaly detection. Those features work best when the incoming video is detailed and stable. With **CBR**, a bitrate set **high enough** keeps that quality consistent. Here is what you gain:
 
-- **Analytics quality**: A higher CBR bitrate keeps more detail in the image. Clearer frames help detection stay accurate.
-- **Model learning**: Steady, high-quality feeds support training and tuning of analytics models over time.
-- **Storage with alerts**: Higher bitrates use more disk space by default. Lumana Core still targets efficient storage. It keeps rich video for review when alerts fire, without storing bulk high-bitrate footage when nothing is happening.
+- **Accurate AI analysis**: A higher bitrate with CBR preserves more detail in each frame, so AI algorithms get the clear images they need for reliable results.
+
+- **Stronger AI learning over time**: High-quality feeds support AI model training and tuning, which helps detection and behavior stay effective as your deployment runs.
+
+- **Smarter storage around alerts**: Higher bitrates usually mean more data. Lumana Core still uses **smart storage** so you are not wasting space: video stays high enough quality for **live processing** and **retrospective review**, and **rich recordings are kept when alerts fire**, without hoarding bulk high-bitrate footage when nothing important is happening. That prioritizes detail for **critical events**.
 
 </details>
 
@@ -185,9 +187,7 @@ Lumana Core runs video analytics, including object recognition, behavior analysi
 
 <summary>What happens if the bitrate is too low?</summary>
 
-If the bitrate is set too low, then video can look blocky or soft, even on CBR. That is common in busy scenes or when lots of motion is on screen.
-
-Poor image quality limits what the analytics can read reliably. Core functionality that depends on clean video may then underperform.
+If the bitrate is set too low, even on CBR, it may lead to poor video quality, characterized by pixelation and blurring, especially in scenes with high motion or complexity. This degradation in video quality can severely impair the AI’s ability to perform accurate analytics, leading to compromised functionality of Lumana Core’s AI engine.
 
 </details>
 
