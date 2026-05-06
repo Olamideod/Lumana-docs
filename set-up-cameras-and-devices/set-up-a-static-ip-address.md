@@ -63,6 +63,10 @@ When you have an address picked out, complete [Scenario 3: Your network lacks a 
 
 If your network does not have a DHCP server, connect to the camera’s local page and configure the IP address on the camera.
 
+{% hint style="info" %}
+The steps and screenshots below use a **Lumix.ai LB800** local web interface as an example. Your camera’s login screen, menu names, defaults, and layout may differ.
+{% endhint %}
+
 #### Default camera settings (example)
 
 - Default IP address for the camera is: `192.168.1.13`
@@ -70,7 +74,7 @@ If your network does not have a DHCP server, connect to the camera’s local pag
 - Default user: `admin`
 - Default password: `123456`
 
-1. Assign a temporary static IP on your computer, on the same subnet as the camera (for example `192.168.1.10`, subnet mask `255.255.255.0`), if the camera did not receive an address automatically.
+1. Assign a temporary static IP to your computer, on the same subnet as the camera (for example `192.168.1.10`, subnet mask `255.255.255.0`), if the camera did not receive an address automatically.
 
 {% hint style="info" %}
 If needed, refer to your computer or operating system documentation for instructions on setting a temporary static IP address.
