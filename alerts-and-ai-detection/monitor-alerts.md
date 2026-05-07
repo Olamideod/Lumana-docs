@@ -1,4 +1,4 @@
-# Alert view
+# Monitor alerts
 
 The alert monitoring view gives you a live feed of all alerts triggered across your organization's cameras. You can filter, review, acknowledge, and save alert views from a single screen.
 
@@ -57,7 +57,7 @@ Use the **Clips / Objects** toggle to switch between two views of your results.
 
 Three buttons in the top right corner let you navigate to related alert features.
 
-* **Alert groups**: Opens the Alert groups page where you create and manage arm schedules for a location. See [Alert group](alert-group.md).
+* **Alert groups**: Opens the Alert groups page where you create and manage arm schedules for a location. See [Create an alert group](create-an-alert-group.md).
 * **Configurations**: Opens the configured alerts list where you can view, enable, disable, filter, and delete your existing alerts. See [View and manage configured alerts](create-and-manage-alerts.md#view-and-manage-configured-alerts).
 * **Add alert**: Opens the Configure alerts page to create a new alert. See [Create an alert](create-and-manage-alerts.md#create-an-alert).
 

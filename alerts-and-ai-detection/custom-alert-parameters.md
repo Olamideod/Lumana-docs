@@ -1,6 +1,6 @@
 # Custom alert parameters
 
-This page shows the condition sentence for each alert type as it appears in the Custom alert flow. Use it to identify your alert type's sentence when configuring step 7 of [Configure a custom alert](custom-alert.md#parameters). Select the link under each sentence to see the full parameter details on the alert type page.
+This page shows the condition sentence for each alert type as it appears in the Custom alert flow. Use it to identify your alert type's sentence when configuring step 7 of [Configure a custom alert](configure-a-custom-alert.md#parameters). Select the link under each sentence to see the full parameter details on the alert type page.
 
 The last parameter in every sentence is **camera**. Selecting it completes the condition.
 

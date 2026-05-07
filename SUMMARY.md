@@ -103,7 +103,7 @@
 
 * [Introduction to Lumana alerts](alerts-and-ai-detection/introduction-to-lumana-alerts.md)
 * [Create and manage alerts](alerts-and-ai-detection/create-and-manage-alerts.md)
-* [Alert view](alerts-and-ai-detection/alert-view.md)
+* [Monitor alerts](alerts-and-ai-detection/monitor-alerts.md)
 * [Alert types](alerts-and-ai-detection/alert-types/README.md)
   * [Security](alerts-and-ai-detection/alert-types/security/README.md)
     * [Motion](alerts-and-ai-detection/alert-types/security/motion.md)
@@ -162,9 +162,9 @@
   * [Arm/Disarm](alerts-and-ai-detection/alert-types/arm-disarm/README.md)
     * [Zone armed/disarmed](alerts-and-ai-detection/alert-types/arm-disarm/zone-armed-disarmed.md)
 * [Alert actions](alerts-and-ai-detection/alert-actions.md)
-* [Custom alert](alerts-and-ai-detection/custom-alert.md)
+* [Configure a custom alert](alerts-and-ai-detection/configure-a-custom-alert.md)
 * [Custom alert parameters](alerts-and-ai-detection/custom-alert-parameters.md)
-* [Alert group](alerts-and-ai-detection/alert-group.md)
+* [Create an alert group](alerts-and-ai-detection/create-an-alert-group.md)
 
 ## Dashboards
 

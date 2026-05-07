@@ -1,4 +1,4 @@
-# Alert group
+# Create an alert group
 
 An alert group arms and disarms alerts for a location on a defined schedule. Use it to control when Lumana actively monitors a site and who receives notifications during the armed period.
 
