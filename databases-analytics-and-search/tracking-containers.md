@@ -4,6 +4,14 @@
 
 Many teams use it at gates, yards, and warehouse doors where containers pass fixed cameras. Results still depend on lighting, angle, and how clearly the ID is visible in frame.
 
+## Key benefits
+
+- *Real-time tracking* – Instantly locate and verify containers in **Search** on live or recorded video when the ID is readable, without scrubbing unrelated clips.
+- *Accurate inventory* – Automate logging and reduce manual errors by using camera reads instead of typing every container move by hand.
+- *Enhances security* – Detect unauthorized movements by seeing which containers passed each camera and when.
+- *Optimized operations* – Speed up yard and terminal workflows when staff can confirm containers in Lumana.
+- *Regulatory compliance* – Maintain accurate audit trails from what the system read and your stored footage, within your retention settings.
+
 ## Before you begin
 
 - You can **edit camera** settings and analytics for the target cameras.

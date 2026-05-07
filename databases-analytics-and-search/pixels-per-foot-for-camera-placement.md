@@ -6,9 +6,9 @@ Capability-specific minimums (for people or vehicles) live on [Tracking people](
 
 ## What you need from the camera
 
-1. *HFOV* - Horizontal angle from the datasheet or lens settings.
-2. *Horizontal resolution* - Pixel width of the stream Lumana analyzes (not always the sensor’s max).
-3. *Distance* - Distance from the lens to the zone where you need a given detail level (face, plate, full person, and so on).
+1. **HFOV** - Horizontal angle from the datasheet or lens settings.
+2. **Horizontal resolution** - Pixel width of the stream Lumana analyzes (not always the sensor’s max).
+3. **Distance** - Distance from the lens to the zone where you need a given detail level (face, plate, full person, and so on).
 
 ## Horizontal scene width
 

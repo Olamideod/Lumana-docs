@@ -10,7 +10,7 @@ If you record to NAS for more than 30 days and want to keep smart search functio
 
 ## Prerequisites
 
-* The storage device must support *NFS* or *S3-compatible object storage*.
+* The storage device must support NFS or S3-compatible object storage.
 * The storage device must be reachable on the network by the Lumana Core unit.
 
 ## Add an external storage server
@@ -19,8 +19,8 @@ If you record to NAS for more than 30 days and want to keep smart search functio
 
    For example:
 
-   * *NAS IP*: `192.168.100.200`
-   * *NAS Path*: `/share/LumanaVideos`
+   * **NAS IP**: `192.168.100.200`
+   * **NAS Path**: `/share/LumanaVideos`
 
 2. In the Lumana console, open the **Devices** page, find the location where the NAS is used, and select **Edit location** (pencil icon) for that site.
 
@@ -32,9 +32,9 @@ If you record to NAS for more than 30 days and want to keep smart search functio
 
 4. Choose your storage type. This can be either **NFS** or **Object Storage**. See the NFS example below.
 
-   * *Storage type*: `NFS`
-   * *Name*: a label you will recognize when assigning cameras (for example `NFS-Server-1`)
-   * *Path*: combine the NAS IP and export path, for example `192.168.100.200/share/LumanaVideos/` (format can vary; match what your NAS expects)
+   * **Storage type**: `NFS`
+   * **Name**: a label you will recognize when assigning cameras (for example `NFS-Server-1`)
+   * **Path**: combine the NAS IP and export path, for example `192.168.100.200/share/LumanaVideos/` (format can vary; match what your NAS expects)
 
 5. Select **Test** to verify connectivity to the server, then select **Save external storage**.
 

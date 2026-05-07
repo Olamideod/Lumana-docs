@@ -30,12 +30,12 @@ Use the timeline and thumbnails to review recent footage without leaving Live vi
 
 Use the player controls to change the stream view and capture the footage you need during live monitoring.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/Live view controls modified.png" alt="Live view controls and timeline." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-screenshots/live-view-player-office-hq.png" alt="" width="563"></div>
 
-- *Quality control*: In the bottom left corner of Live view, you can toggle between available stream qualities.
-- *Zoom*: On the right side of Live view, use the plus (+) icon to zoom in and the minus (-) icon to zoom out.
-- *Snapshot*: Select the camera icon to capture a snapshot of the current view.
-- *Full-screen mode*: Select the full-screen icon to expand the player.
+- **Quality control**: In the bottom left corner of Live view, you can toggle between available stream qualities.
+- **Zoom**: On the right side of Live view, use the plus (+) icon to zoom in and the minus (-) icon to zoom out.
+- **Snapshot**: Select the camera icon to capture a snapshot of the current view.
+- **Full-screen mode**: Select the full-screen icon to expand the player.
 
 ## Use thumbnail actions
 
@@ -51,6 +51,6 @@ Use thumbnails to navigate Live view and review captured moments more quickly. T
 
 If you want to understand how Lumana delivers live video, check out the pages:
 
-* Read [Understand live view streaming and quality](understand-live-view-streaming-and-quality.md) to learn how local and cloud streaming work.
+* Read [Live view streaming and quality](live-view-streaming-and-quality.md) to learn how local and cloud streaming work.
 * Use [Multi-camera playback](multi-camera-playback.md) to review more than one camera at the same time.
 * Use [Video walls and shared displays](video-walls-and-shared-displays.md) to monitor multiple cameras in one layout.

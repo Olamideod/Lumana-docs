@@ -6,19 +6,19 @@ The time shown in live view and playback is determined by the time zone configur
 
 Update the location time zone so live view and playback show the correct local time for the site. This keeps timestamps aligned with the location where the Core and cameras are installed.
 
-1. Hover the name of the relevant location and select **Edit location**.
+1. Open **Devices** → **Devices list**. Use the **Cores** filter if it helps you find the site. On the location row for the Core whose time zone you are changing, select **Edit location**.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-edit-location.png" alt="Edit location button on location card." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-edit-location.png" alt="Devices list with Cores filter and Edit location on the location row." width="563"></div>
 
-2. Edit the **Time Zone** field.
+2. On the **Details** tab, set **Time Zone**, then select **Save**.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-location-timezone-field.png" alt="Edit Location, Time Zone field." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-location-timezone-field.png" alt="Edit location dialog on Details with Time Zone field set to America/Los_Angeles." width="563"></div>
 
 ## Configure Network Time Protocol (NTP)
 
 Configure NTP so Lumana Core can keep its system time accurate. Use this task if you need to point the Core to a local NTP server instead of the default Lumana NTP servers.
 
-An *NTP (Network Time Protocol) server* is a service that uses NTP to provide accurate time to devices over the internet or your LAN. That keeps machine clocks aligned with *UTC (Coordinated Universal Time)*.
+An _NTP (Network Time Protocol) server_ is a service that uses NTP to provide accurate time to devices over the internet or your LAN. That keeps machine clocks aligned with _UTC (Coordinated Universal Time)_.
 
 Lumana Core uses NTP to synchronize its system clock so events, recordings, and logs stay consistent.
 

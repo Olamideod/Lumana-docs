@@ -55,7 +55,7 @@
 * [Camera networking options](set-up-cameras-and-devices/camera-networking-options.md)
 * [Recommended streaming settings](set-up-cameras-and-devices/recommended-streaming-settings.md)
 * [Set up a camera floor plan](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md)
-* [Create links between cameras](set-up-cameras-and-devices/create-links-between-cameras.md)
+* [Create camera shortcuts](set-up-cameras-and-devices/create-camera-shortcuts.md)
 * [Connect cameras by brand](set-up-cameras-and-devices/connect-cameras-by-brand/README.md)
   * [Supported cameras](set-up-cameras-and-devices/connect-cameras-by-brand/supported-cameras.md)
   * [Lumana](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md)
@@ -69,6 +69,7 @@
   * [FLIR sensors](set-up-cameras-and-devices/other-devices/flir-sensors.md)
   * [Disruptive sensors](set-up-cameras-and-devices/other-devices/disruptive-sensors.md)
   * [Smart speakers](set-up-cameras-and-devices/other-devices/smart-speakers.md)
+  * [Configure SIP for smart speakers](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md)
   * [GPIO devices](set-up-cameras-and-devices/other-devices/gpio-devices.md)
 * [Network and infrastructure configuration](set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md)
   * [Lumana Core hardware specifications](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md)
@@ -79,15 +80,17 @@
 ## System administration
 
 * [Manage users and permissions](system-administration/manage-users-and-permissions.md)
+  * [Available permissions](system-administration/available-permissions.md)
 * [User settings](system-administration/user-settings.md)
 * [System logs](system-administration/system-logs.md)
+  * [Audit log events](system-administration/audit-log-events.md)
 * [NDAA compliance](system-administration/ndaa-compliance.md)
 * [SOC 2 and data privacy](system-administration/soc-2-and-data-privacy.md)
 
 ## Live video monitoring and operations
 
 * [Use live view](live-video-monitoring-and-operations/live-view.md)
-* [Understand live view streaming and quality](live-video-monitoring-and-operations/understand-live-view-streaming-and-quality.md)
+* [Live view streaming and quality](live-video-monitoring-and-operations/live-view-streaming-and-quality.md)
 * [PTZ control](live-video-monitoring-and-operations/ptz-control.md)
 * [Video walls and shared displays](live-video-monitoring-and-operations/video-walls-and-shared-displays.md)
 * [Multi-camera playback](live-video-monitoring-and-operations/multi-camera-playback.md)

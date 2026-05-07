@@ -1,4 +1,4 @@
-# Understand live view streaming and quality
+# Live view streaming and quality
 
 This page explains how Lumana delivers live video, when local or cloud streaming is used, and how stream quality changes based on your device, browser support, and layout.
 
@@ -7,6 +7,10 @@ This page explains how Lumana delivers live video, when local or cloud streaming
 Lumana can deliver live video through a local connection or through Lumana Cloud. The available path depends on your network, device, browser support, and the number of streams you open.
 
 In most cases, the biggest factors are whether the viewing device can reach Lumana Core directly on the network and whether the browser or device supports the available stream format. Stream layout and bandwidth then affect which quality level Lumana can use.
+
+The live player shows the time, stream status, and controls such as zoom and **HQ** for high quality.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-screenshots/live-view-player-hallway-hq.png" alt="" width="563"></div>
 
 ## Local streaming
 
@@ -37,6 +41,8 @@ Cloud streaming delivers live video through Lumana Cloud when local streaming is
 
 This is especially useful when you need to access live video from another location or when local network constraints prevent a direct connection.
 
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-screenshots/live-view-player-exterior-hq.png" alt="" width="563"></div>
+
 ### Cloud live view flow
 
 If Lumana cannot establish a local connection, then it switches to cloud streaming. Cloud streaming uses WebRTC to deliver the live view to the client. This keeps Live view available when the client cannot reach Lumana Core directly, though latency and compatibility may vary by browser, device, and connection quality.
@@ -50,6 +56,8 @@ Cloud streaming also helps distribute live video to multiple viewers without req
 Lumana can adjust live view quality automatically, and you can also change it manually in the player.
 
 This helps balance video clarity, bandwidth use, and playback performance across different layouts and network conditions.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-screenshots/live-view-player-office-hq.png" alt="" width="563"></div>
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-quality-routing-diagram.png" alt="Streaming quality diagram." width="563"></div>
 

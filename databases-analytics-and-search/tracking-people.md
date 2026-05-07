@@ -71,7 +71,7 @@ Use the following PPF targets when planning which capability you need at a given
 | Person tracking | 18 PPF |
 | Face recognition | 137 PPF |
 
-The next table lists approximate maximum distances on Lumana cameras. Values assume assembly height 9 feet, tilt 25°, and reference person height 5′10″. Treat them as *typical* planning numbers; your mounting, scene, and lighting will change results.
+The next table lists approximate maximum distances on Lumana cameras. Values assume assembly height 9 feet, tilt 25°, and reference person height 5′10″. Treat them as typical planning numbers; your mounting, scene, and lighting will change results.
 
 | Camera resolution | Person detection | Person attributes | Person tracking | Face recognition |
 | --- | --- | --- | --- | --- |

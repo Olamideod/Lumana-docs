@@ -10,11 +10,11 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
 
 ## Key capabilities
 
-✔ *Full coverage control* – Pan, tilt, and zoom to monitor every area.
+✔ **Full coverage control**: Pan, tilt, and zoom to monitor every area.
 
-✔ *Remote operations* – Control cameras from anywhere via Lumana.
+✔ **Remote operations**: Control cameras from anywhere via Lumana.
 
-✔ *Preset positions* – Configure and return to predefined camera angles.
+✔ **Preset positions**: Configure and return to predefined camera angles.
 
 ## Steps to enable PTZ control
 
@@ -22,9 +22,9 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
    * Open the camera from the **Devices** list.
 2. Open camera settings
 
-    * Select **Edit camera**.
+    * Select the <img src="../.gitbook/assets/dhcp-edit-pencil-icon.png" alt="Edit camera pencil icon." data-size="line"> **Edit camera** control.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-edit-camera-button.png" alt="Camera view with Edit camera highlighted." width="563"></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-edit-camera-button.png" alt="Camera live view with Settings wrench control highlighted in the top toolbar." width="563"></div>
 3. Configure PTZ settings
 
     * Navigate to the **PTZ** section.
@@ -36,19 +36,10 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
         `{camera_IP}:80/onvif/device_service`
     * Specify the **port** (if different from default `80`).
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/ptz-settings-onvif-address-port.png" alt="PTZ settings with ONVIF driver address and port fields." width="563"></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/ptz-settings-onvif-address-port.png" alt="Edit camera PTZ tab: PTZ support on, Onvif driver, X address, and port number." width="563"></div>
 4. Save configuration
    * Select **Save** to apply changes.
 
-## Using PTZ controls
+## Next steps
 
-1. Open the camera from the **Devices** list.
-2. Enable **PTZ control** at the bottom of the camera view.
-
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-ptz-toggle.png" alt="PTZ control toggle at the bottom of the camera view." width="563"></div>
-3. Use the on-screen controls:
-
-    * *Arrow controls* to pan and tilt
-    * *Zoom controls* to adjust magnification
-
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-ptz-controls-overlay.png" alt="PTZ pan, tilt, and zoom controls overlaid on the live view." width="563"></div>
+To try PTZ in the web player after you save (pan, tilt, zoom), see [PTZ control](../live-video-monitoring-and-operations/ptz-control.md).
