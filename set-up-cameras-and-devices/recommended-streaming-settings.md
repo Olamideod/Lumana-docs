@@ -173,7 +173,7 @@ Lumana Core requires IP cameras to use **CBR** (constant bit rate) for several i
 
 <summary>Why does bitrate need to be high enough when you use CBR with Lumana Core?</summary>
 
-Lumana Core uses an **AI engine** for video analytics—object recognition, behavior analysis, and anomaly detection. Those features work best when the incoming video is detailed and stable. With **CBR**, a bitrate set **high enough** keeps that quality consistent. Here is what you gain:
+Lumana Core uses an **AI engine** for video analytics, including object recognition, behavior analysis, and anomaly detection. Those features work best when the incoming video is detailed and stable. With **CBR**, a bitrate set **high enough** keeps that quality consistent. Here is what you gain:
 
 - **Accurate AI analysis**: A higher bitrate with CBR preserves more detail in each frame, so AI algorithms get the clear images they need for reliable results.
 - **Stronger AI learning over time**: High-quality feeds support AI model training and tuning, which helps detection and behavior stay effective as your deployment runs.
