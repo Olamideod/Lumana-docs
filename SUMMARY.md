@@ -82,6 +82,7 @@
   * [Available permissions](system-administration/available-permissions.md)
 * [User settings](system-administration/user-settings.md)
 * [System logs](system-administration/system-logs.md)
+  * [Audit log events](system-administration/audit-log-events.md)
 * [NDAA compliance](system-administration/ndaa-compliance.md)
 * [SOC 2 and data privacy](system-administration/soc-2-and-data-privacy.md)
 
