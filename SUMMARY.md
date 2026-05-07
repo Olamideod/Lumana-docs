@@ -102,8 +102,8 @@
 ## Alerts and AI detection
 
 * [Introduction to Lumana alerts](alerts-and-ai-detection/introduction-to-lumana-alerts.md)
-* [Alert view](alerts-and-ai-detection/alert-view.md)
 * [Create and manage alerts](alerts-and-ai-detection/create-and-manage-alerts.md)
+* [Alert view](alerts-and-ai-detection/alert-view.md)
 * [Alert types](alerts-and-ai-detection/alert-types/README.md)
   * [Security](alerts-and-ai-detection/alert-types/security/README.md)
     * [Motion](alerts-and-ai-detection/alert-types/security/motion.md)

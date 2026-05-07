@@ -36,5 +36,5 @@ Use the **Search doors** field to find a specific door, or select **All doors** 
 
 8. The **at all times** field controls when the alert is active. To restrict it to specific hours or days, select **at all times** to open the scheduling options. For all scheduling options, see [Configure alerts](../../create-and-manage-alerts.md#schedule).
 9. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../create-and-manage-alerts.md#default-configuration) covers these settings.
-10. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. [Alert actions](../../alert-actions.md) covers the available actions.
+10. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" data-size="line"> to choose the action Lumana takes when the alert triggers. [Alert actions](../../alert-actions.md) covers the available actions.
 11. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

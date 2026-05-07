@@ -28,7 +28,7 @@ You assign a location to the group and set an arm schedule. When the arm schedul
 5. Select the **Location** field. A dropdown opens. Search for a location or select one from the list.
 6. Select the **Arm schedule** field to set when the group is armed. A dropdown opens showing your saved schedules. Select a schedule, or select **+ Schedule** to create a new one.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alert-groups-arm-schedule-dropdown.png" alt="" width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alert-groups-arm-schedule-dropdown.png" alt="" width="563"></div>
 
 7. Select the **Auto re-arm** field to set how long Lumana waits before re-arming the group after a manual disarm. Select **Disabled** to turn this off, or select a time interval:
 
@@ -37,7 +37,7 @@ You assign a location to the group and set an arm schedule. When the arm schedul
    - **30 Minutes**
    - **60 Minutes**
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alert-groups-auto-rearm-dropdown.png" alt="" width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alert-groups-auto-rearm-dropdown.png" alt="" width="563"></div>
 
 8. Select the **Auto dis-arm** field to set whether Lumana automatically disarms the group outside its arm schedule. Select **Disabled** to turn this off, or select a time interval.
 9. Under **Arm notification window schedule**, select **Choose people to notify**. The Notify panel opens.
@@ -51,7 +51,7 @@ You assign a location to the group and set an arm schedule. When the arm schedul
 10. Select the schedule dropdown under **Arm notification window schedule** to set when notifications are sent.
 11. Select the **Tags** field to apply tags to this group. Select an existing tag, or select **+ Create new** to add one. Select **Manage tags** to edit your tag list.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alert-groups-tags-dropdown.png" alt="" width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alert-groups-tags-dropdown.png" alt="" width="563"></div>
 
 12. Select **Create alert group** in the top right corner. Lumana saves the group and it becomes active immediately.
 
