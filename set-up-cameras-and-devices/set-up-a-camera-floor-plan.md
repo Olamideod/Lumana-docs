@@ -19,11 +19,11 @@ Floor plans tie each camera to a location on your site, which makes coverage eas
 
 1. Go to Floor Plans menu at the top left corner of the screen
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/floor-plans-menu-overview.png" alt="Floor Plans menu overview." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/floor-plans-menu-overview.png" alt="Home view with top navigation; select Floor plans to open floor plan setup." width="563"></div>
 
 2. Select **Create building**
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/create-building-floor-plans.png" alt="Floor Plans page with building list; arrow points to the Create building button." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/configuring-cameras-and-devices/set-up-a-camera-floor-plan/create-building-floor-plans.png" alt="Floor plans view with Floor plans tab selected; select Create building in the sidebar under your site." width="563"></div>
 
 3. Enter a **Building name** and select **Create** to create the building
 

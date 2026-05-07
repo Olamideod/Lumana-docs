@@ -18,7 +18,7 @@
 
 In **Edit camera**, open **Shortcuts** to see the live image, shortcut pins, **Add shortcut**, and **Save**.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/create-camera-shortcuts/edit-camera-shortcuts.png" alt="Edit camera with Shortcuts selected, live image, Add shortcut, and Save." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/create-camera-shortcuts/edit-camera-shortcuts.png" alt="Edit camera with Shortcuts selected: live preview, Add shortcut, and Save." width="563"></div>
 
 1. Open the camera where you want shortcuts, then select **Edit camera**.
 2. In the left sidebar, select **Shortcuts**.
@@ -30,7 +30,7 @@ In **Edit camera**, open **Shortcuts** to see the live image, shortcut pins, **A
 
 Go back to the camera’s live view. A shortcut can open the linked camera in a picture-in-picture panel, or switch the main view depending on your layout.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/create-camera-shortcuts/live-view-shortcut-picture-in-picture.png" alt="Live view with picture-in-picture shortcut to another camera." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/create-camera-shortcuts/live-view-shortcut-picture-in-picture.png" alt="Live view with a picture-in-picture shortcut; the inset shows another camera feed labeled with its name." width="563"></div>
 
 ## Next steps
 

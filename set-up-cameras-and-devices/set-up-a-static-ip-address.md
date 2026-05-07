@@ -28,11 +28,11 @@ You likely do not have DHCP if every device uses manually entered IPs and nothin
 2. In Lumana, collect the **IP address** and **MAC address** you will map on the DHCP server. If the camera is not listed under **Devices** yet, [add the camera to your organization](../getting-started/connect-a-camera.md#connect-a-camera) first.
    - From **Devices**, choose the camera and note the **IP address**.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/devices-list-ip-address.png" alt="Devices list showing the camera IP address." width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/devices-list-ip-address.png" alt="Devices list showing the IP address column for cameras grouped by location; MAC address column also visible." width="563"></div>
 
    - Select the **Edit camera** icon <img src="../.gitbook/assets/edit-camera-icon-inline.png" alt="Edit camera pencil icon." data-size="line">, then select **Details** and copy the **MAC address**.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-details-mac-address.png" alt="Camera details page showing the MAC address field." width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-details-mac-address.png" alt="Edit camera, Details tab, showing the MAC address field." width="563"></div>
 
 {% hint style="warning" %}
 Do not forget to create a DHCP reservation for the camera’s address on the router or Core. Otherwise, the server can still offer that address to another device, and you can get an IP conflict.
