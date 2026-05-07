@@ -24,8 +24,6 @@ Use **Camera VPN** in the Lumana portal to access your camera’s native web int
 
    Lumana opens the camera manufacturer’s login page.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/manufacturer-vpn-login-redirect.png" alt="Manufacturer VPN login redirect" width="563"></div>
-
 3. Enter your camera credentials on that page to sign in. Configure settings in the manufacturer’s web interface as your deployment requires.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/hikvision-manufacturer-login.png" alt="Hikvision manufacturer login page" width="563"></div>
