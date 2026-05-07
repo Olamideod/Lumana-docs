@@ -30,7 +30,7 @@ You likely do not have DHCP if every device uses manually entered IPs and nothin
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/devices-list-ip-address.png" alt="Devices list showing the camera IP address." width="563"></div>
 
-   - Select the **Edit camera** icon → **Details** and copy the **MAC address**.
+   - Select the **Edit camera** icon <img src="../.gitbook/assets/edit-camera-icon-inline.png" alt="Edit camera pencil icon." data-size="line">, then select **Details** and copy the **MAC address**.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/camera-details-mac-address.png" alt="Camera details page showing the MAC address field." width="563"></div>
 
