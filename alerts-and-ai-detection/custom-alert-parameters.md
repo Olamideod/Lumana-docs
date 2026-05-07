@@ -302,8 +302,8 @@ Set each highlighted value in the sentence. The [Event validation configuration 
 
 ### Door tailgating
 
-**Condition sentence:** When multiple **objects** enter through a single access event for more than **X** seconds on **camera**.
+**Condition sentence:** When **doors** are open, check tailgating of **people** for **X** seconds at **all times**.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/custom-alert-door-tailgating-sentence.png" alt="" width="563"></div>
 
-Set each highlighted value in the sentence. The [Door tailgating configuration steps](alert-types/security/tailgating.md#parameters) explain what each parameter controls.
+Set each highlighted value in the sentence. The [Door tailgating configuration steps](alert-types/integrations/door-tailgating.md#parameters) explain what each parameter controls.

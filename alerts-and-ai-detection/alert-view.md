@@ -53,9 +53,17 @@ Use the **Clips / Objects** toggle to switch between two views of your results.
 * **Clips**: Shows each alert as a video clip.
 * **Objects**: Shows the detected objects associated with each alert.
 
+### Manage your alert setup
+
+Three buttons in the top right corner let you navigate to related alert features.
+
+* **Alert groups**: Opens the Alert groups page where you create and manage arm schedules for a location. See [Alert group](alert-group.md).
+* **Configurations**: Opens the configured alerts list where you can view, enable, disable, filter, and delete your existing alerts. See [View and manage configured alerts](create-and-manage-alerts.md#view-and-manage-configured-alerts).
+* **Add alert**: Opens the Configure alerts page to create a new alert. See [Create an alert](create-and-manage-alerts.md#create-an-alert).
+
 ### Save and open alert views
 
-The two icons in the top right corner let you save and reload filter configurations.
+The two icons to the left of **Alert groups** let you save and reload filter configurations.
 
 * Select the **save icon** to save your current filter and time range settings as a named view.
 * Select the **folder icon** to open a previously saved view.
@@ -72,8 +80,5 @@ Once your filters and time range are set, you can open individual alerts to revi
 4. Select the share icon to share the alert with others.
 5. Select the acknowledge icon to mark the alert as reviewed.
 
-> **Note**: Alerts must be configured before they appear in the monitoring view. If you see no alerts, check that alert rules are active under **Alerts > Configuration**.
+> **Note**: Alerts must be configured before they appear in the monitoring view. If you see no alerts, check that alert rules are active under **Configurations**.
 
-## Next steps
-
-* [Configure alerts](configure-alerts.md) walks you through setting up alert rules for your cameras.
