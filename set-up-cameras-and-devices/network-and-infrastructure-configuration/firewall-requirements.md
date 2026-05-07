@@ -60,7 +60,7 @@ Instead of managing URL-based firewall rules, you may whitelist IPs directly.
 
 #### Reference IP allowlist (snapshot)
 
-Prefer the [API response](#infrastructure-ips) above when your tools can consume it. The table below is a **static reference** grouped by **category** and **region**—useful for ticketing, change control, or firewalls that need explicit rows. Entries can change; reconcile with the API and review at least annually.
+Prefer the [API response](#infrastructure-ips) above when your tools can consume it. The table below is a **static reference** grouped by **category** and **region**, useful for ticketing, change control, or firewalls that need explicit rows. Entries can change; reconcile with the API and review at least annually.
 
 | IP | Protocol | Port | Category | Region |
 | --- | --- | --- | --- | --- |

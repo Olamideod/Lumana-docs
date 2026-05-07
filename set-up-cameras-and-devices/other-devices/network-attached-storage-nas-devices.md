@@ -48,7 +48,7 @@ If you record to NAS for more than 30 days and want to keep smart search functio
 
 2. In the edit camera menu, select **Storage**, then scroll to **Additional storage**.
 
-3. Set **Additional storage** to **On**, set the target type to **External**, and choose the NFS (or object storage) entry you created for this location—for example `NFS-Server-1`.
+3. Set **Additional storage** to **On**, set the target type to **External**, and choose the NFS (or object storage) entry you created for this location, for example `NFS-Server-1`.
 
 4. Set **External retention** and what to copy to the NAS:
 
@@ -61,7 +61,7 @@ If you record to NAS for more than 30 days and want to keep smart search functio
 
 6. Select **Save** on the edit camera page to apply your storage settings.
 
-Example — **Storage** with **Additional storage** on **External**, a named NAS target, retention, **Storage (SQ)** / **Alerts (HQ)**, and upload timing:
+Example: **Storage** with **Additional storage** on **External**, a named NAS target, retention, **Storage (SQ)** / **Alerts (HQ)**, and upload timing:
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-camera-storage-additional.png" alt="Edit camera Storage: Additional storage on External, NFS server selected, retention, video to backup toggles, upload schedule." width="563"></div>
 
