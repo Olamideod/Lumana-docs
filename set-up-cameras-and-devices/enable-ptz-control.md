@@ -24,7 +24,7 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
 
     * Select the <img src="../.gitbook/assets/dhcp-edit-pencil-icon.png" alt="Edit camera pencil icon." data-size="line"> **Edit camera** control.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-edit-camera-button.png" alt="Camera view with Edit camera highlighted." width="563"></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-edit-camera-button.png" alt="Camera live view with Settings wrench control highlighted in the top toolbar." width="563"></div>
 3. Configure PTZ settings
 
     * Navigate to the **PTZ** section.
@@ -36,7 +36,7 @@ Lumana’s Remote PTZ (Pan-Tilt-Zoom) Control allows you to adjust camera direct
         `{camera_IP}:80/onvif/device_service`
     * Specify the **port** (if different from default `80`).
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/ptz-settings-onvif-address-port.png" alt="PTZ settings with ONVIF driver address and port fields." width="563"></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/ptz-settings-onvif-address-port.png" alt="Edit camera PTZ tab: PTZ support on, Onvif driver, X address, and port number." width="563"></div>
 4. Save configuration
    * Select **Save** to apply changes.
 

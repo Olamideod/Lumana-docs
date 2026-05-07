@@ -120,12 +120,12 @@ These questions cover how streaming settings affect storage, codecs, CBR, and Lu
 
 <details>
 
-<summary>What happens to <a href="../faq-and-reference/video-storage.md">video storage and retention</a> if you don't follow Lumana camera configuration Best practices?</summary>
+<summary>What happens to <a href="../faq-and-reference/video-storage.md">video storage and retention</a> if you don't follow Lumana camera configuration best practices?</summary>
 
-Camera configuration Best practices is required to bring you the best performance from Lumana Core. Not following the guidelines may impact two features:
+Camera configuration best practices help Lumana Core reach its expected performance. If you do not follow the guidelines, you may see lower results in two areas:
 
-1. The number of cameras that you can connect to a single Core may be lower than the spec.
-2. The storage retention period may be lower than the spec. For more on retention, read [Video storage](../faq-and-reference/video-storage.md).
+1. You may connect fewer cameras to a single Core than the specification describes.
+2. Your storage retention period may be shorter than the specification describes. For more on retention, read [Video storage](../faq-and-reference/video-storage.md).
 
 </details>
 
@@ -176,9 +176,7 @@ Lumana Core requires IP cameras to use **CBR** (constant bit rate) for several i
 Lumana Core uses an **AI engine** for video analytics—object recognition, behavior analysis, and anomaly detection. Those features work best when the incoming video is detailed and stable. With **CBR**, a bitrate set **high enough** keeps that quality consistent. Here is what you gain:
 
 - **Accurate AI analysis**: A higher bitrate with CBR preserves more detail in each frame, so AI algorithms get the clear images they need for reliable results.
-
 - **Stronger AI learning over time**: High-quality feeds support AI model training and tuning, which helps detection and behavior stay effective as your deployment runs.
-
 - **Smarter storage around alerts**: Higher bitrates usually mean more data. Lumana Core still uses **smart storage** so you are not wasting space: video stays high enough quality for **live processing** and **retrospective review**, and **rich recordings are kept when alerts fire**, without hoarding bulk high-bitrate footage when nothing important is happening. That prioritizes detail for **critical events**.
 
 </details>
