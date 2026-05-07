@@ -1,6 +1,6 @@
 # Heatmap
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Main_entrance_heatmap.png" alt=""><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/Main_entrance_heatmap.png" alt=""></div>
 
 A Heatmap widget shows where activity is concentrated in a camera's field of view. It overlays a color-coded map on the camera feed, with more intense colors indicating higher detection activity.
 
@@ -23,7 +23,9 @@ Adding a Heatmap widget opens a configuration dialog where you select a camera, 
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-camera-field.png" alt="" width="375"></div>
 
+{% hint style="info" %}
 The Heatmap widget displays activity from a single camera at a time. To compare activity across multiple cameras, add a separate Heatmap widget for each one.
+{% endhint %}
 
 4. Select **Select.** The preview panel on the right updates to show the view from the selected camera.
 5. Use the **Display** field to select which objects to track in the camera's view.
@@ -42,7 +44,7 @@ Your options are as follows:
    The [Linear vs. Logarithmic](heatmap.md#linear-vs.-logarithmic) section below explains these in more detail.
 8. Optionally, set a **Time** range that the heatmap will cover.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/image (6).png" alt="" width="563"></div>
 
 If you set this to `---`, then this widget will use [the time range that is set for the dashboard as a whole](../filter-a-dashboard.md#time-range).
 

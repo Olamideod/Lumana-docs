@@ -1,89 +1,79 @@
 # Enhance your video data with Lumana Event Tags
 
-Event tags let you record structured events from external systems and tie them to camera footage by time and camera. You might use them to link a point-of-sale transaction, a warehouse scan, or an access control event to the exact moment it appeared on a camera. Once posted, events are searchable in Lumana and can be visualized in a Chart or table widget on any dashboard.
+Event tags let you record structured events from external systems, whether those systems run on premises or in the cloud, and tie them to camera footage by time and camera. After you post a tag, you can search the payload in **Search** and use it as context for investigations, security, and operations.
 
-This guide walks you through the full setup: generating an API key, creating an event tag, posting events to the Lumana API, and verifying the data. To add and configure the dashboard widget after setup, use the [Event tags dashboard widget guide](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/).
+Consider a warehouse example: if your Warehouse Management System (WMS) knows a pallet’s ID, you can POST that ID with a camera and timestamp to Lumana. Operators can then search for the pallet to pull the clip for loading or condition checks and share that clip as evidence.
+
+This guide walks you through generating an API key, creating an event tag, posting events to the Lumana API, finding them in **Search**, and optionally using them in alerts or a **Chart or table** widget. For widget options in depth, see [Chart or table](../dashboards/widgets/chart-or-table/README.md). For clip preview controls after you click the chart, see [Event tag clip preview](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/chart-or-table-event-tags-clip-preview.md).
 
 ## Before you begin
 
-Make sure you can open **Organization settings**, generate API keys, and access the Lumana API reference or an API client such as Postman. You also need your organization ID, a valid camera ID, and access to **Search** so you can verify the posted data.
+You can open **Organization settings** and **Database** in the portal, generate and copy API keys, and call the Lumana API from the reference or a client such as Postman. Have your organization ID, a valid camera ID, and access to **Search**. Each organization can have up to **10** API keys (each with an expiration you set) and up to **10** event tag definitions.
 
 ## Step 1: Generate an API key
 
-Lumana uses API keys to authenticate event tag POST requests. You'll use the key as a Bearer token in every API call.
+Lumana authenticates POST requests with API keys and your organization ID. Send the key as a `Bearer` token on every call.
 
-1. Open **Organization** and select **Organization settings**.
+1. Open **Organization**, then **Organization settings**.
 2. In the left menu, select **API keys**.
+3. Select **Generate Key** (or the control that starts the create flow). The **Create API Key** dialog opens.
+4. Enter an **API Key name** and an **Expiration** value. The dialog shows the generated secret; copy it or use download if you prefer. You will not see the full key again after you complete the dialog.
+5. Select **Create** to finish.
 
-<div align="center"><img src="../.gitbook/assets/org-settings-api-keys-navigation.png" alt="Organization settings navigation with API keys selected in the left menu." width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-create-api-key-modal.png" alt="Create API Key dialog with name, expiration, key value, copy and download actions, and Create button." width="563"></div>
 
-3. Select **Generate Key**.
-4. Enter a name for the key, set an expiration date, and select **Save**.
-5. Copy the secret that appears and store it securely. You'll paste it into your API client as the Bearer token. Lumana won't show it again.
-
-<div align="center"><img src="../.gitbook/assets/org-settings-api-keys-list.png" alt="API keys list showing a generated key with its name, expiration date, and creation date." width="480"></div>
-
-> **Note:** Keep your API key secure. Anyone who has it can post events to your organization until it expires or you revoke it.
+{% hint style="warning" %}
+Keep your API key secret. Anyone who has it can post events to your organization until it expires or you revoke it.
+{% endhint %}
 
 ## Step 2: Create an event tag
 
-An event tag is a template that defines the structure of events you'll post. Each tag has a display name, a video clip length, and up to 10 custom fields. The fields define what data you'll send with each event, such as a pallet ID, a register number, or a transaction amount.
+An event tag is a template for events you will POST. It has a display name, a **Video length** (seconds of clip around the event time), and up to **10** custom fields. Each field has a **Name** (the key your API sends) and **Type**: **Text**, **Number** (whole numbers), **Decimal**, or **True/False**.
 
 ### Open event tag management
 
-1. Go to **Alerts** and select **Monitoring**.
-2. In the filter row, open the **Tags** control and select **Manage tags**.
+1. In the sidebar, select **Database**, then **Event tags**.
+2. Select **Create event tag** (or open an existing tag to edit it).
 
-<div align="center"><img src="../.gitbook/assets/alerts-monitoring-tags-manage-tags.png" alt="Tags filter in the Monitoring view with Manage tags option highlighted." width="480"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-database-list.png" alt="Database Event tags list with Create event tag and usage 1 of 10." width="563"></div>
 
-Lumana opens the **Event tags** page in **Organization database**.
+### Fill in the tag
 
-### Create the tag
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-database-edit-form.png" alt="Event tag editor with name, video length, field table Name and Type, Add field, Save event tag." width="563"></div>
 
-If no tags exist yet, the page shows a **Create event tags** button. Select it to open the creation form.
+* **Event tag name**: A short label for **Search**, alerts, and dashboards, for example a pallet workflow name your operators recognize.
+* **Video length**: Seconds of recording to attach around the `timestamp` from your POST.
+* **Name** (each field row): The field key used in the JSON `fields` object. Use stable names that match your integration, for example `PalletID`.
+* **Type**: **Text**, **Number**, **Decimal**, or **True/False**.
 
-<div align="center"><img src="../.gitbook/assets/event-tags-empty-state.png" alt="Event tags empty state showing No event tags yet and a Create event tags button." width="480"></div>
+Select **Add field** until the form matches the payload your system will send. You can define up to **10** fields per tag.
 
-<div align="center"><img src="../.gitbook/assets/create-event-tag-placeholders.png" alt="Create event tag form showing Event tag name, Video length, and field rows with Name and Type columns." width="480"></div>
-
-Fill in the form:
-
-* **Event tag name**: A short label your team will recognize in search, alerts, and dashboards. For example, "Pallet checkout" or "Door forced open."
-* **Video length**: How many seconds of camera recording to attach around the event timestamp. Increase this if operators need more context when reviewing clips.
-* **Name** (field column): The key name for each piece of data you'll send in the API. Use clear, stable names that match what your integration will send, for example "PalletID" or "RegisterNumber."
-* **Type** (field column): The data type for that field. Choose **Text** for strings, **Number** for whole numbers, **Decimal** for fractional numbers, or **True/False** for booleans.
-
-<div align="center"><img src="../.gitbook/assets/create-event-tag-field-types.png" alt="Field type picker showing Text, Number, Decimal, and True/False options." width="480"></div>
-
-Select **Add field** to add more rows. You can add up to 10 fields per tag. Select **Create event tag** when you're done.
+Select **Save event tag** when you are done.
 
 ### Copy the Event type ID
 
-After saving, Lumana returns you to the Event tags list. The list shows each tag's **Name** and **Event type ID**. The Event type ID is what you'll send as `eventTypeId` in every API POST for this tag. Copy it and keep it with your integration configuration.
-
-<div align="center"><img src="../.gitbook/assets/event-tags-list.png" alt="Event tags list showing Name and Event type ID columns with one tag entry." width="480"></div>
+After you save, the **Event tags** list shows **Name** and **Event type ID** for each tag. Copy the **Event type ID** for this tag. You send it as `eventTypeId` on every POST for that definition.
 
 ## Step 3: POST event data
 
 Send a POST request to the Lumana API for each event you want to record.
 
-**Endpoint:**
+**Endpoint**:
 
 ```
 POST https://access.lumana.ai/v1/events-tag/insert
 ```
 
-**Required fields:**
+**Body and headers**:
 
-| Field         | Description                                                                                                    |
-| ------------- | -------------------------------------------------------------------------------------------------------------- |
-| `orgId`       | Your organization ID. Find it in **Organization** → **Organization settings**.                                 |
-| `cameraId`    | The ID of the camera the event is associated with. Find it on the camera's edit screen.                        |
-| `eventTypeId` | The Event type ID from the Event tags list in step 2.                                                          |
-| `timestamp`   | The time the event occurred, in Unix epoch milliseconds.                                                       |
-| `fields`      | An object of field names and values as defined on your tag. Not every field needs to be present in every POST. |
-
-**Authorization:** Set the Authorization header to `Bearer YOUR_API_KEY` using the key from step 1.
+| Item | Description |
+| --- | --- |
+| `orgId` | Your organization ID. Find it under **Organization** → **Organization settings**. |
+| `cameraId` | Camera that should own the clip. Find it on the camera’s edit screen. |
+| `eventTypeId` | The Event type ID from step 2. |
+| `timestamp` | Time of the event, Unix epoch time in **milliseconds**. |
+| `fields` | Object of field names and values from your tag. You can omit keys you are not sending in that POST. |
+| Authorization | Header `Authorization: Bearer YOUR_API_KEY` using the secret from step 1. |
 
 ### Example JSON body
 
@@ -95,7 +85,7 @@ Replace every placeholder with your real values:
   "cameraId": "YOUR_CAMERA_ID",
   "eventTypeId": "YOUR_EVENT_TYPE_ID",
   "fields": { "YourFieldName": "your-value" },
-  "timestamp": 1774968426317
+  "timestamp": 1702933595445
 }
 ```
 
@@ -110,17 +100,15 @@ curl --location 'https://access.lumana.ai/v1/events-tag/insert' \
     "cameraId": "646dd77b3b6af4f41e0c2129",
     "eventTypeId": "655cb88d1ff98797b9dc0c3b",
     "fields": { "PalletID": "2acd" },
-    "timestamp": 1774968426317
+    "timestamp": 1702933595445
   }'
 ```
 
 ### Test the request
 
-You can send a test POST directly from the Lumana API reference without leaving your browser. Open [Insert an event tag in the Lumana API reference](../api-reference/rest-apis/lumana-api.md) and select **Test it** at the bottom right of the cURL block. Enter your Bearer token (API key) under **Authentication**, replace the body values with your real orgId, cameraId, eventTypeId, and a current timestamp, then select **Send**. A successful request returns a **200 OK** response with the following body:
+You can send a test POST from the Lumana API reference. Open [Insert an event tag in the Lumana API reference](../api-reference/rest-apis/lumana-api.md) and select **Test it** on the cURL block. Enter your Bearer token under **Authentication**, replace the body with your `orgId`, `cameraId`, `eventTypeId`, and a **current** millisecond timestamp, then select **Send**. A successful request returns **200 OK**.
 
-<div align="center"><img src="../.gitbook/assets/lumana-event-tag-test.png" alt="API reference test panel showing a successful event tag request and response." width="480"></div>
-
-If you prefer to test locally, use Postman instead.
+If you prefer a desktop client, use Postman.
 
 ### Send using Postman
 
@@ -129,43 +117,76 @@ If you prefer to test locally, use Postman instead.
 3. Under **Body**, select **raw** and **JSON**. Paste your JSON body and replace all placeholders.
 4. Select **Send**. A successful ingest returns a `2xx` response.
 
-> **Note:** Use a current timestamp in milliseconds. You can run `Date.now()` in a browser console to get the current value. If your timestamp falls outside the time range set on the dashboard widget, the event won't appear in the chart.
+{% hint style="info" %}
+Use a current timestamp in milliseconds. You can run `Date.now()` in a browser console. If the timestamp falls outside the time range of your chart widget or **Search**, the event will not appear where you expect.
+{% endhint %}
 
-## Step 4: Verify the data
+## Step 4: Search for events
 
-The event tag definition alone doesn't create any data. Data only appears after Lumana has accepted at least one successful POST for that tag.
+After Lumana returns success on the POST, the event becomes searchable in the portal.
 
-Before checking the dashboard, confirm the following:
+Before you rely on results, confirm:
 
-* Your POST returned a `2xx` response. A `4xx` or `5xx` response means the event wasn't ingested.
-* The `eventTypeId` matches the Event type ID in the Event tags list.
-* The `cameraId` is a real camera in your organization.
-* The `timestamp` is in milliseconds and falls within the time range you plan to use in the dashboard widget.
-* The `fields` keys match the field names you defined on the tag, with the correct spelling.
+* The HTTP response was `2xx`.
+* `eventTypeId` matches the tag in **Database** → **Event tags**.
+* `cameraId` is a real camera in your organization.
+* `timestamp` is in milliseconds and inside the **Search** time range you choose.
+* Keys under `fields` match the field names on the tag.
 
-### Confirm in Search
+### Use Search filters
 
-1. Open **Search** in the portal.
-2. Select the camera and time range that cover when you sent the event.
-3. Apply field filters to match the values from your POST.
+1. Open **Search**.
+2. Set **Camera** and **Time range** so they include the POST you sent.
+3. Expand **Event tags**, choose your event tag, turn on the fields you want to filter, set the operator (**Equals**, **Not equals to**, **Less than**, **Greater than**, and so on), and enter values.
 
-If the event appears in Search, the POST was ingested correctly and the data is ready for the dashboard. If Search shows nothing, fix the POST before checking the chart.
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-search-filters.png" alt="Search sidebar with Event tags expanded, event type selected, field toggles and operator dropdown." width="563"></div>
 
-## Next steps
+If results appear here, ingestion and matching worked and you can add dashboards or alerts on top of the same data.
 
-After you verify that Event Tag data is arriving correctly, you can use it in alerts and dashboards.
+## Step 5: Create an alert for an event tag
 
-### Create an alert for an event tag
+You can create two kinds of alert from **Alerts** → **Configure alerts** under the **Safety & compliance** category:
 
-You can build alerts that react to event tag data in two ways.
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-alert-templates.png" alt="Configure alerts Integrations with Event tag and Event validation templates." width="563"></div>
 
-- **Event tag alert:** Fires when an event tag is received. Select the **Event tag** alert type, choose the event tag and camera, set a trigger delay, configure actions, and create the alert.
-- **Event validation alert:** Adds an object detection check on top of an event tag. For example, require a person to be present or absent for a set duration when the event arrives. Select the event tag, camera, appearance or absence, object type, duration, and actions, then create the alert.
+### Event tag alert
 
-For full configuration steps, use the [Event tag alert guide](../alerts-and-ai-detection/alert-types/integrations/event-tag.md).
+Triggers when a given event tag is received on a camera after an optional wait.
 
-### Chart event tags on a dashboard
+1. Select **Use template** on **Event tag**.
+2. Set **Alert name**, choose the **Event tag** and **camera**, set how long to **wait** before the rule evaluates, then open **Then do this** to pick notification or automation actions.
+3. Create the alert.
 
-Once your events are verified in Search, add a Chart or table widget to a dashboard to visualize the counts over time. Full configuration steps, including axis options, camera selection, time settings, and how to drill into clips from the chart, are covered in the [Event tags dashboard widget guide](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/).
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-alert-rule-builder.png" alt="Event tag alert rule with event tag, camera, wait duration, Then do this." width="563"></div>
 
-<div align="center"><img src="../.gitbook/assets/widget-event-tags-chart-tooltip.png" alt="Event tags chart tooltip showing event count for a selected time on the dashboard." width="480"></div>
+### Event validation alert
+
+Adds a detection check on top of an event tag (for example require a **person** or **vehicle** to appear or stay absent for N seconds).
+
+1. Select **Use template** on **Event validation**.
+2. Choose the **Event tag** and **camera**, set **appearance** or **absence**, object type, and duration, then configure **Then do this** actions.
+3. Create the alert.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-alert-event-validation-builder.png" alt="Event validation alert with event tag, camera, appearance, objects, duration, Then do this." width="563"></div>
+
+For more detail on rule fields, see [Event tag alert](../alerts-and-ai-detection/alert-types/integrations/event-tag.md).
+
+## Step 6: Chart event tags on a dashboard
+
+1. Select the **Dashboards** icon <img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-sidebar-icon.png" alt="Dashboards icon in the sidebar." data-size="line"> in the sidebar, then create a dashboard or open an existing one to edit.
+2. Select **Add widget**, then select **Chart or table** from the menu.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-add-widget-menu.png" alt="Add widget menu with Chart or table option highlighted." width="375"></div>
+
+3. Enter a **Title**.
+4. Under **Datasource**, select **Event tags**.
+5. Set **Visualization**, **X-axis**, **Y-axis** (for example **Total** and **All event tags** or one specific tag), and any camera or time overrides the chart needs. Read the in-dialog note if you disconnect widget filters from dashboard filters.
+6. Select **Add** to place the widget.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-chart-widget.png" alt="Chart or table widget dialog with Event tags datasource, axes, and preview." width="563"></div>
+
+Full axis and filter behavior, including drill-in, is described in [Chart or table](../dashboards/widgets/chart-or-table/README.md).
+
+## Retention and storage
+
+Event tag clips follow your organization’s storage and retention settings. If you need longer retention or more capacity, contact your Lumana account team.

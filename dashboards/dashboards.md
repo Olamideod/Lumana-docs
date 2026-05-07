@@ -6,7 +6,7 @@ Dashboards give you a workspace for analyzing historical data from your cameras.
 * Which camera triggered the most alerts this month?
 * What does foot traffic look like at different times of day?
 
-You build a dashboard from a grid of widgets of the following types:&#x20;
+You build a dashboard from a grid of widgets of the following types:
 
 * [Chart or table](widgets/chart-or-table/)
 * [Heatmap](widgets/heatmap.md)

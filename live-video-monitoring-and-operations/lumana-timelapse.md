@@ -10,9 +10,13 @@ Make sure you can open the camera settings for the camera you want to use. You a
 
 Timelapse is enabled by default and is available for the most recent three days of retained snapshots.
 
+{% hint style="info" %}
+This is different from Verkada, which defaults to 24 hours.
+{% endhint %}
+
 Timelapse snapshots are not generated retroactively. If you increase retention today, then the system starts collecting additional days of timelapse snapshots from that point forward.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-create-dialog.png" alt="Create timelapse dialog with camera, timeframe, and duration settings."></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-create-dialog.png" alt="Create timelapse dialog with camera, timeframe, and duration settings." width="563"></div>
 
 ## Extend timelapse retention
 
@@ -24,9 +28,11 @@ You can extend timelapse retention up to 30 days when you need a longer review w
 
    The new retention setting applies going forward.
 
-   > **Note:** Once you increase retention, additional snapshots begin collecting from that point. You must wait for time to pass before you can generate longer timelapse videos.
+{% hint style="info" %}
+Once you increase retention, additional snapshots begin collecting from that point. You must wait for time to pass before you can generate longer timelapse videos.
+{% endhint %}
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-retention-settings.png" alt="Edit selected cameras dialog showing snapshot retention settings for timelapse."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-retention-settings.png" alt="Edit selected cameras dialog showing snapshot retention settings for timelapse." width="563"></div>
 
 Once you understand the default window and the retention limit, you can decide whether the built-in range is enough for your workflow.
 

@@ -1,54 +1,62 @@
 # Custom objects
 
-The **Missing Object Alert** feature detects and notifies users when a selected object is no longer visible in a monitored area. This automation enhances security, prevents operational disruptions, and reduces manual oversight.
+The **Missing object** alert notifies you when a marked object is no longer visible in the camera view you monitor. That helps you catch removals or theft sooner and reduces the need for constant manual checks of the same scene.
 
-## Why It Matters
-🔹 **Real-time detection** – Instant alerts prevent delays in response.
-🔹 **Automated tracking** – Eliminates reliance on manual checks.
-🔹 **Security enforcement** – Detects unauthorized removals or theft.
-🔹 **Operational continuity** – Ensures critical items remain in place.
+## Why this alert helps
 
- 
-## How to configure:
+- **Faster response**: You get a notification when the object disappears instead of scrubbing footage later.
+- **Less manual watching**: The system watches the marked region for you.
+- **Security and loss prevention**: You can detect unauthorized removal of equipment or inventory.
+- **Operational checks**: You can confirm that critical items stay in frame during business hours or after hours.
 
-1. Click on the alert icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-alert-icon.png" alt="Alert bell icon" height="18"> on the left menu
+## Before you begin
 
-2. Click on add alert 
+Make sure you can open **Alerts** and create alert rules. You need a camera that shows the object clearly enough to mark it in the frame, and permission to choose notification actions under **Then do this**.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-alerts-monitoring-add-alert.png" alt="Alerts Monitoring page with the alert icon highlighted in the left sidebar and the Add alert button highlighted in the top-right toolbar." width="900"></div>
+For the full task-based guide (same workflow), see [Create a Missing object alert](missing-object-alert.md).
 
-3. In the "Identification" section you will find "Missing object" alert. Click on "use template"
+## Configure the alert
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-template.png" alt="Configure alerts page with Identification selected in the sidebar, showing alert template cards and the Missing object card's Use template button highlighted." width="900"></div>
+1. In the left sidebar, select **Alerts** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-alert-icon.png" alt="" data-size="line">.
 
-4. Click on "all times" to select the schedule for object detection
+2. Select **Add alert**.
 
-5. Click on "Then do this" to select an action when the alert occur, for example notify person
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-alerts-monitoring-add-alert.png" alt="" width="563"></div>
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-alert-config.png" alt="Missing Object alert configuration form with the Alert name, the 'When marked objects on Camera are missing at all times' rule, Use default configuration link, and the Then do this button." width="720"></div>
+3. Under **Identification**, find the **Missing object** template and select **Use template**.
 
-6. Click on "Cameras" in order to choose the needed camera
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-template.png" alt="" width="563"></div>
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-choose-cameras-edit.png" alt="Choose cameras dialog with the Camera field highlighted in the alert rule, a camera selected in the list, and the edit pencil icon highlighted to mark the object on the camera." width="900"></div>
+4. Set when the rule runs, for example **All times**, so object detection follows the schedule you need.
 
-7. Click on the edit icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-edit-pencil-icon.png" alt="Edit pencil icon" height="18"> to select the "object" that you would like the alert to focus on.
+5. Select **Then do this** and choose what happens when the alert fires, for example notify someone.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-mark-object-dialog.png" alt="Mark object dialog showing a live camera view with a monitor outlined by a green polygon to mark it as the object of interest, and Reset, Cancel, and Select buttons at the bottom." width="720"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-alert-config.png" alt="" width="375"></div>
 
-8. In the **Mark object** dialog, click **Select** when you are done outlining the object.
+6. Select **Cameras** and select the camera (or cameras) that should watch the object.
 
-9. Click **Create alert** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-create-alert-button.png" alt="Create alert button" height="32"> when finished.
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-choose-cameras-edit.png" alt="" width="563"></div>
 
-When the alert is set up, at any point that the object you selected will disappear from the camera, the alert will be triggered.
+7. Select the pencil icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-edit-pencil-icon.png" alt="" data-size="line"> next to the camera so you can mark the object the alert should track.
 
-See examples:
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-mark-object-dialog.png" alt="" width="375"></div>
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-alert-monitoring-example.png" alt="Alerts Monitoring view showing a Missing Object alert card with a camera still, timestamp, location, and actions such as acknowledge, play, and share." width="900"></div>
+8. In the **Mark object** dialog, outline the object, then select **Select**.
 
-You can click on alert to view a video clip or an image of the incident.
+9. When the rest of the rule is complete, select **Create alert** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-create-alert-button.png" alt="" data-size="line">.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-video-preview.png" alt="Missing Object alert preview with Video tab selected, playback controls, timeline, and archive, share, and camera actions above the footage." width="900"></div>
+## Review alerts in monitoring
 
-From the same screen of the alert, you can save this video in the archive (upload it to the cloud) by clicking the archive icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-archive-icon.png" alt="Archive" height="18">, or click the share icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-share-icon.png" alt="Share" height="18"> to share the video with police or other people within the organization or outside.
+When the alert fires, it appears in the monitoring view with a still, time, location, and actions such as acknowledge, play, and share.
 
- 
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-alert-monitoring-example.png" alt="" width="563"></div>
+
+Select the alert to open a video clip or image for that event.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-video-preview.png" alt="" width="563"></div>
+
+From the preview, you can save footage to the archive with the archive icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-archive-icon.png" alt="" data-size="line">, or select **Share** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-share-icon.png" alt="" data-size="line"> to share the clip according to your organization's policy.
+
+## Next steps
+
+- Use [Share video](../live-video-monitoring-and-operations/share-video.md) for more detail on sharing options and access controls.

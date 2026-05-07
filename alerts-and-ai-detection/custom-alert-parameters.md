@@ -1,6 +1,6 @@
 # Custom alert parameters
 
-This page shows the condition sentence for each alert type as it appears in the custom alert flow. Use it to identify your alert type's sentence when configuring step 6 of [Create a custom alert](custom-alert.md).
+This page shows the condition sentence for each alert type as it appears in the Custom alert flow. Use it to identify your alert type's sentence when configuring step 7 of [Configure a custom alert](custom-alert.md#parameters). Select the link under each sentence to see the full parameter details on the alert type page.
 
 The last parameter in every sentence is **camera**. Selecting it completes the condition.
 
@@ -278,7 +278,7 @@ Set each highlighted value in the sentence. The [Personal safety configuration s
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/custom-alert-hands-detected-sentence.png" alt="" width="563"></div>
 
-Set each highlighted value in the sentence. The [Hands detected configuration steps](alert-types/safety-and-compliance/hands-detected.md#parameters) explain what each parameter controls.
+Set each highlighted value in the sentence. The [Hands detected configuration steps](alert-types/security/suspect-alerts.md#parameters) explain what each parameter controls.
 
 ## Integrations
 

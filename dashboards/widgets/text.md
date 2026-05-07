@@ -1,6 +1,6 @@
 # Text
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Text.png" alt=""><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/Text.png" alt=""></div>
 
 The Text widget adds a formatted text block to your dashboard. Use it to label a group of widgets, describe what a dashboard section shows, or add written context that helps make sense of the data at a glance.
 
@@ -74,11 +74,9 @@ The highlight color control applies a background color to selected text. It uses
 
 ### Alignment
 
-The alignment control sets how text is positioned horizontally. Select it to choose an option.
+The alignment control sets how text is positioned horizontally. Select it to choose between left, center, right, and justify.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-text-alignment.png" alt="" width="563"></div>
-
-The options are left, center, right, and justify.
 
 ### Lists
 
@@ -86,11 +84,13 @@ The bullet list and numbered list controls each have a dropdown with multiple st
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-text-bullet-list.png" alt="" width="563"></div>
 
-Bullet list styles: **Disc**, **Circle**, and **Square**.
+Available bullet list styles: **Disc**, **Circle**, and **Square**.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-text-numbered-list.png" alt="" width="563"></div>
 
-Numbered list styles: 1.2.3., 01.02.03., a.b.c., and A.B.C. Select **List properties** to adjust list settings.
+Available numbered list styles: 1. 2. 3., 01. 02. 03., a. b. c., and A. B. C.
+
+Select **List properties** to adjust list settings.
 
 ### Link
 
@@ -100,4 +100,4 @@ The link button adds a hyperlink to selected text. Select the text you want to l
 
 ## Edit or delete the widget
 
-To edit or delete the widget, follow the steps in [Change widget settings](../create-and-manage-dashboards.md#change-widget-settings) and [Delete a widget](../create-and-manage-dashboards.md#delete-a-widget) in Create and manage dashboards.
+To edit or delete the widget, follow the steps in [Edit a widget](../create-and-manage-dashboards.md#edit-a-widget) and [Delete a widget](../create-and-manage-dashboards.md#delete-a-widget) in Create and manage dashboards.

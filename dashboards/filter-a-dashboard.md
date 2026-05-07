@@ -1,13 +1,17 @@
 # View and filter a dashboard
 
+Dashboard filters let you control what every widget displays at once. You can filter by camera, object type, and time range without reconfiguring each widget individually. This page covers how to open a dashboard, refresh its data, use fullscreen mode, and apply filters.
+
 ## Open a dashboard
 
 1. Select **Dashboards** in the left navigation bar, or go directly to `https://app.lumana.ai/dashboards/main`.
 2. A list of dashboards is displayed. Select the dashboard you want to open.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/image (5).png" alt="" width="563"></div>
 
 ## Refresh the dashboard's data
+
+You can refresh dashboard data manually at any time or set it to reload automatically at a fixed interval.
 
 ### Manual refresh
 
@@ -19,11 +23,11 @@ To tell the dashboard to refresh automatically at regular intervals, use the aut
 
 1. Use the refresh rate dropdown to set how often the dashboard reloads. The countdown timer shows how long until the next reload.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/image (9).png" alt=""></div>
 
 2. Select the toggle to enable auto refresh.&#x20;
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/auto-refresh.png" alt="" width="282"><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/auto-refresh.png" alt="" width="282"></div>
 
 To disable auto refresh, select the toggle again.
 
