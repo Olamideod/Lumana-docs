@@ -30,7 +30,7 @@ In **Edit camera**, open **Shortcuts** to see the live image, shortcut pins, **A
 
 Go back to the camera’s live view. A shortcut can open the linked camera in a picture-in-picture panel, or switch the main view depending on your layout.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/create-camera-shortcuts/live-view-shortcut-picture-in-picture.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/create-camera-shortcuts/live-view-shortcut-picture-in-picture.png" alt="Live view with picture-in-picture shortcut to another camera." width="563"></div>
 
 ## Next steps
 
