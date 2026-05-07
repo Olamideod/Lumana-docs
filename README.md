@@ -6,7 +6,7 @@ Lumana is an AI-powered video security platform that turns any camera into an in
 
 ## Getting started
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/icon-rocket.svg" alt=""></td><td><strong>Getting started</strong></td><td>New to Lumana? Start here to complete your first setup and get Lumana Core running on your network.</td><td><a href="getting-started/what-to-expect.md">what-to-expect.md</a></td></tr><tr><td><img src=".gitbook/assets/icon-settings.svg" alt=""></td><td><strong>Set up Lumana Core</strong></td><td>Install and deploy Lumana Core on your network. Choose from standard, isolated, or dual-network installation guides based on your site topology.</td><td><a href="getting-started/set-up-lumana-core/">set-up-lumana-core</a></td></tr><tr><td><img src=".gitbook/assets/icon-settings.svg" alt=""></td><td><strong>Set up cameras and devices</strong></td><td>Connect cameras from any manufacturer and configure network settings, floor plans, and ancillary devices.</td><td><a href="set-up-cameras-and-devices/overview.md">overview.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/icon-rocket.svg" alt=""></td><td><strong>Getting started</strong></td><td>New to Lumana? Start here to complete your first setup and get Lumana Core running on your network.</td><td><a href="getting-started/what-to-expect.md">what-to-expect.md</a></td></tr><tr><td><img src=".gitbook/assets/icon-cpu-chip.svg" alt=""></td><td><strong>Set up Lumana Core</strong></td><td>Install and deploy Lumana Core on your network. Choose from standard, isolated, or dual-network installation guides based on your site topology.</td><td><a href="getting-started/set-up-lumana-core/">set-up-lumana-core</a></td></tr><tr><td><img src=".gitbook/assets/icon-video-camera.svg" alt=""></td><td><strong>Set up cameras and devices</strong></td><td>Connect cameras from any manufacturer and configure network settings, floor plans, and ancillary devices.</td><td><a href="set-up-cameras-and-devices/overview.md">overview.md</a></td></tr></tbody></table>
 
 ## Concepts
 
@@ -18,7 +18,7 @@ Lumana is an AI-powered video security platform that turns any camera into an in
 
 ## Monitoring services
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/icon-radio.svg" alt=""></td><td><strong>Monitoring services</strong></td><td>Set up Lumana professional monitoring and configure the Partner Monitoring Portal for monitoring-center workflows.</td><td><a href="monitoring-services/professional-monitoring-with-lumana.md">professional-monitoring-with-lumana.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/icon-eye.svg" alt=""></td><td><strong>Monitoring services</strong></td><td>Set up Lumana professional monitoring and configure the Partner Monitoring Portal for monitoring-center workflows.</td><td><a href="monitoring-services/professional-monitoring-with-lumana.md">professional-monitoring-with-lumana.md</a></td></tr></tbody></table>
 
 ## Troubleshooting and maintenance
 
