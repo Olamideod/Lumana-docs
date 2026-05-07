@@ -10,7 +10,7 @@ Admin access is required to create and manage alert groups.
 
 You assign a location to the group and set an arm schedule. When the arm schedule is active, Lumana monitors alerts tied to that location. If someone manually disarms the group during the arm period, then auto re-arm brings it back online after a set delay. If the group is armed outside its schedule, then auto dis-arm shuts it down automatically. The notification list controls who receives alerts during the arm window.
 
-## Create an alert group
+## Set up the alert group
 
 1. In the left navigation, select **Alerts**. The Alerts monitoring view opens.
 
@@ -18,7 +18,7 @@ You assign a location to the group and set an arm schedule. When the arm schedul
 
 2. Select **Alert groups** in the top right corner. The Alert groups page opens.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alert-groups-empty-state.png" alt="" width="563"></div>
+<div data-full-width="false"><figure data-with-frame="true"><img src="../.gitbook/assets/alert-groups-empty-state.png" alt="" width="375"><figcaption></figcaption></figure><figure data-with-frame="true"><img src="../.gitbook/assets/alert-groups-empty-state2.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 3. Select **Create alert group**. The Create alert group page opens.
 

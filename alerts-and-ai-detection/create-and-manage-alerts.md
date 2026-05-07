@@ -12,19 +12,13 @@ From here, you have three options:
 
 * Select **Add alert** to create a new alert. Follow the steps in [Create an alert](#create-an-alert).
 * Select **Configurations** to view and manage your existing alerts. Follow the steps in [View and manage configured alerts](#view-and-manage-configured-alerts).
-* Select **Alert groups** to group related alerts and manage them together. Follow the steps in [Create an alert group](create-an-alert-group.md).
+* Select **Alert groups** to arm and disarm alerts for a location on a schedule. Steps for this are in the separate [Create an alert group](create-an-alert-group.md) guide.
 
 ## Create an alert
 
 1. From the Alerts monitoring view, select **Add alert** in the top right corner. The Configure alerts page opens.
 
-<div data-full-width="false">
-
-<figure><img src="../.gitbook/assets/add-alerts-button.png" alt="" width="375"><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/alerts-configure-page.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure data-with-frame="true"><img src="../.gitbook/assets/add-alerts-button.png" alt="" width="375"><figcaption></figcaption></figure><figure data-with-frame="true"><img src="../.gitbook/assets/alerts-configure-page.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 2. Find the alert type you want. Use the left sidebar to jump to a category, or scroll through the page to browse all types. Each card shows a plain-language description of what the alert detects. For a full list, see [Alert types](alert-types/).
 3. Select **Use template** on the alert type card. A new page opens with the alert rule displayed as an editable sentence. The sentence and its fields change depending on the alert type you selected.
