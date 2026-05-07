@@ -44,7 +44,7 @@ Ensure your Hikvision camera is updated, correctly configured, and ready to conn
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hikvision-setup-network-topology.png" alt="Diagram: IP cameras, network switch, and laptop on the same LAN for discovery and configuration." width="563"></div>
 
-* **Detect and Initialize the Camera**: The SADP tool will scan your network and list Hikvision devices. Select your camera, note its IPv4 address and status, and—if the device is not initialized yet—set a password to activate it. Keep the IP address for the next steps.
+* **Detect and Initialize the Camera**: The SADP tool will scan your network and list Hikvision devices. Select your camera, note its IPv4 address and status, and, if the device is not initialized yet, set a password to activate it. Keep the IP address for the next steps.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hikvision-sadp-tool.png" alt="Hikvision SADP utility listing online devices with IPv4 addresses, ports, and status columns." width="563"></div>
 
@@ -93,7 +93,7 @@ If you are using admin credentials, you can proceed directly to [Connect a camer
 * Select **Save** to apply your changes.
 * Wait for a success confirmation so you know the integration settings and users were written to the device.
 
-Example — **Integration Protocol** with **Hikvision-CGI** (digest), **ONVIF** enabled, and **Add** available for users:
+Example: **Integration Protocol** with **Hikvision-CGI** (digest), **ONVIF** enabled, and **Add** available for users:
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hikvision-integration-protocol-onvif.png" alt="Hikvision Configuration Network Advanced Settings Integration Protocol: Enable Hikvision-CGI digest, Enable ONVIF, user list and Save." width="563"></div>
 
@@ -114,7 +114,7 @@ After completing ONVIF setup, proceed to [Connect a camera](../../getting-starte
 * On the **User Management** page, select **Add**.
 * Enter a **username** and **password** (you may need to enter the **admin password** to authorize the change).
 * Assign the **Operator** role unless your security team specifies otherwise.
-* Under **permissions**, enable the capabilities Lumana needs—typically select all remote permissions your firmware offers (for example **Remote: Parameters Settings**, **Live View**, **Playback**, and related items). The exact checklist depends on model and firmware.
+* Under **permissions**, enable the capabilities Lumana needs: typically select all remote permissions your firmware offers (for example **Remote: Parameters Settings**, **Live View**, **Playback**, and related items). The exact checklist depends on model and firmware.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hikvision-add-user-dialog.png" alt="Hikvision Add user dialog: username, Operator level, admin password, permissions checkboxes, OK." width="563"></div>
 

@@ -109,7 +109,7 @@ After you finish the Check Point steps above, open each speaker’s own admin in
    1. Username
    2. ID
    3. Password
-   4. Display Name — used as the identifier on alerts
+   4. **Display Name**: used as the identifier on alerts
    5. Server Host
    6. Port
 4. Set **Expire Time > 600**
