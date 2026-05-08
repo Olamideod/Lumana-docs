@@ -1,3 +1,3 @@
 # Event clearance
 
-Coming soon.
+Coming soon!

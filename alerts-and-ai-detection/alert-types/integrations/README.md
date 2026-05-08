@@ -1,2 +1,7 @@
 # Integrations
 
+Integration alerts respond to events from connected external systems. Use them to link Lumana with access control platforms, event tagging workflows, and custom data sources.
+
+Select an alert type below to see how it works and how to configure it.
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/icon-tag.svg" alt=""></td><td><strong>Event tag</strong></td><td>Triggers when Lumana receives an event from an external system, such as a point-of-sale or access control platform.</td><td><a href="event-tag.md">event-tag.md</a></td></tr><tr><td><img src="../../../.gitbook/assets/icon-check-badge.svg" alt=""></td><td><strong>Event validation</strong></td><td>Triggers when an event tag arrives on a camera and your configured objects appear or are absent as expected.</td><td><a href="event-validation.md">event-validation.md</a></td></tr><tr><td><img src="../../../.gitbook/assets/icon-arrow-right-on-rectangle.svg" alt=""></td><td><strong>Door tailgating</strong></td><td>Triggers when multiple people pass through a door during a single access event.</td><td><a href="door-tailgating.md">door-tailgating.md</a></td></tr><tr><td><img src="../../../.gitbook/assets/icon-check-circle.svg" alt=""></td><td><strong>Event clearance</strong></td><td>Coming soon.</td><td><a href="event-clearance.md">event-clearance.md</a></td></tr></tbody></table>

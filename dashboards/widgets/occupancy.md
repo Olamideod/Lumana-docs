@@ -29,7 +29,7 @@ Adding an Occupancy widget takes you through the main configuration dialog and a
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/widget-occupancy-entrance-dropdown.png" alt="" width="375"></div>
 
-4.  Choose the camera you want to configure, then select **Select**.
+4.  Choose the camera you want to configure, then confirm your selection.
 
     If no Traffic control line crossing exists for that camera, a warning banner appears: "You must select a Traffic control, use the edit button next to the camera to select one."
 

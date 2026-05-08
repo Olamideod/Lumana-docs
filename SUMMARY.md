@@ -81,10 +81,10 @@
 ## System administration
 
 * [Manage users and permissions](system-administration/manage-users-and-permissions.md)
+  * [Available permissions](system-administration/available-permissions.md)
 * [User settings](system-administration/user-settings.md)
 * [System logs](system-administration/system-logs.md)
-* [NDAA compliance](system-administration/ndaa-compliance.md)
-* [SOC 2 and data privacy](system-administration/soc-2-and-data-privacy.md)
+  * [Audit log events](system-administration/audit-log-events.md)
 
 ## Live video monitoring and operations
 
@@ -102,8 +102,8 @@
 ## Alerts and AI detection
 
 * [Introduction to Lumana alerts](alerts-and-ai-detection/introduction-to-lumana-alerts.md)
-* [Alert view](alerts-and-ai-detection/alert-view.md)
-* [Configure alerts](alerts-and-ai-detection/configure-alerts.md)
+* [Create and manage alerts](alerts-and-ai-detection/create-and-manage-alerts.md)
+* [Monitor alerts](alerts-and-ai-detection/monitor-alerts.md)
 * [Alert types](alerts-and-ai-detection/alert-types/README.md)
   * [Security](alerts-and-ai-detection/alert-types/security/README.md)
     * [Motion](alerts-and-ai-detection/alert-types/security/motion.md)
@@ -122,7 +122,7 @@
     * [Suspect alerts](alerts-and-ai-detection/alert-types/security/suspect-alerts.md)
     * [Gun brandished](alerts-and-ai-detection/alert-types/security/gun-brandished.md)
   * [Identification](alerts-and-ai-detection/alert-types/identification/README.md)
-    * [Face recognition](alerts-and-ai-detection/alert-types/security/suspect-alerts.md)
+    * [Face recognition](alerts-and-ai-detection/alert-types/identification/face-recognition.md)
     * [License plate recognition](alerts-and-ai-detection/alert-types/identification/license-plate.md)
     * [Container detection](alerts-and-ai-detection/alert-types/identification/container.md)
   * [Tracking](alerts-and-ai-detection/alert-types/tracking/README.md)
@@ -145,11 +145,11 @@
     * [Personal safety](alerts-and-ai-detection/alert-types/safety-and-compliance/personal-safety.md)
     * [Free text periodic](alerts-and-ai-detection/alert-types/safety-and-compliance/free-text-periodic.md)
     * [Gloves](alerts-and-ai-detection/alert-types/safety-and-compliance/gloves.md)
-    * [Hands detected](alerts-and-ai-detection/alert-types/security/suspect-alerts.md)
+    * [Hands](alerts-and-ai-detection/alert-types/safety-and-compliance/hands.md)
   * [Integrations](alerts-and-ai-detection/alert-types/integrations/README.md)
     * [Event tag](alerts-and-ai-detection/alert-types/integrations/event-tag.md)
     * [Event validation](alerts-and-ai-detection/alert-types/integrations/event-validation.md)
-    * [Door tailgating](alerts-and-ai-detection/alert-types/security/tailgating.md)
+    * [Door tailgating](alerts-and-ai-detection/alert-types/integrations/door-tailgating.md)
     * [Event clearance](alerts-and-ai-detection/alert-types/integrations/event-clearance.md)
     * [Developer](alerts-and-ai-detection/alert-types/integrations/developer.md)
   * [Retail](alerts-and-ai-detection/alert-types/retail/README.md)
@@ -162,8 +162,9 @@
   * [Arm/Disarm](alerts-and-ai-detection/alert-types/arm-disarm/README.md)
     * [Zone armed/disarmed](alerts-and-ai-detection/alert-types/arm-disarm/zone-armed-disarmed.md)
 * [Alert actions](alerts-and-ai-detection/alert-actions.md)
-* [Custom alert](alerts-and-ai-detection/custom-alert.md)
-* [Alert group](alerts-and-ai-detection/alert-group.md)
+* [Configure a custom alert](alerts-and-ai-detection/configure-a-custom-alert.md)
+* [Custom alert parameters](alerts-and-ai-detection/custom-alert-parameters.md)
+* [Create an alert group](alerts-and-ai-detection/create-an-alert-group.md)
 
 ## Dashboards
 
