@@ -10,9 +10,9 @@ This setup is typically required in advanced deployments that use network-manage
 
 You need:
 
-- Administrative access to the Check Point router
-- Access to Check Point SmartConsole
-- Network topology details
+* Administrative access to the Check Point router
+* Access to Check Point SmartConsole
+* Network topology details
 
 ### Step 1: Open VoIP settings
 
@@ -45,10 +45,10 @@ On the **Access Policy → VoIP** screen, enable VoIP.
 
 Add the following domain names:
 
-- lumana1.sip.twilio.com
-- lumana1.sip.us1.twilio.com
+* lumana1.sip.twilio.com
+* lumana1.sip.us1.twilio.com
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/off-premise-sip-provider-service-list.png" alt="Check Point SIP service provider networks and domain configuration."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/off-premise-sip-provider-service-list.png" alt="Check Point SIP service provider networks and domain configuration." width="563"></div>
 
 ### Step 4: Configure RTP services
 
@@ -91,7 +91,7 @@ Add the following services:
 | SIP\_UDP       | SIP\_UDP       | UDP      | 5061              |
 | Any\_UDP       | Any\_UDP       | UDP      | 1-65535           |
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/sip-service-ports-table.png" alt="Check Point SIP-related services with protocols and destination ports."></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/sip-service-ports-table.png" alt="Check Point SIP-related services with protocols and destination ports." width="563"></div>
 
 ## Configure SIP on each speaker (examples)
 
@@ -137,5 +137,5 @@ After you finish the Check Point steps above, open each speaker’s own admin in
 
 ## Next steps
 
-- To add IP speakers you trigger with patterns over REST or TCP/UDP in VMS+, continue with [Smart speakers](smart-speakers.md).
-- For remote access to a camera manufacturer’s web UI, see [Camera networking options](../camera-networking-options.md).
+* To add IP speakers you trigger with patterns over REST or TCP/UDP in VMS+, continue with [Smart speakers](smart-speakers.md).
+* For remote access to a camera manufacturer’s web UI, see [Camera networking options](../camera-networking-options.md).
