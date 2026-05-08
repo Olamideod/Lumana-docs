@@ -48,11 +48,13 @@ If a user isn't in the list, then you can invite them directly from the Manage u
 
 1. On the Permissions page, select the group. The group page opens.
 2. Select **Manage users** in the top right. The Manage users panel opens.
-3. Select **Invite users**.
+3. Select **Invite users**. The Invite users panel opens.
 
-{% hint style="info" %}
-[PLACEHOLDER — steps and screenshot needed for the invite users flow from within the group.]
-{% endhint %}
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/permissions-invite-users.png" alt="" width="563"></div>
+
+4. Select a permission level from the **Permission** dropdown.
+5. Enter the user's email address in the **Email address** field. To invite more people, select **+** to add another row.
+6. Select **Send invite**. Lumana sends each person an invitation email.
 
 ## Remove a user from a group
 
@@ -71,9 +73,21 @@ If the user belongs to other groups, then those access rights remain unchanged.
 
 ## Add an organization to a group
 
-{% hint style="info" %}
-[PLACEHOLDER — SME answers needed: What is the Organizations tab for? How does an invite code get generated, and who generates it?]
-{% endhint %}
+The **Organizations** tab lets you invite a partner organization to your group using an invite code. Use this when you can't list or manage the partner's individual users. For example, if a partner has multiple customers and all of them need access, then invite the organization directly. This is faster than inviting each person by email.
+
+Invite codes come from Lumana Support. Contact Support to get the code for the organization you want to add before starting.
+
+1. On the **Organizations** tab, select **Manage organizations**. The Manage organizations panel opens.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/permissions-manage-organizations.png" alt="" width="563"></div>
+
+2. Select **Invite organization**. The Invite support panel opens.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/permissions-support-panel.png" alt="" width="563"></div>
+
+3. Select a permission group from the **Permission** dropdown.
+4. Enter the invite code in the **Invite code** field.
+5. Select **Invite**.
 
 ## Set access rights
 
