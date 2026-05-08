@@ -49,7 +49,8 @@
 
 ## Set up cameras and devices
 
-* [Overview](set-up-cameras-and-devices/overview.md)
+* [Overview](set-up-cameras-and-devices/README.md)
+* [Recommended setup tasks](set-up-cameras-and-devices/overview.md)
 * [Set up a static IP address](set-up-cameras-and-devices/set-up-a-static-ip-address.md)
 * [Enable PTZ control](set-up-cameras-and-devices/enable-ptz-control.md)
 * [Camera networking options](set-up-cameras-and-devices/camera-networking-options.md)
@@ -87,6 +88,7 @@
 
 ## Live video monitoring and operations
 
+* [Overview](live-video-monitoring-and-operations/README.md)
 * [Use live view](live-video-monitoring-and-operations/live-view.md)
 * [Live view streaming and quality](live-video-monitoring-and-operations/live-view-streaming-and-quality.md)
 * [PTZ control](live-video-monitoring-and-operations/ptz-control.md)
@@ -178,6 +180,7 @@
 
 ## Databases, analytics, and search
 
+* [Overview](databases-analytics-and-search/README.md)
 * [Build a database of people and vehicles](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md)
 * [Tracking people](databases-analytics-and-search/tracking-people.md)
 * [Tracking vehicles](databases-analytics-and-search/tracking-vehicles.md)
