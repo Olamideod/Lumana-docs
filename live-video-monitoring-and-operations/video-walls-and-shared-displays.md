@@ -45,27 +45,32 @@ Use the **Walls** page to open existing walls and make changes to saved layouts.
 
 Create a saved wall when you need a reusable layout for ongoing monitoring.
 
-1. On **Walls**, select **Create wall**.
-2. Enter a wall name and choose a layout that fits the number of cameras or alert tiles you want to show.
-3. Open **Cameras & alerts** to add camera tiles and alert tiles.
+1. On **Walls**, select **Create wall** in the upper-left corner of the page.
 
-   Alert tiles help you monitor real-time events without opening a separate view.
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-create-wall-button.png" alt="Create wall button in the upper-left of the Walls page." width="375"></div>
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-cameras-and-alerts-tab.png" alt="Cameras and alerts tab." width="375"></div>
+2. Enter a wall name and choose a layout that fits the number of cameras or alert tiles you want to show, and select **Done**.
+3. Expand **Cameras** to choose which cameras appear on the wall, and expand **Alerts** to configure alert tiles.
 
-4. Open **Alert view settings** to choose how alerts appear on the wall.
+   Each row shows a chevron you can expand. Alert tiles surface real-time events without opening a separate view.
 
-   You can position the alert list, choose display and picture-in-picture options, set the view duration, and enable alert sound.
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-cameras-and-alerts-tab.png" alt="Expandable Cameras and Alerts rows in the sidebar; Alerts shows a gear for settings." width="375"></div>
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-view-settings.png" alt="Alert view settings." width="375"></div>
+4. Select the **settings** gear next to **Alerts** to open **Alerts settings**.
 
-5. Configure alert filtering to choose which alerts appear on the wall.
+   Choose **Display** (for example how the alert list renders), **View duration**, **Pic in pic** source and placement, and **Audio** (announcement style and volume). Select **Test** to preview sound. Select **Done** to close **Alerts settings**.
 
-   You can filter by location, camera, and priority so the wall only shows the events that matter to your team.
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-view-settings.png" alt="Alerts settings dialog: Display, View duration, Pic in pic, Audio with volume and Test, and Done." width="375"></div>
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-filtering.png" alt="Alert filtering panel." width="375"></div>
+5. Select the cameras and alerts for the wall using the sidebar.
 
-6. Select **Done**, then select **Create**.
+   Under **Cameras**, search by name or open a location, then select each camera you want included. Under **Alerts**, search or manage the list (**Clear all** when you want to reset), then enable the alert categories you want surfaced on the wall.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-cameras-alerts-selection.png" alt="Sidebar with wall title, expandable Cameras (search, locations, checklist), and Alerts (search, Clear all, per-alert checkboxes)." width="375"></div>
+
+6. Select **Create wall** in the upper-right corner.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-editor-create-wall.png" alt="Create wall editor with Walls and Create wall breadcrumbs, sidebar (wall name, Cameras, Alerts), two-tile grid preview, and blue Create wall button upper right (callout arrow in screenshot)." width="563"></div>
 
 ## Create a quick live view wall
 
@@ -85,11 +90,19 @@ Use **Quick live view** when you need a temporary wall without building a full s
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-example.png" alt="Quick live view wall example." width="563"></div>
 
-4. Use the upper-right controls to open full-screen mode, adjust the settings, or save the wall.
+4. Use the upper-right toolbar: **Edit** (**pencil**), full-screen, or **Save as wall** when you want the layout in your **Walls** list.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-toolbar.png" alt="Quick live view toolbar." width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-toolbar.png" alt="Quick live view toolbar: Edit (pencil), full-screen brackets, Save as wall." width="375"></div>
 
-5. Save the wall if you want it to appear in your wall list later.
+5. After **Save as wall**, confirm in **Save live view as wall** by selecting **Yes I'm sure** (or **Cancel** to go back).
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-save-live-view-confirm.png" alt="Save live view as wall dialog: Would you like to save this live view as a wall?, Cancel, Yes I'm sure." width="375"></div>
+
+6. Enter a **Wall name**, then select **Save**.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-save-live-view-name.png" alt="Save live view as wall dialog: Wall name field and Save button." width="375"></div>
+
+If you did not use **Save as wall**, quick live view stays temporary until you navigate away.
 
 Quick live view walls also use the same live view controls available in [Use live view](live-view.md).
 
