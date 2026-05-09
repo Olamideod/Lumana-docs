@@ -1,10 +1,12 @@
 # Video walls and shared displays
 
-Use video walls and shared displays to monitor multiple cameras on one screen, combine live cameras with alerts, and share selected views with other viewers. Lumana supports saved walls for ongoing monitoring, quick live view walls for fast temporary layouts, and shared external video walls for secure external access.
+Use video walls and shared displays to monitor multiple cameras on one surface. Combine live cameras with alert tiles or share walls with partners who sit outside Lumana.
+
+Lumana offers saved walls plus quick live grids plus secure external walls you can open anywhere.
 
 ## Before you begin
 
-Make sure you can access the cameras and locations you want to display. If you plan to create a shared external video wall, you'll also need access to API keys and camera IDs.
+Make sure you can access the cameras and locations you want to display. If you plan to create a shared external video wall, then you'll also need access to API keys and camera IDs.
 
 ## Choose the right wall type
 
@@ -14,7 +16,7 @@ Choose the wall type based on how long you need the layout and who needs to view
 - **Quick live view**: Use it when you need a temporary wall quickly and may want to save it later.
 - **Shared external video wall**: Use a shared external video wall when you need a secure URL for viewers outside Lumana.
 - **Standard camera and alert tiles**: Use standard camera tiles and alert tiles when you need to combine live monitoring with event visibility in the same wall.
-- **Advanced alert tile**: Use the advanced alert tile when you want alerts to stream directly to the video wall without extra clicks.
+- **Advanced alert tile**: Use the advanced alert tile when you want alerts to stream directly to the video wall without extra selections.
 
 ## View and edit walls
 

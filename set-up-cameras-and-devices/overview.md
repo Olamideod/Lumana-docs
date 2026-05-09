@@ -2,7 +2,7 @@
 
 This guide walks you through configuring cameras, connected devices, and the network settings Lumana needs to run reliably.
 
-By the end, you'll have cameras streaming to Lumana Core and the right network and infrastructure settings in place for live monitoring, event detection, and video search.
+By the end, you'll have cameras streaming to Lumana Core. The rest of your network stack satisfies live monitoring, event detection, and video search workloads.
 
 ## What you’ll achieve
 

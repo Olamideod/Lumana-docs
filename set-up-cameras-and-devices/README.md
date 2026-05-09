@@ -1,6 +1,10 @@
 # Set up cameras and devices
 
-This section walks you through connecting and tuning cameras, adding ancillary devices, choosing networking and streaming settings, and meeting Lumana Core infrastructure requirements so your deployment stays stable.
+In this section you connect cameras alongside Lumana Core.
+
+You optionally add peripherals, stabilize addresses, tune network paths, and align streaming settings with Lumana Core prerequisites.
+
+Select a page or subsection below to continue.
 
 ## Recommended setup, networking, and streaming
 

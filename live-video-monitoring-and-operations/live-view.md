@@ -1,6 +1,6 @@
 # Use live view
 
-Use Live view to watch a camera in real time, adjust stream quality, capture snapshots, and move into related views such as playback or multi-camera layouts.
+Use Live view to watch a camera in real time. Adjust stream quality, capture snapshots, and hop into playback or multi-camera layouts when you need more context.
 
 ## Before you begin
 
@@ -12,7 +12,7 @@ Open Live view when you want to watch a camera in real time and confirm what is 
 
 1. Open **Cameras**.
 2. Select the location and camera you want to view. The live stream starts playing automatically.
-3. If the stream is paused for example, after idle time; select **Play** to resume.
+3. If the stream is paused, for example after idle time, then select **Play** to resume.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-main-grid.png" alt="Live view camera grid and location list." width="563"></div>
 

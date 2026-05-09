@@ -1,6 +1,6 @@
 # PTZ control
 
-Use pan, tilt, and zoom from live view when your permissions allow it and an administrator has enabled PTZ for that camera in **Edit camera**. For setup (driver, path, port), see [Enable PTZ control](../set-up-cameras-and-devices/enable-ptz-control.md).
+If your assignment permits PTZ, then use pan, tilt, and zoom controls in Live view. An administrator enables PTZ per camera inside **Edit camera**. For driver configuration, stream path, or port values, see [Enable PTZ control](../set-up-cameras-and-devices/enable-ptz-control.md).
 
 ## Use PTZ in live view
 
