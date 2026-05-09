@@ -6,40 +6,36 @@ Use multi-camera playback to review footage from up to four cameras on one synch
 
 ## Before you begin
 
-Make sure the cameras you want to review have recorded footage for the time range you need. You also need access to the other cameras and locations you want to add.
+Make sure usable footage exists around the playback moment you need. Confirm you can reach other cameras before you attach them.
 
-You can start multi-camera playback from views that show thumbnails, such as camera feeds, search results, and alerts.
+You can open a camera viewer from feeds, thumbnails in search results, alerts, or **Devices**.
 
 ## Use multi-camera playback
 
-Start from a camera preview, then open the video timeline and add more cameras to the same playback session.
+Start from a single camera viewer, anchor playback on one date and clock time rather than an end-stop range, then add up to three more synchronized feeds.
 
-1. Open the camera you want to review and select the time range you need.
-2. Select **Video**.
+1. Open the camera you want first.
+2. Select the date-and-time control below the player.
 
-   The playback view opens and shows the multi-camera playback icon in the upper-right corner.
+   The calendar and clock picker opens.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-video-tab.png" alt="Video tab view with the multi-camera playback icon highlighted." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-date-time-and-add.png" alt="Playback view with calendar and time picker open from the date-time button under the frame; multi-camera playback icon annotated at bottom right." width="563"></div>
 
-3. In the upper-right corner of the playback view, select the <img src="../.gitbook/assets/icons/icon-multi-camera-playback.png" alt="Multi-camera playback icon in the playback toolbar." data-size="line"> **multi-camera playback** icon.
+3. Choose the playback date and clock fields for the instant you want to view, which is where playback anchors.
 
-4. Select up to three additional cameras, then select **Select**.
+4. Select **Done**.
 
-   The chooser lets you search cameras and locations before you add them.
+5. Select the <img src="../.gitbook/assets/icons/icon-multi-camera-playback.png" alt="Camera-with-plus icon for adding cameras to playback" data-size="line"> multi-camera playback icon at the bottom-right edge of the video.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-choose-cameras.png" alt="Choose cameras dialog for multi-camera playback with selected cameras and Select button." width="563"></div>
+6. Select up to three more cameras inside the picker, then select **Select**.
 
-5. Review the synchronized playback view.
+   Search cameras or drill into locations if you need fewer rows on screen.
+
+7. Review the synchronized playback view.
 
    All selected cameras stay on one timeline. You can scrub across the incident, change playback speed, and export footage to the archive.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-synced-view.png" alt="Synchronized multi-camera playback view with four camera tiles and shared timeline controls." width="563"></div>
-
-{% hint style="info" %}
-In search-based playback, a green highlight on a camera timeline marks frames where the searched object appears, like in the image below.
-{% endhint %}
-
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-wall-view.png" alt="Multi-camera playback wall view with synchronized camera tiles and shared timeline." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-synced-view.png" alt="Synchronized multi-camera playback: 2x2 grid with His playback labels, shared timestamp, camera names, and playback bar with speed, date range, and timeline playhead." width="563"></div>
 
 ## Next steps
 
