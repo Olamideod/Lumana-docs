@@ -4,39 +4,31 @@ Use the system health dashboard to check the current status of your Lumana Core,
 
 ## Before you begin
 
-Make sure you can open a camera view page in your organization. You also need access to the Cores and cameras you want to review.
+Make sure you can open **Devices** and view the **Devices list** in your organization. You also need access to the Cores and cameras you want to review.
 
 ## Open the system health dashboard
 
-Open the dashboard from a camera view page to see the current health status of your organization's Cores and cameras.
+Open the dashboard from the **Devices list** to see the current health status of your organization's Cores and cameras for a location.
 
-1. On the camera view page, select **Health view**.
+1. Go to **Devices** > **Devices list**. If another tab is selected at the top of the page (for example **Cameras** or **Map**), select **Devices** so the devices table is visible.
 
-   The system health dashboard opens and shows the current status of your Cores, cameras, storage, and recent recording status information.
+2. In the header row for the location you want, select the **system health** icon (pulse / line graph), shown toward the right next to actions such as add, edit, and reorder.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/health-view-button.png" alt="" width="563"></div>
+   The system health dashboard opens and shows the current status of your Cores, cameras, storage, and recent recording status information for that location.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-overview.png" alt="" width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-overview.png" alt="Devices list showing a location row with the system health (pulse) icon in the header" width="563"></div>
 
-## Review camera health history
+## Review location uptime history
 
-Use the row controls to inspect recent online and offline history for an individual camera.
+In **Location Health**, review uptime for each Core and its cameras.
 
-1. In the rightmost column for a camera, select the small bar-chart icon.
+1. Open **Period** and choose the time range to review (for example **1 day**).
 
-   A camera-specific status view opens and shows recent online and offline activity.
+2. Under each **Core**, read the uptime rows for the Core and for each camera. Green shows time online; red or breaks show offline time.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-uptime-history.png" alt="" width="563"></div>
+3. Hover a segment of a bar for interval details.
 
-2. Hover over the status bars to see more detail.
-
-   Hover details appear for the selected time segment.
-
-3. Adjust the number of days to change the time window.
-
-   The status view updates to match the selected time range.
-
-Once you review recent status history, the health indicators help you identify which part of the camera workflow needs attention.
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-uptime-history.png" alt="Location Health panel with Period selector and Core uptime bars for the Core and its cameras" width="563"></div>
 
 ## Understand health indicators
 
