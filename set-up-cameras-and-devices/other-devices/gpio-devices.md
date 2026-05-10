@@ -2,13 +2,13 @@
 
 GPIO (general-purpose input/output) is an interface on Lumana Core that allows it to interact with external devices.
 
-In Lumana, GPIO pins can be programmed to toggle high or low in response to an alert, enabling third-party devices to read hardwired signals from Lumana or control devices such as LEDs, motors, or relays.
+In Lumana, you can program GPIO pins to toggle high or low in response to an alert. Third-party devices can read those hardwired signals from Lumana, or you can drive devices such as LEDs, motors, or relays.
 
 ## Pinout
 
 Use the following pinout reference when wiring a device to GPIO.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/gpio-pinout.png" alt="GPIO pinout diagram and address table." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-pinout.png" alt="" width="563"></div>
 
 ## Connect a device
 
@@ -27,7 +27,7 @@ In the example below, an LED is connected to the GPIO. Each time the alert trigg
 - `R1` is the current-limiting resistor for the LED.
 - `R2` is the base resistor that controls how much current flows in the circuit.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/gpio-led-wiring.png" alt="GPIO LED breadboard wiring and schematic." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-led-wiring.png" alt="" width="563"></div>
 
 ## Use GPIO in alerts
 
@@ -37,4 +37,12 @@ In the example below, an LED is connected to the GPIO. Each time the alert trigg
 
 3. Select the GPIO to use. The Core can support up to 4 GPIOs, toggle high or low, and control how long the signal remains active.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/gpio-alert-toggle-gpio.png" alt="Alert editor, Toggle GPIO action." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-alert-toggle-gpio.png" alt="" width="563"></div>
+
+## Next steps
+
+After you wire and enable GPIO, you can continue with related setup tasks.
+
+- Use [Disruptive sensors](disruptive-sensors.md) when you also want sensor-driven alerts and snapshots.
+- Use [Smart speakers](smart-speakers.md) to add audio responses to GPIO-triggered alerts.
+- Read [Lumana Core hardware specifications](../network-and-infrastructure-configuration/lumana-core-hardware-specifications.md) for the full pin and connector layout.

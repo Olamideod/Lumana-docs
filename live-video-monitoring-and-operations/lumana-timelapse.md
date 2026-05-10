@@ -2,7 +2,7 @@
 
 Use Lumana timelapse to review recent activity across a camera without scrubbing through full video manually. By default, timelapse is available for recent snapshots, and you can extend that retention window when you need a longer view.
 
-## Before you begin
+## Prerequisites
 
 Make sure you can open the camera settings for the camera you want to use. You also need permission to change snapshot retention settings.
 

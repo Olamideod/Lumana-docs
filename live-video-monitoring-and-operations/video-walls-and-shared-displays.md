@@ -4,7 +4,7 @@ Use video walls and shared displays to monitor multiple cameras on one surface. 
 
 Lumana offers saved walls plus quick live grids plus secure external walls you can open anywhere.
 
-## Before you begin
+## Prerequisites
 
 Make sure you can access the cameras and locations you want to display. If you plan to create a shared external video wall, then you'll also need access to API keys and camera IDs.
 
@@ -60,13 +60,18 @@ Create a saved wall when you need a reusable layout for ongoing monitoring.
 
 4. Select the **settings** gear next to **Alerts** to open **Alerts settings**.
 
-   Choose **Display** (for example how the alert list renders), **View duration**, **Pic in pic** source and placement, and **Audio** (announcement style and volume). Select **Test** to preview sound. Select **Done** to close **Alerts settings**.
+   Configure each option, then select **Done** to close **Alerts settings**:
+
+   - **Display**: choose how the alert list renders.
+   - **View duration**: set how long each alert stays on screen.
+   - **Pic in pic**: pick the source camera and where it appears.
+   - **Audio**: set the announcement style and volume. Select **Test** to preview the sound.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-view-settings.png" alt="Alerts settings dialog: Display, View duration, Pic in pic, Audio with volume and Test, and Done." width="375"></div>
 
 5. Select the cameras and alerts for the wall using the sidebar.
 
-   Under **Cameras**, search by name or open a location, then select each camera you want included. Under **Alerts**, search or manage the list (**Clear all** when you want to reset), then enable the alert categories you want surfaced on the wall.
+   Under **Cameras**, search by name or open a location, then select each camera you want included. Under **Alerts**, search the list or select **Clear all** to reset it. Then enable the alert categories you want surfaced on the wall.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-cameras-alerts-selection.png" alt="Sidebar with wall title, expandable Cameras (search, locations, checklist), and Alerts (search, Clear all, per-alert checkboxes)." width="375"></div>
 

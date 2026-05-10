@@ -10,7 +10,7 @@ The **Missing object** alert notifies you when a marked object is no longer visi
 - **Security enforcement**: Detects unauthorized removals or theft of equipment or inventory in the region you marked.
 - **Operational continuity**: Helps confirm that critical items stay in place during the hours you monitor.
 
-## Before you begin
+## Prerequisites
 
 Make sure you can open **Alerts** and create alert rules. You need a camera that shows the object clearly enough to mark it in the frame, and permission to choose notification actions under **Then do this**.
 

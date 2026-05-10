@@ -2,7 +2,7 @@
 
 Use the occupancy widget to visualize current occupancy, historical trends, and entry and exit activity for a defined space. This guide walks you through the main dashboard setup flow.
 
-## Before you begin
+## Prerequisites
 
 Make sure the relevant entry and exit points are covered by cameras and that you can edit dashboards in your organization. If line crossings are not configured yet, the setup flow prompts you to create them.
 
@@ -30,7 +30,7 @@ After you select the entrances and exits, configure the operational settings tha
 
 2. Set the reset time.
 
-   Choose whether the reset runs daily or weekly, then set the reset hour. To avoid incorrect counts, make sure the space is empty when the reset runs. If numbers still look wrong after a reset, see [Common accuracy issues](space-occupancy-analytics.md#common-accuracy-issues) in *Space occupancy analytics*.
+   Choose whether the reset runs daily or weekly, then set the reset hour. To avoid incorrect counts, make sure the space is empty when the reset runs. If numbers still look wrong after a reset, see [Common accuracy issues](space-occupancy-analytics.md#common-accuracy-issues).
 
 3. Define viewing hours if needed.
 

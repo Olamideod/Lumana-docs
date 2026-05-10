@@ -2,7 +2,7 @@
 
 Change the Lumana theme to dark mode or light mode from your account settings. This can make the interface easier to read based on your preference and environment.
 
-## Before you begin
+## Prerequisites
 
 Make sure you are signed in and can open your account settings.
 

@@ -12,7 +12,7 @@ Many teams use it at gates, yards, and warehouse doors where containers pass fix
 - *Optimized operations* – Speed up yard and terminal workflows when staff can confirm containers in Lumana.
 - *Regulatory compliance* – Maintain accurate audit trails from what the system read and your stored footage, within your retention settings.
 
-## Before you begin
+## Prerequisites
 
 - You can **edit camera** settings and analytics for the target cameras.
 - The scene shows enough of the container ID that reads are plausible for your use case.

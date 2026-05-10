@@ -49,7 +49,7 @@ The feature works best when every way into and out of the counted area is covere
 
 ### Choose a camera placement
 
-Camera placement affects counting accuracy. Aim each camera so it has a clear view of the crossing you want to measure for every entrance and exit you include in the count.
+Camera placement affects counting accuracy. Aim each camera so it has a clear view of the crossing you want to measure. Include every entrance and exit in the count.
 
 ### Overhead camera placement
 

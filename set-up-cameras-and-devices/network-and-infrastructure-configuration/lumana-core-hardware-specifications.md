@@ -6,7 +6,7 @@ For full network onboarding steps, see [Connect Lumana Core to the network](http
 
 ## Rear panel
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-rear-panel-connectivity.png" alt="Lumana Core rear panel with POWER, HDMI 1 and 2, USB 3.0, Ethernet 1 and 2, DC IN, and ground terminal." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-rear-panel-connectivity.png" alt="" width="563"></div>
 
 ## Installation
 
@@ -41,7 +41,7 @@ For detailed steps, see [Connect Lumana Core to the network](https://support.lum
 
 ## Product dimensions (mm)
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-rear-panel-dimensions.png" alt="Technical drawing of Lumana Core rear panel with port layout and dimensions in millimeters." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-rear-panel-dimensions.png" alt="" width="563"></div>
 
 ## Related configuration
 

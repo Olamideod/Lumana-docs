@@ -35,7 +35,7 @@ Here is a list of compatible Axis models.
 
 ## Connecting your AXIS camera to Lumana Core
 
-This guide walks you through preparing the camera, choosing how Lumana authenticates to it, optional manual stream profiles, and finally adding it in Lumana Core. For the fewest integration issues, use the camera root (admin) account in Lumana when that is allowed by your security policy.
+This guide walks you through preparing the camera, choosing how Lumana authenticates, optional manual stream profiles, and adding the camera in Lumana Core. For the fewest integration issues, use the camera's root (admin) account in Lumana when your security policy allows it.
 
 Choose the connection method that fits your setup:
 
@@ -58,7 +58,7 @@ When your policy allows it, connect with the camera’s admin (root) credentials
 * **Discovery and addressing**: Use [Axis IP Utility](https://www.axis.com/support/tools/axis-ip-utility) (or the camera web interface) to find the camera, set the root password, and assign a static IP. A stable IP prevents Lumana Core from losing the device when DHCP leases change.
 * **ONVIF and passwords**: After the root password is set, Axis disables ONVIF until you add an ONVIF user (see below). Plan that step if you will use ONVIF in Lumana.
 
-Put the workstation you use for setup on the same LAN as the camera (for example, cameras and a computer on one switch) so discovery and the web UI work reliably.
+Put the workstation you use for setup on the same LAN as the camera. For example, plug the cameras and your computer into one switch so discovery and the web UI work reliably.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-setup-network-topology.png" alt="Diagram: security cameras and a laptop connected to a network switch on the same local network." width="563"></div>
 

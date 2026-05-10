@@ -8,7 +8,7 @@ Reports summarize analytics from your VMS+ data (alerts, attendance, license pla
 
 The **Reports** feature creates CSV exports and can automate delivery by download or email. Select **Reports** in the main navigation. The entry uses a list-style icon: <img src="../.gitbook/assets/databases-analytics-and-search/generate-reports-navigation-icon.png" alt="" data-size="line">
 
-## Before you begin
+## Prerequisites
 
 - Your role can open **Reports** and **Create report**.
 - Cameras and analytics for **Alerts**, **Attendance**, or **License plates** match the report **Type** you plan to use.

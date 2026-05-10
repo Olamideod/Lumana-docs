@@ -66,7 +66,7 @@
   * [Verkada](set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md)
   * [Other brands](set-up-cameras-and-devices/connect-cameras-by-brand/other-brands.md)
 * [Other devices](set-up-cameras-and-devices/other-devices/README.md)
-  * [Network Attached Storage (NAS) devices](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md)
+  * [Network attached storage (NAS) devices](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md)
   * [FLIR sensors](set-up-cameras-and-devices/other-devices/flir-sensors.md)
   * [Disruptive sensors](set-up-cameras-and-devices/other-devices/disruptive-sensors.md)
   * [Smart speakers](set-up-cameras-and-devices/other-devices/smart-speakers.md)

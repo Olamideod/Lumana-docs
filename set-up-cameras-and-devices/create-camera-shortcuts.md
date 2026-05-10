@@ -34,5 +34,5 @@ Go back to the camera’s live view. A shortcut can open the linked camera in a 
 
 ## Next steps
 
-- Use [Use live view](../live-video-monitoring-and-operations/live-view.md) for the player, layouts, and controls.
+- Open [Live view](../live-video-monitoring-and-operations/live-view.md) for the player, layouts, and controls.
 - Use [Set up a camera floor plan](set-up-a-camera-floor-plan.md) to map cameras to locations on your site.

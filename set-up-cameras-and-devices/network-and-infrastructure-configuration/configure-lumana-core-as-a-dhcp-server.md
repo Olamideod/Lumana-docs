@@ -36,9 +36,9 @@ When enabled, the DHCP server on Lumana Core provides essential networking servi
 
 ## Configuration parameters
 
-To set up the DHCP server on Lumana Core, the following parameters need to be configured:
+Configure the following parameters when you set up the DHCP server on Lumana Core:
 
-- **Starting IP Address**: The first IP address in the DHCP pool that Lumana Core will assign to devices.
+- **Starting IP Address**: The first IP address in the DHCP pool that Lumana Core assigns to devices.
 - **Ending IP Address**: The last IP address in the DHCP pool, defining the range of available IPs.
 - **DNS Servers**: A list of DNS servers that clients should use for domain name resolution. Multiple servers can be specified, separated by commas.
 - **Gateway**: The default gateway IP address that clients will use to communicate with external networks.
@@ -68,4 +68,12 @@ Lumana Core supports DHCP address reservation, allowing specific devices to alwa
 - Ensuring stable IP addresses for critical infrastructure such as servers and other network devices
 - Preventing IP conflicts by pre-assigning known addresses
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-address-reservation-ui.png" alt="DHCP Server enabled with pool settings, Disable, address reservations table, and attached devices." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-address-reservation-ui.png" alt="" width="563"></div>
+
+## Next steps
+
+After you configure DHCP on Lumana Core, you can continue with related setup tasks.
+
+- Use [Firewall requirements](firewall-requirements.md) to align outbound rules with the new pool.
+- Use [Local time and NTP configuration](local-time-and-ntp-configuration.md) to keep Core timestamps accurate.
+- Use [Set up a static IP address](../set-up-a-static-ip-address.md) when you need fixed addresses outside the DHCP pool.

@@ -17,3 +17,11 @@ If your assignment permits PTZ, then use pan, tilt, and zoom controls in Live vi
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-ptz-controls-overlay.png" alt="Live view with PTZ panel: zoom in/out buttons, directional pad with Home, PTZ toggle on, preset save, settings, and bottom toolbar." width="563"></div>
 
 For PTZ from the Lumana mobile app, see [PTZ (pan, tilt, zoom) control](../the-lumana-mobile-app/access-camera-control/ptz-pan-tilt-zoom-control.md).
+
+## Next steps
+
+After you control PTZ in Live view, you can continue with related setup and monitoring tasks.
+
+- Read [Enable PTZ control](../set-up-cameras-and-devices/enable-ptz-control.md) for driver, stream path, and port configuration.
+- Use [Live view](live-view.md) to monitor cameras in real time alongside PTZ.
+- Use [Multi-camera playback](multi-camera-playback.md) to review recorded footage from PTZ and other cameras.

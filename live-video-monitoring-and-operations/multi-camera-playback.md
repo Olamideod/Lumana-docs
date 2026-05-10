@@ -4,15 +4,15 @@ Use multi-camera playback to review footage from up to four cameras on one synch
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-preview.png" alt="Multi-camera playback preview with image results, selected time range, and Add cameras button." width="563"></div>
 
-## Before you begin
+## Prerequisites
 
 Make sure usable footage exists around the playback moment you need. Confirm you can reach other cameras before you attach them.
 
 You can open a camera viewer from feeds, thumbnails in search results, alerts, or **Devices**.
 
-## Use multi-camera playback
+## Set up a multi-camera playback view
 
-Start from a single camera viewer. Anchor playback on one date and clock instant, not an end-stop span. Add up to three more synchronized feeds next.
+Open one camera viewer, anchor playback on a date and clock instant, then add up to three more synchronized feeds.
 
 1. Open the camera you want first.
 2. Select the date-and-time control below the player.

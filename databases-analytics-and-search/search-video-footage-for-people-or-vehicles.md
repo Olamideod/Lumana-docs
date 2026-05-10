@@ -1,8 +1,8 @@
 # Search video footage for people or vehicles
 
-Use Smart Search to find people and vehicles across your cameras by time range, location, and attribute filters. Lumana Core runs the search so you can combine filters such as clothing or vehicle details and review matching clips without scrubbing every feed manually.
+Use Smart Search to find people and vehicles across your cameras by time range, location, and attribute filters. Lumana Core runs the search. Combine filters like clothing or vehicle details, then review matching clips without scrubbing every feed manually.
 
-## Before you begin
+## Prerequisites
 
 Make sure you can open **Search** from the main navigation and select the cameras and time range you need. If you plan to filter by license plate or make, model, and color (MMC), then those capabilities must be enabled for your organization.
 

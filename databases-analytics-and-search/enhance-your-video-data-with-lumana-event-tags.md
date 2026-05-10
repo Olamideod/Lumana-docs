@@ -2,11 +2,11 @@
 
 Event tags let you record structured events from external systems, whether those systems run on premises or in the cloud, and tie them to camera footage by time and camera. After you post a tag, you can search the payload in **Search** and use it as context for investigations, security, and operations.
 
-Consider a warehouse example: if your Warehouse Management System (WMS) knows a pallet’s ID, you can POST that ID with a camera and timestamp to Lumana. Operators can then search for the pallet to pull the clip for loading or condition checks and share that clip as evidence.
+Consider a warehouse example. If your Warehouse Management System (WMS) knows a pallet's ID, then you can POST that ID to Lumana with a camera and timestamp. Operators can then search for the pallet to pull the clip for loading or condition checks and share that clip as evidence.
 
 This guide walks you through generating an API key, creating an event tag, posting events to the Lumana API, finding them in **Search**, and optionally using them in alerts or a **Chart or table** widget. For widget options in depth, see [Chart or table](../dashboards/widgets/chart-or-table/README.md). For clip preview controls after you click the chart, see [Event tag clip preview](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/chart-or-table-event-tags-clip-preview.md).
 
-## Before you begin
+## Prerequisites
 
 You can open **Organization settings** and **Database** in the portal, generate and copy API keys, and call the Lumana API from the reference or a client such as Postman. Have your organization ID, a valid camera ID, and access to **Search**. Each organization can have up to **10** API keys (each with an expiration you set) and up to **10** event tag definitions.
 

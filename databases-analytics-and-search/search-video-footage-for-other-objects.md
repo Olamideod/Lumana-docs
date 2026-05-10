@@ -2,7 +2,7 @@
 
 Use the camera player to scrub recorded footage and filter detected **People**, **Faces**, **Vehicles**, and **License plates** from **Camera metadata** below the live view. This path is useful when you are already on a camera and want to browse detections without opening the main **Search** page first.
 
-## Before you begin
+## Prerequisites
 
 Open the camera you want to review and make sure you can see the timeline and the **Camera metadata** strip under the player. You need permission to view that camera and its recorded footage.
 
@@ -20,7 +20,7 @@ Open the camera you want to review and make sure you can see the timeline and th
 
 3. Open the dropdown labeled **Thumbnails** (next to the time and date).
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-other-objects-thumbnails-dropdown.png" alt="Thumbnails dropdown with Thumbnails, People, Faces, Vehicles, and License plates."></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-other-objects-thumbnails-dropdown.png" alt="" width="375"></div>
 
 4. Choose the object type you want to browse: **Thumbnails**, **People**, **Faces**, **Vehicles**, or **License plates**.
 

@@ -24,7 +24,7 @@ The process follows this order:
 
 Each step is covered in detail in the pages that follow.
 
-## Before you begin
+## Prerequisites
 
 Make sure you have the following before starting:
 

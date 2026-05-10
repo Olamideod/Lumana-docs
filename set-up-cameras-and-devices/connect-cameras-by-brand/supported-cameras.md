@@ -31,7 +31,7 @@ Lumana has been tested with the following camera brands:
 If your camera is not listed, it may still work if it supports ONVIF or RTSP.
 {% endhint %}
 
-Please contact [support@lumix.ai](mailto:support@lumix.ai) if you don’t find your camera model on this list.
+Please contact [support@lumix.ai](mailto:support@lumana.ai) if you don’t find your camera model on this list.
 
 ## Choose your camera brand
 

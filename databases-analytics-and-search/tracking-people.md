@@ -1,10 +1,10 @@
 # Tracking people
 
-Lumana combines video management with an AI engine so you can search large archives of footage quickly, receive real-time alerts, and automate responses. People analytics builds on that stack: you can search, track, and review occupancy-related activity using person detection, attributes, cross-camera association, and, where enabled, face recognition.
+Lumana combines video management with an AI engine so you can search large archives of footage quickly, receive real-time alerts, and automate responses. People analytics builds on that stack. You can search, track, and review occupancy-related activity using person detection, attributes, cross-camera association, and, when enabled, face recognition.
 
 The platform is designed to install with standard cameras. Detection and analytics improve as the system processes each stream; positioning and resolution still matter, especially for face recognition and attribute detail at distance.
 
-## Before you begin
+## Prerequisites
 
 - Cameras are added in Lumana and streaming reliably.
 - You know which sites or cameras should run people-related analytics (and any org policies that apply to face recognition or cross-camera identity).

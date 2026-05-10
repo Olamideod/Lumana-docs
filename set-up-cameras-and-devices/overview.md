@@ -13,7 +13,7 @@ After completing this section, you can:
 * Integrate supported devices such as sensors, storage, and GPIO.
 * Configure network and infrastructure requirements.
 
-## Before you begin
+## Prerequisites
 
 Make sure you have:
 

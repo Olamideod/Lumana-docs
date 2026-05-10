@@ -39,7 +39,7 @@ Ensure your Hikvision camera is updated, correctly configured, and ready to conn
 ### Activate your camera with the SADP tool
 
 * **Download SADP Tool**: If your camera is new or hasn’t been initialized yet, start by downloading the SADP (Search Active Device Protocol) tool from the [Hikvision official website](https://www.hikvision.com/en/support/tools/hitools/clea8b3e4ea7da90a9/). This software is designed to help find and initialize Hikvision devices on your network. Note: Hikvision's SADP tool requires Windows OS.
-* **Install and Launch SADP**: After downloading, install and open the SADP tool on a computer connected to the same local network as your Hikvision camera (for example, cameras and your PC on one switch).
+* **Install and launch SADP**: After downloading, install and open the SADP tool on a computer on the same local network as your Hikvision camera. For example, connect the cameras and your PC to the same switch.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-cameras-switch-laptop-diagram.png" alt="Diagram: IP cameras, network switch, and laptop on the same LAN for discovery and configuration." width="224"></div>
 
@@ -55,7 +55,7 @@ In a browser, open the camera using the IP address from SADP (for example `http:
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-web-login.png" alt="Hikvision web login page: admin username and password, Login button." width="563"></div>
 
-If you have successfully logged into your Hikvision camera's web interface using the IP address identified via the SADP tool, this indicates that your camera has been initialized properly. At this stage, your device is ready to be connected to Lumana Core using the recommended admin credentials method for optimal compatibility and feature access.
+If the web sign-in succeeds with the IP address from SADP, then the camera is initialized properly. At this stage, the device is ready to connect to Lumana Core. Use the admin credentials method for the best compatibility and feature access.
 
 If you are using admin credentials, you can proceed directly to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera).
 

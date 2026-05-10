@@ -2,7 +2,7 @@
 
 Use Live view to watch a camera in real time. Adjust stream quality, capture snapshots, and hop into playback or multi-camera layouts when you need more context.
 
-## Before you begin
+## Prerequisites
 
 Make sure the camera you want to view is added to Lumana and is online. You should also have access to the location and camera you want to open.
 
@@ -49,7 +49,7 @@ Use thumbnails to navigate Live view and review captured moments more quickly. T
 
 ## Next steps
 
-If you want to understand how Lumana delivers live video, check out the pages:
+After you set up Live view, you can continue with related live monitoring tasks.
 
 * Read [Live view streaming and quality](live-view-streaming-and-quality.md) to learn how local and cloud streaming work.
 * Use [Multi-camera playback](multi-camera-playback.md) to review more than one camera at the same time.

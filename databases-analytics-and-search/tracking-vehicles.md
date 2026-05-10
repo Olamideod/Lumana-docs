@@ -6,7 +6,7 @@ Vehicle analytics adds detection, attributes, and cross-camera association. It a
 
 Use the sections below for what each capability does. When you need to relate resolution and distance to detail, use [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md).
 
-## Before you begin
+## Prerequisites
 
 - Cameras are added in Lumana and streaming reliably.
 - You know which sites or lanes need vehicle analytics or LPR, and any policies that apply to plate or vehicle data.
