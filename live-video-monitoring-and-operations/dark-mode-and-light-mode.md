@@ -28,7 +28,7 @@ Open your user settings, then update the theme from your account details.
 
    The theme setting becomes editable.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-account-details-theme.png" alt="Account details page showing the Theme setting in dark mode." width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-account-details-theme.png" alt="" width="563"></div>
 
 5. Select **Dark** or **Light**, then select **Save**.
 
