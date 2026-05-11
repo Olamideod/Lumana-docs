@@ -62,12 +62,12 @@ Create a saved wall when you need a reusable layout for ongoing monitoring.
 
    Configure each option, then select **Done** to close **Alerts settings**:
 
-   - **Display**: choose how the alert list renders.
-   - **View duration**: set how long each alert stays on screen.
-   - **Pic in pic**: pick the source camera and where it appears.
-   - **Audio**: set the announcement style and volume. Select **Test** to preview the sound.
+   - **Display options**: choose how the alert renders, for example **Live**.
+   - **View duration**: set how long each alert stays on screen, for example **30 seconds**.
+   - **Pic in pic**: choose the picture-in-picture content (for example **Timelapse**) and its on-screen position (for example **Bottom right**).
+   - **Audio**: choose an announcement style (for example **Announcement**), set the volume with the slider, and select **Test** to preview the sound.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-view-settings.png" alt="Alerts settings dialog: Display, View duration, Pic in pic, Audio with volume and Test, and Done." width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-view-settings.png" alt="" width="375"></div>
 
 5. Select the cameras and alerts for the wall using the sidebar.
 
