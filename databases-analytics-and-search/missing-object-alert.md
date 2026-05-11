@@ -28,13 +28,15 @@ Make sure you can open **Alerts** and create alert rules. You need a camera that
 
 4. On the rule builder, enter an **Alert name** if you want. In the sentence, open the schedule link (for example **all times**) and **[default configuration]** when you need to change those values.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-alert-config.png" alt="" width="563"></div>
 
 5. Select **[cameras]** in the sentence. In the chooser, select the camera (or cameras) that should watch the object.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-choose-cameras-edit.png" alt="" width="563"></div>
 
 6. Select **Then** and choose what happens when the alert fires, for example notify someone.
+
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-alert-config.png" alt="" width="563"></div>
+
 
 7. Select the pencil icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-edit-pencil-icon.png" alt="Pencil icon to edit object region." data-size="line"> next to the camera so you can mark the object the alert should track.
 
