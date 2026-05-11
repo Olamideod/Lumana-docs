@@ -8,17 +8,22 @@ Make sure the relevant entry and exit points are covered by cameras and that you
 
 ## Add the occupancy widget
 
-Add the widget first, then choose the entrances and exits you want the dashboard to track.
+First create or open a dashboard, add the occupancy widget, then choose the entrances and exits you want the dashboard to track.
 
-1. Open your dashboard in edit mode.
-2. Select **Add widget**.
-3. Select **Occupancy**.
+1. Select **Dashboards** in the left navigation bar.
+2. Select **Create dashboard** in the top right corner.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-dashboards-create-dashboard.png" alt="" width="563"></div>
+
+3. If you are adding the widget to a dashboard you already saved, open that dashboard and select the **Edit dashboard** icon in the top right so the canvas is in edit mode. If you just created a new dashboard, you are already on the canvas and can continue.
+4. Select **Add widget**.
+5. Select **Occupancy**.
 
    The occupancy widget configuration opens.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-choose-camera.png" alt="Occupancy widget setup showing the camera selection dialog for choosing an entry camera." width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-entrances-dropdown-open.png" alt="" width="563"></div>
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-preview-settings.png" alt="Occupancy widget configuration showing selected entrances, object type, time range, and preview table." width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-entrances-selected-preview.png" alt="" width="563"></div>
 
 ## Configure widget settings
 
@@ -36,7 +41,7 @@ After you select the entrances and exits, configure the operational settings tha
 
    Use viewing hours when the widget should display occupancy data only during specific hours or days.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-advanced-settings.png" alt="Occupancy widget advanced settings showing reset time, viewing hours, weekends, and time range options." width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-settings-panel.png" alt="" width="563"></div>
 
 ## Review the results
 
