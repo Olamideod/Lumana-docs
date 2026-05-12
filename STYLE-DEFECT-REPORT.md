@@ -2,7 +2,7 @@
 
 This is a fresh review of the same three sections (`live-video-monitoring-and-operations`, `databases-analytics-and-search`, and `set-up-cameras-and-devices`) against `STYLEGUIDE.md`. This pass also verified that the screenshots match the steps they sit next to (image-vs-step accuracy).
 
-The categories used here map directly to the style guide. Where a file passes a category, the category is omitted for that file. Each defect quotes the offending text and gives a line number so you can find it quickly. No files have been edited.
+The categories used here map directly to the style guide. Where a file passes a category, the category is omitted for that file. Each defect quotes the offending text and gives a line number so you can find it quickly. Many reported items have been fixed in the repo since this review; re-open cited lines to confirm current state.
 
 ## Verification legend
 
@@ -27,12 +27,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Structural:**
 - ✅ [L9](live-video-monitoring-and-operations/README.md#L9): No "Next steps" section. Acceptable for an index/landing page, but worth noting. *Verified: the file ends at the cards table with no Next steps. Style guide says "Every major page ends with a Next steps section," but section index pages are commonly treated as the exception.*
-
----
-
-### `live-video-monitoring-and-operations/dark-mode-and-light-mode.md`
-
-(Image-vs-step content verified: user icon, settings menu, theme field, theme dialog all match.)
 
 ---
 
@@ -118,8 +112,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Structural / guide-structure issues:**
 - ✅ [L1](live-video-monitoring-and-operations/ptz-control.md#L1)–[L28](live-video-monitoring-and-operations/ptz-control.md#L28): No Prerequisites section. [Guide structure](STYLEGUIDE.md) requires Introduction, Prerequisites, Steps, Next steps for how-to pages. *Verified: the page jumps from H1 intro to "## Use PTZ in live view" to "## Next steps".*
-
-(Image-vs-step content verified: live-view PTZ toggle, controls overlay match the steps.)
 
 ---
 
@@ -254,9 +246,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **List/step issues:**
 - ✅ [L29](databases-analytics-and-search/free-text-search.md#L29)–[L33](databases-analytics-and-search/free-text-search.md#L33): step 3 ("Review the text search page.") uses the same image `free-text-search-text-search-screen.png` as step 2 ([L28](databases-analytics-and-search/free-text-search.md#L28)). *Verified — both steps reference the same screenshot.*
 
-**Image issues (file format / frame / alt / path):**
-- ✅ [L15](databases-analytics-and-search/free-text-search.md#L15), [L23](databases-analytics-and-search/free-text-search.md#L23), [L28](databases-analytics-and-search/free-text-search.md#L28), [L33](databases-analytics-and-search/free-text-search.md#L33), [L38](databases-analytics-and-search/free-text-search.md#L38), [L43](databases-analytics-and-search/free-text-search.md#L43): alt text is empty (`alt=""`) — correct per [Alt text](STYLEGUIDE.md). *Verified (this is a pass note, not a defect).*
-
 ---
 
 ### `databases-analytics-and-search/generate-reports.md`
@@ -310,8 +299,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **UI element issues:**
 - ✅ [L21](databases-analytics-and-search/search-video-footage-for-other-objects.md#L21): "Open the dropdown labeled **Thumbnails**" — per [UI text and messages](STYLEGUIDE.md) prefer "Select the **Thumbnails** dropdown". *Verified.*
 
-(Image-vs-step content verified: street camera, metadata bar, dropdown, vehicle results, object preview, vehicle objects tab, archive dialog all match.)
-
 ---
 
 ### `databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md`
@@ -351,9 +338,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 ---
 
 ### `databases-analytics-and-search/tracking-people.md`
-
-**Headings:**
-- ✅ [L29](databases-analytics-and-search/tracking-people.md#L29): H3 "Cross-camera tracking" matches body terminology. *Addressed — heading now includes the hyphen.*
 
 **Other / typography:**
 - ✅ [L31](databases-analytics-and-search/tracking-people.md#L31): curly apostrophe in `organization's`. *Verified.*
@@ -497,8 +481,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ⚠️ [L20](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L20)/[L22](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L22): step 1 says "top **left** corner"; `floor-plans-menu-overview.png` reportedly shows top-right. *Body text verified at L20 with "top left corner"; image content needs a visual review.*
 - ⚠️ [L40](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L40)/[L42](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L42): step 8 says "Select **Add floor plan** to save"; `edit-floor-plan-layout.png` reportedly shows completed floor plan. *Step text verified; image content needs a visual review.*
 
-(Image frames now applied correctly — resolved from the previous round.)
-
 ---
 
 ### `set-up-cameras-and-devices/set-up-a-static-ip-address.md`
@@ -508,8 +490,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **UI element issues:**
 - ✅ [L12](set-up-cameras-and-devices/set-up-a-static-ip-address.md#L12), [L96](set-up-cameras-and-devices/set-up-a-static-ip-address.md#L96): doc text uses "subnet mask" (lowercase). *Verified — body uses lowercase "subnet mask" while the UI label is reported to be "Subnet mask" (capital S).*
-
-(Image frames are now applied correctly — resolved from the previous round.)
 
 ---
 
@@ -574,9 +554,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Headings:**
 - ✅ [L1](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L1): H1 "Lumana" is just the brand name. Sibling pages use "Connect <brand> cameras". *Verified.*
-
-**Run-in labels:**
-- Addressed — bulk-capability bullets use `**Label**:` (colon outside bold) per [UI text and messages](STYLEGUIDE.md).
 
 **List/step issues:**
 - ✅ [L37](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L37)–[L41](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L41): "The following features are available for individual cameras only:" then 3 items, with the third being a run-in bold label — non-parallel. *Verified items at L39, L40, L41 (first two are phrases, third is `**Restore default settings:** Reset a camera...`).*
@@ -694,8 +671,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ✅ [L9](set-up-cameras-and-devices/network-and-infrastructure-configuration/local-time-and-ntp-configuration.md#L9): step 1 combines three actions ("Open **Devices** → **Devices list**. Use the **Cores** filter… select **Edit location**."). *Verified.*
 - ✅ [L13](set-up-cameras-and-devices/network-and-infrastructure-configuration/local-time-and-ntp-configuration.md#L13): step 2 combines two actions ("set **Time Zone**, then select **Save**"). *Verified.*
 
-(Image-vs-step content verified.)
-
 ---
 
 ### `set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md`
@@ -737,8 +712,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ✅ [L27](set-up-cameras-and-devices/other-devices/disruptive-sensors.md#L27): doc says **Integration** in step 4 ("Organization Settings -> Integration -> Disruptive"). *Verified — singular "Integration".*
 - ✅ [L15](set-up-cameras-and-devices/other-devices/disruptive-sensors.md#L15): doc says "In **Data Connector**, create a new connector". *Verified — singular "Data Connector" in step 2.*
 - ✅ [L33](set-up-cameras-and-devices/other-devices/disruptive-sensors.md#L33): step 5 says "**Devices** -> **Location** -> **Edit Location**". *Verified — Title Case "Edit Location".*
-
-(Image-vs-step content verified for all five screenshots.)
 
 ---
 

@@ -2,7 +2,7 @@
 
 If your assignment permits PTZ, then use pan, tilt, and zoom controls in Live view. An administrator enables PTZ per camera inside **Edit camera**. For driver configuration, stream path, or port values, see [Enable PTZ control](../set-up-cameras-and-devices/enable-ptz-control.md).
 
-## Use PTZ in live view
+## Use PTZ in Live view
 
 1. Open the camera from the **Devices** list.
 2. Enable **PTZ control** at the bottom of the camera view.
@@ -20,7 +20,7 @@ For PTZ from the Lumana mobile app, see [PTZ (pan, tilt, zoom) control](../the-l
 
 ## Next steps
 
-After you control PTZ in Live view, you can continue with related setup and monitoring tasks.
+After you control PTZ in **Live view**, you can continue with related setup and monitoring tasks.
 
 - Read [Enable PTZ control](../set-up-cameras-and-devices/enable-ptz-control.md) for driver, stream path, and port configuration.
 - Use [Live view](live-view.md) to monitor cameras in real time alongside PTZ.

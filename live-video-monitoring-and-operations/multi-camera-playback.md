@@ -27,7 +27,7 @@ Open one camera viewer, anchor playback on a date and clock instant, then add up
 
 5. Select the <img src="../.gitbook/assets/icons/icon-multi-camera-playback.png" alt="Camera-with-plus icon for adding cameras to playback" data-size="line"> multi-camera playback icon at the bottom-right edge of the video.
 
-6. Select up to three more cameras inside the picker, then select **Select**.
+6. Select up to three more cameras inside the picker, then select the **Select** button.
 
    If you need fewer rows on screen, then search cameras or drill into locations.
 

@@ -18,7 +18,7 @@ Open the camera you want to review and make sure you can see the timeline and th
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-other-objects-camera-metadata-bar.png" alt="Camera metadata bar with time range, Thumbnails dropdown, and interval control." width="563"></div>
 
-3. Open the dropdown labeled **Thumbnails** (next to the time and date).
+3. Select the **Thumbnails** dropdown (next to the time and date).
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-other-objects-thumbnails-dropdown.png" alt="" width="375"></div>
 

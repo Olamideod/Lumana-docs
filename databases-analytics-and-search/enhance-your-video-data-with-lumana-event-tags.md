@@ -1,4 +1,4 @@
-# Enhance your video data with Lumana Event Tags
+# Add Lumana Event Tags to your video data
 
 Event tags let you record structured events from external systems and tie them to camera footage by time and camera. Those systems can run on premises or in the cloud. After you post a tag, you can search the payload in **Search** and use it as context for investigations, security, and operations.
 
@@ -16,7 +16,7 @@ Lumana authenticates POST requests with API keys and your organization ID. Send 
 
 1. Open **Organization**, then **Organization settings**.
 2. In the left menu, select **API keys**.
-3. Select **Generate Key** (or the control that starts the create flow). The **Create API Key** dialog opens.
+3. Select **Generate Key**. The **Create API Key** dialog opens.
 4. Enter an **API Key name** and an **Expiration** value. The dialog shows the generated secret; copy it or use download if you prefer. You will not see the full key again after you complete the dialog.
 5. Select **Create** to finish.
 
@@ -33,7 +33,7 @@ An event tag is a template for events you will POST. It has a display name, a **
 ### Open event tag management
 
 1. In the sidebar, select **Database**, then **Event tags**.
-2. Select **Create event tag** (or open an existing tag to edit it).
+2. Select **Create event tag** to add a new definition, or open an existing tag in the list to edit it.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-database-list.png" alt="" width="563"></div>
 
@@ -69,7 +69,7 @@ POST https://access.lumana.ai/v1/events-tag/insert
 | Item | Description |
 | --- | --- |
 | `orgId` | Your organization ID. Find it under **Organization** → **Organization settings**. |
-| `cameraId` | Camera that should own the clip. Find it on the camera’s edit screen. |
+| `cameraId` | Camera that should own the clip. Find it on the camera's edit screen. |
 | `eventTypeId` | The Event type ID from step 2. |
 | `timestamp` | Time of the event, Unix epoch time in **milliseconds**. |
 | `fields` | Object of field names and values from your tag. You can omit keys you are not sending in that POST. |
@@ -106,7 +106,7 @@ curl --location 'https://access.lumana.ai/v1/events-tag/insert' \
 
 ### Test the request
 
-You can send a test POST from the Lumana API reference. Open [Insert an event tag in the Lumana API reference](../api-reference/rest-apis/lumana-api.md) and select **Test it** on the cURL block. Enter your Bearer token under **Authentication**, replace the body with your `orgId`, `cameraId`, `eventTypeId`, and a **current** millisecond timestamp, then select **Send**. A successful request returns **200 OK**.
+You can send a test POST from the Lumana API reference. Open [Insert an event tag in the Lumana API reference](../api-reference/rest-apis/lumana-api.md) and select **Test it** on the cURL block. Enter your `Bearer` token under **Authentication**, replace the body with your `orgId`, `cameraId`, `eventTypeId`, and a **current** millisecond timestamp, then select **Send**. A successful request returns **200 OK**.
 
 If you prefer a desktop client, then use Postman.
 

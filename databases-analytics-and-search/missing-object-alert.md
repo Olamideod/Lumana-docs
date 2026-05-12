@@ -42,7 +42,7 @@ Make sure you can open **Alerts** and create alert rules. You also need a camera
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-mark-object-dialog.png" alt="" width="375"></div>
 
-8. In the **Mark object** dialog, outline the object, then select **Select**.
+8. In the **Mark object** dialog, outline the object, then select the **Select** button.
 
 9. When the rest of the rule is complete, select **Create alert** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-create-alert-button.png" alt="Create alert button." data-size="line">.
 

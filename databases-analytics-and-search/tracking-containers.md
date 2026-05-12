@@ -14,7 +14,7 @@ Many teams use it at gates, yards, and warehouse doors where containers pass fix
 
 ## Prerequisites
 
-- You can **edit camera** settings and analytics for the target cameras.
+- You can open **Edit camera** for the target cameras to change settings and analytics.
 - The scene shows enough of the container ID that reads are plausible for your use case.
 - Optional: you already know how to open **Search** in VMS+.
 

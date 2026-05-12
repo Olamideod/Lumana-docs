@@ -50,7 +50,7 @@
 ## Set up cameras and devices
 
 * [Overview](set-up-cameras-and-devices/README.md)
-* [Recommended setup tasks](set-up-cameras-and-devices/overview.md)
+* [Follow recommended setup tasks](set-up-cameras-and-devices/overview.md)
 * [Set up a static IP address](set-up-cameras-and-devices/set-up-a-static-ip-address.md)
 * [Enable PTZ control](set-up-cameras-and-devices/enable-ptz-control.md)
 * [Camera networking options](set-up-cameras-and-devices/camera-networking-options.md)
@@ -89,11 +89,11 @@
 ## Live video monitoring and operations
 
 * [Overview](live-video-monitoring-and-operations/README.md)
-* [Use live view](live-video-monitoring-and-operations/live-view.md)
-* [Live view streaming and quality](live-video-monitoring-and-operations/live-view-streaming-and-quality.md)
-* [PTZ control](live-video-monitoring-and-operations/ptz-control.md)
-* [Video walls and shared displays](live-video-monitoring-and-operations/video-walls-and-shared-displays.md)
-* [Multi-camera playback](live-video-monitoring-and-operations/multi-camera-playback.md)
+* [Use Live view](live-video-monitoring-and-operations/live-view.md)
+* [Understand Live view streaming and quality](live-video-monitoring-and-operations/live-view-streaming-and-quality.md)
+* [Use PTZ control](live-video-monitoring-and-operations/ptz-control.md)
+* [Use video walls and shared displays](live-video-monitoring-and-operations/video-walls-and-shared-displays.md)
+* [Use multi-camera playback](live-video-monitoring-and-operations/multi-camera-playback.md)
 * [Use the system health dashboard](live-video-monitoring-and-operations/the-system-health-dashboard.md)
 * [Use Lumana timelapse](live-video-monitoring-and-operations/lumana-timelapse.md)
 * [Share video](live-video-monitoring-and-operations/share-video.md)
@@ -183,10 +183,10 @@
 
 * [Overview](databases-analytics-and-search/README.md)
 * [Build a database of people and vehicles](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md)
-* [Tracking people](databases-analytics-and-search/tracking-people.md)
-* [Tracking vehicles](databases-analytics-and-search/tracking-vehicles.md)
+* [Track people](databases-analytics-and-search/tracking-people.md)
+* [Track vehicles](databases-analytics-and-search/tracking-vehicles.md)
 * [Pixels per foot (PPF) for camera placement](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md)
-* [Tracking containers](databases-analytics-and-search/tracking-containers.md)
+* [Track containers](databases-analytics-and-search/tracking-containers.md)
 * [Create a Missing object alert](databases-analytics-and-search/missing-object-alert.md)
 * [Search video footage for people or vehicles](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md)
 * [Filter people, faces, vehicles, and license plates from the camera view](databases-analytics-and-search/search-video-footage-for-other-objects.md)
@@ -194,7 +194,7 @@
 * [Generate reports](databases-analytics-and-search/generate-reports.md)
 * [Configure a space occupancy dashboard](databases-analytics-and-search/configure-a-space-occupancy-dashboard.md)
 * [Space occupancy analytics](databases-analytics-and-search/space-occupancy-analytics.md)
-* [Enhance your video data with Lumana Event Tags](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md)
+* [Add Lumana Event Tags to your video data](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md)
 
 ## Monitoring services
 

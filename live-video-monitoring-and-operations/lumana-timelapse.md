@@ -22,7 +22,7 @@ Timelapse snapshots are not generated retroactively. If you increase retention t
 
 You can extend timelapse retention on the camera **Storage** page when you need a longer review window.
 
-1. Open **Devices**, select the camera you want, then open **Edit Camera**.
+1. Open **Devices**, select the camera you want, then open **Edit camera**.
 2. Select **Storage** in the sidebar.
 3. Under **Data retention**, open **Snapshot retention days** and choose a period from the list. Options include **3 days**, **7 days**, **14 days**, **30 days**, or **90 days** when available.
 4. Select **Save** in the upper right.

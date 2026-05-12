@@ -9,7 +9,7 @@ Lumana and other systems can keep using that one address for the camera.
 Follow the scenario below that matches your network.
 
 - **Scenario 1**: Your network has a DHCP server and you want a permanent address. Keep the camera on DHCP and reserve its address on the router or Core so the camera always gets the same IP.
-- **Scenario 2**: Your network has a DHCP server but you want a static IP on the camera itself. Set a fixed **IP address**, **subnet mask**, and **gateway** on the camera, outside the DHCP pool.
+- **Scenario 2**: Your network has a DHCP server but you want a static IP on the camera itself. Set a fixed **IP address**, **Subnet mask**, and **gateway** on the camera, outside the DHCP pool.
 - **Scenario 3**: Your network has no DHCP server. No device hands out DHCP leases. Configure the camera's IP in its local web interface (you may need a temporary static IP on your PC first).
 
 If you are not sure whether your network uses DHCP, then use the following subsection to pick Scenario 1, 2, or 3.
@@ -91,7 +91,7 @@ If you need step-by-step instructions, then refer to your computer or operating 
 
 6. Change the **network mode** from **DHCP** to **Static IP**.
 
-7. Enter your **IP address**, **subnet mask**, and **gateway**.
+7. Enter your **IP address**, **Subnet mask**, and **gateway**.
 
 8. Select **Save** to apply your changes.
 

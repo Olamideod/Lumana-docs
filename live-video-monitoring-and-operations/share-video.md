@@ -10,7 +10,7 @@ Make sure you can access the camera, alert, search result, or archive you want t
 
 **Share archive** is the dialog you use to create a **Video shared link** for saved footage. The steps below follow the **Archives** path. Use this when the clip **already appears** in **Archives** or after you **Create archive** (for example from search) and return to the list.
 
-From live view, **Share camera** opens when you select **Share**. From an alert on **Monitoring**, **Share alert** opens. Both use the same **Create link** pattern with label differences (see [Share a live camera](#share-a-live-camera) and [Share an alert](#share-an-alert)).
+From **Live view**, **Share camera** opens when you select **Share**. From an alert on **Monitoring**, **Share alert** opens. Both use the same **Create link** pattern with label differences (see [Share a live camera](#share-a-live-camera) and [Share an alert](#share-an-alert)).
 
 ### Go to Archives
 
@@ -26,7 +26,7 @@ From live view, **Share camera** opens when you select **Share**. From an alert 
 
 3. Select the archive to open it, then select **Share**.
 
-   **Share archive** opens. The **Create link** tab is active by default. **Existing links** may show a count badge if you saved links before.
+   **Share archive** opens. The **Create link** tab is active by default. **Existing links** might show a count badge if you saved links before.
 
 ### Create link and copy or send
 
@@ -36,7 +36,7 @@ From live view, **Share camera** opens when you select **Share**. From an alert 
 4. Turn **Password** on, then type and confirm a password when viewers must enter one before playback.
 5. Select **Create link**.
 
-   Lumana fills **Video shared link** with the URL. Select the copy icon to copy the address. Select the share icon to send it through another channel where your deployment supports it (for example email or SMS).
+   Lumana fills **Video shared link** with the URL. Select the copy icon to copy the address. Select the share icon to send it through another channel if your deployment supports it (for example email or SMS).
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-archive-dialog.png" alt="" width="563"></div>
 
@@ -58,7 +58,7 @@ From live view, **Share camera** opens when you select **Share**. From an alert 
 Use this option when you want someone to watch a live camera feed.
 
 1. Select the desired camera.
-2. In the upper-right corner of the live view page, select **Share**.
+2. In the upper-right corner of the Live view page, select **Share**.
 
    The **Share camera** dialog opens.
 
@@ -71,7 +71,7 @@ Use this option when you want someone to watch a live camera feed.
 Use this option when you want to share footage from a specific alert.
 
 1. Open **Alerts**, then select **Monitoring**.
-2. Find the alert you want (for example under **Latest** alerts). On the alert card, select **Share** in the action row next to the title (curved arrow icon; hover shows **Share Alert**).
+2. Find the alert you want (for example under **Latest** alerts). On the alert card, select **Share** in the action row next to the title (curved arrow icon; hover shows **Share alert**).
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-alerts-monitoring-share-alert.png" alt="" width="563"></div>
 
