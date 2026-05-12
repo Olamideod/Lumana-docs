@@ -5,7 +5,7 @@ Connect a network attached storage (NAS) device to Lumana to expand recording st
 Adding a NAS does not replace Lumana Core. The NAS works alongside the Core as both an additional storage location for longer retention and a backup target for recorded data. Lumana's standard capabilities remain available.
 
 {% hint style="info" %}
-If you record to NAS for more than 30 days and want to keep smart search functionality, you need an additional NAS license. No license is needed for the first 30 days.
+If you record to NAS for more than 30 days and want to keep smart search functionality, then you need an additional NAS license. No license is needed for the first 30 days.
 {% endhint %}
 
 ## Prerequisites

@@ -1,4 +1,4 @@
-# Hikvision
+# Connect Hikvision cameras
 
 Hikvision cameras are supported in Lumana when you use compatible series and recommended stream settings.
 
@@ -38,7 +38,7 @@ Ensure your Hikvision camera is updated, correctly configured, and ready to conn
 
 ### Activate your camera with the SADP tool
 
-* **Download SADP Tool**: If your camera is new or hasn’t been initialized yet, start by downloading the SADP (Search Active Device Protocol) tool from the [Hikvision official website](https://www.hikvision.com/en/support/tools/hitools/clea8b3e4ea7da90a9/). This software is designed to help find and initialize Hikvision devices on your network. Note: Hikvision's SADP tool requires Windows OS.
+* **Download SADP Tool**: If your camera is new or hasn't been initialized yet, then download the SADP (Search Active Device Protocol) tool from the [Hikvision official website](https://www.hikvision.com/en/support/tools/hitools/clea8b3e4ea7da90a9/). This software helps find and initialize Hikvision devices on your network. Note: Hikvision's SADP tool requires Windows OS.
 * **Install and launch SADP**: After downloading, install and open the SADP tool on a computer on the same local network as your Hikvision camera. For example, connect the cameras and your PC to the same switch.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-cameras-switch-laptop-diagram.png" alt="Diagram: IP cameras, network switch, and laptop on the same LAN for discovery and configuration." width="224"></div>
@@ -47,7 +47,7 @@ Ensure your Hikvision camera is updated, correctly configured, and ready to conn
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-sadp-device-list.png" alt="Hikvision SADP utility listing online devices with IPv4 addresses, ports, and status columns." width="563"></div>
 
-* **Assign a static IP (Recommended)**: To ensure your camera maintains a consistent connection to Lumana Core, assign it a static IP address through its web interface under the network settings.
+* **Assign a static IP (Recommended)**: Assign a static IP address through the camera's web interface, under network settings. This keeps the camera reachable by Lumana Core after reboots.
 
 ### Continue after you log in
 
@@ -113,7 +113,7 @@ After completing ONVIF setup, proceed to [Connect a camera](../../getting-starte
 * On the **User Management** page, select **Add**.
 * Enter a **username** and **password** (you may need to enter the **admin password** to authorize the change).
 * Assign the **Operator** role unless your security team specifies otherwise.
-* Under **permissions**, enable the capabilities Lumana needs: typically select all remote permissions your firmware offers (for example **Remote: Parameters Settings**, **Live View**, **Playback**, and related items). The exact checklist depends on model and firmware.
+* Under **permissions**, enable the capabilities Lumana needs. Typically, select all remote permissions your firmware offers. Examples include **Remote: Parameters Settings**, **Live View**, **Playback**, and related items. The exact checklist depends on model and firmware.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-add-user-dialog.png" alt="Hikvision Add user dialog: username, Operator level, admin password, permissions checkboxes, OK." width="431"></div>
 

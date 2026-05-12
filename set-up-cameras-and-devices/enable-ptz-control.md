@@ -4,9 +4,9 @@ Use Lumana's Remote PTZ (Pan-Tilt-Zoom) control to adjust camera direction and z
 
 ## Prerequisites
 
-* Ensure your camera supports PTZ functionality.
-* Confirm the camera is added to your Lumana organization and is online.
-* Verify that PTZ is accessible via `ONVIF` or your camera’s supported protocol.
+* Confirm your camera supports PTZ functionality.
+* Add the camera to your Lumana organization and confirm it is online.
+* Verify that PTZ is accessible via `ONVIF` or your camera's supported protocol.
 
 ## Key capabilities
 
@@ -16,27 +16,20 @@ Use Lumana's Remote PTZ (Pan-Tilt-Zoom) control to adjust camera direction and z
 
 ## Enable PTZ control
 
-1. Select the camera
-   * Open the camera from the **Devices** list.
-2. Open camera settings
+1. Open the camera from the **Devices** list.
+2. Select the **Edit camera** icon <img src="../.gitbook/assets/edit-camera-icon-inline.png" alt="Edit camera pencil icon." data-size="line"> on the camera live view.
 
-    * Select the <img src="../.gitbook/assets/dhcp-edit-pencil-icon.png" alt="Edit camera pencil icon." data-size="line"> **Edit camera** control.
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/enable-ptz-control/live-view-edit-camera-button.png" alt="Camera live view with Settings wrench control highlighted in the top toolbar." width="563"></div>
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-view-edit-camera-button.png" alt="Camera live view with Settings wrench control highlighted in the top toolbar." width="563"></div>
-3. Configure PTZ settings
+3. Navigate to the **PTZ** section.
+4. Enable **PTZ support**.
+5. Select the **driver**. Most cameras use **ONVIF** by default.
+6. Enter the **PTZ control path**. A common format is `{camera_IP}:80/onvif/device_service`.
+7. Specify the **port** if it differs from the default `80`.
 
-    * Navigate to the **PTZ** section.
-    * Enable **PTZ support**.
-    * Select the **driver**
-      * Most cameras use **ONVIF** by default.
-    * Enter the **PTZ control path**
-      * Common format:\
-        `{camera_IP}:80/onvif/device_service`
-    * Specify the **port** (if different from default `80`).
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/enable-ptz-control/ptz-settings-onvif-address-port.png" alt="Edit camera PTZ tab: PTZ support on, Onvif driver, X address, and port number." width="563"></div>
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/ptz-settings-onvif-address-port.png" alt="Edit camera PTZ tab: PTZ support on, Onvif driver, X address, and port number." width="563"></div>
-4. Save configuration
-   * Select **Save** to apply changes.
+8. Select **Save** to apply changes.
 
 ## Next steps
 

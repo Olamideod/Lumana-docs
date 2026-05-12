@@ -26,7 +26,7 @@ Use the filter list to narrow results before you add a **Person** or **Vehicle**
 
 ## Search for multiple objects in one frame
 
-You can combine several object filters so results only include moments where all selected objects appear together (for example, a specific person near a specific vehicle). The same pattern applies as when you search primarily for a [person in Smart Search](https://support.lumana.ai/hc/en-us/articles/11176329842194) or a [vehicle in Smart Search](https://support.lumana.ai/hc/en-us/articles/11890679495954).
+Combine several object filters so results only include moments when all selected objects appear together (for example, a specific person near a specific vehicle). The same pattern applies as when you search primarily for a [person in Smart Search](https://support.lumana.ai/hc/en-us/articles/11176329842194) or a [vehicle in Smart Search](https://support.lumana.ai/hc/en-us/articles/11890679495954).
 
 You may search for up to four different objects at a time. Results show frames that contain every selected object with the attributes you configured.
 
@@ -52,7 +52,7 @@ The Search layout can include extra categories when you work across object types
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-person-attributes.png" alt="" width="563"></div>
 
-4. You can add up to four people. If you add more than one, all of them must appear in the same frame for a clip to match.
+4. You can add up to four people. If you add more than one, then all of them must appear in the same frame for a clip to match.
 
 ## Search for a vehicle
 
@@ -70,7 +70,7 @@ Vehicle search uses attribute filters such as color, make, type, and license pla
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-vehicle-attributes.png" alt="" width="563"></div>
 
-4. You can add up to four vehicles. If you add more than one, all of them must appear in the same frame for a clip to match.
+4. You can add up to four vehicles. If you add more than one, then all of them must appear in the same frame for a clip to match.
 
 For more on vehicle-focused Smart Search, see [Smart vehicle search in Lumana](https://support.lumana.ai/hc/en-us/articles/11890679495954).
 

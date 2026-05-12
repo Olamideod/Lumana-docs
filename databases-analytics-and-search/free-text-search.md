@@ -4,13 +4,13 @@ Use free text search to look for people, vehicles, and other objects across your
 
 ## Prerequisites
 
-Make sure you can open **Search** and access the cameras you want to review. If you already know the time range or locations you want to search, keep those details ready so you can narrow the results faster.
+Make sure you can open **Search** and access the cameras you want to review. If you already know the time range or locations you want to search, then keep those details ready so you can narrow the results faster.
 
 ## Example search
 
 Free text search works well when you need to describe a scene in plain language instead of selecting only predefined filters.
 
-For example, you can search for a person carrying a box through a door, then narrow the search to specific doors, entry points, or other camera groups.
+For example, search for a person carrying a box through a door. You can then narrow the results to specific doors, entry points, or other camera groups.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/free-text-search-box-through-door-results.png" alt="" width="563"></div>
 

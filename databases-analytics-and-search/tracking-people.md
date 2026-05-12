@@ -42,7 +42,7 @@ Face recognition supports search and alerts based on enrolled or observed faces.
 
 ### Head angle impact
 
-For best face recognition results, faces should be roughly head-on, looking toward the camera, and within the distance your setup can support for the required pixels per foot (PPF).
+For best face recognition results, faces should be roughly head-on and looking toward the camera. Keep them within the distance your setup supports for the required pixels per foot (PPF).
 
 Acceptable head orientation falls in the ranges illustrated below (pitch, yaw, roll).
 

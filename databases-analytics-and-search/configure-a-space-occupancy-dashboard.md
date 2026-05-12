@@ -4,7 +4,7 @@ Use the occupancy widget to visualize current occupancy, historical trends, and 
 
 ## Prerequisites
 
-Make sure the relevant entry and exit points are covered by cameras and that you can edit dashboards in your organization. If line crossings are not configured yet, the setup flow prompts you to create them.
+Make sure the relevant entry and exit points are covered by cameras and that you can edit dashboards in your organization. If line crossings are not configured yet, then the setup flow prompts you to create them.
 
 ## Add the occupancy widget
 
@@ -15,7 +15,9 @@ First create or open a dashboard, add the occupancy widget, then choose the entr
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-dashboards-create-dashboard.png" alt="" width="563"></div>
 
-3. If you are adding the widget to a dashboard you already saved, open that dashboard and select the **Edit dashboard** icon in the top right so the canvas is in edit mode. If you just created a new dashboard, you are already on the canvas and can continue.
+3. Open the dashboard canvas in edit mode.
+
+   If you just created a new dashboard, then you are already on the canvas. If you are adding the widget to a saved dashboard, then open that dashboard and select the **Edit dashboard** icon in the top right.
 4. Select **Add widget**.
 5. Select **Occupancy**.
 

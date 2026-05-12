@@ -4,7 +4,7 @@ Use the organization database to organize detected people, doors, and vehicles i
 
 ## Prerequisites
 
-Make sure you can open the organization database and edit the people, doors, or vehicles you want to manage. If you plan to use Event Tags or import vehicles from a CSV file, you also need access to those features in your organization.
+Make sure you can open the organization database and edit the people, doors, or vehicles you want to manage. If you plan to use Event Tags or import vehicles from a CSV file, then make sure you also have access to those features in your organization.
 
 ## Understand the organization database
 
@@ -65,7 +65,7 @@ Add a detected vehicle when Lumana has already captured the plate and vehicle de
 3.  Select **Add**.
 
     The vehicle is added to your organization's saved vehicle list.
-4.  If needed, add a vehicle manually by uploading an image and entering the relevant details.
+4.  If you need to add a vehicle manually, then upload an image and enter the relevant details.
 
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/vehicle-manual-upload-form.png" alt="Manual vehicle upload form with image upload area and vehicle detail fields." width="375"></div>
 
@@ -78,7 +78,7 @@ Use CSV import when you need to add many vehicles at once instead of entering th
 3.  **Add from file** <img src="../.gitbook/assets/databases-analytics-and-search/add-from-file-button.png" alt="" data-size="line"> opens the importer. Download the template, enter the vehicle data, and upload the completed CSV file.
 
     The import adds vehicles to the organization database in bulk.
-4.  If you are creating a license plate alert, you can also select **Import from file** in the alert flow.
+4.  If you are creating a license plate alert, then you can also select **Import from file** in the alert flow.
 
     This lets you use a CSV list while you configure [License plate recognition](../alerts-and-ai-detection/alert-types/identification/license-plate.md).
 

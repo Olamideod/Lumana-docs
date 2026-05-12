@@ -40,8 +40,8 @@ Do not forget to create a DHCP reservation for the camera’s address on the rou
 
 
 3. Configure a DHCP reservation on your router using the MAC address.
-This way, the camera keeps the same IP address after reboots or power interruptions, when the server always offers that lease to this MAC address.
-Refer to your router documentation for instructions.
+
+   The server always offers the same lease to that MAC address, so the camera keeps the same IP after reboots or power interruptions. Refer to your router documentation for instructions.
 
 Here is an example of [static mapping configuration](https://www.cisco.com/c/en/us/td/docs/ios/12_2sb/12_2sba/feature/guide/sbhcpsm.html) for Cisco routers.
 
@@ -64,7 +64,7 @@ When you have an address picked out, follow [Assign a static IP without a DHCP s
 If your network does not have a DHCP server, connect to the camera’s local page and configure the IP address on the camera.
 
 {% hint style="info" %}
-The steps and screenshots below use a **Lumix.ai LB800** local web interface as an example. Your camera’s login screen, menu names, defaults, and layout may differ.
+The steps and screenshots below show one example camera's local web interface. Your camera's login screen, menu names, defaults, and layout may differ.
 {% endhint %}
 
 #### Default camera settings (example)
@@ -74,7 +74,7 @@ The steps and screenshots below use a **Lumix.ai LB800** local web interface as 
 - Default user: `admin`
 - Default password: `123456`
 
-1. Assign a temporary static IP to your computer, on the same subnet as the camera (for example, `192.168.1.10`, subnet mask `255.255.255.0`), if the camera did not receive an address automatically.
+1. If the camera didn't receive an address automatically, then assign a temporary static IP to your computer on the same subnet as the camera. For example, `192.168.1.10`, subnet mask `255.255.255.0`.
 
 {% hint style="info" %}
 If needed, refer to your computer or operating system documentation for instructions on setting a temporary static IP address.
@@ -98,3 +98,9 @@ If needed, refer to your computer or operating system documentation for instruct
 8. Select **Save** to apply your changes.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/lumix-network-ipv4-static-settings.png" alt="Camera network settings showing static IP, subnet mask, and gateway." width="563"></div>
+
+## Next steps
+
+- Use [Connect cameras by brand](connect-cameras-by-brand/README.md) for brand-specific setup details after the camera has a stable address.
+- Read [Configure Lumana Core as a DHCP server](network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md) if you want Lumana to manage reservations directly.
+- Use [Camera networking options](camera-networking-options.md) to review how the camera connects to Lumana on your network.

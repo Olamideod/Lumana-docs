@@ -257,3 +257,9 @@ For corporate firewalls, the web application also uses the shared live view and 
 - TURN/TLS over TCP 443 when UDP is not viable
 - STUN servers
 - Regional media server endpoints and IPs
+
+## Related
+
+- Read [Configure Lumana Core as a DHCP server](configure-lumana-core-as-a-dhcp-server.md) when Lumana Core needs to hand out addresses on the local network.
+- Read [Local time and NTP configuration](local-time-and-ntp-configuration.md) so timestamps stay accurate across the platform.
+- Use [Lumana Core hardware specifications](lumana-core-hardware-specifications.md) to verify the appliance matches your deployment.

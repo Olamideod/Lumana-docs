@@ -1,4 +1,4 @@
-# Hanwha
+# Connect Hanwha cameras
 
 Hanwha Wisenet cameras are supported in Lumana for analytics, monitoring, and typical enterprise deployments.
 

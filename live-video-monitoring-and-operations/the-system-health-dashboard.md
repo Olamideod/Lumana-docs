@@ -1,6 +1,6 @@
 # Use the system health dashboard
 
-Use the system health dashboard to check the current status of your Lumana Core, cameras, and storage, and to review recent health history for each camera. This helps you spot outages, recording issues, and analytics problems before they affect monitoring or investigation work.
+Use the system health dashboard to check the status of your Lumana Core, cameras, and storage. Review recent health history for each camera. This helps you spot outages, recording issues, and analytics problems before they affect monitoring or investigation work.
 
 ## Prerequisites
 

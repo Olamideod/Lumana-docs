@@ -1,4 +1,4 @@
-# AXIS
+# Connect Axis cameras
 
 Axis cameras are fully supported in Lumana and provide reliable performance for analytics, monitoring, and enterprise deployments.
 
@@ -33,7 +33,7 @@ Here is a list of compatible Axis models.
 * AXIS Q29 Series (Thermal features will require additional integration)
 * AXIS Q19 Series (Thermal features will require additional integration)
 
-## Connecting your AXIS camera to Lumana Core
+## Connect your Axis camera to Lumana Core
 
 This guide walks you through preparing the camera, choosing how Lumana authenticates, optional manual stream profiles, and adding the camera in Lumana Core. For the fewest integration issues, use the camera's root (admin) account in Lumana when your security policy allows it.
 
@@ -62,7 +62,7 @@ Put the workstation you use for setup on the same LAN as the camera. For example
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-setup-network-topology.png" alt="Diagram: security cameras and a laptop connected to a network switch on the same local network." width="563"></div>
 
-**First visit** (root password and HTTPS): The first time you open the camera in a browser, you may need to create a self-signed certificate (for HTTPS) and set the root password. The page may state that ONVIF is disabled until you add an ONVIF user later under **System** → **ONVIF** (wording and menu paths can vary slightly by firmware).
+**First visit** (root password and HTTPS): The first time you open the camera in a browser, you may need to create a self-signed certificate for HTTPS and set the root password. The page may state that ONVIF is disabled until you add an ONVIF user later under **System** → **ONVIF**. Wording and menu paths can vary slightly by firmware.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-setup-root-password-certificate.png" alt="Axis first-time setup: Create Certificate, Configure Root Password for user root, factory reset warning, and note that ONVIF is disabled until enabled in System." width="563"></div>
 

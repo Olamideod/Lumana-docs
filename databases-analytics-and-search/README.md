@@ -1,8 +1,8 @@
 # Databases, analytics, and search
 
-This section explains Lumana databases, analytics, occupancy tools, investigations, exports, dashboards, Event Tags.
+Use this section to build the people and vehicle data Lumana relies on, search footage, set up missing-object alerts, generate reports, and run occupancy and Event Tag workflows.
 
-Select a page below to learn how each feature works and how to configure it.
+Pick the guide that matches what you want to accomplish.
 
 ## Pages in this section
 

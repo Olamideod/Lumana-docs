@@ -1,6 +1,6 @@
 # Space occupancy analytics
 
-Space occupancy analytics uses your cameras and Lumana’s analytics to track how many people or vehicles are in a defined space over time. You get live counts plus historical views so you can monitor current occupancy, review trends, and compare how a space is used across hours or days.
+Space occupancy analytics uses your cameras and Lumana's analytics to track how many people or vehicles are in a defined space over time. You get live counts plus historical views. Use them to monitor current occupancy, review trends, and compare space usage across hours or days.
 
 ## Key features
 
@@ -16,7 +16,7 @@ Analytics process the video stream to estimate how many people or vehicles are i
 
 ### Historical trend analysis
 
-Occupancy is stored over time so you can review patterns. That helps you:
+Lumana keeps occupancy history so you can review patterns. That helps you:
 
 - Identify peak hours and adjust schedules or operations.
 - Inform layout changes from movement patterns.
@@ -24,7 +24,7 @@ Occupancy is stored over time so you can review patterns. That helps you:
 
 ### Location analysis
 
-You don't need to cover the whole floor with cameras. Aim coverage at every path in and out of the zone; that often needs fewer devices than full-floor monitoring. Counts stay trustworthy only if nobody can bypass a line you rely on. How virtual lines and crossings work is explained in [How space occupancy works](#how-space-occupancy-works).
+You don't need to cover the whole floor with cameras. Aim coverage at every path in and out of the zone; that often needs fewer devices than full-floor monitoring. If anyone can bypass a count line, then the totals drift from reality. How virtual lines and crossings work is explained in [How space occupancy works](#how-space-occupancy-works).
 
 ### Dashboards and reporting
 
@@ -45,7 +45,7 @@ Use dashboards to present occupancy metrics in one place. You can:
 
 Space occupancy relies on cameras that watch entry and exit points. You place virtual count lines on the video so crossings count as in or out. Lumana maintains a running total from those crossings. Multiple cameras can feed one logical space so you cover every doorway or lane that matters.
 
-The feature works best when every way into and out of the counted area is covered. If someone can enter or leave without crossing a line, the total will drift from the real number inside.
+The feature works best when every way into and out of the counted area is covered. If someone can enter or leave without crossing a line, then the total drifts from the real number inside.
 
 ### Choose a camera placement
 
@@ -64,7 +64,7 @@ Use overhead placement when counting accuracy matters most and you can mount the
 
 ### Front-facing camera placement
 
-Use front-facing placement when you want occupancy counts and a view that is also useful for identification (for example face or plate workflows where the scene supports it).
+Use front-facing placement when you want occupancy counts plus a view that is also useful for identification. Examples include face or plate workflows when the scene supports them.
 
 - **Placement**: Position the camera at eye level or slightly above, about eight to 10 feet in front of the entry or exit point.
 - **Best for**: Spaces where occupancy monitoring and identification both matter.
@@ -83,13 +83,13 @@ Whatever angle you choose, the same conditions usually apply:
 
 ## Common accuracy issues
 
-Even with good placement, counts can mislead if rules or the scene are wrong.
+Even with good placement, counts can mislead when rules or the scene are wrong.
 
 ### Reset while the space is occupied
 
-Occupancy is entries minus exits (with reset rules you configure). If the count resets to zero while people are still inside, later exits can drive the total negative or otherwise confuse the chart. The system is not wrong about the exits. It is missing the true starting population.
+Occupancy is entries minus exits (with reset rules you configure). If the count resets to zero while people are still inside, then later exits can drive the total negative or otherwise confuse the chart. The system is not wrong about the exits. It is missing the true starting population.
 
-For example, if five people remain when the reset runs, the next exits subtract from zero and the line can go below zero.
+For example, if five people remain when the reset runs, then the next exits subtract from zero and the line can go below zero.
 
 {% hint style="info" %}
 Schedule resets when the space is empty, or align with your [widget reset settings](configure-a-space-occupancy-dashboard.md) so the baseline matches reality.
@@ -97,7 +97,7 @@ Schedule resets when the space is empty, or align with your [widget reset settin
 
 ### Occlusion at the entrance or exit
 
-Counting needs a clear crossing. If people are hidden by objects, architecture, or each other, the model can miss an in or out. When entries are missed more than exits (or the reverse), the running total drifts. Severe imbalance can also contribute to strange negatives over time.
+Counting needs a clear crossing. If people are hidden by objects, architecture, or each other, then the model can miss an in or out. When entries are missed more than exits (or the reverse), the running total drifts. Severe imbalance can also contribute to strange negatives over time.
 
 ## Configure a space occupancy dashboard
 

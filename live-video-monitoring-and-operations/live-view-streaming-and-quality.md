@@ -1,6 +1,6 @@
 # Live view streaming and quality
 
-This page explains how Lumana delivers live video, when local or cloud streaming is used, and how stream quality changes based on your device, browser support, and layout.
+This page explains how Lumana delivers live video. Learn when local or cloud streaming applies, and how stream quality adapts to your device, browser, and layout.
 
 ## How live view delivery works
 
@@ -26,7 +26,7 @@ Use local streaming when the viewing device can reach Lumana Core directly on th
 - No proxy between the client and Lumana Core.
 
 {% hint style="info" %}
-If a camera uses H.265 and the viewing browser or device does not support H.265, then medium-quality (MQ) local streaming may work while high-quality (HQ) local streaming does not.
+If a camera uses H.265 and your browser or device doesn't support H.265, then medium-quality (MQ) local streaming may work, but high-quality (HQ) local streaming won't.
 {% endhint %}
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-local-streaming-diagram.png" alt="Diagram showing local streaming from Lumana Core to the viewing device through the local network." width="375"></div>

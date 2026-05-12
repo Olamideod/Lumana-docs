@@ -12,7 +12,7 @@ The **Reports** feature creates CSV exports and can automate delivery by downloa
 
 - Your role can open **Reports** and **Create report**.
 - Cameras and analytics for **Alerts**, **Attendance**, or **License plates** match the report **Type** you plan to use.
-- If you use **SMS** or **Email** delivery, then confirm recipients in your organization or use **Notify people from outside the organization**.
+- For **SMS** or **Email** delivery, have recipients confirmed in your organization, or use **Notify people from outside the organization** for external addresses.
 
 ## Report types
 
@@ -44,7 +44,7 @@ Each type uses the cameras, schedule, and options you set on **Create report**.
 
 On **Create report**, switch **Recurring** and **One time** to match how often the export should run.
 
-When **One time** is selected, **Reporting period** holds the date range. Pick the start and end dates, then choose the timezone for that range in the field beside it (for example **WAT**).
+When you select **One time**, **Reporting period** holds the date range. Pick the start and end dates, then choose the timezone for that range in the field beside it (for example **WAT**).
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/generate-reports-one-time-period.png" alt="" width="563"></div>
 
