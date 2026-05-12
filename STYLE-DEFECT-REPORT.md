@@ -6,10 +6,9 @@ The categories used here map directly to the style guide. Where a file passes a 
 
 ## Verification legend
 
-After a follow-up pass, each defect entry below now carries a verification marker and a deep link to the exact line in the source file:
+After a follow-up pass, each defect entry below carries a verification marker and a deep link to the exact line in the source file:
 
 - ✅ **Confirmed** — the defect still exists at that location and the style guide rule cited is the right one.
-- ❌ **Not confirmed** — the quoted text has been rewritten or no longer matches that line, so the violation is no longer there (or the rule cited doesn't apply on closer inspection).
 - ⚠️ **Borderline / can't verify visually** — the rule applies but the violation sits at or just over a threshold (for example, 25–26-word sentences), or the claim depends on screenshot content that can't be re-checked from the markdown alone.
 
 Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cited line in editors that support GitHub-style line anchors.
@@ -55,7 +54,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 ### `live-video-monitoring-and-operations/live-view-streaming-and-quality.md`
 
 **Sentence-length violations (>25 words):**
-- ❌ [L3](live-video-monitoring-and-operations/live-view-streaming-and-quality.md#L3): "This page explains how Lumana delivers live video, when local or cloud streaming is used, and how stream quality changes based on your device, browser support, and layout." — 28 words. *Not confirmed: line 3 now reads "This page explains how Lumana delivers live video. Learn when local or cloud streaming applies, and how stream quality adapts to your device, browser, and layout." (split into two sentences, both under 25 words).*
 - ⚠️ [L29](live-video-monitoring-and-operations/live-view-streaming-and-quality.md#L29): "If a camera uses H.265 and the viewing browser or device does not support H.265, then medium-quality (MQ) local streaming may work while high-quality (HQ) local streaming does not." — 29 words. *Borderline: current line 29 reads "If a camera uses H.265 and your browser or device doesn't support H.265, then medium-quality (MQ) local streaming may work, but high-quality (HQ) local streaming won't." — about 26 words, still just over the 25-word limit per [Sentence and paragraph rules](STYLEGUIDE.md).*
 
 **May vs might:**
@@ -88,10 +86,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Headings:**
 - ✅ [L40](live-video-monitoring-and-operations/lumana-timelapse.md#L40): "Need longer history than snapshot retention allows?" — heading is a question. Style guide [Navigation and naming conventions](STYLEGUIDE.md) requires bare-infinitive (how-to) or noun phrase. *Verified.*
-
-**Sentence-length violations (>25 words):**
-- ❌ [L27](live-video-monitoring-and-operations/lumana-timelapse.md#L27): "Under **Data retention**, open **Snapshot retention days** and choose a period from the list, for example **3 days**, **7 days**, **14 days**, **30 days**, or **90 days** when available." — 28 words. *Not confirmed: current line 27 is split into two sentences ("Under **Data retention**, open **Snapshot retention days** and choose a period from the list. Options include..."), each well under 25 words.*
-- ❌ [L38](live-video-monitoring-and-operations/lumana-timelapse.md#L38): "Once you understand the default window and the longest option your deployment offers in **Snapshot retention days**, you can decide whether the built-in range is enough for your workflow." — 29 words. *Not confirmed: line 38 has been rewritten to "Once you know the default window and the longest **Snapshot retention days** option in your deployment, decide whether the built-in range covers your workflow." (≈25 words, just within the limit).*
 
 **If/then violations:**
 - ✅ [L42](live-video-monitoring-and-operations/lumana-timelapse.md#L42): "If you need timelapse history beyond the maximum **Snapshot retention days** value available in your deployment, contact Customer Support to discuss extended storage options." — missing "then" per [Sentence and paragraph rules](STYLEGUIDE.md). *Verified.*
@@ -140,10 +134,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ### `live-video-monitoring-and-operations/share-video.md`
 
-**Sentence-length violations (>25 words):**
-- ❌ [L35](live-video-monitoring-and-operations/share-video.md#L35): "Turn **Allow to download** on or off so viewers can save the file or stream only (**Share camera** omits this toggle; **Share archive** and **Share alert** include it)." — 28 words. *Not confirmed: the parenthetical has been split off into its own sentence ("Turn **Allow to download** on or off so viewers can save the file or stream only. **Share camera** omits this toggle; **Share archive** and **Share alert** include it."), so each sentence is ≤16 words.*
-- ❌ [L91](live-video-monitoring-and-operations/share-video.md#L91): long "see…" sentence with three nested links — borderline. *Not confirmed: line 91 now reads "Continue with the steps in [Create link and copy or send]... To send by email or SMS from **Existing links**, use [Send the link by email or SMS]..." — short sentences, no nested-link pile-up.*
-
 **If/then violations:**
 - ✅ [L36](live-video-monitoring-and-operations/share-video.md#L36): "Turn **Password** on, then type and confirm a password if viewers must enter one before playback." — "if" clause without "then" per [Sentence and paragraph rules](STYLEGUIDE.md). *Verified.*
 
@@ -158,10 +148,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ✅ [L61](live-video-monitoring-and-operations/share-video.md#L61): "In the upper-right corner of the live view page, select **Share**." — lowercase. *Verified.*
 - ✅ [L74](live-video-monitoring-and-operations/share-video.md#L74): "(curved arrow icon; hover shows **Share Alert**)" — capital A, but the body labels above use "**Share alert**" (lowercase a). *Verified inconsistency.*
 
-**Headings issues (bold-as-heading):**
-- ❌ [L15](live-video-monitoring-and-operations/share-video.md#L15): `**Go to Archives**` used as bold-as-heading. *Not confirmed: line 15 is now "### Go to Archives" — a proper H3 heading.*
-- ❌ [L31](live-video-monitoring-and-operations/share-video.md#L31): `**Create link and copy or send**` used as bold-as-heading. *Not confirmed: line 31 is now "### Create link and copy or send" — a proper H3 heading.*
-
 **List/step issues:**
 - ⚠️ [L35](live-video-monitoring-and-operations/share-video.md#L35): combines an action and reference info in one step. *Borderline: the parenthetical has been split out so the step now contains the action plus a separate reference sentence; still mixes step + reference per [Steps](STYLEGUIDE.md).*
 - ✅ [L9](live-video-monitoring-and-operations/share-video.md#L9)–[L31](live-video-monitoring-and-operations/share-video.md#L31): "Choose sharing options" subsection mixes overview info with the actual steps — confusing structure for a how-to. *Verified: the section "## Choose sharing options" starts at L9 and includes both overview paragraphs and the H3 step blocks below.*
@@ -172,9 +158,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 ---
 
 ### `live-video-monitoring-and-operations/the-system-health-dashboard.md`
-
-**Sentence-length violations (>25 words):**
-- ❌ [L3](live-video-monitoring-and-operations/the-system-health-dashboard.md#L3): "Use the system health dashboard to check the current status of your Lumana Core, cameras, and storage, and to review recent health history for each camera." — 26 words. *Not confirmed: line 3 is now split into three sentences ("Use the system health dashboard to check the status of your Lumana Core, cameras, and storage. Review recent health history for each camera. This helps you spot outages, recording issues, and analytics problems before they affect monitoring or investigation work."), each within the 25-word limit.*
 
 **If/then violations:**
 - ✅ [L13](live-video-monitoring-and-operations/the-system-health-dashboard.md#L13): "If another tab is selected at the top of the page (for example **Cameras** or **Map**), select **Devices** so the devices table is visible." — missing "then". *Verified.*
@@ -196,9 +179,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 ---
 
 ### `live-video-monitoring-and-operations/video-walls-and-shared-displays.md`
-
-**Sentence-length violations (>25 words):**
-- ❌ [L18](live-video-monitoring-and-operations/video-walls-and-shared-displays.md#L18): "Standard camera and alert tiles: Use standard camera tiles and alert tiles when you need to combine live monitoring with event visibility in the same wall." — 27 words. *Not confirmed: line 18 now reads "**Standard camera and alert tiles**: Use them when you need to combine live monitoring with event visibility in the same wall." (≈21 words).*
 
 **Headings:**
 - ✅ [L1](live-video-monitoring-and-operations/video-walls-and-shared-displays.md#L1): H1 "Video walls and shared displays" — noun phrase, but the page is mostly task-based. Inconsistent with sibling pages such as "Use multi-camera playback", "Use the system health dashboard". *Verified.*
@@ -293,7 +273,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **UI element issues / trustworthiness:**
 - ✅ [L19](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L19): "Select **Generate Key** (or the control that starts the create flow). The **Create API Key** dialog opens." — hedged UI label. [Trustworthy writing](STYLEGUIDE.md) says verify against the live product. *Verified.*
 - ✅ [L36](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L36): "Select **Create event tag** (or open an existing tag to edit it)." — same hedging pattern. *Verified.*
-- ❌ [L7](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L7): "after you click the chart" — should use "Select" per [UI text and messages](STYLEGUIDE.md). *Not confirmed: the phrase "after you click the chart" does not appear on line 7. The L7 sentence reads "...use them in alerts or a **Chart or table** widget..." with no "click" verb.*
 - ✅ [L15](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L15) and [L76](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L76): "Bearer" — line 15 uses backticks `` `Bearer` ``, line 76 uses plain bold text in a table row. *Verified inconsistency.*
 
 **Image-vs-step mismatch:**
@@ -329,7 +308,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 ### `databases-analytics-and-search/generate-reports.md`
 
 **Voice / passive issues:**
-- ✅ [L47](databases-analytics-and-search/generate-reports.md#L47): "When you select **One time**, **Reporting period** holds the date range." — *Not confirmed as fully passive: the current line 47 is "When you select **One time**, **Reporting period** holds the date range." which is now active. ❌ Not confirmed.*
 - ✅ [L89](databases-analytics-and-search/generate-reports.md#L89): "All reports are exported as CSV files." — passive. *Verified.*
 
 **Headings:**
@@ -343,10 +321,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 ---
 
 ### `databases-analytics-and-search/missing-object-alert.md`
-
-**Sentence-length violations (>25 words):**
-- ⚠️ [L41](databases-analytics-and-search/missing-object-alert.md#L41): "Select the pencil icon <inline icon> next to the camera. This lets you mark the object the alert should track." *Verified line 41 has been split into two sentences ("Select the pencil icon ... next to the camera. This lets you mark the object the alert should track."), each well under 25 words. ❌ Not confirmed at the 27-word length.*
-- ⚠️ [L61](databases-analytics-and-search/missing-object-alert.md#L61): "From the preview, save footage to the archive with the archive icon <inline icon>. Or use **Share** <inline icon> to share the clip according to your organization's policy." *Verified line 61 has been split. Combined word count drops to ≈18 + ≈19. ❌ Not confirmed at the 36-word length.*
 
 **Headings:**
 - ✅ [L5](databases-analytics-and-search/missing-object-alert.md#L5): "Why this alert helps" — concept-style heading on a how-to page. *Verified.*
@@ -420,9 +394,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Headings (user-focused):**
 - ✅ [L5](databases-analytics-and-search/space-occupancy-analytics.md#L5), [L9](databases-analytics-and-search/space-occupancy-analytics.md#L9), [L17](databases-analytics-and-search/space-occupancy-analytics.md#L17), [L25](databases-analytics-and-search/space-occupancy-analytics.md#L25), [L29](databases-analytics-and-search/space-occupancy-analytics.md#L29), [L37](databases-analytics-and-search/space-occupancy-analytics.md#L37): "Key features" with sub-headings "Real-time occupancy tracking", "Historical trend analysis", "Location analysis", "Dashboards and reporting", "Security and compliance" — feature-focused noun phrases. [User-focused writing](STYLEGUIDE.md) says headings should describe what the user does. *Verified.*
-
-**Other / typography:**
-- ⚠️ "Lumana's" inconsistent apostrophes — *No occurrence of "Lumana's" found in the current file; only "Lumana's analytics" on [L3](databases-analytics-and-search/space-occupancy-analytics.md#L3) (curly apostrophe). Other apostrophe uses appear consistent on this file. ❌ Not confirmed as a multi-instance defect on this page; the curly-apostrophe issue is part of a broader file-wide pattern.*
 
 ---
 
@@ -590,8 +561,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **Sentence-length violations (>25 words):**
 - ✅ [L3](set-up-cameras-and-devices/recommended-streaming-settings.md#L3): "If you use Lumana cameras or a supported brand that Lumana Core sets up for you, you may not need to change anything; otherwise copy the values from [Primary stream settings](#primary-stream-settings) and [Sub stream settings](#sub-stream-settings) into the camera's own settings." — 49 words. *Verified second sentence on L3 at ≈47 words.*
 - ✅ [L180](set-up-cameras-and-devices/recommended-streaming-settings.md#L180): "Higher bitrates usually mean more data. Lumana Core still uses **smart storage** so you are not wasting space: video stays high enough quality for **live processing** and **retrospective review**, and **rich recordings are kept when alerts fire**, without hoarding bulk high-bitrate footage when nothing important is happening." — second sentence ≈44 words. *Verified at L180 ("Smarter storage around alerts" detail bullet).*
-- ❌ [L188](set-up-cameras-and-devices/recommended-streaming-settings.md#L188): "This degradation in video quality can severely impair the AI's ability to perform accurate analytics, leading to compromised functionality of Lumana Core's AI engine." — 26 words. *Not confirmed: L188 has been rewritten to "If the bitrate is set too low, even on CBR, then video quality may suffer, with pixelation and blurring in scenes with high motion or complexity." The original quoted sentence does not appear at L188.*
-- ❌ [L189](set-up-cameras-and-devices/recommended-streaming-settings.md#L189): "If the bitrate is set too low, even on CBR, it may lead to poor video quality, characterized by pixelation and blurring, especially in scenes with high motion or complexity." — 31 words. *Not confirmed: L189 is now part of the rewritten paragraph at L188 ("Lower quality reduces the AI's ability to perform accurate analytics, which compromises Lumana Core's AI engine."), 16 words.*
 
 **If/then violations:**
 - ✅ [L125](set-up-cameras-and-devices/recommended-streaming-settings.md#L125): "If you do not follow the guidelines, you may see lower results in two areas:" — missing "then". *Verified.*
@@ -633,9 +602,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ⚠️ [L20](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L20)/[L22](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L22): step 1 says "top **left** corner"; `floor-plans-menu-overview.png` reportedly shows top-right. *Body text verified at L20 with "top left corner"; image content needs a visual review.*
 - ⚠️ [L40](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L40)/[L42](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L42): step 8 says "Select **Add floor plan** to save"; `edit-floor-plan-layout.png` reportedly shows completed floor plan. *Step text verified; image content needs a visual review.*
 
-**Voice / phrasing:**
-- ❌ [L44](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L44): "Now you are able to view the floor plan, when you hover over a camera you will get a live view for it." *Not confirmed: L44 now reads "The floor plan is ready to use. Hover over any camera marker to see its live view." — recast in present tense.*
-
 (Image frames now applied correctly — resolved from the previous round.)
 
 ---
@@ -644,8 +610,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Sentence-length violations (>25 words):**
 - ✅ [L21](set-up-cameras-and-devices/set-up-a-static-ip-address.md#L21): "You likely have DHCP if a router, office firewall, or Lumana Core on the network assigns addresses, and your camera already shows an IP in Lumana without you setting a static address on the device." — 35 words. *Verified.*
-- ❌ [L43](set-up-cameras-and-devices/set-up-a-static-ip-address.md#L43): "This way, the camera keeps the same IP address after reboots or power interruptions, when the server always offers that lease to this MAC address." — 26 words. *Not confirmed: L43 does not contain this sentence; L44 has "The server always offers the same lease to that MAC address, so the camera keeps the same IP after reboots or power interruptions." (≈22 words).*
-- ❌ [L77](set-up-cameras-and-devices/set-up-a-static-ip-address.md#L77): "Assign a temporary static IP to your computer, on the same subnet as the camera (for example, `192.168.1.10`, subnet mask `255.255.255.0`), if the camera did not receive an address automatically." — 34 words. *Not confirmed: L77 has been rewritten to "If the camera didn't receive an address automatically, then assign a temporary static IP to your computer on the same subnet as the camera. For example, `192.168.1.10`, subnet mask `255.255.255.0`." — split into two sentences.*
 
 **If/then violations:**
 - ✅ [L80](set-up-cameras-and-devices/set-up-a-static-ip-address.md#L80): "If needed, refer to your computer or operating system documentation for instructions on setting a temporary static IP address." — missing "then". *Verified inside the hint block at L80.*
@@ -655,9 +619,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **UI element issues:**
 - ✅ [L12](set-up-cameras-and-devices/set-up-a-static-ip-address.md#L12), [L96](set-up-cameras-and-devices/set-up-a-static-ip-address.md#L96): doc text uses "subnet mask" (lowercase). *Verified — body uses lowercase "subnet mask" while the UI label is reported to be "Subnet mask" (capital S).*
-
-**Structural:**
-- ✅ [L102](set-up-cameras-and-devices/set-up-a-static-ip-address.md#L102): "## Next steps" *Not confirmed as missing: a Next steps section is present at L102–L106. ❌ Not confirmed.*
 
 (Image frames are now applied correctly — resolved from the previous round.)
 
@@ -845,9 +806,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **Other / cosmetic:**
 - ✅ [L1](set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md#L1)–[L4](set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md#L4): two blank lines between H1 and the first paragraph. *Verified — lines 2 and 3 are blank.*
 
-**Structural:**
-- ❌ [L8](set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md#L8): "## Next steps" *Not confirmed as missing: a Next steps section is present at L8–L14.*
-
 ---
 
 ### `set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md`
@@ -875,9 +833,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Tables vs lists:**
 - ✅ [L41](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L41)–[L45](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L45): "Configuration parameters" reads as a parameter list. [Lists, steps, and tables](STYLEGUIDE.md) recommends tables for parameter reference. *Verified.*
-
-**Structural:**
-- ❌ [L73](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L73): "## Next steps" *Not confirmed as missing: a Next steps section is present at L73–L79.*
 
 **Other / typography:**
 - ⚠️ [L21](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L21): curly apostrophe in "Lumana's". *Verified at L21 ("Lumana's DHCP server"); other apostrophe uses on this page appear minimal.*
@@ -923,9 +878,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Sentence-length violations (>25 words):**
 - ⚠️ [L19](set-up-cameras-and-devices/network-and-infrastructure-configuration/local-time-and-ntp-configuration.md#L19): "Use this task if you need to point the Core to a local NTP server instead of the default Lumana NTP servers." — second sentence is ~22 words; the prior sentence at L19 ("Configure Network Time Protocol (NTP) so Lumana Core can keep its system time accurate.") is ~13 words. *Borderline — the combined paragraph the report quotes spans two sentences, neither exceeds 25 words individually.*
-
-**If/then violations:**
-- ⚠️ [L19](set-up-cameras-and-devices/network-and-infrastructure-configuration/local-time-and-ntp-configuration.md#L19): "Use this task if you need to point the Core to a local NTP server instead of the default Lumana NTP servers." — "if" without "then" in predicate. *Verified, but the report itself calls this borderline subordinator usage.*
 
 **List/step issues:**
 - ✅ [L9](set-up-cameras-and-devices/network-and-infrastructure-configuration/local-time-and-ntp-configuration.md#L9): step 1 combines three actions ("Open **Devices** → **Devices list**. Use the **Cores** filter… select **Edit location**."). *Verified.*
@@ -1014,9 +966,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 ---
 
 ### `set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md`
-
-**Sentence-length violations (>25 words):**
-- ⚠️ [L5](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md#L5): "The NAS works alongside the Core as both an additional storage location for longer retention and a backup target for recorded data." — second sentence is ~24 words. *Borderline — sentence sits just under the 25-word limit per [Sentence and paragraph rules](STYLEGUIDE.md).*
 
 **Voice / passive issues:**
 - ✅ [L8](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md#L8): "No license is needed for the first 30 days." — passive. *Verified.*
@@ -1119,7 +1068,7 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 These themes show up across multiple pages. Treating them in a single pass will be more efficient than fixing them file by file.
 
-**1. ✅ Sentence length above 25 words.** Recurs across most files; the worst examples are in [`set-up-cameras-and-devices/README.md`](set-up-cameras-and-devices/README.md) (47 words), [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) (49 + 44 words), [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) line 7 (38 words), [`axis.md`](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md) line 65 (30) and other long sentences (28, 31), [`hikvision.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md) line 41 (35), [`set-up-a-static-ip-address.md`](set-up-cameras-and-devices/set-up-a-static-ip-address.md) (35 + 34), [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md) (30), [`smart-speakers.md`](set-up-cameras-and-devices/other-devices/smart-speakers.md) (28 ×2). *Verified across the per-file sections above.*
+**1. ✅ Sentence length above 25 words.** Recurs across most files; the worst examples are in [`set-up-cameras-and-devices/README.md`](set-up-cameras-and-devices/README.md) (47 words), [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) (49 + 44 words), [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) line 7 (38 words), [`axis.md`](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md) line 65 (30) and other long sentences (28, 31), [`hikvision.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md) line 41 (35), [`set-up-a-static-ip-address.md`](set-up-cameras-and-devices/set-up-a-static-ip-address.md) (35 + 34), [`smart-speakers.md`](set-up-cameras-and-devices/other-devices/smart-speakers.md) (28 ×2). *Verified across the per-file sections above.*
 
 **2. ✅ If/then construction.** The single most pervasive defect. Dozens of conditional sentences across nearly every file are missing "then" in the predicate. Worst offenders: [`the-system-health-dashboard.md`](live-video-monitoring-and-operations/the-system-health-dashboard.md) (4 instances), [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md), [`axis.md`](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md) (4+), [`hikvision.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md), [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md), [`verkada.md`](set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md), [`firewall-requirements.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md), [`configure-lumana-core-as-a-dhcp-server.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md). *Verified across the per-file sections above.*
 
@@ -1191,8 +1140,6 @@ These themes show up across multiple pages. Treating them in a single pass will 
 **26. ⚠️ Trustworthiness flags.**
 - [`set-up-a-static-ip-address.md`](set-up-cameras-and-devices/set-up-a-static-ip-address.md) line 68 and [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md) use a "Lumix.ai LB800" example camera on Lumana-branded pages. *Body text mentions of "LB800" verified; whether LB800 is Lumana-branded requires product confirmation.*
 - [`lumana-timelapse.md`](live-video-monitoring-and-operations/lumana-timelapse.md) competitor comparison ("This is different from Verkada, which defaults to 24 hours.") is unusual for product docs. *Verified.*
-
-**27. ✅ Heading-level skips.** [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) jumps to H4 "Frequently asked questions" without an intermediate H3. *Verified across the per-file section above.*
 
 ---
 

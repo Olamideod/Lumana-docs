@@ -114,7 +114,7 @@ The table below lists bitrate type and quality targets for the main and sub stre
 | Quality         | N/A    | 60   | 60        | N/A     |
 
 
-#### Frequently asked questions
+### Frequently asked questions
 
 These questions cover how streaming settings affect storage, codecs, CBR, and Lumana cameras.
 
@@ -140,7 +140,7 @@ When you choose H.264 over H.265 on the primary stream, weigh image quality and 
 
 The tables below show camera counts and FPS targets for each codec.
 
-#### Primary stream impact
+### Primary stream impact
 
 |     | Resolution | FPS | H.265 cameras | H.264 cameras |
 | --- | ---------- | --- | ------------- | ------------- |
@@ -149,7 +149,7 @@ The tables below show camera counts and FPS targets for each codec.
 | 5MP | 2880×1620  | 15  | 10            | 6             |
 | 8MP | 3480×2160  | 10  | 8             | 5             |
 
-#### Sub stream impact
+### Sub stream impact
 
 | Main stream   | Sub stream | H.265 FPS | H.264 FPS |
 | ------------- | ---------- | --------- | --------- |
