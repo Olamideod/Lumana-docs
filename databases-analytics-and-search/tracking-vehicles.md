@@ -60,7 +60,7 @@ Vehicle detection and LPR both depend on resolution and HFOV at the lane or regi
 2. **Environment** - Glare, rain, occlusion, and aim change effective detail. Validate on site after install.
 3. **Changes** - If you change resolution, lens, or crop, then recalculate PPF for the distances you care about.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-ppf-requirements-diagram.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-ppf-requirements-diagram.png" alt="Diagram showing PPF requirements for vehicle analytics: 7.5 PPF for vehicle detection, 30 PPF for vehicle attributes, 40 PPF for vehicle tracking, and 80 PPF for license plate recognition." width="563"></div>
 
 | Capability | Requirement (PPF) |
 | --- | --- |

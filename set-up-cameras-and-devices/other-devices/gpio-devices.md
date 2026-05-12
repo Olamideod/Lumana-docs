@@ -8,7 +8,7 @@ In Lumana, you can program GPIO pins to toggle high or low in response to an ale
 
 Use the following pinout reference when wiring a device to GPIO.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-pinout.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-pinout.png" alt="Pinout diagram of the Lumana Core GPIO header showing the position and label of each of the four general-purpose I/O pins, plus ground and reference voltage pins, for wiring external devices." width="563"></div>
 
 ## Connect a device
 
@@ -27,7 +27,7 @@ In the example below, an LED is connected to the GPIO. Each time the alert trigg
 - `R1` is the current-limiting resistor for the LED.
 - `R2` is the base resistor that controls how much current flows in the circuit.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-led-wiring.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-led-wiring.png" alt="Wiring diagram for the LED example: the P2N2222 transistor switches current through the LED, R1 (330 ohm) limits LED current, and R2 (10 kilohm) sits between the GPIO pin and the transistor base." width="563"></div>
 
 ## Use GPIO in alerts
 

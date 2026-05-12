@@ -49,7 +49,7 @@ If Lumana cannot establish a local connection, then it switches to cloud streami
 
 Cloud streaming also helps distribute live video to multiple viewers without requiring each viewer to connect directly to Lumana Core.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-cloud-streaming-diagram.png" alt="Cloud streaming diagram." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-cloud-streaming-diagram.png" alt="Diagram showing cloud streaming: when the viewing device cannot reach Lumana Core directly, the live view is routed through Lumana Cloud over WebRTC to the client." width="563"></div>
 
 ## Manage streaming quality
 
@@ -59,7 +59,7 @@ This helps balance video clarity, bandwidth use, and playback performance across
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-screenshots/live-view-player-office-hq.png" alt="" width="563"></div>
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-quality-routing-diagram.png" alt="Streaming quality diagram." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-quality-routing-diagram.png" alt="Diagram showing how Lumana selects standard, medium, or high quality live view based on stream layout, available bandwidth, browser and codec support, and player size." width="563"></div>
 
 ### How quality selection works
 

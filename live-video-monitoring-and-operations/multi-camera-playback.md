@@ -2,7 +2,7 @@
 
 Use multi-camera playback to review footage from up to four cameras on one synchronized timeline. This helps you compare activity across nearby cameras, reconstruct incidents, and confirm alerts without scrubbing each feed separately.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-preview.png" alt="Multi-camera playback preview with image results, selected time range, and Add cameras button." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-preview.png" alt="" width="563"></div>
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ Open one camera viewer, anchor playback on a date and clock instant, then add up
 
    The calendar and clock picker opens.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-date-time-and-add.png" alt="Playback view with calendar and time picker open from the date-time button under the frame; multi-camera playback icon annotated at bottom right." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-date-time-and-add.png" alt="" width="563"></div>
 
 3. Choose the playback date and clock fields for the instant you want. That moment anchors playback.
 
@@ -35,14 +35,14 @@ Open one camera viewer, anchor playback on a date and clock instant, then add up
 
    All selected cameras stay on one timeline. You can scrub across the incident, change playback speed, and export footage to the archive.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-synced-view.png" alt="Synchronized multi-camera playback: 2x2 grid with His playback labels, shared timestamp, camera names, and playback bar with speed, date range, and timeline playhead." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-synced-view.png" alt="" width="563"></div>
 
 
 {% hint style="info" %}
 In search-based playback, a green highlight on a camera timeline marks frames where the searched object appears, like in the image below.
 {% endhint %}
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-wall-view.png" alt="Multi-camera playback wall view with synchronized camera tiles and shared timeline." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/multi-camera-playback-wall-view.png" alt="" width="563"></div>
 
 ## Next steps
 

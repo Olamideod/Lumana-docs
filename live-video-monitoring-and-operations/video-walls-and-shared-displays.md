@@ -49,7 +49,7 @@ Create a saved wall when you need a reusable layout for ongoing monitoring.
 
 1. On **Walls**, select **Create wall** in the upper-left corner of the page.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-create-wall-button.png" alt="Create wall button in the upper-left of the Walls page." width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-create-wall-button.png" alt="" width="375"></div>
 
 2. Enter a wall name and choose a layout that fits the number of cameras or alert tiles you want to show, and select **Done**.
 3. Expand **Cameras** to choose which cameras appear on the wall, and expand **Alerts** to configure alert tiles.

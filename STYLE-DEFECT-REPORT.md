@@ -33,11 +33,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ### `live-video-monitoring-and-operations/dark-mode-and-light-mode.md`
 
-**Image issues (alt text policy):**
-- ✅ [L15](live-video-monitoring-and-operations/dark-mode-and-light-mode.md#L15): alt="Dark mode home view with the user menu button highlighted in the lower left." — descriptive on a screenshot. Style guide [Alt text](STYLEGUIDE.md) says alt should be empty for screenshots. *Verified.*
-- ✅ [L21](live-video-monitoring-and-operations/dark-mode-and-light-mode.md#L21): alt="Dark mode user menu with the User settings option highlighted." — descriptive on a screenshot. *Verified.*
-- ✅ [L37](live-video-monitoring-and-operations/dark-mode-and-light-mode.md#L37): alt="Theme selection dialog with Dark selected and Save button visible." — descriptive on a screenshot. *Verified.*
-
 (Image-vs-step content verified: user icon, settings menu, theme field, theme dialog all match.)
 
 ---
@@ -51,10 +46,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **List/step issues:**
 - ✅ [L25](live-video-monitoring-and-operations/live-view.md#L25): step 3 "Change the date, time range, clip duration, or resolution as needed." — vague, no visible result described. *Verified. Style guide [Steps](STYLEGUIDE.md) says "If the step produces a visible result, describe it in the line immediately after the step."*
 - ✅ [L48](live-video-monitoring-and-operations/live-view.md#L48): step 3 "Use the available actions to scrub through the footage, add cameras to a video wall layout, or archive footage to share it later." — combines three different actions into a single step. *Verified. Style guide [Steps](STYLEGUIDE.md): "Each numbered step is one clear action."*
-
-**Image issues:**
-- ✅ [L17](live-video-monitoring-and-operations/live-view.md#L17): alt="Live view camera grid and location list." — not empty for a screenshot. *Verified.*
-- ✅ [L27](live-video-monitoring-and-operations/live-view.md#L27): alt="Live view with thumbnail preview, playback controls (snapshot, fullscreen, Live view, pause, date/time), and bottom timeline scrubber." — not empty for a screenshot. *Verified.*
 
 **Image-vs-step mismatches:**
 - ⚠️ [L33](live-video-monitoring-and-operations/live-view.md#L33): image `live-view-screenshots/live-view-player-office-hq.png` shows the **HQ** quality toggle in the bottom-center cluster, not bottom-left as the body text on [L35](live-video-monitoring-and-operations/live-view.md#L35) describes. *The body text "In the bottom left corner of Live view" is present and verified; the image content can't be re-checked from the markdown alone, but the image path is correct so the mismatch claim hinges on a screenshot review.*
@@ -84,11 +75,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **Marketing / vague claims:**
 - ✅ [L42](live-video-monitoring-and-operations/live-view-streaming-and-quality.md#L42): "This is especially useful when you need to access live video from another location..." — borderline marketing intensifier. *Verified.*
 
-**Image issues:**
-- ✅ [L32](live-video-monitoring-and-operations/live-view-streaming-and-quality.md#L32): alt="Diagram showing local streaming from Lumana Core to the viewing device through the local network." — diagram alt OK. *Verified (this entry is a pass note, not a defect).*
-- ✅ [L52](live-video-monitoring-and-operations/live-view-streaming-and-quality.md#L52): alt="Cloud streaming diagram." — too sparse for a diagram conveying flow info. *Verified.*
-- ✅ [L62](live-video-monitoring-and-operations/live-view-streaming-and-quality.md#L62): alt="Streaming quality diagram." — too sparse for a diagram. *Verified.*
-
 **Image-vs-step mismatches:**
 - ⚠️ [L52](live-video-monitoring-and-operations/live-view-streaming-and-quality.md#L52): `live-view-cloud-streaming-diagram.png` shows the *local* streaming decision flow, not the cloud streaming path the surrounding text describes. *Image path verified; image content can't be re-checked from the markdown alone.*
 - ⚠️ [L62](live-video-monitoring-and-operations/live-view-streaming-and-quality.md#L62): `live-view-quality-routing-diagram.png` contains spelling errors in the diagram text ("Incomplient", "compatibale"). *Image path verified; image content can't be re-checked from the markdown alone.*
@@ -113,10 +99,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **UI element / casing inconsistency:**
 - ✅ [L25](live-video-monitoring-and-operations/lumana-timelapse.md#L25): "open **Edit Camera**" with capital C. Other pages use "**Edit camera**" (lowercase). *Verified — line 25 reads "Open **Devices**, select the camera you want, then open **Edit Camera**."*
 
-**Image issues:**
-- ✅ [L19](live-video-monitoring-and-operations/lumana-timelapse.md#L19): alt="Create timelapse dialog with camera, timeframe, and duration settings." — not empty for a screenshot. *Verified.*
-- ✅ [L36](live-video-monitoring-and-operations/lumana-timelapse.md#L36): alt="" — correct (pass note, not a defect). *Verified.*
-
 **Image-vs-step mismatches:**
 - ⚠️ [L19](live-video-monitoring-and-operations/lumana-timelapse.md#L19): `lumana-timelapse-create-dialog.png` shows a "Create timelapse" dialog while the surrounding text on [L17](live-video-monitoring-and-operations/lumana-timelapse.md#L17)–[L18](live-video-monitoring-and-operations/lumana-timelapse.md#L18) discusses default 3-day retention, not how to create a timelapse. *Image path and surrounding text verified; image content needs a visual review.*
 - ⚠️ [L36](live-video-monitoring-and-operations/lumana-timelapse.md#L36): `lumana-timelapse-retention-settings.png` — image shows the dropdown listing "3 days, 7 days, 14 days, 30 days" without "90 days"; step text on [L27](live-video-monitoring-and-operations/lumana-timelapse.md#L27) says options include "3 days, 7 days, 14 days, 30 days, or **90 days** when available". *Step text verified; image content needs a visual review.*
@@ -135,15 +117,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ✅ [L30](live-video-monitoring-and-operations/multi-camera-playback.md#L30): "Select up to three more cameras inside the picker, then select **Select**." — Style guide [UI text and messages](STYLEGUIDE.md) requires a qualifier on a UI element literally named "Select" ("select the **Select** button"). *Verified.*
 - ✅ [L32](live-video-monitoring-and-operations/multi-camera-playback.md#L32): "If you need fewer rows on screen, then search cameras or drill into locations." — placed inside step 6 but reads as unrelated guidance. *Verified.*
 
-**Image issues (alt text):**
-- ✅ [L5](live-video-monitoring-and-operations/multi-camera-playback.md#L5): alt="Multi-camera playback preview with image results, selected time range, and Add cameras button." — not empty for a screenshot. *Verified.*
-- ✅ [L22](live-video-monitoring-and-operations/multi-camera-playback.md#L22): alt="Playback view with calendar and time picker open from the date-time button under the frame; multi-camera playback icon annotated at bottom right." — not empty for a screenshot. *Verified.*
-- ✅ [L38](live-video-monitoring-and-operations/multi-camera-playback.md#L38): alt="Synchronized multi-camera playback: 2x2 grid with His playback labels..." — not empty for a screenshot. *Verified.*
-- ✅ [L45](live-video-monitoring-and-operations/multi-camera-playback.md#L45): alt="Multi-camera playback wall view with synchronized camera tiles and shared timeline." — not empty for a screenshot (this one is also a broken reference). *Verified.*
-
-**Image-vs-step mismatches / typos:**
-- ✅ [L38](live-video-monitoring-and-operations/multi-camera-playback.md#L38): alt text says "His playback labels" — should be "HLS" (the streaming protocol). *Verified literal alt-text typo.*
-
 ---
 
 ### `live-video-monitoring-and-operations/ptz-control.md`
@@ -157,10 +130,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **UI element issues:**
 - ✅ [L3](live-video-monitoring-and-operations/ptz-control.md#L3): "**Edit camera**" lowercase "c"; `lumana-timelapse.md` line 25 uses "**Edit Camera**" with capital C. *Verified cross-file inconsistency.*
-
-**Image issues:**
-- ✅ [L10](live-video-monitoring-and-operations/ptz-control.md#L10): alt="Live view for a PTZ camera: breadcrumb Home and PTZ Camera, PTZ toggle off at bottom left before you turn controls on, and video toolbar." — not empty for a screenshot. *Verified.*
-- ✅ [L17](live-video-monitoring-and-operations/ptz-control.md#L17): alt="Live view with PTZ panel: zoom in/out buttons, directional pad with Home, PTZ toggle on, preset save, settings, and bottom toolbar." — not empty for a screenshot. *Verified.*
 
 **Structural / guide-structure issues:**
 - ✅ [L1](live-video-monitoring-and-operations/ptz-control.md#L1)–[L28](live-video-monitoring-and-operations/ptz-control.md#L28): No Prerequisites section. [Guide structure](STYLEGUIDE.md) requires Introduction, Prerequisites, Steps, Next steps for how-to pages. *Verified: the page jumps from H1 intro to "## Use PTZ in live view" to "## Next steps".*
@@ -242,7 +211,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **UI element issues:**
 - ⚠️ [L50](live-video-monitoring-and-operations/video-walls-and-shared-displays.md#L50): "On **Walls**, select **Create wall** in the upper-left corner of the page." Step 6 on [L78](live-video-monitoring-and-operations/video-walls-and-shared-displays.md#L78) correctly says "upper-right corner" for a different screenshot. *Body text contradiction verified; image content (`video-walls-list.png`) needs a visual review.*
-- ⚠️ [L52](live-video-monitoring-and-operations/video-walls-and-shared-displays.md#L52): alt text "Create wall button in the upper-left of the Walls page" — matches the (incorrect) body text on L50. *Alt text verified; relies on the same screenshot review.*
 - ✅ [L100](live-video-monitoring-and-operations/video-walls-and-shared-displays.md#L100): "Use the upper-right toolbar: **Edit** (**pencil**), full-screen, or **Save as wall**…" — "**pencil**" inside parens is bolded but isn't a UI label. *Verified.*
 
 **List/step issues:**
@@ -292,8 +260,8 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ✅ [L27](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md#L27)–[L78](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md#L78): Indentation under numbered items is inconsistent (single vs double space after `1.`). *Verified by scanning numbered items in the file.*
 
 **Image-vs-step mismatches:**
-- ✅ [L36](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md#L36)/[L37](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md#L37): `create-group-dialog.png` alt says "...and Create button." but step 3 says "Save the group." *Verified contradiction between step text and alt text.*
-- ✅ [L60](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md#L60)/[L64](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md#L64): image alt says "Vehicle validation dialog with owner name, license plate, make, color, and Add button." (UI label is `owner name`) while step says "Enter the owner name". *Verified mismatch between step phrasing and UI label.*
+- ✅ [L37](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md#L37): `create-group-dialog.png` shows a **Create** button but step 3 on L37 says "Save the group." *Body text and image filename verified; step wording disagrees with the UI button label.*
+- ✅ [L60](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md#L60): step 2 says "Enter the owner name" while the UI label is reportedly `owner name`. *Body text verified; live-UI label needs a visual review.*
 
 ---
 
@@ -328,19 +296,8 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ❌ [L7](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L7): "after you click the chart" — should use "Select" per [UI text and messages](STYLEGUIDE.md). *Not confirmed: the phrase "after you click the chart" does not appear on line 7. The L7 sentence reads "...use them in alerts or a **Chart or table** widget..." with no "click" verb.*
 - ✅ [L15](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L15) and [L76](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L76): "Bearer" — line 15 uses backticks `` `Bearer` ``, line 76 uses plain bold text in a table row. *Verified inconsistency.*
 
-**Image issues (alt text):**
-- ✅ [L23](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L23): alt="Create API Key dialog with name, expiration, key value, copy and download actions, and Create button." *Verified.*
-- ✅ [L38](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L38): alt="Database Event tags list with Create event tag and usage 1 of 10." *Verified.*
-- ✅ [L42](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L42): alt="Event tag editor with name, video length, field table Name and Type, Add field, Save event tag." *Verified.*
-- ✅ [L144](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L144): alt="Search sidebar with Event tags expanded, event type selected, field toggles and operator dropdown." *Verified.*
-- ✅ [L152](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L152): alt="Configure alerts Integrations with Event tag and Event validation templates." *Verified.*
-- ✅ [L164](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L164): alt="Event tag alert rule with event tag, camera, wait duration, Then do this." *Verified.*
-- ✅ [L176](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L176): alt="Event validation alert with event tag, camera, appearance, objects, duration, Then do this." *Verified.*
-- ✅ [L186](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L186): alt="Add widget menu with Chart or table option highlighted." *Verified.*
-- ✅ [L193](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L193): alt="Chart or table widget dialog with Event tags datasource, axes, and preview." *Verified.*
-
 **Image-vs-step mismatch:**
-- ✅ [L23](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L23): image shows **Create API Key** dialog with **Create** button; body text on [L19](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L19) refers to "Generate Key". *Verified from alt text alone.*
+- ✅ [L19](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L19), [L23](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L23): body text on L19 refers to **Generate Key** while the screenshot reportedly shows a **Create API Key** dialog with a **Create** button. *Body text verified; image content needs a visual review.*
 
 **List/step issues:**
 - ✅ [L142](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L142): "Set the operator (...), then enter the values." — combines two actions. *Verified.*
@@ -414,7 +371,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ✅ [L1](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L1): "Pixels per foot (PPF) for camera placement" — uses parentheses. [Headings and capitalisation](STYLEGUIDE.md) says to minimize parentheses in headings. *Verified.*
 
 **Image issues:**
-- ✅ [L17](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L17), [L27](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L27), [L33](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L33), [L37](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L37), [L43](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L43), [L49](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L49): diagram images (formulas, PPF chart) have empty alt. [Alt text](STYLEGUIDE.md) requires meaningful alt for diagrams that convey information not in the surrounding text. *Verified empty alt on six diagram images at those lines.*
 - ✅ [L17](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L17), [L27](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L27), [L33](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L33), [L37](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L37), [L43](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L43), [L49](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L49): image filenames begin with `tracking-people-...` (e.g., `tracking-people-horizontal-length-formula.png`) but are used on this PPF page. *Verified across all six image src attributes.*
 
 ---
@@ -447,7 +403,7 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ✅ [L83](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L83)–[L85](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L85) and [L91](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L91)–[L96](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L96): numbered list items act as image-overlay annotations rather than procedural steps. [Lists, steps, and tables](STYLEGUIDE.md) reserves numbered lists for sequences. *Verified two blocks.*
 
 **UI naming inconsistency (cross-image):**
-- ⚠️ [L21](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L21), [L37](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L37): body uses **Dwell** (L21) and **Time period** (L37 alt text); screenshots may differ. *Body and alt-text strings verified at L21 and L37; the actual screenshot labels need a visual review against the live UI.*
+- ⚠️ [L21](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L21): body uses **Dwell** while the screenshot reportedly shows **Time period**. *Body text verified; image content needs a visual review.*
 
 ---
 
@@ -495,9 +451,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ✅ [L15](databases-analytics-and-search/tracking-people.md#L15): "These capabilities apply when people analytics is enabled…" — passive. *Verified.*
 - ✅ [L19](databases-analytics-and-search/tracking-people.md#L19): "individuals can be tracked and their crops stored at useful resolution." — passive. *Verified.*
 
-**Image issues (diagram alt text):**
-- ✅ [L49](databases-analytics-and-search/tracking-people.md#L49) (`tracking-people-face-angle-guidelines.png`) and [L63](databases-analytics-and-search/tracking-people.md#L63) (`tracking-people-distance-to-person-capabilities-diagram.png`): diagrams; should have meaningful alt text. Currently empty. *Verified both at L49 and L63.*
-
 **Other / typography:**
 - ✅ [L31](databases-analytics-and-search/tracking-people.md#L31): curly apostrophe in `organization's`. *Verified.*
 
@@ -514,9 +467,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Voice / passive issues:**
 - ✅ [L11](databases-analytics-and-search/tracking-vehicles.md#L11): "Cameras are added in Lumana and streaming reliably." — passive. *Verified.*
-
-**Image issues (diagram alt text):**
-- ✅ [L63](databases-analytics-and-search/tracking-vehicles.md#L63) (`tracking-vehicles-ppf-requirements-diagram.png`): diagram; should have meaningful alt text. Currently empty. *Verified.*
 
 **Other:**
 - ✅ [L91](databases-analytics-and-search/tracking-vehicles.md#L91): "FoV drives" vs section heading "Field of view" on [L89](databases-analytics-and-search/tracking-vehicles.md#L89). *Verified — H4 uses "Field of view"; body uses "FoV".*
@@ -575,7 +525,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ⚠️ [L95](set-up-cameras-and-devices/camera-networking-options.md#L95) `sip-traffic-inspection-rtp-services.png`: doc table at [L88](set-up-cameras-and-devices/camera-networking-options.md#L88)–[L93](set-up-cameras-and-devices/camera-networking-options.md#L93) shows 4 rows. *Doc table verified; image content needs a visual review.*
 - ⚠️ [L106](set-up-cameras-and-devices/camera-networking-options.md#L106) `on-premise-devices-ip-phones.png`: doc table at [L102](set-up-cameras-and-devices/camera-networking-options.md#L102)–[L104](set-up-cameras-and-devices/camera-networking-options.md#L104) shows one `Uniview_speaker` row. *Doc table verified; image content needs a visual review.*
 - ⚠️ [L122](set-up-cameras-and-devices/camera-networking-options.md#L122) `sip-service-ports-table.png`: doc table at [L112](set-up-cameras-and-devices/camera-networking-options.md#L112)–[L120](set-up-cameras-and-devices/camera-networking-options.md#L120) has `SIP\_UDP` rows at ports 5060 and 5061. *Doc table verified; image content needs a visual review.*
-- ⚠️ [L150](set-up-cameras-and-devices/camera-networking-options.md#L150) `sip-account-setup-example.png`: alt text says "Uniview speaker SIP account settings with registered status." *Alt-text verified; image content needs a visual review.*
 
 **Structural:**
 - ✅ [L168](set-up-cameras-and-devices/camera-networking-options.md#L168): No "Next steps" section. *Verified — page ends with TOA speaker screenshot.*
@@ -629,11 +578,10 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **UI element / capitalisation issues:**
 - ✅ [L26](set-up-cameras-and-devices/enable-ptz-control.md#L26): "Select the **driver**." — UI label is reportedly "Driver" (capital D). *Verified body uses lowercase "driver".*
-- ✅ [L27](set-up-cameras-and-devices/enable-ptz-control.md#L27): "Enter the **PTZ control path**." — body text and alt text on [L30](set-up-cameras-and-devices/enable-ptz-control.md#L30) ("X address") disagree. *Verified body uses "PTZ control path" while alt-text says "X address".*
 
 **Image-vs-step mismatches:**
-- ✅ [L22](set-up-cameras-and-devices/enable-ptz-control.md#L22): `live-view-edit-camera-button.png` alt text says "Settings wrench control highlighted in the top toolbar." but step 2 on [L20](set-up-cameras-and-devices/enable-ptz-control.md#L20) describes selecting "the **Edit camera** icon ... pencil icon." *Verified literal mismatch between body text and image alt text.*
-- ✅ [L30](set-up-cameras-and-devices/enable-ptz-control.md#L30): `ptz-settings-onvif-address-port.png` alt says "Onvif driver, X address, and port number" while body uses "driver" (lowercase), "PTZ control path", "port". *Verified mismatch between body field names and alt-text field names.*
+- ⚠️ [L20](set-up-cameras-and-devices/enable-ptz-control.md#L20)/[L22](set-up-cameras-and-devices/enable-ptz-control.md#L22): `live-view-edit-camera-button.png` is captioned next to step 2, which describes selecting "the **Edit camera** icon ... pencil icon." The screenshot is reportedly the Settings wrench control. *Body text verified; image content needs a visual review.*
+- ⚠️ [L27](set-up-cameras-and-devices/enable-ptz-control.md#L27)/[L30](set-up-cameras-and-devices/enable-ptz-control.md#L30): body uses "driver" (lowercase), "PTZ control path", and "port" while the screenshot reportedly labels the field as "X address". *Body text verified; image content needs a visual review.*
 
 ---
 
@@ -762,7 +710,7 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ✅ [L54](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md#L54): step 4 "Set that row as the **Default** profile and set **Codec** to **H.265**." — combines two actions. *Verified.*
 
 **Image-vs-step mismatch:**
-- ⚠️ [L82](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md#L82) `hanwha-storage-profile-settings.png`: alt text says "maximum bitrate 2048 kbps"; doc text on [L77](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md#L77) says **Bitrate control** should be **CBR**. *Body and alt-text verified; field mismatch claim depends on image content review.*
+- ⚠️ [L82](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md#L82) `hanwha-storage-profile-settings.png`: doc text on [L77](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md#L77) says **Bitrate control** should be **CBR**, but the screenshot is reportedly the Maximum/MBR setting. *Body text verified; image content needs a visual review.*
 
 **Structural:**
 - ✅ [L93](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md#L93): No "Next steps" section. *Verified — page ends with the RTSP profile note.*
@@ -983,9 +931,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ✅ [L9](set-up-cameras-and-devices/network-and-infrastructure-configuration/local-time-and-ntp-configuration.md#L9): step 1 combines three actions ("Open **Devices** → **Devices list**. Use the **Cores** filter… select **Edit location**."). *Verified.*
 - ✅ [L13](set-up-cameras-and-devices/network-and-infrastructure-configuration/local-time-and-ntp-configuration.md#L13): step 2 combines two actions ("set **Time Zone**, then select **Save**"). *Verified.*
 
-**Image issues (alt text):**
-- ✅ [L11](set-up-cameras-and-devices/network-and-infrastructure-configuration/local-time-and-ntp-configuration.md#L11), [L15](set-up-cameras-and-devices/network-and-infrastructure-configuration/local-time-and-ntp-configuration.md#L15): screenshot alt text is descriptive ("Devices list with Cores filter and Edit location…", "Edit location dialog on Details with Time Zone field set…"). [Alt text](STYLEGUIDE.md) says screenshot alt should be empty. *Verified.*
-
 (Image-vs-step content verified.)
 
 ---
@@ -1065,9 +1010,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **List/step formatting:**
 - ✅ [L19](set-up-cameras-and-devices/other-devices/gpio-devices.md#L19)–[L22](set-up-cameras-and-devices/other-devices/gpio-devices.md#L22) vs [L26](set-up-cameras-and-devices/other-devices/gpio-devices.md#L26)–[L28](set-up-cameras-and-devices/other-devices/gpio-devices.md#L28): "Parts list" uses `*` bullets; "Wiring notes" uses `-` bullets. *Verified.*
 - ✅ [L26](set-up-cameras-and-devices/other-devices/gpio-devices.md#L26)–[L28](set-up-cameras-and-devices/other-devices/gpio-devices.md#L28): "Wiring notes" items use full sentences with periods. *Verified — items actually end in periods, contradicting the report; defect partially overstated.*
-
-**Image issues (diagram alt text):**
-- ✅ [L11](set-up-cameras-and-devices/other-devices/gpio-devices.md#L11), [L30](set-up-cameras-and-devices/other-devices/gpio-devices.md#L30): `gpio-pinout.png` and `gpio-led-wiring.png` are diagrams carrying information not in the body. Alt text is empty per the file source. *Verified — both `alt=""` on diagrams; [Alt text](STYLEGUIDE.md) requires meaningful alt text for diagrams.*
 
 ---
 
@@ -1193,8 +1135,6 @@ These themes show up across multiple pages. Treating them in a single pass will 
 - [`camera-networking-options.md`](set-up-cameras-and-devices/camera-networking-options.md) and [`sip-for-smart-speakers.md`](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md): SIP service rows say `SIP_UDP`; screenshots show `SIP_DEV_UDP`. On-premise device example in doc uses `Uniview_speaker`; screenshot shows `Hikvision_speaker` at that IP.
 - [`axis.md`](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md) and [`hanwha.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md): stream profile screenshots show "Maximum"/MBR bitrate while the body text says CBR.
 - [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md): doc says `NFS-Server-1`; screenshot's field shows `NFS-Sever-1`.
-
-**4. ✅ Image alt-text policy not applied consistently.** Many screenshots still carry descriptive alt text (live-video pages, [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md), [`local-time-and-ntp-configuration.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/local-time-and-ntp-configuration.md), etc.). At the same time, several diagrams that *should* have descriptive alt have empty alt ([`gpio-devices.md`](set-up-cameras-and-devices/other-devices/gpio-devices.md), PPF formula images on [`pixels-per-foot-for-camera-placement.md`](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md), face-angle diagrams, hardware dimensions). The rule per [Alt text](STYLEGUIDE.md): empty alt for screenshots, meaningful alt for diagrams that carry information not in the surrounding text. *Verified across the per-file sections above.*
 
 **5. ✅ Bold-as-heading misuse.** [`share-video.md`](live-video-monitoring-and-operations/share-video.md) lines 15 and 31 (`**Go to Archives**`, `**Create link and copy or send**`); [`overview.md`](set-up-cameras-and-devices/overview.md) (`**Recommended for most sites**`, `**If your cameras support pan, tilt, and zoom**`); [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md) (`**Import configuration:**`, `**Export configuration:**`); [`tracking-vehicles.md`](databases-analytics-and-search/tracking-vehicles.md) lines 125 and 129 (`**Day view**`, `**Night view**`). *Verified across the per-file sections above.*
 

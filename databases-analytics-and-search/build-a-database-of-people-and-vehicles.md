@@ -33,7 +33,7 @@ Create groups when you need to organize people into reusable sets for review or 
 
     The dialog shows the selected people before you save the group.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/create-group-dialog.png" alt="Create a group dialog with group name field, searchable people list, and Create button." width="375"></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/create-group-dialog.png" alt="" width="375"></div>
 3.  Save the group.
 
     You can later hover over the group to edit or delete it.
@@ -61,7 +61,7 @@ Add a detected vehicle when Lumana has already captured the plate and vehicle de
 
     The validation dialog shows the detected plate, make, color, and other saved fields.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/vehicle-seen-validation-dialog.png" alt="Vehicle validation dialog with owner name, license plate, make, color, and Add button." width="375"></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/vehicle-seen-validation-dialog.png" alt="" width="375"></div>
 3.  Select **Add**.
 
     The vehicle is added to your organization's saved vehicle list.

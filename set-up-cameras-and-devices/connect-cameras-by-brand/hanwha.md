@@ -79,7 +79,7 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 * Set **Smart codec** to **Off** (or **Disable**).
 * Leave **Dynamic GOV** and **Dynamic FPS** disabled.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-storage-profile-settings.png" alt="Hanwha Storage profile: H.265, 1280x720, 20 fps, ATC off, maximum bitrate 2048 kbps." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-storage-profile-settings.png" alt="" width="563"></div>
 
 ### Add the camera in Lumana Core
 

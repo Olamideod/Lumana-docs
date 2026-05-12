@@ -8,11 +8,11 @@ Update the location time zone so live view and playback show the correct local t
 
 1. Open **Devices** → **Devices list**. Use the **Cores** filter if it helps you find the site. On the location row for the Core whose time zone you are changing, select **Edit location**.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-edit-location.png" alt="Devices list with Cores filter and Edit location on the location row." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-edit-location.png" alt="" width="563"></div>
 
 2. On the **Details** tab, set **Time Zone**, then select **Save**.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-location-timezone-field.png" alt="Edit location dialog on Details with Time Zone field set to America/Los_Angeles." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-location-timezone-field.png" alt="" width="563"></div>
 
 ## Configure NTP
 

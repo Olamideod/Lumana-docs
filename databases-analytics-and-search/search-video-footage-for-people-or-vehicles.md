@@ -34,7 +34,7 @@ For more detail on multi-object searches, see [Search for multiple people or veh
 
 The Search layout can include extra categories when you work across object types, such as **Face**, **Motion**, or additional filters alongside **Person** and **Vehicle**.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-multi-object-search-page.png" alt="Search page with Person, Face, Vehicle, Precision, Time period, Motion, and Event tags visible in the filter column." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-multi-object-search-page.png" alt="" width="563"></div>
 
 ## Search for a person
 

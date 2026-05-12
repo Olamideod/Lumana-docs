@@ -147,7 +147,7 @@ After you complete the Check Point SmartConsole steps above, open each speaker's
 6. Save
 7. Verify the speaker's status shows **Registered**
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-account-setup-example.png" alt="Uniview speaker SIP account settings with registered status." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-account-setup-example.png" alt="" width="563"></div>
 
 ### TOA speaker
 

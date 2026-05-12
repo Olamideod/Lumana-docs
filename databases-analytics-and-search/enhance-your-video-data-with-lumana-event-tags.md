@@ -20,7 +20,7 @@ Lumana authenticates POST requests with API keys and your organization ID. Send 
 4. Enter an **API Key name** and an **Expiration** value. The dialog shows the generated secret; copy it or use download if you prefer. You will not see the full key again after you complete the dialog.
 5. Select **Create** to finish.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-create-api-key-modal.png" alt="Create API Key dialog with name, expiration, key value, copy and download actions, and Create button." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-create-api-key-modal.png" alt="" width="563"></div>
 
 {% hint style="warning" %}
 Keep your API key secret. Anyone who has it can post events to your organization until it expires or you revoke it.
@@ -35,11 +35,11 @@ An event tag is a template for events you will POST. It has a display name, a **
 1. In the sidebar, select **Database**, then **Event tags**.
 2. Select **Create event tag** (or open an existing tag to edit it).
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-database-list.png" alt="Database Event tags list with Create event tag and usage 1 of 10." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-database-list.png" alt="" width="563"></div>
 
 ### Fill in the tag
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-database-edit-form.png" alt="Event tag editor with name, video length, field table Name and Type, Add field, Save event tag." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-database-edit-form.png" alt="" width="563"></div>
 
 * **Event tag name**: A short label for **Search**, alerts, and dashboards, for example a pallet workflow name your operators recognize.
 * **Video length**: Seconds of recording to attach around the `timestamp` from your POST.
@@ -141,7 +141,7 @@ Before you rely on results, confirm:
 4. Turn on the fields you want to filter.
 5. Set the operator (**Equals**, **Not equals to**, **Less than**, **Greater than**, and so on), then enter the values.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-search-filters.png" alt="Search sidebar with Event tags expanded, event type selected, field toggles and operator dropdown." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-search-filters.png" alt="" width="563"></div>
 
 If results appear here, then ingestion and matching worked. You can add dashboards or alerts on top of the same data.
 
@@ -149,7 +149,7 @@ If results appear here, then ingestion and matching worked. You can add dashboar
 
 You can create two kinds of alert from **Alerts** → **Configure alerts** under the **Safety & compliance** category:
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-alert-templates.png" alt="Configure alerts Integrations with Event tag and Event validation templates." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-alert-templates.png" alt="" width="563"></div>
 
 ### Event tag alert
 
@@ -161,7 +161,7 @@ Triggers when a given event tag is received on a camera after an optional wait.
 4. Open **Then do this** to pick notification or automation actions.
 5. Create the alert.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-alert-rule-builder.png" alt="Event tag alert rule with event tag, camera, wait duration, Then do this." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-alert-rule-builder.png" alt="" width="563"></div>
 
 ### Event validation alert
 
@@ -173,7 +173,7 @@ Adds a detection check on top of an event tag (for example require a **person** 
 4. Configure **Then do this** actions.
 5. Create the alert.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-alert-event-validation-builder.png" alt="Event validation alert with event tag, camera, appearance, objects, duration, Then do this." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-alert-event-validation-builder.png" alt="" width="563"></div>
 
 For more detail on rule fields, see [Event tag alert](../alerts-and-ai-detection/alert-types/integrations/event-tag.md).
 
@@ -183,14 +183,14 @@ For more detail on rule fields, see [Event tag alert](../alerts-and-ai-detection
 2. Create a dashboard or open an existing one to edit.
 3. Select **Add widget**, then select **Chart or table** from the menu.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-add-widget-menu.png" alt="Add widget menu with Chart or table option highlighted." width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-add-widget-menu.png" alt="" width="375"></div>
 
 4. Enter a **Title**.
 5. Under **Datasource**, select **Event tags**.
 6. Set **Visualization**, **X-axis**, **Y-axis** (for example **Total** and **All event tags** or one specific tag), and any camera or time overrides the chart needs. Read the in-dialog note if you disconnect widget filters from dashboard filters.
 7. Select **Add** to place the widget.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-chart-widget.png" alt="Chart or table widget dialog with Event tags datasource, axes, and preview." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-chart-widget.png" alt="" width="563"></div>
 
 Full axis and filter behavior, including drill-in, is described in [Chart or table](../dashboards/widgets/chart-or-table/README.md).
 

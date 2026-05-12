@@ -46,7 +46,7 @@ For best face recognition results, faces should be roughly head-on and looking t
 
 Acceptable head orientation falls in the ranges illustrated below (pitch, yaw, roll).
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-angle-guidelines.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-angle-guidelines.png" alt="Diagram of acceptable head orientation ranges for face recognition, showing tolerated pitch, yaw, and roll angles relative to a head-on, camera-facing pose." width="563"></div>
 
 ## Optimize your camera setup
 
@@ -60,7 +60,7 @@ Use the minimum PPF values in the table when you plan each camera or zone. Perso
 
 Keep a small PPF-versus-distance sheet per camera model so installers can check range quickly.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-distance-to-person-capabilities-diagram.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-distance-to-person-capabilities-diagram.png" alt="Diagram mapping distance to people analytics capabilities. Closer distances support face recognition; mid-range distances support attribute capture and re-identification; longer distances still support person detection at 7.5 PPF." width="563"></div>
 
 Use the following PPF targets when planning which capability you need at a given distance:
 
