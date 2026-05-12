@@ -21,7 +21,7 @@ Lumana has tested integration with the **TOA IP-A1SC15** and **SIP-S21M UNV** sp
 
 ## Configure the TOA IP-A1SC15
 
-The TOA IP-A1SC15 has many settings in its own web UI. This guide covers what you need so the speaker is reachable from Lumana. For full TOA documentation, see the TOA support site for your model.
+The TOA IP-A1SC15 has many settings in its own web UI. This guide covers what you need so Lumana can reach the speaker. For full TOA documentation, see the TOA support site for your model.
 
 ### Connect and address the speaker
 

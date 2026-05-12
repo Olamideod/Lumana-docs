@@ -2,21 +2,21 @@
 
 Lumana combines video management with an AI engine so you can search large archives of footage quickly, receive real-time alerts, and automate responses. People analytics builds on that stack. You can search, track, and review occupancy-related activity using person detection, attributes, cross-camera association, and, when enabled, face recognition.
 
-The platform is designed to install with standard cameras. Detection and analytics improve as the system processes each stream; positioning and resolution still matter, especially for face recognition and attribute detail at distance.
+The platform supports standard cameras. Detection and analytics improve as the system processes each stream; positioning and resolution still matter, especially for face recognition and attribute detail at distance.
 
 ## Prerequisites
 
-- Cameras are added in Lumana and streaming reliably.
+- You added your cameras to Lumana and they stream reliably.
 - You know which sites or cameras should run people-related analytics (and any org policies that apply to face recognition or cross-camera identity).
 - For mounting and aiming, see [camera guidelines for people analytics](https://support.lumana.ai/knowledge/editor/01HEN6TW1P90ZT21YXAJT7FV3X/en-us?brand_id=10899747518610) on the support site.
 
 ## People analytics features
 
-These capabilities apply when people analytics is enabled on your cameras.
+These capabilities apply after you enable people analytics on your cameras.
 
 ### Person detection
 
-The engine supports long-range person detection: individuals can be tracked and their crops stored at useful resolution. You can review everyone detected across your organization, select one person or groups that appear together, and base alerts on their activity. This supports security, investigations, and operations that depend on knowing who moved where and when.
+The engine supports long-range person detection. It tracks individuals and stores their crops at useful resolution. You can review everyone detected across your organization, select one person or groups that appear together, and base alerts on their activity. This supports security, investigations, and operations that depend on knowing who moved where and when.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-detection-results.png" alt="" width="563"></div>
 
@@ -26,7 +26,7 @@ You can filter and alert on person attributes such as clothing color and type, a
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-attributes-filters.png" alt="" width="563"></div>
 
-### Cross camera tracking
+### Cross-camera tracking
 
 Cross-camera tracking uses body shape, clothing, and other visible cues, not only the face, to associate the same person across cameras. That helps when the face is not visible or not suitable for recognition. Typical uses include attendance, access and investigations across large sites, and safety monitoring where you need continuity beyond a single camera view. Configure and use this capability according to your organization’s policies and applicable privacy requirements.
 

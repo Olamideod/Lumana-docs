@@ -1,6 +1,6 @@
 # Set up cameras and devices
 
-This section walks you through connecting cameras alongside Lumana Core, adding peripherals such as NAS, sensors, and speakers, stabilizing IP addresses, tuning network paths, and aligning streaming settings with Lumana Core. Use the recommended setup tasks first, then drop into the brand-specific or device-specific guides as you need them.
+This section walks you through connecting cameras alongside Lumana Core. It also covers peripherals such as NAS, sensors, and speakers, stabilizing IP addresses, tuning network paths, and aligning streaming settings with Lumana Core. Use the recommended setup tasks first, then drop into the brand-specific or device-specific guides as you need them.
 
 ## Recommended setup, networking, and streaming
 

@@ -25,7 +25,7 @@ Use Lumana's Remote PTZ (Pan-Tilt-Zoom) control to adjust camera direction and z
 4. Enable **PTZ support**.
 5. Select the **driver**. Most cameras use **ONVIF** by default.
 6. Enter the **PTZ control path**. A common format is `{camera_IP}:80/onvif/device_service`.
-7. Specify the **port** if it differs from the default `80`.
+7. Specify the **port** when it differs from the default `80`.
 
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/enable-ptz-control/ptz-settings-onvif-address-port.png" alt="" width="563"></div>
 

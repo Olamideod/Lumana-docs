@@ -1,6 +1,6 @@
 # Recommended streaming settings
 
-Use this page to see how your primary and sub streams should look for Lumana. If you use Lumana cameras or a supported brand that Lumana Core sets up for you, you may not need to change anything; otherwise copy the values from [Primary stream settings](#primary-stream-settings) and [Sub stream settings](#sub-stream-settings) into the camera’s own settings.
+Use this page to see how your primary and sub streams should look for Lumana. If you use Lumana cameras or a supported brand that Lumana Core sets up for you, then you might not need to change anything. Otherwise copy the values from [Primary stream settings](#primary-stream-settings) and [Sub stream settings](#sub-stream-settings) into the camera’s own settings.
 
 ## Stream configuration overview
 
@@ -54,11 +54,11 @@ For example:
 | VGA        | 640×480    | 15  | 800            |
 | HD         | 1280×720   | 15  | 1,800          |
 | 2MP        | 1920×1080  | 15  | 2,048          |
-| 3MP        | 3072×1028  | 15  | 3,084          |
+| 3MP        | 3072×1728  | 15  | 3,084          |
 | 4MP        | 2560×1440  | 15  | 3,584          |
 | 5MP        | 2592×1944  | 15  | 3,584          |
 | 5MP        | 2880×1620  | 15  | 3,584          |
-| 8MP        | 3480×2160  | 10  | 5,120          |
+| 8MP        | 3840×2160  | 10  | 5,120          |
 | 12MP       | 4000×3000  | 10  | 6,144          |
 
 ## Sub stream settings
@@ -122,7 +122,7 @@ These questions cover how streaming settings affect storage, codecs, CBR, and Lu
 
 <summary>What happens to <a href="../faq-and-reference/video-storage.md">video storage and retention</a> if you don't follow Lumana camera configuration best practices?</summary>
 
-Camera configuration best practices help Lumana Core reach its expected performance. If you do not follow the guidelines, you may see lower results in two areas:
+Camera configuration best practices help Lumana Core reach its expected performance. If you do not follow the guidelines, then you might see lower results in two areas:
 
 1. You may connect fewer cameras to a single Core than the specification describes.
 2. Your storage retention period may be shorter than the specification describes. For more on retention, read [Video storage](../faq-and-reference/video-storage.md).
@@ -147,7 +147,7 @@ The tables below show camera counts and FPS targets for each codec.
 | 2MP | 1920×1080  | 15  | 10            | 10            |
 | 4MP | 2560×1440  | 15  | 10            | 6             |
 | 5MP | 2880×1620  | 15  | 10            | 6             |
-| 8MP | 3480×2160  | 10  | 8             | 5             |
+| 8MP | 3840×2160  | 10  | 8             | 5             |
 
 ### Sub stream impact
 
@@ -177,7 +177,7 @@ Lumana Core uses an **AI engine** for video analytics, including object recognit
 
 - **Accurate AI analysis**: A higher bitrate with CBR preserves more detail in each frame, so AI algorithms get the clear images they need for reliable results.
 - **Stronger AI learning over time**: High-quality feeds support AI model training and tuning, which helps detection and behavior stay effective as your deployment runs.
-- **Smarter storage around alerts**: Higher bitrates usually mean more data. Lumana Core still uses **smart storage** so you are not wasting space: video stays high enough quality for **live processing** and **retrospective review**, and **rich recordings are kept when alerts fire**, without hoarding bulk high-bitrate footage when nothing important is happening. That prioritizes detail for **critical events**.
+- **Smarter storage around alerts**: Higher bitrates usually mean more data. Lumana Core still uses **smart storage** so you are not wasting space. Video stays high enough quality for **live processing** and **retrospective review**. When alerts fire, Lumana keeps richer recordings. That prioritizes detail for **critical events** without hoarding bulk high-bitrate footage when nothing important is happening.
 
 </details>
 

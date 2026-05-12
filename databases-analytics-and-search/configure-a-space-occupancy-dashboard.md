@@ -37,7 +37,7 @@ After you select the entrances and exits, configure the operational settings tha
 
 2. Set the reset time.
 
-   Choose whether the reset runs daily or weekly, then set the reset hour. To avoid incorrect counts, make sure the space is empty when the reset runs. If numbers still look wrong after a reset, see [Common accuracy issues](space-occupancy-analytics.md#common-accuracy-issues).
+   Choose whether the reset runs daily or weekly, then set the reset hour. To avoid incorrect counts, make sure the space is empty when the reset runs. If numbers still look wrong after a reset, then see [Common accuracy issues](space-occupancy-analytics.md#common-accuracy-issues).
 
 3. Define viewing hours if needed.
 
@@ -47,7 +47,7 @@ After you select the entrances and exits, configure the operational settings tha
 
 ## Review the results
 
-Once these settings are configured, the occupancy widget starts tracking and visualizing space usage based on current and historical data.
+After you save these settings, the occupancy widget starts tracking and visualizing space usage based on current and historical data.
 
 ## Next steps
 

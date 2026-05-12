@@ -52,4 +52,4 @@ Save the current configuration of a device as a file for backup or replication p
 
 ## Debugging and support
 
-If you run into camera issues, the Lumana Camera Finder application offers debugging tools. You can retrieve the device’s serial number and access diagnostic information through the advanced menu. You can provide this data to Lumana Support for further troubleshooting.
+If you run into camera issues, then the Lumana Camera Finder application offers debugging tools. You can retrieve the device’s serial number and access diagnostic information through the advanced menu. You can provide this data to Lumana Support for further troubleshooting.

@@ -8,7 +8,7 @@ Verkada cameras connect to Lumana Core over RTSP. You first enable RTSP on the c
 
 ## Map the RTSP URL into Lumana
 
-After RTSP is enabled, Verkada provides an RTSP URL. Use its host, port, credentials, and path segments in Lumana. A typical URL looks like this:
+After you enable RTSP, Verkada provides an RTSP URL. Use its host, port, credentials, and path segments in Lumana. A typical URL looks like this:
 
 ```
 rtsp://username:PASSWORD@0bees456678444559515e35.37.camera.verkada-lan.com:8554/high
@@ -42,5 +42,5 @@ Replace `username`, `PASSWORD`, and the hostname with the values from your camer
 5. Select **Save**.
 
 {% hint style="info" %}
-Verkada allows only one RTSP client per stream URL. If another system uses the same RTSP URL as Lumana Core, then the stream may conflict. Make sure Lumana Core is the only client on that URL, or use separate stream endpoints if Verkada provides them.
+Verkada allows only one RTSP client per stream URL. If another system uses the same RTSP URL as Lumana Core, then the stream might conflict. Give Lumana Core exclusive use of that URL, or map separate stream endpoints when Verkada offers them.
 {% endhint %}

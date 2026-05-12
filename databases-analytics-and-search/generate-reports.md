@@ -86,7 +86,7 @@ Recurring runs still use **Notifications** so recipients get each delivery by **
 
 ## Delivery and format
 
-All reports are exported as CSV files. You can open them in spreadsheets or load them into BI tools. You can:
+Lumana exports all reports as CSV files. You can open them in spreadsheets or load them into BI tools. You can:
 
 - **Download** exports from the **Reports** section.
 - **Email** exports to one or more recipients when delivery is configured.

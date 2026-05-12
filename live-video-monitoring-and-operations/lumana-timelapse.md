@@ -39,7 +39,7 @@ Once you know the default window and the longest **Snapshot retention days** opt
 
 ## Need longer history than snapshot retention allows?
 
-If you need timelapse history beyond the maximum **Snapshot retention days** value available in your deployment, contact Customer Support to discuss extended storage options.
+If you need timelapse history beyond the maximum **Snapshot retention days** value available in your deployment, then contact Customer Support to discuss extended storage options.
 
 ## Next steps
 

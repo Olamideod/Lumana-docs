@@ -12,7 +12,7 @@ Use the following pinout reference when wiring a device to GPIO.
 
 ## Connect a device
 
-In the example below, an LED is connected to the GPIO. Each time the alert triggers, the LED blinks.
+In the example below, you wire an LED to the GPIO. Each time the alert triggers, the LED blinks.
 
 Gather the parts before you wire the circuit—the values below match the reference diagram.
 
@@ -35,7 +35,7 @@ Gather the parts before you wire the circuit—the values below match the refere
 
 1. Contact your technical support team to enable GPIO on your Core.
 
-2. Once enabled, open the alert editor and add the **Toggle GPIO** action.
+2. After your support team enables GPIO on your Core, open the alert editor and add the **Toggle GPIO** action.
 
 3. Select the GPIO to use. The Core can support up to 4 GPIOs, toggle high or low, and control how long the signal remains active.
 

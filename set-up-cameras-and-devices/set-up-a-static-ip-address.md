@@ -18,7 +18,7 @@ If you are not sure whether your network uses DHCP, then use the following subse
 
 _DHCP_ stands for Dynamic Host Configuration Protocol. That service assigns each device an IP address automatically, usually from a range your router, firewall, or Lumana Core manages. Devices can then communicate without manual IP entry on each device.
 
-You likely have DHCP if a router, office firewall, or Lumana Core on the network assigns addresses, and your camera already shows an IP in Lumana without you setting a static address on the device. Check your router or Core admin UI for DHCP or LAN settings if you are unsure.
+You likely have DHCP when a router, office firewall, or Lumana Core on your network assigns addresses to devices. Your camera might already show an IP in Lumana before you set a static address on the device. Check your router or Core admin UI for DHCP or LAN settings if you are unsure.
 
 You likely do not have DHCP if every device uses manually entered IPs and nothing on the subnet offers leases. Use Scenario 3 in that case.
 
@@ -75,7 +75,7 @@ The example below assumes these factory defaults on the camera (your labels may 
 1. If the camera didn't receive an address automatically, then assign a temporary static IP to your computer on the same subnet as the camera. For example, `192.168.1.10`, subnet mask `255.255.255.0`.
 
 {% hint style="info" %}
-If needed, refer to your computer or operating system documentation for instructions on setting a temporary static IP address.
+If you need step-by-step instructions, then refer to your computer or operating system documentation for setting a temporary static IP address.
 {% endhint %}
 
 2. Open a web browser on a computer on the same network as the camera. Enter the camera IP address in the address bar to open the configuration page.

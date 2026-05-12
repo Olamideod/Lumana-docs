@@ -4,7 +4,7 @@ Event tags let you record structured events from external systems and tie them t
 
 Consider a warehouse example. If your Warehouse Management System (WMS) knows a pallet's ID, then you can POST that ID to Lumana with a camera and timestamp. Operators can then search for the pallet to pull the clip for loading or condition checks and share that clip as evidence.
 
-This guide walks you through six steps: generate an API key, create an event tag, post events to the Lumana API, find them in **Search**, and optionally use them in alerts or a **Chart or table** widget. For widget options in depth, see [Chart or table](../dashboards/widgets/chart-or-table/README.md). For clip preview controls after you select the chart, see [Event tag clip preview](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/chart-or-table-event-tags-clip-preview.md).
+This guide walks you through six steps. They cover generating an API key, creating an event tag, posting events to the Lumana API, finding them in **Search**, and optionally using them in alerts or a **Chart or table** widget. For widget options in depth, see [Chart or table](../dashboards/widgets/chart-or-table/README.md). For clip preview controls after you select the chart, see [Event tag clip preview](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/chart-or-table-event-tags-clip-preview.md).
 
 ## Prerequisites
 

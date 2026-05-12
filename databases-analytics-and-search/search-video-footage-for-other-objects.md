@@ -28,7 +28,7 @@ Open the camera you want to review and make sure you can see the timeline and th
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-other-objects-vehicles-results.png" alt="Camera metadata filtered by Vehicles with thumbnail tiles grouped under Yesterday." width="563"></div>
 
-6. Select a tile to open the preview. Use **Images**, **Video**, **Objects**, or **Faces** to review the moment, zoom on the detection, or play the clip. Download controls are available on the preview when your role allows it.
+6. Select a tile to open the preview. Use **Images**, **Video**, **Objects**, or **Faces** to review the moment, zoom on the detection, or play the clip. The preview shows download controls when your role allows it.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-other-objects-object-preview.png" alt="Preview with Images, Video, Objects, and Faces tabs and playback timeline." width="563"></div>
 

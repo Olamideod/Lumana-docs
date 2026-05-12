@@ -33,7 +33,7 @@ From live view, **Share camera** opens when you select **Share**. From an alert 
 1. Enter a **Name** for this share (for example the incident or camera name).
 2. Open **Access to video for** and choose how long the link works, for example **7 days**.
 3. Turn **Allow to download** on or off so viewers can save the file or stream only. **Share camera** omits this toggle; **Share archive** and **Share alert** include it.
-4. Turn **Password** on, then type and confirm a password if viewers must enter one before playback.
+4. Turn **Password** on, then type and confirm a password when viewers must enter one before playback.
 5. Select **Create link**.
 
    Lumana fills **Video shared link** with the URL. Select the copy icon to copy the address. Select the share icon to send it through another channel where your deployment supports it (for example email or SMS).

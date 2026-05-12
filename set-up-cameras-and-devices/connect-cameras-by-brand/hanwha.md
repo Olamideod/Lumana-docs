@@ -89,4 +89,4 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 * Main stream: `/0/profile3/media.smp` or `/profile3/media.smp`
 * Substream (Storage): `/0/profile4/media.smp` or `/profile4/media.smp`
 
-If your main or Storage row sits on a different profile index, change the numbers in the path to match.
+If your main or Storage row sits on a different profile index, then change the numbers in the path to match.

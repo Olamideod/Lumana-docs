@@ -25,7 +25,7 @@ In **Edit camera**, open **Shortcuts** to see the live image, shortcut pins, **A
 3. Select **Add shortcut**.
 4. Select the camera you want the shortcut to open (the alternative view).
 5. Place the shortcut on the part of the image where you want it.
-6. If you need more shortcuts on the same camera, repeat steps 3 through 5.
+6. If you need more shortcuts on the same camera, then repeat steps 3 through 5.
 7. Select **Save**.
 
 Go back to the camera’s live view. A shortcut can open the linked camera in a picture-in-picture panel, or switch the main view depending on your layout.

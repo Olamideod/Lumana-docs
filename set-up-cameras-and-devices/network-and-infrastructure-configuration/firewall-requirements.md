@@ -62,7 +62,7 @@ Instead of managing URL-based firewall rules, you may whitelist IPs directly.
 
 ### Reference IP allowlist (snapshot)
 
-Prefer the [API response](#infrastructure-ips) above when your tools can consume it. The table below is a **static reference** grouped by **category** and **region**, useful for ticketing, change control, or firewalls that need explicit rows. Entries can change; reconcile with the API and review at least annually.
+Prefer the [API response](#infrastructure-ips) above when your tools can consume it. The table below is a **static reference** grouped by **category** and **region**. Use it for ticketing, change control, or firewalls that need explicit rows. Entries can change; reconcile with the API and review at least annually.
 
 | IP | Protocol | Port | Category | Region |
 | --- | --- | --- | --- | --- |
@@ -139,9 +139,9 @@ These requirements apply to Lumana Live View and the Lumana Web application.
 
 Lumana Live View uses WebRTC and WebSocket.
 
-All traffic is encrypted with TLS and DTLS.
+TLS and DTLS encrypt all traffic.
 
-If UDP is blocked, TURN/TLS over TCP 443 is used.
+If UDP is blocked, then Lumana uses TURN/TLS over TCP 443.
 
 Allow the following signaling, TURN/STUN, and media port patterns in addition to the Core requirements above.
 
@@ -246,7 +246,7 @@ Media server IPs:
 
 ## Lumana Web application requirements
 
-The Lumana Web application also requires an outbound internet connection to communicate with Lumana Cloud. If your network firewall monitors outbound traffic, allow the following endpoints for the application itself.
+The Lumana Web application also requires an outbound internet connection to communicate with Lumana Cloud. If your network firewall monitors outbound traffic, then allow the following endpoints for the application itself.
 
 ### Web application infrastructure
 

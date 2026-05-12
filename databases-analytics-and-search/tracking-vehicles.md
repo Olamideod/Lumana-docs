@@ -8,7 +8,7 @@ Use the sections below for what each capability does. When you need to relate re
 
 ## Prerequisites
 
-- Cameras are added in Lumana and streaming reliably.
+- You added your cameras to Lumana and they stream reliably.
 - You know which sites or lanes need vehicle analytics or LPR, and any policies that apply to plate or vehicle data.
 - For general mounting and aiming, see the [camera guidelines](https://support.lumana.ai/knowledge/editor/01HEN6TW1P90ZT21YXAJT7FV3X/en-us?brand_id=10899747518610) on the support site.
 

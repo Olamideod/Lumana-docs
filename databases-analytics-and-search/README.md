@@ -1,6 +1,6 @@
 # Databases, analytics, and search
 
-Use this section to build the people and vehicle data Lumana relies on, search footage, set up missing-object alerts, generate reports, and run occupancy and Event Tag workflows.
+Use this section to build the people and vehicle data Lumana relies on. Search footage, set up missing-object alerts, generate reports, and run occupancy and Event Tag workflows.
 
 Pick the guide that matches what you want to accomplish.
 

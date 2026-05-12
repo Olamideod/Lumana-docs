@@ -5,13 +5,13 @@ Connect a network attached storage (NAS) device to Lumana to expand recording st
 Adding a NAS does not replace Lumana Core. The NAS works alongside the Core as both an additional storage location for longer retention and a backup target for recorded data. Lumana's standard capabilities remain available.
 
 {% hint style="info" %}
-If you record to NAS for more than 30 days and want to keep smart search functionality, then you need an additional NAS license. No license is needed for the first 30 days.
+If you record to NAS for more than 30 days and want to keep **Smart Search** functionality, then you need an additional NAS license. You do not need a license for the first 30 days.
 {% endhint %}
 
 ## Prerequisites
 
 * The storage device must support NFS or S3-compatible object storage.
-* The storage device must be reachable on the network by the Lumana Core unit.
+* Your Lumana Core unit must reach the storage device on the network.
 
 ## Add an external storage server
 
@@ -30,7 +30,7 @@ If you record to NAS for more than 30 days and want to keep smart search functio
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/nas-edit-location-add-external-storage.png" alt="" width="563"></div>
 
-4. Choose your storage type. This can be either **NFS** or **Object Storage**. See the NFS example below.
+4. Choose **NFS** or **Object Storage** as the storage type. See the NFS example below.
 
    * **Storage type**: `NFS`
    * **Name**: a label you will recognize when assigning cameras (for example `NFS-Server-1`)

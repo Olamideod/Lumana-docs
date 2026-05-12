@@ -4,7 +4,7 @@ Use the organization database to organize detected people, doors, and vehicles i
 
 ## Prerequisites
 
-Make sure you can open the organization database and edit the people, doors, or vehicles you want to manage. If you plan to use Event Tags or import vehicles from a CSV file, then make sure you also have access to those features in your organization.
+Make sure you can open the organization database and edit the people, doors, or vehicles you want to manage. If you plan to use Event Tags or import vehicles from a CSV file, then confirm you have access to those features in your organization.
 
 ## Understand the organization database
 

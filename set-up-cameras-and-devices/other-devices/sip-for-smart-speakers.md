@@ -95,7 +95,7 @@ Complete the following steps in order on the Check Point router.
 After you finish the Check Point steps above, open each speaker's own admin interface and enter its SIP account so the device can register. The subsections below walk through Uniview and TOA speakers as examples.
 
 {% hint style="info" %}
-**Note**: SIP credentials (address, username, password) are supplied by your CSM.
+**Note**: Your CSM supplies SIP credentials (address, username, password).
 {% endhint %}
 
 ### Uniview speaker

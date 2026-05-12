@@ -1,6 +1,6 @@
 # Configure Lumana Core as a DHCP server
 
-Lumana Core can function as a DHCP server, allowing it to dynamically assign IP addresses to connected devices on its network. This feature is supported on Ethernet 2, enabling automated network management without requiring manual IP address configuration for each device.
+Lumana Core can run a DHCP server on **Ethernet 2**. It assigns IP addresses to devices on that interface so you skip manual addressing for each device.
 
 {% hint style="info" %}
 Use this feature when you want Lumana Core to assign IP addresses to devices connected on Ethernet 2.
@@ -8,7 +8,7 @@ Use this feature when you want Lumana Core to assign IP addresses to devices con
 
 ## Key DHCP server capabilities
 
-When enabled, the DHCP server on Lumana Core provides essential networking services, including:
+When you enable DHCP on Lumana Core, the server assigns addresses and manages client connectivity basics, including:
 
 - Automatic assignment of IP addresses
 - Management of network connectivity for connected devices
@@ -18,7 +18,7 @@ When enabled, the DHCP server on Lumana Core provides essential networking servi
 
 - Confirm you can edit the relevant Core in Lumana.
 - Connect the devices you want Lumana Core to manage to **Ethernet 2**.
-- If another DHCP server is already active on that segment, review the impact before you enable this feature. Turning on Lumana’s DHCP server can change IP assignments for devices on the network.
+- If another DHCP server is already active on that segment, then review the impact before you enable this feature. Turning on Lumana’s DHCP server can change IP assignments for devices on the network.
 
 ## Configure DHCP server on Lumana Core
 
@@ -40,9 +40,9 @@ Configure the following parameters when you set up the DHCP server on Lumana Cor
 
 - **Starting IP Address**: The first IP address in the DHCP pool that Lumana Core assigns to devices.
 - **Ending IP Address**: The last IP address in the DHCP pool, defining the range of available IPs.
-- **DNS Servers**: A list of DNS servers that clients should use for domain name resolution. Multiple servers can be specified, separated by commas.
+- **DNS Servers**: A list of DNS servers that clients should use for domain name resolution. Separate multiple servers with commas.
 - **Gateway**: The default gateway IP address that clients will use to communicate with external networks.
-- **Lease Time**: The duration, in seconds, for which an IP address is leased to a device before it needs renewal.
+- **Lease Time**: How long, in seconds, a device keeps an IP address before it must renew the lease.
 
 ## Example configuration
 

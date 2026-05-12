@@ -109,7 +109,7 @@ Use **Quick live view** when you need a temporary wall without building a full s
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-save-live-view-name.png" alt="Save live view as wall dialog: Wall name field and Save button." width="375"></div>
 
-If you did not use **Save as wall**, quick live view stays temporary until you navigate away.
+If you did not use **Save as wall**, then quick live view stays temporary until you navigate away.
 
 Quick live view walls also use the same live view controls available in [Use live view](live-view.md).
 

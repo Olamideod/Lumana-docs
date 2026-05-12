@@ -39,7 +39,7 @@ This guide walks you through preparing the camera, choosing how Lumana authentic
 
 Choose the connection method that fits your setup:
 
-* **Admin credentials (recommended)**: Use the camera’s root username and password in Lumana Core. This gives Lumana full access to the Axis API and settings, reduces compatibility gaps, and avoids subtle permission errors.
+* **Admin credentials (recommended)**: Use the camera’s root username and password in Lumana Core. That access gives Lumana full control over the Axis API and settings. It also reduces compatibility gaps and avoids subtle permission errors.
 * **ONVIF**: Use an ONVIF user you create on the camera when you need a standards-based path (especially for PTZ cameras) or when your organization standardizes on ONVIF for third-party systems.
 * **Dedicated camera user (new profile)**: Add a separate user account on the camera (for example under **System** → **Users**) and use that account in Lumana instead of root. You can change or revoke that user later without touching the root password, and you can limit the account to what Lumana needs. Some Lumana features still expect admin-level access; see the hint below.
 
@@ -54,7 +54,7 @@ When your policy allows it, connect with the camera’s admin (root) credentials
 ### Before you connect the camera
 
 * **Update the camera**: Install current firmware from Axis when possible so the web UI and codecs match what this guide expects.
-* **Reach the camera on the network**: Axis devices use Ethernet. Most networks assign addresses via DHCP. If no DHCP server is present, many Axis cameras default to `192.168.0.90`. Put your PC on the same subnet before you start.
+* **Reach the camera on the network**: Axis devices use Ethernet. Most networks assign addresses via DHCP. If no DHCP server is present, then many Axis cameras default to `192.168.0.90`. Put your PC on the same subnet before you start.
 * **Discovery and addressing**: Use [Axis IP Utility](https://www.axis.com/support/tools/axis-ip-utility) (or the camera web interface) to find the camera, set the root password, and assign a static IP. A stable IP prevents Lumana Core from losing the device when DHCP leases change.
 * **ONVIF and passwords**: After the root password is set, Axis disables ONVIF until you add an ONVIF user (see below). If you use ONVIF in Lumana, then plan that step before you connect the camera.
 
@@ -70,7 +70,7 @@ When the login page appears, enter your root (or administrator) credentials. A s
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-web-sign-in.png" alt="Axis camera Sign in dialog in the browser with username and password fields." width="563"></div>
 
-If you cannot activate the camera, reach its web UI, or complete network setup, see the [General troubleshooting guide](../../troubleshooting-and-maintenance/general-troubleshooting-guide.md) or your Axis documentation for device activation.
+If you cannot activate the camera, reach its web UI, or complete network setup, then see the [General troubleshooting guide](../../troubleshooting-and-maintenance/general-troubleshooting-guide.md) or your Axis documentation for device activation.
 
 ### Configure ONVIF on your Axis camera
 
@@ -78,7 +78,7 @@ Use this section when you chose ONVIF as the connection method above.
 
 1. Log in to the Axis web interface: In a browser, open the camera IP address and sign in with administrator credentials.
 2. Open ONVIF settings: Select the **System** tab, then **ONVIF**.
-3. Add an ONVIF user: Add a user intended for ONVIF access. Use a strong password and assign the **Administrator** role (or the role your organization requires for streaming control).
+3. Add an ONVIF user: Create a dedicated account for ONVIF access. Use a strong password. Assign the **Administrator** role (or the role your organization requires for streaming control).
 4. Save: Select **Save** (or equivalent). Confirm the device reports success so the account and ONVIF access are persisted.
 
 Example: **System** → **ONVIF** → **Add user**, **Administrator** role, and **Save**:
@@ -114,11 +114,11 @@ Enter root credentials if you use the admin path, the ONVIF user if you use ONVI
 
 ## Stream configuration profiles
 
-Manual profiles are needed when Lumana cannot create the required streams automatically (for example, when you connect with lower-privilege credentials) or when you want explicit control over encoder names and quality. Use the values in [Recommended streaming settings](../recommended-streaming-settings.md), then apply them in the Axis UI.
+Manual profiles are needed when Lumana cannot create the required streams automatically. That situation often appears when you connect with lower-privilege credentials. You might also add profiles when you want explicit control over encoder names and quality. Use the values in [Recommended streaming settings](../recommended-streaming-settings.md), then apply them in the Axis UI.
 
 **Why two profiles**: Configure a main stream at higher resolution and quality for identification, analytics, and event-quality video. Configure a sub stream at lower resolution and bitrate for lighter continuous use, storage efficiency, and contexts where the full main stream is unnecessary. Lumana Core can consume both; profile names must be unique and must match what you enter in Core.
 
-Each Axis stream profile exposes a profile name you choose. That string is part of the [Real Time Streaming Protocol (RTSP)](../../faq-and-reference/lumana-glossary.md#rtsp) URL Lumana uses, for example `/axis-media/media.amp?streamprofile=<your profile name>` or `/axis-media/media.amp?profile=<your profile name>`. Pick distinct names for main and sub before you save. If the name in Axis and the name in Lumana differ at all, video may not attach.
+Each Axis stream profile exposes a profile name you choose. That string is part of the [Real Time Streaming Protocol (RTSP)](../../faq-and-reference/lumana-glossary.md#rtsp) URL Lumana uses, for example `/axis-media/media.amp?streamprofile=<your profile name>` or `/axis-media/media.amp?profile=<your profile name>`. Pick distinct names for main and sub before you save. If the name in Axis and the name in Lumana differ at all, then video might not attach.
 
 ### Before you create each stream profile
 

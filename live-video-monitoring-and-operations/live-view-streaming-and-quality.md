@@ -26,7 +26,7 @@ Use local streaming when the viewing device can reach Lumana Core directly on th
 - No proxy between the client and Lumana Core.
 
 {% hint style="info" %}
-If a camera uses H.265 and your browser or device doesn't support H.265, then medium-quality (MQ) local streaming may work, but high-quality (HQ) local streaming won't.
+If a camera uses H.265 and your browser or device doesn't support H.265, then MQ local streaming might work. HQ local streaming will not.
 {% endhint %}
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-local-streaming-diagram.png" alt="Diagram showing local streaming from Lumana Core to the viewing device through the local network." width="375"></div>
@@ -45,7 +45,7 @@ This is especially useful when you need to access live video from another locati
 
 ### Cloud live view flow
 
-If Lumana cannot establish a local connection, then it switches to cloud streaming. Cloud streaming uses WebRTC to deliver the live view to the client. This keeps Live view available when the client cannot reach Lumana Core directly, though latency and compatibility may vary by browser, device, and connection quality.
+If Lumana cannot establish a local connection, then it switches to cloud streaming. Cloud streaming uses WebRTC to deliver the live view to the client. This keeps Live view available when the client cannot reach Lumana Core directly. Latency and compatibility might vary by browser, device, and connection quality.
 
 Cloud streaming also helps distribute live video to multiple viewers without requiring each viewer to connect directly to Lumana Core.
 
@@ -79,10 +79,10 @@ Use the following table as a reference for typical local and cloud live view res
 
 | Native resolution | Quality    | Resolution | Estimated bitrate |
 | ----------------- | ---------- | ---------- | ----------------- |
-| 3480x2160 (8MP)   | HQ (Local) | 3480x2160  | 5.12 Mbps         |
-| 3480x2160 (8MP)   | HQ (Cloud) | 1920x1080  | <3 Mbps           |
-| 3480x2160 (8MP)   | MQ         | 960x540    | <0.8 Mbps         |
-| 3480x2160 (8MP)   | SQ         | 426x240    | <0.2 Mbps         |
+| 3840x2160 (8MP)   | HQ (Local) | 3840x2160  | 5.12 Mbps         |
+| 3840x2160 (8MP)   | HQ (Cloud) | 1920x1080  | <3 Mbps           |
+| 3840x2160 (8MP)   | MQ         | 960x540    | <0.8 Mbps         |
+| 3840x2160 (8MP)   | SQ         | 426x240    | <0.2 Mbps         |
 | 2880x1620 (5MP)   | HQ (Local) | 2880x1620  | 3.5 Mbps          |
 | 2880x1620 (5MP)   | HQ (Cloud) | 1920x1080  | <3 Mbps           |
 | 2880x1620 (5MP)   | MQ         | 960x540    | <0.8 Mbps         |
