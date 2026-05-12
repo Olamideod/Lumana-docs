@@ -89,6 +89,19 @@ Invite codes come from Lumana Support. Contact Support to get the code for the o
 4. Enter the invite code in the **Invite code** field.
 5. Select **Invite**.
 
+## Invite a support organization
+
+Inviting a support organization gives its members access to your system. The primary use case is inviting the Lumana Support team so they can help troubleshoot issues in your environment.
+
+Contact Lumana Support to get an invite code before starting.
+
+1. Select the organization icon in the bottom left. Select **Settings**. Organization settings opens.
+2. Select **Users** in the left navigation.
+3. Select **Invite Support** in the top right. A panel opens.
+4. Select a permission level from the **Permission** dropdown.
+5. Enter the invite code in the **Invite code** field.
+6. Select **Invite**.
+
 ## Set access rights
 
 Access rights define what users in the group can see and do. You set them on the **Access rights** tab.
