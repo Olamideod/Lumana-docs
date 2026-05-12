@@ -6,9 +6,13 @@ For full network onboarding steps, see [Connect Lumana Core to the network](http
 
 ## Rear panel
 
+The illustration below labels the external ports on the back of the appliance. Check it when you route cables during installation.
+
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-rear-panel-connectivity.png" alt="" width="563"></div>
 
 ## Installation
+
+Use the following sections to connect power and Ethernet before you provision the appliance.
 
 ### Power connection
 
@@ -39,7 +43,9 @@ For detailed steps, see [Connect Lumana Core to the network](https://support.lum
 | Certifications | CE, FCC |
 | Country of origin | Taiwan |
 
-## Product dimensions (mm)
+## Product dimensions in millimeters
+
+The drawing below shows chassis width, depth, and height in millimeters.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-rear-panel-dimensions.png" alt="" width="563"></div>
 

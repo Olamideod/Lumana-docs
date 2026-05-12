@@ -43,7 +43,7 @@ Ensure your Hikvision camera is updated, correctly configured, and ready to conn
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-cameras-switch-laptop-diagram.png" alt="Diagram: IP cameras, network switch, and laptop on the same LAN for discovery and configuration." width="224"></div>
 
-* **Detect and Initialize the Camera**: The SADP tool will scan your network and list Hikvision devices. Select your camera, note its IPv4 address and status, and, if the device is not initialized yet, set a password to activate it. Keep the IP address for the next steps.
+* **Detect and Initialize the Camera**: The SADP tool scans your network and lists Hikvision devices. Select your camera, note its IPv4 address and status, and, if the device is not initialized yet, set a password to activate it. Keep the IP address for the next steps.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-sadp-device-list.png" alt="Hikvision SADP utility listing online devices with IPv4 addresses, ports, and status columns." width="563"></div>
 
@@ -124,4 +124,4 @@ After completing ONVIF setup, proceed to [Connect a camera](../../getting-starte
 
 Using an **Operator** user with broad remote permissions (often **Select all** in the **Add** user dialog) allows Lumana Core to configure camera settings, including stream settings, more reliably.
 
-You can now proceed to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera), which will guide you through the process of adding your camera to Lumana Core and ensuring everything is functioning as expected.
+You can now proceed to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera), which guides you through adding your camera to Lumana Core and confirming that everything works as expected.

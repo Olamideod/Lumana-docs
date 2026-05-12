@@ -429,18 +429,8 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ### `databases-analytics-and-search/tracking-vehicles.md`
 
-**Headings (bold-as-heading):**
-- ✅ [L125](databases-analytics-and-search/tracking-vehicles.md#L125): `**Day view**` used as a section divider above an image. [Headings and capitalisation](STYLEGUIDE.md) forbids bold-as-heading. *Verified.*
-- ✅ [L129](databases-analytics-and-search/tracking-vehicles.md#L129): `**Night view**` — same issue. *Verified.*
-
-**Headings:**
-- ✅ [L31](databases-analytics-and-search/tracking-vehicles.md#L31): "Cross camera tracking" — missing hyphen vs body's "Cross-camera tracking" on [L33](databases-analytics-and-search/tracking-vehicles.md#L33). *Verified inconsistency.*
-
 **Voice / passive issues:**
 - ✅ [L11](databases-analytics-and-search/tracking-vehicles.md#L11): "Cameras are added in Lumana and streaming reliably." — passive. *Verified.*
-
-**Other:**
-- ✅ [L91](databases-analytics-and-search/tracking-vehicles.md#L91): "FoV drives" vs section heading "Field of view" on [L89](databases-analytics-and-search/tracking-vehicles.md#L89). *Verified — H4 uses "Field of view"; body uses "FoV".*
 
 ---
 
@@ -463,10 +453,9 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Headings:**
 - ✅ [L1](set-up-cameras-and-devices/overview.md#L1): H1 "Recommended setup tasks" — noun phrase on a how-to page. *Verified.*
-- ✅ [L33](set-up-cameras-and-devices/overview.md#L33), [L38](set-up-cameras-and-devices/overview.md#L38): `**Recommended for most sites**` and `**If your cameras support pan, tilt, and zoom**` — bold paragraphs used as headings. [Headings and capitalisation](STYLEGUIDE.md) forbids bold-as-heading. *Verified.*
 
 **List/step issues:**
-- ✅ [L29](set-up-cameras-and-devices/overview.md#L29)–[L40](set-up-cameras-and-devices/overview.md#L40): numbered list resumes 4–6 after intervening bold pseudo-headings at L33 and L38. *Verified.*
+- ✅ [L29](set-up-cameras-and-devices/overview.md#L29)–[L40](set-up-cameras-and-devices/overview.md#L40): numbered setup order pauses for H3 subheadings (`### Recommended for most sites`, `### If your cameras support pan, tilt, and zoom`) between items 3–4 and 5–6. *Verified.*
 
 **Other / typography:**
 - ✅ [L5](set-up-cameras-and-devices/overview.md#L5), [L7](set-up-cameras-and-devices/overview.md#L7): "you'll" uses curly apostrophe; "you're" elsewhere uses straight apostrophe. *Verified inconsistency.*
@@ -568,9 +557,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **May vs might:**
 - ✅ [L3](set-up-cameras-and-devices/recommended-streaming-settings.md#L3): "you may not need to change anything" — should be "might". *Verified.*
 
-**Headings:**
-- ✅ [L117](set-up-cameras-and-devices/recommended-streaming-settings.md#L117): "#### Frequently asked questions" — H4 nested under H2 without intermediate H3. *Verified — H4 directly under "## Lumana cameras" H2.*
-
 **Marketing / vague claims:**
 - ✅ [L179](set-up-cameras-and-devices/recommended-streaming-settings.md#L179), [L180](set-up-cameras-and-devices/recommended-streaming-settings.md#L180): "Stronger AI learning over time" / "Smarter storage around alerts" — borderline marketing phrases. *Verified.*
 
@@ -634,7 +620,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Sentence-length violations (>25 words):**
 - ⚠️ [L42](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md#L42): "Use the camera's root username and password in Lumana Core. This gives Lumana full access to the Axis API and settings, reduces compatibility gaps, and avoids subtle permission errors." — second sentence ≈26 words. *Verified at L42.*
-- ✅ [L65](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md#L65): "**First visit** (root password and HTTPS): The first time you open the camera in a browser, you may need to create a self-signed certificate for HTTPS and set the root password." — 30 words. *Verified.*
 - ✅ [L73](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md#L73): "If you cannot activate the camera, reach its web UI, or complete network setup, see the [General troubleshooting guide](...) or your Axis documentation for device activation." — 27 words. *Verified.*
 - ✅ [L81](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md#L81): "Add an ONVIF user: Add a user intended for ONVIF access. Use a strong password and assign the **Administrator** role (or the role your organization requires for streaming control)." — 28 words. *Verified.*
 - ✅ [L117](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md#L117): "Manual profiles are needed when Lumana cannot create the required streams automatically (for example, when you connect with lower-privilege credentials) or when you want explicit control over encoder names and quality." — 31 words. *Verified.*
@@ -645,7 +630,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **If/then violations:**
 - ✅ [L57](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md#L57): "If no DHCP server is present, many Axis cameras default to `192.168.0.90`." — missing "then". *Verified.*
-- ✅ [L59](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md#L59): "Plan that step if you will use ONVIF in Lumana." — uses future tense "will use" and missing "then". *Verified.*
 - ✅ [L73](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md#L73): "If you cannot activate the camera, reach its web UI, or complete network setup, see…" — missing "then". *Verified.*
 - ✅ [L121](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md#L121): "If the name in Axis and the name in Lumana differ at all, video may not attach." — missing "then". *Verified.*
 
@@ -681,13 +665,11 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 ### `set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md`
 
 **Sentence-length violations (>25 words):**
-- ✅ [L46](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md#L46): "Select your camera, note its IPv4 address and status, and, if the device is not initialized yet, set a password to activate it." — second sentence on L46 at ≈22 words but combined "**Detect and Initialize the Camera**: The SADP tool will scan..." block runs longer. *Verified content present at L46.*
+- ✅ [L46](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md#L46): "Select your camera, note its IPv4 address and status, and, if the device is not initialized yet, set a password to activate it." — clause runs ~22 words; full bullet with label is longer. *Verified at L46.*
 - ✅ [L125](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md#L125): "Using an **Operator** user with broad remote permissions (often **Select all** in the **Add** user dialog) allows Lumana Core to configure camera settings, including stream settings, more reliably." — 28 words. *Verified.*
-- ✅ [L127](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md#L127): "You can now proceed to [Connect a camera](...), which will guide you through the process of adding your camera to Lumana Core and ensuring everything is functioning as expected." — 29 words. *Verified.*
+- ✅ [L127](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md#L127): Closing link paragraph to **Connect a camera** — ~22 words after present-tense edit. *Verified.*
 
 **Future tense / passive:**
-- ✅ [L46](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md#L46): "The SADP tool will scan your network and list Hikvision devices." — should be present tense. *Verified.*
-- ✅ [L127](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md#L127): "which will guide you through the process…" — should be present tense. *Verified.*
 - ✅ [L123](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md#L123): "A confirmation message or indicator should appear, confirming that the new user has been added successfully." — "should appear" + "has been added" passive. *Verified.*
 
 **If/then violations:**
@@ -716,16 +698,8 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **Headings:**
 - ✅ [L1](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L1): H1 "Lumana" is just the brand name. Sibling pages use "Connect <brand> cameras". *Verified.*
 
-**Run-in label colon placement (colon inside bold):**
-- ✅ [L34](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L34): `**Manage device passwords:**` — colon inside bold per [Run-in labels](STYLEGUIDE.md). *Verified.*
-- ✅ [L35](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L35): `**Additional bulk configuration:**`. *Verified.*
-- ✅ [L41](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L41): `**Restore default settings:**`. *Verified.*
-- ✅ [L45](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L45): `**Import configuration:**`. *Verified.*
-- ✅ [L47](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L47): `**Export configuration:**`. *Verified.*
-
-**Bold-as-heading:**
-- ✅ [L45](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L45): `**Import configuration:**` used as a paragraph-start label, not a list item. *Verified — appears as a bold heading-style label between sections.*
-- ✅ [L47](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L47): `**Export configuration:**` — same issue. *Verified.*
+**Run-in labels:**
+- Addressed — bulk-capability bullets use `**Label**:` (colon outside bold) per [UI text and messages](STYLEGUIDE.md).
 
 **List/step issues:**
 - ✅ [L37](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L37)–[L41](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md#L41): "The following features are available for individual cameras only:" then 3 items, with the third being a run-in bold label — non-parallel. *Verified items at L39, L40, L41 (first two are phrases, third is `**Restore default settings:** Reset a camera...`).*
@@ -854,7 +828,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Headings:**
 - ✅ [L125](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L125): "OS Updates" — Title Case; [Headings](STYLEGUIDE.md) requires sentence case. *Verified.*
-- ✅ [L7](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L7)→[L9](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L9), [L134](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L134)→[L144](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L144), [L243](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L243)→[L247](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L247), [L161](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L161)→[L163](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L163): stacked H2 → H3 jumps without intervening paragraphs (Lumana Core and platform requirements → Infrastructure URLs; Shared live view and media requirements → has paragraph; Lumana Web application requirements → has paragraph; Regional media server details → US Central). *Verified at [L7](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L7) and [L161](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L161).*
 
 **Capitalisation after colon (run-in labels):**
 - ✅ [L13](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L13): "**Lumana URLs**: A list of domains…" — capital "A" after colon for a fragment. *Verified.*
@@ -864,7 +837,7 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 - ✅ [L39](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L39) vs [L57](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L57): "whitelist IPs directly" used at L39; "firewall allowlist" used at L57 and L59. *Verified — both terms appear.*
 
 **Tables / data consistency:**
-- ✅ [L76](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L76)–[L105](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L105): region naming `ME-West`/`ME West` and `US-Center` vs "US Central" heading at [L163](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L163). *Verified — `ME-West`/`ME West`, `US-Center`/`US-Central` mismatches.*
+- ✅ [L76](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L76)–[L105](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L105): region naming `ME-West`/`ME West` and `US-Center` vs "US Central" heading at [L167](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L167). *Verified — `ME-West`/`ME West`, `US-Center`/`US-Central` mismatches.*
 
 **List items not parallel:**
 - ✅ [L127](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L127)–[L132](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L132): "OS Updates" list mixes "`archive.ubuntu.com` - ports: 80, 443 TCP outbound" with "`ports.ubuntu.com` - 443 TCP outbound". *Verified.*
@@ -889,12 +862,8 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ### `set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md`
 
-**Headings:**
-- ✅ [L42](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md#L42): "Product dimensions (mm)" — uses parentheses. *Verified.*
-- ✅ [L7](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md#L7)→[L9](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md#L9), [L42](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md#L42)→[L44](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md#L44), [L11](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md#L11)→[L13](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md#L13): stacked headings — `## Rear panel` is immediately followed by an image, `## Product dimensions (mm)` is immediately followed by an image, and `## Installation` is immediately followed by `### Power connection` with no description paragraph between. *Verified.*
-
 **Image-vs-step mismatches:**
-- ⚠️ [L15](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md#L15): "Lumana Core ships with a **120 V** AC to **12 V DC** power adapter. Connect it to the **POWER** input on the rear panel." *The body text at L15 still says "POWER input" — verified; the image content (DC IN vs POWER label) requires a visual review of the screenshot at L9.*
+- ⚠️ [L19](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md#L19): "Lumana Core ships with a **120 V** AC to **12 V DC** power adapter. Connect it to the **POWER** input on the rear panel." *The body text still says "POWER input" — verified; the image content (DC IN vs POWER label) requires a visual review of the screenshot.*
 
 **Tables / data consistency:**
 - ✅ [L32](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md#L32)–[L33](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md#L33): "0 °C ~ 50 °C" / "−40 °C ~ 85 °C" — uses tilde for ranges. *Verified.*
@@ -947,7 +916,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **Headings:**
 - ✅ [L1](set-up-cameras-and-devices/other-devices/gpio-devices.md#L1): H1 "GPIO devices" — noun phrase for a how-to page. *Verified.*
-- ✅ [L13](set-up-cameras-and-devices/other-devices/gpio-devices.md#L13)→[L17](set-up-cameras-and-devices/other-devices/gpio-devices.md#L17): stacked heading — `## Connect a device` is followed by `### Parts list` after only a one-sentence framing, then no description paragraph before `### Parts list`. *Verified — body between L13 and L17 is just one short sentence introducing the LED example.*
 
 **Sentence-length violations (>25 words):**
 - ⚠️ [L5](set-up-cameras-and-devices/other-devices/gpio-devices.md#L5): "Third-party devices can read those hardwired signals from Lumana, or you can drive devices such as LEDs, motors, or relays." — second sentence is ~21 words; first sentence is ~19 words. *Borderline — neither sentence individually exceeds 25 words; the report counted the combined paragraph.*
@@ -1085,9 +1053,9 @@ These themes show up across multiple pages. Treating them in a single pass will 
 - [`axis.md`](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md) and [`hanwha.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md): stream profile screenshots show "Maximum"/MBR bitrate while the body text says CBR.
 - [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md): doc says `NFS-Server-1`; screenshot's field shows `NFS-Sever-1`.
 
-**5. ✅ Bold-as-heading misuse.** [`share-video.md`](live-video-monitoring-and-operations/share-video.md) lines 15 and 31 (`**Go to Archives**`, `**Create link and copy or send**`); [`overview.md`](set-up-cameras-and-devices/overview.md) (`**Recommended for most sites**`, `**If your cameras support pan, tilt, and zoom**`); [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md) (`**Import configuration:**`, `**Export configuration:**`); [`tracking-vehicles.md`](databases-analytics-and-search/tracking-vehicles.md) lines 125 and 129 (`**Day view**`, `**Night view**`). *Verified across the per-file sections above.*
+**5. ✅ Bold-as-heading misuse.** Previously: pseudo-headings in [`overview.md`](set-up-cameras-and-devices/overview.md), import/export labels in [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md), and figure labels in [`tracking-vehicles.md`](databases-analytics-and-search/tracking-vehicles.md). *Addressed — overview now uses `###` subheadings; lumana uses `### Import configuration` / `### Export configuration`; tracking-vehicles uses prose lead-ins before figures. [`share-video.md`](live-video-monitoring-and-operations/share-video.md) already uses `###` for section titles.*
 
-**6. ✅ Run-in label colon placement (colon inside bold).** [`create-camera-shortcuts.md`](set-up-cameras-and-devices/create-camera-shortcuts.md), [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md), [`smart-speakers.md`](set-up-cameras-and-devices/other-devices/smart-speakers.md) all place colons inside bold for run-in labels (`**Label:**` instead of `**Label**:`). *Verified across the per-file sections above.*
+**6. ✅ Run-in label colon placement (colon inside bold).** [`create-camera-shortcuts.md`](set-up-cameras-and-devices/create-camera-shortcuts.md) and [`smart-speakers.md`](set-up-cameras-and-devices/other-devices/smart-speakers.md) place colons inside bold for run-in labels (`**Label:**` instead of `**Label**:`). [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md) bulk-operation bullets now use colons outside bold per [UI text and messages](STYLEGUIDE.md). *Verified across the per-file sections above.*
 
 **7. ✅ Naming-pattern inconsistency in `connect-cameras-by-brand/`.** [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md) is titled "Lumana" and [`verkada.md`](set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md) is titled "Verkada" (noun) while sibling pages use bare-infinitive titles like "Connect Axis cameras" / "Connect Hanwha cameras" / "Connect Hikvision cameras". *Verified — H1s differ in pattern.*
 
@@ -1097,17 +1065,17 @@ These themes show up across multiple pages. Treating them in a single pass will 
 
 **10. ⚠️ UI label capitalisation drift.** Doc renders product UI labels in title case while the live UI uses sentence case: "Starting IP Address" → "Starting IP address"; "API Keys" → "API keys"; "Integration" → "Integrations"; "Data Connector" → "Data Connectors"; "External retention" → "External retention period"; "subnet mask" → "Subnet mask"; "username" → "User Name"; "Edit Location" inconsistent with "Edit location"; "Edit Camera" inconsistent with "Edit camera". *Doc-side casing verified across the per-file sections above; the live-UI labels need a visual review.*
 
-**11. ✅ Future tense / "will".** [`axis.md`](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md) ("Plan that step if you will use ONVIF"), [`hikvision.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md) ("The SADP tool will scan your network", "which will guide you"), [`set-up-a-camera-floor-plan.md`](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md) ("you will get a live view"), [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) ("you will need to balance"). *Verified across the per-file sections above.*
+**11. ✅ Future tense / "will".** Spot-check remaining pages after present-tense fixes in [`axis.md`](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md) (ONVIF planning), [`hikvision.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md) (SADP scan / Connect a camera closer), [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) (single-stream hint), and [`set-up-a-static-ip-address.md`](set-up-cameras-and-devices/set-up-a-static-ip-address.md) (DHCP mapping). *Re-run `grep` for ` will ` when editing nearby content.*
 
 **12. ✅ May vs might.** [`live-view-streaming-and-quality.md`](live-video-monitoring-and-operations/live-view-streaming-and-quality.md) (5 instances), [`the-system-health-dashboard.md`](live-video-monitoring-and-operations/the-system-health-dashboard.md) (3), [`share-video.md`](live-video-monitoring-and-operations/share-video.md) (1), [`video-walls-and-shared-displays.md`](live-video-monitoring-and-operations/video-walls-and-shared-displays.md) (1), [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) (1). All possibility uses; switch to "might". *Verified across the per-file sections above.*
 
 **13. ✅ Marketing / vague claims.** [`missing-object-alert.md`](databases-analytics-and-search/missing-object-alert.md) "Why this alert helps", [`tracking-containers.md`](databases-analytics-and-search/tracking-containers.md) "Key benefits", [`space-occupancy-analytics.md`](databases-analytics-and-search/space-occupancy-analytics.md) "Key features", [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) ("smart storage", "Smarter storage around alerts", "Stronger AI learning over time"), [`video-walls-and-shared-displays.md`](live-video-monitoring-and-operations/video-walls-and-shared-displays.md) ("Lumana offers saved walls plus quick live grids plus secure external walls…"), [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) H1 (uses "Enhance"), [`supported-cameras.md`](set-up-cameras-and-devices/connect-cameras-by-brand/supported-cameras.md) ("wide range", "flexibility", "fits your deployment needs"). *Verified across the per-file sections above.*
 
-**14. ✅ Stacked headings without intervening paragraphs.** [`firewall-requirements.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md) (multiple), [`lumana-core-hardware-specifications.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md) (Rear panel, Product dimensions, Installation), [`gpio-devices.md`](set-up-cameras-and-devices/other-devices/gpio-devices.md) (Connect a device → Parts list), [`sip-for-smart-speakers.md`](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md) (Configure SIP on a Check Point router → Prerequisites). *Verified across the per-file sections above.*
+**14. ✅ Stacked headings without intervening paragraphs.** Residual focuses: [`sip-for-smart-speakers.md`](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md) (`## Configure SIP on a Check Point router` → `### Prerequisites`). *[`firewall-requirements.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md), [`lumana-core-hardware-specifications.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md), and [`gpio-devices.md`](set-up-cameras-and-devices/other-devices/gpio-devices.md) now include lead-in paragraphs; H4 regional headings were promoted to H3.*
 
 **15. ✅ Headings that aren't user-focused or that misuse "Step N:" framing.** [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) uses "Step 1:" / "Step 2:" prefixes that break the bare-infinitive convention. [`configure-lumana-core-as-a-dhcp-server.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md) "Key DHCP server capabilities", [`set-up-a-camera-floor-plan.md`](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md) "Use the camera floor plan feature", [`enable-ptz-control.md`](set-up-cameras-and-devices/enable-ptz-control.md) and [`create-camera-shortcuts.md`](set-up-cameras-and-devices/create-camera-shortcuts.md) and [`set-up-a-camera-floor-plan.md`](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md) "Key benefits"/"Key capabilities". *Verified across the per-file sections above.*
 
-**16. ✅ Heading parentheses.** [`lumana-core-hardware-specifications.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md) "Product dimensions (mm)"; [`pixels-per-foot-for-camera-placement.md`](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md) "(PPF)"; [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md) H1 "(NAS) devices"; [`camera-networking-options.md`](set-up-cameras-and-devices/camera-networking-options.md) "Remote camera access (Camera VPN)". *Verified across the per-file sections above.*
+**16. ✅ Heading parentheses.** [`pixels-per-foot-for-camera-placement.md`](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md) "(PPF)"; [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md) H1 "(NAS) devices"; [`camera-networking-options.md`](set-up-cameras-and-devices/camera-networking-options.md) "Remote camera access (Camera VPN)". *`lumana-core-hardware-specifications.md` dimensions heading no longer uses parentheses (spelled out as "in millimeters").*
 
 **17. ✅ "Coming soon!" placeholder pages.** [`create-links-between-cameras.md`](set-up-cameras-and-devices/create-links-between-cameras.md), [`flir-sensors.md`](set-up-cameras-and-devices/other-devices/flir-sensors.md). *Verified — both files contain only "Coming soon!".*
 

@@ -14,6 +14,8 @@ Use the following pinout reference when wiring a device to GPIO.
 
 In the example below, an LED is connected to the GPIO. Each time the alert triggers, the LED blinks.
 
+Gather the parts before you wire the circuit—the values below match the reference diagram.
+
 ### Parts list
 
 * A 5mm red LED

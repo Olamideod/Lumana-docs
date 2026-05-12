@@ -30,12 +30,12 @@ When you are ready to set up cameras and devices, use this list as a simple orde
 2. **[Connect cameras by brand](connect-cameras-by-brand/)**: Add supported cameras to Lumana and finish the steps for each manufacturer.
 3. **[Recommended streaming settings](recommended-streaming-settings.md)**: Apply encoder, bitrate, and resolution defaults so feeds behave well on your network.
 
-**Recommended for most sites**
+### Recommended for most sites
 
 4. **[Set up a camera floor plan](set-up-a-camera-floor-plan.md)**: Place cameras on a floor plan so operators can navigate faster.
 5. **[Create camera shortcuts](create-camera-shortcuts.md)**: Add on-image links to jump between related live views.
 
-**If your cameras support pan, tilt, and zoom**
+### If your cameras support pan, tilt, and zoom
 
 6. **[Enable PTZ control](enable-ptz-control.md)**
 

@@ -20,7 +20,7 @@ Lumana uses these streams for:
 Configure at least two streams to balance performance, storage, and bandwidth.
 
 {% hint style="info" %}
-If your camera only supports one stream, then you will need to balance resolution, storage retention, and live view performance.
+If your camera only supports one stream, then you need to balance resolution, storage retention, and live view performance.
 {% endhint %}
 
 ## Primary stream settings

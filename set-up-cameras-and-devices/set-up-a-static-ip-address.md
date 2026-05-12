@@ -25,7 +25,7 @@ You likely do not have DHCP if every device uses manually entered IPs and nothin
 ### Reserve an IP for a camera on a DHCP network
 
 1. Connect the camera to your network.
-2. In Lumana, collect the **IP address** and **MAC address** you will map on the DHCP server. If the camera is not listed under **Devices** yet, [add the camera to your organization](../getting-started/connect-a-camera.md#connect-a-camera) first.
+2. In Lumana, collect the **IP address** and **MAC address** you map on the DHCP server. If the camera is not listed under **Devices** yet, [add the camera to your organization](../getting-started/connect-a-camera.md#connect-a-camera) first.
    - From **Devices**, choose the camera and note the **IP address**.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/devices-list-ip-address.png" alt="Devices list showing the IP address column for cameras grouped by location; MAC address column also visible." width="563"></div>
@@ -49,9 +49,7 @@ Here is an example of [static mapping configuration](https://www.cisco.com/c/en/
 
 Assign a static IP on the camera itself and skip a DHCP reservation on the server. DHCP can keep running on the network for other devices.
 
-#### Prerequisites
-
-Confirm which addresses on your network sit outside the DHCP pool before you choose the camera’s IP. Some LAN documentation describes that block as the static IP range for your LAN.
+Before you choose the camera’s IP, identify which addresses on your network sit outside the DHCP pool. Check your router or DHCP server documentation for the pool boundaries and any range your organization reserves for static devices.
 
 - Identify your network’s DHCP pool range.
 - Choose an IP address outside that range.
@@ -67,7 +65,7 @@ If your network does not have a DHCP server, connect to the camera’s local pag
 The steps and screenshots below show one example camera's local web interface. Your camera's login screen, menu names, defaults, and layout may differ.
 {% endhint %}
 
-#### Default camera settings (example)
+The example below assumes these factory defaults on the camera (your labels may differ):
 
 - Default IP address for the camera is: `192.168.1.13`
 - Default Subnet Mask: `255.255.255.0`

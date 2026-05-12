@@ -56,17 +56,17 @@ When your policy allows it, connect with the camera’s admin (root) credentials
 * **Update the camera**: Install current firmware from Axis when possible so the web UI and codecs match what this guide expects.
 * **Reach the camera on the network**: Axis devices use Ethernet. Most networks assign addresses via DHCP. If no DHCP server is present, many Axis cameras default to `192.168.0.90`. Put your PC on the same subnet before you start.
 * **Discovery and addressing**: Use [Axis IP Utility](https://www.axis.com/support/tools/axis-ip-utility) (or the camera web interface) to find the camera, set the root password, and assign a static IP. A stable IP prevents Lumana Core from losing the device when DHCP leases change.
-* **ONVIF and passwords**: After the root password is set, Axis disables ONVIF until you add an ONVIF user (see below). Plan that step if you will use ONVIF in Lumana.
+* **ONVIF and passwords**: After the root password is set, Axis disables ONVIF until you add an ONVIF user (see below). If you use ONVIF in Lumana, then plan that step before you connect the camera.
 
 Put the workstation you use for setup on the same LAN as the camera. For example, plug the cameras and your computer into one switch so discovery and the web UI work reliably.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-setup-network-topology.png" alt="Diagram: security cameras and a laptop connected to a network switch on the same local network." width="563"></div>
 
-**First visit** (root password and HTTPS): The first time you open the camera in a browser, you may need to create a self-signed certificate for HTTPS and set the root password. The page may state that ONVIF is disabled until you add an ONVIF user later under **System** → **ONVIF**. Wording and menu paths can vary slightly by firmware.
+On your first visit, the browser may ask you to create a self-signed certificate for HTTPS and set the root password. The page may state that ONVIF is disabled until you add an ONVIF user later under **System** → **ONVIF**. Wording and menu paths can vary slightly by firmware.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-setup-root-password-certificate.png" alt="Axis first-time setup: Create Certificate, Configure Root Password for user root, factory reset warning, and note that ONVIF is disabled until enabled in System." width="563"></div>
 
-**Sign in**: When the login page appears, enter your root (or administrator) credentials. A short **System is getting ready** state is normal on some units right after power-up.
+When the login page appears, enter your root (or administrator) credentials. A short **System is getting ready** state is normal on some units right after power-up.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-web-sign-in.png" alt="Axis camera Sign in dialog in the browser with username and password fields." width="563"></div>
 

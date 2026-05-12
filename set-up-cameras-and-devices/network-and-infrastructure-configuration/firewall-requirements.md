@@ -6,6 +6,8 @@ This page is organized by function. Start with the outbound requirements for Lum
 
 ## Lumana Core and platform requirements
 
+Core reaches Lumana Cloud over HTTPS and related services. Use the subsections below whether you manage rules by domain or by enumerating infrastructure IPs.
+
 ### Infrastructure URLs
 
 Lumana provides two methods to configure your firewall:
@@ -58,7 +60,7 @@ Instead of managing URL-based firewall rules, you may whitelist IPs directly.
 
    Add the returned IPs to your firewall’s allowlist.
 
-#### Reference IP allowlist (snapshot)
+### Reference IP allowlist (snapshot)
 
 Prefer the [API response](#infrastructure-ips) above when your tools can consume it. The table below is a **static reference** grouped by **category** and **region**, useful for ticketing, change control, or firewalls that need explicit rows. Entries can change; reconcile with the API and review at least annually.
 
@@ -141,6 +143,8 @@ All traffic is encrypted with TLS and DTLS.
 
 If UDP is blocked, TURN/TLS over TCP 443 is used.
 
+Allow the following signaling, TURN/STUN, and media port patterns in addition to the Core requirements above.
+
 ### STUN servers
 
 - `global.stun.twilio.com` - 3478 UDP outbound
@@ -158,9 +162,9 @@ For best audio/video performance:
 - Allow the UDP ports above
 - Enable UDP hole-punching or disable symmetric NAT
 
-### Regional media server details
+Media hostnames and IP ranges depend on region. Open the subsection for the region that matches your deployment.
 
-#### US Central
+### US Central
 
 - `stream-us-central1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
 - `turn-us-central1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic, not only HTTPS.
@@ -180,7 +184,7 @@ Media server IPs:
 - `34.45.55.192`
 - `34.60.41.218`
 
-#### US East
+### US East
 
 - `stream-us-east1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
 - `turn-us-east1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic, not only HTTPS.
@@ -200,7 +204,7 @@ Media server IPs:
 - `35.196.67.179`
 - `34.23.19.135`
 
-#### US West
+### US West
 
 - `stream-us-west1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
 - `turn-us-west1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic, not only HTTPS.
@@ -220,7 +224,7 @@ Media server IPs:
 - `34.19.100.187`
 - `34.105.37.179`
 
-#### Israel
+### Israel
 
 - `stream-me-west1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
 - `turn-me-west1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic.

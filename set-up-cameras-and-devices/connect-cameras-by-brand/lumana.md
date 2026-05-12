@@ -31,20 +31,24 @@ You need to log in to the devices before you change the configuration.
 
 The following capabilities are available for bulk operations across multiple devices:
 
-- **Manage device passwords:** Change from the default password to unique, secure passwords for each camera.
-- **Additional bulk configuration:** System time, daylight saving time (DST), DNS, port settings, Universal Plug and Play (UPnP), and ONVIF protocols.
+- **Manage device passwords**: Change from the default password to unique, secure passwords for each camera.
+- **Additional bulk configuration**: System time, daylight saving time (DST), DNS, port settings, Universal Plug and Play (UPnP), and ONVIF protocols.
 
 The following features are available for individual cameras only:
 
 - Change device IP address
 - Camera name
-- **Restore default settings:** Reset a camera to its factory configuration.
+- **Restore default settings**: Reset a camera to its factory configuration.
 
 ## Import and export configuration
 
-**Import configuration:** Upload a configuration file from your computer to a device so the device’s current settings follow the imported file.
+### Import configuration
 
-**Export configuration:** Save the current configuration of a device as a file for backup or replication purposes.
+Upload a configuration file from your computer to a device so the device’s current settings follow the imported file.
+
+### Export configuration
+
+Save the current configuration of a device as a file for backup or replication purposes.
 
 ## Debugging and support
 
