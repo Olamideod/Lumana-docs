@@ -24,21 +24,25 @@ Unsaved people are recognitions waiting to be added as known people. Saved profi
 
 Create groups when you need to organize people into reusable sets for review or workflow purposes.
 
-1.  In the people directory, select **Create group**.
+1. In the people directory, select **Create group**.
 
-    The group creation dialog opens.
+   The group creation dialog opens.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/people-directory-groups.png" alt="People directory groups view with Create group button and group list." width="563"></div>
-2.  Enter a group name and select the profiles to include.
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/people-directory-groups.png" alt="People directory groups view with Create group button and group list." width="563"></div>
 
-    The dialog shows the selected people before you save the group.
+2. Enter a group name.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/create-group-dialog.png" alt="" width="375"></div>
-3.  Save the group.
+3. Select the profiles to include.
 
-    You can later hover over the group to edit or delete it.
+   The dialog shows the selected people before you finish.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/people-groups-table-edit-delete.png" alt="Groups table with group names, member counts, and edit and delete actions." width="375"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/create-group-dialog.png" alt="" width="375"></div>
+
+4. Select **Create**.
+
+   You can later hover over the group to edit or delete it.
+
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/people-groups-table-edit-delete.png" alt="Groups table with group names, member counts, and edit and delete actions." width="375"></div>
 
 ## Use doors in the database
 
@@ -57,17 +61,27 @@ Vehicles seen on camera appear in the detected list. Existing vehicles are the s
 Add a detected vehicle when Lumana has already captured the plate and vehicle details from camera footage.
 
 1. In **Vehicles seen on camera**, select the vehicle you want to save.
-2.  Enter the owner name and verify the vehicle details.
+
+2. Enter the **owner name** field.
+
+3. Verify the vehicle details in the dialog (plate, make, color, and other fields).
 
     The validation dialog shows the detected plate, make, color, and other saved fields.
 
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/vehicle-seen-validation-dialog.png" alt="" width="375"></div>
-3.  Select **Add**.
 
-    The vehicle is added to your organization's saved vehicle list.
-4.  If you need to add a vehicle manually, then upload an image and enter the relevant details.
+4. Select **Add**.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/vehicle-manual-upload-form.png" alt="Manual vehicle upload form with image upload area and vehicle detail fields." width="375"></div>
+   The vehicle is added to your organization's saved vehicle list.
+
+### Add a vehicle manually
+
+Use manual entry when you do not have a detection row to start from.
+
+1. Open the manual vehicle form from the vehicles directory.
+2. Upload an image and enter the relevant details.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/vehicle-manual-upload-form.png" alt="Manual vehicle upload form with image upload area and vehicle detail fields." width="375"></div>
 
 ## Import vehicles from a CSV file
 
@@ -75,14 +89,19 @@ Use CSV import when you need to add many vehicles at once instead of entering th
 
 1. In the vehicles directory, open **Vehicles**.
 2. Select the **Add from file** button.
-3.  **Add from file** <img src="../.gitbook/assets/databases-analytics-and-search/add-from-file-button.png" alt="" data-size="line"> opens the importer. Download the template, enter the vehicle data, and upload the completed CSV file.
+3. When **Add from file** <img src="../.gitbook/assets/databases-analytics-and-search/add-from-file-button.png" alt="" data-size="line"> opens the importer, select **Download template** (or the equivalent control) and save the CSV locally.
 
-    The import adds vehicles to the organization database in bulk.
-4.  If you are creating a license plate alert, then you can also select **Import from file** in the alert flow.
+4. Enter the vehicle data in the template.
 
-    This lets you use a CSV list while you configure [License plate recognition](../alerts-and-ai-detection/alert-types/identification/license-plate.md).
+5. Upload the completed CSV file in the importer.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/license-plate-import-from-file-dialog.png" alt="License plate dialog with vehicle list, Import from file option, and action buttons." width="375"></div>
+   The import adds vehicles to the organization database in bulk.
+
+{% hint style="info" %}
+If you are creating a license plate alert, you can also select **Import from file** in the alert flow to reuse the same CSV pattern while you configure [License plate recognition](../alerts-and-ai-detection/alert-types/identification/license-plate.md).
+{% endhint %}
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/license-plate-import-from-file-dialog.png" alt="License plate dialog with vehicle list, Import from file option, and action buttons." width="375"></div>
 
 ## Use Event Tags
 
@@ -92,12 +111,12 @@ Use Event Tags when you want to attach structured external data to video, such a
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/organization-database-event-tags.png" alt="Organization database Event tags view with create action, tag count, and tag list." width="563"></div>
 
-To create and manage Event Tags, read [Enhance your video data with Lumana Event Tags](enhance-your-video-data-with-lumana-event-tags.md).
+To create and manage Event Tags, read [Add Lumana Event Tags to your video data](enhance-your-video-data-with-lumana-event-tags.md).
 
 ## Next steps
 
 After you organize your database, you can continue with related search and alert workflows.
 
 * Use [Search video footage for people or vehicles](search-video-footage-for-people-or-vehicles.md) to review results from saved profiles and vehicles.
-* Read [Enhance your video data with Lumana Event Tags](enhance-your-video-data-with-lumana-event-tags.md) to connect external systems to video.
+* Read [Add Lumana Event Tags to your video data](enhance-your-video-data-with-lumana-event-tags.md) to connect external systems to video.
 * Use [License plate recognition](../alerts-and-ai-detection/alert-types/identification/license-plate.md) to create alerts from saved vehicle lists.

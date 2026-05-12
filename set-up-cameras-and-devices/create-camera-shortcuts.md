@@ -1,12 +1,12 @@
 # Create camera shortcuts
 
-**Camera shortcuts** are links you place on a camera’s image so you can open another feed from live view. This guide walks you through adding them in **Edit camera**, saving, and using them when you monitor.
+_Camera shortcuts_ are links you place on a camera's image so you can open another feed from **Live view**. This guide walks you through adding them in **Edit camera**, saving, and using them when you monitor.
 
 ## Key benefits
 
-- **Follow movement across zones:** When activity crosses camera coverage, you jump to the next view from the scene instead of searching the device list.
-- **Shorten response paths:** During an incident you can open neighboring or related cameras in fewer steps.
-- **Tie views together on large sites:** You keep a simple path between areas you often view together, without breaking out of the current layout.
+- **Follow movement across zones**: When activity crosses camera coverage, you jump to the next view from the scene instead of searching the device list.
+- **Shorten response paths**: During an incident you can open neighboring or related cameras in fewer steps.
+- **Tie views together on large sites**: You keep a simple path between areas you often view together, without breaking out of the current layout.
 
 ## Prerequisites
 
@@ -20,15 +20,16 @@ In **Edit camera**, open **Shortcuts** to see the live image, shortcut pins, **A
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/create-camera-shortcuts/edit-camera-shortcuts.png" alt="Edit camera with Shortcuts selected: live preview, Add shortcut, and Save." width="563"></div>
 
-1. Open the camera where you want shortcuts, then select **Edit camera**.
-2. In the left sidebar, select **Shortcuts**.
-3. Select **Add shortcut**.
-4. Select the camera you want the shortcut to open (the alternative view).
-5. Place the shortcut on the part of the image where you want it.
-6. If you need more shortcuts on the same camera, then repeat steps 3 through 5.
-7. Select **Save**.
+1. Open the camera where you want shortcuts.
+2. Select **Edit camera**.
+3. In the left sidebar, select **Shortcuts**.
+4. Select **Add shortcut**.
+5. Select the camera you want the shortcut to open (the alternative view).
+6. Place the shortcut on the part of the image where you want it.
+7. If you need more shortcuts on the same camera, then repeat steps 4 through 6.
+8. Select **Save**.
 
-Go back to the camera’s live view. A shortcut can open the linked camera in a picture-in-picture panel, or switch the main view depending on your layout.
+Go back to the camera's live view. A shortcut can open the linked camera in a picture-in-picture panel, or switch the main view depending on your layout.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/create-camera-shortcuts/live-view-shortcut-picture-in-picture.png" alt="Live view with a picture-in-picture shortcut; the inset shows another camera feed labeled with its name." width="563"></div>
 

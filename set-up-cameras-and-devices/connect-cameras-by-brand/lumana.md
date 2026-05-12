@@ -1,4 +1,4 @@
-# Lumana
+# Connect Lumana cameras
 
 Dome, Bullet, and Turret quick start PDFs plus Lumana Camera Finder reference material from the prior documentation set.
 
@@ -36,8 +36,8 @@ The following capabilities are available for bulk operations across multiple dev
 
 The following features are available for individual cameras only:
 
-- Change device IP address
-- Camera name
+- **Change device IP address**: Assign a static address or update DHCP results before the camera joins Lumana.
+- **Camera name**: Edit the label operators see in Lumana.
 - **Restore default settings**: Reset a camera to its factory configuration.
 
 ## Import and export configuration

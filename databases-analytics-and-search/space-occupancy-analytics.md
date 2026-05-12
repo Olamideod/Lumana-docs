@@ -2,11 +2,11 @@
 
 Space occupancy analytics uses your cameras and Lumana's analytics to track how many people or vehicles are in a defined space over time. You get live counts plus historical views. Use them to monitor current occupancy, review trends, and compare space usage across hours or days.
 
-## Key features
+## Ways to use space occupancy
 
 Space occupancy can support several operational uses.
 
-### Real-time occupancy tracking
+### Watch live occupancy counts
 
 Analytics process the video stream to estimate how many people or vehicles are in monitored areas. You can:
 
@@ -14,7 +14,7 @@ Analytics process the video stream to estimate how many people or vehicles are i
 - Compare live counts to occupancy limits your organization defines.
 - React to changing counts with staffing, access, or routing adjustments.
 
-### Historical trend analysis
+### Review occupancy history
 
 Lumana keeps occupancy history so you can review patterns. That helps you:
 
@@ -22,11 +22,11 @@ Lumana keeps occupancy history so you can review patterns. That helps you:
 - Inform layout changes from movement patterns.
 - Plan space and resources using longer-range usage data.
 
-### Location analysis
+### Improve entry and exit coverage
 
 You don't need to cover the whole floor with cameras. Aim coverage at every path in and out of the zone; that often needs fewer devices than full-floor monitoring. If anyone can bypass a count line, then the totals drift from reality. How virtual lines and crossings work is explained in [How space occupancy works](#how-space-occupancy-works).
 
-### Dashboards and reporting
+### Build dashboards and export views
 
 Use dashboards to present occupancy metrics in one place. You can:
 
@@ -34,7 +34,7 @@ Use dashboards to present occupancy metrics in one place. You can:
 - Compare zones or sites when your setup supports multiple lines or spaces.
 - Export or share reports when you need evidence for audits, compliance, or planning. Details depend on your widget and export options. See [Occupancy](../dashboards/widgets/occupancy.md).
 
-### Security and compliance
+### Support security and capacity reviews
 
 - **Current occupancy**: Check how many people or vehicles are in a space right now.
 - **Historical trends**: Review peak periods and compare space usage across days or time ranges.

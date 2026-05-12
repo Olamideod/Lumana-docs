@@ -1,10 +1,10 @@
-# Verkada
+# Connect Verkada cameras
 
 Verkada cameras connect to Lumana Core over RTSP. You first enable RTSP on the camera in Verkada, then map the URL into **Main stream** and **Sub stream** fields in Lumana Core.
 
 ## Enable RTSP on the camera
 
-1. Enable RTSP using Verkada's instructions: [Low latency RTSP streaming](https://help.verkada.com/en/articles/6422089-low-latency-rtsp-streaming).
+Enable RTSP using Verkada's instructions: [Low latency RTSP streaming](https://help.verkada.com/en/articles/6422089-low-latency-rtsp-streaming).
 
 ## Map the RTSP URL into Lumana
 

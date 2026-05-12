@@ -38,11 +38,11 @@ When you enable DHCP on Lumana Core, the server assigns addresses and manages cl
 
 Configure the following parameters when you set up the DHCP server on Lumana Core:
 
-- **Starting IP Address**: The first IP address in the DHCP pool that Lumana Core assigns to devices.
-- **Ending IP Address**: The last IP address in the DHCP pool, defining the range of available IPs.
-- **DNS Servers**: A list of DNS servers that clients should use for domain name resolution. Separate multiple servers with commas.
+- **Starting IP address**: The first IP address in the DHCP pool that Lumana Core assigns to devices.
+- **Ending IP address**: The last IP address in the DHCP pool, defining the range of available IPs.
+- **DNS servers**: A list of DNS servers that clients should use for domain name resolution. Separate multiple servers with commas.
 - **Gateway**: The default gateway IP address that clients will use to communicate with external networks.
-- **Lease Time**: How long, in seconds, a device keeps an IP address before it must renew the lease.
+- **Lease time**: How long, in seconds, a device keeps an IP address before it must renew the lease.
 
 ## Example configuration
 
@@ -65,8 +65,8 @@ Lumana Core supports DHCP address reservation, allowing specific devices to alwa
 
 ### Address reservation use cases
 
-- Ensuring stable IP addresses for critical infrastructure such as servers and other network devices
-- Preventing IP conflicts by pre-assigning known addresses
+- Stable IP addresses for critical infrastructure such as servers and dedicated cameras
+- Fewer conflicts when you pre-assign addresses that operators expect to stay fixed
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-address-reservation-ui.png" alt="" width="563"></div>
 

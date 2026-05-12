@@ -10,10 +10,6 @@ Make sure you can open the camera settings for the camera you want to use. You a
 
 Timelapse is enabled by default and is available for the most recent three days of retained snapshots.
 
-{% hint style="info" %}
-This is different from Verkada, which defaults to 24 hours.
-{% endhint %}
-
 Timelapse snapshots are not generated retroactively. If you increase retention today, then the system starts collecting additional days of timelapse snapshots from that point forward.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-create-dialog.png" alt="" width="563"></div>
@@ -37,7 +33,7 @@ Once you increase retention, additional snapshots begin collecting from that poi
 
 Once you know the default window and the longest **Snapshot retention days** option in your deployment, decide whether the built-in range covers your workflow.
 
-## Need longer history than snapshot retention allows?
+## Extend history beyond snapshot retention
 
 If you need timelapse history beyond the maximum **Snapshot retention days** value available in your deployment, then contact Customer Support to discuss extended storage options.
 

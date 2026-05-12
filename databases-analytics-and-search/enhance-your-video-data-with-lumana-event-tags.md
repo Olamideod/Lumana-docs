@@ -4,13 +4,13 @@ Event tags let you record structured events from external systems and tie them t
 
 Consider a warehouse example. If your Warehouse Management System (WMS) knows a pallet's ID, then you can POST that ID to Lumana with a camera and timestamp. Operators can then search for the pallet to pull the clip for loading or condition checks and share that clip as evidence.
 
-This guide walks you through six steps. They cover generating an API key, creating an event tag, posting events to the Lumana API, finding them in **Search**, and optionally using them in alerts or a **Chart or table** widget. For widget options in depth, see [Chart or table](../dashboards/widgets/chart-or-table/README.md). For clip preview controls after you select the chart, see [Event tag clip preview](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/chart-or-table-event-tags-clip-preview.md).
+This guide walks you through the full Event Tags workflow: generate an API key, create an event tag, POST events to the Lumana API, find them in **Search**, and optionally use them in alerts or a **Chart or table** widget. For widget options in depth, see [Chart or table](../dashboards/widgets/chart-or-table/README.md). For clip preview controls after you select the chart, see [Event tag clip preview](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/chart-or-table-event-tags-clip-preview.md).
 
 ## Prerequisites
 
 Make sure you can open **Organization settings** and **Database** in the portal. You also need to generate API keys and call the Lumana API from the reference or a client such as Postman. Have your organization ID, a valid camera ID, and access to **Search**. Each organization can have up to **10** API keys (each with an expiration you set) and up to **10** event tag definitions.
 
-## Step 1: Generate an API key
+## Generate an API key
 
 Lumana authenticates POST requests with API keys and your organization ID. Send the key as a `Bearer` token on every call.
 
@@ -26,7 +26,7 @@ Lumana authenticates POST requests with API keys and your organization ID. Send 
 Keep your API key secret. Anyone who has it can post events to your organization until it expires or you revoke it.
 {% endhint %}
 
-## Step 2: Create an event tag
+## Create an event tag
 
 An event tag is a template for events you will POST. It has a display name, a **Video length** (seconds of clip around the event time), and up to **10** custom fields. Each field has a **Name** (the key your API sends) and **Type**: **Text**, **Number** (whole numbers), **Decimal**, or **True/False**.
 
@@ -54,7 +54,7 @@ Select **Save event tag** when you are done.
 
 After you save, the **Event tags** list shows **Name** and **Event type ID** for each tag. Copy the **Event type ID** for this tag. You send it as `eventTypeId` on every POST for that definition.
 
-## Step 3: POST event data
+## POST event data
 
 Send a POST request to the Lumana API for each event you want to record.
 
@@ -70,7 +70,7 @@ POST https://access.lumana.ai/v1/events-tag/insert
 | --- | --- |
 | `orgId` | Your organization ID. Find it under **Organization** → **Organization settings**. |
 | `cameraId` | Camera that should own the clip. Find it on the camera's edit screen. |
-| `eventTypeId` | The Event type ID from step 2. |
+| `eventTypeId` | The Event type ID from [Create an event tag](#create-an-event-tag). |
 | `timestamp` | Time of the event, Unix epoch time in **milliseconds**. |
 | `fields` | Object of field names and values from your tag. You can omit keys you are not sending in that POST. |
 | Authorization | Header `Authorization: Bearer YOUR_API_KEY` using the secret from step 1. |
@@ -121,7 +121,7 @@ If you prefer a desktop client, then use Postman.
 Use a current timestamp in milliseconds. You can run `Date.now()` in a browser console. If the timestamp falls outside the time range of your chart widget or **Search**, then the event will not appear where you expect.
 {% endhint %}
 
-## Step 4: Search for events
+## Search for events
 
 After Lumana returns success on the POST, the event becomes searchable in the portal.
 
@@ -145,7 +145,7 @@ Before you rely on results, confirm:
 
 If results appear here, then ingestion and matching worked. You can add dashboards or alerts on top of the same data.
 
-## Step 5: Create an alert for an event tag
+## Create an alert for an event tag
 
 You can create two kinds of alert from **Alerts** → **Configure alerts** under the **Safety & compliance** category:
 
@@ -177,7 +177,7 @@ Adds a detection check on top of an event tag (for example require a **person** 
 
 For more detail on rule fields, see [Event tag alert](../alerts-and-ai-detection/alert-types/integrations/event-tag.md).
 
-## Step 6: Chart event tags on a dashboard
+## Chart event tags on a dashboard
 
 1. Select the **Dashboards** icon <img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-sidebar-icon.png" alt="Dashboards icon in the sidebar." data-size="line"> in the sidebar.
 2. Create a dashboard or open an existing one to edit.
@@ -193,6 +193,11 @@ For more detail on rule fields, see [Event tag alert](../alerts-and-ai-detection
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-chart-widget.png" alt="" width="563"></div>
 
 Full axis and filter behavior, including drill-in, is described in [Chart or table](../dashboards/widgets/chart-or-table/README.md).
+
+## Next steps
+
+- Read [Chart or table](../dashboards/widgets/chart-or-table/README.md) if you need deeper widget layout, axis, and filter detail than this guide covers.
+- Review [Event tag alert](../alerts-and-ai-detection/alert-types/integrations/event-tag.md) when tags should drive notifications.
 
 ## Retention and storage
 

@@ -12,8 +12,8 @@ Core reaches Lumana Cloud over HTTPS and related services. Use the subsections b
 
 Lumana provides two methods to configure your firewall:
 
-- **Lumana URLs**: A list of domains with their corresponding access requirements
-- **Lumana IPs**: An API endpoint that returns all Lumana infrastructure IPs
+- **Lumana URLs**: a list of domains with their corresponding access requirements
+- **Lumana IPs**: an API endpoint that returns all Lumana infrastructure IPs
 
 Allow outbound TCP `443` to the following:
 
@@ -38,7 +38,7 @@ Allow outbound TCP `443` to the following:
 
 ### Infrastructure IPs
 
-Instead of managing URL-based firewall rules, you may whitelist IPs directly.
+Instead of managing URL-based firewall rules, you might add infrastructure IPs directly to the allowlist.
 
 1. Generate an API key.
 
@@ -104,12 +104,12 @@ Prefer the [API response](#infrastructure-ips) above when your tools can consume
 | 35.231.124.3 | tcp | 443 | Playback | US-East |
 | 35.185.42.155 | tcp | 443 | Playback | US-East |
 | 34.23.128.144 | tcp | 443 | Playback | US-East |
-| 34.165.255.223 | tcp | 443 | Camera API | ME West |
+| 34.165.255.223 | tcp | 443 | Camera API | ME-West |
 | 34.68.222.66 | tcp | 443 | Camera API | US |
 | 34.27.47.112 | tcp | 443 | Camera API | US |
 
 {% hint style="info" %}
-Lumana infrastructure IPs may change periodically. Review and update annually. When in doubt, use the IP list from `get-ip-addresses` rather than this table alone.
+Lumana infrastructure IPs might change periodically. Review and update annually. When in doubt, use the IP list from `get-ip-addresses` rather than this table alone.
 {% endhint %}
 
 ### NTP servers for time synchronization
@@ -124,7 +124,7 @@ Allow at least two of the following NTP servers.
 - `1.pool.ntp.org` - 123 UDP outbound
 - `0.fr.pool.ntp.org` - 123 UDP outbound
 
-### OS Updates
+### OS updates
 
 - `archive.ubuntu.com` - ports: 80, 443 TCP outbound
 - `security.ubuntu.com` - ports: 80, 443 TCP outbound
@@ -262,7 +262,7 @@ For corporate firewalls, the web application also uses the shared live view and 
 - STUN servers
 - Regional media server endpoints and IPs
 
-## Related
+## Next steps
 
 - Read [Configure Lumana Core as a DHCP server](configure-lumana-core-as-a-dhcp-server.md) when Lumana Core needs to hand out addresses on the local network.
 - Read [Local time and NTP configuration](local-time-and-ntp-configuration.md) so timestamps stay accurate across the platform.

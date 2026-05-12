@@ -28,7 +28,7 @@ You can filter and alert on person attributes such as clothing color and type, a
 
 ### Cross-camera tracking
 
-Cross-camera tracking uses body shape, clothing, and other visible cues, not only the face, to associate the same person across cameras. That helps when the face is not visible or not suitable for recognition. Typical uses include attendance, access and investigations across large sites, and safety monitoring where you need continuity beyond a single camera view. Configure and use this capability according to your organization’s policies and applicable privacy requirements.
+Cross-camera tracking uses body shape, clothing, and other visible cues, not only the face, to associate the same person across cameras. That helps when the face is not visible or not suitable for recognition. Typical uses include attendance, access and investigations across large sites, and safety monitoring where you need continuity beyond a single camera view. Configure and use this capability according to your organization's policies and applicable privacy requirements.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-cross-camera-tracking-results.png" alt="" width="563"></div>
 

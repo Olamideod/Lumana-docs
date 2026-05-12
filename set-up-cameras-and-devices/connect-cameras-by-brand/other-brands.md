@@ -1,6 +1,6 @@
 # Other brands
 
-Lumana also integrates with cameras from the brands below. Use each vendor’s admin credentials and stream settings alongside [Recommended streaming settings](../recommended-streaming-settings.md) where applicable.
+Lumana also integrates with cameras from the brands below. Use each vendor's admin credentials and stream settings alongside [Recommended streaming settings](../recommended-streaming-settings.md) when applicable.
 
 ## Dahua compatibility models
 

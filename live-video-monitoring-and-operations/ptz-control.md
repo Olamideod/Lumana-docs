@@ -1,6 +1,11 @@
-# PTZ control
+# Use PTZ control
 
 If your assignment permits PTZ, then use pan, tilt, and zoom controls in Live view. An administrator enables PTZ per camera inside **Edit camera**. For driver configuration, stream path, or port values, see [Enable PTZ control](../set-up-cameras-and-devices/enable-ptz-control.md).
+
+## Prerequisites
+
+- Your role includes PTZ in Live view for the cameras you need.
+- An administrator has enabled PTZ for each camera you want to control.
 
 ## Use PTZ in Live view
 
@@ -11,8 +16,8 @@ If your assignment permits PTZ, then use pan, tilt, and zoom controls in Live vi
 
 3. Use the on-screen controls:
 
-   * **Arrow controls** to pan and tilt
-   * **Zoom controls** to adjust magnification
+   - **Arrow controls** to pan and tilt
+   - **Zoom controls** to adjust magnification
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-ptz-controls-overlay.png" alt="" width="563"></div>
 

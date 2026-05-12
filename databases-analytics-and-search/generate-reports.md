@@ -40,7 +40,7 @@ Lumana groups exports into three categories. Each report uses the **Create repor
 
 Each type uses the cameras, schedule, and options you set on **Create report**.
 
-## Report modes: One-time or recurring
+## Report modes: one-time or recurring
 
 On **Create report**, switch **Recurring** and **One time** to match how often the export should run.
 

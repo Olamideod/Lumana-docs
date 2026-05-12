@@ -2,7 +2,7 @@
 
 The **Missing object** alert notifies you when a marked object is no longer visible in the camera view you monitor. That helps you catch removals or theft sooner and reduces the need for constant manual checks of the same scene.
 
-## Why this alert helps
+## Understand what the alert does
 
 
 - **Real-time detection**: You get instant alerts when the object disappears, so you respond sooner instead of scrubbing footage later.

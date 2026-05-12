@@ -75,7 +75,7 @@ If you are using admin credentials, then you can proceed directly to [Connect a 
 3. Enable **Hikvision-CGI** and set authentication to **Digest**.
 
 * In the **Integration Protocol** view, enable **Hikvision-CGI**.
-* Set **Hikvision-CGI Authentication** to **digest** (or **Digest**) when present.
+* Set **Hikvision-CGI Authentication** to **Digest** when present.
 
 4. Enable ONVIF.
 
@@ -111,7 +111,7 @@ After completing ONVIF setup, proceed to [Connect a camera](../../getting-starte
 3. Add a new user.
 
 * On the **User Management** page, select **Add**.
-* Enter a **username** and **password** (you may need to enter the **admin password** to authorize the change).
+* Enter a **username** and **password** (you might need to enter the **admin password** to authorize the change).
 * Assign the **Operator** role unless your security team specifies otherwise.
 * Under **permissions**, enable the capabilities Lumana needs. Typically, select all remote permissions your firmware offers. Examples include **Remote: Parameters Settings**, **Live View**, **Playback**, and related items. The exact checklist depends on model and firmware.
 

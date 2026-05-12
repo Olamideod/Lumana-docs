@@ -18,7 +18,7 @@ License plate recognition (LPR) and MMC require enablement. For setup steps, see
 
 2. Set the **Time range** and **Camera** (or cameras) you want to include.
 
-3. Add or adjust other filters as needed, such as **Precision**, **Dwell**, **Motion**, or **Event tags**.
+3. Add or adjust other filters as needed, such as **Precision**, **Time period**, **Motion**, or **Event tags**.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-page.png" alt="" width="563"></div>
 
@@ -28,7 +28,7 @@ Use the filter list to narrow results before you add a **Person** or **Vehicle**
 
 Combine several object filters so results only include moments when all selected objects appear together (for example, a specific person near a specific vehicle). The same pattern applies as when you search primarily for a [person in Smart Search](https://support.lumana.ai/hc/en-us/articles/11176329842194) or a [vehicle in Smart Search](https://support.lumana.ai/hc/en-us/articles/11890679495954).
 
-You may search for up to four different objects at a time. Results show frames that contain every selected object with the attributes you configured.
+You might search for up to four different objects at a time. Results show frames that contain every selected object with the attributes you configured.
 
 For more detail on multi-object searches, see [Search for multiple people or vehicles in the same frame](https://support.lumana.ai/hc/en-us/articles/11890670516242).
 

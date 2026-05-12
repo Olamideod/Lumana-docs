@@ -1,4 +1,4 @@
-# GPIO devices
+# Use GPIO with external devices
 
 GPIO (general-purpose input/output) is an interface on Lumana Core that allows it to interact with external devices.
 
@@ -18,10 +18,10 @@ Gather the parts before you wire the circuit—the values below match the refere
 
 ### Parts list
 
-* A 5mm red LED
-* A P2N2222 Transistor
-* 1 330Ω resistor
-* 1 10kΩ resistor
+- A 5mm red LED
+- A P2N2222 Transistor
+- 1 330Ω resistor
+- 1 10kΩ resistor
 
 ### Wiring notes
 
@@ -37,7 +37,9 @@ Gather the parts before you wire the circuit—the values below match the refere
 
 2. After your support team enables GPIO on your Core, open the alert editor and add the **Toggle GPIO** action.
 
-3. Select the GPIO to use. The Core can support up to 4 GPIOs, toggle high or low, and control how long the signal remains active.
+3. Select the GPIO line you want to drive.
+
+   The Core exposes up to four GPIO outputs. Choose high or low, how long the pulse stays active, and any timing your device needs.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-alert-toggle-gpio.png" alt="" width="563"></div>
 

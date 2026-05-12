@@ -1,6 +1,6 @@
 # Free text search
 
-Use free text search to find people, vehicles, and other objects across your cameras with natural language. This helps you search for scenes or attributes that are harder to capture with fixed filters alone.
+Use natural language on **Search** to find people, vehicles, and other objects across your cameras. In the product UI the page title is usually **Text search**, and the **Free text** control holds your query. This path helps when scenes or attributes are harder to capture with fixed filters alone.
 
 ## Prerequisites
 
