@@ -10,7 +10,9 @@ Make sure you can open **Search** from the main navigation and select the camera
 License plate recognition (LPR) and MMC require enablement. For setup steps, see [Enable LPR and MMC in Lumana](https://support.lumana.ai/hc/en-us/articles/11892546981138).
 {% endhint %}
 
-## Open Search and set the scope
+## Open Search
+
+Use the steps below to set time range, cameras, and filters before you add a **Person** or **Vehicle** object.
 
 1. In the left sidebar, select **Search** <img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-icon.png" alt="Search magnifying glass icon in the sidebar." data-size="line">.
 
@@ -18,7 +20,7 @@ License plate recognition (LPR) and MMC require enablement. For setup steps, see
 
 2. Set the **Time range** and **Camera** (or cameras) you want to include.
 
-3. Add or adjust other filters as needed, such as **Precision**, **Dwell**, **Motion**, or **Event tags**.
+3. Add or adjust other filters as needed, such as **Precision**, **Time period**, **Motion**, or **Event tags**.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-page.png" alt="" width="563"></div>
 
@@ -28,49 +30,53 @@ Use the filter list to narrow results before you add a **Person** or **Vehicle**
 
 Combine several object filters so results only include moments when all selected objects appear together (for example, a specific person near a specific vehicle). The same pattern applies as when you search primarily for a [person in Smart Search](https://support.lumana.ai/hc/en-us/articles/11176329842194) or a [vehicle in Smart Search](https://support.lumana.ai/hc/en-us/articles/11890679495954).
 
-You may search for up to four different objects at a time. Results show frames that contain every selected object with the attributes you configured.
+You might search for up to four different objects at a time. Results show frames that contain every selected object with the attributes you configured.
 
 For more detail on multi-object searches, see [Search for multiple people or vehicles in the same frame](https://support.lumana.ai/hc/en-us/articles/11890670516242).
 
 The Search layout can include extra categories when you work across object types, such as **Face**, **Motion**, or additional filters alongside **Person** and **Vehicle**.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-multi-object-search-page.png" alt="Search page with Person, Face, Vehicle, Precision, Time period, Motion, and Event tags visible in the filter column." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-multi-object-search-page.png" alt="" width="563"></div>
 
 ## Search for a person
 
-1. On the Search page, select the time range and cameras you want. Then open the **Person** section and start a person search.
+1. On the Search page, select the **Time range** and **Camera** (or cameras) you want.
+
+2. Open the **Person** section to add person filters.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-person-filter-selected.png" alt="" width="563"></div>
 
-2. Select **Add person** to add a person row.
+3. Select **Add person** to add a person row.
 
    The search returns clips that include at least one person in the chosen cameras and time range.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-person-filter-expanded.png" alt="Person filter with Add person and Person 1 added." width="563"></div>
 
-3. Expand **Person 1** and turn on the attribute toggles that should narrow the match. Labels match the list in Search under that row. A **Beta** tag can appear beside newer attribute types.
+4. Expand **Person 1** and turn on the attribute toggles that should narrow the match. Labels match the list in Search under that row. A **Beta** tag can appear beside newer attribute types.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-person-attributes.png" alt="" width="563"></div>
 
-4. You can add up to four people. If you add more than one, then all of them must appear in the same frame for a clip to match.
+5. You can add up to four people. If you add more than one, then all of them must appear in the same frame for a clip to match.
 
 ## Search for a vehicle
 
 Vehicle search uses attribute filters such as color, make, type, and license plate when LPR and MMC are available. Your Search panel may also show **Model** or other MMC fields depending on configuration.
 
-1. On the Search page, select the time range and cameras you want. Then open the **Vehicle** section.
+1. On the Search page, select the **Time range** and **Camera** (or cameras) you want.
+
+2. Open the **Vehicle** section.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-vehicle-filter-selected.png" alt="" width="563"></div>
 
-2. Select **Add vehicle** to add a vehicle row.
+3. Select **Add vehicle** to add a vehicle row.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-vehicle-filter-expanded.png" alt="" width="563"></div>
 
-3. Expand **Vehicle 1** and turn on the toggles you need, such as **Colors**, **Make**, **Type**, or **License plate**.
+4. Expand **Vehicle 1** and turn on the toggles you need, such as **Colors**, **Make**, **Type**, or **License plate**.
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-vehicle-attributes.png" alt="" width="563"></div>
 
-4. You can add up to four vehicles. If you add more than one, then all of them must appear in the same frame for a clip to match.
+5. You can add up to four vehicles. If you add more than one, then all of them must appear in the same frame for a clip to match.
 
 For more on vehicle-focused Smart Search, see [Smart vehicle search in Lumana](https://support.lumana.ai/hc/en-us/articles/11890679495954).
 
@@ -80,20 +86,24 @@ Results update as you set filters. Each row ties to a camera and a time.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-search-results-overview.png" alt="Search results with thumbnail clips, active filter markers, and Clips Objects toggle." width="563"></div>
 
-1. Thumbnail clips: About 60 seconds of context per result.
-2. Filter markers: Show which Person, Vehicle, or other filters are active.
-3. **Clips** / **Objects**: Switch how results are grouped or displayed.
+In the results list:
+
+- **Thumbnail clips**: About 60 seconds of context per result.
+- **Filter markers**: Show which Person, Vehicle, or other filters are active.
+- **Clips** / **Objects**: Switch how results are grouped or displayed.
 
 Select a result to open the preview. You can scrub thumbnails, zoom or crop on the object, and play video for that moment.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/search-people-vehicles-clip-preview-details.png" alt="Clip preview with timeline marker, Images, Video, Objects, Add cameras, and Archive." width="563"></div>
 
-1. Green marker: On the thumbnail timeline where the match appears.
-2. **Images**: Thumbnail view.
-3. **Video**: Playback view.
-4. **Objects**: Focused view on the detected object.
-5. **Add cameras**: Add more cameras for synchronized review (see [Multi-camera playback](../live-video-monitoring-and-operations/multi-camera-playback.md)).
-6. **Archive**: Save the clip to your archive for later.
+In the clip preview:
+
+- **Green marker**: On the thumbnail timeline where the match appears.
+- **Images**: Thumbnail view.
+- **Video**: Playback view.
+- **Objects**: Focused view on the detected object.
+- **Add cameras**: Add more cameras for synchronized review (see [Multi-camera playback](../live-video-monitoring-and-operations/multi-camera-playback.md)).
+- **Archive**: Save the clip to your archive for later.
 
 ## Refine results with High Confidence
 

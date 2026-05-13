@@ -6,12 +6,14 @@ This page is organized by function. Start with the outbound requirements for Lum
 
 ## Lumana Core and platform requirements
 
+Core reaches Lumana Cloud over HTTPS and related services. Use the subsections below whether you manage rules by domain or by enumerating infrastructure IPs.
+
 ### Infrastructure URLs
 
 Lumana provides two methods to configure your firewall:
 
-- **Lumana URLs**: A list of domains with their corresponding access requirements
-- **Lumana IPs**: An API endpoint that returns all Lumana infrastructure IPs
+- **Lumana URLs**: a list of domains with their corresponding access requirements
+- **Lumana IPs**: an API endpoint that returns all Lumana infrastructure IPs
 
 Allow outbound TCP `443` to the following:
 
@@ -36,7 +38,7 @@ Allow outbound TCP `443` to the following:
 
 ### Infrastructure IPs
 
-Instead of managing URL-based firewall rules, you may whitelist IPs directly.
+Instead of managing URL-based firewall rules, you might add infrastructure IPs directly to the allowlist.
 
 1. Generate an API key.
 
@@ -58,9 +60,9 @@ Instead of managing URL-based firewall rules, you may whitelist IPs directly.
 
    Add the returned IPs to your firewall’s allowlist.
 
-#### Reference IP allowlist (snapshot)
+### Reference IP allowlist (snapshot)
 
-Prefer the [API response](#infrastructure-ips) above when your tools can consume it. The table below is a **static reference** grouped by **category** and **region**, useful for ticketing, change control, or firewalls that need explicit rows. Entries can change; reconcile with the API and review at least annually.
+Prefer the [API response](#infrastructure-ips) above when your tools can consume it. The table below is a **static reference** grouped by **category** and **region**. Use it for ticketing, change control, or firewalls that need explicit rows. Entries can change; reconcile with the API and review at least annually.
 
 | IP | Protocol | Port | Category | Region |
 | --- | --- | --- | --- | --- |
@@ -102,12 +104,12 @@ Prefer the [API response](#infrastructure-ips) above when your tools can consume
 | 35.231.124.3 | tcp | 443 | Playback | US-East |
 | 35.185.42.155 | tcp | 443 | Playback | US-East |
 | 34.23.128.144 | tcp | 443 | Playback | US-East |
-| 34.165.255.223 | tcp | 443 | Camera API | ME West |
+| 34.165.255.223 | tcp | 443 | Camera API | ME-West |
 | 34.68.222.66 | tcp | 443 | Camera API | US |
 | 34.27.47.112 | tcp | 443 | Camera API | US |
 
 {% hint style="info" %}
-Lumana infrastructure IPs may change periodically. Review and update annually. When in doubt, use the IP list from `get-ip-addresses` rather than this table alone.
+Lumana infrastructure IPs might change periodically. Review and update annually. When in doubt, use the IP list from `get-ip-addresses` rather than this table alone.
 {% endhint %}
 
 ### NTP servers for time synchronization
@@ -122,12 +124,12 @@ Allow at least two of the following NTP servers.
 - `1.pool.ntp.org` - 123 UDP outbound
 - `0.fr.pool.ntp.org` - 123 UDP outbound
 
-### OS Updates
+### OS updates
 
 - `archive.ubuntu.com` - ports: 80, 443 TCP outbound
 - `security.ubuntu.com` - ports: 80, 443 TCP outbound
 - `*canonical.com` - ports: 80, 443 TCP outbound
-- `ports.ubuntu.com` - 443 TCP outbound
+- `ports.ubuntu.com` - ports: 80, 443 TCP outbound
 - `repo.download.nvidia.com` - 443 TCP outbound
 - `nvidia.github.io` - 443 TCP outbound
 
@@ -137,9 +139,11 @@ These requirements apply to Lumana Live View and the Lumana Web application.
 
 Lumana Live View uses WebRTC and WebSocket.
 
-All traffic is encrypted with TLS and DTLS.
+TLS and DTLS encrypt all traffic.
 
-If UDP is blocked, TURN/TLS over TCP 443 is used.
+If UDP is blocked, then Lumana uses TURN/TLS over TCP 443.
+
+Allow the following signaling, TURN/STUN, and media port patterns in addition to the Core requirements above.
 
 ### STUN servers
 
@@ -158,9 +162,9 @@ For best audio/video performance:
 - Allow the UDP ports above
 - Enable UDP hole-punching or disable symmetric NAT
 
-### Regional media server details
+Media hostnames and IP ranges depend on region. Open the subsection for the region that matches your deployment.
 
-#### US Central
+### US Central
 
 - `stream-us-central1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
 - `turn-us-central1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic, not only HTTPS.
@@ -180,7 +184,7 @@ Media server IPs:
 - `34.45.55.192`
 - `34.60.41.218`
 
-#### US East
+### US East
 
 - `stream-us-east1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
 - `turn-us-east1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic, not only HTTPS.
@@ -200,7 +204,7 @@ Media server IPs:
 - `35.196.67.179`
 - `34.23.19.135`
 
-#### US West
+### US West
 
 - `stream-us-west1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
 - `turn-us-west1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic, not only HTTPS.
@@ -220,7 +224,7 @@ Media server IPs:
 - `34.19.100.187`
 - `34.105.37.179`
 
-#### Israel
+### Israel
 
 - `stream-me-west1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
 - `turn-me-west1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic.
@@ -242,7 +246,7 @@ Media server IPs:
 
 ## Lumana Web application requirements
 
-The Lumana Web application also requires an outbound internet connection to communicate with Lumana Cloud. If your network firewall monitors outbound traffic, allow the following endpoints for the application itself.
+The Lumana Web application also requires an outbound internet connection to communicate with Lumana Cloud. If your network firewall monitors outbound traffic, then allow the following endpoints for the application itself.
 
 ### Web application infrastructure
 
@@ -258,7 +262,7 @@ For corporate firewalls, the web application also uses the shared live view and 
 - STUN servers
 - Regional media server endpoints and IPs
 
-## Related
+## Next steps
 
 - Read [Configure Lumana Core as a DHCP server](configure-lumana-core-as-a-dhcp-server.md) when Lumana Core needs to hand out addresses on the local network.
 - Read [Local time and NTP configuration](local-time-and-ntp-configuration.md) so timestamps stay accurate across the platform.

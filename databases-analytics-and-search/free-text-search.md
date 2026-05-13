@@ -1,6 +1,6 @@
 # Free text search
 
-Use free text search to look for people, vehicles, and other objects across your cameras by describing what you want to find in natural language. This helps you search for scenes or attributes that are harder to capture with fixed filters alone.
+Use natural language on **Search** to find people, vehicles, and other objects across your cameras. In the product UI the page title is usually **Text search**, and the **Free text** control holds your query. This path helps when scenes or attributes are harder to capture with fixed filters alone.
 
 ## Prerequisites
 
@@ -18,25 +18,20 @@ For example, search for a person carrying a box through a door. You can then nar
 
 Open the text search mode first, then choose the cameras and enter your query.
 
-1.  Open **Search**.
+1. Open **Search**.
 
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/free-text-search-start-screen.png" alt="" width="563"></div>
-2.  Select **Switch to text search**.
+2. Select **Switch to text search**.
 
-    The text search view opens.
-
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/free-text-search-text-search-screen.png" alt="" width="563"></div>
-3.  Review the text search page.
-
-    The page shows the text query bar, camera selector, time range, and other search controls.
+    The text search view opens. It includes the text query bar, camera selector, time range, and other search controls.
 
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/free-text-search-text-search-screen.png" alt="" width="563"></div>
-4.  Select the cameras you want to search.
+3. Select the cameras you want to search.
 
     The camera selection dialog lets you choose one or more locations and cameras.
 
     <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/free-text-search-camera-selection-dialog.png" alt="" width="563"></div>
-5.  Enter a description of what you want to find.
+4. Enter a description of what you want to find.
 
     For example, you can search for `person in a black shirt walking through a door`.
 

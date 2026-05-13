@@ -2,7 +2,7 @@
 
 This page explains how Lumana delivers live video. Learn when local or cloud streaming applies, and how stream quality adapts to your device, browser, and layout.
 
-## How live view delivery works
+## How Live view delivery works
 
 Lumana can deliver live video through a local connection or through Lumana Cloud. The available path depends on your network, device, browser support, and the number of streams you open.
 
@@ -26,7 +26,7 @@ Use local streaming when the viewing device can reach Lumana Core directly on th
 - No proxy between the client and Lumana Core.
 
 {% hint style="info" %}
-If a camera uses H.265 and your browser or device doesn't support H.265, then medium-quality (MQ) local streaming may work, but high-quality (HQ) local streaming won't.
+If a camera uses H.265 and your browser or device doesn't support H.265, then MQ local streaming might work. HQ local streaming will not.
 {% endhint %}
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-local-streaming-diagram.png" alt="Diagram showing local streaming from Lumana Core to the viewing device through the local network." width="375"></div>
@@ -37,21 +37,19 @@ When you open Live view, Lumana first checks whether the viewing device can reac
 
 ## Cloud streaming
 
-Cloud streaming delivers live video through Lumana Cloud when local streaming is not available. Use this path when the viewing device cannot connect directly to Lumana Core. This lets you keep using Live view remotely or across restricted networks where a direct local connection is not possible.
-
-This is especially useful when you need to access live video from another location or when local network constraints prevent a direct connection.
+Cloud streaming delivers live video through Lumana Cloud when local streaming is not available. Use this path when the viewing device cannot connect directly to Lumana Core. This lets you keep using Live view remotely or across restricted networks when a direct local connection is not possible.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-screenshots/live-view-player-exterior-hq.png" alt="" width="563"></div>
 
 ### Cloud live view flow
 
-If Lumana cannot establish a local connection, then it switches to cloud streaming. Cloud streaming uses WebRTC to deliver the live view to the client. This keeps Live view available when the client cannot reach Lumana Core directly, though latency and compatibility may vary by browser, device, and connection quality.
+If Lumana cannot establish a local connection, then it switches to cloud streaming. Cloud streaming uses WebRTC to deliver the live view to the client. This keeps Live view available when the client cannot reach Lumana Core directly. Latency and compatibility might vary by browser, device, and connection quality.
 
 Cloud streaming also helps distribute live video to multiple viewers without requiring each viewer to connect directly to Lumana Core.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-cloud-streaming-diagram.png" alt="Cloud streaming diagram." width="563"></div>
+When Lumana falls back to cloud streaming, the path is **Viewing device ↔ Lumana Cloud (WebRTC) ↔ Lumana Core**, so the client still receives live video without a direct LAN route to Core.
 
-## Manage streaming quality
+## Streaming quality
 
 Lumana can adjust live view quality automatically, and you can also change it manually in the player.
 
@@ -59,15 +57,15 @@ This helps balance video clarity, bandwidth use, and playback performance across
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-screenshots/live-view-player-office-hq.png" alt="" width="563"></div>
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-quality-routing-diagram.png" alt="Streaming quality diagram." width="563"></div>
-
 ### How quality selection works
 
-Lumana supports standard quality (SQ), medium quality (MQ), and high quality (HQ) live view modes. The selected mode depends on the stream layout, the available bandwidth, and the player size.
+Lumana supports standard quality (SQ), medium quality (MQ), and high quality (HQ) live view modes. In ordinary use Lumana weighs all of the following together:
 
-- Lumana may choose a lower quality automatically when you open multiple streams at the same time.
-- You can change the stream quality manually from the player controls.
-- In multi-camera layouts, Lumana may prioritize smoother playback over higher quality.
+- **Layout**: More simultaneous streams leave less headroom, so Lumana might lower quality to keep playback smooth.
+- **Bandwidth**: Less available throughput favors SQ or MQ over HQ.
+- **Codec and browser support**: Unsupported or inefficient codec paths can force a lower rung (for example MQ instead of HQ for some H.265 setups).
+- **Player size**: Smaller tiles or picture-in-picture windows can use a lower tier because fine detail is less visible.
+- **Manual override**: You can change stream quality from the player controls. In multi-camera layouts you can pick per stream; Lumana might still prioritize smoother playback when many tiles are open.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-multi-stream-example.png" alt="Multi-stream live view example." width="563"></div>
 
@@ -75,14 +73,14 @@ In the example above, the top cameras use **MQ**, while the lower cameras use **
 
 ### Reference values
 
-Use the following table as a reference for typical local and cloud live view resolutions and approximate bitrates. Values may vary by codec, scene complexity, and camera configuration.
+Use the following table as a reference. Values might vary by codec, scene complexity, and camera configuration:
 
 | Native resolution | Quality    | Resolution | Estimated bitrate |
 | ----------------- | ---------- | ---------- | ----------------- |
-| 3480x2160 (8MP)   | HQ (Local) | 3480x2160  | 5.12 Mbps         |
-| 3480x2160 (8MP)   | HQ (Cloud) | 1920x1080  | <3 Mbps           |
-| 3480x2160 (8MP)   | MQ         | 960x540    | <0.8 Mbps         |
-| 3480x2160 (8MP)   | SQ         | 426x240    | <0.2 Mbps         |
+| 3840x2160 (8MP)   | HQ (Local) | 3840x2160  | 5.12 Mbps         |
+| 3840x2160 (8MP)   | HQ (Cloud) | 1920x1080  | <3 Mbps           |
+| 3840x2160 (8MP)   | MQ         | 960x540    | <0.8 Mbps         |
+| 3840x2160 (8MP)   | SQ         | 426x240    | <0.2 Mbps         |
 | 2880x1620 (5MP)   | HQ (Local) | 2880x1620  | 3.5 Mbps          |
 | 2880x1620 (5MP)   | HQ (Cloud) | 1920x1080  | <3 Mbps           |
 | 2880x1620 (5MP)   | MQ         | 960x540    | <0.8 Mbps         |

@@ -6,15 +6,15 @@ This page covers common networking options used when managing cameras in Lumana.
 
 ## Remote camera access (Camera VPN)
 
-Use **Camera VPN** in the Lumana portal to access your camera’s native web interface when you are off the camera’s LAN. Use it for third-party cameras and for devices on a private network where you need the manufacturer’s configuration UI.
+Use **Camera VPN** in the Lumana portal to access your camera’s native web interface when you are off the camera’s LAN. Use it for third-party cameras and for devices on a private network if you need the manufacturer’s configuration UI.
 
-### When to use this
+### When to use Camera VPN
 
-- You need to access camera settings remotely
-- You want to configure manufacturer-specific features
-- Your camera is behind a private network
+- You need to access camera settings remotely.
+- You want to configure manufacturer-specific features.
+- Your camera is behind a private network.
 
-### Steps
+### Open the manufacturer web UI through Camera VPN
 
 1. Open the camera from the **Devices** list.
 
@@ -38,23 +38,23 @@ Use Session Initiation Protocol (SIP) to let Lumana communicate with external au
 
 ### Prerequisites
 
-You'll need:
+You need:
 
-- Administrative access to the Check Point router
-- Access to Check Point SmartConsole
-- Network topology details
+- Administrative access to the Check Point router.
+- Access to Check Point SmartConsole.
+- Network topology details.
 
 ### Configure the router
 
 Complete the following steps in order on the Check Point router.
 
-1. Enable VoIP.
+1. Open VoIP settings and turn **VoIP** on.
 
    - Log in to Check Point.
    - Go to **Access Policy** > **VoIP**.
-   - Enable VoIP.
+   - Enable **VoIP**.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/check-point-voip-toggle-on.png" alt="" width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/check-point-voip-toggle-on.png" alt="Check Point Access Policy VoIP with VoIP enabled." width="563"></div>
 
 2. Configure the SIP service provider.
 
@@ -77,7 +77,7 @@ Complete the following steps in order on the Check Point router.
    - lumana1.sip.twilio.com
    - lumana1.sip.us1.twilio.com
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/off-premise-sip-provider-service-list.png" alt="" width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/off-premise-sip-provider-service-list.png" alt="Off-premise SIP provider networks and domains in Check Point." width="563"></div>
 
 3. Configure RTP services.
 
@@ -90,9 +90,11 @@ Complete the following steps in order on the Check Point router.
    | SIP\_TLS\_AUTH | TCP      | 5061 |
    | SIP\_TCP       | TCP      | 5060 |
    | SIP\_UDP       | UDP      | 5060 |
-   | SIP\_UDP       | UDP      | 5061 |
+   | SIP\_DEV\_UDP  | UDP      | 5061 |
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-traffic-inspection-rtp-services.png" alt="" width="563"></div>
+   If your SmartConsole shows a different service name for UDP **5061** (for example **SIP\_DEV\_UDP**), use the label that matches your console while keeping the port.
+
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-traffic-inspection-rtp-services.png" alt="RTP and SIP service list in Check Point after disabling SIP inspection." width="563"></div>
 
 4. Configure on-premise devices.
 
@@ -103,7 +105,9 @@ Complete the following steps in order on the Check Point router.
    | ---------------- | --------- | -------------- |
    | Uniview\_speaker | Single IP | 192.168.100.30 |
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/on-premise-devices-ip-phones.png" alt="" width="563"></div>
+   Your screenshot might show another device label at the same IP; keep **Type** and **Address** aligned with your deployment.
+
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/on-premise-devices-ip-phones.png" alt="On-premise SIP devices table in Check Point SmartConsole." width="563"></div>
 
 5. Configure SIP services.
 
@@ -116,10 +120,10 @@ Complete the following steps in order on the Check Point router.
    | sip\_any-tcp   | sip\_any-tcp   | TCP      | 5060              |
    | SIP\_UDP       | SIP\_UDP       | UDP      | 5060              |
    | Any\_TCP       | Any\_TCP       | TCP      | 1-65535           |
-   | SIP\_UDP       | SIP\_UDP       | UDP      | 5061              |
+   | SIP\_DEV\_UDP  | SIP\_DEV\_UDP  | UDP      | 5061              |
    | Any\_UDP       | Any\_UDP       | UDP      | 1-65535           |
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-service-ports-table.png" alt="" width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-service-ports-table.png" alt="Check Point SIP-related services and UDP/TCP port mapping table." width="563"></div>
 
 ## Configure SIP on each speaker
 
@@ -131,23 +135,15 @@ After you complete the Check Point SmartConsole steps above, open each speaker's
 
 ### Uniview speaker
 
-1. Log in to the Uniview speaker interface
-2. Go to the **SIP Account** section
-3. Enter:
+1. Log in to the Uniview speaker interface.
+2. Go to the **SIP Account** section.
+3. Enter the account values your CSM supplied—including **Display Name**, **Server Host**, **Port**, and credentials. Labels may read **Username** / **User Name** and **ID** / **Auth ID**, depending on firmware.
+4. Set **Expire Time > 600**.
+5. Set **Auto Answer** to **Immediately**.
+6. Select **Save**.
+7. Confirm the speaker reports a successful registration (**Registered**, **REG SUCCESS**, or the equivalent status in your firmware).
 
-   - Username
-   - ID
-   - Password
-   - Display Name - used as identifier to use on alerts
-   - Server Host
-   - Port
-
-4. Set **Expire Time > 600**
-5. Set **Auto Answer** to **Immediately**
-6. Save
-7. Verify the speaker's status shows **Registered**
-
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-account-setup-example.png" alt="Uniview speaker SIP account settings with registered status." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-account-setup-example.png" alt="Uniview SIP account form with registration status." width="563"></div>
 
 ### TOA speaker
 
@@ -163,6 +159,12 @@ After you complete the Check Point SmartConsole steps above, open each speaker's
    - Password
 
 4. Audio codec: Enable all audio codecs
-5. Save
+5. Select **Save**.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/toa-speaker-sip-account-registered.png" alt="TOA speaker SIP settings with registration status." width="563"></div>
+
+## Next steps
+
+- Use [Configure SIP for smart speakers](other-devices/sip-for-smart-speakers.md) for the standalone SIP guide with the same Check Point and speaker patterns.
+- Use [Smart speakers](other-devices/smart-speakers.md) when you trigger TOA or compatible speakers from VMS+ alerts without full SIP routing.
+- Return to [Set up cameras and devices](README.md) for the full setup index.

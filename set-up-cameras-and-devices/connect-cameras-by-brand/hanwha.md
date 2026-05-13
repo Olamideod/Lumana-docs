@@ -40,7 +40,10 @@ Do this before video profile steps. A static IP keeps the camera on a predictabl
 
 1. Open the camera in the Hanwha web interface or Wisenet Device Manager.
 2. Go to **Basic** > **IP and port**.
-3. Open the **IP address** tab, set **IP type** to **Manual**, enter **IP address**, **Subnet mask**, **Gateway**, and DNS servers, then select **Apply**.
+3. Open the **IP address** tab.
+4. Set **IP type** to **Manual**.
+5. Enter **IP address**, **Subnet mask**, **Gateway**, and DNS servers.
+6. Select **Apply**.
 
 For more context, see [Set up a static IP address](../set-up-a-static-ip-address.md).
 
@@ -51,11 +54,12 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 1. Log in to the Hanwha web portal in a browser (use the camera IP from the previous step).
 2. Open **Basic** > **Video profile**.
 3. Select the profile row you want for the main stream, or select **Add** to create a row if you need one. In the examples below, the main stream uses the **H.265** row as profile 3.
-4. Set that row as the **Default** profile and set **Codec** to **H.265**.
+4. Set that row as the **Default** profile.
+5. Set **Codec** to **H.265**.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-video-profile-h265-default.png" alt="Hanwha web interface: Basic, Video profile with H.265 set as the default profile." width="563"></div>
 
-5. Open the main profile’s encoding settings and apply these values:
+6. Open the main profile’s encoding settings and apply these values:
 
 * Set **ATC mode** to **Off** (or **Disable**).
 * Set **Frame rate** to **15** fps.
@@ -67,19 +71,19 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-main-profile-stream-settings.png" alt="Hanwha main stream profile editor: ATC mode off, 15 fps, CBR, GOV length 15, Smart codec and Dynamic GOV and Dynamic FPS disabled." width="563"></div>
 
-6. Add or select a second profile row for the storage substream: name it **Storage**, set **Codec** to **H.265**. In the examples below, this is profile 4.
+7. Add or select a second profile row for the storage substream: name it **Storage**, set **Codec** to **H.265**. In the examples below, this is profile 4.
 
-7. Open the **Storage** profile encoding settings and apply these values:
+8. Open the **Storage** profile encoding settings and apply these values:
 
 * Set **ATC mode** to **Off** (or **Disable**).
 * Set **Frame rate** between **20** and **30** fps.
 * Set **Target bitrate** (or **Maximum bitrate**) using [Recommended streaming settings](../recommended-streaming-settings.md).
-* Set **Bitrate control** to **CBR**.
+* Set **Bitrate control** to **CBR** when the dropdown offers it. If your firmware shows **Maximum** (MBR with a numeric cap) instead, set the cap from [Recommended streaming settings](../recommended-streaming-settings.md) so the stream matches the same targets.
 * Set **GOV length** to two times the frame rate (for example, **40** at **20** fps).
 * Set **Smart codec** to **Off** (or **Disable**).
 * Leave **Dynamic GOV** and **Dynamic FPS** disabled.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-storage-profile-settings.png" alt="Hanwha Storage profile: H.265, 1280x720, 20 fps, ATC off, maximum bitrate 2048 kbps." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/hanwha-storage-profile-settings.png" alt="Hanwha Storage profile encoding with bitrate control set to CBR or Maximum depending on firmware." width="563"></div>
 
 ### Add the camera in Lumana Core
 
@@ -89,4 +93,10 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 * Main stream: `/0/profile3/media.smp` or `/profile3/media.smp`
 * Substream (Storage): `/0/profile4/media.smp` or `/profile4/media.smp`
 
-If your main or Storage row sits on a different profile index, change the numbers in the path to match.
+If your main or Storage row sits on a different profile index, then change the numbers in the path to match.
+
+## Next steps
+
+- Use [Enable PTZ control](../enable-ptz-control.md) when the camera supports pan, tilt, and zoom in Lumana.
+- Read [Camera networking options](../camera-networking-options.md) when you admin the camera through Camera VPN.
+- Apply [Recommended streaming settings](../recommended-streaming-settings.md) for any additional channels you add later.

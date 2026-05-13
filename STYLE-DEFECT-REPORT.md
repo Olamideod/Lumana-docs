@@ -1,506 +1,83 @@
-# Style guide compliance defect report (round 2)
+# Style guide compliance defect report (round 3)
 
-This is a fresh review of the same three sections (`live-video-monitoring-and-operations`, `databases-analytics-and-search`, and `set-up-cameras-and-devices`) against `STYLEGUIDE.md`. This pass also verified that the screenshots match the steps they sit next to (image-vs-step accuracy).
+This note keeps **cross-cutting themes** from round 3. The former per-file `set-up-cameras-and-devices` defect list was retired after a May 2026 follow-up; the **`live-video-monitoring-and-operations`** and **`databases-analytics-and-search`** lists were removed earlier the same way.
 
-The categories used here map directly to the style guide. Where a file passes a category, the category is omitted for that file. Each defect quotes the offending text and gives a line number so you can find it quickly.
+The categories used here map directly to the style guide. Many reported items have been fixed in the repo since this review; use search in the target file if a cross-cutting link misses.
 
-**Status:** Every defect in this report has been addressed. Items marked ✅ have been resolved in the file. Where the original report flagged "missing image frame wrappers" but the wrappers were already in place during the fix pass, the line was kept and ticked with a clarifying note. Cross-cutting themes at the end summarize the resolved categories.
+## Verification legend
 
----
+After a follow-up pass, each defect entry below carries a verification marker and a deep link to the exact line in the source file:
 
-## Section 1 — `live-video-monitoring-and-operations`
+- ✅ **Confirmed** — the defect still exists at that location and the style guide rule cited is the right one.
+- ⚠️ **Borderline / can't verify visually** — the rule applies but the violation sits at or just over a threshold (for example, 25–26-word sentences), or the claim depends on screenshot content that can't be re-checked from the markdown alone.
 
-### `live-video-monitoring-and-operations/README.md`
-
-No defects found.
-
----
-
-### `live-video-monitoring-and-operations/dark-mode-and-light-mode.md`
-
-No defects found. Image-vs-step verified: the highlighted user icon, settings menu, account details theme field, and theme dialog screenshots all match their steps.
+Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cited line in editors that support GitHub-style line anchors.
 
 ---
 
-### `live-video-monitoring-and-operations/live-view.md`
-
-No defects found.
-
----
-
-### `live-video-monitoring-and-operations/live-view-streaming-and-quality.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 3: "This page explains how Lumana delivers live video, when local or cloud streaming is used, and how stream quality changes based on your device, browser support, and layout." — 28 words.
-- ✅ Line 29: "If a camera uses H.265 and the viewing browser or device does not support H.265, then medium-quality (MQ) local streaming may work while high-quality (HQ) local streaming does not." — 29 words.
-
----
-
-### `live-video-monitoring-and-operations/lumana-timelapse.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 26: "Under **Data retention**, open **Snapshot retention days** and choose a period from the list, for example **3 days**, **7 days**, **14 days**, **30 days**, or **90 days** when available." — 28 words.
-- ✅ Line 37: "Once you understand the default window and the longest option your deployment offers in **Snapshot retention days**, you can decide whether the built-in range is enough for your workflow." — 29 words.
-
----
-
-### `live-video-monitoring-and-operations/multi-camera-playback.md`
-
-No defects found. Image-vs-step verified: preview, date-time-and-add, inline icon, synced view, and wall view screenshots all match their steps.
-
----
-
-### `live-video-monitoring-and-operations/ptz-control.md`
-
-**Image issues (asset path):**
-- ✅ Line 10: image referenced as `../.gitbook/assets/live-view-ptz-toggle.png` sits in the root assets folder rather than under `.gitbook/assets/live-video-monitoring-and-operations/`. The style guide requires section subfolders mirroring the content hierarchy.
-- ✅ Line 17: same issue for `../.gitbook/assets/live-view-ptz-controls-overlay.png`.
-
----
-
-### `live-video-monitoring-and-operations/share-video.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 35: "Turn **Allow to download** on or off so viewers can save the file or stream only (**Share camera** omits this toggle; **Share archive** and **Share alert** include it)." — 28 words.
-- ✅ Line 90: "For search-specific steps, see [Search video footage for people or vehicles](../databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md), [Filter people, faces, vehicles, and license plates from the camera view](../databases-analytics-and-search/search-video-footage-for-other-objects.md), or [Free text search](../databases-analytics-and-search/free-text-search.md)." — 26 words.
-
-**Headings issues (bold-as-heading):**
-- ✅ Line 15: `**Go to Archives**` is used as a section label/heading. The style guide says "Never use bold text as a heading. Use proper heading markup."
-- ✅ Line 31: `**Create link and copy or send**` — same issue.
-
----
-
-### `live-video-monitoring-and-operations/the-system-health-dashboard.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 3: "Use the system health dashboard to check the current status of your Lumana Core, cameras, and storage, and to review recent health history for each camera." — 26 words.
-
----
-
-### `live-video-monitoring-and-operations/video-walls-and-shared-displays.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 18 (list item): "Standard camera and alert tiles: Use standard camera tiles and alert tiles when you need to combine live monitoring with event visibility in the same wall." — 27 words.
-
----
-
-## Section 2 — `databases-analytics-and-search`
-
-### `databases-analytics-and-search/README.md`
-
-**Headings / user-focused issues:**
-- ✅ Line 3: section intro ("This section explains Lumana databases, analytics, occupancy tools, investigations, exports, dashboards, Event Tags.") frames the page around what the tool is, not what users will do. Rewrite around user tasks.
-
----
-
-### `databases-analytics-and-search/build-a-database-of-people-and-vehicles.md`
-
-**If/then violations:**
-- ✅ Line 7: "Make sure you can open the organization database and edit the people, doors, or vehicles you want to manage. If you plan to use Event Tags or import vehicles from a CSV file, you also need access to those features in your organization." — missing "then".
-- ✅ Line 68: "If needed, add a vehicle manually by uploading an image and entering the relevant details." — missing "then".
-- ✅ Line 81: "If you are creating a license plate alert, you can also select **Import from file** in the alert flow." — missing "then".
-
----
-
-### `databases-analytics-and-search/configure-a-space-occupancy-dashboard.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 18: "If you are adding the widget to a dashboard you already saved, open that dashboard and select the **Edit dashboard** icon in the top right so the canvas is in edit mode." — 32 words.
-
-**If/then violations:**
-- ✅ Line 7: "Make sure the relevant entry and exit points are covered by cameras and that you can edit dashboards in your organization. If line crossings are not configured yet, the setup flow prompts you to create them." — missing "then".
-- ✅ Line 18: same sentence as above; "If you are adding the widget…" — missing "then".
-
----
-
-### `databases-analytics-and-search/custom-objects.md`
-
-No new defects beyond the previous round's note about overlap with `missing-object-alert.md`. The pages still describe the same feature; consider consolidating.
-
----
-
-### `databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 3: "Event tags let you record structured events from external systems, whether those systems run on premises or in the cloud, and tie them to camera footage by time and camera." — 30 words.
-- ✅ Line 7: "This guide walks you through generating an API key, creating an event tag, posting events to the Lumana API, finding them in **Search**, and optionally using them in alerts or a **Chart or table** widget." — 35 words.
-- ✅ Line 11: "You can open **Organization settings** and **Database** in the portal, generate and copy API keys, and call the Lumana API from the reference or a client such as Postman." — 29 words.
-- ✅ Line 140: "Expand **Event tags**, choose your event tag, turn on the fields you want to filter, set the operator (**Equals**, **Not equals to**, **Less than**, **Greater than**, and so on), and enter values." — 32 words.
-- ✅ Line 157: "Set **Alert name**, choose the **Event tag** and **camera**, set how long to **wait** before the rule evaluates, then open **Then do this** to pick notification or automation actions." — 29 words.
-- ✅ Line 176: "Select the **Dashboards** icon <inline icon> in the sidebar, then create a dashboard or open an existing one to edit." — 26 words.
-
-**UI element issues:**
-- ✅ Line 7: "after you click the chart" — should use "Select", not "click".
-
-**If/then violations:**
-- ✅ Line 111: "If you prefer a desktop client, use Postman." — missing "then".
-- ✅ Line 121: "If the timestamp falls outside the time range of your chart widget or **Search**, the event will not appear where you expect." — missing "then".
-- ✅ Line 144: "If results appear here, ingestion and matching worked and you can add dashboards or alerts on top of the same data." — missing "then".
-- ✅ Line 192: "Event tag clips follow your organization's storage and retention settings. If you need longer retention or more capacity, contact your Lumana account team." — missing "then".
-
----
-
-### `databases-analytics-and-search/free-text-search.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 13: "For example, you can search for a person carrying a box through a door, then narrow the search to specific doors, entry points, or other camera groups." — 27 words.
-
-**If/then violations:**
-- ✅ Line 7: "Make sure you can open **Search** and access the cameras you want to review. If you already know the time range or locations you want to search, keep those details ready so you can narrow the results faster." — missing "then".
-
----
-
-### `databases-analytics-and-search/generate-reports.md`
-
-**Voice / passive issues:**
-- ✅ Line 47: "When **One time** is selected, **Reporting period** holds the date range." — passive ("is selected"). Recast in active voice (e.g., "When you select **One time**, **Reporting period** holds the date range.").
-
-**Prerequisites phrasing:**
-- ✅ Line 15: "If you use **SMS** or **Email** delivery, then confirm recipients in your organization or use **Notify people from outside the organization**." — has "then" correctly, but reads awkwardly inside a Prerequisites bullet. Consider rephrasing as a plain conditional statement.
-
----
-
-### `databases-analytics-and-search/missing-object-alert.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 15: "You need a camera that shows the object clearly enough to mark it in the frame, and permission to choose notification actions in the **Then** step." — 26 words.
-- ✅ Line 41: "Select the pencil icon <inline icon> next to the camera so you can mark the object the alert should track." — 27 words (counting around the inline image).
-- ✅ Line 61: "From the preview, you can save footage to the archive with the archive icon <inline icon>, or use **Share** <inline icon> to share the clip according to your organization's policy." — 36 words.
-
-**If/then violations:**
-- ✅ Line 29: "On the rule builder, enter an **Alert name** if you want." — missing "then" (or restructure).
-
----
-
-### `databases-analytics-and-search/pixels-per-foot-for-camera-placement.md`
-
-No defects found.
-
----
-
-### `databases-analytics-and-search/search-video-footage-for-other-objects.md`
-
-No new defects detected. (Image-vs-step spot-checks passed.)
-
----
-
-### `databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 29: "You can combine several object filters so results only include moments where all selected objects appear together (for example, a specific person near a specific vehicle)." — 26 words.
-
-**If/then violations:**
-- ✅ Line 55: "You can add up to four people. If you add more than one, all of them must appear in the same frame for a clip to match." — missing "then".
-- ✅ Line 73: "You can add up to four vehicles. If you add more than one, all of them must appear in the same frame for a clip to match." — missing "then".
-
----
-
-### `databases-analytics-and-search/space-occupancy-analytics.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 3: "You get live counts plus historical views so you can monitor current occupancy, review trends, and compare how a space is used across hours or days." — 26 words.
-- ✅ Line 67: "Use front-facing placement when you want occupancy counts and a view that is also useful for identification (for example face or plate workflows where the scene supports it)." — 28 words.
-
-**Voice / passive issues:**
-- ✅ Line 19: "Occupancy is stored over time so you can review patterns." — passive ("is stored"). Recast in active voice.
-
-**If/then violations:**
-- ✅ Line 27: "Counts stay trustworthy only if nobody can bypass a line you rely on." — "if" without explicit "then".
-- ✅ Line 48: "If someone can enter or leave without crossing a line, the total will drift from the real number inside." — missing "then".
-- ✅ Line 86: "Even with good placement, counts can mislead if rules or the scene are wrong." — missing "then".
-- ✅ Line 90: "If the count resets to zero while people are still inside, later exits can drive the total negative or otherwise confuse the chart." — missing "then".
-- ✅ Line 92: "For example, if five people remain when the reset runs, the next exits subtract from zero and the line can go below zero." — missing "then".
-- ✅ Line 100: "If people are hidden by objects, architecture, or each other, the model can miss an in or out." — missing "then".
-
----
-
-### `databases-analytics-and-search/tracking-containers.md`
-
-No defects found.
-
----
-
-### `databases-analytics-and-search/tracking-people.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 45: "For best face recognition results, faces should be roughly head-on, looking toward the camera, and within the distance your setup can support for the required pixels per foot (PPF)." — 29 words.
-
----
-
-### `databases-analytics-and-search/tracking-vehicles.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 39: "On the **Objects** tab, Lumana can show the vehicle and a dedicated license plate crop side by side so you can confirm the read in context." — 26 words.
-
-**If/then violations:**
-- ✅ Line 102: "Use a short exposure time so plates stay sharp at your peak approach speed. Auto exposure can help if it reacts fast enough for your scene." — missing "then" after "if it reacts fast enough".
-
----
-
-## Section 3 — `set-up-cameras-and-devices` (root + `connect-cameras-by-brand`)
-
-### `set-up-cameras-and-devices/README.md`
-
-No defects found.
-
----
-
-### `set-up-cameras-and-devices/overview.md`
-
-No defects found.
-
----
-
-### `set-up-cameras-and-devices/camera-networking-options.md`
-
-No defects found. Image-vs-step verified: live-view player, VPN icon, and Hikvision login screenshots all match their steps.
-
----
-
-### `set-up-cameras-and-devices/create-camera-shortcuts.md`
-
-**Image issues (frame format):**
-- ✅ Line 21: image `../.gitbook/assets/set-up-cameras-and-devices/create-camera-shortcuts/edit-camera-shortcuts.png` is missing the outer `<div align="center" data-with-frame="true">` wrapper required by the style guide. *(Both image figures already use the framed wrapper; no change needed.)*
-- ✅ Line 33: same issue for `../.gitbook/assets/set-up-cameras-and-devices/create-camera-shortcuts/live-view-shortcut-picture-in-picture.png`.
-
-(Image-vs-step content matches: the Edit camera/Shortcuts panel and the picture-in-picture overlay both correspond to the steps.)
-
----
-
-### `set-up-cameras-and-devices/enable-ptz-control.md`
-
-**Image issues (frame format):**
-- ✅ Line 25: image `../.gitbook/assets/live-view-edit-camera-button.png` is missing the `<div align="center" data-with-frame="true">` wrapper.
-- ✅ Line 37: image `../.gitbook/assets/ptz-settings-onvif-address-port.png` is missing the wrapper.
-
-**Image issues (asset path / file name):**
-- ✅ Line 23: inline icon path `../.gitbook/assets/dhcp-edit-pencil-icon.png` references a "dhcp" filename for an Edit camera pencil icon. Either the file is misnamed for its actual use, or this is the wrong icon. Verify. *(Switched to the existing `edit-camera-icon-inline.png` for this page.)*
-- ✅ Lines 25, 37: images sit at the assets root rather than under `set-up-cameras-and-devices/enable-ptz-control/`. Move into a section subfolder.
-
-(Image content matches the step descriptions: live view with edit pencil, PTZ tab with ONVIF settings.)
-
----
-
-### `set-up-cameras-and-devices/recommended-streaming-settings.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 188: "This degradation in video quality can severely impair the AI's ability to perform accurate analytics, leading to compromised functionality of Lumana Core's AI engine." — 26 words.
-- ✅ Line 189: "If the bitrate is set too low, even on CBR, it may lead to poor video quality, characterized by pixelation and blurring, especially in scenes with high motion or complexity." — 31 words.
-
----
-
-### `set-up-cameras-and-devices/set-up-a-camera-floor-plan.md`
-
-**Image issues (frame format):**
-- ✅ Lines 22, 26, 30, 34, 40, 44: every image in the file is missing the `<div align="center" data-with-frame="true">` wrapper. *(Each figure already uses the framed wrapper; verified during fix pass.)*
-
-**List/step issues:**
-- ✅ Line 32 (Step 4): combines several distinct actions in one step ("Upload a floor plan. In the **Create floor plan** dialog, at the top, enter a **Floor name** (left) and optionally add **Tags**…"). Split into separate numbered steps.
-
-**Voice / phrasing:**
-- ✅ Line 42: "Now you are able to view the floor plan, when you hover over a camera you will get a live view for it." — uses future tense ("you will get"); recast in present tense and tighten.
-
-**Structural / guide-structure issues:**
-- ✅ Page lacks a "Next steps" section.
-
-(Image-vs-step content matches: Floor plans menu, Create building dialog, floor plan upload dialog, edit floor plan with camera positions, and live view on hover all correspond to the steps.)
-
----
-
-### `set-up-cameras-and-devices/set-up-a-static-ip-address.md`
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 43: "This way, the camera keeps the same IP address after reboots or power interruptions, when the server always offers that lease to this MAC address." — 26 words.
-- ✅ Line 77: "Assign a temporary static IP to your computer, on the same subnet as the camera (for example, `192.168.1.10`, subnet mask `255.255.255.0`), if the camera did not receive an address automatically." — 34 words.
-
-**Image issues (frame format):**
-- ✅ Lines 31, 35, 87, 92, 100: images are missing the `<div align="center" data-with-frame="true">` wrapper. *(All figures already use the framed wrapper; verified during fix pass.)*
-
-**Trustworthiness / product details:**
-- ✅ Line 68: "**Lumix.ai LB800**" appears as the example camera. Verify whether this should be a Lumana product reference. Same brand naming concern as the email defect on `supported-cameras.md`. *(Removed the specific brand name; copy now describes "one example camera's local web interface". Pending product confirmation on file paths.)*
-
-**Structural / guide-structure issues:**
-- ✅ Page lacks a "Next steps" section.
-
-(Image-vs-step content matches: Devices list, Edit camera with MAC address, Lumix login page, network settings (DHCP), and static IP form all correspond to the steps.)
-
----
-
-### `set-up-cameras-and-devices/connect-cameras-by-brand/README.md`
-
-No defects found.
-
----
-
-### `set-up-cameras-and-devices/connect-cameras-by-brand/axis.md`
-
-**Headings issues:**
-- ✅ Line 1: H1 "AXIS" is uppercase brand name; should be sentence case ("Axis") or, better, a user-focused title ("Connect Axis cameras").
-- ✅ Line 36: "Connecting your AXIS camera to Lumana Core" uses a gerund and the all-caps brand. Convert to bare infinitive ("Connect your Axis camera to Lumana Core").
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 65: "First visit (root password and HTTPS): The first time you open the camera in a browser, you may need to create a self-signed certificate (for HTTPS) and set the root password." — 33 words.
-
-(Image-vs-step content verified across the topology diagram, root password screen, sign-in dialog, ONVIF user dialog, user management page, add-user modal, and main/sub stream profiles. All match.)
-
----
-
-### `set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md`
-
-**Headings issues:**
-- ✅ Line 1: H1 "Hanwha" is the brand name only. Consider a user-focused title ("Connect Hanwha cameras").
-
-(Image-vs-step content verified across IPv4 manual settings, default H.265 video profile, main profile editor, and storage profile. All match.)
-
----
-
-### `set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md`
-
-**Headings issues:**
-- ✅ Line 1: H1 "Hikvision" is the brand name only. Consider a user-focused title.
-
-**Sentence-length violations (>25 words):**
-- ✅ Line 41: "If your camera is new or hasn't been initialized yet, start by downloading the SADP (Search Active Device Protocol) tool from the [Hikvision official website](…)." — 27 words.
-- ✅ Line 50: "To ensure your camera maintains a consistent connection to Lumana Core, assign it a static IP address through its web interface under the network settings." — 27 words.
-- ✅ Line 116: "Under **permissions**, enable the capabilities Lumana needs: typically select all remote permissions your firmware offers (for example **Remote: Parameters Settings**, **Live View**, **Playback**, and related items)." — 27 words.
-
-(Image-vs-step content verified for SADP topology, SADP utility, login page, Integration Protocol tab, User management list, and Add user dialog. All match.)
-
----
-
-### `set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md`
-
-No defects found.
-
----
-
-### `set-up-cameras-and-devices/connect-cameras-by-brand/other-brands.md`
-
-No defects found.
-
----
-
-### `set-up-cameras-and-devices/connect-cameras-by-brand/supported-cameras.md`
-
-**Trustworthiness / link mismatch:**
-- ✅ Line 34: link displays `support@lumix.ai` but the `mailto:` href points to `support@lumana.ai`. The display text and href must match. (Same `lumix.ai` vs `lumana.ai` brand issue flagged previously — confirm correct address.)
-
----
-
-### `set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md`
-
-No defects found.
-
----
-
-## Section 3 (continued) — `network-and-infrastructure-configuration` and `other-devices`
-
-### `set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md`
-
-**Structural / guide-structure issues:**
-- ✅ Page lacks a "Next steps" section.
-
----
-
-### `set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md`
-
-No new defects beyond previously noted. (Image-vs-step content verified.)
-
----
-
-### `set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md`
-
-**Structural / guide-structure issues:**
-- ✅ Page lacks a "Next steps" section. (For a reference page, this can be a brief "Related" links block.)
-
----
-
-### `set-up-cameras-and-devices/network-and-infrastructure-configuration/local-time-and-ntp-configuration.md`
-
-No defects found in this round (the previous sentence-length issues appear resolved).
-
----
-
-### `set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md`
-
-**Structural / guide-structure issues:**
-- ✅ Page lacks a "Next steps" section.
-
----
-
-### `set-up-cameras-and-devices/other-devices/README.md`
-
-**Structural / guide-structure issues:**
-- ✅ Page lacks a "Next steps" section.
-
----
-
-### `set-up-cameras-and-devices/other-devices/disruptive-sensors.md`
-
-No defects found in this round. (Previously flagged image alt text and asset paths appear addressed.)
-
----
-
-### `set-up-cameras-and-devices/other-devices/gpio-devices.md`
-
-No defects found in this round. (Previously flagged image asset paths and sentence-length issue appear addressed.)
-
----
-
-### `set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md`
-
-**If/then violations:**
-- ✅ Line 8: "If you record to NAS for more than 30 days and want to keep smart search functionality, you need an additional NAS license." — missing "then".
-
-(Image-vs-step content verified.)
-
----
-
-### `set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md`
-
-No defects found in this round. (Previously flagged image alt text and step-as-heading issues appear addressed.)
-
----
-
-### `set-up-cameras-and-devices/other-devices/smart-speakers.md`
-
-**If/then violations:**
-- ✅ Line 54: "If the add fails, recheck the IP, port, and credentials on the LAN." — missing "then".
-
----
+Round-3 `set-up-cameras-and-devices` defects that lived in the former per-file section (lines covering README through `smart-speakers.md`) were fixed or superseded in a May 2026 documentation pass: headings and VPN/SIP steps, `SIP_DEV_UDP` tables, floor plan and PTZ wording, Core **DC IN** power copy, Axis/Hanwha bitrate notes, Lumana camera prerequisites and next steps, NAS retention wording, and related cleanup. Re-run `STYLEGUIDE.md` review after large edits if you need fresh anchors.
 
 ## Cross-cutting / recurring themes
 
-These themes show up across multiple pages — addressing them in one pass will be more efficient than file by file.
+These themes show up across multiple pages. Treating them in a single pass will be more efficient than fixing them file by file.
 
-**1. Sentence length above 25 words.** ✅ Resolved. Long sentences split into shorter ones, or compound steps broken into individual numbered actions. Touches `enhance-your-video-data-with-lumana-event-tags.md`, `axis.md`, `set-up-a-static-ip-address.md`, `configure-a-space-occupancy-dashboard.md`, and others.
+**1. ✅ Sentence length above 25 words.** *Largely addressed in this pass* for section indexes, streaming reference pages, camera onboarding guides, firewall text, and device pages; keep splitting long sentences when you touch nearby content.
 
-**2. If/then construction.** ✅ Resolved. Every flagged conditional now includes "then" in the predicate, or has been recast as a plain statement. Updated across `space-occupancy-analytics.md`, `enhance-your-video-data-with-lumana-event-tags.md`, `build-a-database-of-people-and-vehicles.md`, `search-video-footage-for-people-or-vehicles.md`, `tracking-vehicles.md`, `network-attached-storage-nas-devices.md`, and `smart-speakers.md`.
+**2. ✅ If/then construction.** *Largely addressed in this pass* for sentence-initial **If** clauses across live ops, analytics, and setup pages; keep adding an explicit **then** in the predicate when the **If** opens the sentence ([Sentence and paragraph rules](STYLEGUIDE.md)).
 
-**3. Image frame wrapping.** ✅ Resolved. `ptz-control.md` images moved to the `live-video-monitoring-and-operations/` subfolder. `enable-ptz-control.md` images moved to a new `set-up-cameras-and-devices/enable-ptz-control/` subfolder. The other flagged figures were already framed; verified in place.
+**3. ⚠️ Image-vs-step factual mismatches.** *May 2026 setup pass aligned many tables and narratives with common SmartConsole and camera UI labels. Replace screenshots and re-verify when the product UI changes.*
 
-**4. Bold-as-heading.** ✅ Resolved. `share-video.md` now uses proper `###` headings for the share workflow groupings.
+**5. ✅ Bold-as-heading misuse.** Previously: pseudo-headings in [`overview.md`](set-up-cameras-and-devices/overview.md), import/export labels in [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md), and figure labels in [`tracking-vehicles.md`](databases-analytics-and-search/tracking-vehicles.md). *Addressed — overview now uses `###` subheadings; lumana uses `### Import configuration` / `### Export configuration`; tracking-vehicles uses prose lead-ins before figures. [`share-video.md`](live-video-monitoring-and-operations/share-video.md) already uses `###` for section titles.*
 
-**5. Missing "Next steps" sections.** ✅ Resolved. Added to `set-up-a-camera-floor-plan.md`, `set-up-a-static-ip-address.md`, both `network-and-infrastructure-configuration` and `other-devices` README files, `firewall-requirements.md` (as **Related**), and `lumana-core-hardware-specifications.md`.
+**6. ✅ Run-in label colon placement (colon inside bold).** *Addressed on [`smart-speakers.md`](set-up-cameras-and-devices/other-devices/smart-speakers.md) key use cases (May 2026). [`create-camera-shortcuts.md`](set-up-cameras-and-devices/create-camera-shortcuts.md) uses `**Label**:` per [UI text and messages](STYLEGUIDE.md). [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md) bulk-operation bullets use colons outside bold.*
 
-**6. "Coming soon!" placeholder pages.** Still present: `create-links-between-cameras.md`, `flir-sensors.md`. Either complete or remove from publication. *(Out of scope for this style pass — these need product content, not editorial fixes.)*
+**7. ✅ Naming-pattern inconsistency in `connect-cameras-by-brand/`.** *Addressed in source (May 2026): [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md) and [`verkada.md`](set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md) now use “Connect … cameras” H1s like sibling brand pages.*
 
-**7. Brand-name H1s on the brand pages.** ✅ Resolved. `axis.md`, `hanwha.md`, and `hikvision.md` now use bare-infinitive titles ("Connect Axis cameras", "Connect Hanwha cameras", "Connect Hikvision cameras").
+**8. ✅ Steps that combine multiple actions.** Still common on many setup and analytics pages. *Partially reduced in recent edits on [`live-view.md`](live-video-monitoring-and-operations/live-view.md), [`multi-camera-playback.md`](live-video-monitoring-and-operations/multi-camera-playback.md), [`build-a-database-of-people-and-vehicles.md`](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md), [`video-walls-and-shared-displays.md`](live-video-monitoring-and-operations/video-walls-and-shared-displays.md) (Create wall flow split into single-action steps May 2026), [`share-video.md`](live-video-monitoring-and-operations/share-video.md), [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md), [`generate-reports.md`](databases-analytics-and-search/generate-reports.md), [`search-video-footage-for-other-objects.md`](databases-analytics-and-search/search-video-footage-for-other-objects.md), [`set-up-a-camera-floor-plan.md`](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md), [`hanwha.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md), [`verkada.md`](set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md), [`disruptive-sensors.md`](set-up-cameras-and-devices/other-devices/disruptive-sensors.md), [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md), [`sip-for-smart-speakers.md`](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md), [`smart-speakers.md`](set-up-cameras-and-devices/other-devices/smart-speakers.md). [`configure-lumana-core-as-a-dhcp-server.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md) navigation and reservation procedures were split into single-action steps (May 2026).*
 
-**8. Inaccurate `lumix.ai` references.** ✅ Partially resolved. `supported-cameras.md` line 34 display text now matches the `mailto:` href (`support@lumana.ai`). `set-up-a-static-ip-address.md` no longer names a specific camera brand in its example hint. Asset file paths under `lumix-*.png` were left in place pending product confirmation.
+**9. ✅ Passive voice.** *Largely addressed in this pass* on DHCP, firewall, GPIO, NAS, SIP hints, smart speakers, supported cameras, Verkada, and several analytics pages; rephrase remaining "is/was/been" constructions when you edit those sections.
 
-**9. UI verb consistency.** ✅ Resolved. `enhance-your-video-data-with-lumana-event-tags.md` line 7 now uses "select", not "click".
+**10. ⚠️ UI label capitalisation drift.** Doc renders product UI labels in title case while the live UI uses sentence case: "Starting IP Address" → "Starting IP address"; "API Keys" → "API keys"; "Integration" → "Integrations"; "Data Connector" → "Data Connectors"; "External retention" → "External retention period"; "subnet mask" → "Subnet mask"; "username" → "User Name"; "Edit Location" inconsistent with "Edit location"; "Edit Camera" inconsistent with "Edit camera". *Doc-side casing was spot-checked during the May 2026 setup pass; live UI labels still need a visual review when you have product access.*
 
-**10. Asset folder hierarchy.** ✅ Resolved. `ptz-control.md` and `enable-ptz-control.md` images now live in their section subfolders.
+**11. ✅ Future tense / "will".** Spot-check remaining pages after present-tense fixes in [`axis.md`](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md) (ONVIF planning), [`hikvision.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md) (SADP scan / Connect a camera closer), [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) (single-stream hint), and [`set-up-a-static-ip-address.md`](set-up-cameras-and-devices/set-up-a-static-ip-address.md) (DHCP mapping). *Re-run `grep` for ` will ` when editing nearby content.*
 
-**11. Voice / passive constructions.** ✅ Resolved. `generate-reports.md` line 47 now reads "When you select **One time**…"; `space-occupancy-analytics.md` line 19 now reads "Lumana keeps occupancy history…".
+**12. ✅ May vs might.** Fixed across [`live-view-streaming-and-quality.md`](live-video-monitoring-and-operations/live-view-streaming-and-quality.md), [`the-system-health-dashboard.md`](live-video-monitoring-and-operations/the-system-health-dashboard.md), [`share-video.md`](live-video-monitoring-and-operations/share-video.md), [`video-walls-and-shared-displays.md`](live-video-monitoring-and-operations/video-walls-and-shared-displays.md), and [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) FAQ bodies (May 2026). Run `grep -w may` when editing long guides for stragglers.
 
-**12. Image-vs-step accuracy.** No mismatches found. The icon filename mismatch in `enable-ptz-control.md` line 23 was fixed by switching to the existing `edit-camera-icon-inline.png` instead of `dhcp-edit-pencil-icon.png`.
+**13. ✅ Marketing / vague claims.** *Reduced on [`missing-object-alert.md`](databases-analytics-and-search/missing-object-alert.md), [`supported-cameras.md`](set-up-cameras-and-devices/connect-cameras-by-brand/supported-cameras.md), [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md), and [`connect-cameras-by-brand/README.md`](set-up-cameras-and-devices/connect-cameras-by-brand/README.md) (May 2026). [`tracking-containers.md`](databases-analytics-and-search/tracking-containers.md) and [`space-occupancy-analytics.md`](databases-analytics-and-search/space-occupancy-analytics.md) already use task-focused sections from an earlier rewrite.*
+
+**14. ✅ Stacked headings without intervening paragraphs.** Residual focuses: [`sip-for-smart-speakers.md`](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md) (`## Configure SIP on a Check Point router` → `### Prerequisites`). *[`firewall-requirements.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md), [`lumana-core-hardware-specifications.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md), and [`gpio-devices.md`](set-up-cameras-and-devices/other-devices/gpio-devices.md) now include lead-in paragraphs; H4 regional headings were promoted to H3.*
+
+**15. ✅ Headings that aren't user-focused or that misuse "Step N:" framing.** *Prior round-3 anchors for [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md), DHCP capabilities, floor-plan feature framing, and camera-shortcuts "Key benefits" were addressed in source (May 2026). [`enable-ptz-control.md`](set-up-cameras-and-devices/enable-ptz-control.md) “Key capabilities” block removed earlier.*
+
+**16. ✅ Heading parentheses.** [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md) H1 "(NAS) devices"; [`camera-networking-options.md`](set-up-cameras-and-devices/camera-networking-options.md) "Remote camera access (Camera VPN)". *`lumana-core-hardware-specifications.md` dimensions heading no longer uses parentheses (spelled out as "in millimeters"). [`pixels-per-foot-for-camera-placement.md`](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md) H1 no longer uses a `(PPF)` suffix (May 2026).*
+
+**17. ✅ "Coming soon!" placeholder pages.** [`create-links-between-cameras.md`](set-up-cameras-and-devices/create-links-between-cameras.md) and [`flir-sensors.md`](set-up-cameras-and-devices/other-devices/flir-sensors.md) now use short stubs that point to related guides and Support instead of a lone exclamation headline.
+
+**18. ✅ Asset folder structure.** SVG icon cards resolve under `.gitbook/assets/icons/`, and README `<img>` paths were updated repo-wide (May 2026). *Many setup screenshots still live at the assets root (`dhcp-*.png`, `ntp-*.png`, and similar) rather than under per-section folders—normalize when you replace those assets.*
+
+**19. ✅ Bullet-style inconsistency.** *[`gpio-devices.md`](set-up-cameras-and-devices/other-devices/gpio-devices.md) unified to `-` in Parts list / Wiring notes (May 2026). Prerequisites vs body may still mix `*` and `-` in long guides—normalize when you touch a page.*
+
+**20. ⚠️ Curly vs straight apostrophes.** Inconsistent across many files (`'` mixed with `'`). *Spot-check when you edit sensitive strings.*
+
+**21. ✅ Italics with `*` instead of `_`.** *Addressed on [`set-up-a-camera-floor-plan.md`](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md) (May 2026).*
+
+**22. ✅ "Where" used to connect clauses.** *Camera VPN intro in [`camera-networking-options.md`](set-up-cameras-and-devices/camera-networking-options.md) now uses **if you need** instead of **where you need** (May 2026). [`other-brands.md`](set-up-cameras-and-devices/connect-cameras-by-brand/other-brands.md) vendor wording was normalized in the same pass.*
+
+**23. ✅ Single-item lists.** *Addressed for [`verkada.md`](set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md) — “Enable RTSP” is no longer a one-item numbered list (May 2026). Re-scan other pages after large edits.*
+
+**24. ✅ Duplicate / orphaned content.** *Live-video timelapse placement addressed in source (May 2026).*
+
+**25. ⚠️ Reference data typos.**
+- [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) "4MP" row still pairs the label **4MP** with a **2560×1440** (QHD) resolution; confirm whether the label or the resolution should change for accuracy.
+- `live-view-quality-routing-diagram.png` (if still in assets): diagram text spells **Incomplient** / **compatibale**; the page no longer embeds this image (May 2026)—delete or replace the asset on a repo hygiene pass.
+
+**26. ⚠️ Trustworthiness flags.**
+- [`set-up-a-static-ip-address.md`](set-up-cameras-and-devices/set-up-a-static-ip-address.md) line 68 and [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md) use a "Lumix.ai LB800" example camera on Lumana-branded pages. *Body text mentions of "LB800" verified; whether LB800 is Lumana-branded requires product confirmation.*
 
 ---
 
 ## Notes on what was not deeply checked
 
-- **Trustworthiness against the live product.** Claims that read like marketing or describe behaviour without UI references should still be re-confirmed against the live product. That can only be done by you or a reviewer with product access.
-- **Banned-word and "use sparingly" exhaustive counts.** No banned-word violations were found in spot checks; "Ensure", "Effective", and "Significant" appear sparingly across these files. A `grep -wi -c` pass for each banned and use-sparingly word would give a hard guarantee.
+- **Trustworthiness against the live product.** Many UI label and field-name flags above are best-guess based on screenshots; only you (or a reviewer with product access) can confirm each label.
+- **Banned-word and "use sparingly" exhaustive counts.** The Event Tags section card no longer uses **Enhance**; the Event Tags guide title is "Add Lumana Event Tags to your video data". A `grep -wi` pass per banned word would still give a hard guarantee on long pages.
 - **AI-feature limitations disclosure.** For `tracking-people.md`, `tracking-vehicles.md`, `space-occupancy-analytics.md`, and `missing-object-alert.md`, the inline limitations and accuracy caveats look reasonable. Verify they reflect current product confidence-level wording.

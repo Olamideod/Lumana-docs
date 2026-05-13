@@ -1,4 +1,4 @@
-# GPIO devices
+# Use GPIO with external devices
 
 GPIO (general-purpose input/output) is an interface on Lumana Core that allows it to interact with external devices.
 
@@ -8,18 +8,20 @@ In Lumana, you can program GPIO pins to toggle high or low in response to an ale
 
 Use the following pinout reference when wiring a device to GPIO.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-pinout.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-pinout.png" alt="Pinout diagram of the Lumana Core GPIO header showing the position and label of each of the four general-purpose I/O pins, plus ground and reference voltage pins, for wiring external devices." width="563"></div>
 
 ## Connect a device
 
-In the example below, an LED is connected to the GPIO. Each time the alert triggers, the LED blinks.
+In the example below, you wire an LED to the GPIO. Each time the alert triggers, the LED blinks.
+
+Gather the parts before you wire the circuit—the values below match the reference diagram.
 
 ### Parts list
 
-* A 5mm red LED
-* A P2N2222 Transistor
-* 1 330Ω resistor
-* 1 10kΩ resistor
+- A 5mm red LED
+- A P2N2222 Transistor
+- 1 330Ω resistor
+- 1 10kΩ resistor
 
 ### Wiring notes
 
@@ -27,17 +29,21 @@ In the example below, an LED is connected to the GPIO. Each time the alert trigg
 - `R1` is the current-limiting resistor for the LED.
 - `R2` is the base resistor that controls how much current flows in the circuit.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-led-wiring.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-led-wiring.png" alt="Wiring diagram for the LED example: the P2N2222 transistor switches current through the LED, R1 (330 ohm) limits LED current, and R2 (10 kilohm) sits between the GPIO pin and the transistor base." width="563"></div>
 
 ## Use GPIO in alerts
 
 1. Contact your technical support team to enable GPIO on your Core.
 
-2. Once enabled, open the alert editor and add the **Toggle GPIO** action.
+2. After your support team enables GPIO on your Core, open the alert editor and add the **Toggle GPIO** action.
 
-3. Select the GPIO to use. The Core can support up to 4 GPIOs, toggle high or low, and control how long the signal remains active.
+3. Select the GPIO line you want to drive.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-alert-toggle-gpio.png" alt="" width="563"></div>
+4. Choose high or low, how long the pulse stays active, and any timing your device needs.
+
+   The Core exposes up to four GPIO outputs.
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-alert-toggle-gpio.png" alt="Alert action editor showing Toggle GPIO with line and pulse options." width="563"></div>
 
 ## Next steps
 

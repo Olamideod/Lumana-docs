@@ -8,10 +8,10 @@ Lumana can also use Session Initiation Protocol (SIP) with supported network spe
 
 Typical reasons teams add speakers include:
 
-- **Pre-recorded alarms:** When the system flags a threat, play a stored clip to alert people nearby.
-- **Voice-style alerts:** Call out safety issues, such as someone too close to machinery or an unsafe lane.
-- **Deterrence:** Make it clear the site is monitored so fewer people take risks.
-- **Emergency signaling:** Trigger outbound or on-site signals when the system detects events such as fire, smoke, or a firearm.
+- **Pre-recorded alarms**: When the system flags a threat, play a stored clip to alert people nearby.
+- **Voice-style alerts**: Call out safety issues, such as someone too close to machinery or an unsafe lane.
+- **Deterrence**: Make it clear the site is monitored so fewer people take risks.
+- **Emergency signaling**: Trigger outbound or on-site signals when the system detects events such as fire, smoke, or a firearm.
 
 ## Supported devices
 
@@ -21,7 +21,7 @@ Lumana has tested integration with the **TOA IP-A1SC15** and **SIP-S21M UNV** sp
 
 ## Configure the TOA IP-A1SC15
 
-The TOA IP-A1SC15 has many settings in its own web UI. This guide covers what you need so the speaker is reachable from Lumana. For full TOA documentation, see the TOA support site for your model.
+The TOA IP-A1SC15 has many settings in its own web UI. This guide covers what you need so Lumana can reach the speaker. For full TOA documentation, see the TOA support site for your model.
 
 ### Connect and address the speaker
 

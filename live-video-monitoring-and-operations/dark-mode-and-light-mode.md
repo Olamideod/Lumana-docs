@@ -12,13 +12,13 @@ Open your user settings, then update the theme from your account details.
 
 1. In the lower-left corner of the page, select the user icon.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-home-view.png" alt="Dark mode home view with the user menu button highlighted in the lower left." width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-home-view.png" alt="" width="563"></div>
 
 2. Select **User settings**.
 
    The user settings menu opens.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-user-settings-menu.png" alt="Dark mode user menu with the User settings option highlighted." width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-user-settings-menu.png" alt="" width="563"></div>
 
 3. Select **Account details**.
 
@@ -34,7 +34,7 @@ Open your user settings, then update the theme from your account details.
 
    The theme updates for your account.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-theme-selection-dialog.png" alt="Theme selection dialog with Dark selected and Save button visible." width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-theme-selection-dialog.png" alt="" width="563"></div>
 
 ## Next steps
 

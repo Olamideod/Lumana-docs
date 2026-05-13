@@ -1,4 +1,4 @@
-# Pixels per foot (PPF) for camera placement
+# Plan camera placement with pixels per foot
 
 This reference explains how to estimate pixels per foot (PPF) from camera resolution, horizontal field of view (HFOV), and distance. You can use PPF to plan mounting height, lens choice, and where a stream still meets a detail target.
 
@@ -14,7 +14,7 @@ Capability-specific minimums (for people or vehicles) live on [Tracking people](
 
 At distance **D**, horizontal width **W** uses the same length unit as **D** (for example, feet):
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-horizontal-length-formula.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/pixels-per-foot-horizontal-length-formula.png" alt="Formula for horizontal scene width: W equals 2 multiplied by D multiplied by the tangent of HFOV divided by 2." width="563"></div>
 
 Where:
 
@@ -24,29 +24,29 @@ Where:
 
 **Example (Lumana 8MP, HFOV = 112.9°)**: at **20 feet**, **W** is about **60.3 feet**.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-horizontal-length-example.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/pixels-per-foot-horizontal-length-example.png" alt="Worked example of the horizontal scene width formula: with an HFOV of 112.9 degrees and distance D of 20 feet, the scene width W is about 60.3 feet." width="563"></div>
 
 ## PPF from width and resolution
 
 PPF is horizontal pixel count divided by **W**:
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-ppf-formula.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/pixels-per-foot-ppf-formula.png" alt="Formula for pixels per foot: PPF equals the horizontal pixel count divided by the horizontal scene width W." width="563"></div>
 
 Using the example above with **3840** horizontal pixels and **W = 60.3** feet:
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-ppf-worked-example.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/pixels-per-foot-ppf-worked-example.png" alt="Worked example of the PPF formula: 3840 horizontal pixels divided by 60.3 feet equals about 63.6 pixels per foot at a 20-foot distance." width="563"></div>
 
 **PPF ≈ 63.6** pixels per foot at **20 feet** for that camera and geometry.
 
 The chart below shows how PPF changes with distance for **5MP** and **8MP** Lumana cameras. Use it as a quick check when you move a camera or compare models.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-ppf-over-distance-chart.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/pixels-per-foot-ppf-over-distance-chart.png" alt="Chart comparing pixels per foot versus distance for 5MP and 8MP Lumana cameras. PPF decreases as distance increases for both models, with 8MP cameras delivering higher PPF than 5MP at every distance." width="563"></div>
 
 ## Distance for a target PPF
 
 You can solve for **D** when you know required PPF, horizontal resolution, and HFOV:
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-distance-formula.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/pixels-per-foot-distance-formula.png" alt="Formula for the distance D that meets a target PPF: D equals the horizontal pixel count divided by 2 multiplied by PPF multiplied by the tangent of HFOV divided by 2." width="563"></div>
 
 For example, for **128 PPF** with the same **8MP** geometry as above, **D** is about **9.95 feet**.
 

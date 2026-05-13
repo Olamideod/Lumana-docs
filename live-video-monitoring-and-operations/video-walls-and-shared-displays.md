@@ -1,8 +1,8 @@
-# Video walls and shared displays
+# Use video walls and shared displays
 
-Use video walls and shared displays to monitor multiple cameras on one surface. Combine live cameras with alert tiles or share walls with partners who sit outside Lumana.
+Use video walls and shared displays to monitor multiple cameras on one surface. Combine live cameras with alert tiles, or share walls with partners who use Lumana from outside your organization.
 
-Lumana offers saved walls plus quick live grids plus secure external walls you can open anywhere.
+With saved walls, quick live grids, and shared external URLs, you can match a layout to how long you need it and who must see it.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ Make sure you can access the cameras and locations you want to display. If you p
 Choose the wall type based on how long you need the layout and who needs to view it.
 
 - **Saved walls**: Use a saved wall when you need a reusable layout with camera tiles, alert tiles, and alert filtering.
-- **Quick live view**: Use it when you need a temporary wall quickly and may want to save it later.
+- **Quick live view**: Use it when you need a temporary wall quickly and might want to save it later.
 - **Shared external video wall**: Use a shared external video wall when you need a secure URL for viewers outside Lumana.
 - **Standard camera and alert tiles**: Use them when you need to combine live monitoring with event visibility in the same wall.
 - **Advanced alert tile**: Use the advanced alert tile when you want alerts to stream directly to the video wall without extra selections.
@@ -47,35 +47,44 @@ Use the **Walls** page to open existing walls and make changes to saved layouts.
 
 Create a saved wall when you need a reusable layout for ongoing monitoring.
 
-1. On **Walls**, select **Create wall** in the upper-left corner of the page.
+1. On **Walls**, select **Create wall** in the upper-left corner of the wall list.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-create-wall-button.png" alt="Create wall button in the upper-left of the Walls page." width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-create-wall-button.png" alt="" width="375"></div>
 
-2. Enter a wall name and choose a layout that fits the number of cameras or alert tiles you want to show, and select **Done**.
-3. Expand **Cameras** to choose which cameras appear on the wall, and expand **Alerts** to configure alert tiles.
+2. Enter a wall name.
+
+3. Choose a layout that fits the number of cameras or alert tiles you want to show.
+
+4. Select **Done**.
+
+5. Expand **Cameras** and choose which cameras appear on the wall.
+
+6. Expand **Alerts** to configure alert tiles.
 
    Each row shows a chevron you can expand. Alert tiles surface real-time events without opening a separate view.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-cameras-and-alerts-tab.png" alt="Expandable Cameras and Alerts rows in the sidebar; Alerts shows a gear for settings." width="375"></div>
 
-4. Select the **settings** gear next to **Alerts** to open **Alerts settings**.
+7. Select the **settings** gear next to **Alerts** to open **Alerts settings**.
 
    Configure each option, then select **Done** to close **Alerts settings**:
 
-   - **Display options**: choose how the alert renders, for example **Live**.
-   - **View duration**: set how long each alert stays on screen, for example **30 seconds**.
-   - **Pic in pic**: choose the picture-in-picture content (for example **Timelapse**) and its on-screen position (for example **Bottom right**).
-   - **Audio**: choose an announcement style (for example **Announcement**), set the volume with the slider, and select **Test** to preview the sound.
+   - **Display options**: Choose how the alert renders, for example **Live**.
+   - **View duration**: Set how long each alert stays on screen, for example **30 seconds**.
+   - **Pic in pic**: Choose the picture-in-picture content (for example **Timelapse**) and its on-screen position (for example **Bottom right**).
+   - **Audio**: Choose an announcement style (for example **Announcement**), set the volume with the slider, and select **Test** to preview the sound.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-view-settings.png" alt="" width="375"></div>
 
-5. Select the cameras and alerts for the wall using the sidebar.
+8. Under **Cameras**, search by name or open a location, then select each camera you want included.
 
-   Under **Cameras**, search by name or open a location, then select each camera you want included. Under **Alerts**, search the list or select **Clear all** to reset it. Then enable the alert categories you want surfaced on the wall.
+9. Under **Alerts**, search the list or select **Clear all** to reset it.
+
+10. Enable the alert categories you want surfaced on the wall.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-cameras-alerts-selection.png" alt="Sidebar with wall title, expandable Cameras (search, locations, checklist), and Alerts (search, Clear all, per-alert checkboxes)." width="375"></div>
 
-6. Select **Create wall** in the upper-right corner.
+11. Select **Create wall** in the upper-right corner of the wall editor.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-editor-create-wall.png" alt="Create wall editor with Walls and Create wall breadcrumbs, sidebar (wall name, Cameras, Alerts), two-tile grid preview, and blue Create wall button upper right (callout arrow in screenshot)." width="563"></div>
 
@@ -87,9 +96,7 @@ Use **Quick live view** when you need a temporary wall without building a full s
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-button.png" alt="Quick live view button." width="375"></div>
 
-2. Select the cameras you want to display, then select **Select**.
-
-   Quick live view is useful when visibility matters immediately and you need to open a wall fast.
+2. Select the cameras you want to display, then select the **Select** button.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-select-cameras-dialog.png" alt="Select cameras dialog." width="375"></div>
 
@@ -97,7 +104,7 @@ Use **Quick live view** when you need a temporary wall without building a full s
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-example.png" alt="Quick live view wall example." width="563"></div>
 
-4. Use the upper-right toolbar: **Edit** (**pencil**), full-screen, or **Save as wall** when you want the layout in your **Walls** list.
+4. Use the upper-right toolbar: **Edit** <img src="../.gitbook/assets/edit-camera-icon-inline.png" alt="Edit pencil icon." data-size="line">, full-screen, or **Save as wall** when you want the layout in your **Walls** list.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-quick-live-view-toolbar.png" alt="Quick live view toolbar: Edit (pencil), full-screen brackets, Save as wall." width="375"></div>
 
@@ -109,11 +116,9 @@ Use **Quick live view** when you need a temporary wall without building a full s
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-save-live-view-name.png" alt="Save live view as wall dialog: Wall name field and Save button." width="375"></div>
 
-If you did not use **Save as wall**, quick live view stays temporary until you navigate away.
+If you did not use **Save as wall**, then quick live view stays temporary until you navigate away.
 
-Quick live view walls also use the same live view controls available in [Use live view](live-view.md).
-
-<!-- TODO: When the flow is updated for the new UI, add the section "## Create a shared external video wall" (and its steps) back here. -->
+Quick live view walls use the same Live view controls described in [Use Live view](live-view.md).
 
 ## Next steps
 

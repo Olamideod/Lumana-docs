@@ -1,20 +1,20 @@
-# Tracking containers
+# Track containers
 
 **Container** analytics reads container identifiers from the video stream. You can turn it on per camera, then use **Search** to find footage and narrow results by serial number, size code, and owner code.
 
 Many teams use it at gates, yards, and warehouse doors where containers pass fixed cameras. Results still depend on lighting, angle, and how clearly the ID is visible in frame.
 
-## Key benefits
+## When container analytics helps
 
-- **Real-time tracking**: Instantly locate and verify containers in **Search** on live or recorded video when the ID is readable, without scrubbing unrelated clips.
-- **Accurate inventory**: Automate logging and reduce manual errors by using camera reads instead of typing every container move by hand.
-- **Security**: Detect unauthorized movements by seeing which containers passed each camera and when.
-- **Operations**: Speed up yard and terminal workflows when staff can confirm containers in Lumana.
-- **Compliance**: Maintain accurate audit trails from what the system read and your stored footage, within your retention settings.
+- **Lane and gate checks**: Confirm which container IDs passed a fixed camera when the markings are readable in frame.
+- **Inventory support**: Compare automated reads with your records instead of typing every move by hand.
+- **Incident context**: See which containers appeared on which cameras and when.
+- **Yard and dock workflows**: Let teams verify a container in **Search** before they dispatch someone to the location.
+- **Retention-bound evidence**: Keep clips and reads within your organization's storage policies.
 
 ## Prerequisites
 
-- You can **edit camera** settings and analytics for the target cameras.
+- You can open **Edit camera** for the target cameras to change settings and analytics.
 - The scene shows enough of the container ID that reads are plausible for your use case.
 - Optional: you already know how to open **Search** in VMS+.
 

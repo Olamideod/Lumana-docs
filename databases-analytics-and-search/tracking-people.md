@@ -2,21 +2,21 @@
 
 Lumana combines video management with an AI engine so you can search large archives of footage quickly, receive real-time alerts, and automate responses. People analytics builds on that stack. You can search, track, and review occupancy-related activity using person detection, attributes, cross-camera association, and, when enabled, face recognition.
 
-The platform is designed to install with standard cameras. Detection and analytics improve as the system processes each stream; positioning and resolution still matter, especially for face recognition and attribute detail at distance.
+The platform supports standard cameras. Detection and analytics improve as the system processes each stream; positioning and resolution still matter, especially for face recognition and attribute detail at distance.
 
 ## Prerequisites
 
-- Cameras are added in Lumana and streaming reliably.
+- You added your cameras to Lumana and they stream reliably.
 - You know which sites or cameras should run people-related analytics (and any org policies that apply to face recognition or cross-camera identity).
 - For mounting and aiming, see [camera guidelines for people analytics](https://support.lumana.ai/knowledge/editor/01HEN6TW1P90ZT21YXAJT7FV3X/en-us?brand_id=10899747518610) on the support site.
 
 ## People analytics features
 
-These capabilities apply when people analytics is enabled on your cameras.
+These capabilities apply after you enable people analytics on your cameras.
 
 ### Person detection
 
-The engine supports long-range person detection: individuals can be tracked and their crops stored at useful resolution. You can review everyone detected across your organization, select one person or groups that appear together, and base alerts on their activity. This supports security, investigations, and operations that depend on knowing who moved where and when.
+The engine supports long-range person detection. It tracks individuals and stores their crops at useful resolution. You can review everyone detected across your organization, select one person or groups that appear together, and base alerts on their activity. This supports security, investigations, and operations that depend on knowing who moved where and when.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-detection-results.png" alt="" width="563"></div>
 
@@ -26,15 +26,15 @@ You can filter and alert on person attributes such as clothing color and type, a
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-person-attributes-filters.png" alt="" width="563"></div>
 
-### Cross camera tracking
+### Cross-camera tracking
 
-Cross-camera tracking uses body shape, clothing, and other visible cues, not only the face, to associate the same person across cameras. That helps when the face is not visible or not suitable for recognition. Typical uses include attendance, access and investigations across large sites, and safety monitoring where you need continuity beyond a single camera view. Configure and use this capability according to your organization’s policies and applicable privacy requirements.
+Cross-camera tracking uses body shape, clothing, and other visible cues, not only the face, to associate the same person across cameras. That helps when the face is not visible or not suitable for recognition. Typical uses include attendance, access and investigations across large sites, and safety monitoring where you need continuity beyond a single camera view. Configure and use this capability according to your organization's policies and applicable privacy requirements.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-cross-camera-tracking-results.png" alt="" width="563"></div>
 
 ### Face recognition
 
-Face recognition supports search and alerts based on enrolled or observed faces. Performance depends on lighting, angle, and resolution (see [Head angle impact](#head-angle-impact) and [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md)). Use face data in line with your policies and regulatory obligations.
+Face recognition supports search and alerts based on enrolled or observed faces. Performance depends on lighting, angle, and resolution (see [Head angle impact](#head-angle-impact) and [Plan camera placement with pixels per foot](pixels-per-foot-for-camera-placement.md)). Use face data in line with your policies and regulatory obligations.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-recognition-database-view.png" alt="" width="563"></div>
 
@@ -46,13 +46,13 @@ For best face recognition results, faces should be roughly head-on and looking t
 
 Acceptable head orientation falls in the ranges illustrated below (pitch, yaw, roll).
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-angle-guidelines.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-angle-guidelines.png" alt="Diagram of acceptable head orientation ranges for face recognition, showing tolerated pitch, yaw, and roll angles relative to a head-on, camera-facing pose." width="563"></div>
 
 ## Optimize your camera setup
 
 Position and aim cameras using the [camera guidelines for people analytics](https://support.lumana.ai/knowledge/editor/01HEN6TW1P90ZT21YXAJT7FV3X/en-us?brand_id=10899747518610) so people analytics gets consistent coverage.
 
-To derive PPF from resolution, HFOV, and distance, use [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md). That reference includes worked examples and a 5MP and 8MP PPF-over-distance chart.
+To derive PPF from resolution, HFOV, and distance, use [Plan camera placement with pixels per foot](pixels-per-foot-for-camera-placement.md). That reference includes worked examples and a 5MP and 8MP PPF-over-distance chart.
 
 ## People analytics PPF targets
 
@@ -60,7 +60,7 @@ Use the minimum PPF values in the table when you plan each camera or zone. Perso
 
 Keep a small PPF-versus-distance sheet per camera model so installers can check range quickly.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-distance-to-person-capabilities-diagram.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-distance-to-person-capabilities-diagram.png" alt="Diagram mapping distance to people analytics capabilities. Closer distances support face recognition; mid-range distances support attribute capture and re-identification; longer distances still support person detection at 7.5 PPF." width="563"></div>
 
 Use the following PPF targets when planning which capability you need at a given distance:
 
@@ -80,7 +80,7 @@ The next table lists approximate maximum distances on Lumana cameras. Values ass
 
 ## Next steps
 
-- [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md) - shared formulas and charts for PPF planning.
+- [Plan camera placement with pixels per foot](pixels-per-foot-for-camera-placement.md) - shared formulas and charts for PPF planning.
 - [Build a database of people and vehicles](build-a-database-of-people-and-vehicles.md) - enroll faces and organize profiles for search and alerts.
 - [Search video footage for people or vehicles](search-video-footage-for-people-or-vehicles.md) - query by person, attributes, and time.
 - [Tracking vehicles](tracking-vehicles.md) - parallel guidance for vehicle analytics and placement.

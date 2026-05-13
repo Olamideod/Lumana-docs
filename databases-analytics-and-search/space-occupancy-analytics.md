@@ -2,11 +2,11 @@
 
 Space occupancy analytics uses your cameras and Lumana's analytics to track how many people or vehicles are in a defined space over time. You get live counts plus historical views. Use them to monitor current occupancy, review trends, and compare space usage across hours or days.
 
-## Key features
+## Ways to use space occupancy
 
 Space occupancy can support several operational uses.
 
-### Real-time occupancy tracking
+### Watch live occupancy counts
 
 Analytics process the video stream to estimate how many people or vehicles are in monitored areas. You can:
 
@@ -14,7 +14,7 @@ Analytics process the video stream to estimate how many people or vehicles are i
 - Compare live counts to occupancy limits your organization defines.
 - React to changing counts with staffing, access, or routing adjustments.
 
-### Historical trend analysis
+### Review occupancy history
 
 Lumana keeps occupancy history so you can review patterns. That helps you:
 
@@ -22,11 +22,11 @@ Lumana keeps occupancy history so you can review patterns. That helps you:
 - Inform layout changes from movement patterns.
 - Plan space and resources using longer-range usage data.
 
-### Location analysis
+### Improve entry and exit coverage
 
 You don't need to cover the whole floor with cameras. Aim coverage at every path in and out of the zone; that often needs fewer devices than full-floor monitoring. If anyone can bypass a count line, then the totals drift from reality. How virtual lines and crossings work is explained in [How space occupancy works](#how-space-occupancy-works).
 
-### Dashboards and reporting
+### Build dashboards and export views
 
 Use dashboards to present occupancy metrics in one place. You can:
 
@@ -34,7 +34,7 @@ Use dashboards to present occupancy metrics in one place. You can:
 - Compare zones or sites when your setup supports multiple lines or spaces.
 - Export or share reports when you need evidence for audits, compliance, or planning. Details depend on your widget and export options. See [Occupancy](../dashboards/widgets/occupancy.md).
 
-### Security and compliance
+### Support security and capacity reviews
 
 - **Current occupancy**: Check how many people or vehicles are in a space right now.
 - **Historical trends**: Review peak periods and compare space usage across days or time ranges.
@@ -45,7 +45,7 @@ Use dashboards to present occupancy metrics in one place. You can:
 
 Space occupancy relies on cameras that watch entry and exit points. You place virtual count lines on the video so crossings count as in or out. Lumana maintains a running total from those crossings. Multiple cameras can feed one logical space so you cover every doorway or lane that matters.
 
-The feature works best when every way into and out of the counted area is covered. If someone can enter or leave without crossing a line, then the total drifts from the real number inside.
+The feature works best when cameras cover every path into and out of the counted area. If someone can enter or leave without crossing a line, then the total drifts from the real number inside.
 
 ### Choose a camera placement
 
@@ -78,7 +78,7 @@ Use front-facing placement when you want occupancy counts plus a view that is al
 Whatever angle you choose, the same conditions usually apply:
 
 - **Clear sightlines**: Avoid doors, pillars, signs, or other objects that block the camera view.
-- **Full access-point coverage**: Make sure every entrance and exit is covered.
+- **Full access-point coverage**: Use cameras that cover every entrance and exit.
 - **Usable lighting**: Low light can reduce detection quality, so adjust placement or use cameras that work well in those conditions.
 
 ## Common accuracy issues
@@ -97,11 +97,11 @@ Schedule resets when the space is empty, or align with your [widget reset settin
 
 ### Occlusion at the entrance or exit
 
-Counting needs a clear crossing. If people are hidden by objects, architecture, or each other, then the model can miss an in or out. When entries are missed more than exits (or the reverse), the running total drifts. Severe imbalance can also contribute to strange negatives over time.
+Counting needs a clear crossing. If people are hidden by objects, architecture, or each other, then the model can miss an in or out. If it misses more entries than exits (or the reverse), then the running total drifts. Severe imbalance can also contribute to strange negatives over time.
 
 ## Configure a space occupancy dashboard
 
-When cameras are aimed and count lines exist for your doors or lanes, add the **Occupancy** widget and finish its settings in the UI. Follow [Configure a space occupancy dashboard](configure-a-space-occupancy-dashboard.md).
+After you aim cameras and add count lines for your doors or lanes, add the **Occupancy** widget and finish its settings in the UI. Follow [Configure a space occupancy dashboard](configure-a-space-occupancy-dashboard.md).
 
 ## Next steps
 

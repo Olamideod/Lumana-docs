@@ -1,8 +1,6 @@
 # Supported cameras
 
-Lumana supports a wide range of IP cameras, giving you the flexibility to use hardware that fits your deployment needs.
-
-Most cameras that support ONVIF or RTSP streaming can be integrated with Lumana.
+Lumana works with most IP cameras that support ONVIF or RTSP, including Lumana cameras and common third-party models.
 
 ## Compatibility overview
 
@@ -25,13 +23,15 @@ Lumana has been tested with the following camera brands:
 - Avigilon
 - Uniview
 - Mobotix
-- Pelco, and more...
+- Pelco
+
+Other brands that support ONVIF or RTSP may also work.
 
 {% hint style="info" %}
-If your camera is not listed, it may still work if it supports ONVIF or RTSP.
+If your camera is not listed, then it might still work when it supports ONVIF or RTSP.
 {% endhint %}
 
-Please contact [support@lumana.ai](mailto:support@lumana.ai) if you don't find your camera model on this list.
+Contact [support@lumana.ai](mailto:support@lumana.ai) if you do not find your camera model on this list.
 
 ## Choose your camera brand
 

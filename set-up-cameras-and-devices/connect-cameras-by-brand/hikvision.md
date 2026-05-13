@@ -43,7 +43,7 @@ Ensure your Hikvision camera is updated, correctly configured, and ready to conn
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-cameras-switch-laptop-diagram.png" alt="Diagram: IP cameras, network switch, and laptop on the same LAN for discovery and configuration." width="224"></div>
 
-* **Detect and Initialize the Camera**: The SADP tool will scan your network and list Hikvision devices. Select your camera, note its IPv4 address and status, and, if the device is not initialized yet, set a password to activate it. Keep the IP address for the next steps.
+* **Detect and Initialize the Camera**: The SADP tool scans your network and lists Hikvision devices. Select your camera, note its IPv4 address and status, and, if the device is not initialized yet, set a password to activate it. Keep the IP address for the next steps.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-sadp-device-list.png" alt="Hikvision SADP utility listing online devices with IPv4 addresses, ports, and status columns." width="563"></div>
 
@@ -57,7 +57,7 @@ In a browser, open the camera using the IP address from SADP (for example `http:
 
 If the web sign-in succeeds with the IP address from SADP, then the camera is initialized properly. At this stage, the device is ready to connect to Lumana Core. Use the admin credentials method for the best compatibility and feature access.
 
-If you are using admin credentials, you can proceed directly to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera).
+If you are using admin credentials, then you can proceed directly to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera).
 
 ### Configure ONVIF on your Hikvision camera
 
@@ -75,7 +75,7 @@ If you are using admin credentials, you can proceed directly to [Connect a camer
 3. Enable **Hikvision-CGI** and set authentication to **Digest**.
 
 * In the **Integration Protocol** view, enable **Hikvision-CGI**.
-* Set **Hikvision-CGI Authentication** to **digest** (or **Digest**) when present.
+* Set **Hikvision-CGI Authentication** to **Digest** when present.
 
 4. Enable ONVIF.
 
@@ -94,7 +94,7 @@ If you are using admin credentials, you can proceed directly to [Connect a camer
 
 Example: **Integration Protocol** with **Hikvision-CGI** (digest), **ONVIF** enabled, and **Add** available for users:
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-integration-protocol-onvif.png" alt="Hikvision Configuration Network Advanced Settings Integration Protocol: Enable Hikvision-CGI digest, Enable ONVIF, user list and Save." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-integration-protocol-onvif.png" alt="Hikvision Configuration Network Advanced Settings Integration Protocol: Enable Hikvision-CGI Digest, Enable ONVIF, user list and Save." width="563"></div>
 
 After completing ONVIF setup, proceed to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera).
 
@@ -111,7 +111,7 @@ After completing ONVIF setup, proceed to [Connect a camera](../../getting-starte
 3. Add a new user.
 
 * On the **User Management** page, select **Add**.
-* Enter a **username** and **password** (you may need to enter the **admin password** to authorize the change).
+* Enter a **username** and **password** (you might need to enter the **admin password** to authorize the change).
 * Assign the **Operator** role unless your security team specifies otherwise.
 * Under **permissions**, enable the capabilities Lumana needs. Typically, select all remote permissions your firmware offers. Examples include **Remote: Parameters Settings**, **Live View**, **Playback**, and related items. The exact checklist depends on model and firmware.
 
@@ -119,9 +119,9 @@ After completing ONVIF setup, proceed to [Connect a camera](../../getting-starte
 
 4. Save the new user profile.
 
-* After filling in the details and assigning the appropriate role and permissions, select **Save** to finalize the creation of the new user profile.
-* A confirmation message or indicator should appear, confirming that the new user has been added successfully.
+* After you select **Save**, watch for a confirmation message or indicator that shows the new user is active.
 
-Using an **Operator** user with broad remote permissions (often **Select all** in the **Add** user dialog) allows Lumana Core to configure camera settings, including stream settings, more reliably.
+Using an **Operator** user with broad remote permissions (often **Select all** in the **Add** user dialog) gives Lumana Core reliable access to camera and stream settings.
 
-You can now proceed to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera), which will guide you through the process of adding your camera to Lumana Core and ensuring everything is functioning as expected.
+
+You can now proceed to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera), which guides you through adding your camera to Lumana Core and confirming that the camera is online and streaming.
