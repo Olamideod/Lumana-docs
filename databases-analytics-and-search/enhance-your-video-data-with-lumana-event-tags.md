@@ -69,11 +69,11 @@ POST https://access.lumana.ai/v1/events-tag/insert
 | Item | Description |
 | --- | --- |
 | `orgId` | Your organization ID. Find it under **Organization** → **Organization settings**. |
-| `cameraId` | Camera that should own the clip. Find it on the camera's edit screen. |
+| `cameraId` | Camera that should own the clip. Find the ID on that camera's **Edit camera** page. |
 | `eventTypeId` | The Event type ID from [Create an event tag](#create-an-event-tag). |
 | `timestamp` | Time of the event, Unix epoch time in **milliseconds**. |
 | `fields` | Object of field names and values from your tag. You can omit keys you are not sending in that POST. |
-| Authorization | Header `Authorization: Bearer YOUR_API_KEY` using the secret from step 1. |
+| Authorization | `Authorization: Bearer YOUR_API_KEY` header using the secret from [Generate an API key](#generate-an-api-key). |
 
 ### Example JSON body
 
@@ -139,7 +139,8 @@ Before you rely on results, confirm:
 2. Set **Camera** and **Time range** so they include the POST you sent.
 3. Expand **Event tags** and choose your event tag.
 4. Turn on the fields you want to filter.
-5. Set the operator (**Equals**, **Not equals to**, **Less than**, **Greater than**, and so on), then enter the values.
+5. Set the operator (**Equals**, **Not equals to**, **Less than**, **Greater than**, and so on).
+6. Enter the values.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-search-filters.png" alt="" width="563"></div>
 
@@ -194,11 +195,11 @@ For more detail on rule fields, see [Event tag alert](../alerts-and-ai-detection
 
 Full axis and filter behavior, including drill-in, is described in [Chart or table](../dashboards/widgets/chart-or-table/README.md).
 
+## Retention and storage
+
+Event tag clips follow your organization's storage and retention settings. If you need longer retention or more capacity, then contact your Lumana account team.
+
 ## Next steps
 
 - Read [Chart or table](../dashboards/widgets/chart-or-table/README.md) if you need deeper widget layout, axis, and filter detail than this guide covers.
 - Review [Event tag alert](../alerts-and-ai-detection/alert-types/integrations/event-tag.md) when tags should drive notifications.
-
-## Retention and storage
-
-Event tag clips follow your organization's storage and retention settings. If you need longer retention or more capacity, then contact your Lumana account team.

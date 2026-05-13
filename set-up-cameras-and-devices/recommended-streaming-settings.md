@@ -124,8 +124,8 @@ These questions cover how streaming settings affect storage, codecs, CBR, and Lu
 
 Camera configuration best practices help Lumana Core reach its expected performance. If you do not follow the guidelines, then you might see lower results in two areas:
 
-1. You may connect fewer cameras to a single Core than the specification describes.
-2. Your storage retention period may be shorter than the specification describes. For more on retention, read [Video storage](../faq-and-reference/video-storage.md).
+1. You might connect fewer cameras to a single Core than the specification describes.
+2. Your storage retention period might be shorter than the specification describes. For more on retention, read [Video storage](../faq-and-reference/video-storage.md).
 
 </details>
 
@@ -135,7 +135,7 @@ Camera configuration best practices help Lumana Core reach its expected performa
 
 When you choose H.264 over H.265 on the primary stream, weigh image quality and Core performance together. H.264 is an older codec and compresses video less efficiently than H.265.
 
-- You may see roughly 20% lower image quality than at the same settings with H.265. Matching that quality needs more bandwidth and storage.
+- You might see roughly 20% lower image quality than at the same settings with H.265. Matching that quality needs more bandwidth and storage.
 - Core performance can drop by about 40%. The extra work to decode larger H.264 streams leaves less headroom for concurrent cameras.
 
 The tables below show camera counts and FPS targets for each codec.
@@ -175,9 +175,9 @@ Lumana Core requires IP cameras to use **CBR** (constant bit rate) for several i
 
 Lumana Core uses an **AI engine** for video analytics, including object recognition, behavior analysis, and anomaly detection. Those features work best when the incoming video is detailed and stable. With **CBR**, a bitrate set **high enough** keeps that quality consistent. Here is what you gain:
 
-- **Accurate AI analysis**: A higher bitrate with CBR preserves more detail in each frame, so AI algorithms get the clear images they need for reliable results.
-- **Stronger AI learning over time**: High-quality feeds support AI model training and tuning, which helps detection and behavior stay effective as your deployment runs.
-- **Smarter storage around alerts**: Higher bitrates usually mean more data. Lumana Core still uses **smart storage** so you are not wasting space. Video stays high enough quality for **live processing** and **retrospective review**. When alerts fire, Lumana keeps richer recordings. That prioritizes detail for **critical events** without hoarding bulk high-bitrate footage when nothing important is happening.
+- **Accurate AI analysis**: A higher bitrate with CBR preserves more detail in each frame, so analytics can use clearer images for reliable results.
+- **Model updates**: Stable, detailed feeds support ongoing model tuning during the deployment.
+- **Retention for alerts**: Higher bitrates increase data volume. Lumana applies retention policies so routine storage stays predictable. Recordings tied to alerts can keep more detail for review without retaining unnecessary high-bitrate footage elsewhere.
 
 </details>
 
@@ -185,7 +185,7 @@ Lumana Core uses an **AI engine** for video analytics, including object recognit
 
 <summary>What happens if the bitrate is too low?</summary>
 
-If the bitrate is set too low, even on CBR, then video quality may suffer, with pixelation and blurring in scenes with high motion or complexity. Lower quality reduces the AI's ability to perform accurate analytics, which compromises Lumana Core's AI engine.
+If the bitrate is set too low, even on CBR, then video quality might suffer, with pixelation and blurring in scenes with high motion or complexity. Lower quality reduces the AI's ability to perform accurate analytics, which weakens Lumana Core's AI engine.
 
 </details>
 
@@ -196,3 +196,8 @@ If the bitrate is set too low, even on CBR, then video quality may suffer, with 
 Nothing. The default Lumana camera configuration matches the recommended streaming settings on this page.
 
 </details>
+
+## Next steps
+
+- Return to [Set up cameras and devices](README.md) for the full setup checklist.
+- Open [Connect cameras by brand](connect-cameras-by-brand/README.md) when you need vendor-specific stream fields.

@@ -62,16 +62,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ---
 
-### `live-video-monitoring-and-operations/video-walls-and-shared-displays.md`
-
-**List/step issues:**
-- ✅ [L54](live-video-monitoring-and-operations/video-walls-and-shared-displays.md#L54): "Enter a wall name and choose a layout that fits the number of cameras or alert tiles you want to show, and select **Done**." — combines three actions in one step. *Verified.*
-- ✅ [L55](live-video-monitoring-and-operations/video-walls-and-shared-displays.md#L55): "Expand **Cameras** to choose which cameras appear on the wall, and expand **Alerts** to configure alert tiles." — combines two actions. *Verified.*
-- ✅ [L65](live-video-monitoring-and-operations/video-walls-and-shared-displays.md#L65)–[L68](live-video-monitoring-and-operations/video-walls-and-shared-displays.md#L68): list items use lowercase after the colon even though they begin imperative full sentences. Per [Sentence and paragraph rules](STYLEGUIDE.md), capitalize when a full sentence follows. *Verified at lines 65, 66, 67, 68.*
-- ✅ [L74](live-video-monitoring-and-operations/video-walls-and-shared-displays.md#L74): "Under **Cameras**, search by name or open a location, then select each camera you want included. Under **Alerts**, search the list or select **Clear all** to reset it. Then enable the alert categories you want surfaced on the wall." — combines multiple actions in one step. *Verified.*
-
----
-
 ## Section 2 — `databases-analytics-and-search`
 
 ### `databases-analytics-and-search/README.md`
@@ -100,26 +90,12 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ### `databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md`
 
-**Headings:**
-- ✅ [L1](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L1): H1 contains the use-sparingly word **Enhance**. [Use sparingly](STYLEGUIDE.md) allows 2–3 per page; in a page title it reads as marketing. *Verified.*
-- ✅ [L13](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L13), [L29](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L29), [L57](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L57), [L124](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L124), [L148](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L148), [L180](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L180): "Step 1: Generate an API key" / "Step 2: …" / etc. — "Step N:" prefix breaks the bare-infinitive heading pattern. *Verified at six H2s.*
-
 **UI element issues / trustworthiness:**
 - ✅ [L19](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L19): "Select **Generate Key** (or the control that starts the create flow). The **Create API Key** dialog opens." — hedged UI label. [Trustworthy writing](STYLEGUIDE.md) says verify against the live product. *Verified.*
 - ✅ [L36](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L36): "Select **Create event tag** (or open an existing tag to edit it)." — same hedging pattern. *Verified.*
-- ✅ [L15](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L15) and [L76](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L76): "Bearer" — line 15 uses backticks `` `Bearer` ``, line 76 uses plain bold text in a table row. *Verified inconsistency.*
 
 **Image-vs-step mismatch:**
 - ✅ [L19](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L19), [L23](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L23): body text on L19 refers to **Generate Key** while the screenshot reportedly shows a **Create API Key** dialog with a **Create** button. *Body text verified; image content needs a visual review.*
-
-**List/step issues:**
-- ✅ [L142](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L142): "Set the operator (...), then enter the values." — combines two actions. *Verified.*
-
-**Structural / guide-structure issues:**
-- ✅ [L197](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L197)–[L199](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L199): Page ends with "## Retention and storage", not a "## Next steps" section. *Verified — no Next steps section.*
-
-**Other / typography:**
-- ✅ [L72](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L72): "camera's edit screen" uses a curly apostrophe (U+2019). *Verified at L72 in the `cameraId` table row.*
 
 ---
 
@@ -133,53 +109,10 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 ### `databases-analytics-and-search/generate-reports.md`
 
 **Headings:**
-- ✅ [L17](databases-analytics-and-search/generate-reports.md#L17): "Report types" — noun phrase concept-style heading inside a how-to. *Verified.*
 - ⚠️ [L43](databases-analytics-and-search/generate-reports.md#L43): "Report modes: One-time or recurring" — fragment after colon should be lowercase per the [colon rule](STYLEGUIDE.md). *Note: this is in a heading, where the colon-after rule is less universally applied; verifying the literal text exists at L43.*
-- ✅ [L51](databases-analytics-and-search/generate-reports.md#L51), [L59](databases-analytics-and-search/generate-reports.md#L59): "One-time report" / "Recurring report" — noun phrases under a how-to. *Verified.*
 
 **List/step issues:**
 - ✅ [L17](databases-analytics-and-search/generate-reports.md#L17)–[L41](databases-analytics-and-search/generate-reports.md#L41): numbered list mixes setup steps with reference content (the type definitions). Step 1 ([L21](databases-analytics-and-search/generate-reports.md#L21)) combines several actions; step 2 ([L25](databases-analytics-and-search/generate-reports.md#L25)) mixes form-fill with conditional branches for One-time vs Recurring. *Verified.*
-
----
-
-### `databases-analytics-and-search/missing-object-alert.md`
-
-**Headings:**
-- ✅ [L5](databases-analytics-and-search/missing-object-alert.md#L5): "Why this alert helps" — concept-style heading on a how-to page. *Verified.*
-
-**Marketing / vague claims:**
-- ✅ [L7](databases-analytics-and-search/missing-object-alert.md#L7)–[L11](databases-analytics-and-search/missing-object-alert.md#L11): "Real-time detection", "Automated tracking", "Security enforcement", "Operational continuity" — bullets read as sales-pitch labels. *Verified at lines 8–11.*
-
-**List/step issues:**
-- ✅ [L29](databases-analytics-and-search/missing-object-alert.md#L29): step 4 "On the rule builder, enter an **Alert name** when you want one. In the sentence, open the schedule link (for example **all times**) and **[default configuration]** to change those values." — combines several optional actions. *Verified.*
-- ✅ [L45](databases-analytics-and-search/missing-object-alert.md#L45): "In the **Mark object** dialog, outline the object, then select **Select**." — combines two actions and uses unqualified "select **Select**" per [UI text and messages](STYLEGUIDE.md). *Verified.*
-
-**Asset folder structure:**
-- ✅ [L19](databases-analytics-and-search/missing-object-alert.md#L19), [L23](databases-analytics-and-search/missing-object-alert.md#L23), [L27](databases-analytics-and-search/missing-object-alert.md#L27), [L34](databases-analytics-and-search/missing-object-alert.md#L34), [L38](databases-analytics-and-search/missing-object-alert.md#L38), [L41](databases-analytics-and-search/missing-object-alert.md#L41), [L43](databases-analytics-and-search/missing-object-alert.md#L43), [L47](databases-analytics-and-search/missing-object-alert.md#L47), [L55](databases-analytics-and-search/missing-object-alert.md#L55), [L59](databases-analytics-and-search/missing-object-alert.md#L59), [L61](databases-analytics-and-search/missing-object-alert.md#L61): image filenames use the `custom-objects-` prefix (e.g., `custom-objects-edit-pencil-icon.png`) on a page named `missing-object-alert.md`. *Verified — all 10+ image references on the page use the mismatched prefix per [Asset folder structure](STYLEGUIDE.md).*
-
-(Note: the previous round flagged the existence of a separate `custom-objects.md` page; that page no longer exists, so the prefix mismatch is now the only remnant of the old naming.)
-
----
-
-### `databases-analytics-and-search/pixels-per-foot-for-camera-placement.md`
-
-**Headings:**
-- ✅ [L1](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L1): "Pixels per foot (PPF) for camera placement" — uses parentheses. [Headings and capitalisation](STYLEGUIDE.md) says to minimize parentheses in headings. *Verified.*
-
-**Image issues:**
-- ✅ [L17](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L17), [L27](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L27), [L33](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L33), [L37](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L37), [L43](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L43), [L49](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md#L49): image filenames begin with `tracking-people-...` (e.g., `tracking-people-horizontal-length-formula.png`) but are used on this PPF page. *Verified across all six image src attributes.*
-
----
-
-### `databases-analytics-and-search/search-video-footage-for-other-objects.md`
-
-**List/step issues:**
-- ✅ [L31](databases-analytics-and-search/search-video-footage-for-other-objects.md#L31): step 6 combines several actions ("Select a tile to open the preview. Use **Images**, **Video**, **Objects**, or **Faces** to review the moment, zoom on the detection, or play the clip. The preview shows download controls when your role allows it."). *Verified.*
-- ✅ [L39](databases-analytics-and-search/search-video-footage-for-other-objects.md#L39): step 7 combines three actions ("Enter a **Name**, set **From** and **To** (and duration if shown), then select **Create**."). *Verified.*
-- ✅ [L25](databases-analytics-and-search/search-video-footage-for-other-objects.md#L25)/[L27](databases-analytics-and-search/search-video-footage-for-other-objects.md#L27): step 4 ("Choose the object type...") and step 5 ("Matching detections appear as tiles...") are an action + result pair split into two numbered steps. *Verified.*
-
-**UI element issues:**
-- ✅ [L21](databases-analytics-and-search/search-video-footage-for-other-objects.md#L21): "Open the dropdown labeled **Thumbnails**" — per [UI text and messages](STYLEGUIDE.md) prefer "Select the **Thumbnails** dropdown". *Verified.*
 
 ---
 
@@ -198,36 +131,12 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ---
 
-### `databases-analytics-and-search/space-occupancy-analytics.md`
-
-**Headings (user-focused):**
-- ✅ [L5](databases-analytics-and-search/space-occupancy-analytics.md#L5), [L9](databases-analytics-and-search/space-occupancy-analytics.md#L9), [L17](databases-analytics-and-search/space-occupancy-analytics.md#L17), [L25](databases-analytics-and-search/space-occupancy-analytics.md#L25), [L29](databases-analytics-and-search/space-occupancy-analytics.md#L29), [L37](databases-analytics-and-search/space-occupancy-analytics.md#L37): "Key features" with sub-headings "Real-time occupancy tracking", "Historical trend analysis", "Location analysis", "Dashboards and reporting", "Security and compliance" — feature-focused noun phrases. [User-focused writing](STYLEGUIDE.md) says headings should describe what the user does. *Verified.*
-
----
-
-### `databases-analytics-and-search/tracking-containers.md`
-
-**Headings:**
-- ✅ [L1](databases-analytics-and-search/tracking-containers.md#L1): H1 "Tracking containers" — gerund noun phrase. [Navigation and naming conventions](STYLEGUIDE.md) requires bare infinitive for how-to titles. *Verified.*
-- ✅ [L7](databases-analytics-and-search/tracking-containers.md#L7): "Key benefits" — concept-style heading on a how-to page. *Verified.*
-
-**Marketing / vague claims:**
-- ✅ [L9](databases-analytics-and-search/tracking-containers.md#L9)–[L13](databases-analytics-and-search/tracking-containers.md#L13): "Real-time tracking", "Accurate inventory", "Security", "Operations", "Compliance" — read as marketing bullets. *Verified at lines 9–13.*
-
-**UI element issues:**
-- ✅ [L17](databases-analytics-and-search/tracking-containers.md#L17): "You can **edit camera** settings and analytics for the target cameras." — "edit camera" is a verb-phrase, not a UI label, but it's bolded as if it were one. *Verified.*
-
----
-
 ## Section 3 — `set-up-cameras-and-devices` (root + `connect-cameras-by-brand`)
 
 ### `set-up-cameras-and-devices/README.md`
 
 **Headings / consistency:**
 - ✅ [L5](set-up-cameras-and-devices/README.md#L5), [L11](set-up-cameras-and-devices/README.md#L11), [L17](set-up-cameras-and-devices/README.md#L17), [L23](set-up-cameras-and-devices/README.md#L23): "Recommended setup, networking, and streaming", "Connect cameras by brand", "Other devices", "Network and infrastructure configuration" — mix of bare-infinitive and noun-phrase patterns on the same page. *Verified.*
-
-**Asset folder structure:**
-- ✅ [L9](set-up-cameras-and-devices/README.md#L9), [L15](set-up-cameras-and-devices/README.md#L15), [L21](set-up-cameras-and-devices/README.md#L21), [L27](set-up-cameras-and-devices/README.md#L27): Card icons reference `../.gitbook/assets/icon-*.svg` instead of the `.gitbook/assets/icons/` location described in [Asset folder structure](STYLEGUIDE.md). *Verified across all four card-section tables.*
 
 ---
 
@@ -273,13 +182,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ---
 
-### `set-up-cameras-and-devices/create-camera-shortcuts.md`
-
-**Headings:**
-- ✅ [L5](set-up-cameras-and-devices/create-camera-shortcuts.md#L5): "Key benefits" — soft marketing label. *Verified.*
-
----
-
 ### `set-up-cameras-and-devices/create-links-between-cameras.md`
 
 **Trustworthiness / completeness:**
@@ -295,32 +197,7 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ---
 
-### `set-up-cameras-and-devices/recommended-streaming-settings.md`
-
-**May vs might:**
-- ✅ [L3](set-up-cameras-and-devices/recommended-streaming-settings.md#L3): "you may not need to change anything" — should be "might". *Verified.*
-
-**Marketing / vague claims:**
-- ✅ [L179](set-up-cameras-and-devices/recommended-streaming-settings.md#L179), [L180](set-up-cameras-and-devices/recommended-streaming-settings.md#L180): "Stronger AI learning over time" / "Smarter storage around alerts" — borderline marketing phrases. *Verified.*
-
-**Structural:**
-- ✅ [L199](set-up-cameras-and-devices/recommended-streaming-settings.md#L199): No "Next steps" section. *Verified — page ends with the last FAQ details block.*
-
----
-
 ### `set-up-cameras-and-devices/set-up-a-camera-floor-plan.md`
-
-**Headings:**
-- ✅ [L7](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L7): "Key benefits" — borderline marketing label. *Verified.*
-- ✅ [L18](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L18): "Use the camera floor plan feature" — tool-focused. [User-focused writing](STYLEGUIDE.md) prefers user-task framing and avoids "feature". *Verified.*
-
-**Italics misuse:**
-- ✅ [L3](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L3): "adding a *floor plan*, an interactive map…" uses asterisk italics. [Italics and emphasis](STYLEGUIDE.md) requires underscore italics. *Verified.*
-
-**List/step issues:**
-- ✅ [L34](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L34): step 6 "Add your image using drag and drop or **Or upload from your computer**. Use a PNG or JPG file." — combines two actions. *Verified.*
-- ✅ [L38](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L38): step 7 "Select the [icon] icon in the top right corner to start adding and positioning your cameras on the floor plan." — combines two actions. *Verified.*
-- ✅ [L40](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L40): step 8 "Select **Add floor plan** to save the floor plan." — combined save action without separate result description. *Verified.*
 
 **Image-vs-step mismatches:**
 - ⚠️ [L20](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L20)/[L22](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md#L22): step 1 says "top **left** corner"; `floor-plans-menu-overview.png` reportedly shows top-right. *Body text verified at L20 with "top left corner"; image content needs a visual review.*
@@ -335,12 +212,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 **UI element issues:**
 - ✅ [L12](set-up-cameras-and-devices/set-up-a-static-ip-address.md#L12), [L96](set-up-cameras-and-devices/set-up-a-static-ip-address.md#L96): doc text uses "subnet mask" (lowercase). *Verified — body uses lowercase "subnet mask" while the UI label is reported to be "Subnet mask" (capital S).*
-
----
-
-### `set-up-cameras-and-devices/connect-cameras-by-brand/README.md`
-
-- ⚠️ [L4](set-up-cameras-and-devices/connect-cameras-by-brand/README.md#L4): No structural defects found. *Verified — page is a section index with cards. The "wide range" marketing wording is present at L4 ("Lumana supports cameras from a wide range of manufacturers"). [Word choices](STYLEGUIDE.md) suggests avoiding mild marketing.*
 
 ---
 
@@ -376,9 +247,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 ---
 
 ### `set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md`
-
-**Use sparingly:**
-- ✅ [L127](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md#L127): "ensuring everything is functioning as expected" uses "ensuring" ([Use sparingly](STYLEGUIDE.md)). *Verified.*
 
 **Capitalisation / UI labels:**
 - ✅ [L46](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md#L46): "**Detect and Initialize the Camera**" uses Title Case. *Verified.*
@@ -422,9 +290,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 **List/step issues:**
 - ✅ [L28](set-up-cameras-and-devices/connect-cameras-by-brand/supported-cameras.md#L28): "- Pelco, and more..." — last bullet ends with "and more..." (ellipsis). *Verified.*
 
-**Marketing language:**
-- ✅ [L3](set-up-cameras-and-devices/connect-cameras-by-brand/supported-cameras.md#L3): "wide range", "flexibility", "fits your deployment needs" — soft marketing tone. *Verified — all three phrases appear at L3.*
-
 **Structural:**
 - ✅ [L45](set-up-cameras-and-devices/connect-cameras-by-brand/supported-cameras.md#L45): No "Next steps" section. *Verified — page ends after "Choose your camera brand" list.*
 
@@ -444,9 +309,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ### `set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md`
 
-**Asset folder structure:**
-- ✅ [L6](set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md#L6): card icons reference `../../.gitbook/assets/icon-*.svg` at the assets root rather than under `icons/`. *Verified — four `<img src="../../.gitbook/assets/icon-*.svg">` references at the root of the assets folder.*
-
 **Other / cosmetic:**
 - ✅ [L1](set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md#L1)–[L4](set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md#L4): two blank lines between H1 and the first paragraph. *Verified — lines 2 and 3 are blank.*
 
@@ -454,26 +316,12 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ### `set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md`
 
-**Headings (user-focused):**
-- ✅ [L9](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L9): "Key DHCP server capabilities" — feature-focused noun phrase inside a how-to. *Verified.*
-- ✅ [L49](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L49), [L59](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L59), [L67](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L67), [L85](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L85): "Configuration parameters", "Example configuration", "Address reservation", "Address reservation use cases" — noun phrases on a how-to page. *Verified.*
-
 **UI text exact match (capitalisation):**
 - ✅ [L53](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L53), [L54](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L54), [L55](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L55), [L57](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L57): bold labels for pool and lease fields — confirm sentence case vs Title Case against the live DHCP Server form ([UI text and messages](STYLEGUIDE.md)).
-
-**Tables vs lists:**
-- ✅ [L53](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L53)–[L57](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md#L57): "Configuration parameters" reads as a parameter list. [Lists, steps, and tables](STYLEGUIDE.md) recommends tables for parameter reference. *Verified.*
 
 ---
 
 ### `set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md`
-
-**Headings:**
-- ✅ [L125](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L125): "OS Updates" — Title Case; [Headings](STYLEGUIDE.md) requires sentence case. *Verified.*
-
-**Capitalisation after colon (run-in labels):**
-- ✅ [L13](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L13): "**Lumana URLs**: A list of domains…" — capital "A" after colon for a fragment. *Verified.*
-- ✅ [L14](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L14): "**Lumana IPs**: An API endpoint that returns…" — same issue. *Verified.*
 
 **Vocabulary inconsistency:**
 - ✅ [L39](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L39) vs [L57](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md#L57): "whitelist IPs directly" used at L39; "firewall allowlist" used at L57 and L59. *Verified — both terms appear.*
@@ -512,9 +360,6 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 ---
 
 ### `set-up-cameras-and-devices/other-devices/README.md`
-
-**Asset folder structure:**
-- ✅ [L6](set-up-cameras-and-devices/other-devices/README.md#L6): card icons reference `../../.gitbook/assets/icon-*.svg` at the assets root. *Verified — six `icon-*.svg` references at the assets root rather than under `icons/`.*
 
 **Headings (user-focused):**
 - ✅ [L6](set-up-cameras-and-devices/other-devices/README.md#L6): card titles "**FLIR sensors**", "**Disruptive sensors**", "**Smart speakers**", "**GPIO devices**", "**Network attached storage (NAS) devices**" are feature/product names; "**Configure SIP for smart speakers**" is correctly bare-infinitive. *Verified in the cards table.*
@@ -664,7 +509,7 @@ These themes show up across multiple pages. Treating them in a single pass will 
 
 **7. ✅ Naming-pattern inconsistency in `connect-cameras-by-brand/`.** *Addressed in source (May 2026): [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md) and [`verkada.md`](set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md) now use “Connect … cameras” H1s like sibling brand pages.*
 
-**8. ✅ Steps that combine multiple actions.** Still common on many setup and analytics pages. *Partially reduced in recent edits on [`live-view.md`](live-video-monitoring-and-operations/live-view.md), [`multi-camera-playback.md`](live-video-monitoring-and-operations/multi-camera-playback.md), [`build-a-database-of-people-and-vehicles.md`](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md), [`video-walls-and-shared-displays.md`](live-video-monitoring-and-operations/video-walls-and-shared-displays.md) (several dense steps remain), [`share-video.md`](live-video-monitoring-and-operations/share-video.md), [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md), [`generate-reports.md`](databases-analytics-and-search/generate-reports.md), [`missing-object-alert.md`](databases-analytics-and-search/missing-object-alert.md), [`set-up-a-camera-floor-plan.md`](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md), [`hanwha.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md), [`verkada.md`](set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md), [`disruptive-sensors.md`](set-up-cameras-and-devices/other-devices/disruptive-sensors.md), [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md), [`sip-for-smart-speakers.md`](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md), [`smart-speakers.md`](set-up-cameras-and-devices/other-devices/smart-speakers.md). [`configure-lumana-core-as-a-dhcp-server.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md) navigation and reservation procedures were split into single-action steps (May 2026).*
+**8. ✅ Steps that combine multiple actions.** Still common on many setup and analytics pages. *Partially reduced in recent edits on [`live-view.md`](live-video-monitoring-and-operations/live-view.md), [`multi-camera-playback.md`](live-video-monitoring-and-operations/multi-camera-playback.md), [`build-a-database-of-people-and-vehicles.md`](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md), [`video-walls-and-shared-displays.md`](live-video-monitoring-and-operations/video-walls-and-shared-displays.md) (Create wall flow split into single-action steps May 2026), [`share-video.md`](live-video-monitoring-and-operations/share-video.md), [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md), [`generate-reports.md`](databases-analytics-and-search/generate-reports.md), [`search-video-footage-for-other-objects.md`](databases-analytics-and-search/search-video-footage-for-other-objects.md), [`set-up-a-camera-floor-plan.md`](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md), [`hanwha.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md), [`verkada.md`](set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md), [`disruptive-sensors.md`](set-up-cameras-and-devices/other-devices/disruptive-sensors.md), [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md), [`sip-for-smart-speakers.md`](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md), [`smart-speakers.md`](set-up-cameras-and-devices/other-devices/smart-speakers.md). [`configure-lumana-core-as-a-dhcp-server.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md) navigation and reservation procedures were split into single-action steps (May 2026).*
 
 **9. ✅ Passive voice.** *Largely addressed in this pass* on DHCP, firewall, GPIO, NAS, SIP hints, smart speakers, supported cameras, Verkada, and several analytics pages; rephrase remaining "is/was/been" constructions when you edit those sections.
 
@@ -672,25 +517,25 @@ These themes show up across multiple pages. Treating them in a single pass will 
 
 **11. ✅ Future tense / "will".** Spot-check remaining pages after present-tense fixes in [`axis.md`](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md) (ONVIF planning), [`hikvision.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hikvision.md) (SADP scan / Connect a camera closer), [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) (single-stream hint), and [`set-up-a-static-ip-address.md`](set-up-cameras-and-devices/set-up-a-static-ip-address.md) (DHCP mapping). *Re-run `grep` for ` will ` when editing nearby content.*
 
-**12. ✅ May vs might.** Fixed in [`live-view-streaming-and-quality.md`](live-video-monitoring-and-operations/live-view-streaming-and-quality.md), [`the-system-health-dashboard.md`](live-video-monitoring-and-operations/the-system-health-dashboard.md), [`share-video.md`](live-video-monitoring-and-operations/share-video.md), [`video-walls-and-shared-displays.md`](live-video-monitoring-and-operations/video-walls-and-shared-displays.md) (May 2026). Remaining possibility uses **`may`** (not yet batch-converted): [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) and possibly other long guides—run `grep -w may` when editing.
+**12. ✅ May vs might.** Fixed across [`live-view-streaming-and-quality.md`](live-video-monitoring-and-operations/live-view-streaming-and-quality.md), [`the-system-health-dashboard.md`](live-video-monitoring-and-operations/the-system-health-dashboard.md), [`share-video.md`](live-video-monitoring-and-operations/share-video.md), [`video-walls-and-shared-displays.md`](live-video-monitoring-and-operations/video-walls-and-shared-displays.md), and [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) FAQ bodies (May 2026). Run `grep -w may` when editing long guides for stragglers.
 
-**13. ✅ Marketing / vague claims.** [`missing-object-alert.md`](databases-analytics-and-search/missing-object-alert.md) "Why this alert helps", [`tracking-containers.md`](databases-analytics-and-search/tracking-containers.md) "Key benefits", [`space-occupancy-analytics.md`](databases-analytics-and-search/space-occupancy-analytics.md) "Key features", [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) ("smart storage", "Smarter storage around alerts", "Stronger AI learning over time"), [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) H1 (uses "Enhance"), [`supported-cameras.md`](set-up-cameras-and-devices/connect-cameras-by-brand/supported-cameras.md) ("wide range", "flexibility", "fits your deployment needs"). *Section index [`databases-analytics-and-search/README.md`](databases-analytics-and-search/README.md) no longer uses “Enhance” on the Event Tags card (May 2026).*
+**13. ✅ Marketing / vague claims.** *Reduced on [`missing-object-alert.md`](databases-analytics-and-search/missing-object-alert.md), [`supported-cameras.md`](set-up-cameras-and-devices/connect-cameras-by-brand/supported-cameras.md), [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md), and [`connect-cameras-by-brand/README.md`](set-up-cameras-and-devices/connect-cameras-by-brand/README.md) (May 2026). [`tracking-containers.md`](databases-analytics-and-search/tracking-containers.md) and [`space-occupancy-analytics.md`](databases-analytics-and-search/space-occupancy-analytics.md) already use task-focused sections from an earlier rewrite.*
 
 **14. ✅ Stacked headings without intervening paragraphs.** Residual focuses: [`sip-for-smart-speakers.md`](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md) (`## Configure SIP on a Check Point router` → `### Prerequisites`). *[`firewall-requirements.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/firewall-requirements.md), [`lumana-core-hardware-specifications.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md), and [`gpio-devices.md`](set-up-cameras-and-devices/other-devices/gpio-devices.md) now include lead-in paragraphs; H4 regional headings were promoted to H3.*
 
-**15. ✅ Headings that aren't user-focused or that misuse "Step N:" framing.** [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) uses "Step 1:" / "Step 2:" prefixes that break the bare-infinitive convention. [`configure-lumana-core-as-a-dhcp-server.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/configure-lumana-core-as-a-dhcp-server.md) "Key DHCP server capabilities", [`set-up-a-camera-floor-plan.md`](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md) "Use the camera floor plan feature", [`create-camera-shortcuts.md`](set-up-cameras-and-devices/create-camera-shortcuts.md) "Key benefits". *[`enable-ptz-control.md`](set-up-cameras-and-devices/enable-ptz-control.md) “Key capabilities” block removed (May 2026).*
+**15. ✅ Headings that aren't user-focused or that misuse "Step N:" framing.** *Prior round-3 anchors for [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md), DHCP capabilities, floor-plan feature framing, and camera-shortcuts "Key benefits" were addressed in source (May 2026). [`enable-ptz-control.md`](set-up-cameras-and-devices/enable-ptz-control.md) “Key capabilities” block removed earlier.*
 
-**16. ✅ Heading parentheses.** [`pixels-per-foot-for-camera-placement.md`](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md) "(PPF)"; [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md) H1 "(NAS) devices"; [`camera-networking-options.md`](set-up-cameras-and-devices/camera-networking-options.md) "Remote camera access (Camera VPN)". *`lumana-core-hardware-specifications.md` dimensions heading no longer uses parentheses (spelled out as "in millimeters").*
+**16. ✅ Heading parentheses.** [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md) H1 "(NAS) devices"; [`camera-networking-options.md`](set-up-cameras-and-devices/camera-networking-options.md) "Remote camera access (Camera VPN)". *`lumana-core-hardware-specifications.md` dimensions heading no longer uses parentheses (spelled out as "in millimeters"). [`pixels-per-foot-for-camera-placement.md`](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md) H1 no longer uses a `(PPF)` suffix (May 2026).*
 
 **17. ✅ "Coming soon!" placeholder pages.** [`create-links-between-cameras.md`](set-up-cameras-and-devices/create-links-between-cameras.md), [`flir-sensors.md`](set-up-cameras-and-devices/other-devices/flir-sensors.md). *Verified — both files contain only "Coming soon!".*
 
-**18. ✅ Asset folder structure.** README cards across multiple sections reference `../.gitbook/assets/icon-*.svg` instead of `.gitbook/assets/icons/`. Several screenshots from older content still live at the assets root rather than in section subfolders (`dhcp-*.png`, `ntp-*.png`, `nas-*.png`, `check-point-*.png`, `sip-*.png`, `on-premise-*.png`, `off-premise-*.png`, `toa-speaker-*.png`, `live-view-ptz-*.png`). The [`missing-object-alert.md`](databases-analytics-and-search/missing-object-alert.md) images use a `custom-objects-` prefix that doesn't match the consuming page; the [`pixels-per-foot-for-camera-placement.md`](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md) images reuse `tracking-people-...` filenames. *Verified across the per-file sections above.*
+**18. ✅ Asset folder structure.** SVG icon cards now resolve under `.gitbook/assets/icons/`, and README `<img>` paths were updated repo-wide (May 2026). *Many setup screenshots still live at the assets root (`dhcp-*.png`, `ntp-*.png`, and similar) rather than under per-section folders—normalize when you replace those assets. [`missing-object-alert`](databases-analytics-and-search/missing-object-alert.md) and [`pixels-per-foot-for-camera-placement`](databases-analytics-and-search/pixels-per-foot-for-camera-placement.md) image basenames now match their pages.*
 
 **19. ✅ Bullet-style inconsistency.** [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md), [`sip-for-smart-speakers.md`](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md) mix `*` and `-` bullets within the same file. *[`gpio-devices.md`](set-up-cameras-and-devices/other-devices/gpio-devices.md) unified to `-` in Parts list / Wiring notes (May 2026).*
 
 **20. ⚠️ Curly vs straight apostrophes.** Inconsistent across many files (`'` mixed with `'`). *Spot-checks: [enhance-your-video-data-with-lumana-event-tags.md](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md), [sip-for-smart-speakers.md](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md); [tracking-people.md](databases-analytics-and-search/tracking-people.md) `organization's` is straight ASCII (May 2026).*
 
-**21. ✅ Italics with `*` instead of `_`.** [`set-up-a-camera-floor-plan.md`](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md) uses `*floor plan*` instead of `_floor plan_`. *Verified.*
+**21. ✅ Italics with `*` instead of `_`.** *Addressed on [`set-up-a-camera-floor-plan.md`](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md) (May 2026).*
 
 **22. ✅ "Where" used to connect clauses.** Residual example: [`camera-networking-options.md`](set-up-cameras-and-devices/camera-networking-options.md) (“…private network where you need the manufacturer's configuration UI”). *Fixed in [`live-view-streaming-and-quality.md`](live-video-monitoring-and-operations/live-view-streaming-and-quality.md), [`share-video.md`](live-video-monitoring-and-operations/share-video.md), [`other-brands.md`](set-up-cameras-and-devices/connect-cameras-by-brand/other-brands.md) (May 2026).*
 
@@ -698,7 +543,6 @@ These themes show up across multiple pages. Treating them in a single pass will 
 
 **24. ✅ Duplicate / orphaned content.**
 - [`lumana-timelapse.md`](live-video-monitoring-and-operations/lumana-timelapse.md): image of a "Create timelapse" dialog sits next to text about retention; the actual create flow is not documented.
-- The `custom-objects-` image prefix on [`missing-object-alert.md`](databases-analytics-and-search/missing-object-alert.md) is a remnant of the deleted `custom-objects.md` page.
 
 **25. ⚠️ Reference data typos.**
 - [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) "4MP" row still pairs the label **4MP** with a **2560×1440** (QHD) resolution; confirm whether the label or the resolution should change for accuracy.
@@ -712,5 +556,5 @@ These themes show up across multiple pages. Treating them in a single pass will 
 ## Notes on what was not deeply checked
 
 - **Trustworthiness against the live product.** Many UI label and field-name flags above are best-guess based on screenshots; only you (or a reviewer with product access) can confirm each label.
-- **Banned-word and "use sparingly" exhaustive counts.** The Event Tags section card no longer uses **Enhance**; the word may still appear in [`enhance-your-video-data-with-lumana-event-tags.md`](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md) H1. A `grep -wi` pass per banned word would give a hard guarantee.
+- **Banned-word and "use sparingly" exhaustive counts.** The Event Tags section card no longer uses **Enhance**; the Event Tags guide title is "Add Lumana Event Tags to your video data". A `grep -wi` pass per banned word would still give a hard guarantee on long pages.
 - **AI-feature limitations disclosure.** For `tracking-people.md`, `tracking-vehicles.md`, `space-occupancy-analytics.md`, and `missing-object-alert.md`, the inline limitations and accuracy caveats look reasonable. Verify they reflect current product confidence-level wording.

@@ -2,7 +2,7 @@
 
 _Camera shortcuts_ are links you place on a camera's image so you can open another feed from **Live view**. This guide walks you through adding them in **Edit camera**, saving, and using them when you monitor.
 
-## Key benefits
+## What camera shortcuts do
 
 - **Follow movement across zones**: When activity crosses camera coverage, you jump to the next view from the scene instead of searching the device list.
 - **Shorten response paths**: During an incident you can open neighboring or related cameras in fewer steps.

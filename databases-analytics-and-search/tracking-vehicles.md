@@ -4,7 +4,7 @@ Lumana combines video management with an AI engine so you can search large archi
 
 Vehicle analytics adds detection, attributes, and cross-camera association. It also adds license plate recognition (LPR). You can filter, alert, and investigate by plate, make, model, type, and color.
 
-Use the sections below for what each capability does. When you need to relate resolution and distance to detail, use [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md).
+Use the sections below for what each capability does. When you need to relate resolution and distance to detail, use [Plan camera placement with pixels per foot](pixels-per-foot-for-camera-placement.md).
 
 ## Prerequisites
 
@@ -48,7 +48,7 @@ On the **Objects** tab, Lumana shows the vehicle and a dedicated license plate c
 
 Position and aim cameras using the [camera guidelines](https://support.lumana.ai/knowledge/editor/01HEN6TW1P90ZT21YXAJT7FV3X/en-us?brand_id=10899747518610) so vehicle analytics and LPR get steady coverage.
 
-To compute PPF for a lens and mounting height, use [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md). Then compare the result to the targets in the next section.
+To compute PPF for a lens and mounting height, use [Plan camera placement with pixels per foot](pixels-per-foot-for-camera-placement.md). Then compare the result to the targets in the next section.
 
 ## Vehicle analytics PPF targets
 
@@ -132,7 +132,7 @@ The nighttime example uses the same mounting with IR fill so plates stay legible
 
 ## Next steps
 
-- [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md) - shared PPF formulas and charts.
+- [Plan camera placement with pixels per foot](pixels-per-foot-for-camera-placement.md) - shared PPF formulas and charts.
 - [Tracking people](tracking-people.md) - people analytics and PPF targets for faces and attributes.
 - [Search video footage for people or vehicles](search-video-footage-for-people-or-vehicles.md) - query by vehicle, plate, and time.
 - [Build a database of people and vehicles](build-a-database-of-people-and-vehicles.md) - organize profiles for search and alerts.

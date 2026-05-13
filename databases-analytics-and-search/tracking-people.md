@@ -34,7 +34,7 @@ Cross-camera tracking uses body shape, clothing, and other visible cues, not onl
 
 ### Face recognition
 
-Face recognition supports search and alerts based on enrolled or observed faces. Performance depends on lighting, angle, and resolution (see [Head angle impact](#head-angle-impact) and [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md)). Use face data in line with your policies and regulatory obligations.
+Face recognition supports search and alerts based on enrolled or observed faces. Performance depends on lighting, angle, and resolution (see [Head angle impact](#head-angle-impact) and [Plan camera placement with pixels per foot](pixels-per-foot-for-camera-placement.md)). Use face data in line with your policies and regulatory obligations.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-people-face-recognition-database-view.png" alt="" width="563"></div>
 
@@ -52,7 +52,7 @@ Acceptable head orientation falls in the ranges illustrated below (pitch, yaw, r
 
 Position and aim cameras using the [camera guidelines for people analytics](https://support.lumana.ai/knowledge/editor/01HEN6TW1P90ZT21YXAJT7FV3X/en-us?brand_id=10899747518610) so people analytics gets consistent coverage.
 
-To derive PPF from resolution, HFOV, and distance, use [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md). That reference includes worked examples and a 5MP and 8MP PPF-over-distance chart.
+To derive PPF from resolution, HFOV, and distance, use [Plan camera placement with pixels per foot](pixels-per-foot-for-camera-placement.md). That reference includes worked examples and a 5MP and 8MP PPF-over-distance chart.
 
 ## People analytics PPF targets
 
@@ -80,7 +80,7 @@ The next table lists approximate maximum distances on Lumana cameras. Values ass
 
 ## Next steps
 
-- [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md) - shared formulas and charts for PPF planning.
+- [Plan camera placement with pixels per foot](pixels-per-foot-for-camera-placement.md) - shared formulas and charts for PPF planning.
 - [Build a database of people and vehicles](build-a-database-of-people-and-vehicles.md) - enroll faces and organize profiles for search and alerts.
 - [Search video footage for people or vehicles](search-video-footage-for-people-or-vehicles.md) - query by person, attributes, and time.
 - [Tracking vehicles](tracking-vehicles.md) - parallel guidance for vehicle analytics and placement.

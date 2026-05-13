@@ -51,14 +51,21 @@ Create a saved wall when you need a reusable layout for ongoing monitoring.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-create-wall-button.png" alt="" width="375"></div>
 
-2. Enter a wall name and choose a layout that fits the number of cameras or alert tiles you want to show, and select **Done**.
-3. Expand **Cameras** to choose which cameras appear on the wall, and expand **Alerts** to configure alert tiles.
+2. Enter a wall name.
+
+3. Choose a layout that fits the number of cameras or alert tiles you want to show.
+
+4. Select **Done**.
+
+5. Expand **Cameras** and choose which cameras appear on the wall.
+
+6. Expand **Alerts** to configure alert tiles.
 
    Each row shows a chevron you can expand. Alert tiles surface real-time events without opening a separate view.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-cameras-and-alerts-tab.png" alt="Expandable Cameras and Alerts rows in the sidebar; Alerts shows a gear for settings." width="375"></div>
 
-4. Select the **settings** gear next to **Alerts** to open **Alerts settings**.
+7. Select the **settings** gear next to **Alerts** to open **Alerts settings**.
 
    Configure each option, then select **Done** to close **Alerts settings**:
 
@@ -69,13 +76,15 @@ Create a saved wall when you need a reusable layout for ongoing monitoring.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-alert-view-settings.png" alt="" width="375"></div>
 
-5. Select the cameras and alerts for the wall using the sidebar.
+8. Under **Cameras**, search by name or open a location, then select each camera you want included.
 
-   Under **Cameras**, search by name or open a location, then select each camera you want included. Under **Alerts**, search the list or select **Clear all** to reset it. Then enable the alert categories you want surfaced on the wall.
+9. Under **Alerts**, search the list or select **Clear all** to reset it.
+
+10. Enable the alert categories you want surfaced on the wall.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-cameras-alerts-selection.png" alt="Sidebar with wall title, expandable Cameras (search, locations, checklist), and Alerts (search, Clear all, per-alert checkboxes)." width="375"></div>
 
-6. Select **Create wall** in the upper-right corner of the wall editor.
+11. Select **Create wall** in the upper-right corner of the wall editor.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-editor-create-wall.png" alt="Create wall editor with Walls and Create wall breadcrumbs, sidebar (wall name, Cameras, Alerts), two-tile grid preview, and blue Create wall button upper right (callout arrow in screenshot)." width="563"></div>
 

@@ -124,4 +124,4 @@ After completing ONVIF setup, proceed to [Connect a camera](../../getting-starte
 Using an **Operator** user with broad remote permissions (often **Select all** in the **Add** user dialog) gives Lumana Core reliable access to camera and stream settings.
 
 
-You can now proceed to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera), which guides you through adding your camera to Lumana Core and confirming that everything works as expected.
+You can now proceed to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera), which guides you through adding your camera to Lumana Core and confirming that the camera is online and streaming.

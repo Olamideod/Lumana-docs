@@ -1,21 +1,21 @@
 # Set up a camera floor plan
 
-This guide walks you through adding a *floor plan*, an interactive map of your location that labels where each camera is located. From this map you can select a camera to watch the live video feed.
+This guide walks you through adding a _floor plan_, an interactive map of your location that labels where each camera is located. From this map you can select a camera to watch the live video feed.
 
 Floor plans tie each camera to a location on your site, which makes coverage easier to understand than scrolling a list of devices.
 
-## Key benefits
+## What floor plans help you do
 
-- **Instant awareness**: Allows you to see coverage areas at a glance.
-- **Faster response**: Opens live feeds from cameras on the floor plan so you do not have to search the full device list first.
-- **Effortless navigation**: Lets you work with many cameras on one layout and move between them by location.
-- **Scalable and versatile**: Supports multiple floors and buildings when your organization spans more than one site or structure.
+- **See coverage quickly**: View coverage areas at a glance instead of scanning long device lists.
+- **Open live video from the map**: Jump to a camera on the floor plan without searching the full device list first.
+- **Work across many cameras**: Move between cameras by location on one layout.
+- **Use multiple floors or buildings**: Add more plans when your organization spans several sites or structures.
 
 {% hint style="info" %}
 **Common use cases**: Offices, malls, hospitals, warehouses, and schools.
 {% endhint %}
 
-## Use the camera floor plan feature
+## Add a floor plan and place cameras
 
 1. Go to the **Floor plans** menu at the top left corner of the screen.
 
@@ -31,13 +31,15 @@ Floor plans tie each camera to a location on your site, which makes coverage eas
 
 4. In the **Create floor plan** dialog, enter a **Floor name**.
 5. Optionally add **Tags** in the field on the right.
-6. Add your image using drag and drop or **Or upload from your computer**. Use a PNG or JPG file.
+6. Add your image by dragging it into the upload area, or select **Or upload from your computer**.
+
+7. Use a PNG or JPG file.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/set-up-a-camera-floor-plan/upload-floor-plan-dialog.png" alt="Create floor plan dialog with Floor name, Tags, drag-and-drop upload area, and Add floor plan." width="563"></div>
 
-7. Select the <img src="../.gitbook/assets/set-up-cameras-and-devices/set-up-a-camera-floor-plan/floor-plan-add-camera-icon.png" alt="Add camera" data-size="line"> icon in the top right corner to start adding and positioning your cameras on the floor plan.
+8. Select the <img src="../.gitbook/assets/set-up-cameras-and-devices/set-up-a-camera-floor-plan/floor-plan-add-camera-icon.png" alt="Add camera" data-size="line"> icon in the top right corner to start adding and positioning your cameras on the floor plan.
 
-8. Select **Add floor plan** to save the floor plan.
+9. Select **Add floor plan** to save the floor plan.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/set-up-a-camera-floor-plan/edit-floor-plan-layout.png" alt="" width="563"></div>
 

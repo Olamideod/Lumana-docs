@@ -14,7 +14,7 @@ The **Reports** feature creates CSV exports and can automate delivery by downloa
 - Cameras and analytics for **Alerts**, **Attendance**, or **License plates** match the report **Type** you plan to use.
 - For **SMS** or **Email** delivery, have recipients confirmed in your organization, or use **Notify people from outside the organization** for external addresses.
 
-## Report types
+## Choose a report type
 
 Lumana groups exports into three categories. Each report uses the **Create report** form; **Type** sets which dataset fills the CSV.
 

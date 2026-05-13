@@ -6,9 +6,9 @@ Lumana Core can run a DHCP server on **Ethernet 2**. It assigns IP addresses to 
 Use this feature when you want Lumana Core to assign IP addresses to devices connected on Ethernet 2.
 {% endhint %}
 
-## Key DHCP server capabilities
+## What the DHCP server provides
 
-When you enable DHCP on Lumana Core, the server assigns addresses and manages client connectivity basics, including:
+When you enable DHCP on Lumana Core, it assigns addresses and manages basic client connectivity, including:
 
 - Automatic assignment of IP addresses
 - Management of network connectivity for connected devices
@@ -50,11 +50,13 @@ When you enable DHCP on Lumana Core, the server assigns addresses and manages cl
 
 Configure the following parameters when you set up the DHCP server on Lumana Core:
 
-- **Starting IP address**: The first IP address in the DHCP pool that Lumana Core assigns to devices.
-- **Ending IP address**: The last IP address in the DHCP pool, defining the range of available IPs.
-- **DNS servers**: A list of DNS servers that clients should use for domain name resolution. Separate multiple servers with commas.
-- **Gateway**: The default gateway IP address that clients will use to communicate with external networks.
-- **Lease time**: How long, in seconds, a device keeps an IP address before it must renew the lease.
+| Parameter | Description |
+| --- | --- |
+| **Starting IP address** | The first IP address in the DHCP pool that Lumana Core assigns to devices. |
+| **Ending IP address** | The last IP address in the DHCP pool, which defines the range of available IPs. |
+| **DNS servers** | DNS servers that clients should use for name resolution. Separate multiple servers with commas. |
+| **Gateway** | The default gateway IP address that clients use to reach other networks. |
+| **Lease time** | How long, in seconds, a device keeps an IP address before it must renew the lease. |
 
 ## Example configuration
 
@@ -66,7 +68,7 @@ When you enable DHCP, the page shows an option to reserve IP addresses.
 
 ## Address reservation
 
-Lumana Core supports DHCP address reservation, allowing specific devices to always receive the same IP address based on their MAC address. This feature is useful for devices that require static IPs but benefit from centralized DHCP management.
+Lumana Core can reserve a fixed IP for a client **MAC address** while you still manage the pool in one place.
 
 ### Configure address reservation
 
@@ -83,7 +85,7 @@ Lumana Core supports DHCP address reservation, allowing specific devices to alwa
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-address-reservation-ui.png" alt="DHCP Server page with address reservation table and fields for MAC and reserved IP." width="563"></div>
 
-### Address reservation use cases
+### When reservation helps
 
 - Stable IP addresses for critical infrastructure such as servers and dedicated cameras
 - Fewer conflicts when you pre-assign addresses that operators expect to stay fixed
