@@ -8,7 +8,7 @@ If you have questions, contact [support@lumana.ai](mailto:support@lumana.ai).
 
 - Physical access to Lumana cameras and a Windows or macOS PC on the same LAN for Camera Finder.
 - Administrator credentials for cameras you will configure.
-- A Lumana organization where you can [add cameras](../../getting-started/connect-a-camera.md#connect-a-camera) after network setup.
+- A [Lumana organization](../../getting-started/define-your-organization.md) where you can add cameras after network setup.
 
 ## Quick start PDFs
 
@@ -62,6 +62,6 @@ If you run into camera issues, then the Lumana Camera Finder application offers 
 
 ## Next steps
 
-- [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera) in the Lumana portal after cameras are on the network.
+- [Connect a camera](../../getting-started/connect-a-camera.md#connect-the-core-to-your-cameras) in the Lumana portal after cameras are on the network.
 - Use [Set up a static IP address](../set-up-a-static-ip-address.md) when cameras need fixed addresses before discovery.
 - Return to [Connect cameras by brand](README.md) for other manufacturers mixed into the same site.
