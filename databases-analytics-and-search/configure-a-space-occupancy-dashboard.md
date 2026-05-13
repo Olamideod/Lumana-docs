@@ -2,23 +2,30 @@
 
 Use the occupancy widget to visualize current occupancy, historical trends, and entry and exit activity for a defined space. This guide walks you through the main dashboard setup flow.
 
-## Before you begin
+## Prerequisites
 
-Make sure the relevant entry and exit points are covered by cameras and that you can edit dashboards in your organization. If line crossings are not configured yet, the setup flow prompts you to create them.
+Make sure the relevant entry and exit points are covered by cameras and that you can edit dashboards in your organization. If line crossings are not configured yet, then the setup flow prompts you to create them.
 
 ## Add the occupancy widget
 
-Add the widget first, then choose the entrances and exits you want the dashboard to track.
+First create or open a dashboard, add the occupancy widget, then choose the entrances and exits you want the dashboard to track.
 
-1. Open your dashboard in edit mode.
-2. Select **Add widget**.
-3. Select **Occupancy**.
+1. Select **Dashboards** in the left navigation bar.
+2. Select **Create dashboard** in the top right corner.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-dashboards-create-dashboard.png" alt="" width="563"></div>
+
+3. Open the dashboard canvas in edit mode.
+
+   If you just created a new dashboard, then you are already on the canvas. If you are adding the widget to a saved dashboard, then open that dashboard and select the **Edit dashboard** icon in the top right.
+4. Select **Add widget**.
+5. Select **Occupancy**.
 
    The occupancy widget configuration opens.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-choose-camera.png" alt="Occupancy widget setup showing the camera selection dialog for choosing an entry camera." width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-entrances-dropdown-open.png" alt="" width="563"></div>
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-preview-settings.png" alt="Occupancy widget configuration showing selected entrances, object type, time range, and preview table." width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-entrances-selected-preview.png" alt="" width="563"></div>
 
 ## Configure widget settings
 
@@ -30,13 +37,13 @@ After you select the entrances and exits, configure the operational settings tha
 
 2. Set the reset time.
 
-   Choose whether the reset runs daily or weekly, then set the reset hour. To avoid incorrect counts, make sure the space is empty when the reset runs. If numbers still look wrong after a reset, see [Common accuracy issues](space-occupancy-analytics.md#common-accuracy-issues) in *Space occupancy analytics*.
+   Choose whether the reset runs daily or weekly, then set the reset hour. To avoid incorrect counts, make sure the space is empty when the reset runs. If numbers still look wrong after a reset, see [Common accuracy issues](space-occupancy-analytics.md#common-accuracy-issues).
 
 3. Define viewing hours if needed.
 
    Use viewing hours when the widget should display occupancy data only during specific hours or days.
 
-<div align="center"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-advanced-settings.png" alt="Occupancy widget advanced settings showing reset time, viewing hours, weekends, and time range options." width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-settings-panel.png" alt="" width="563"></div>
 
 ## Review the results
 

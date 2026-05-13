@@ -6,7 +6,7 @@ Vehicle analytics adds detection, attributes, and cross-camera association. It a
 
 Use the sections below for what each capability does. When you need to relate resolution and distance to detail, use [Pixels per foot (PPF) for camera placement](pixels-per-foot-for-camera-placement.md).
 
-## Before you begin
+## Prerequisites
 
 - Cameras are added in Lumana and streaming reliably.
 - You know which sites or lanes need vehicle analytics or LPR, and any policies that apply to plate or vehicle data.
@@ -36,7 +36,7 @@ Cross-camera tracking follows a vehicle across views using the plate when it is 
 
 LPR identifies and catalogs plates so you can search, filter, and alert on plate text. Teams often use it for access control, parking, and traffic monitoring. Accuracy depends on aim, PPF, lighting, and speed (see [License plate recognition deployment](#license-plate-recognition-deployment)).
 
-On the **Objects** tab, Lumana can show the vehicle and a dedicated license plate crop side by side so you can confirm the read in context.
+On the **Objects** tab, Lumana shows the vehicle and a dedicated license plate crop side by side. This lets you confirm the read in context.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/tracking-vehicles-objects-tab-lpr.png" alt="" width="563"></div>
 
@@ -99,7 +99,7 @@ FoV drives how many plate pixels you get at a given distance. Narrower lanes and
 
 Add controlled IR or visible fill when ambient light is low. Aim illuminators so plates are bright enough to read but not blown out.
 
-Use a short exposure time so plates stay sharp at your peak approach speed. Auto exposure can help if it reacts fast enough for your scene.
+Use a short exposure time so plates stay sharp at your peak approach speed. Auto exposure can help if it reacts fast enough for your scene, then keep an eye on blurred reads after rollout.
 
 ### Environment checklist
 

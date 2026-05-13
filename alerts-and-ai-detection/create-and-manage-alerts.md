@@ -1,8 +1,6 @@
 # Create and manage alerts
 
-Lumana alerts monitor your cameras and notify you when specific conditions are detected. Some alerts are powered by AI, while others are rule-based. Each alert is built from a template written in plain language, so you can see exactly what it does before you configure it.
-
-This page covers how to create, manage, and delete alerts. Each alert type and what it detects is covered in the [Alert types](alert-types/) section.
+This page walks you through creating, managing, and deleting alerts. The steps use a Motion alert as the example, and the process is the same for all alert types, with each type's specific parameters covered in [Alert types](alert-types/).
 
 ## Open the Alerts section
 
@@ -10,26 +8,25 @@ Select the **bell icon** in the left navigation. The Alerts monitoring view open
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-monitoring-view1.png" alt="" width="563"></div>
 
-From here, you have two paths:
+From here, you have three options:
 
 * Select **Add alert** to create a new alert. Follow the steps in [Create an alert](#create-an-alert).
 * Select **Configurations** to view and manage your existing alerts. Follow the steps in [View and manage configured alerts](#view-and-manage-configured-alerts).
-
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-monitoring-configurations.png" alt="" width="563"></div>
+* Select **Alert groups** to arm and disarm alerts for a location on a schedule. Steps for this are in the separate [Create an alert group](create-an-alert-group.md) guide.
 
 ## Create an alert
 
 1. From the Alerts monitoring view, select **Add alert** in the top right corner. The Configure alerts page opens.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-configure-page.png" alt="" width="563"></div>
+<div data-full-width="false"><figure data-with-frame="true"><img src="../.gitbook/assets/add-alerts-button.png" alt="" width="375"><figcaption></figcaption></figure><figure data-with-frame="true"><img src="../.gitbook/assets/alerts-configure-page.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-3. Find the alert type you want. Use the left sidebar to jump to a category, or scroll through the page to browse all alert types. Each card shows a plain-language description of what the alert detects.
-4. Select **Use template** on the alert type card. A new page opens with the alert rule displayed as an editable sentence.
+2. Find the alert type you want. Use the left sidebar to jump to a category, or scroll through the page to browse all types. Each card shows a plain-language description of what the alert detects. For a full list, see [Alert types](alert-types/).
+3. Select **Use template** on the alert type card. A new page opens with the alert rule displayed as an editable sentence. The sentence and its fields change depending on the alert type you selected.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-create-motion.png" alt="" width="563"></div>
 
-5. Enter a name for the alert in the **Alert name** field, for example "Main entrance motion" or "PPE violation."
-6.  Configure the alert rule by selecting the underlined fields in the sentence. Each field is clickable and opens a slider, modal, or dropdown depending on what it controls. The fields change depending on the alert type. For example, a Motion alert lets you set the sensitivity percentage, camera, and time window.
+4. Enter a name for the alert in the **Alert name** field, for example "Main entrance motion" or "PPE violation."
+5.  Configure the alert rule by selecting the underlined fields in the sentence. Each field is clickable and opens a slider, modal, or dropdown depending on what it controls. The fields change depending on the alert type. For example, a Motion alert lets you set the sensitivity percentage, camera, and time window.
 
     Selecting the **camera** field opens the Choose cameras modal.
 
@@ -72,7 +69,7 @@ c. Set the **From** and **To** times for when the alert should be active. d. Sel
 
 <a id="default-configuration"></a>
 
-7. Optionally, select **default configuration** to open the Advanced configuration panel. This panel controls how the alert is displayed, sets its confidence and priority levels, configures a blocking period to reduce alert fatigue, and lets you customise the alert message with dynamic data fields. If you skip this step, the alert uses the default settings.
+6. Optionally, select **default configuration** to open the Advanced configuration panel. This panel controls how the alert is displayed, sets its confidence and priority levels, configures a blocking period to reduce alert fatigue, and lets you customise the alert message with dynamic data fields. If you skip this step, the alert uses the default settings.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-advanced-configuration.png" alt="" width="375"></div>
 
@@ -125,7 +122,7 @@ Select **Done** to close the panel and return to the alert rule. The link update
 
 <a id="then"></a>
 
-8. Select **Then** to choose the action Lumana takes when the alert triggers. Select one action from the list.
+7. Select **Then** to choose the action Lumana takes when the alert triggers. Select one action from the list.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/alerts-then-actions.png" alt="" width="267"></div>
 
@@ -145,7 +142,7 @@ The available actions are:
 
 Each action and how to configure it is covered in [Alert actions](alert-actions.md).
 
-9. Select **Create alert** in the top right corner. The alert is saved and appears in the configured alerts list.
+8. Select **Create alert** in the top right corner. The alert is saved and appears in the configured alerts list.
 
 ## View and manage configured alerts
 
@@ -181,8 +178,9 @@ To edit a configured alert, select its row in the list. The alert configuration 
 
 ## Delete an alert
 
-To delete an alert, select the **delete icon** on the right side of the alert row in the configured alerts list.
-
 {% hint style="warning" %}
 Deletion is permanent and cannot be undone.
 {% endhint %}
+
+To delete an alert, select the **delete icon** on the right side of the alert row in the configured alerts list.
+

@@ -2,8 +2,6 @@
 
 This page lists every permission category in Lumana and what each option allows. Use it when [setting access rights for a permission group](manage-users-and-permissions.md#set-access-rights).
 
-**Security roles**: [PLACEHOLDER — SME answer needed: What does Security roles enable?]
-
 ## Location
 
 Location permissions control what users can do with your organisation's physical sites.

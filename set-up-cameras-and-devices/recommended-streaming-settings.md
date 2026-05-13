@@ -185,7 +185,7 @@ Lumana Core uses an **AI engine** for video analytics, including object recognit
 
 <summary>What happens if the bitrate is too low?</summary>
 
-If the bitrate is set too low, even on CBR, it may lead to poor video quality, characterized by pixelation and blurring, especially in scenes with high motion or complexity. This degradation in video quality can severely impair the AI’s ability to perform accurate analytics, leading to compromised functionality of Lumana Core’s AI engine.
+If the bitrate is set too low, even on CBR, then video quality may suffer, with pixelation and blurring in scenes with high motion or complexity. Lower quality reduces the AI's ability to perform accurate analytics, which compromises Lumana Core's AI engine.
 
 </details>
 

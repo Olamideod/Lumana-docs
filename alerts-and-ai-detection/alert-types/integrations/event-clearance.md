@@ -1,3 +1,3 @@
 # Event clearance
 
-Still on Beta. Coming soon!
+Coming soon!

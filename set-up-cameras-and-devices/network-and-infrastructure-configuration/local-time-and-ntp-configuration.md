@@ -1,6 +1,6 @@
 # Local time and NTP configuration
 
-The time shown in live view and playback is determined by the time zone configured on the location where the Core and cameras are installed.
+Live view and playback show the local time for each location. Set the time zone on the location that holds the Core and cameras so timestamps stay correct.
 
 ## Change the location time zone
 
@@ -14,11 +14,11 @@ Update the location time zone so live view and playback show the correct local t
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/ntp-location-timezone-field.png" alt="Edit location dialog on Details with Time Zone field set to America/Los_Angeles." width="563"></div>
 
-## Configure Network Time Protocol (NTP)
+## Configure NTP
 
-Configure NTP so Lumana Core can keep its system time accurate. Use this task if you need to point the Core to a local NTP server instead of the default Lumana NTP servers.
+Configure Network Time Protocol (NTP) so Lumana Core can keep its system time accurate. Use this task if you need to point the Core to a local NTP server instead of the default Lumana NTP servers.
 
-An _NTP (Network Time Protocol) server_ is a service that uses NTP to provide accurate time to devices over the internet or your LAN. That keeps machine clocks aligned with _UTC (Coordinated Universal Time)_.
+An _NTP (Network Time Protocol) server_ uses NTP to provide accurate time. Devices reach it over the internet or your LAN, which keeps machine clocks aligned with _UTC (Coordinated Universal Time)_.
 
 Lumana Core uses NTP to synchronize its system clock so events, recordings, and logs stay consistent.
 
@@ -34,3 +34,11 @@ If you want to use a local NTP server instead:
 2. Select **NTP**.
 3. Select **Add server** and enter the hostname or IP of the server you want to add.
 4. Select **Save**.
+
+## Next steps
+
+After you configure local time and NTP, you can continue with related infrastructure tasks.
+
+- Use [Firewall requirements](firewall-requirements.md) to allow the NTP servers your Core uses.
+- Use [Configure Lumana Core as a DHCP server](configure-lumana-core-as-a-dhcp-server.md) to manage addresses on Ethernet 2.
+- Read [Lumana Core hardware specifications](lumana-core-hardware-specifications.md) for port and environment details.

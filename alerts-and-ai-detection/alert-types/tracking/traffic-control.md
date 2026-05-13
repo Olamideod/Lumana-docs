@@ -59,13 +59,13 @@ Under **Additional options**, enter the physical distance between the first and 
 
 Use the navigation icons below the camera feed to browse snapshots from the camera while drawing:
 
-* <img src="../../../.gitbook/assets/snapshot-nav-previous.png" alt="" height="18"> **Previous snapshot**: Shows the previous snapshot from the camera.
-* <img src="../../../.gitbook/assets/snapshot-nav-next.png" alt="" height="18"> **Next snapshot**: Shows the next snapshot from the camera. This icon only appears when a more recent snapshot is available.
+* <img src="../../../.gitbook/assets/snapshot-nav-previous.png" alt="" data-size="line"> **Previous snapshot**: Shows the previous snapshot from the camera.
+* <img src="../../../.gitbook/assets/snapshot-nav-next.png" alt="" data-size="line"> **Next snapshot**: Shows the next snapshot from the camera. This icon only appears when a more recent snapshot is available.
 
 * **Reset**: Clears all lines and lets you start over.
 * **Select**: Confirms the lines and closes the dialog.
 
 7. Select the **time** field to set when the alert is active. [Configure alerts](../../create-and-manage-alerts.md#schedule) covers the schedule options.
 8. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../create-and-manage-alerts.md#default-configuration) covers these settings.
-9. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. [Alert actions](../../alert-actions.md) covers the available actions.
+9. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" data-size="line"> to choose the action Lumana takes when the alert triggers. [Alert actions](../../alert-actions.md) covers the available actions.
 10. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

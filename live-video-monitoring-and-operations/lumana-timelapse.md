@@ -2,7 +2,7 @@
 
 Use Lumana timelapse to review recent activity across a camera without scrubbing through full video manually. By default, timelapse is available for recent snapshots, and you can extend that retention window when you need a longer view.
 
-## Before you begin
+## Prerequisites
 
 Make sure you can open the camera settings for the camera you want to use. You also need permission to change snapshot retention settings.
 
@@ -20,11 +20,12 @@ Timelapse snapshots are not generated retroactively. If you increase retention t
 
 ## Extend timelapse retention
 
-You can extend timelapse retention up to 30 days when you need a longer review window.
+You can extend timelapse retention on the camera **Storage** page when you need a longer review window.
 
-1. Open the camera settings for the camera you want to update.
-2. Adjust **Snapshot Retention Period** to the duration you want, up to 30 days.
-3. Save the settings.
+1. Open **Devices**, select the camera you want, then open **Edit Camera**.
+2. Select **Storage** in the sidebar.
+3. Under **Data retention**, open **Snapshot retention days** and choose a period from the list. Options include **3 days**, **7 days**, **14 days**, **30 days**, or **90 days** when available.
+4. Select **Save** in the upper right.
 
    The new retention setting applies going forward.
 
@@ -32,13 +33,13 @@ You can extend timelapse retention up to 30 days when you need a longer review w
 Once you increase retention, additional snapshots begin collecting from that point. You must wait for time to pass before you can generate longer timelapse videos.
 {% endhint %}
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-retention-settings.png" alt="Edit selected cameras dialog showing snapshot retention settings for timelapse." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-retention-settings.png" alt="" width="563"></div>
 
-Once you understand the default window and the retention limit, you can decide whether the built-in range is enough for your workflow.
+Once you know the default window and the longest **Snapshot retention days** option in your deployment, decide whether the built-in range covers your workflow.
 
-## Need more than 30 days?
+## Need longer history than snapshot retention allows?
 
-If you need timelapse history longer than 30 days, contact Customer Support to discuss extended storage options.
+If you need timelapse history beyond the maximum **Snapshot retention days** value available in your deployment, contact Customer Support to discuss extended storage options.
 
 ## Next steps
 

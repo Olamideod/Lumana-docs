@@ -6,7 +6,7 @@ For full network onboarding steps, see [Connect Lumana Core to the network](http
 
 ## Rear panel
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-rear-panel-connectivity.png" alt="Lumana Core rear panel with POWER, HDMI 1 and 2, USB 3.0, Ethernet 1 and 2, DC IN, and ground terminal." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-rear-panel-connectivity.png" alt="" width="563"></div>
 
 ## Installation
 
@@ -41,8 +41,12 @@ For detailed steps, see [Connect Lumana Core to the network](https://support.lum
 
 ## Product dimensions (mm)
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-rear-panel-dimensions.png" alt="Technical drawing of Lumana Core rear panel with port layout and dimensions in millimeters." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-rear-panel-dimensions.png" alt="" width="563"></div>
 
-## Related configuration
+## Next steps
 
-When Core is on your network, you may also need [Firewall requirements](firewall-requirements.md) or [Configure Lumana Core as a DHCP server](configure-lumana-core-as-a-dhcp-server.md).
+After you verify the hardware fits your deployment, continue with the network configuration that Core depends on.
+
+- Read [Firewall requirements](firewall-requirements.md) to allow the outbound endpoints Lumana Core needs.
+- Use [Configure Lumana Core as a DHCP server](configure-lumana-core-as-a-dhcp-server.md) when Core manages addresses on the camera LAN.
+- Read [Local time and NTP configuration](local-time-and-ntp-configuration.md) so timestamps line up across cameras and playback.

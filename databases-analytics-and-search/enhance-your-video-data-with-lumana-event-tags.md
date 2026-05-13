@@ -1,14 +1,14 @@
 # Enhance your video data with Lumana Event Tags
 
-Event tags let you record structured events from external systems, whether those systems run on premises or in the cloud, and tie them to camera footage by time and camera. After you post a tag, you can search the payload in **Search** and use it as context for investigations, security, and operations.
+Event tags let you record structured events from external systems and tie them to camera footage by time and camera. Those systems can run on premises or in the cloud. After you post a tag, you can search the payload in **Search** and use it as context for investigations, security, and operations.
 
-Consider a warehouse example: if your Warehouse Management System (WMS) knows a pallet’s ID, you can POST that ID with a camera and timestamp to Lumana. Operators can then search for the pallet to pull the clip for loading or condition checks and share that clip as evidence.
+Consider a warehouse example. If your Warehouse Management System (WMS) knows a pallet's ID, then you can POST that ID to Lumana with a camera and timestamp. Operators can then search for the pallet to pull the clip for loading or condition checks and share that clip as evidence.
 
-This guide walks you through generating an API key, creating an event tag, posting events to the Lumana API, finding them in **Search**, and optionally using them in alerts or a **Chart or table** widget. For widget options in depth, see [Chart or table](../dashboards/widgets/chart-or-table/README.md). For clip preview controls after you click the chart, see [Event tag clip preview](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/chart-or-table-event-tags-clip-preview.md).
+This guide walks you through six steps: generate an API key, create an event tag, post events to the Lumana API, find them in **Search**, and optionally use them in alerts or a **Chart or table** widget. For widget options in depth, see [Chart or table](../dashboards/widgets/chart-or-table/README.md). For clip preview controls after you select the chart, see [Event tag clip preview](../dashboards/widgets/chart-or-table/chart-or-table-event-tags/chart-or-table-event-tags-clip-preview.md).
 
-## Before you begin
+## Prerequisites
 
-You can open **Organization settings** and **Database** in the portal, generate and copy API keys, and call the Lumana API from the reference or a client such as Postman. Have your organization ID, a valid camera ID, and access to **Search**. Each organization can have up to **10** API keys (each with an expiration you set) and up to **10** event tag definitions.
+Make sure you can open **Organization settings** and **Database** in the portal. You also need to generate API keys and call the Lumana API from the reference or a client such as Postman. Have your organization ID, a valid camera ID, and access to **Search**. Each organization can have up to **10** API keys (each with an expiration you set) and up to **10** event tag definitions.
 
 ## Step 1: Generate an API key
 
@@ -108,7 +108,7 @@ curl --location 'https://access.lumana.ai/v1/events-tag/insert' \
 
 You can send a test POST from the Lumana API reference. Open [Insert an event tag in the Lumana API reference](../api-reference/rest-apis/lumana-api.md) and select **Test it** on the cURL block. Enter your Bearer token under **Authentication**, replace the body with your `orgId`, `cameraId`, `eventTypeId`, and a **current** millisecond timestamp, then select **Send**. A successful request returns **200 OK**.
 
-If you prefer a desktop client, use Postman.
+If you prefer a desktop client, then use Postman.
 
 ### Send using Postman
 
@@ -118,7 +118,7 @@ If you prefer a desktop client, use Postman.
 4. Select **Send**. A successful ingest returns a `2xx` response.
 
 {% hint style="info" %}
-Use a current timestamp in milliseconds. You can run `Date.now()` in a browser console. If the timestamp falls outside the time range of your chart widget or **Search**, the event will not appear where you expect.
+Use a current timestamp in milliseconds. You can run `Date.now()` in a browser console. If the timestamp falls outside the time range of your chart widget or **Search**, then the event will not appear where you expect.
 {% endhint %}
 
 ## Step 4: Search for events
@@ -137,11 +137,13 @@ Before you rely on results, confirm:
 
 1. Open **Search**.
 2. Set **Camera** and **Time range** so they include the POST you sent.
-3. Expand **Event tags**, choose your event tag, turn on the fields you want to filter, set the operator (**Equals**, **Not equals to**, **Less than**, **Greater than**, and so on), and enter values.
+3. Expand **Event tags** and choose your event tag.
+4. Turn on the fields you want to filter.
+5. Set the operator (**Equals**, **Not equals to**, **Less than**, **Greater than**, and so on), then enter the values.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-search-filters.png" alt="Search sidebar with Event tags expanded, event type selected, field toggles and operator dropdown." width="563"></div>
 
-If results appear here, ingestion and matching worked and you can add dashboards or alerts on top of the same data.
+If results appear here, then ingestion and matching worked. You can add dashboards or alerts on top of the same data.
 
 ## Step 5: Create an alert for an event tag
 
@@ -154,8 +156,10 @@ You can create two kinds of alert from **Alerts** → **Configure alerts** under
 Triggers when a given event tag is received on a camera after an optional wait.
 
 1. Select **Use template** on **Event tag**.
-2. Set **Alert name**, choose the **Event tag** and **camera**, set how long to **wait** before the rule evaluates, then open **Then do this** to pick notification or automation actions.
-3. Create the alert.
+2. Set **Alert name** and choose the **Event tag** and **camera**.
+3. Set how long to **wait** before the rule evaluates.
+4. Open **Then do this** to pick notification or automation actions.
+5. Create the alert.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-alert-rule-builder.png" alt="Event tag alert rule with event tag, camera, wait duration, Then do this." width="563"></div>
 
@@ -164,8 +168,10 @@ Triggers when a given event tag is received on a camera after an optional wait.
 Adds a detection check on top of an event tag (for example require a **person** or **vehicle** to appear or stay absent for N seconds).
 
 1. Select **Use template** on **Event validation**.
-2. Choose the **Event tag** and **camera**, set **appearance** or **absence**, object type, and duration, then configure **Then do this** actions.
-3. Create the alert.
+2. Choose the **Event tag** and **camera**.
+3. Set **appearance** or **absence**, the object type, and the duration.
+4. Configure **Then do this** actions.
+5. Create the alert.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-alert-event-validation-builder.png" alt="Event validation alert with event tag, camera, appearance, objects, duration, Then do this." width="563"></div>
 
@@ -173,15 +179,16 @@ For more detail on rule fields, see [Event tag alert](../alerts-and-ai-detection
 
 ## Step 6: Chart event tags on a dashboard
 
-1. Select the **Dashboards** icon <img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-sidebar-icon.png" alt="Dashboards icon in the sidebar." data-size="line"> in the sidebar, then create a dashboard or open an existing one to edit.
-2. Select **Add widget**, then select **Chart or table** from the menu.
+1. Select the **Dashboards** icon <img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-sidebar-icon.png" alt="Dashboards icon in the sidebar." data-size="line"> in the sidebar.
+2. Create a dashboard or open an existing one to edit.
+3. Select **Add widget**, then select **Chart or table** from the menu.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-add-widget-menu.png" alt="Add widget menu with Chart or table option highlighted." width="375"></div>
 
-3. Enter a **Title**.
-4. Under **Datasource**, select **Event tags**.
-5. Set **Visualization**, **X-axis**, **Y-axis** (for example **Total** and **All event tags** or one specific tag), and any camera or time overrides the chart needs. Read the in-dialog note if you disconnect widget filters from dashboard filters.
-6. Select **Add** to place the widget.
+4. Enter a **Title**.
+5. Under **Datasource**, select **Event tags**.
+6. Set **Visualization**, **X-axis**, **Y-axis** (for example **Total** and **All event tags** or one specific tag), and any camera or time overrides the chart needs. Read the in-dialog note if you disconnect widget filters from dashboard filters.
+7. Select **Add** to place the widget.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-chart-widget.png" alt="Chart or table widget dialog with Event tags datasource, axes, and preview." width="563"></div>
 
@@ -189,4 +196,4 @@ Full axis and filter behavior, including drill-in, is described in [Chart or tab
 
 ## Retention and storage
 
-Event tag clips follow your organization’s storage and retention settings. If you need longer retention or more capacity, contact your Lumana account team.
+Event tag clips follow your organization's storage and retention settings. If you need longer retention or more capacity, then contact your Lumana account team.

@@ -1,8 +1,8 @@
 # Use live view
 
-Use Live view to watch a camera in real time, adjust stream quality, capture snapshots, and move into related views such as playback or multi-camera layouts.
+Use Live view to watch a camera in real time. Adjust stream quality, capture snapshots, and hop into playback or multi-camera layouts when you need more context.
 
-## Before you begin
+## Prerequisites
 
 Make sure the camera you want to view is added to Lumana and is online. You should also have access to the location and camera you want to open.
 
@@ -11,8 +11,8 @@ Make sure the camera you want to view is added to Lumana and is online. You shou
 Open Live view when you want to watch a camera in real time and confirm what is happening at a location.
 
 1. Open **Cameras**.
-2. Select the location and camera you want to view.
-3. Select **Play** to start the live stream.
+2. Select the location and camera you want to view. The live stream starts playing automatically.
+3. If the stream is paused, for example after idle time, then select **Play** to resume.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-main-grid.png" alt="Live view camera grid and location list." width="563"></div>
 
@@ -24,7 +24,7 @@ Use the timeline and thumbnails to review recent footage without leaving Live vi
 2. Scrub the thumbnail or the main timeline to move through recent footage.
 3. Change the date, time range, clip duration, or resolution as needed.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-thumbnail-timeline.png" alt="Live view timeline and thumbnail." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-thumbnail-timeline.png" alt="Live view with thumbnail preview, playback controls (snapshot, fullscreen, Live view, pause, date/time), and bottom timeline scrubber." width="563"></div>
 
 ## Use live view controls
 
@@ -49,7 +49,7 @@ Use thumbnails to navigate Live view and review captured moments more quickly. T
 
 ## Next steps
 
-If you want to understand how Lumana delivers live video, check out the pages:
+After you set up Live view, you can continue with related live monitoring tasks.
 
 * Read [Live view streaming and quality](live-view-streaming-and-quality.md) to learn how local and cloud streaming work.
 * Use [Multi-camera playback](multi-camera-playback.md) to review more than one camera at the same time.

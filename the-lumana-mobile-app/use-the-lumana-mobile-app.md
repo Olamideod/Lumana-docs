@@ -2,7 +2,7 @@
 
 The Lumana mobile app is designed to reflect as many of the platform's capabilities as possible in a mobile setting. Using the mobile app, you can monitor live feeds, review recorded footage, manage alerts, and view video walls from your phone.
 
-## Before you begin
+## Prerequisites
 
 You'll need to be an active member of your organization before using the app. You should have received an email invitation and logged in through the Lumana web portal. If you haven't, contact your organization's administrator.
 

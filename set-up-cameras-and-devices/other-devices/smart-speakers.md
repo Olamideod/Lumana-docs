@@ -51,7 +51,7 @@ You register the speaker under a location so Lumana Core knows how to reach it.
 1. In the **VMS+** navigation bar, select **Add speaker** (or the add control your site uses).
 2. Enter the speaker **name**, **model** (for example **TOA**), **IP address**, **port**, **username**, and **password**.
 3. Select **Test** to confirm Core can reach the speaker.
-4. Select **Create** (or **Save**) to finish. If the add fails, recheck the IP, port, and credentials on the LAN.
+4. Select **Create** (or **Save**) to finish. If the add fails, then recheck the IP, port, and credentials on the LAN.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/smart-speakers/lumana-location-speaker-toa-form.png" alt="" width="563"></div>
 

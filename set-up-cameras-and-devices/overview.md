@@ -1,8 +1,8 @@
-# Overview
+# Recommended setup tasks
 
-This section shows you how to configure cameras, connected devices, and the network settings Lumana needs to run reliably.
+This guide walks you through configuring cameras, connected devices, and the network settings Lumana needs to run reliably.
 
-By the end, you'll have cameras streaming to Lumana Core and the right network and infrastructure settings in place for live monitoring, event detection, and video search.
+By the end, you'll have cameras streaming to Lumana Core. The rest of your network stack satisfies live monitoring, event detection, and video search workloads.
 
 ## What you’ll achieve
 
@@ -13,7 +13,7 @@ After completing this section, you can:
 * Integrate supported devices such as sensors, storage, and GPIO.
 * Configure network and infrastructure requirements.
 
-## Before you begin
+## Prerequisites
 
 Make sure you have:
 
@@ -22,7 +22,7 @@ Make sure you have:
 * Supported hardware.
 * Administrator access to Lumana Core.
 
-## Recommended setup tasks
+## Suggested setup order
 
 When you are ready to set up cameras and devices, use this list as a simple order to follow. You can change the order if your IT staff or camera installers work differently.
 

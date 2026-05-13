@@ -1,10 +1,10 @@
 # Tracking people
 
-Lumana combines video management with an AI engine so you can search large archives of footage quickly, receive real-time alerts, and automate responses. People analytics builds on that stack: you can search, track, and review occupancy-related activity using person detection, attributes, cross-camera association, and, where enabled, face recognition.
+Lumana combines video management with an AI engine so you can search large archives of footage quickly, receive real-time alerts, and automate responses. People analytics builds on that stack. You can search, track, and review occupancy-related activity using person detection, attributes, cross-camera association, and, when enabled, face recognition.
 
 The platform is designed to install with standard cameras. Detection and analytics improve as the system processes each stream; positioning and resolution still matter, especially for face recognition and attribute detail at distance.
 
-## Before you begin
+## Prerequisites
 
 - Cameras are added in Lumana and streaming reliably.
 - You know which sites or cameras should run people-related analytics (and any org policies that apply to face recognition or cross-camera identity).
@@ -42,7 +42,7 @@ Face recognition supports search and alerts based on enrolled or observed faces.
 
 ### Head angle impact
 
-For best face recognition results, faces should be roughly head-on, looking toward the camera, and within the distance your setup can support for the required pixels per foot (PPF).
+For best face recognition results, faces should be roughly head-on and looking toward the camera. Keep them within the distance your setup supports for the required pixels per foot (PPF).
 
 Acceptable head orientation falls in the ranges illustrated below (pitch, yaw, roll).
 

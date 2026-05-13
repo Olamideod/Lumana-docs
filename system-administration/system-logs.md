@@ -48,7 +48,9 @@ Use the filters at the top of the page to narrow the results:
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/system-logs-audit-user-filter.png" alt="" width="375"></div>
 
-* **Support organization**: Filter by support organization.
+* **Support organization**: Filter the log by the actions a support organization took. A support organization is an external organization you've invited into your own, such as the Lumana Support team. Inviting one gives its members access to your system to help with troubleshooting. If you haven't invited a support organization, then this dropdown is empty.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/system-logs-audit-support-org-filter.png" alt="" width="375"></div>
 
 Select **CSV** to download the current audit log results as a CSV file. Select **Refresh** to reload the log.
 
@@ -94,9 +96,9 @@ Use the filters at the top of the page to narrow the results:
   * **Relative**: Select a preset value in minutes, hours, days, or weeks. You can also enter a custom value using the number field and unit dropdown.
   * **Calendar**: Select a specific start and end date, with hour and minute precision.
 
-  Select **Done** to apply the timeframe.
+<div data-full-width="false"><figure data-with-frame="true"><img src="../.gitbook/assets/system-logs-alert-notification-timeframe-relative.png" alt="" width="375"><figcaption></figcaption></figure><figure data-with-frame="true"><img src="../.gitbook/assets/system-logs-alert-notification-timeframe-calendar.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/system-logs-alert-notification-timeframe.png" alt="" width="375"></div>
+  Select **Done** to apply the timeframe.
 
 ### Alert notification log table
 

@@ -10,9 +10,9 @@ The **Missing object** alert notifies you when a marked object is no longer visi
 - **Security enforcement**: Detects unauthorized removals or theft of equipment or inventory in the region you marked.
 - **Operational continuity**: Helps confirm that critical items stay in place during the hours you monitor.
 
-## Before you begin
+## Prerequisites
 
-Make sure you can open **Alerts** and create alert rules. You need a camera that shows the object clearly enough to mark it in the frame, and permission to choose notification actions under **Then do this**.
+Make sure you can open **Alerts** and create alert rules. You also need a camera that shows the object clearly enough to mark in the frame. Lastly, confirm you can choose notification actions in the **Then** step.
 
 ## Configure the alert
 
@@ -26,19 +26,21 @@ Make sure you can open **Alerts** and create alert rules. You need a camera that
 
    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-template.png" alt="Configure alerts with Identification selected and Missing object Use template highlighted." width="563"></div>
 
-4. Set when the rule runs, for example **All times**, so object detection follows the schedule you need.
+4. On the rule builder, enter an **Alert name** when you want one. In the sentence, open the schedule link (for example **all times**) and **[default configuration]** to change those values.
 
-5. Select **Then do this** and choose what happens when the alert fires, for example notify someone.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-alert-config.png" alt="Missing object alert form with rule text, Then do this, and camera fields." width="375"></div>
+5. Select **[cameras]** in the sentence. In the chooser, select the camera (or cameras) that should watch the object.
 
-6. Select **Cameras** and select the camera (or cameras) that should watch the object.
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-choose-cameras-edit.png" alt="" width="563"></div>
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-choose-cameras-edit.png" alt="Choose cameras dialog with camera list and pencil icon to mark the object." width="563"></div>
+6. Select **Then** and choose what happens when the alert fires, for example notify someone.
 
-7. Select the pencil icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-edit-pencil-icon.png" alt="Pencil icon to edit object region." data-size="line"> next to the camera so you can mark the object the alert should track.
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-alert-config.png" alt="" width="563"></div>
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-mark-object-dialog.png" alt="Mark object dialog with polygon on the object and Select button." width="375"></div>
+
+7. Select the pencil icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-edit-pencil-icon.png" alt="Pencil icon to edit object region." data-size="line"> next to the camera. This lets you mark the object the alert should track.
+
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-mark-object-dialog.png" alt="" width="375"></div>
 
 8. In the **Mark object** dialog, outline the object, then select **Select**.
 
@@ -56,7 +58,7 @@ Select the alert to open a video clip or image for that event.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-missing-object-video-preview.png" alt="Alert preview with Video tab and playback controls." width="563"></div>
 
-From the preview, you can save footage to the archive with the archive icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-archive-icon.png" alt="Archive icon." data-size="line">, or use **Share** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-share-icon.png" alt="Share icon." data-size="line"> to share the clip according to your organization's policy.
+From the preview, save footage to the archive with the archive icon <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-archive-icon.png" alt="Archive icon." data-size="line">. Or use **Share** <img src="../.gitbook/assets/databases-analytics-and-search/custom-objects-share-icon.png" alt="Share icon." data-size="line"> to share the clip according to your organization's policy.
 
 ## Next steps
 

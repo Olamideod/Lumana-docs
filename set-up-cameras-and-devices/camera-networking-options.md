@@ -32,13 +32,11 @@ Use **Camera VPN** in the Lumana portal to access your camera’s native web int
 The available settings depend on the camera manufacturer. Refer to the manufacturer’s documentation for details.
 {% endhint %}
 
-## SIP configuration (Check Point router)
+## Configure SIP on a Check Point router
 
-Use Session Initiation Protocol (SIP) configuration to enable communication between Lumana and external audio devices such as speakers.
+Use Session Initiation Protocol (SIP) to let Lumana communicate with external audio devices such as speakers. You typically need this setup for advanced deployments that use network-managed audio systems.
 
-This setup is typically required in advanced deployments using network-managed audio systems.
-
-### Before you begin
+### Prerequisites
 
 You'll need:
 
@@ -46,86 +44,86 @@ You'll need:
 - Access to Check Point SmartConsole
 - Network topology details
 
-### Step 1: Enable VoIP
+### Configure the router
 
-- Log in to Check Point
-- Go to **Access Policy → VoIP**
-- Enable VoIP
+Complete the following steps in order on the Check Point router.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/check-point-voip-toggle-on.png" alt="Check Point SmartConsole Access Policy VoIP settings with VoIP enabled." width="563"></div>
+1. Enable VoIP.
 
-### Step 2: Configure SIP service provider
+   - Log in to Check Point.
+   - Go to **Access Policy** > **VoIP**.
+   - Enable VoIP.
 
-- Enable **Use SIP Service Provider**.
-- Set **Name** to **SIP-Provider**.
-- Add the following addresses:
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/check-point-voip-toggle-on.png" alt="" width="563"></div>
 
-#### Networks
+2. Configure the SIP service provider.
 
-| Name                  | Address        | Subnet Mask     |
-| --------------------- | -------------- | --------------- |
-| Oregon\_Gateways      | 54.244.51.0    | 255.255.255.252 |
-| Frankfurt\_Gateways   | 35.156.191.128 | 255.255.255.252 |
-| Virginia\_Gateways    | 54.172.60.0    | 255.255.255.252 |
-| Media\_server\_1      | 34.203.254.0   | 255.255.255.0   |
-| Media\_server\_2      | 3.235.11.128   | 255.255.255.128 |
+   - Enable **Use SIP Service Provider**.
+   - Set **Name** to **SIP-Provider**.
+   - Add the networks and domains listed below.
 
-#### Domains
+   **Networks**:
 
-Add the following domain names:
+   | Name                  | Address        | Subnet Mask     |
+   | --------------------- | -------------- | --------------- |
+   | Oregon\_Gateways      | 54.244.51.0    | 255.255.255.252 |
+   | Frankfurt\_Gateways   | 35.156.191.128 | 255.255.255.252 |
+   | Virginia\_Gateways    | 54.172.60.0    | 255.255.255.252 |
+   | Media\_server\_1      | 34.203.254.0   | 255.255.255.0   |
+   | Media\_server\_2      | 3.235.11.128   | 255.255.255.128 |
 
-- lumana1.sip.twilio.com
-- lumana1.sip.us1.twilio.com
+   **Domains**:
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/off-premise-sip-provider-service-list.png" alt="Check Point SIP service provider networks and domain configuration." width="563"></div>
+   - lumana1.sip.twilio.com
+   - lumana1.sip.us1.twilio.com
 
-### Step 3: Configure RTP services
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/off-premise-sip-provider-service-list.png" alt="" width="563"></div>
 
-- Disable SIP traffic inspection
-- Add the following services:
+3. Configure RTP services.
 
-| Name           | Protocol | Port |
-| -------------- | -------- | ---- |
-| SIP\_TLS\_AUTH | TCP      | 5061 |
-| SIP\_TCP       | TCP      | 5060 |
-| SIP\_UDP       | UDP      | 5060 |
-| SIP\_UDP       | UDP      | 5061 |
+   - Disable SIP traffic inspection.
+   - Add the services in the table below.
+   - Enable bidirectional traffic.
 
-- Enable bidirectional traffic
+   | Name           | Protocol | Port |
+   | -------------- | -------- | ---- |
+   | SIP\_TLS\_AUTH | TCP      | 5061 |
+   | SIP\_TCP       | TCP      | 5060 |
+   | SIP\_UDP       | UDP      | 5060 |
+   | SIP\_UDP       | UDP      | 5061 |
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-traffic-inspection-rtp-services.png" alt="Check Point SIP traffic inspection disabled and RTP-related services configured." width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-traffic-inspection-rtp-services.png" alt="" width="563"></div>
 
-### Step 4: Configure on-premise devices
+4. Configure on-premise devices.
 
-- Use on-premise phones without a SIP server (PBX).
+   - Use on-premise phones without a SIP server (PBX).
+   - Add all relevant resources, for example:
 
-- Add all relevant resources, for example:
+   | Name             | Type      | Address        |
+   | ---------------- | --------- | -------------- |
+   | Uniview\_speaker | Single IP | 192.168.100.30 |
 
-| Name             | Type      | Address        |
-| ---------------- | --------- | -------------- |
-| Uniview\_speaker | Single IP | 192.168.100.30 |
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/on-premise-devices-ip-phones.png" alt="" width="563"></div>
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/on-premise-devices-ip-phones.png" alt="Check Point on-premise devices list including IP phones." width="563"></div>
+5. Configure SIP services.
 
-### Step 5: Configure SIP services
+   Add the following services:
 
-Add the following services:
+   | Name           | Type           | Protocol | Destination Ports |
+   | -------------- | -------------- | -------- | ----------------- |
+   | SIP\_TLS\_AUTH | SIP\_TLS\_AUTH | TCP      | 5061              |
+   | SIP\_TCP       | SIP\_TCP       | TCP      | 5060              |
+   | sip\_any-tcp   | sip\_any-tcp   | TCP      | 5060              |
+   | SIP\_UDP       | SIP\_UDP       | UDP      | 5060              |
+   | Any\_TCP       | Any\_TCP       | TCP      | 1-65535           |
+   | SIP\_UDP       | SIP\_UDP       | UDP      | 5061              |
+   | Any\_UDP       | Any\_UDP       | UDP      | 1-65535           |
 
-| Name           | Type           | Protocol | Destination Ports |
-| -------------- | -------------- | -------- | ----------------- |
-| SIP\_TLS\_AUTH | SIP\_TLS\_AUTH | TCP      | 5061              |
-| SIP\_TCP       | SIP\_TCP       | TCP      | 5060              |
-| sip\_any-tcp   | sip\_any-tcp   | TCP      | 5060              |
-| SIP\_UDP       | SIP\_UDP       | UDP      | 5060              |
-| Any\_TCP       | Any\_TCP       | TCP      | 1-65535           |
-| SIP\_UDP       | SIP\_UDP       | UDP      | 5061              |
-| Any\_UDP       | Any\_UDP       | UDP      | 1-65535           |
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-service-ports-table.png" alt="" width="563"></div>
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/sip-service-ports-table.png" alt="Check Point SIP-related services with protocols and destination ports." width="563"></div>
+## Configure SIP on each speaker
 
-## Configure SIP on each speaker (examples)
-
-After you complete the Check Point SmartConsole steps above, open each speaker’s own admin interface and enter its SIP account so the device can register. The subsections below walk through Uniview and TOA as examples.
+After you complete the Check Point SmartConsole steps above, open each speaker's own admin interface and enter its SIP account so the device can register. The subsections below walk through Uniview and TOA speakers as examples.
 
 {% hint style="info" %}
 **Note**: SIP credentials (address, username, password) are supplied by your CSM.

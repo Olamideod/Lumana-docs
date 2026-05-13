@@ -1,4 +1,4 @@
-# Hanwha
+# Connect Hanwha cameras
 
 Hanwha Wisenet cameras are supported in Lumana for analytics, monitoring, and typical enterprise deployments.
 
@@ -32,7 +32,7 @@ Use the camera's admin username and password when possible. This provides the hi
 
 ## Prepare your Hanwha camera
 
-Update the camera firmware if needed, then work through the steps below in order: set a static IP first (so the camera stays reachable), tune video profiles on the camera, then register the camera in Lumana Core.
+If the camera firmware is out of date, then update it first. After that, work through the steps below in order. Set a static IP first so the camera stays reachable. Tune video profiles on the camera, then register the camera in Lumana Core.
 
 ### Set a static IP address
 

@@ -2,6 +2,8 @@
 
 Lumana uses AI to detect activity across your cameras and trigger alerts when specific events occur. Alerts help you monitor your sites, review incidents, and respond to security events without manually watching every camera.
 
+<img src="../.gitbook/assets/alerts-list-view1.png" alt="" width="563">
+
 ## How alerts work
 
 When Lumana detects an event that matches a configured alert, it captures a video clip and notifies the relevant people. Each alert includes the camera that triggered it, the time it occurred, and the detected object or event.

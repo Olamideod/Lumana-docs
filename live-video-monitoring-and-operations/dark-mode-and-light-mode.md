@@ -2,7 +2,7 @@
 
 Change the Lumana theme to dark mode or light mode from your account settings. This can make the interface easier to read based on your preference and environment.
 
-## Before you begin
+## Prerequisites
 
 Make sure you are signed in and can open your account settings.
 
@@ -28,7 +28,7 @@ Open your user settings, then update the theme from your account details.
 
    The theme setting becomes editable.
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-account-details-theme.png" alt="Account details page showing the Theme setting in dark mode." width="563"></div>
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/dark-mode-account-details-theme.png" alt="" width="563"></div>
 
 5. Select **Dark** or **Light**, then select **Save**.
 

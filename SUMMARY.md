@@ -49,7 +49,8 @@
 
 ## Set up cameras and devices
 
-* [Overview](set-up-cameras-and-devices/overview.md)
+* [Overview](set-up-cameras-and-devices/README.md)
+* [Recommended setup tasks](set-up-cameras-and-devices/overview.md)
 * [Set up a static IP address](set-up-cameras-and-devices/set-up-a-static-ip-address.md)
 * [Enable PTZ control](set-up-cameras-and-devices/enable-ptz-control.md)
 * [Camera networking options](set-up-cameras-and-devices/camera-networking-options.md)
@@ -65,7 +66,7 @@
   * [Verkada](set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md)
   * [Other brands](set-up-cameras-and-devices/connect-cameras-by-brand/other-brands.md)
 * [Other devices](set-up-cameras-and-devices/other-devices/README.md)
-  * [Network Attached Storage (NAS) devices](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md)
+  * [Network attached storage (NAS) devices](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md)
   * [FLIR sensors](set-up-cameras-and-devices/other-devices/flir-sensors.md)
   * [Disruptive sensors](set-up-cameras-and-devices/other-devices/disruptive-sensors.md)
   * [Smart speakers](set-up-cameras-and-devices/other-devices/smart-speakers.md)
@@ -84,11 +85,10 @@
 * [User settings](system-administration/user-settings.md)
 * [System logs](system-administration/system-logs.md)
   * [Audit log events](system-administration/audit-log-events.md)
-* [NDAA compliance](system-administration/ndaa-compliance.md)
-* [SOC 2 and data privacy](system-administration/soc-2-and-data-privacy.md)
 
 ## Live video monitoring and operations
 
+* [Overview](live-video-monitoring-and-operations/README.md)
 * [Use live view](live-video-monitoring-and-operations/live-view.md)
 * [Live view streaming and quality](live-video-monitoring-and-operations/live-view-streaming-and-quality.md)
 * [PTZ control](live-video-monitoring-and-operations/ptz-control.md)
@@ -102,8 +102,8 @@
 ## Alerts and AI detection
 
 * [Introduction to Lumana alerts](alerts-and-ai-detection/introduction-to-lumana-alerts.md)
-* [Alert view](alerts-and-ai-detection/alert-view.md)
 * [Create and manage alerts](alerts-and-ai-detection/create-and-manage-alerts.md)
+* [Monitor alerts](alerts-and-ai-detection/monitor-alerts.md)
 * [Alert types](alerts-and-ai-detection/alert-types/README.md)
   * [Security](alerts-and-ai-detection/alert-types/security/README.md)
     * [Motion](alerts-and-ai-detection/alert-types/security/motion.md)
@@ -162,9 +162,9 @@
   * [Arm/Disarm](alerts-and-ai-detection/alert-types/arm-disarm/README.md)
     * [Zone armed/disarmed](alerts-and-ai-detection/alert-types/arm-disarm/zone-armed-disarmed.md)
 * [Alert actions](alerts-and-ai-detection/alert-actions.md)
-* [Custom alert](alerts-and-ai-detection/custom-alert.md)
+* [Configure a custom alert](alerts-and-ai-detection/configure-a-custom-alert.md)
 * [Custom alert parameters](alerts-and-ai-detection/custom-alert-parameters.md)
-* [Alert group](alerts-and-ai-detection/alert-group.md)
+* [Create an alert group](alerts-and-ai-detection/create-an-alert-group.md)
 
 ## Dashboards
 
@@ -181,6 +181,7 @@
 
 ## Databases, analytics, and search
 
+* [Overview](databases-analytics-and-search/README.md)
 * [Build a database of people and vehicles](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md)
 * [Tracking people](databases-analytics-and-search/tracking-people.md)
 * [Tracking vehicles](databases-analytics-and-search/tracking-vehicles.md)

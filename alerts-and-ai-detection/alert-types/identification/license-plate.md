@@ -36,7 +36,7 @@ Lumana reads license plates from the camera feed and compares them against your 
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/license-plate-modal.png" alt="" width="375"></div>
 
-   Select **Add** <img src="../../../.gitbook/assets/license-plate-add-button.png" alt="" height="18"> to create a new entry. An editable row appears with a **Vehicle name** field and a **Plate** field.
+   Select **Add** <img src="../../../.gitbook/assets/license-plate-add-button.png" alt="" data-size="line"> to create a new entry. An editable row appears with a **Vehicle name** field and a **Plate** field.
 
 <div align="center" data-with-frame="true"><img src="../../../.gitbook/assets/license-plate-modal-entry.png" alt="" width="375"></div>
 
@@ -49,5 +49,5 @@ Lumana reads license plates from the camera feed and compares them against your 
 
 8. Select the **time** field to set when the alert is active. [Configure alerts](../../create-and-manage-alerts.md#schedule) covers the schedule options.
 9. Optionally, select **default configuration** to adjust display settings, confidence level, priority, blocking period, and alert message. [Configure alerts](../../create-and-manage-alerts.md#default-configuration) covers these settings.
-10. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" height="18"> to choose the action Lumana takes when the alert triggers. The available actions are covered in [Alert actions](../../alert-actions.md).
+10. Select **Then** <img src="../../../.gitbook/assets/alert-then.png" alt="" data-size="line"> to choose the action Lumana takes when the alert triggers. The available actions are covered in [Alert actions](../../alert-actions.md).
 11. Select **Create alert** in the top right corner. The alert is saved and becomes active immediately.

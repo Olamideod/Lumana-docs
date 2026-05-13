@@ -1,8 +1,8 @@
 # Firewall requirements
 
-Lumana requires an outbound internet connection to communicate with Lumana Cloud. The system does not require inbound connections. If your firewall monitors outbound traffic, you'll need to allow the endpoints and ports below to ensure the platform and web application function correctly.
+Lumana requires an outbound internet connection to communicate with Lumana Cloud. The system does not require inbound connections. If your firewall monitors outbound traffic, then allow the endpoints and ports below. This keeps the platform and web application working correctly.
 
-This page is organized by function: start with the outbound requirements for Lumana Core and the platform, then review the shared live view and media requirements that also support the web application, and use the final section for web application-specific endpoints.
+This page is organized by function. Start with the outbound requirements for Lumana Core and the platform. Then review the shared live view and media requirements that also support the web application. Use the final section for web application-specific endpoints.
 
 ## Lumana Core and platform requirements
 
@@ -107,10 +107,10 @@ Prefer the [API response](#infrastructure-ips) above when your tools can consume
 | 34.27.47.112 | tcp | 443 | Camera API | US |
 
 {% hint style="info" %}
-Lumana infrastructure IPs may change periodically. Annual review and update is recommended. When in doubt, use the IP list from `get-ip-addresses` rather than this table alone.
+Lumana infrastructure IPs may change periodically. Review and update annually. When in doubt, use the IP list from `get-ip-addresses` rather than this table alone.
 {% endhint %}
 
-### NTP (time synchronization)
+### NTP servers for time synchronization
 
 Allow at least two of the following NTP servers.
 
@@ -162,10 +162,10 @@ For best audio/video performance:
 
 #### US Central
 
-- `stream-us-central1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket
-- `turn-us-central1.lumana.ai` - 443 TCP outbound - TURN/TLS. Used when UDP connection isn't viable. Need to allow TLS traffic (not only HTTPS traffic)
-- Load balancer: `34.27.216.77` (`livekit-external-lb`)
-- Media server hostname: `stream-us-central1-*.lumana.ai`
+- `stream-us-central1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
+- `turn-us-central1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic, not only HTTPS.
+- Load balancer: `34.27.216.77` (`livekit-external-lb`).
+- Media server hostname: `stream-us-central1-*.lumana.ai`.
 
 Media server IPs:
 
@@ -182,10 +182,10 @@ Media server IPs:
 
 #### US East
 
-- `stream-us-east1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket
-- `turn-us-east1.lumana.ai` - 443 TCP outbound - TURN/TLS. Used when UDP connection isn't viable. Need to allow TLS traffic (not only HTTPS traffic)
-- Load balancer: `35.196.117.219` (`livekit-external-lb`)
-- Media server hostname: `stream-us-east1-*.lumana.ai`
+- `stream-us-east1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
+- `turn-us-east1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic, not only HTTPS.
+- Load balancer: `35.196.117.219` (`livekit-external-lb`).
+- Media server hostname: `stream-us-east1-*.lumana.ai`.
 
 Media server IPs:
 
@@ -202,10 +202,10 @@ Media server IPs:
 
 #### US West
 
-- `stream-us-west1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket
-- `turn-us-west1.lumana.ai` - 443 TCP outbound - TURN/TLS. Used when UDP connection isn't viable. Need to allow TLS traffic (not only HTTPS traffic)
-- Load balancer: `35.199.186.174` (`livekit-external-lb`)
-- Media server hostname: `stream-us-west1-*.lumana.ai`
+- `stream-us-west1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
+- `turn-us-west1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic, not only HTTPS.
+- Load balancer: `35.199.186.174` (`livekit-external-lb`).
+- Media server hostname: `stream-us-west1-*.lumana.ai`.
 
 Media server IPs:
 
@@ -222,10 +222,10 @@ Media server IPs:
 
 #### Israel
 
-- `stream-me-west1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket
-- `turn-me-west1.lumana.ai` - 443 TCP outbound - TURN/TLS. Used when UDP connection isn't viable. Need to allow TLS traffic
-- Load balancer: `34.165.216.47` (`livekit-external-lb`)
-- Media server hostname: `stream-me-west1-*.lumana.ai`
+- `stream-me-west1.lumana.ai` - 443 TCP outbound - Signal connection over secure WebSocket.
+- `turn-me-west1.lumana.ai` - 443 TCP outbound - TURN/TLS, used when a UDP connection isn't viable. Allow TLS traffic.
+- Load balancer: `34.165.216.47` (`livekit-external-lb`).
+- Media server hostname: `stream-me-west1-*.lumana.ai`.
 
 Media server IPs:
 
@@ -257,3 +257,9 @@ For corporate firewalls, the web application also uses the shared live view and 
 - TURN/TLS over TCP 443 when UDP is not viable
 - STUN servers
 - Regional media server endpoints and IPs
+
+## Related
+
+- Read [Configure Lumana Core as a DHCP server](configure-lumana-core-as-a-dhcp-server.md) when Lumana Core needs to hand out addresses on the local network.
+- Read [Local time and NTP configuration](local-time-and-ntp-configuration.md) so timestamps stay accurate across the platform.
+- Use [Lumana Core hardware specifications](lumana-core-hardware-specifications.md) to verify the appliance matches your deployment.

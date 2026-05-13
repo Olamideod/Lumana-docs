@@ -1,12 +1,12 @@
 # Live view streaming and quality
 
-This page explains how Lumana delivers live video, when local or cloud streaming is used, and how stream quality changes based on your device, browser support, and layout.
+This page explains how Lumana delivers live video. Learn when local or cloud streaming applies, and how stream quality adapts to your device, browser, and layout.
 
 ## How live view delivery works
 
 Lumana can deliver live video through a local connection or through Lumana Cloud. The available path depends on your network, device, browser support, and the number of streams you open.
 
-In most cases, the biggest factors are whether the viewing device can reach Lumana Core directly on the network and whether the browser or device supports the available stream format. Stream layout and bandwidth then affect which quality level Lumana can use.
+Two factors usually matter most. The viewing device must reach Lumana Core directly on the network. The browser or device must also support the available stream format. Stream layout and bandwidth then affect which quality level Lumana can use.
 
 The live player shows the time, stream status, and controls such as zoom and **HQ** for high quality.
 
@@ -26,7 +26,7 @@ Use local streaming when the viewing device can reach Lumana Core directly on th
 - No proxy between the client and Lumana Core.
 
 {% hint style="info" %}
-If a camera uses H.265 and the viewing browser or device does not support H.265, then medium-quality (MQ) local streaming may work while high-quality (HQ) local streaming does not.
+If a camera uses H.265 and your browser or device doesn't support H.265, then medium-quality (MQ) local streaming may work, but high-quality (HQ) local streaming won't.
 {% endhint %}
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-local-streaming-diagram.png" alt="Diagram showing local streaming from Lumana Core to the viewing device through the local network." width="375"></div>
@@ -71,7 +71,7 @@ Lumana supports standard quality (SQ), medium quality (MQ), and high quality (HQ
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-multi-stream-example.png" alt="Multi-stream live view example." width="563"></div>
 
-In the example above, the top cameras use `MQ`, while the lower cameras use `SQ`. Hovering over a stream lets you change the stream quality.
+In the example above, the top cameras use **MQ**, while the lower cameras use **SQ**. Hovering over a stream lets you change the stream quality.
 
 ### Reference values
 

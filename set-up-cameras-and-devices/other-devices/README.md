@@ -1,3 +1,14 @@
 # Other devices
 
-Coming soon!
+
+Connect storage, sensors, speakers, and other supported hardware to extend what Lumana can monitor and respond to. Select a device type below for setup steps.
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/icon-circle-stack.svg" alt=""></td><td><strong>Network attached storage (NAS) devices</strong></td><td>Connect a NAS device to Lumana to expand recording storage and keep a backup of recorded video.</td><td><a href="network-attached-storage-nas-devices.md">network-attached-storage-nas-devices.md</a></td></tr><tr><td><img src="../../.gitbook/assets/icon-eye.svg" alt=""></td><td><strong>FLIR sensors</strong></td><td>Coming soon.</td><td><a href="flir-sensors.md">flir-sensors.md</a></td></tr><tr><td><img src="../../.gitbook/assets/icon-signal.svg" alt=""></td><td><strong>Disruptive sensors</strong></td><td>Link Disruptive sensor events, such as temperature changes, to camera views and automated actions.</td><td><a href="disruptive-sensors.md">disruptive-sensors.md</a></td></tr><tr><td><img src="../../.gitbook/assets/icon-speaker-wave.svg" alt=""></td><td><strong>Smart speakers</strong></td><td>Tie IP speakers to Lumana so alerts trigger audible messages or pre-recorded sound patterns.</td><td><a href="smart-speakers.md">smart-speakers.md</a></td></tr><tr><td><img src="../../.gitbook/assets/icon-wrench-screwdriver.svg" alt=""></td><td><strong>Configure SIP for smart speakers</strong></td><td>Enable SIP to allow communication between Lumana and external network audio devices.</td><td><a href="sip-for-smart-speakers.md">sip-for-smart-speakers.md</a></td></tr><tr><td><img src="../../.gitbook/assets/icon-cpu-chip.svg" alt=""></td><td><strong>GPIO devices</strong></td><td>Use the GPIO interface on Lumana Core to interact with external devices such as door controllers and alarms.</td><td><a href="gpio-devices.md">gpio-devices.md</a></td></tr></tbody></table>
+
+## Next steps
+
+After you connect extra hardware, tie it back into your monitoring and alerting workflows.
+
+- Use [Alert types](../../alerts-and-ai-detection/alert-types/README.md) to trigger speakers, GPIO devices, or notifications from sensor events.
+- Use [Camera networking options](../camera-networking-options.md) to confirm Lumana Core can reach the devices on your network.
+- Read [Set up a static IP address](../set-up-a-static-ip-address.md) when storage or sensors need a fixed address.
