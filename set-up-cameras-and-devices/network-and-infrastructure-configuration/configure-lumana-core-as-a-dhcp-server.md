@@ -18,21 +18,33 @@ When you enable DHCP on Lumana Core, the server assigns addresses and manages cl
 
 - Confirm you can edit the relevant Core in Lumana.
 - Connect the devices you want Lumana Core to manage to **Ethernet 2**.
-- If another DHCP server is already active on that segment, then review the impact before you enable this feature. Turning on Lumana’s DHCP server can change IP assignments for devices on the network.
+- If another DHCP server is already active on that segment, then review the impact before you enable this feature. Turning on Lumana's DHCP server can change IP assignments for devices on the network.
 
 ## Configure DHCP server on Lumana Core
 
-1. In the left sidebar, select the <img src="../../.gitbook/assets/dhcp-sidebar-cameras-icon.png" alt="Cameras icon in the sidebar." data-size="line"> **Cameras** icon.
+1. Select the <img src="../../.gitbook/assets/dhcp-sidebar-cameras-icon.png" alt="Cameras icon in the sidebar." data-size="line"> **Cameras** icon in the left sidebar.
 
-2. Select **Devices**. Under **Devices by types**, select **Cores** (for example the **1 core** tile). On the **Devices list**, apply the **Cores** filter if it is not already active. Then select **Edit location** <img src="../../.gitbook/assets/dhcp-edit-pencil-icon.png" alt="Edit pencil icon." data-size="line"> on the row for the location that contains the Core where you want DHCP.
+2. Select **Devices**.
+
+3. Select **Cores** under **Devices by types** (for example the **1 core** tile).
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-devices-by-types-core-tile.png" alt="Devices overview with Devices by types and Core tile selected." width="563"></div>
 
+4. Apply the **Cores** filter on the **Devices list** if it is not already active.
+
+5. Select **Edit location** <img src="../../.gitbook/assets/dhcp-edit-pencil-icon.png" alt="Edit pencil icon." data-size="line"> on the row for the location that contains the Core where you want DHCP.
+
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-devices-list-edit-location.png" alt="Devices list filtered to Cores with Edit location on the location row." width="563"></div>
 
-3. Select **DHCP Server** in the sidebar, enter the required parameters, then select **Enable**.
+6. Select **DHCP Server** in the Core editor sidebar.
+
+7. Enter **Starting IP address**, **Ending IP address**, **DNS servers**, **Gateway**, and **Lease time** using the definitions in [Configuration parameters](#configuration-parameters).
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-server-configuration-form.png" alt="Edit Core with DHCP Server selected: pool fields, DNS, gateway, lease time, and Enable." width="563"></div>
+
+8. Select **Enable**.
+
+   The DHCP server turns on for **Ethernet 2**. Select **Save** on the Core or location editor when the UI requires it to persist the change.
 
 ## Configuration parameters
 
@@ -58,17 +70,23 @@ Lumana Core supports DHCP address reservation, allowing specific devices to alwa
 
 ### Configure address reservation
 
-1. Identify the MAC address of the device that requires a reserved IP.
-2. Assign a specific IP address within the DHCP range to the device.
-3. Ensure that the reserved IP does not overlap with dynamically assigned addresses.
-4. Save the configuration so that the device always receives the assigned IP when connecting to the network.
+1. Open the address reservation section on the **DHCP Server** page.
+
+   It sits below the pool fields on the same page after **Enable** is on for that Core.
+2. Add a reservation row using the control the UI provides (for example **Add** or an empty row in the reservation table).
+
+3. Enter the client's **MAC address** and the **IP address** you want to reserve. Keep the IP inside the pool from **Starting IP address** through **Ending IP address**.
+
+4. Confirm the IP does not duplicate another reservation or conflict with addresses you need for non-DHCP devices.
+
+5. Select **Save** on the Core or location editor if prompted, so Lumana Core stores the reservation.
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-address-reservation-ui.png" alt="DHCP Server page with address reservation table and fields for MAC and reserved IP." width="563"></div>
 
 ### Address reservation use cases
 
 - Stable IP addresses for critical infrastructure such as servers and dedicated cameras
 - Fewer conflicts when you pre-assign addresses that operators expect to stay fixed
-
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/dhcp-address-reservation-ui.png" alt="" width="563"></div>
 
 ## Next steps
 
