@@ -134,10 +134,10 @@ Build the main stream first. Set the **profile name** to something you will reco
 * **Resolution**: Choose the highest resolution your camera offers for this profile. Higher resolution improves identification and fine detail in monitors and investigations.
 * **Frame rate**: 15 fps.
 * **Video encoding**: Prefer **H.265** when available for better compression at similar quality (lower bandwidth and storage than H.264 at many settings). If **H.265** is not available, **H.264** is a suitable alternative.
-* **Bitrate**: Follow [Recommended streaming settings](../recommended-streaming-settings.md).
+* **Bitrate**: Follow [Recommended streaming settings](../recommended-streaming-settings.md). In Axis, the control may appear as **Maximum** (MBR with a cap) instead of a separate CBR toggle—set the cap so the stream stays within those targets.
 * **Profile name and RTSP**: Save the profile. Example RTSP fragment: `/axis-media/media.amp?profile=lumana_main` (your UI may show `streamprofile=` instead of `profile=`). Keep whatever query parameter and name your firmware uses identical in Lumana.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-stream-profile-lumana-main.png" alt="Axis web interface: System, Stream profiles, Add stream profile showing Name lumana_main, H.265 codec, resolution, frame rate, and Create." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-stream-profile-lumana-main.png" alt="Axis Stream profiles editor for lumana_main with codec, resolution, frame rate, and bitrate controls (Maximum or CBR depending on firmware)." width="563"></div>
 
 ### Sub stream profile
 
@@ -151,3 +151,9 @@ Select **Add stream Profile** again and assign a different **profile name** (exa
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-stream-profile-lumana-sub.png" alt="Axis web interface: Stream profiles with Add stream profile showing Name lumana_sub, H.265, 1280x720, and existing lumana_main profile listed." width="563"></div>
 
 After both profiles are saved with stable names on the camera, return to Lumana Core and finish [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera) using root, your ONVIF user, or your dedicated user as planned. Where the onboarding flow asks for URLs or profile tokens, paste the same profile names you configured in Axis.
+
+## Next steps
+
+- Use [Recommended streaming settings](../recommended-streaming-settings.md) to confirm encoder targets across brands.
+- Read [Enable PTZ control](../enable-ptz-control.md) when this camera drives pan, tilt, and zoom from Live view.
+- Use [Camera networking options](../camera-networking-options.md) if you reach the Axis web UI through Camera VPN.

@@ -4,6 +4,12 @@ Dome, Bullet, and Turret quick start PDFs plus Lumana Camera Finder reference ma
 
 If you have questions, contact [support@lumana.ai](mailto:support@lumana.ai).
 
+## Prerequisites
+
+- Physical access to Lumana cameras and a Windows or macOS PC on the same LAN for Camera Finder.
+- Administrator credentials for cameras you will configure.
+- A Lumana organization where you can [add cameras](../../getting-started/connect-a-camera.md#connect-a-camera) after network setup.
+
 ## Quick start PDFs
 
 - [Turret quick start (PDF)](https://support.lumana.ai/hc/en-us/article_attachments/17249698970770)
@@ -25,7 +31,7 @@ The software scans for devices on the LAN where the PC is connected and lists di
 
 You need to log in to the devices before you change the configuration.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/connect-cameras-by-brand/lumana/camera-finder-device-management.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/connect-cameras-by-brand/lumana/camera-finder-device-management.png" alt="Lumana Camera Finder device list with discovered cameras; model names depend on hardware." width="563"></div>
 
 ## Management and configuration
 
@@ -53,3 +59,9 @@ Save the current configuration of a device as a file for backup or replication p
 ## Debugging and support
 
 If you run into camera issues, then the Lumana Camera Finder application offers debugging tools. You can retrieve the device’s serial number and access diagnostic information through the advanced menu. You can provide this data to Lumana Support for further troubleshooting.
+
+## Next steps
+
+- [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera) in the Lumana portal after cameras are on the network.
+- Use [Set up a static IP address](../set-up-a-static-ip-address.md) when cameras need fixed addresses before discovery.
+- Return to [Connect cameras by brand](README.md) for other manufacturers mixed into the same site.

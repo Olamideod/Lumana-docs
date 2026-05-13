@@ -11,17 +11,17 @@ Use Lumana's Remote PTZ (Pan-Tilt-Zoom) control to adjust camera direction and z
 ## Configure PTZ on the camera
 
 1. Open the camera from the **Devices** list.
-2. Select the **Edit camera** icon <img src="../.gitbook/assets/edit-camera-icon-inline.png" alt="Edit camera pencil icon." data-size="line"> on the camera live view.
+2. Select the **Edit camera** control on the camera live view (pencil **Edit camera** icon or **Settings** gear, depending on your UI version).
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/enable-ptz-control/live-view-edit-camera-button.png" alt="" width="563"></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/enable-ptz-control/live-view-edit-camera-button.png" alt="Live view toolbar highlighting Edit camera or Settings to open camera configuration." width="563"></div>
 
 3. Navigate to the **PTZ** section.
 4. Enable **PTZ support**.
 5. Select the **Driver**. Most cameras use **ONVIF** by default.
-6. Enter the **PTZ control path**. A common format is `{camera_IP}:80/onvif/device_service`.
-7. Specify the **port** when it differs from the default `80`.
+6. Enter the **PTZ control path** and address fields as your firmware labels them (**PTZ control path**, **X address**, or similar). A common path pattern is `{camera_IP}:80/onvif/device_service`.
+7. Enter the **port** when it differs from the default `80`.
 
-    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/enable-ptz-control/ptz-settings-onvif-address-port.png" alt="" width="563"></div>
+    <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/enable-ptz-control/ptz-settings-onvif-address-port.png" alt="PTZ settings with driver, path, address, and port fields as shown in the Lumana Edit camera form." width="563"></div>
 
 8. Select **Save** to apply changes.
 

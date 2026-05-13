@@ -68,7 +68,7 @@ The steps and screenshots below show one example camera's local web interface. Y
 The example below assumes these factory defaults on the camera (your labels may differ):
 
 - Default IP address for the camera is: `192.168.1.13`
-- Default Subnet Mask: `255.255.255.0`
+- Default **Subnet mask**: `255.255.255.0`
 - Default user: `admin`
 - Default password: `123456`
 
@@ -91,7 +91,7 @@ If you need step-by-step instructions, then refer to your computer or operating 
 
 6. Change the **network mode** from **DHCP** to **Static IP**.
 
-7. Enter your **IP address**, **Subnet mask**, and **gateway**.
+7. Enter your **IP address**, **Subnet mask**, and **gateway**. If the camera labels the field differently (for example **Netmask**), use the same subnet value your network requires.
 
 8. Select **Save** to apply your changes.
 

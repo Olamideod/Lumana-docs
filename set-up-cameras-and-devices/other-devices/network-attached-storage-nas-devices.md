@@ -50,7 +50,7 @@ If you record to NAS for more than 30 days and want to keep **Smart Search** fun
 
 3. Set **Additional storage** to **On**, then set the target type to **External**. Choose the NFS or object storage entry you created for this location, for example `NFS-Server-1`.
 
-4. Set **External retention** and what to copy to the NAS:
+4. Set **External retention period** and what to copy to the NAS:
 
    * Choose the retention period for videos on external storage: 30 / 60 / 90 / 180 / 365 days (or the options your UI shows).
    * Turn on **Storage (SQ)** for standard-quality continuous footage backups.

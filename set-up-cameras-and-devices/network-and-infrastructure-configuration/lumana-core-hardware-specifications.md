@@ -16,7 +16,7 @@ Use the following sections to connect power and Ethernet before you provision th
 
 ### Power connection
 
-Lumana Core ships with a **120 V** AC to **12 V DC** power adapter. Connect it to the **POWER** input on the rear panel.
+Lumana Core ships with a **120 V** AC to **12 V DC** power adapter. Plug the barrel connector into **DC IN** on the rear panel. Use **POWER** only for the power button, not for the adapter cable.
 
 ### Network connection
 

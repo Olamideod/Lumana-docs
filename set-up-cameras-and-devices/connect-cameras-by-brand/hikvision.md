@@ -94,7 +94,7 @@ If you are using admin credentials, then you can proceed directly to [Connect a 
 
 Example: **Integration Protocol** with **Hikvision-CGI** (digest), **ONVIF** enabled, and **Add** available for users:
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-integration-protocol-onvif.png" alt="Hikvision Configuration Network Advanced Settings Integration Protocol: Enable Hikvision-CGI digest, Enable ONVIF, user list and Save." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-integration-protocol-onvif.png" alt="Hikvision Configuration Network Advanced Settings Integration Protocol: Enable Hikvision-CGI Digest, Enable ONVIF, user list and Save." width="563"></div>
 
 After completing ONVIF setup, proceed to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera).
 

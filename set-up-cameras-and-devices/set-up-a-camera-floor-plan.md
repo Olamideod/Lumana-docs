@@ -17,9 +17,9 @@ Floor plans tie each camera to a location on your site, which makes coverage eas
 
 ## Add a floor plan and place cameras
 
-1. Go to the **Floor plans** menu at the top left corner of the screen.
+1. In the top bar, open the **Floor plans** menu (position varies by layout; in some themes it sits toward the upper right, as in the screenshot below).
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/set-up-a-camera-floor-plan/floor-plans-menu-overview.png" alt="Home view with top navigation; select Floor plans to open floor plan setup." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/set-up-a-camera-floor-plan/floor-plans-menu-overview.png" alt="Home view with top navigation; Floor plans control may appear left or right depending on theme." width="563"></div>
 
 2. Select **Create building**.
 
@@ -37,11 +37,11 @@ Floor plans tie each camera to a location on your site, which makes coverage eas
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/set-up-a-camera-floor-plan/upload-floor-plan-dialog.png" alt="Create floor plan dialog with Floor name, Tags, drag-and-drop upload area, and Add floor plan." width="563"></div>
 
-8. Select the <img src="../.gitbook/assets/set-up-cameras-and-devices/set-up-a-camera-floor-plan/floor-plan-add-camera-icon.png" alt="Add camera" data-size="line"> icon in the top right corner to start adding and positioning your cameras on the floor plan.
+8. Select the <img src="../.gitbook/assets/set-up-cameras-and-devices/set-up-a-camera-floor-plan/floor-plan-add-camera-icon.png" alt="Add camera" data-size="line"> icon in the top right corner to start placing cameras on the floor plan.
 
-9. Select **Add floor plan** to save the floor plan.
+9. Select **Add floor plan** to save the layout after you finish positioning cameras.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/set-up-a-camera-floor-plan/edit-floor-plan-layout.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/set-up-cameras-and-devices/set-up-a-camera-floor-plan/edit-floor-plan-layout.png" alt="Floor plan editor: map image with camera markers and controls before saving." width="563"></div>
 
 The floor plan is ready to use. Hover over any camera marker to see its live view.
 

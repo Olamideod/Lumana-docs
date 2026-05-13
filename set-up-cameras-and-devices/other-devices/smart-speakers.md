@@ -8,10 +8,10 @@ Lumana can also use Session Initiation Protocol (SIP) with supported network spe
 
 Typical reasons teams add speakers include:
 
-- **Pre-recorded alarms:** When the system flags a threat, play a stored clip to alert people nearby.
-- **Voice-style alerts:** Call out safety issues, such as someone too close to machinery or an unsafe lane.
-- **Deterrence:** Make it clear the site is monitored so fewer people take risks.
-- **Emergency signaling:** Trigger outbound or on-site signals when the system detects events such as fire, smoke, or a firearm.
+- **Pre-recorded alarms**: When the system flags a threat, play a stored clip to alert people nearby.
+- **Voice-style alerts**: Call out safety issues, such as someone too close to machinery or an unsafe lane.
+- **Deterrence**: Make it clear the site is monitored so fewer people take risks.
+- **Emergency signaling**: Trigger outbound or on-site signals when the system detects events such as fire, smoke, or a firearm.
 
 ## Supported devices
 

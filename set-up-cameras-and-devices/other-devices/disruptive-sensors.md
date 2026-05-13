@@ -6,31 +6,35 @@ Connecting a Disruptive sensor to Lumana lets you link sensor events, such as te
 
 1. Generate a Lumana API key.
 
-   Log in to the Lumana portal, then navigate to **Organization settings** -> **API Keys**. Generate a key and save it. You will use it in the next step.
+   Log in to the Lumana portal, then navigate to **Organization settings** → **API Keys**. Generate a key and save it. You will use it in the next step.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/disruptive-sensors/disruptive-create-api-key.png" alt="" width="563"></div>
 
-2. Configure a data connector in the Disruptive portal.
+2. In the Disruptive portal, open **Data Connector**. Create a new connector.
 
-   In **Data Connector**, create a new connector and name it, for example `Lumana Production`. Use the following endpoint in **Endpoint URL**: `https://access.lumana.ai/v1/sensors/disruptive/heartbeat`. Then add the Lumana API key from step 1 in **Custom HTTP Request Header**.
+3. Name the connector (for example `Lumana Production`).
+
+4. In **Endpoint URL**, enter `https://access.lumana.ai/v1/sensors/disruptive/heartbeat`.
+
+5. In **Custom HTTP Request Header**, add the Lumana API key from step 1.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/disruptive-sensors/disruptive-data-connectors.png" alt="" width="563"></div>
 
-3. Create a Disruptive service account.
+6. Create a Disruptive service account.
 
    Create a new service account in the Disruptive portal. Generate a key and save the `Key ID` and `Secret`, then go to **Project Settings** and note the `Project ID`.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/disruptive-sensors/disruptive-service-accounts.png" alt="" width="563"></div>
 
-4. Link Disruptive to Lumana.
+7. In Lumana, open **Organization Settings** → **Integration** → **Disruptive**.
 
-   In the Lumana platform, go to **Organization Settings** -> **Integration** -> **Disruptive**. Enter the `Project ID`, `Key ID`, and `Secret`, then select **Install**.
+8. Enter the `Project ID`, `Key ID`, and `Secret`, then select **Install**.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/disruptive-sensors/disruptive-install-integration.png" alt="" width="563"></div>
 
-5. Connect sensors to cameras.
+9. In Lumana, go to **Devices** → **Location** → **Edit Location**.
 
-   In Lumana, navigate to **Devices** -> **Location** -> **Edit Location**. Add sensors from the available list, then assign each sensor to the relevant camera.
+10. Add sensors from the available list. Assign each sensor to the relevant camera.
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/disruptive-sensors/disruptive-location-sensors.png" alt="" width="563"></div>
 

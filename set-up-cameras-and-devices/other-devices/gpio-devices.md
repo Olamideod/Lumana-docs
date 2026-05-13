@@ -39,9 +39,11 @@ Gather the parts before you wire the circuit—the values below match the refere
 
 3. Select the GPIO line you want to drive.
 
-   The Core exposes up to four GPIO outputs. Choose high or low, how long the pulse stays active, and any timing your device needs.
+4. Choose high or low, how long the pulse stays active, and any timing your device needs.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-alert-toggle-gpio.png" alt="" width="563"></div>
+   The Core exposes up to four GPIO outputs.
+
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/other-devices/gpio-devices/gpio-alert-toggle-gpio.png" alt="Alert action editor showing Toggle GPIO with line and pulse options." width="563"></div>
 
 ## Next steps
 

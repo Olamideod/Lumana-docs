@@ -32,8 +32,9 @@ If you want to use a local NTP server instead:
 
 1. Select the pencil icon for the Core you want to update.
 2. Select **NTP**.
-3. Select **Add server** and enter the hostname or IP of the server you want to add.
-4. Select **Save**.
+3. Select **Add server**.
+4. Enter the hostname or IP address of the server you want to add.
+5. Select **Save**.
 
 ## Next steps
 

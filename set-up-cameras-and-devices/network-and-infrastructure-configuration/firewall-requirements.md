@@ -129,7 +129,7 @@ Allow at least two of the following NTP servers.
 - `archive.ubuntu.com` - ports: 80, 443 TCP outbound
 - `security.ubuntu.com` - ports: 80, 443 TCP outbound
 - `*canonical.com` - ports: 80, 443 TCP outbound
-- `ports.ubuntu.com` - 443 TCP outbound
+- `ports.ubuntu.com` - ports: 80, 443 TCP outbound
 - `repo.download.nvidia.com` - 443 TCP outbound
 - `nvidia.github.io` - 443 TCP outbound
 

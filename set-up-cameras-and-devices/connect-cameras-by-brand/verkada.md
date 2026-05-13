@@ -25,7 +25,7 @@ Replace `username`, `PASSWORD`, and the hostname with the values from your camer
    * **Username** and **Password**: Same as in the RTSP URL.
    * **Connection string**: `/high`
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/verkada-main-stream-rtsp-settings.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/verkada-main-stream-rtsp-settings.png" alt="Lumana camera form Main stream fields filled from a Verkada RTSP URL." width="563"></div>
 
 3. Select **Test**, then wait until the camera preview appears.
 4. Select **Save**.
@@ -36,7 +36,7 @@ Replace `username`, `PASSWORD`, and the hostname with the values from your camer
 2. Enter the same **IP address**, **RTSP Port**, **Username**, and **Password** as for **Main stream**.
 3. Set **Connection string** to `/low`.
 
-<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/verkada-sub-stream-rtsp-settings.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/verkada-sub-stream-rtsp-settings.png" alt="Lumana camera form Sub stream fields with connection string set to low path." width="563"></div>
 
 4. Select **Test**, then wait until the camera preview appears.
 5. Select **Save**.
@@ -44,3 +44,9 @@ Replace `username`, `PASSWORD`, and the hostname with the values from your camer
 {% hint style="info" %}
 Verkada allows only one RTSP client per stream URL. If another system uses the same RTSP URL as Lumana Core, then the stream might conflict. Give Lumana Core exclusive use of that URL, or map separate stream endpoints when Verkada offers them.
 {% endhint %}
+
+## Next steps
+
+- Read [Recommended streaming settings](../recommended-streaming-settings.md) to tune main and sub streams after video is stable.
+- Follow [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera) if you still need to register the device in Lumana.
+- Use [Connect cameras by brand](README.md) for other vendors' setup paths.

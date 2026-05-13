@@ -23,7 +23,9 @@ Lumana has been tested with the following camera brands:
 - Avigilon
 - Uniview
 - Mobotix
-- Pelco, and more...
+- Pelco
+
+Other brands that support ONVIF or RTSP may also work.
 
 {% hint style="info" %}
 If your camera is not listed, then it might still work when it supports ONVIF or RTSP.
