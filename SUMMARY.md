@@ -4,14 +4,11 @@
 
 ## Getting started
 
-* [What to expect](getting-started/what-to-expect.md)
-* [First steps](getting-started/first-steps.md)
-* [Set up Lumana Core](getting-started/set-up-lumana-core/README.md)
-  * [Overview](getting-started/set-up-lumana-core/overview.md)
-  * [Standard network installation](getting-started/set-up-lumana-core/standard-network-installation.md)
-  * [Isolated network installation](getting-started/set-up-lumana-core/isolated-network-installation.md)
-  * [Dual-network installation](getting-started/set-up-lumana-core/dual-network-installation.md)
-* [Connect a camera](getting-started/connect-a-camera.md)
+* [Getting started](getting-started/getting-started.md)
+* [Quick start](getting-started/quick-start.md)
+* [Part 1: Define your organization](getting-started/define-your-organization.md)
+* [Part 2: Connect your Lumana Core](getting-started/connect-lumana-core.md)
+* [Part 3: Connect your cameras](getting-started/connect-a-camera.md)
 
 ## The Lumana mobile app
 

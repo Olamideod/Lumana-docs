@@ -85,7 +85,7 @@ Example: **System** → **ONVIF** → **Add user**, **Administrator** role, and 
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-system-onvif-add-user-modal.png" alt="Axis System ONVIF page with Add user dialog: username, passwords, Administrator role, Save button." width="563"></div>
 
-After this, use the ONVIF username and password you created when you [connect the camera in Lumana Core](../../getting-started/connect-a-camera.md#connect-a-camera).
+After this, use the ONVIF username and password you created when you [connected the camera in Lumana Core](../../getting-started/connect-a-camera.md#connect-the-core-to-your-cameras).
 
 ### Add a dedicated user on your Axis camera
 
@@ -102,13 +102,13 @@ Use this section when you chose Dedicated camera user instead of the root accoun
 
 4. Save: Select **Save** and confirm the camera stored the new user.
 
-Use this username and password in Lumana Core when you [connect the camera](../../getting-started/connect-a-camera.md#connect-a-camera), not the root password, unless you switch back to the admin-credentials path.
+Use this username and password in Lumana Core when you [connected the camera](../../getting-started/connect-a-camera.md#connect-the-core-to-your-cameras), not the root password, unless you switch back to the admin-credentials path.
 
 ### Connect the camera in Lumana Core
 
 When the camera is reachable, authenticated, and, if needed, stream profiles are ready (next section), add the device in Lumana:
 
-[Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera)
+[Connect a camera](../../getting-started/connect-a-camera.md#connect-the-core-to-your-cameras)
 
 Enter root credentials if you use the admin path, the ONVIF user if you use ONVIF, or the dedicated user you created above. If Lumana still needs manual RTSP or profile strings, they come from the stream profile names you set on the camera.
 
@@ -150,7 +150,7 @@ Select **Add stream Profile** again and assign a different **profile name** (exa
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/set-up-cameras-and-devices/axis-stream-profile-lumana-sub.png" alt="Axis web interface: Stream profiles with Add stream profile showing Name lumana_sub, H.265, 1280x720, and existing lumana_main profile listed." width="563"></div>
 
-After both profiles are saved with stable names on the camera, return to Lumana Core and finish [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera) using root, your ONVIF user, or your dedicated user as planned. Where the onboarding flow asks for URLs or profile tokens, paste the same profile names you configured in Axis.
+After both profiles are saved with stable names on the camera, return to Lumana Core and finish [connecting the camera](../../getting-started/connect-a-camera.md#connect-the-core-to-your-cameras) using root, your ONVIF user, or your dedicated user as planned. Where the onboarding flow asks for URLs or profile tokens, paste the same profile names you configured in Axis.
 
 ## Next steps
 
