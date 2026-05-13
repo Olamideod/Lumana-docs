@@ -62,7 +62,7 @@ Add a detected vehicle when Lumana has already captured the plate and vehicle de
 
 1. In **Vehicles seen on camera**, select the vehicle you want to save.
 
-2. Enter the **owner name** field.
+2. In **owner name**, enter the owner's name (if the form shows that field).
 
 3. Verify the vehicle details in the dialog (plate, make, color, and other fields).
 

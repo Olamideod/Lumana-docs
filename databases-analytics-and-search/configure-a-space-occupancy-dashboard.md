@@ -25,11 +25,11 @@ First create or open a dashboard, add the occupancy widget, then choose the entr
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-entrances-dropdown-open.png" alt="" width="563"></div>
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-entrances-selected-preview.png" alt="" width="563"></div>
-
 ## Configure widget settings
 
 After you select the entrances and exits, configure the operational settings that control how the widget calculates and displays occupancy.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-entrances-selected-preview.png" alt="Occupancy widget with entrances selected and configuration options visible." width="563"></div>
 
 1. Choose the calculation method.
 
@@ -43,7 +43,7 @@ After you select the entrances and exits, configure the operational settings tha
 
    Use viewing hours when the widget should display occupancy data only during specific hours or days.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-settings-panel.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/space-occupancy-widget-settings-panel.png" alt="Full occupancy widget settings panel with calculation method, reset time, and viewing hours." width="563"></div>
 
 ## Review the results
 

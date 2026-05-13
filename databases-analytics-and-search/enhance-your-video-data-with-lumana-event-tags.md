@@ -20,7 +20,7 @@ Lumana authenticates POST requests with API keys and your organization ID. Send 
 4. Enter an **API Key name** and an **Expiration** value. The dialog shows the generated secret; copy it or use download if you prefer. You will not see the full key again after you complete the dialog.
 5. Select **Create** to finish.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-create-api-key-modal.png" alt="" width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-create-api-key-modal.png" alt="Create API Key dialog with name, expiration, generated secret, and Create button." width="563"></div>
 
 {% hint style="warning" %}
 Keep your API key secret. Anyone who has it can post events to your organization until it expires or you revoke it.
@@ -33,9 +33,13 @@ An event tag is a template for events you will POST. It has a display name, a **
 ### Open event tag management
 
 1. In the sidebar, select **Database**, then **Event tags**.
-2. Select **Create event tag** to add a new definition, or open an existing tag in the list to edit it.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-database-list.png" alt="" width="563"></div>
+   For a new tag, continue with step 2. For an existing tag, continue with step 3.
+
+2. Select **Create event tag** when you need a new definition.
+3. Select a tag in the list when you need to edit an existing definition.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-database-list.png" alt="Event tags list in Database with Create event tag and saved definitions." width="563"></div>
 
 ### Fill in the tag
 

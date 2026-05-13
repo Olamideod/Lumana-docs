@@ -1,6 +1,6 @@
 # Style guide compliance defect report (round 3)
 
-This is a fresh review of the sections **`databases-analytics-and-search`** and **`set-up-cameras-and-devices`** against `STYLEGUIDE.md`. This pass also verified that the screenshots match the steps they sit next to (image-vs-step accuracy). The **`live-video-monitoring-and-operations`** round-3 items were closed in a May 2026 follow-up and are no longer listed here.
+This is a fresh review of **`set-up-cameras-and-devices`** against `STYLEGUIDE.md`. This pass also verified that the screenshots match the steps they sit next to (image-vs-step accuracy). The **`live-video-monitoring-and-operations`** and **`databases-analytics-and-search`** round-3 items were closed in a May 2026 follow-up and are no longer listed here.
 
 The categories used here map directly to the style guide. Where a file passes a category, the category is omitted for that file. Each defect quotes the offending text and gives a line number so you can find it quickly. Many reported items have been fixed in the repo since this review; re-open cited lines to confirm current state.
 
@@ -17,76 +17,7 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ---
 
-## Section 1 — `databases-analytics-and-search`
-
-### `databases-analytics-and-search/README.md`
-
-**Structural:**
-- ✅ [L1](databases-analytics-and-search/README.md#L1)–[L9](databases-analytics-and-search/README.md#L9): No "Next steps" section. *Verified — section index file ends at the cards table.*
-
----
-
-### `databases-analytics-and-search/build-a-database-of-people-and-vehicles.md`
-
-**List/step issues:**
-- ✅ [L27](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md#L27)–[L78](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md#L78): Indentation under numbered items is inconsistent (single vs double space after `1.`). *Re-verify if you edit this page; scanning suggests mixed spacing remains in places.*
-
-**Image-vs-step mismatches:**
-- ✅ [L60](databases-analytics-and-search/build-a-database-of-people-and-vehicles.md#L60): step 2 says "Enter the **owner name** field" while the UI label is reportedly `owner name`. *Body text verified; live-UI label needs a visual review.*
-
----
-
-### `databases-analytics-and-search/configure-a-space-occupancy-dashboard.md`
-
-**Image-vs-step mismatches:**
-- ⚠️ [L28](databases-analytics-and-search/configure-a-space-occupancy-dashboard.md#L28): `space-occupancy-widget-entrances-selected-preview.png` sits in "Add the occupancy widget" but reportedly shows the full settings panel that belongs to "Configure widget settings". *Image path and surrounding section verified at L9 and L30; image content needs a visual review.*
-
----
-
-### `databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md`
-
-**UI element issues / trustworthiness:**
-- ✅ [L19](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L19): "Select **Generate Key** (or the control that starts the create flow). The **Create API Key** dialog opens." — hedged UI label. [Trustworthy writing](STYLEGUIDE.md) says verify against the live product. *Verified.*
-- ✅ [L36](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L36): "Select **Create event tag** (or open an existing tag to edit it)." — same hedging pattern. *Verified.*
-
-**Image-vs-step mismatch:**
-- ✅ [L19](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L19), [L23](databases-analytics-and-search/enhance-your-video-data-with-lumana-event-tags.md#L23): body text on L19 refers to **Generate Key** while the screenshot reportedly shows a **Create API Key** dialog with a **Create** button. *Body text verified; image content needs a visual review.*
-
----
-
-### `databases-analytics-and-search/free-text-search.md`
-
-**List/step issues:**
-- ✅ [L29](databases-analytics-and-search/free-text-search.md#L29)–[L33](databases-analytics-and-search/free-text-search.md#L33): step 3 ("Review the text search page.") uses the same image `free-text-search-text-search-screen.png` as step 2 ([L28](databases-analytics-and-search/free-text-search.md#L28)). *Verified — both steps reference the same screenshot.*
-
----
-
-### `databases-analytics-and-search/generate-reports.md`
-
-**Headings:**
-- ⚠️ [L43](databases-analytics-and-search/generate-reports.md#L43): "Report modes: One-time or recurring" — fragment after colon should be lowercase per the [colon rule](STYLEGUIDE.md). *Note: this is in a heading, where the colon-after rule is less universally applied; verifying the literal text exists at L43.*
-
-**List/step issues:**
-- ✅ [L17](databases-analytics-and-search/generate-reports.md#L17)–[L41](databases-analytics-and-search/generate-reports.md#L41): numbered list mixes setup steps with reference content (the type definitions). Step 1 ([L21](databases-analytics-and-search/generate-reports.md#L21)) combines several actions; step 2 ([L25](databases-analytics-and-search/generate-reports.md#L25)) mixes form-fill with conditional branches for One-time vs Recurring. *Verified.*
-
----
-
-### `databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md`
-
-**Headings:**
-- ✅ [L13](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L13): "Open Search and set the scope" — bare infinitive; combines two actions in heading. *Verified.*
-
-**List/step issues:**
-- ✅ [L41](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L41): step 1 of "Search for a person" "On the Search page, select the time range and cameras you want. Then open the **Person** section and start a person search." — combines two actions. *Verified.*
-- ✅ [L61](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L61): step 1 of "Search for a vehicle" — same pattern. *Verified.*
-- ✅ [L83](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L83)–[L85](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L85) and [L91](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L91)–[L96](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L96): numbered list items act as image-overlay annotations rather than procedural steps. [Lists, steps, and tables](STYLEGUIDE.md) reserves numbered lists for sequences. *Verified two blocks.*
-
-**UI naming inconsistency (cross-image):**
-- ⚠️ [L21](databases-analytics-and-search/search-video-footage-for-people-or-vehicles.md#L21): body uses **Dwell** while the screenshot reportedly shows **Time period**. *Body text verified; image content needs a visual review.*
-
----
-
-## Section 2 — `set-up-cameras-and-devices` (root + `connect-cameras-by-brand`)
+## Section 1 — `set-up-cameras-and-devices` (root + `connect-cameras-by-brand`)
 
 ### `set-up-cameras-and-devices/README.md`
 
@@ -260,7 +191,7 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ---
 
-## Section 2 (continued) — `network-and-infrastructure-configuration` and `other-devices`
+## Section 1 (continued) — `network-and-infrastructure-configuration` and `other-devices`
 
 ### `set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md`
 

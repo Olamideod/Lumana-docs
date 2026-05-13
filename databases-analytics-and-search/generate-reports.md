@@ -22,21 +22,27 @@ Lumana groups exports into three categories. Each report uses the **Create repor
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/generate-reports-empty-state.png" alt="" width="563"></div>
 
-2. On **Create report**, set **Name** (replace **Untitled report** when needed). Choose **Type**, **Cameras**, and **People to exclude** when that field appears for your **Type**.
+2. On **Create report**, set **Name** (replace **Untitled report** when needed).
+
+3. Choose **Type**, **Cameras**, and **People to exclude** when that field appears for your **Type**.
+
+4. Set how the export runs:
 
    For **One time**, use **Reporting period** for the date range. Set the timezone in the control next to the range.
 
    For **Recurring**, set **Period**, **Include**, and **Schedule** (day, time, and timezone) as needed.
 
-   Under **Notifications**, choose recipients (**Choose people to notify**). When the form is complete, select **Create report** in the upper right.
+5. Under **Notifications**, choose recipients (**Choose people to notify**). When the form is complete, select **Create report** in the upper right.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/generate-reports-create-report-form.png" alt="" width="563"></div>
 
-3. Under **Type**, pick one of these categories:
+### Report type categories
 
-   - **Alerts**: Summarizes triggered alerts based on selected filters (for example, alert type, camera, location).
-   - **Attendance**: Tracks entries and presence data for individuals.
-   - **License plates**: Extracts license plate recognition data from selected cameras and time ranges.
+When you set **Type**, choose **Alerts**, **Attendance**, or **License plates**:
+
+- **Alerts**: Summarizes triggered alerts based on selected filters (for example, alert type, camera, location).
+- **Attendance**: Tracks entries and presence data for individuals.
+- **License plates**: Extracts license plate recognition data from selected cameras and time ranges.
 
 Each type uses the cameras, schedule, and options you set on **Create report**.
 
