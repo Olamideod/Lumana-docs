@@ -57,7 +57,7 @@ In a browser, open the camera using the IP address from SADP (for example `http:
 
 If the web sign-in succeeds with the IP address from SADP, then the camera is initialized properly. At this stage, the device is ready to connect to Lumana Core. Use the admin credentials method for the best compatibility and feature access.
 
-If you are using admin credentials, then you can proceed directly to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera).
+If you are using admin credentials, then you can proceed directly to [connect the camera](../../getting-started/connect-a-camera.md#connect-the-core-to-your-cameras).
 
 ### Configure ONVIF on your Hikvision camera
 
@@ -96,7 +96,7 @@ Example: **Integration Protocol** with **Hikvision-CGI** (digest), **ONVIF** ena
 
 <div align="center" data-with-frame="true"><img src="../../.gitbook/assets/hikvision-integration-protocol-onvif.png" alt="Hikvision Configuration Network Advanced Settings Integration Protocol: Enable Hikvision-CGI Digest, Enable ONVIF, user list and Save." width="563"></div>
 
-After completing ONVIF setup, proceed to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera).
+After completing ONVIF setup, proceed to [connect the camera](../../getting-started/connect-a-camera.md#connect-the-core-to-your-cameras).
 
 ### Create a new user on your Hikvision camera
 
@@ -124,4 +124,4 @@ After completing ONVIF setup, proceed to [Connect a camera](../../getting-starte
 Using an **Operator** user with broad remote permissions (often **Select all** in the **Add** user dialog) gives Lumana Core reliable access to camera and stream settings.
 
 
-You can now proceed to [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera), which guides you through adding your camera to Lumana Core and confirming that the camera is online and streaming.
+You can now proceed to [connect the camera to your Lumana Core](../../getting-started/connect-a-camera.md).

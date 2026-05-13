@@ -47,6 +47,6 @@ Verkada allows only one RTSP client per stream URL. If another system uses the s
 
 ## Next steps
 
+- [Connect the camera](../../getting-started/connect-a-camera.md#connect-a-camera) to your Lumana Core if necessary.
 - Read [Recommended streaming settings](../recommended-streaming-settings.md) to tune main and sub streams after video is stable.
-- Follow [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera) if you still need to register the device in Lumana.
 - Use [Connect cameras by brand](README.md) for other vendors' setup paths.

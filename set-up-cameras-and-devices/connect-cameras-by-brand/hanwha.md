@@ -87,7 +87,7 @@ For more context, see [Set up a static IP address](../set-up-a-static-ip-address
 
 ### Add the camera in Lumana Core
 
-1. [Connect the camera](../../getting-started/connect-a-camera.md#connect-a-camera) with the credentials and method you chose at the top of this page (admin, ONVIF, or dedicated user).
+1. [Connect the camera](../../getting-started/connect-a-camera.md#connect-the-core-to-your-cameras) with the credentials and method you chose at the top of this page (admin, ONVIF, or dedicated user).
 2. When you need stream or [RTSP](../../faq-and-reference/lumana-glossary.md#rtsp) paths, use URLs that match your profile numbers. For the profile 3 / profile 4 layout in this guide:
 
 * Main stream: `/0/profile3/media.smp` or `/profile3/media.smp`

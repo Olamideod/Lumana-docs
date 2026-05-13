@@ -61,4 +61,4 @@ Lumana also integrates with cameras from the brands below. Use each vendor's adm
 
 - Return to [Supported cameras](./supported-cameras.md) for the full brand list and onboarding links.
 - Read [Recommended streaming settings](../recommended-streaming-settings.md) before you tune third-party streams.
-- Follow [Connect a camera](../../getting-started/connect-a-camera.md#connect-a-camera) when you are ready to add a device in Lumana.
+- [Connect the camera](../../getting-started/connect-a-camera.md#connect-the-core-to-your-cameras) to your Lumana Core.

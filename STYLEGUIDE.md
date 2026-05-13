@@ -361,7 +361,6 @@ All images and icons live in `.gitbook/assets/`. Use section-based subfolders to
 .gitbook/assets/
 ├── icons/
 ├── getting-started/
-│   └── mobile-app/
 ├── alerts-and-ai-detection/
 ├── dashboards/
 │   ├── main/
