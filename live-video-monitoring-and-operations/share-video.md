@@ -32,7 +32,12 @@ From **Live view**, **Share camera** opens when you select **Share**. From an al
 
 1. Enter a **Name** for this share (for example the incident or camera name).
 2. Open **Access to video for** and choose how long the link works, for example **7 days**.
-3. Turn **Allow to download** on or off so viewers can save the file or stream only. **Share camera** omits this toggle; **Share archive** and **Share alert** include it.
+3. Turn **Allow to download** on or off so viewers can save the file or stream only.
+
+   {% hint style="info" %}
+   **Share camera** does not include **Allow to download**. **Share archive** and **Share alert** do.
+   {% endhint %}
+
 4. Turn **Password** on, then type and confirm a password when viewers must enter one before playback.
 5. Select **Create link**.
 
@@ -41,13 +46,14 @@ From **Live view**, **Share camera** opens when you select **Share**. From an al
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-archive-dialog.png" alt="" width="563"></div>
 
 6. Open the **Existing links** tab when you need an earlier link or want to send one by email or SMS.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-existing-links-dialog.png" alt="Share archive dialog with link fields; Existing links tab shows a count badge when saved links exist. Active tab may read Create link or Share depending on version." width="563"></div>
+
 7. Select **Done** to close **Share archive**.
 
 ### Send the link by email or SMS
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/share-video-existing-links-dialog.png" alt="" width="563"></div>
-
-1. Select the arrow button next to the share link.
+1. Select the arrow button next to the share link you want to deliver on the **Existing links** tab.
 
    You can enter one or more email addresses or phone numbers.
 

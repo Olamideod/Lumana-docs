@@ -47,7 +47,7 @@ If Lumana cannot establish a local connection, then it switches to cloud streami
 
 Cloud streaming also helps distribute live video to multiple viewers without requiring each viewer to connect directly to Lumana Core.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-cloud-streaming-diagram.png" alt="Diagram showing cloud streaming: when the viewing device cannot reach Lumana Core directly, the live view is routed through Lumana Cloud over WebRTC to the client." width="563"></div>
+When Lumana falls back to cloud streaming, the path is **Viewing device ↔ Lumana Cloud (WebRTC) ↔ Lumana Core**, so the client still receives live video without a direct LAN route to Core.
 
 ## Streaming quality
 
@@ -57,15 +57,15 @@ This helps balance video clarity, bandwidth use, and playback performance across
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-screenshots/live-view-player-office-hq.png" alt="" width="563"></div>
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-quality-routing-diagram.png" alt="Diagram showing how Lumana selects standard, medium, or high quality live view based on stream layout, available bandwidth, browser and codec support, and player size." width="563"></div>
-
 ### How quality selection works
 
-Lumana supports standard quality (SQ), medium quality (MQ), and high quality (HQ) live view modes. The selected mode depends on the stream layout, the available bandwidth, and the player size.
+Lumana supports standard quality (SQ), medium quality (MQ), and high quality (HQ) live view modes. In ordinary use Lumana weighs all of the following together:
 
-- Lumana might choose a lower quality automatically when you open multiple streams at the same time.
-- You can change the stream quality manually from the player controls.
-- In multi-camera layouts, Lumana might prioritize smoother playback over higher quality.
+- **Layout**: More simultaneous streams leave less headroom, so Lumana might lower quality to keep playback smooth.
+- **Bandwidth**: Less available throughput favors SQ or MQ over HQ.
+- **Codec and browser support**: Unsupported or inefficient codec paths can force a lower rung (for example MQ instead of HQ for some H.265 setups).
+- **Player size**: Smaller tiles or picture-in-picture windows can use a lower tier because fine detail is less visible.
+- **Manual override**: You can change stream quality from the player controls. In multi-camera layouts you can pick per stream; Lumana might still prioritize smoother playback when many tiles are open.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/live-view-multi-stream-example.png" alt="Multi-stream live view example." width="563"></div>
 
@@ -73,7 +73,7 @@ In the example above, the top cameras use **MQ**, while the lower cameras use **
 
 ### Reference values
 
-Use the following table as a reference for typical local and cloud live view resolutions and approximate bitrates. Values might vary by codec, scene complexity, and camera configuration.
+Use the following table as a reference. Values might vary by codec, scene complexity, and camera configuration:
 
 | Native resolution | Quality    | Resolution | Estimated bitrate |
 | ----------------- | ---------- | ---------- | ----------------- |

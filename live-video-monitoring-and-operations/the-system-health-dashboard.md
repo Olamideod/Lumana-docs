@@ -12,11 +12,11 @@ Open the dashboard from the **Devices list** to see the current health status of
 
 1. Go to **Devices** > **Devices list**. If another tab is selected at the top of the page (for example **Cameras** or **Map**), then select **Devices** so the devices table is visible.
 
-2. In the header row for the location, select the **System health** icon (pulse/line graph). The icon sits to the right, near the add, edit, and reorder actions.
+2. In the header row for the location, select the **System health** icon (pulse/line graph). The icon sits to the right, near the add, edit, and reorder actions. The screenshot below shows the **Devices list** with that icon highlighted; you are still on **Devices list** until the dashboard loads.
 
-   The system health dashboard opens and shows the current status of your Cores, cameras, storage, and recent recording for that location.
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-overview.png" alt="Devices list for a location; the arrow points to the System health icon in the location header row." width="563"></div>
 
-   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/system-health-dashboard-overview.png" alt="" width="563"></div>
+3. After you select **System health**, the system health dashboard opens. It shows the current status of your Cores, cameras, storage, and recent recording for that location.
 
 ## Review location uptime history
 
@@ -40,9 +40,7 @@ Use the status indicators to identify which part of the camera workflow needs at
 - **Retention**: Reflects the 30-day, 60-day, or 90-day subscription tier attached to that storage.
 - **Smart Storage**: Shows the status of alerts and detected objects saved to the cloud in high quality.
 - **Substream**: Supports storage retention and smart storage. If a substream is not configured, then this indicator might not appear. If it is unhealthy or offline, then storage might be affected.
-- **Trained**: Shows the status of the camera's AI optimization cycle.
-
-  The process runs automatically and usually requires no action. An unhealthy status can mean the camera was recently added and is still completing its first training cycle, or that another training cycle is due.
+- **Trained**: Shows the status of the camera's AI optimization cycle. Training runs automatically and usually requires no action. An unhealthy **Trained** status can mean the camera was recently added and is still completing its first cycle, or that another cycle is due.
 
 {% hint style="info" %}
 If the **Trained** indicator stays unhealthy and you are not sure why, then contact your Customer Success Manager.

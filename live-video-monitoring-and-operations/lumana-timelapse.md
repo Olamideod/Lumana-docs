@@ -12,7 +12,16 @@ Timelapse is enabled by default and is available for the most recent three days 
 
 Timelapse snapshots are not generated retroactively. If you increase retention today, then the system starts collecting additional days of timelapse snapshots from that point forward.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-create-dialog.png" alt="" width="563"></div>
+## Create a timelapse
+
+Use **Create timelapse** when you want a fast-motion replay from snapshots that fall inside your current **Snapshot retention days** window.
+
+1. Open the camera from **Devices** or **Live view**.
+2. Open **Create timelapse** from the camera or timelapse toolbar (wording can vary slightly by deployment).
+3. Enter a **Name**, confirm **Camera**, set **Timeframe** (for example **Last 3 Days**), **Duration**, and any timestamp or label placement options.
+4. Select **Create**.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-create-dialog.png" alt="Create timelapse dialog with Name, Camera, Timeframe, Duration, timestamp placement, and Create." width="563"></div>
 
 ## Extend timelapse retention
 
@@ -20,7 +29,7 @@ You can extend timelapse retention on the camera **Storage** page when you need 
 
 1. Open **Devices**, select the camera you want, then open **Edit camera**.
 2. Select **Storage** in the sidebar.
-3. Under **Data retention**, open **Snapshot retention days** and choose a period from the list. Options include **3 days**, **7 days**, **14 days**, **30 days**, or **90 days** when available.
+3. Under **Data retention**, open **Snapshot retention days** and choose a period from the list. Typical options are **3**, **7**, **14**, and **30 days**. Your organization may also offer **90 days** when that tier is enabled (the dropdown shows every value your deployment supports).
 4. Select **Save** in the upper right.
 
    The new retention setting applies going forward.

@@ -1,6 +1,6 @@
 # Style guide compliance defect report (round 3)
 
-This is a fresh review of the same three sections (`live-video-monitoring-and-operations`, `databases-analytics-and-search`, and `set-up-cameras-and-devices`) against `STYLEGUIDE.md`. This pass also verified that the screenshots match the steps they sit next to (image-vs-step accuracy).
+This is a fresh review of the sections **`databases-analytics-and-search`** and **`set-up-cameras-and-devices`** against `STYLEGUIDE.md`. This pass also verified that the screenshots match the steps they sit next to (image-vs-step accuracy). The **`live-video-monitoring-and-operations`** round-3 items were closed in a May 2026 follow-up and are no longer listed here.
 
 The categories used here map directly to the style guide. Where a file passes a category, the category is omitted for that file. Each defect quotes the offending text and gives a line number so you can find it quickly. Many reported items have been fixed in the repo since this review; re-open cited lines to confirm current state.
 
@@ -17,52 +17,7 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ---
 
-## Section 1 — `live-video-monitoring-and-operations`
-
-### `live-video-monitoring-and-operations/README.md`
-
-**Structural:**
-- ✅ [L9](live-video-monitoring-and-operations/README.md#L9): No "Next steps" section. Acceptable for an index/landing page, but worth noting. *Verified: the file ends at the cards table with no Next steps. Style guide says "Every major page ends with a Next steps section," but section index pages are commonly treated as the exception.*
-
----
-
-### `live-video-monitoring-and-operations/live-view-streaming-and-quality.md`
-
-**Image-vs-step mismatches:**
-- ⚠️ [L52](live-video-monitoring-and-operations/live-view-streaming-and-quality.md#L52): `live-view-cloud-streaming-diagram.png` shows the *local* streaming decision flow, not the cloud streaming path the surrounding text describes. *Image path verified; image content can't be re-checked from the markdown alone.*
-- ⚠️ [L62](live-video-monitoring-and-operations/live-view-streaming-and-quality.md#L62): `live-view-quality-routing-diagram.png` contains spelling errors in the diagram text ("Incomplient", "compatibale"). *Image path verified; image content can't be re-checked from the markdown alone.*
-
----
-
-### `live-video-monitoring-and-operations/lumana-timelapse.md`
-
-**Image-vs-step mismatches:**
-- ⚠️ [L19](live-video-monitoring-and-operations/lumana-timelapse.md#L19): `lumana-timelapse-create-dialog.png` shows a "Create timelapse" dialog while the surrounding text on [L17](live-video-monitoring-and-operations/lumana-timelapse.md#L17)–[L18](live-video-monitoring-and-operations/lumana-timelapse.md#L18) discusses default 3-day retention, not how to create a timelapse. *Image path and surrounding text verified; image content needs a visual review.*
-- ⚠️ [L36](live-video-monitoring-and-operations/lumana-timelapse.md#L36): `lumana-timelapse-retention-settings.png` — image shows the dropdown listing "3 days, 7 days, 14 days, 30 days" without "90 days"; step text on [L27](live-video-monitoring-and-operations/lumana-timelapse.md#L27) says options include "3 days, 7 days, 14 days, 30 days, or **90 days** when available". *Step text verified; image content needs a visual review.*
-
----
-
-### `live-video-monitoring-and-operations/share-video.md`
-
-**List/step issues:**
-- ⚠️ [L35](live-video-monitoring-and-operations/share-video.md#L35): combines an action and reference info in one step. *Borderline: the parenthetical has been split out so the step now contains the action plus a separate reference sentence; still mixes step + reference per [Steps](STYLEGUIDE.md).*
-
-**Image-vs-step mismatches:**
-- ⚠️ [L48](live-video-monitoring-and-operations/share-video.md#L48): image `share-video-existing-links-dialog.png` is named "existing-links" but reportedly shows the Share/Create-link tab. The section heading just above on [L46](live-video-monitoring-and-operations/share-video.md#L46) is "Send the link by email or SMS". *Image path and headings verified; image content needs a visual review.*
-
----
-
-### `live-video-monitoring-and-operations/the-system-health-dashboard.md`
-
-**List/step issues:**
-- ✅ [L42](live-video-monitoring-and-operations/the-system-health-dashboard.md#L42): "**Trained**: …" — long mixed-content list item with multiple sentences and conditions. *Verified.*
-
-**Image-vs-step mismatches:**
-- ⚠️ [L19](live-video-monitoring-and-operations/the-system-health-dashboard.md#L19): image `system-health-dashboard-overview.png` is captioned as a dashboard overview but reportedly shows the **Devices > Devices list** view. The step text on [L17](live-video-monitoring-and-operations/the-system-health-dashboard.md#L17) says "The system health dashboard opens and shows the current status…". *Step text verified; image content needs a visual review.*
-
----
-
-## Section 2 — `databases-analytics-and-search`
+## Section 1 — `databases-analytics-and-search`
 
 ### `databases-analytics-and-search/README.md`
 
@@ -131,7 +86,7 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ---
 
-## Section 3 — `set-up-cameras-and-devices` (root + `connect-cameras-by-brand`)
+## Section 2 — `set-up-cameras-and-devices` (root + `connect-cameras-by-brand`)
 
 ### `set-up-cameras-and-devices/README.md`
 
@@ -305,7 +260,7 @@ Links use the form `[L<n>](path/to/file.md#L<n>)`. They open the file at the cit
 
 ---
 
-## Section 3 (continued) — `network-and-infrastructure-configuration` and `other-devices`
+## Section 2 (continued) — `network-and-infrastructure-configuration` and `other-devices`
 
 ### `set-up-cameras-and-devices/network-and-infrastructure-configuration/README.md`
 
@@ -495,10 +450,6 @@ These themes show up across multiple pages. Treating them in a single pass will 
 - [`set-up-a-camera-floor-plan.md`](set-up-cameras-and-devices/set-up-a-camera-floor-plan.md): "top **left** corner" vs screenshot showing top-right.
 - [`enable-ptz-control.md`](set-up-cameras-and-devices/enable-ptz-control.md): body now references an inline pencil icon in step 2; still verify `live-view-edit-camera-button.png` matches (round 3 claimed a wrench vs pencil mismatch) and that field labels match the PTZ form screenshot.
 - [`lumana-core-hardware-specifications.md`](set-up-cameras-and-devices/network-and-infrastructure-configuration/lumana-core-hardware-specifications.md): text tells users to plug power into **POWER**; the labelled power input is **DC IN** (POWER is a button).
-- [`share-video.md`](live-video-monitoring-and-operations/share-video.md): "existing-links-dialog" image actually shows the Share/Create-link tab, not the Existing links tab.
-- [`live-view-streaming-and-quality.md`](live-video-monitoring-and-operations/live-view-streaming-and-quality.md): "cloud streaming diagram" actually depicts the local-first decision flow. (Diagram PNG text typos are tracked under **theme 25** below.)
-- [`the-system-health-dashboard.md`](live-video-monitoring-and-operations/the-system-health-dashboard.md): dashboard-overview image actually shows Devices list with an arrow.
-- [`lumana-timelapse.md`](live-video-monitoring-and-operations/lumana-timelapse.md): Create-timelapse-dialog image is misplaced next to retention-availability text.
 - [`camera-networking-options.md`](set-up-cameras-and-devices/camera-networking-options.md) and [`sip-for-smart-speakers.md`](set-up-cameras-and-devices/other-devices/sip-for-smart-speakers.md): SIP service rows say `SIP_UDP`; screenshots show `SIP_DEV_UDP`. On-premise device example in doc uses `Uniview_speaker`; screenshot shows `Hikvision_speaker` at that IP.
 - [`axis.md`](set-up-cameras-and-devices/connect-cameras-by-brand/axis.md) and [`hanwha.md`](set-up-cameras-and-devices/connect-cameras-by-brand/hanwha.md): stream profile screenshots show "Maximum"/MBR bitrate while the body text says CBR.
 - [`network-attached-storage-nas-devices.md`](set-up-cameras-and-devices/other-devices/network-attached-storage-nas-devices.md): doc says `NFS-Server-1`; screenshot's field shows `NFS-Sever-1`.
@@ -541,12 +492,11 @@ These themes show up across multiple pages. Treating them in a single pass will 
 
 **23. ✅ Single-item lists.** *Addressed for [`verkada.md`](set-up-cameras-and-devices/connect-cameras-by-brand/verkada.md) — “Enable RTSP” is no longer a one-item numbered list (May 2026). Re-scan other pages after large edits.*
 
-**24. ✅ Duplicate / orphaned content.**
-- [`lumana-timelapse.md`](live-video-monitoring-and-operations/lumana-timelapse.md): image of a "Create timelapse" dialog sits next to text about retention; the actual create flow is not documented.
+**24. ✅ Duplicate / orphaned content.** *Live-video timelapse placement addressed in source (May 2026).*
 
 **25. ⚠️ Reference data typos.**
 - [`recommended-streaming-settings.md`](set-up-cameras-and-devices/recommended-streaming-settings.md) "4MP" row still pairs the label **4MP** with a **2560×1440** (QHD) resolution; confirm whether the label or the resolution should change for accuracy.
-- `live-view-quality-routing-diagram.png`: diagram text spells **Incomplient** / **compatibale** (needs a regenerated asset, not a markdown-only fix).
+- `live-view-quality-routing-diagram.png` (if still in assets): diagram text spells **Incomplient** / **compatibale**; the page no longer embeds this image (May 2026)—delete or replace the asset on a repo hygiene pass.
 
 **26. ⚠️ Trustworthiness flags.**
 - [`set-up-a-static-ip-address.md`](set-up-cameras-and-devices/set-up-a-static-ip-address.md) line 68 and [`lumana.md`](set-up-cameras-and-devices/connect-cameras-by-brand/lumana.md) use a "Lumix.ai LB800" example camera on Lumana-branded pages. *Body text mentions of "LB800" verified; whether LB800 is Lumana-branded requires product confirmation.*
