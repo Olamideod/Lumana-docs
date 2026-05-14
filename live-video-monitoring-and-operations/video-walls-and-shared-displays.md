@@ -26,13 +26,13 @@ Use the **Walls** page to open existing walls and make changes to saved layouts.
 
    The wall list shows the walls available in your organization.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-walls-list.png" alt="Walls list and quick live view button." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-walls-list.png" alt="Walls page: search field, Cameras Type and Tags filters, Quick live view and Create wall buttons, and table of walls with name, type, tiles, created time, mobile, video wall, and tags columns." width="563"></div>
 
 2. Select a wall to open it.
 
    A wall can show multiple live camera tiles, alert tiles, or both in the same layout.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-example.png" alt="Video wall with camera and alert tiles." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/video-wall-example.png" alt="Video wall Archives: 2x2 live grid with four tiles (Camera 1, Gun, PPE, fedex), Walls and Archives breadcrumbs, Live view selected, and toolbar controls." width="563"></div>
 
 3. Hover over the wall you want to change and select the pencil icon.
 

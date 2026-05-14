@@ -16,12 +16,18 @@ Timelapse snapshots are not generated retroactively. If you increase retention t
 
 Use **Create timelapse** when you want a fast-motion replay from snapshots that fall inside your current **Snapshot retention days** window.
 
-1. Open the camera from **Devices** or **Live view**.
-2. Open **Create timelapse** from the camera or timelapse toolbar (wording can vary slightly by deployment).
-3. Enter a **Name**, confirm **Camera**, set **Timeframe** (for example **Last 3 Days**), **Duration**, and any timestamp or label placement options.
+1. Open **Archives**.
+
+   Select the **Archives** icon in the left sidebar.
+
+2. Select **Create timelapse** in the upper right.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/archives-create-timelapse.png" alt="Archives page: sidebar with Archives selected, search and filter controls, archives table, and Create timelapse and Create archive in the upper right." width="563"></div>
+
+3. Enter a **Name**, select **Camera**, set **Timeframe** (for example **Last 3 Days**), **Duration**, and placement for **Timestamp location** and **Camera name and location**. Optionally set **Add to case**.
 4. Select **Create**.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-create-dialog.png" alt="Create timelapse dialog with Name, Camera, Timeframe, Duration, timestamp placement, and Create." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/live-video-monitoring-and-operations/lumana-timelapse-create-dialog.png" alt="Create timelapse dialog with Name, Camera, Timeframe, Duration, Timestamp location, Camera name and location, Add to case, Cancel, and Create." width="563"></div>
 
 ## Extend timelapse retention
 
