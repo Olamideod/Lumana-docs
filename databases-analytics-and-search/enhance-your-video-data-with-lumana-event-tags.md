@@ -16,11 +16,16 @@ Lumana authenticates POST requests with API keys and your organization ID. Send 
 
 1. Open **Organization**, then **Organization settings**.
 2. In the left menu, select **API keys**.
-3. Select **Generate Key**. The **Create API Key** dialog opens.
-4. Enter an **API Key name** and an **Expiration** value. The dialog shows the generated secret; copy it or use download if you prefer. You will not see the full key again after you complete the dialog.
-5. Select **Create** to finish.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-create-api-key-modal.png" alt="" width="563"></div>
+   The **API keys** page lists existing keys with **Status**, **Created**, and **Expires**. Use **Generate Key** when you need a new key.
+
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-create-api-key-modal.png" alt="" width="563"></div>
+
+3. Select **Generate Key**. The **Create API Key** dialog opens.
+4. Enter an **API Key name** and an **Expiration** value. The dialog shows the generated secret; copy it or use download if you prefer. You will not see the full key again after you close the dialog.
+5. Select **Done** to finish.
+
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-create-api-key-dialog.png" alt="" width="375"></div>
 
 {% hint style="warning" %}
 Keep your API key secret. Anyone who has it can post events to your organization until it expires or you revoke it.
@@ -39,7 +44,7 @@ An event tag is a template for events you will POST. It has a display name, a **
 2. Select **Create event tag** when you need a new definition.
 3. Select a tag in the list when you need to edit an existing definition.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-database-list.png" alt="Event tags list in Database with Create event tag and saved definitions." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-database-list.png" alt="" width="563"></div>
 
 ### Fill in the tag
 
@@ -184,8 +189,13 @@ For more detail on rule fields, see [Event tag alert](../alerts-and-ai-detection
 
 ## Chart event tags on a dashboard
 
-1. Select the **Dashboards** icon <img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-sidebar-icon.png" alt="Dashboards icon in the sidebar." data-size="line"> in the sidebar.
+1. Select the **Dashboards** icon <img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-sidebar-icon.png" alt="" data-size="line"> in the sidebar.
 2. Create a dashboard or open an existing one to edit.
+
+   The **Dashboards** page lists saved dashboards, **Search dashboards**, and **Create dashboard**. Open a row to edit, or create a new dashboard when you need a fresh layout.
+
+   <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboards-list.png" alt="" width="563"></div>
+
 3. Select **Add widget**, then select **Chart or table** from the menu.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-add-widget-menu.png" alt="" width="375"></div>
@@ -198,6 +208,10 @@ For more detail on rule fields, see [Event tag alert](../alerts-and-ai-detection
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-chart-widget.png" alt="" width="563"></div>
 
 Full axis and filter behavior, including drill-in, is described in [Chart or table](../dashboards/widgets/chart-or-table/README.md).
+
+After you select **Add**, the chart widget appears on the dashboard grid. You can rename **Untitled dashboard**, add more widgets, then finish with **Create dashboard** when you want to keep the board.
+
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-dashboard-editor-with-chart.png" alt="" width="563"></div>
 
 ## Retention and storage
 
