@@ -20,7 +20,7 @@ Lumana authenticates POST requests with API keys and your organization ID. Send 
 4. Enter an **API Key name** and an **Expiration** value. The dialog shows the generated secret; copy it or use download if you prefer. You will not see the full key again after you complete the dialog.
 5. Select **Create** to finish.
 
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-create-api-key-modal.png" alt="Create API Key dialog with name, expiration, generated secret, and Create button." width="563"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/databases-analytics-and-search/event-tag-create-api-key-modal.png" alt="" width="563"></div>
 
 {% hint style="warning" %}
 Keep your API key secret. Anyone who has it can post events to your organization until it expires or you revoke it.
